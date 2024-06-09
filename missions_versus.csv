@@ -1,0 +1,1492 @@
+﻿Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9;Column10;Column11;Column12;Column13;Column14;Column15;Column16;Column17;Column18;Column19;Column20;Column21;Column22;Column23
+<ID|readonly|noverify>;<English>;<French>;<Italian>;;;;;;;;;;;;;;;;;;;
+missions/enemy_bombers_spawn;Enemy bombers;Enemy bombers;same;;;;;;;;;;;;;;;;;;;
+missions/friendly_bombers_spawn;Allied bombers;Allied bombers;same;;;;;;;;;;;;;;;;;;;
+missions/wide_air_spawn;Wide spawn;Air point;trim;;;;;;;;;;;;;;;;;;;
+missions/air_spawn;Air point;Air point;same;;;;;;;;;;;;;;;;;;;
+missions/air_spawn_0;Air point 0;Air point;trim;;;;;;;;;;;;;;;;;;;
+missions/air_spawn1;Air point 1;Air point 1;same;;;;;;;;;;;;;;;;;;;
+missions/air_spawn2;Air point 2;Air point 2;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_random;Random point;Random point;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_destroyers_random;Random point;Random point;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_cruisers_random;Random point;Random point;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_number;Spawn point #{number};Spawn point #{number};same;;;;;;;;;;;;;;;;;;;
+missions/spawn;Spawn point;Spawn point;same;;;;;;;;;;;;;;;;;;;
+missions/auto_spawn;Auto ({spawn});Auto ({spawn});same;;;;;;;;;;;;;;;;;;;
+missions/spawn_01;Spawn point #1;Spawn point #1;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_02;Spawn point #2;Spawn point #2;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_03;Spawn point #3;Spawn point #3;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_04;Spawn point #4;Spawn point #4;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_05;Spawn point #5;Spawn point #5;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_06;Spawn point #6;Spawn point #6;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_destroyers_01;Light fleet #1;Light fleet #1;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_destroyers_02;Light fleet #2;Light fleet #2;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_destroyers_03;Light fleet #3;Light fleet #3;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_destroyers_04;Light fleet #4;Light fleet #4;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_cruisers_01;Heavy fleet #1;Heavy fleet #1;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_cruisers_02;Heavy fleet #2;Heavy fleet #2;same;;;;;;;;;;;;;;;;;;;
+missions/spawn_cruisers_03;Heavy fleet #3;Heavy fleet #3;same;;;;;;;;;;;;;;;;;;;
+missions/carriers_spawn;Carrier fleet;Carrier fleet;same;;;;;;;;;;;;;;;;;;;
+missions/random_airfield_spawn;Random airfield;Random airfield;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn;Airfield;Airfield;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn1;Airfield 1;Airfield 1;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn2;Airfield 2;Airfield 2;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn3;Airfield 3;Airfield 3;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn4;Airfield 4;Airfield 4;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn5;Airfield 5;Airfield 5;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn6;Airfield 6;Airfield 6;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn7;Airfield 7;Airfield 7;same;;;;;;;;;;;;;;;;;;;
+missions/airfield_spawn8;Airfield 8;Airfield 8;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn_random;Random Helipad;Random Helipad;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn;Helipad;Helipad;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn1;Helipad 1;Helipad 1;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn2;Helipad 2;Helipad 2;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn3;Helipad 3;Helipad 3;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn4;Helipad 4;Helipad 4;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn5;Helipad 5;Helipad 5;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn6;Helipad 6;Helipad 6;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn7;Helipad 7;Helipad 7;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn8;Helipad 8;Helipad 8;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn9;Helipad 9;Helipad 9;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn10;Helipad 10;Helipad 10;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn11;Helipad 11;Helipad 11;same;;;;;;;;;;;;;;;;;;;
+missions/helipad_spawn12;Helipad 12;Helipad 12;same;;;;;;;;;;;;;;;;;;;
+missions/ucav_spawn1;UCAV point 1;UCAV point 1;same;;;;;;;;;;;;;;;;;;;
+missions/ucav_spawn2;UCAV point 2;UCAV point 2;same;;;;;;;;;;;;;;;;;;;
+missions/ground_spawn_north;Northern point;Northern point;same;;;;;;;;;;;;;;;;;;;
+missions/ground_spawn_south;Southern point;Southern point;same;;;;;;;;;;;;;;;;;;;
+missions/ground_spawn_east;Eastern point;Eastern point;same;;;;;;;;;;;;;;;;;;;
+missions/ground_spawn_west;Western point;Western point;same;;;;;;;;;;;;;;;;;;;
+missions/empty_spawn;MT;;trim;;;;;;;;;;;;;;;;;;;
+missions/fighters_spawn;Fighters;Fighters;same;;;;;;;;;;;;;;;;;;;
+missions/assaults_spawn;Strike aircraft;Strike aircraft;same;;;;;;;;;;;;;;;;;;;
+missions/bombers_spawn;Bombers;Bombers;same;;;;;;;;;;;;;;;;;;;
+missions/low_spawn;Low point;Low point;same;;;;;;;;;;;;;;;;;;;
+missions/high_spawn;High point;High point;same;;;;;;;;;;;;;;;;;;;
+missions/far_airfield_spawn;Distant airfield;Distant airfield;same;;;;;;;;;;;;;;;;;;;
+missions/middle_airfield_spawn1;Airfield 1;Airfield 1;same;;;;;;;;;;;;;;;;;;;
+missions/middle_airfield_spawn2;Airfield 2;Airfield 2;same;;;;;;;;;;;;;;;;;;;
+missions/near_airfield_spawn;Front-line airfield;Front-line airfield;same;;;;;;;;;;;;;;;;;;;
+missions/gladiators_air_1x1;[Tournament] Gladiators 1x1 -;[Tournament] Gladiators 1x1 -;same;;;;;;;;;;;;;;;;;;;
+missions/gladiators_air_2x2;[Tournament] Gladiators 2x2 -;[Tournament] Gladiators 2x2 -;same;;;;;;;;;;;;;;;;;;;
+missions/gladiators_air_2x2_jet;[Tournament] Gladiators 2x2 Jets -;[Tournament] Gladiators 2x2 Jets -;same;;;;;;;;;;;;;;;;;;;
+missions/gladiators_air_4x4;[Tournament] Gladiators 4x4 -;[Tournament] Gladiators 4x4 -;same;;;;;;;;;;;;;;;;;;;
+missions/gladiators_air_1x1/desc;"The teams fight each other in tournament mode
+
+- The battle consists of a few rounds: the first to attain two victories, wins the duel.
+- A victory in each round is gained after capturing the air zone ╷.";"The teams fight each other in tournament mode
+
+- The battle consists of a few rounds: the first to attain two victories, wins the duel.
+- A victory in each round is gained after capturing the air zone ╷.";same;;;;;;;;;;;;;;;;;;;
+missions/gladiators_air_2x2/desc;"The teams fight each other in tournament mode
+
+- The battle consists of a few rounds: the first to attain two victories, wins the duel.
+- A victory in each round is gained after capturing the air zone ╷.";"The teams fight each other in tournament mode
+
+- The battle consists of a few rounds: the first to attain two victories, wins the duel.
+- A victory in each round is gained after capturing the air zone ╷.";same;;;;;;;;;;;;;;;;;;;
+missions/gladiators_air_4x4/desc;"The teams fight each other in tournament mode
+
+- The battle consists of four rounds: single, double, group and an additional group round.
+- Armament is activated by timer.
+- The victory in a local battle is gained after capturing the air zone ╷.
+- The victory in a round depends on the amount of captured zones ╷. The victory in the first round brings you 1000 points, then 2000 points in the second, 3000 points in the third, and 3000 points in the additional round.
+- The fourth round is played if the teams have the same score in the third round final.
+- The fourth round is randomly selected from the three modes (1x1 2x4 or 4x4).";"The teams fight each other in tournament mode
+
+- The battle consists of four rounds: single, double, group and an additional group round.
+- Armament is activated by timer.
+- The victory in a local battle is gained after capturing the air zone ╷.
+- The victory in a round depends on the amount of captured zones ╷. The victory in the first round brings you 1000 points, then 2000 points in the second, 3000 points in the third, and 3000 points in the additional round.
+- The fourth round is played if the teams have the same score in the third round final.
+- The fourth round is randomly selected from the three modes (1x1 2x4 or 4x4).";same;;;;;;;;;;;;;;;;;;;
+missions/_Dom;[Domination];[Domination];same;;;;;;;;;;;;;;;;;;;
+missions/_Dom1;[Domination #1];[Domination #1];same;;;;;;;;;;;;;;;;;;;
+missions/_Dom2;[Domination #2];[Domination #2];same;;;;;;;;;;;;;;;;;;;
+missions/_Dom3;[Domination #3];[Domination #3];same;;;;;;;;;;;;;;;;;;;
+missions/_Dom/desc;"
+
+In [Domination] mode teams fight for control over three strategic points in the location.
+
+Ground forces objectives:
+- Capture and keep the advantage in points captured ╸,╹,╺";"
+
+In [Domination] mode teams fight for control over three strategic points in the location.
+
+Ground forces objectives:
+- Capture and keep the advantage in points captured ╸,╹,╺";same;;;;;;;;;;;;;;;;;;;
+missions/_Conq;[Conquest];[Conquest];same;;;;;;;;;;;;;;;;;;;
+missions/_Conq/desc;"
+
+In [Conquest] mode teams fight for control over one strategic point.
+
+Ground forces objectives:
+- Capture and hold the point ╸";"
+
+In [Conquest] mode teams fight for control over one strategic point.
+
+Ground forces objectives:
+- Capture and hold the point ╸";same;;;;;;;;;;;;;;;;;;;
+missions/_Bttl;[Battle];[Battle];same;;;;;;;;;;;;;;;;;;;
+missions/_Bttl1;[Battle #1];[Battle #1];same;;;;;;;;;;;;;;;;;;;
+missions/_Bttl2;[Battle #2];[Battle #2];same;;;;;;;;;;;;;;;;;;;
+missions/_Bttl3;[Battle #3];[Battle #3];same;;;;;;;;;;;;;;;;;;;
+missions/_Bttl/desc;"
+
+In [Battle] mode, each of the teams begins with one strategic point captured. If one of the teams manages to re-capture another team's point, it wins instantly.
+
+Ground forces objectives:
+- Capture the enemy point <color=@teamRedColor>╶</color>
+- Prevent the capture of the allied point <color=@teamBlueColor>╶</color>";"
+
+In [Battle] mode, each of the teams begins with one strategic point captured. If one of the teams manages to re-capture another team's point, it wins instantly.
+
+Ground forces objectives:
+- Capture the enemy point <color=@teamRedColor>╶</color>
+- Prevent the capture of the allied point <color=@teamBlueColor>╶</color>";same;;;;;;;;;;;;;;;;;;;
+missions/_CnvA;[Column #1];[Column #1];same;;;;;;;;;;;;;;;;;;;
+missions/_CnvA/defensive;[Column #1];[Column #1];same;;;;;;;;;;;;;;;;;;;
+missions/_CnvA/offensive;[Column Interception #1];[Column Interception #1];same;;;;;;;;;;;;;;;;;;;
+missions/_CnvB;[Column #2];[Column #2];same;;;;;;;;;;;;;;;;;;;
+missions/_CnvB/defensive;[Column #2];[Column #2];same;;;;;;;;;;;;;;;;;;;
+missions/_CnvB/offensive;[Column Interception #2];[Column Interception #2];same;;;;;;;;;;;;;;;;;;;
+missions/_Cnv/desc;"
+
+In [Column] mode, one of the teams defends a vehicle convoy from another team's attacks.
+
+Defenders' objectives:
+- Defend the vehicle convoy
+
+Attackers' objectives:
+- Destroy the enemy vehicle convoy";"
+
+In [Column] mode, one of the teams defends a vehicle convoy from another team's attacks.
+
+Defenders' objectives:
+- Defend the vehicle convoy
+
+Attackers' objectives:
+- Destroy the enemy vehicle convoy";same;;;;;;;;;;;;;;;;;;;
+missions/_Cnv/desc/defensive;"Our column is being attacked by enemy aircraft.
+
+Mission objective:
+- Cover the column of allied vehicles before it leaves the combat area";"Our column is being attacked by enemy aircraft.
+
+Mission objective:
+- Cover the column of allied vehicles before it leaves the combat area";same;;;;;;;;;;;;;;;;;;;
+missions/_Cnv/desc/offensive;"We have attacked an enemy column from the air.
+
+Mission objective:
+- Destroy the enemy column before it leaves the combat area";"We have attacked an enemy column from the air.
+
+Mission objective:
+- Destroy the enemy column before it leaves the combat area";same;;;;;;;;;;;;;;;;;;;
+missions/_GCnvA;[Column #1];[Column #1];same;;;;;;;;;;;;;;;;;;;
+missions/_GCnvA/defensive;[Column #1];[Column #1];same;;;;;;;;;;;;;;;;;;;
+missions/_GCnvA/offensive;[Column Interception #1];[Column Interception #1];same;;;;;;;;;;;;;;;;;;;
+missions/_GCnvB;[Column #2];[Column #2];same;;;;;;;;;;;;;;;;;;;
+missions/_GCnvB/defensive;[Column #2];[Column #2];same;;;;;;;;;;;;;;;;;;;
+missions/_GCnvB/offensive;[Column Interception #2];[Column Interception #2];same;;;;;;;;;;;;;;;;;;;
+missions/_GCnv/desc;"
+
+In [Column] mode, one of the teams defends a vehicle convoy from another team's attacks.
+
+Defenders' objectives:
+- Defend the vehicle convoy
+
+Attackers' objectives:
+- Destroy the enemy vehicle convoy";"
+
+In [Column] mode, one of the teams defends a vehicle convoy from another team's attacks.
+
+Defenders' objectives:
+- Defend the vehicle convoy
+
+Attackers' objectives:
+- Destroy the enemy vehicle convoy";same;;;;;;;;;;;;;;;;;;;
+missions/_GCnv/desc/defensive;"Our column is being attacked by enemy armored vehicles.
+
+Mission objective:
+- Cover the column of allied vehicles before it leaves the combat area";"Our column is being attacked by enemy armored vehicles.
+
+Mission objective:
+- Cover the column of allied vehicles before it leaves the combat area";same;;;;;;;;;;;;;;;;;;;
+missions/_GCnv/desc/offensive;"We have attacked an enemy convoy.
+
+Mission objective:
+- Destroy the enemy convoy before it leaves the affected area";"We have attacked an enemy convoy.
+
+Mission objective:
+- Destroy the enemy convoy before it leaves the affected area";same;;;;;;;;;;;;;;;;;;;
+missions/_DBttlA;[Defence #1];[Defence #1];same;;;;;;;;;;;;;;;;;;;
+missions/_DBttlA/defensive;[Defence #1];[Defence #1];same;;;;;;;;;;;;;;;;;;;
+missions/_DBttlA/offensive;[Advance to Contact #1];[Advance to Contact #1];same;;;;;;;;;;;;;;;;;;;
+missions/_DBttlB;[Defence #2];[Defence #2];same;;;;;;;;;;;;;;;;;;;
+missions/_DBttlB/defensive;[Defence #2];[Defence #2];same;;;;;;;;;;;;;;;;;;;
+missions/_DBttlB/offensive;[Advance to Contact #2];[Advance to Contact #2];same;;;;;;;;;;;;;;;;;;;
+missions/_DBttl/desc;"
+
+In [Defense] mode, only one of the teams starts with a strategic point. If the enemy team captures this point, it wins instantly.
+
+Defenders' objectives:
+- Prevent the capture of the allied point <color=@teamBlueColor>╶</color>
+
+Attackers' objectives:
+- Capture the enemy point <color=@teamRedColor>╶</color>";"
+
+In [Defense] mode, only one of the teams starts with a strategic point. If the enemy team captures this point, it wins instantly.
+
+Defenders' objectives:
+- Prevent the capture of the allied point <color=@teamBlueColor>╶</color>
+
+Attackers' objectives:
+- Capture the enemy point <color=@teamRedColor>╶</color>";same;;;;;;;;;;;;;;;;;;;
+missions/_DBttl/desc/defensive;"Enemy armored forces are preparing to storm our fortifications.
+
+Mission objective:
+- Stop the enemy break through and capture the key position <color=@teamBlueColor>╸</color>";"Enemy armored forces are preparing to storm our fortifications.
+
+Mission objective:
+- Stop the enemy break through and capture the key position <color=@teamBlueColor>╸</color>";same;;;;;;;;;;;;;;;;;;;
+missions/_DBttl/desc/offensive;"We have begun an assault on enemy fortifications.
+
+Mission objective:
+- Capture the enemy's key position in the zone <color=@teamRedColor>╸</color> within the allotted time";"We have begun an assault on enemy fortifications.
+
+Mission objective:
+- Capture the enemy's key position in the zone <color=@teamRedColor>╸</color> within the allotted time";same;;;;;;;;;;;;;;;;;;;
+missions/_ADBttlA;[AA Defence #1];[AA Defence #1];same;;;;;;;;;;;;;;;;;;;
+missions/_aadefa/defensive;[AA Defence #1];[AA Defence #1];same;;;;;;;;;;;;;;;;;;;
+missions/_aadefa/offensive;[Air Raid #1];[Air Raid #1];same;;;;;;;;;;;;;;;;;;;
+missions/_ADBttlB;[AA Defence #2];[AA Defence #2];same;;;;;;;;;;;;;;;;;;;
+missions/_aadefb/defensive;[AA Defence #2];[AA Defence #2];same;;;;;;;;;;;;;;;;;;;
+missions/_aadefb/offensive;[Air Raid #2];[Air Raid #2];same;;;;;;;;;;;;;;;;;;;
+missions/_ADBttl/desc;"
+
+In [AA Defence] mode, one of the teams protects an allied defensive line from the enemy's aerial attacks.
+
+Defenders' objectives:
+- Protect the allied defensive positions and vehicles
+
+Attackers' objectives:
+- Destroy enemy defensive positions and vehicles";"
+
+In [AA Defence] mode, one of the teams protects an allied defensive line from the enemy's aerial attacks.
+
+Defenders' objectives:
+- Protect the allied defensive positions and vehicles
+
+Attackers' objectives:
+- Destroy enemy defensive positions and vehicles";same;;;;;;;;;;;;;;;;;;;
+missions/_aadef/desc/defensive;"Our fortified area is being attacked from the air.
+
+Mission objective:
+- Defend the allied vehicles from enemy aircraft";"Our fortified area is being attacked from the air.
+
+Mission objective:
+- Defend the allied vehicles from enemy aircraft";same;;;;;;;;;;;;;;;;;;;
+missions/_aadef/desc/offensive;"We have attacked the enemy fortified area from the air.
+
+Mission objective:
+- Destroy enemy vehicles within the allotted time";"We have attacked the enemy fortified area from the air.
+
+Mission objective:
+- Destroy enemy vehicles within the allotted time";same;;;;;;;;;;;;;;;;;;;
+missions/_Bto;[Break];[Break];same;;;;;;;;;;;;;;;;;;;
+missions/_Bto/desc;"
+
+In [Break] mode, each of the teams starts with one strategic point captured. Recapture of the other team's point opens access to the next strategic points. Capture of the last point on enemy territory hands a victory to the team.
+
+Ground forces objectives:
+- Capture successively all the enemy zones <color=@teamRedColor>╶</color>
+- Prevent the capture of the allied zones <color=@teamBlueColor>╶</color>";"
+
+In [Break] mode, each of the teams starts with one strategic point captured. Recapture of the other team's point opens access to the next strategic points. Capture of the last point on enemy territory hands a victory to the team.
+
+Ground forces objectives:
+- Capture successively all the enemy zones <color=@teamRedColor>╶</color>
+- Prevent the capture of the allied zones <color=@teamBlueColor>╶</color>";same;;;;;;;;;;;;;;;;;;;
+missions/random;Random;Random;same;;;;;;;;;;;;;;;;;;;
+missions/_v1_race_straight;[#1];[#1];same;;;;;;;;;;;;;;;;;;;
+missions/_v1_race_inverted;[Reversed #1];[Reversed #1];same;;;;;;;;;;;;;;;;;;;
+missions/_v2_race_straight;[#2];[#2];same;;;;;;;;;;;;;;;;;;;
+missions/_v2_race_inverted;[Reversed #2];[Reversed #2];same;;;;;;;;;;;;;;;;;;;
+missions/_v1_race_straight/desc;Track 1, default;Track 1, default;same;;;;;;;;;;;;;;;;;;;
+missions/_v1_race_inverted/desc;Track 1, reversed;Track 1, reversed;same;;;;;;;;;;;;;;;;;;;
+missions/_v2_race_straight/desc;Track 2, default;Track 2, default;same;;;;;;;;;;;;;;;;;;;
+missions/_v2_race_inverted/desc;Track 2, reversed;Track 2, reversed;same;;;;;;;;;;;;;;;;;;;
+missions/BR;[Battle Royale];[Battle Royale];same;;;;;;;;;;;;;;;;;;;
+missions/BR/desc;"Battle Royale is a variation of the ""free for all"" game mode. There are no respawns available in ""Battle Royale"", and the battle area shrinks over time.
+There can be only one!";"Battle Royale is a variation of the ""free for all"" game mode. There are no respawns available in ""Battle Royale"", and the battle area shrinks over time.
+There can be only one!";same;;;;;;;;;;;;;;;;;;;
+missions/_Conq1;[Conquest #1];[Conquest #1];same;;;;;;;;;;;;;;;;;;;
+missions/_Conq2;[Conquest #2];[Conquest #2];same;;;;;;;;;;;;;;;;;;;
+missions/_Conq3;[Conquest #3];[Conquest #3];same;;;;;;;;;;;;;;;;;;;
+missions/_Conq4;[Conquest #4];[Conquest #4];same;;;;;;;;;;;;;;;;;;;
+missions/_Conq5;[Conquest #5];[Conquest #5];same;;;;;;;;;;;;;;;;;;;
+missions/_Conq6;[Conquest #6];[Conquest #6];same;;;;;;;;;;;;;;;;;;;
+missions/jets_AD;[Tournament — Air Domination];[Tournament — Air Domination];same;;;;;;;;;;;;;;;;;;;
+missions/jets_AD/desc;Battle task for each team is to destroy more aircraft than the enemy team, gain air superiority and cap the air points over the battlefield.;Battle task for each team is to destroy more aircraft than the enemy team, gain air superiority and cap the air points over the battlefield.;same;;;;;;;;;;;;;;;;;;;
+missions/_AD;[Air Domination];[Air Domination];same;;;;;;;;;;;;;;;;;;;
+missions/_AD/desc;"In Air Domination, the main goal is to capture and hold the air zone. When one of the teams captures the zone, the opposing team begins to lose its points. The team will lose when it runs out of points.
+
+Mission objectives:
+- Capture and maintain the superiority over the air zone ╼ ";"In Air Domination, the main goal is to capture and hold the air zone. When one of the teams captures the zone, the opposing team begins to lose its points. The team will lose when it runs out of points.
+
+Mission objectives:
+- Capture and maintain the superiority over the air zone ╼ ";same;;;;;;;;;;;;;;;;;;;
+missions/_AfD;[Domination];[Domination];same;;;;;;;;;;;;;;;;;;;
+missions/_AfD/main/desc;In Airfields Domination, the main goal is to capture and hold the ground zone. When one of the teams captures the zone, the opposing team begins to lose its points. The team will lose when it runs out of points.;In Airfields Domination, the main goal is to capture and hold the ground zone. When one of the teams captures the zone, the opposing team begins to lose its points. The team will lose when it runs out of points.;same;;;;;;;;;;;;;;;;;;;
+missions/_AfDto/main/desc;In Airfield Domination (Take off), the main goal is to capture and hold the ground zone. When one of the teams captures the zone, the opposing team begins to lose its points. The team will lose when it runs out of points.;In Airfield Domination (Take off), the main goal is to capture and hold the ground zone. When one of the teams captures the zone, the opposing team begins to lose its points. The team will lose when it runs out of points.;same;;;;;;;;;;;;;;;;;;;
+missions/_AfD/with_ground;Ground units can also capture the zone.;Ground units can also capture the zone.;same;;;;;;;;;;;;;;;;;;;
+missions/_AfD/1zone;"
+
+Mission objectives:
+- Capture and hold the airfield ╸";"
+
+Mission objectives:
+- Capture and hold the airfield ╸";same;;;;;;;;;;;;;;;;;;;
+missions/_aconq/desc;"
+
+Mission objectives:
+- Capture and hold the airfield
+- Capture and maintain the superiority over the air zone";"
+
+Mission objectives:
+- Capture and hold the airfield
+- Capture and maintain the superiority over the air zone";same;;;;;;;;;;;;;;;;;;;
+missions/_AfD/2zones;"
+
+Mission objectives:
+- Capture and keep the advantage by airfields captured ╸,╹";"
+
+Mission objectives:
+- Capture and keep the advantage by airfields captured ╸,╹";same;;;;;;;;;;;;;;;;;;;
+missions/_AfD/3zones;"
+
+Mission objectives:
+- Capture and keep the advantage by airfields captured ╸,╹,╺";"
+
+Mission objectives:
+- Capture and keep the advantage by airfields captured ╸,╹,╺";same;;;;;;;;;;;;;;;;;;;
+missions/_GS/light_tank;[Ground Strike ⋢];[Ground Strike ⋢];same;;;;;;;;;;;;;;;;;;;
+missions/_GS/medium_tank;[Ground Strike ⋤];[Ground Strike ⋤];same;;;;;;;;;;;;;;;;;;;
+missions/_GS/medium_tank_ship;[Ground Strike ⋤/⋩];[Ground Strike ⋤/⋩];same;;;;;;;;;;;;;;;;;;;
+missions/_GS/heavy_tank;[Ground Strike ⋣];[Ground Strike ⋣];same;;;;;;;;;;;;;;;;;;;
+missions/_GS/heavy_tank_ship;[Ground Strike ⋣/⋩];[Ground Strike ⋣/⋩];same;;;;;;;;;;;;;;;;;;;
+missions/_GS/ship;[Ground Strike ⋩];[Ground Strike ⋩];same;;;;;;;;;;;;;;;;;;;
+missions/_GS/desc;In [Ground Strike] mode, teams should destroy indicated targets and fulfil other tasks in order to win. Every destroyed unit affects the result!;In [Ground Strike] mode, teams should destroy indicated targets and fulfil other tasks in order to win. Every destroyed unit affects the result!;same;;;;;;;;;;;;;;;;;;;
+missions/_I2M;[Enduring Confrontation];[Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+missions/_I2M/desc;Achieve air superiority by destroying enemy aircraft, bases and ground forces.;Achieve air superiority by destroying enemy aircraft, bases and ground forces.;same;;;;;;;;;;;;;;;;;;;
+missions/_H2M;[⋡ Enduring Confrontation];[⋡ Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+missions/_H2M/desc;Achieve air superiority by destroying enemy helicopters, bases and ground forces.;Achieve air superiority by destroying enemy helicopters, bases and ground forces.;same;;;;;;;;;;;;;;;;;;;
+missions/_H2M_PVE;[⋡ PvE];[⋡ PvE];same;;;;;;;;;;;;;;;;;;;
+missions/_H2M_PVE/desc;Achieve air superiority by destroying enemy bases and ground forces.;Achieve air superiority by destroying enemy bases and ground forces.;same;;;;;;;;;;;;;;;;;;;
+missions/_N2M;[┚ Enduring Confrontation];[┚ Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+missions/_N2M/desc;Capture ports, destroy enemy convoys, ships and aircraft.;Capture ports, destroy enemy convoys, ships and aircraft.;same;;;;;;;;;;;;;;;;;;;
+missions/_Capt;[Skirmish];[Skirmish];same;;;;;;;;;;;;;;;;;;;
+missions/_Capt/desc;Capture the zones in different parts of the map before your opponent does. Each captured zone <color=@teamBlueColor>╶</color> brings your team more victory points than the previous zone.;Capture the zones in different parts of the map before your opponent does. Each captured zone <color=@teamBlueColor>╶</color> brings your team more victory points than the previous zone.;same;;;;;;;;;;;;;;;;;;;
+missions/_BD;[Cover];[Cover];same;;;;;;;;;;;;;;;;;;;
+missions/_BD/desc;"On the way to their target, a bomber group was intercepted by enemy aviation.
+
+Defenders' objectives:
+- Cover allied bombers from air attacks.
+
+Attackers' objectives:
+- Destroy enemy bombers.";"On the way to their target, a bomber group was intercepted by enemy aviation.
+
+Defenders' objectives:
+- Cover allied bombers from air attacks.
+
+Attackers' objectives:
+- Destroy enemy bombers.";same;;;;;;;;;;;;;;;;;;;
+missions/_BD/desc/defensive;"Enemy aircraft are intercepting our bomber squadron.
+
+Mission objective:
+- Cover the departure of the bombers";"Enemy aircraft are intercepting our bomber squadron.
+
+Mission objective:
+- Cover the departure of the bombers";same;;;;;;;;;;;;;;;;;;;
+missions/_BD/desc/offensive;"We have intercepted an enemy bomber squadron.
+
+Mission objective:
+ - Shoot down all enemy bombers before they depart";"We have intercepted an enemy bomber squadron.
+
+Mission objective:
+ - Shoot down all enemy bombers before they depart";same;;;;;;;;;;;;;;;;;;;
+missions/_BDA;[Cover #1];[Cover #1];same;;;;;;;;;;;;;;;;;;;
+missions/_BDA/defensive;[Cover #1];[Cover #1];same;;;;;;;;;;;;;;;;;;;
+missions/_BDA/offensive;[Interception #1];[Interception #1];same;;;;;;;;;;;;;;;;;;;
+missions/_BDA/desc;"On the way to their target, a bomber group was intercepted by enemy aviation.
+
+Defenders' objectives:
+- Cover allied bombers from air attacks.
+
+Attackers' objectives:
+- Destroy enemy bombers.";"On the way to their target, a bomber group was intercepted by enemy aviation.
+
+Defenders' objectives:
+- Cover allied bombers from air attacks.
+
+Attackers' objectives:
+- Destroy enemy bombers.";same;;;;;;;;;;;;;;;;;;;
+missions/_BDB;[Cover #2];[Cover #2];same;;;;;;;;;;;;;;;;;;;
+missions/_BDB/defensive;[Cover #2];[Cover #2];same;;;;;;;;;;;;;;;;;;;
+missions/_BDB/offensive;[Interception #2];[Interception #2];same;;;;;;;;;;;;;;;;;;;
+missions/_BDB/desc;"On the way to their target, a bomber group was intercepted by enemy aviation.
+
+Defenders' objectives:
+- Cover allied bombers from air attacks.
+
+Attackers' objectives:
+- Destroy enemy bombers.";"On the way to their target, a bomber group was intercepted by enemy aviation.
+
+Defenders' objectives:
+- Cover allied bombers from air attacks.
+
+Attackers' objectives:
+- Destroy enemy bombers.";same;;;;;;;;;;;;;;;;;;;
+missions/_MDB;[Head-on Course];[Head-on Course];same;;;;;;;;;;;;;;;;;;;
+missions/_MDB/desc;"Two opposing bomber groups with fighter cover meet each other mid-air.
+
+Mission objectives:
+- Cover allied bombers from air attacks.
+- Shoot down enemy bombers.";"Two opposing bomber groups with fighter cover meet each other mid-air.
+
+Mission objectives:
+- Cover allied bombers from air attacks.
+- Shoot down enemy bombers.";same;;;;;;;;;;;;;;;;;;;
+missions/_air_PvE;[Air Ass salt];[Air Assault];trim;;;;;;;;;;;;;;;;;;;
+missions/_tank_PvE;[Tank Ass salt];[Tank Assault];trim;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_BfD_norespawn;[Operation] Stalingrad;[Operation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_BfD_norespawn/desc;The German army is approaching Stalingrad, confident that the martial spirit of the Red Forces soldiers will fall after losing this city named after their great leader. But reinforced Soviet troops have built up defenses around Stalingrad and its suburbs and are now ready to protect their now-unassailable fortress.;The German army is approaching Stalingrad, confident that the martial spirit of the Red Forces soldiers will fall after losing this city named after their great leader. But reinforced Soviet troops have built up defenses around Stalingrad and its suburbs and are now ready to protect their now-unassailable fortress.;same;;;;;;;;;;;;;;;;;;;
+ad_mission_objective;Capture and maintain superiority over the air zone ╼ ;Capture and maintain superiority over the air zone ╼ ;same;;;;;;;;;;;;;;;;;;;
+afd_mission_objective;Capture and hold the airfield ╸;Capture and hold the airfield ╸;same;;;;;;;;;;;;;;;;;;;
+afd_mission_objective02;Capture and keep the advantage by airfields captured ╸,╹;Capture and keep the advantage by airfields captured ╸,╹;same;;;;;;;;;;;;;;;;;;;
+afd_mission_objective03;Capture and keep the advantage by airfields captured ╸,╹,╺;Capture and keep the advantage by airfields captured ╸,╹,╺;same;;;;;;;;;;;;;;;;;;;
+bfd_mission_objective;Destroy the enemy bases and ground vehicles.;Destroy the enemy bases and ground vehicles.;same;;;;;;;;;;;;;;;;;;;
+bfdn_mission_objective;Destroy enemy ground vehicles.;Destroy enemy ground vehicles.;same;;;;;;;;;;;;;;;;;;;
+missions/midway_BfD_norespawn;[Operation] Midway;[Operation] Midway;same;;;;;;;;;;;;;;;;;;;
+midway_BfD_t1_zone;Prevent the island from being captured by the Japanese forces;Prevent the island from being captured by the Japanese forces;same;;;;;;;;;;;;;;;;;;;
+midway_BfD_t2_zone;Help the landing force to capture the island;Help the landing force to capture the island;same;;;;;;;;;;;;;;;;;;;
+midway_BfD_t1_airfield;Do not let the airfield be captured;Do not let the airfield be captured;same;;;;;;;;;;;;;;;;;;;
+midway_BfD_t2_airfield;Help the ground forces to capture the airfield;Help the ground forces to capture the airfield;same;;;;;;;;;;;;;;;;;;;
+midway_BfD_t1_units;Destroy the Japanese ships;Destroy the Japanese ships;same;;;;;;;;;;;;;;;;;;;
+midway_BfD_t2_units;Destroy the American ships;Destroy the American ships;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_BfD_norespawn;[Operation] Peleliu;[Operation] Peleliu;same;;;;;;;;;;;;;;;;;;;
+missions/arcade_fake_mission;Ground Strike;Ground Strike;same;;;;;;;;;;;;;;;;;;;
+missions/arcade_fake_mission/desc;Destroy enemy ground vehicles.;Destroy enemy ground vehicles.;same;;;;;;;;;;;;;;;;;;;
+missions/bulge_BfD_norespawn;[Operation] Bulge;[Operation] Bulge;same;;;;;;;;;;;;;;;;;;;
+bulge_BfD_norespawn_t1_bridge;Do not let the bridge be destroyed;Do not let the bridge be destroyed;same;;;;;;;;;;;;;;;;;;;
+bulge_BfD_norespawn_t2_bridge;Destroy the bridge;Destroy the bridge;same;;;;;;;;;;;;;;;;;;;
+bulge_BfD_norespawn_t1_main;Help to capture Bastogne;Help to capture Bastogne;same;;;;;;;;;;;;;;;;;;;
+bulge_BfD_norespawn_t2_main;Do not let Bastogne be captured;Do not let Bastogne be captured;same;;;;;;;;;;;;;;;;;;;
+bulge_BfD_norespawn_t1_bombers;Protect allied bombers;Protect allied bombers;same;;;;;;;;;;;;;;;;;;;
+bulge_BfD_norespawn_t2_bombers;Destroy US bombers;Destroy US bombers;same;;;;;;;;;;;;;;;;;;;
+missions/krymsk_BfD_norespawn;[Operation] Kuban;[Operation] Kuban;same;;;;;;;;;;;;;;;;;;;
+t1_krymsk_BfD_norespawn_cargo_ships;Provide sea evacuation from the suburbs of Novorossiysk;Provide sea evacuation from the suburbs of Novorossiysk;same;;;;;;;;;;;;;;;;;;;
+t2_krymsk_BfD_norespawn_cargo_ships;Prevent evacuation from the suburbs of Novorossiysk;Prevent evacuation from the suburbs of Novorossiysk;same;;;;;;;;;;;;;;;;;;;
+t1_krymsk_BfD_norespawn_capture_novorossiysk;Help to protect Novorossiysk;Help to protect Novorossiysk;same;;;;;;;;;;;;;;;;;;;
+t2_krymsk_BfD_norespawn_capture_novorossiysk;Help to capture Novorossiysk;Help to capture Novorossiysk;same;;;;;;;;;;;;;;;;;;;
+t1_krymsk_BfD_norespawn_capture_krymskaya;Help to protect Krymskaya;Help to protect Krymskaya;same;;;;;;;;;;;;;;;;;;;
+t2_krymsk_BfD_norespawn_capture_krymskaya;Help to capture Krymskaya;Help to capture Krymskaya;same;;;;;;;;;;;;;;;;;;;
+t1_krymsk_BfD_norespawn_hint_ships_destroyed;The evacuation ships have been destroyed.;The evacuation ships have been destroyed.;same;;;;;;;;;;;;;;;;;;;
+t1_krymsk_BfD_norespawn_hint_trucks_destroyed;The trucks conveying the documents have been destroyed;The trucks conveying the documents have been destroyed;same;;;;;;;;;;;;;;;;;;;
+missions/korsun_BfD_norespawn;[Operation] Korsun;[Operation] Korsun;same;;;;;;;;;;;;;;;;;;;
+korsun_BfD_t1_bridges;Destroy the bridges over the Ros river;Destroy the bridges over the Ros river;same;;;;;;;;;;;;;;;;;;;
+korsun_BfD_t2_bridges;Protect the bridges over the Ros river;Protect the bridges over the Ros river;same;;;;;;;;;;;;;;;;;;;
+korsun_BfD_t1_artillery;Cover the long-range artillery;Cover the long-range artillery;same;;;;;;;;;;;;;;;;;;;
+korsun_BfD_t2_artillery;Destroy the long-range artillery;Destroy the long-range artillery;same;;;;;;;;;;;;;;;;;;;
+korsun_BfD_t1_town;Help to capture Cherepin;Help to capture Cherepin;same;;;;;;;;;;;;;;;;;;;
+korsun_BfD_t2_town;Help to hold Cherepin;Help to hold Cherepin;same;;;;;;;;;;;;;;;;;;;
+missions/britain_BfD_norespawn;[Operation] Britain;[Operation] Britain;same;;;;;;;;;;;;;;;;;;;
+t1_britain_BfD_norespawn_fleet;Destroy the fleet in the Port of Dover;Destroy the fleet in the Port of Dover;same;;;;;;;;;;;;;;;;;;;
+t2_britain_BfD_norespawn_fleet;Protect the fleet in the Port of Dover;Protect the fleet in the Port of Dover;same;;;;;;;;;;;;;;;;;;;
+t1_britain_BfD_norespawn_airfield;Do not let the airfield be captured;Do not let the airfield be captured;same;;;;;;;;;;;;;;;;;;;
+t2_britain_BfD_norespawn_airfield;Help the landing force to capture the airfield;Help the landing force to capture the airfield;same;;;;;;;;;;;;;;;;;;;
+t1_britain_BfD_norespawn_town;Help to protect Deal;Help to protect Deal;same;;;;;;;;;;;;;;;;;;;
+t2_britain_BfD_norespawn_town;Help the landing force to capture Deal;Help the landing force to capture Deal;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_BfD_norespawn;[Operation] New Guinea;[Operation] New Guinea;same;;;;;;;;;;;;;;;;;;;
+t1_port_moresby_BfD_main;Help to repulse the Japanese attack;Help to repulse the Japanese attack;same;;;;;;;;;;;;;;;;;;;
+t2_port_moresby_BfD_main;Help to defeat the British forces;Help to defeat the British forces;same;;;;;;;;;;;;;;;;;;;
+t1_port_moresby_BfD_cargo;Cover the cargo ships;Cover the cargo ships;same;;;;;;;;;;;;;;;;;;;
+t2_port_moresby_BfD_cargo;Destroy the enemy cargo ships;Destroy the enemy cargo ships;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_BfD_norespawn;[Operation] Khalkhin Gol;[Operation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
+t1_khalkhin_gol_BfD_norespawn_protect;Protect the captured village;Protect the captured village;same;;;;;;;;;;;;;;;;;;;
+t2_khalkhin_gol_BfD_norespawn_attack;Capture the Soviet village;Capture the Soviet village;same;;;;;;;;;;;;;;;;;;;
+t1_khalkhin_gol_BfD_norespawn_attack;Free the occupied village;Free the occupied village;same;;;;;;;;;;;;;;;;;;;
+t2_khalkhin_gol_BfD_norespawn_protect;Hold the captured beachhead;Hold the captured beachhead;same;;;;;;;;;;;;;;;;;;;
+t1_khalkhin_gol_BfD_norespawn_main;Destroy the Japanese forces;Destroy the Japanese forces;same;;;;;;;;;;;;;;;;;;;
+t2_khalkhin_gol_BfD_norespawn_main;Destroy the Soviet forces;Destroy the Soviet forces;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_BfD_norespawn;[Operation] Sicily;[Operation] Sicily;same;;;;;;;;;;;;;;;;;;;
+sicily_BfD_lookup_t1;Find and destroy the enemy spotters;Find and destroy the enemy spotters;same;;;;;;;;;;;;;;;;;;;
+sicily_BfD_land_units_t1;Destroy the enemy ground targets;Destroy the enemy ground targets;same;;;;;;;;;;;;;;;;;;;
+sicily_BfD_lookup_t2;Find and destroy the enemy spotters;Find and destroy the enemy spotters;same;;;;;;;;;;;;;;;;;;;
+sicily_BfD_land_units_t2;Destroy the enemy ground targets;Destroy the enemy ground targets;same;;;;;;;;;;;;;;;;;;;
+missions/malta_BfD_norespawn;[Operation] Malta;[Operation] Malta;same;;;;;;;;;;;;;;;;;;;
+malta_BfD_norespawn_t1_main;Protect the port of Valletta;Protect the port of Valletta;same;;;;;;;;;;;;;;;;;;;
+malta_BfD_norespawn_t2_main;Capture the port of Valletta;Capture the port of Valletta;same;;;;;;;;;;;;;;;;;;;
+malta_BfD_norespawn_t2_landing;Cover the landing;Cover the landing;same;;;;;;;;;;;;;;;;;;;
+malta_BfD_norespawn_t1_landing;Don't allow enemy forces to land;Don't allow enemy forces to land;same;;;;;;;;;;;;;;;;;;;
+malta_BfD_norespawn_t2_brander;Help branders to destroy enemy naval ships;Help branders to destroy enemy naval ships;same;;;;;;;;;;;;;;;;;;;
+malta_BfD_norespawn_t1_brander;Protect allied ships from branders' attack;Protect allied ships from branders' attack;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_BfD_norespawn;[Operation] Ruhr;[Operation] Ruhr;same;;;;;;;;;;;;;;;;;;;
+t1_ruhr_BfD_norespawn_town1;Help ground troops to capture Bottrop;Help ground troops to capture Bottrop;same;;;;;;;;;;;;;;;;;;;
+t2_ruhr_BfD_norespawn_town1;Help ground troops to defend Bottrop;Help ground troops to defend Bottrop;same;;;;;;;;;;;;;;;;;;;
+t1_ruhr_BfD_norespawn_town2;Help ground troops to capture Gelsenkirchen;Help ground troops to capture Gelsenkirchen;same;;;;;;;;;;;;;;;;;;;
+t2_ruhr_BfD_norespawn_town2;Help ground troops to defend Gelsenkirchen;Help ground troops to defend Gelsenkirchen;same;;;;;;;;;;;;;;;;;;;
+t1_ruhr_BfD_norespawn_town3;Help ground troops to capture Bochum;Help ground troops to capture Bochum;same;;;;;;;;;;;;;;;;;;;
+t2_ruhr_BfD_norespawn_town3;Help ground troops to defend Bochum;Help ground troops to defend Bochum;same;;;;;;;;;;;;;;;;;;;
+missions/korea_BfD_norespawn;[Operation] Korea;[Operation] Korea;same;;;;;;;;;;;;;;;;;;;
+t1_korea_BfD_norespawn_bridge_t1;Protect the bridge until allied tanks get across;Protect the bridge until allied tanks get across;same;;;;;;;;;;;;;;;;;;;
+t2_korea_BfD_norespawn_bridge_t1;Don't allow enemy tanks to get across the bridge;Don't allow enemy tanks to get across the bridge;same;;;;;;;;;;;;;;;;;;;
+t1_korea_BfD_norespawn_bridge_t2;Don't allow enemy tanks to get across the bridge;Don't allow enemy tanks to get across the bridge;same;;;;;;;;;;;;;;;;;;;
+t2_korea_BfD_norespawn_bridge_t2;Protect the bridge until allied tanks get across;Protect the bridge until allied tanks get across;same;;;;;;;;;;;;;;;;;;;
+t1_korea_BfD_norespawn_capture;Help the ground forces to capture the airfield;Help the ground forces to capture the airfield;same;;;;;;;;;;;;;;;;;;;
+t2_korea_BfD_norespawn_capture;Help the ground forces to defend the airfield;Help the ground forces to defend the airfield;same;;;;;;;;;;;;;;;;;;;
+missions/guadalcanal_BfD_norespawn;[Operation] Guadalcanal;[Operation] Guadalcanal;same;;;;;;;;;;;;;;;;;;;
+guadalcanal_BfD_evacuate_t1;Interrupt the Japanese evacuation;Interrupt the Japanese evacuation;same;;;;;;;;;;;;;;;;;;;
+guadalcanal_BfD_evacuate_t2;Protect the evacuation of ground troops;Protect the evacuation of ground troops;same;;;;;;;;;;;;;;;;;;;
+guadalcanal_BfD_defend_t1;Assist ground forces in the attack on the enemy base;Assist ground forces in the attack on the enemy base;same;;;;;;;;;;;;;;;;;;;
+guadalcanal_BfD_defend_t2;Help to suppress enemy ground forces;Help to suppress enemy ground forces;same;;;;;;;;;;;;;;;;;;;
+missions/air_spawn_A;A;A;same;;;;;;;;;;;;;;;;;;;
+missions/air_spawn_B;B;B;same;;;;;;;;;;;;;;;;;;;
+missions/air_spawn_C;C;C;same;;;;;;;;;;;;;;;;;;;
+missions/air_spawn_D;D;D;same;;;;;;;;;;;;;;;;;;;
+template/noRespawns;(No Respawn);(No Respawn);same;;;;;;;;;;;;;;;;;;;
+template/noRespawns/desc;In this mission, you can spawn only once, choose your aircraft carefully.;In this mission, you can spawn only once, choose your aircraft carefully.;same;;;;;;;;;;;;;;;;;;;
+template/limitedRespawns;(Limited Respawns);(Limited Respawns);same;;;;;;;;;;;;;;;;;;;
+template/limitedRespawns/num;(respawns: %s);(respawns: %s);same;;;;;;;;;;;;;;;;;;;
+template/limitedRespawns/num/plural;({num} {num=respawn/respawns});({num} {num=respawn/respawns});same;;;;;;;;;;;;;;;;;;;
+template/limitedRespawns/desc;There is a limited number of respawns in this mission.;There is a limited number of respawns in this mission.;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_w_BfD_norespawn;"[Event] Operation ""Uranus""";"[Event] Operation ""Uranus""";same;;;;;;;;;;;;;;;;;;;
+missions/mozdok_BfDn;[Operation] Mozdok;[Operation] Mozdok;same;;;;;;;;;;;;;;;;;;;
+missions/honolulu_BfDn;[Operation] Honolulu;[Operation] Honolulu;same;;;;;;;;;;;;;;;;;;;
+missions/iwo_jima_BfD_norespawn;[Operation] Iwo Jima;[Operation] Iwo Jima;same;;;;;;;;;;;;;;;;;;;
+missions/britain_BfDn;[Operation] Latish Convoy;[Operation] Latish Convoy;same;;;;;;;;;;;;;;;;;;;
+missions/berlin_BfD_norespawn;[Operation] Berlin;[Operation] Berlin;same;;;;;;;;;;;;;;;;;;;
+missions/zhengzhou_BfD_norespawn;[Operation] Zhengzhou;[Operation] Zhengzhou;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_sim_BfD;[Battle] Stalingrad;[Battle] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_sim_BfD/desc;Battle for Stalingrad;Battle for Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_BfDn;[Operation] The Last Battle of Khalkhyn Gol;[Operation] The Last Battle of Khalkhyn Gol;same;;;;;;;;;;;;;;;;;;;
+missions/the_hardest_day_norespawn;[Event] The Hardest Day;[Event] The Hardest Day;same;;;;;;;;;;;;;;;;;;;
+missions/the_hardest_day_norespawn/desc;The day when the Luftwaffe carried out massive attacks on British airfields. Fierce air battles that day led to both parties losing more aircraft than ever before, including the day of the Battle of Britain.;The day when the Luftwaffe carried out massive attacks on British airfields. Fierce air battles that day led to both parties losing more aircraft than ever before, including the day of the Battle of Britain.;same;;;;;;;;;;;;;;;;;;;
+missions/krymsk_alt_BfD_norespawn;[Alternate History] Krymsk. Summer 1945;[Alternate History] Krymsk. Summer 1945;same;;;;;;;;;;;;;;;;;;;
+missions/berlin_alt_BfD_norespawn;[Alternate History] Berlin. Summer 1945;[Alternate History] Berlin. Summer 1945;same;;;;;;;;;;;;;;;;;;;
+missions/guam_alt_BfD_norespawn;[Military Exercise] Preparation for landing on Hokkaido;[Military Exercise] Preparation for landing on Hokkaido;same;;;;;;;;;;;;;;;;;;;
+t1_guam_alt_BfD_zones_capturing;Do not let the strategic points be captured by enemy;Do not let the strategic points be captured by enemy;same;;;;;;;;;;;;;;;;;;;
+t2_guam_alt_BfD_zones_capturing;Help ground forces to capture the strategic points;Help ground forces to capture the strategic points;same;;;;;;;;;;;;;;;;;;;
+t1_guam_alt_BfD_bombing_zones;Destroy imaginary enemy military bases;Destroy imaginary enemy military bases;same;;;;;;;;;;;;;;;;;;;
+t2_guam_alt_BfD_bombing_zones;Destroy imaginary enemy military bases;Destroy imaginary enemy military bases;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_angel_BfD_norespawn;[Event] Ruhr. Guardian Angel;[Event] Ruhr. Guardian Angel;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_angel_BfD_norespawn/desc;"During the autumn 1943, the USAAF command regularly missioned the B-17 for bombing German military objects without fighter escort. They anticipated that a tight formation of bombers could take care of itself.
+
+However, on the 14th of October 1943, after losing 60 bombers in one sortie, they published an order prohibiting day flights of bombers without fighter escort.";"During the autumn 1943, the USAAF command regularly missioned the B-17 for bombing German military objects without fighter escort. They anticipated that a tight formation of bombers could take care of itself.
+
+However, on the 14th of October 1943, after losing 60 bombers in one sortie, they published an order prohibiting day flights of bombers without fighter escort.";same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_river_BfD_norespawn;[Operation] Defending Stalingrad;[Operation] Defending Stalingrad;same;;;;;;;;;;;;;;;;;;;
+t1_stalingrad_BfD_norespawn_zone1;Help ground forces defend the north side of the city;Help ground forces defend the north side of the city;same;;;;;;;;;;;;;;;;;;;
+t2_stalingrad_BfD_norespawn_zone1;Help ground forces capture the north side of the city;Help ground forces capture the north side of the city;same;;;;;;;;;;;;;;;;;;;
+t1_stalingrad_BfD_norespawn_zone2;Help ground forces defend the city center;Help ground forces defend the city center;same;;;;;;;;;;;;;;;;;;;
+t2_stalingrad_BfD_norespawn_zone2;Help ground forces capture the city center;Help ground forces capture the city center;same;;;;;;;;;;;;;;;;;;;
+t1_stalingrad_BfD_norespawn_zone3;Help ground forces defend the south side of the city;Help ground forces defend the south side of the city;same;;;;;;;;;;;;;;;;;;;
+t2_stalingrad_BfD_norespawn_zone3;Help ground forces capture the south side of the city;Help ground forces capture the south side of the city;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_BfD_norespawn;[Operation] Saipan;[Operation] Saipan;same;;;;;;;;;;;;;;;;;;;
+missions/mozdok_BfD_norespawn;[Operation] Road to Grozny;[Operation] Road to Grozny;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_BfDn;[Operation] Essen;[Operation] Essen;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_il2_BfD_norespawn;"[Event] Stalingrad. Escorting ""Sturmoviks""";"[Event] Stalingrad. Escorting ""Sturmoviks""";same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_il2_BfD_norespawn/desc;"The Normandie-Niemen French fighter squadron served at the Eastern Front in World War II. French pilots flew Soviet Yakovlev fighters and specialized in escorting bombers and attackers.
+
+Challenge yourself as an escort fighter pilot, covering friendly IL-2 attackers on their way to raid German positions.";"The Normandie-Niemen French fighter squadron served at the Eastern Front in World War II. French pilots flew Soviet Yakovlev fighters and specialized in escorting bombers and attackers.
+
+Challenge yourself as an escort fighter pilot, covering friendly IL-2 attackers on their way to raid German positions.";same;;;;;;;;;;;;;;;;;;;
+missions/kursk_BfD_norespawn;[Operation] Kursk;[Operation] Kursk;same;;;;;;;;;;;;;;;;;;;
+missions/_duel;[Tournament] Duel 1x1 -;[Tournament] Duel 1x1 -;same;;;;;;;;;;;;;;;;;;;
+missions/_duel/desc;The teams fight each other in duel mode.;The teams fight each other in duel mode.;same;;;;;;;;;;;;;;;;;;;
+missions/_4x4_duel;[Tournament] Duel 2x2 -;[Tournament] Duel 2x2 -;same;;;;;;;;;;;;;;;;;;;
+missions/_4x4_duel/desc;The teams fight each other in duel mode, over four points.;The teams fight each other in duel mode, over four points.;same;;;;;;;;;;;;;;;;;;;
+missions/_8x8_duel;[Tournament] Duel 8x8 -;[Tournament] Duel 8x8 -;same;;;;;;;;;;;;;;;;;;;
+missions/_8x8_duel/desc;"The teams fight each other in duel mode.
+
+Mission objectives:
+- Bomb out the enemy base
+- Achieve superiority over the combat zone";"The teams fight each other in duel mode.
+
+Mission objectives:
+- Bomb out the enemy base
+- Achieve superiority over the combat zone";same;;;;;;;;;;;;;;;;;;;
+missions/krymsk_stanica_BfD_norespawn;[Operation] Kuban. Stanitsa of Krymskaya;[Operation] Kuban. Stanitsa of Krymskaya;same;;;;;;;;;;;;;;;;;;;
+missions/bulge_bastogne_BfD_norespawn;[Operation] Battle for Bastogne;[Operation] Battle for Bastogne;same;;;;;;;;;;;;;;;;;;;
+missions/krymsk_mishako_BfD_norespawn;[Operation] Kuban. Myskhako;[Operation] Kuban. Myskhako;same;;;;;;;;;;;;;;;;;;;
+missions/krymsk_mishako_BfD_norespawn/desc;It's the end of April 1943. The German army has decided to destroy a small Soviet base near Novorossiysk, and now they are launching a massive attack. German dive bombers are circling over Soviet positions at Malaya Zemlya almost permanently.;It's the end of April 1943. The German army has decided to destroy a small Soviet base near Novorossiysk, and now they are launching a massive attack. German dive bombers are circling over Soviet positions at Malaya Zemlya almost permanently.;same;;;;;;;;;;;;;;;;;;;
+missions/honolulu_hydroplanes_AfD;Floats!;Floats!;same;;;;;;;;;;;;;;;;;;;
+missions/honolulu_hydroplanes_AfD/desc;"This special event features floatplanes and flying boats contending for control of special points located on the surface of the water. Take part in a fierce sea battle!
+
+Mission objectives:
+- Destroy the enemy planes
+- Capture and hold control points by alighting on the water's surface near aircraft-carriers";"This special event features floatplanes and flying boats contending for control of special points located on the surface of the water. Take part in a fierce sea battle!
+
+Mission objectives:
+- Destroy the enemy planes
+- Capture and hold control points by alighting on the water's surface near aircraft-carriers";same;;;;;;;;;;;;;;;;;;;
+missions/britain_fau_BfD_norespawn;[Event] Weapons Test;[Event] Weapons Test;same;;;;;;;;;;;;;;;;;;;
+missions/britain_fau_BfD_norespawn/desc;German command is testing new weapons. British Air Forces are intercepting the deadly machines.;German command is testing new weapons. British Air Forces are intercepting the deadly machines.;same;;;;;;;;;;;;;;;;;;;
+missions/malta_convoy_BfD_norespawn;[Event] Convoy Interception;[Event] Convoy Interception;same;;;;;;;;;;;;;;;;;;;
+missions/malta_convoy_BfD_norespawn/desc;A convoy with food and ammunition is heading from Alexandria to Malta. German command has decided to launch a sudden attack and destroy the convoy making for the port.;A convoy with food and ammunition is heading from Alexandria to Malta. German command has decided to launch a sudden attack and destroy the convoy making for the port.;same;;;;;;;;;;;;;;;;;;;
+missions/honolulu_pearl_harbor_BfD_norespawn;[Operation] Pearl Harbor;[Operation] Pearl Harbor;same;;;;;;;;;;;;;;;;;;;
+missions/honolulu_pearl_harbor_BfD_norespawn/desc;Japanese bombers are attacking Pearl Harbor. American pilots haven't managed to take off before the first wave of bombers appeared, and the harbor is burning now. Moreover, new waves have yet to come.;Japanese bombers are attacking Pearl Harbor. American pilots haven't managed to take off before the first wave of bombers appeared, and the harbor is burning now. Moreover, new waves have yet to come.;same;;;;;;;;;;;;;;;;;;;
+missions/wake_island_BfD_norespawn;[Event] Attack on Wake Island;[Event] Attack on Wake Island;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_BfDn;[Operation] Port Moresby;[Operation] Port Moresby;same;;;;;;;;;;;;;;;;;;;
+missions/wake_island_BfDn;[Operation] Wake Island;[Operation] Wake Island;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_BfDn;[Operation] Consolidation of positions on Sicily;[Operation] Consolidation of positions on Sicily;same;;;;;;;;;;;;;;;;;;;
+missions/korsun_BfDn;[Operation] Counteroffensive;[Operation] Counteroffensive;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_BfDn;[Operation] Yoo Passage;[Operation] Yoo Passage;same;;;;;;;;;;;;;;;;;;;
+missions/zhengzhou_BfDn;[Operation] Henan Province;[Operation] Henan Province;same;;;;;;;;;;;;;;;;;;;
+missions/bulge_BfDn;[Operation] Bastogne;[Operation] Bastogne;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_biatlon_GS;[Winter Games] Biathlon;[Winter Games] Biathlon;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_biatlon_GS/desc;The teams fly through waypoints and complete tasks. The winner is the team that reaches the final point first!;The teams fly through waypoints and complete tasks. The winner is the team that reaches the final point first!;same;;;;;;;;;;;;;;;;;;;
+missions/korsun_hockey_GS;[Winter Games] Hockey;[Winter Games] Hockey;same;;;;;;;;;;;;;;;;;;;
+missions/korsun_hockey_GS/desc;The teams must score goals by shooting at a puck — a special immortal plane.;The teams must score goals by shooting at a puck — a special immortal plane.;same;;;;;;;;;;;;;;;;;;;
+missions/korsun_kerling_GS;[Winter Games] Curling;[Winter Games] Curling;same;;;;;;;;;;;;;;;;;;;
+missions/korsun_kerling_GS/desc;Teams must lead their columns of tanks to a capture zone, destroying obstacles on the way. Enemy tanks cannot be destroyed before they reach the capture zone.;Teams must lead their columns of tanks to a capture zone, destroying obstacles on the way. Enemy tanks cannot be destroyed before they reach the capture zone.;same;;;;;;;;;;;;;;;;;;;
+missions/bulge_schwalbe_BfD_norespawn;[Event] Fight of Swallows;[Event] Fight of Swallows;same;;;;;;;;;;;;;;;;;;;
+missions/bulge_schwalbe_BfD_norespawn/desc;"The year is 1944. On the threshold of the Battle of the Bulge, the US are concerned about the increasing quantity of rocket aircraft in German hands. In order to put an end to this threat, an armada of B-17's is heading to bombing the airfields where the ""swallows"" are located.
+
+Take part in the fight for one of these airfields.";"The year is 1944. On the threshold of the Battle of the Bulge, the US are concerned about the increasing quantity of rocket aircraft in German hands. In order to put an end to this threat, an armada of B-17's is heading to bombing the airfields where the ""swallows"" are located.
+
+Take part in the fight for one of these airfields.";same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_FFA;[FFA] Stalingrad;[FFA] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_FFA/desc;FFA Deathmatch. Destroy all other aircraft to gain a victory in this game mode.;FFA Deathmatch. Destroy all other aircraft to gain a victory in this game mode.;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_race;[FFA / Race] Stalingrad;[FFA / Race] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_race/desc;You should finish first.;You should finish first.;same;;;;;;;;;;;;;;;;;;;
+missions/kursk_tournament_BfD_norespawn;[Tournament] Kursk;[Tournament] Kursk;same;;;;;;;;;;;;;;;;;;;
+missions/kursk_tournament_BfD_norespawn/desc;"Mission for the tournament ""Memory""";"Mission for the tournament ""Memory""";same;;;;;;;;;;;;;;;;;;;
+missions/spain_BfD_norespawn;[Operation] Battle for Spain;[Operation] Battle for Spain;same;;;;;;;;;;;;;;;;;;;
+missions/spain_alt_BfD_norespawn;[Alternate History] Spain;[Alternate History] Spain;same;;;;;;;;;;;;;;;;;;;
+phiphi_race/name;[Race] Tropical Island (long);[Race] Tropical Island (long);same;;;;;;;;;;;;;;;;;;;
+phiphi_race/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
+phiphi_race_two_circles/name;[Race] Deadly Banking (long);[Race] Deadly Banking (long);same;;;;;;;;;;;;;;;;;;;
+phiphi_race_two_circles/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
+finland_tank_race/name;[Tank Race] Finland;[Tank Race] Finland;same;;;;;;;;;;;;;;;;;;;
+finland_tank_race/desc;A race track for ground vehicles through the snowy villages of Finland.;A race track for ground vehicles through the snowy villages of Finland.;same;;;;;;;;;;;;;;;;;;;
+missions/alps_race;[Race] Frozen Pass;[Race] Frozen Pass;same;;;;;;;;;;;;;;;;;;;
+missions/alps_race/desc;A race track among rocky mountains.;A race track among rocky mountains.;same;;;;;;;;;;;;;;;;;;;
+hurtgen_offroad_tank_race/name;[Rally] Hürtgen Forest;[Rally] Hürtgen Forest;same;;;;;;;;;;;;;;;;;;;
+hurtgen_offroad_tank_race/desc;A rally race track for ground vehicles through the picturesque Hürtgen Forest.;A rally race track for ground vehicles through the picturesque Hürtgen Forest.;same;;;;;;;;;;;;;;;;;;;
+rheinland_tank_race/name;[Tank Race] Cologne;[Tank Race] Cologne;same;;;;;;;;;;;;;;;;;;;
+rheinland_tank_race/desc;A race track for ground vehicles through the war-ridden streets of Cologne.;A race track for ground vehicles through the war-ridden streets of Cologne.;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_aerobatics_mission;[Pilotage] Mission for the training of aerobatic teams;[Pilotage] Mission for the training of aerobatic teams;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_aerobatics_mission/desc;"- Firing from primary weapons is disabled
+- Spawn on the airfield or near the ""Aerobatic cube"" is possible
+- Aerobatic exercise pathways (near spawn points A and B and the Aerobatic cube):
+    banking and eight
+    S-turns of different difficulty
+    bank modulation (preparation for scissors)
+    scissors (distinction from bank modulation — absence of intermediate gate, smaller lengthwise distance but bigger widthwise)
+    barrel roll
+    knife-edge pass (alternate roll at 90 degrees) to the right or to the left, or advanced barrel roll
+    loaded roll";"- Firing from primary weapons is disabled
+- Spawn on the airfield or near the ""Aerobatic cube"" is possible
+- Aerobatic exercise pathways (near spawn points A and B and the Aerobatic cube):
+    banking and eight
+    S-turns of different difficulty
+    bank modulation (preparation for scissors)
+    scissors (distinction from bank modulation — absence of intermediate gate, smaller lengthwise distance but bigger widthwise)
+    barrel roll
+    knife-edge pass (alternate roll at 90 degrees) to the right or to the left, or advanced barrel roll
+    loaded roll";same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_tank_factory_BfD_norespawn;[Event] Tractor Factory;[Event] Tractor Factory;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_tank_factory_BfD_norespawn/desc;Summer 1942. The German army is rushing towards Stalingrad. One of the main goals of the Luftwaffe is to destroy the Stalingrad Tractor Factory, where production of Soviet tanks takes place.;Summer 1942. The German army is rushing towards Stalingrad. One of the main goals of the Luftwaffe is to destroy the Stalingrad Tractor Factory, where production of Soviet tanks takes place.;same;;;;;;;;;;;;;;;;;;;
+missions/kursk_pe2_escort_BfD_norespawn;[Event] Beside the Kursk salient;[Event] Beside the Kursk salient;same;;;;;;;;;;;;;;;;;;;
+missions/kursk_pe2_escort_BfD_norespawn/desc;Summer 1943. The German armored fist is about to make a break-through attack on Soviet defences. Although having a huge amount of tanks concentrated at the location already, the German army is continuously bringing more reinforcements. Soviet command has discovered the location of a large formation of German forces.;Summer 1943. The German armored fist is about to make a break-through attack on Soviet defences. Although having a huge amount of tanks concentrated at the location already, the German army is continuously bringing more reinforcements. Soviet command has discovered the location of a large formation of German forces.;same;;;;;;;;;;;;;;;;;;;
+missions/berlin_cascade_AfD;[Airfield Capture] Berlin;[Airfield Capture] Berlin;same;;;;;;;;;;;;;;;;;;;
+missions/berlin_cascade_AfD/desc;"In order to win in ""Airfield Capture"" mode, the team has to capture the central airfield and then the airfield of the enemy.";"In order to win in ""Airfield Capture"" mode, the team has to capture the central airfield and then the airfield of the enemy.";same;;;;;;;;;;;;;;;;;;;
+missions/asia_4roads_baloons_GS;[Funny shooting range] Mountain Gorge;[Funny shooting range] Mountain Gorge;same;;;;;;;;;;;;;;;;;;;
+missions/asia_4roads_baloons_GS/desc;In [Funny shooting range] mode the team has to destroy barrage balloons and prevent the opposite team doing the same.;In [Funny shooting range] mode the team has to destroy barrage balloons and prevent the opposite team doing the same.;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_survive_BfD_norespawn;[Survival] Moscow;[Survival] Moscow;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_survive_BfD_norespawn/desc;"With a small flight of fighters, contain the enemy bomber hordes rushing towards Moscow. If they drop their deadly load, you'll lose.
+
+Don't forget to land at the airfield to re-arm!";"With a small flight of fighters, contain the enemy bomber hordes rushing towards Moscow. If they drop their deadly load, you'll lose.
+
+Don't forget to land at the airfield to re-arm!";same;;;;;;;;;;;;;;;;;;;
+missions/aaa_Dom;[War in Mid Air];[War in Mid Air];same;;;;;;;;;;;;;;;;;;;
+missions/aaa_Dom/desc;"
+
+Aviation objectives:
+- Clear the enemy foothold from armor
+
+Ground forces objectives:
+- Protect the foothold from the enemy bombers
+- Prevent the destruction of the allied armored units";"
+
+Aviation objectives:
+- Clear the enemy foothold from armor
+
+Ground forces objectives:
+- Protect the foothold from the enemy bombers
+- Prevent the destruction of the allied armored units";same;;;;;;;;;;;;;;;;;;;
+missions/korea_black_thursday_BfD_norespawn;[Event] Black Thursday;[Event] Black Thursday;same;;;;;;;;;;;;;;;;;;;
+missions/korea_black_thursday_BfD_norespawn/desc;The day when the USA lost more than ten B-29 bombers.;The day when the USA lost more than ten B-29 bombers.;same;;;;;;;;;;;;;;;;;;;
+missions/korea_black_thursday_RB_BfD_norespawn;[Event] Black Thursday;[Event] Black Thursday;same;;;;;;;;;;;;;;;;;;;
+missions/korea_black_thursday_RB_BfD_norespawn/desc;The day when the USA lost more than ten B-29 bombers.;The day when the USA lost more than ten B-29 bombers.;same;;;;;;;;;;;;;;;;;;;
+missions/korea_black_thursday_SB_BfD_norespawn;[Event] Black Thursday;[Event] Black Thursday;same;;;;;;;;;;;;;;;;;;;
+missions/korea_black_thursday_SB_BfD_norespawn/desc;The day when the USA lost more than ten B-29 bombers.;The day when the USA lost more than ten B-29 bombers.;same;;;;;;;;;;;;;;;;;;;
+missions/poland_captureTheTrophy_tournament_BfD_norespawn;[Event] Tug of War;[Event] Tug of War;same;;;;;;;;;;;;;;;;;;;
+missions/poland_captureTheTrophy_tournament_BfD_norespawn/desc;"The main task in the event is the evacuation of a ZSU Gepard. The vehicle cannot move, so the only method of capture - is using your tow cable to drag it to your team capture zone.
+
+- Capture and hold the disputed vehicle at your base.
+- You can respawn with all ground vehicles in your lineup.
+- If destroyed, the disputed vehicle will respawn in the central zone in 10 seconds.
+- A team loses 500 points if one of its members is knocked out
+- The longer the vehicle is located in your zone, the faster the opposing team will lose points.
+- The towed vehicle is vulnerable and can be destroyed, but for the destruction of the vehicle the team will receive 2,000 points penalty.";"The main task in the event is the evacuation of a ZSU Gepard. The vehicle cannot move, so the only method of capture - is using your tow cable to drag it to your team capture zone.
+
+- Capture and hold the disputed vehicle at your base.
+- You can respawn with all ground vehicles in your lineup.
+- If destroyed, the disputed vehicle will respawn in the central zone in 10 seconds.
+- A team loses 500 points if one of its members is knocked out
+- The longer the vehicle is located in your zone, the faster the opposing team will lose points.
+- The towed vehicle is vulnerable and can be destroyed, but for the destruction of the vehicle the team will receive 2,000 points penalty.";same;;;;;;;;;;;;;;;;;;;
+missions/britain_convoy_BfD_norespawn;[Event] British Convoy;[Event] British Convoy;same;;;;;;;;;;;;;;;;;;;
+missions/britain_convoy_BfD_norespawn/desc;German aircraft have been sortied to destroy a British convoy moving along the British coast.;German aircraft have been sortied to destroy a British convoy moving along the British coast.;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_100_AD;"Khalkhin Gol. War Thunder - 100: ""Team Air Battle""";"Khalkhin Gol. War Thunder - 100: ""Team Air Battle""";same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_100_AD/desc;"Two teams battle with each other whilst flying aircraft in the skies above Khalkhin Gol. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";"Two teams battle with each other whilst flying aircraft in the skies above Khalkhin Gol. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";same;;;;;;;;;;;;;;;;;;;
+missions/sicily_100_AD;"Sicily. War Thunder - 100: ""Team Air Battle""";"Sicily. War Thunder - 100: ""Team Air Battle""";same;;;;;;;;;;;;;;;;;;;
+missions/sicily_100_AD/desc;"Two teams battle with each other whilst flying aircraft in the skies above Sicily. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";"Two teams battle with each other whilst flying aircraft in the skies above Sicily. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";same;;;;;;;;;;;;;;;;;;;
+missions/poland_Tdm;"War Thunder - 100: ""Team Tank Battle""";"War Thunder - 100: ""Team Tank Battle""";same;;;;;;;;;;;;;;;;;;;
+missions/poland_Tdm/desc;"Two teams battle with each other whilst driving ground vehicles in the location Poland. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";"Two teams battle with each other whilst driving ground vehicles in the location Poland. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";same;;;;;;;;;;;;;;;;;;;
+missions/tunisia_Tdm;"War Thunder - 100: ""Team Tank Battle""";"War Thunder - 100: ""Team Tank Battle""";same;;;;;;;;;;;;;;;;;;;
+missions/tunisia_Tdm/desc;"Two teams battle with each other whilst driving ground vehicles in the location Tunisia. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";"Two teams battle with each other whilst driving ground vehicles in the location Tunisia. The team that is the first to destroy 100 enemy vehicles wins.
+The number of respawns is unlimited!";same;;;;;;;;;;;;;;;;;;;
+africa_desert/name;Second battle of El Alamein;Second battle of El Alamein;same;;;;;;;;;;;;;;;;;;;
+africa_desert_short/name;El Alamein;El Alamein;same;;;;;;;;;;;;;;;;;;;
+africa_desert/desc;;;same;;;;;;;;;;;;;;;;;;;
+alps/name;Frozen Pass;Frozen Pass;same;;;;;;;;;;;;;;;;;;;
+alps/desc;;;same;;;;;;;;;;;;;;;;;;;
+berlin/name;Berlin;Berlin;same;;;;;;;;;;;;;;;;;;;
+berlin/desc;;;same;;;;;;;;;;;;;;;;;;;
+eastern_europe/name;Eastern Europe;Eastern Europe;same;;;;;;;;;;;;;;;;;;;
+eastern_europe/desc;;;same;;;;;;;;;;;;;;;;;;;
+european_province/name;European Province;European Province;same;;;;;;;;;;;;;;;;;;;
+european_province/desc;;;same;;;;;;;;;;;;;;;;;;;
+finland/name;Finland;Finland;same;;;;;;;;;;;;;;;;;;;
+finland/desc;;;same;;;;;;;;;;;;;;;;;;;
+fortress/name;White Rock Fortress;White Rock Fortress;same;;;;;;;;;;;;;;;;;;;
+fortress/desc;;;same;;;;;;;;;;;;;;;;;;;
+guadalcanal/name;Jungle;Jungle;same;;;;;;;;;;;;;;;;;;;
+guadalcanal/desc;;;same;;;;;;;;;;;;;;;;;;;
+hurtgen/name;Battle of Hürtgen Forest;Battle of Hürtgen Forest;same;;;;;;;;;;;;;;;;;;;
+hurtgen/desc;;;same;;;;;;;;;;;;;;;;;;;
+ireland/name;Ash River;Ash River;same;;;;;;;;;;;;;;;;;;;
+ireland/desc;;;same;;;;;;;;;;;;;;;;;;;
+karelia/name;Karelia;Karelia;same;;;;;;;;;;;;;;;;;;;
+karelia/desc;;;same;;;;;;;;;;;;;;;;;;;
+karpaty/name;Carpathians;Carpathians;same;;;;;;;;;;;;;;;;;;;
+karpaty/desc;;;same;;;;;;;;;;;;;;;;;;;
+korea/name;38th Parallel;38th Parallel;same;;;;;;;;;;;;;;;;;;;
+korea/desc;;;same;;;;;;;;;;;;;;;;;;;
+krymsk/name;Kuban;Kuban;same;;;;;;;;;;;;;;;;;;;
+krymsk/desc;;;same;;;;;;;;;;;;;;;;;;;
+ladoga/name;Ladoga;Ladoga;same;;;;;;;;;;;;;;;;;;;
+ladoga/desc;;;same;;;;;;;;;;;;;;;;;;;
+kursk/name;Kursk;Kursk;same;;;;;;;;;;;;;;;;;;;
+kursk/desc;;;same;;;;;;;;;;;;;;;;;;;
+kursk_villages/name;Fire arc;Fire arc;same;;;;;;;;;;;;;;;;;;;
+kursk_villages/desc;;;same;;;;;;;;;;;;;;;;;;;
+mozdok/name;Mozdok;Mozdok;same;;;;;;;;;;;;;;;;;;;
+mozdok/desc;;;same;;;;;;;;;;;;;;;;;;;
+normandy_02/name;Fields of Normandy;Fields of Normandy;same;;;;;;;;;;;;;;;;;;;
+normandy_02/desc;;;same;;;;;;;;;;;;;;;;;;;
+normandy/name;Normandy;Normandy;same;;;;;;;;;;;;;;;;;;;
+normandy/desc;;;same;;;;;;;;;;;;;;;;;;;
+poland_02/name;Fields of Poland;Fields of Poland;same;;;;;;;;;;;;;;;;;;;
+poland_02/desc;;;same;;;;;;;;;;;;;;;;;;;
+poland/name;Poland;Poland;same;;;;;;;;;;;;;;;;;;;
+poland/desc;;;same;;;;;;;;;;;;;;;;;;;
+port_novorossiysk/name;Port Novorossiysk;Port Novorossiysk;same;;;;;;;;;;;;;;;;;;;
+port_novorossiysk/desc;;;same;;;;;;;;;;;;;;;;;;;
+rheinland_short/name;Rhine;Rhine;same;;;;;;;;;;;;;;;;;;;
+rheinland/name;Advance to the Rhine;Advance to the Rhine;same;;;;;;;;;;;;;;;;;;;
+rheinland/desc;;;same;;;;;;;;;;;;;;;;;;;
+stalingrad_factory/name;Stalingrad;Stalingrad;same;;;;;;;;;;;;;;;;;;;
+stalingrad_factory/desc;;;same;;;;;;;;;;;;;;;;;;;
+tunisia_02/name;Sands of Tunisia;Sands of Tunisia;same;;;;;;;;;;;;;;;;;;;
+tunisia_02/desc;;;same;;;;;;;;;;;;;;;;;;;
+tunisia/name;Tunisia;Tunisia;same;;;;;;;;;;;;;;;;;;;
+tunisia/desc;;;same;;;;;;;;;;;;;;;;;;;
+volokolamsk/name;Volokolamsk;Volokolamsk;same;;;;;;;;;;;;;;;;;;;
+volokolamsk/desc;;;same;;;;;;;;;;;;;;;;;;;
+volokolamsk_02/name;Surroundings of Volokolamsk;Surroundings of Volokolamsk;same;;;;;;;;;;;;;;;;;;;
+volokolamsk_02/desc;;;same;;;;;;;;;;;;;;;;;;;
+ardennes/name;Ardennes;Ardennes;same;;;;;;;;;;;;;;;;;;;
+ardennes/desc;;;same;;;;;;;;;;;;;;;;;;;
+sinai/name;Sinai;Sinai;same;;;;;;;;;;;;;;;;;;;
+sinai/desc;;;same;;;;;;;;;;;;;;;;;;;
+sinai_02/name;Sands of Sinai;Sands of Sinai;same;;;;;;;;;;;;;;;;;;;
+sinai_02/desc;;;same;;;;;;;;;;;;;;;;;;;
+abandoned_factory/name;Abandoned factory;Abandoned factory;same;;;;;;;;;;;;;;;;;;;
+abandoned_factory/desc;;;same;;;;;;;;;;;;;;;;;;;
+stalingrad/name;Stalingrad;Stalingrad;same;;;;;;;;;;;;;;;;;;;
+stalingrad/desc;;;same;;;;;;;;;;;;;;;;;;;
+ruhr/name;Ruhr;Ruhr;same;;;;;;;;;;;;;;;;;;;
+ruhr/desc;;;same;;;;;;;;;;;;;;;;;;;
+zhengzhou/name;Zhengzhou;Zhengzhou;same;;;;;;;;;;;;;;;;;;;
+zhengzhou/desc;;;same;;;;;;;;;;;;;;;;;;;
+arcade_phiphi_crater_rocks/name;Pacific Hidden Base;Pacific Hidden Base;same;;;;;;;;;;;;;;;;;;;
+arcade_phiphi_crater_rocks/desc;;;same;;;;;;;;;;;;;;;;;;;
+arcade_phiphi_crater/name;Pacific Hidden Base;Pacific Hidden Base;same;;;;;;;;;;;;;;;;;;;
+arcade_phiphi_crater/desc;;;same;;;;;;;;;;;;;;;;;;;
+arcade_canyon_snow/name;Iron Range;Iron Range;same;;;;;;;;;;;;;;;;;;;
+arcade_canyon_snow/desc;;;same;;;;;;;;;;;;;;;;;;;
+arcade_norway_fjords/name;Fjords;Fjords;same;;;;;;;;;;;;;;;;;;;
+arcade_norway_fjords/desc;;;same;;;;;;;;;;;;;;;;;;;
+norway/name;Norway;Norway;same;;;;;;;;;;;;;;;;;;;
+norway/desc;;;same;;;;;;;;;;;;;;;;;;;
+fiji/name;Fiji;Fiji;same;;;;;;;;;;;;;;;;;;;
+fiji/desc;;;same;;;;;;;;;;;;;;;;;;;
+south_africa/name;South Africa;South Africa;same;;;;;;;;;;;;;;;;;;;
+south_africa/desc;;;same;;;;;;;;;;;;;;;;;;;
+dover/name;La Manche;La Manche;same;;;;;;;;;;;;;;;;;;;
+dover/desc;;;same;;;;;;;;;;;;;;;;;;;
+port_moresby/name;New Guinea;New Guinea;same;;;;;;;;;;;;;;;;;;;
+port_moresby/desc;;;same;;;;;;;;;;;;;;;;;;;
+midway/name;Midway;Midway;same;;;;;;;;;;;;;;;;;;;
+midway/desc;;;same;;;;;;;;;;;;;;;;;;;
+fuego_islands/name;Fuego islands;Fuego islands;same;;;;;;;;;;;;;;;;;;;
+fuego_islands/desc;;;same;;;;;;;;;;;;;;;;;;;
+africa_gulf/name;African Gulf;African Gulf;same;;;;;;;;;;;;;;;;;;;
+africa_gulf/desc;;;same;;;;;;;;;;;;;;;;;;;
+north_sea/name;North sea;North sea;same;;;;;;;;;;;;;;;;;;;
+north_sea/desc;;;same;;;;;;;;;;;;;;;;;;;
+fulda/name;Fulda;Fulda;same;;;;;;;;;;;;;;;;;;;
+fulda/desc;;;same;;;;;;;;;;;;;;;;;;;
+japan/name;Japan;Japan;same;;;;;;;;;;;;;;;;;;;
+japan/desc;;;same;;;;;;;;;;;;;;;;;;;
+phang_nga/name;Andaman sea;Andaman sea;same;;;;;;;;;;;;;;;;;;;
+phang_nga/desc;;;same;;;;;;;;;;;;;;;;;;;
+middle_east/name;Middle East;Middle East;same;;;;;;;;;;;;;;;;;;;
+middle_east/desc;;;same;;;;;;;;;;;;;;;;;;;
+ireland_bay/name;Ireland Bay;Ireland Bay;same;;;;;;;;;;;;;;;;;;;
+ireland_bay/desc;;;same;;;;;;;;;;;;;;;;;;;
+arabian_north_coast/name;Arabian sea;Arabian sea;same;;;;;;;;;;;;;;;;;;;
+arabian_north_coast/desc;;;same;;;;;;;;;;;;;;;;;;;
+ice_port/name;North port;North port;same;;;;;;;;;;;;;;;;;;;
+ice_port/desc;;;same;;;;;;;;;;;;;;;;;;;
+mediterranean_port/name;Mediterranean port;Mediterranean port;same;;;;;;;;;;;;;;;;;;;
+mediterranean_port/desc;;;same;;;;;;;;;;;;;;;;;;;
+italy_village/name;Italy;Italy;same;;;;;;;;;;;;;;;;;;;
+italy_village/desc;;;same;;;;;;;;;;;;;;;;;;;
+lazzaro_italy/name;Italy;Italy;same;;;;;;;;;;;;;;;;;;;
+lazzaro_italy/desc;;;same;;;;;;;;;;;;;;;;;;;
+lazzaro_italy_new_city/name;Campania;Campania;same;;;;;;;;;;;;;;;;;;;
+lazzaro_italy_new_city/desc;;;same;;;;;;;;;;;;;;;;;;;
+air_vietnam/name;Vietnam;Vietnam;same;;;;;;;;;;;;;;;;;;;
+air_vietnam/desc;;;same;;;;;;;;;;;;;;;;;;;
+vietnam/name;Vietnam;Vietnam;same;;;;;;;;;;;;;;;;;;;
+vietnam/desc;;;same;;;;;;;;;;;;;;;;;;;
+alaska_town/name;Alaska;Alaska;same;;;;;;;;;;;;;;;;;;;
+alaska_town/desc;;;same;;;;;;;;;;;;;;;;;;;
+american_valley/name;American Desert;American Desert;same;;;;;;;;;;;;;;;;;;;
+american_valley/desc;;;same;;;;;;;;;;;;;;;;;;;
+blacksea_port/name;Black Sea Port;Black Sea Port;same;;;;;;;;;;;;;;;;;;;
+blacksea_port/desc;;;same;;;;;;;;;;;;;;;;;;;
+alps_fjord/name;Green mountains gulf;Green mountains gulf;same;;;;;;;;;;;;;;;;;;;
+alps_fjord/desc;;;same;;;;;;;;;;;;;;;;;;;
+container_port/name;Cargo port;Cargo port;same;;;;;;;;;;;;;;;;;;;
+container_port/desc;;;same;;;;;;;;;;;;;;;;;;;
+japan_port/name;Japanese port;Japanese port;same;;;;;;;;;;;;;;;;;;;
+japan_port/desc;;;same;;;;;;;;;;;;;;;;;;;
+peleliu/name;Palau islands;Palau islands;same;;;;;;;;;;;;;;;;;;;
+peleliu/desc;;;same;;;;;;;;;;;;;;;;;;;
+finland_islands/name;South Kvarken;South Kvarken;same;;;;;;;;;;;;;;;;;;;
+finland_islands/desc;;;same;;;;;;;;;;;;;;;;;;;
+denmark/name;Denmark;Denmark;same;;;;;;;;;;;;;;;;;;;
+denmark/desc;;;same;;;;;;;;;;;;;;;;;;;
+bering_sea/name;Bering Sea;Bering Sea;same;;;;;;;;;;;;;;;;;;;
+bering_sea/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/mozdok_avg_AfD;The Road for the Brave;The Road for the Brave;same;;;;;;;;;;;;;;;;;;;
+missions/mozdok_avg_AfD/desc;"In this event pilots should capture the road (that is being controlled by tankers) by ""taxi-ing"" down the road with the landing gear down. Tankers should prevent aircraft from capturing the road during the whole mission.";"In this event pilots should capture the road (that is being controlled by tankers) by ""taxi-ing"" down the road with the landing gear down. Tankers should prevent aircraft from capturing the road during the whole mission.";same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_angel_britain_BfD_norespawn;"Operation ""Chastise""";"Operation ""Chastise""";same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_angel_britain_BfD_norespawn/desc;"On the 16th and 17th of May, 1943, the RAF bomber groups provided massive attacks over the industrial areas of the Ruhr. Take part in operation ""Chastise"", which can significantly weaken the enemy.";"On the 16th and 17th of May, 1943, the RAF bomber groups provided massive attacks over the industrial areas of the Ruhr. Take part in operation ""Chastise"", which can significantly weaken the enemy.";same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_bombers_BfD_norespawn;[Event] Tamsak-Bulak;[Event] Tamsak-Bulak;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_bombers_BfD_norespawn/desc;On June 27, 1939, more than one hundred Japanese bombers delivered a sudden strike on the Mongolian base at Tamsak-Bulak. Soviet fighters take off to meet them in the air.;On June 27, 1939, more than one hundred Japanese bombers delivered a sudden strike on the Mongolian base at Tamsak-Bulak. Soviet fighters take off to meet them in the air.;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_bombers_BfD_norespawn;[Event] Attack on Port Moresby;[Event] Attack on Port Moresby;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_bombers_BfD_norespawn/desc;In March 1942, Japanese forces launched an operation near the cities of Salamaua and Lae in New Guinea. One of the steps in this operation was the attack on the airfields belonging to the Allies.;In March 1942, Japanese forces launched an operation near the cities of Salamaua and Lae in New Guinea. One of the steps in this operation was the attack on the airfields belonging to the Allies.;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_sb2_BfD_norespawn;[Event] Khalkhin Gol;[Event] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_sb2_BfD_norespawn/desc;At the beginning of summer, Soviet bombers tried to destroy several Japanese airfields, which would have allowed Soviet aviation to achieve air superiority. However, the Japanese, whose fighters were superior and pilots more experienced at the time, disrupted the plan.;At the beginning of summer, Soviet bombers tried to destroy several Japanese airfields, which would have allowed Soviet aviation to achieve air superiority. However, the Japanese, whose fighters were superior and pilots more experienced at the time, disrupted the plan.;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_bombers_BfD_norespawn;[Event] Sicily;[Event] Sicily;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_bombers_BfD_norespawn/desc;After the Allied forces had landed in Sicily, the German command tried to conduct a massive bombing attack on the airfield where a great number of enemy aircraft had gathered.;After the Allied forces had landed in Sicily, the German command tried to conduct a massive bombing attack on the airfield where a great number of enemy aircraft had gathered.;same;;;;;;;;;;;;;;;;;;;
+missions/assault_spawn;Strike aircraft;Strike aircraft;same;;;;;;;;;;;;;;;;;;;
+missions/interceptor_spawn;Interceptors;Interceptors;same;;;;;;;;;;;;;;;;;;;
+missions/aaa_fighter_spawn;Air Defence Fighters;Air Defence Fighters;same;;;;;;;;;;;;;;;;;;;
+missions/main_bomber_spawn;Bombers;Bombers;same;;;;;;;;;;;;;;;;;;;
+missions/far_bomber_spawn;Long Range Bombers;Long Range Bombers;same;;;;;;;;;;;;;;;;;;;
+missions/dover_reinforcement_BfD_norespawn;[Operation] Boulogne-sur-Mer;[Operation] Boulogne-sur-Mer;same;;;;;;;;;;;;;;;;;;;
+missions/kursk_GSA;[Ground Strike] Fiery Arc;[Ground Strike] Fiery Arc;same;;;;;;;;;;;;;;;;;;;
+missions/kursk_GSA/desc;"One of the conflicting parties is preparing a deeply echeloned defense behind their lines.
+
+Defenders' objectives:
+- Cover the ground forces from air attacks
+
+Attackers' objectives:
+- Destroy the enemy bases and ground vehicles";"One of the conflicting parties is preparing a deeply echeloned defense behind their lines.
+
+Defenders' objectives:
+- Cover the ground forces from air attacks
+
+Attackers' objectives:
+- Destroy the enemy bases and ground vehicles";same;;;;;;;;;;;;;;;;;;;
+missions/kursk_GSB;[Ground Strike] Fiery Arc;[Ground Strike] Fiery Arc;same;;;;;;;;;;;;;;;;;;;
+missions/kursk_GSB/desc;"One of the conflicting parties is preparing a deeply echeloned defense behind their lines.
+
+Defenders' objectives:
+- Cover the ground forces from air attacks
+
+Attackers' objectives:
+- Destroy the enemy bases and ground vehicles";"One of the conflicting parties is preparing a deeply echeloned defense behind their lines.
+
+Defenders' objectives:
+- Cover the ground forces from air attacks
+
+Attackers' objectives:
+- Destroy the enemy bases and ground vehicles";same;;;;;;;;;;;;;;;;;;;
+missions/africa_desert_BfD_norespawn;Battle of El Alamein;Battle of El Alamein;same;;;;;;;;;;;;;;;;;;;
+missions/africa_desert_BfD_norespawn/desc;In October of 1942, the El Alamein operation started, which is considered a decisive battle in the North African Theatre. During the battle, the British army defeated the North African Italo-German formation of Field-Marshal Rommel.;In October of 1942, the El Alamein operation started, which is considered a decisive battle in the North African Theatre. During the battle, the British army defeated the North African Italo-German formation of Field-Marshal Rommel.;same;;;;;;;;;;;;;;;;;;;
+missions/rheinland_BfD_norespawn;[Operation] Battle for the Rhine;[Operation] Battle for the Rhine;same;;;;;;;;;;;;;;;;;;;
+missions/tunisia_desert_BfD_norespawn;[Operation] Battle of Tunisia;[Operation] Battle of Tunisia;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_germany_bombers_BfD_norespawn;[Event] Moscow Factory;[Event] Moscow Factory;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_germany_bombers_BfD_norespawn/desc;Winter 1941. The German army is rushing towards Moscow. Raids of German bombers on Moscow and the nearby factories are happening all the time.;Winter 1941. The German army is rushing towards Moscow. Raids of German bombers on Moscow and the nearby factories are happening all the time.;same;;;;;;;;;;;;;;;;;;;
+missions/poland_BfD_norespawn;[Operation] Poland;[Operation] Poland;same;;;;;;;;;;;;;;;;;;;
+missions/normandy_BfD_norespawn;[Operation] Normandy;[Operation] Normandy;same;;;;;;;;;;;;;;;;;;;
+missions/ctf_poland_Dom;[Banner] Poland;[Banner] Poland;same;;;;;;;;;;;;;;;;;;;
+missions/ctf_poland_Dom/desc;"In [Banner] mode, players have to capture the flag and assault enemy positions while holding it.
+
+- Grab the Banner!
+- Assault the enemy position while holding it.
+
+The flag can be intercepted by destroying the standard bearer.
+You can burn up to 1/3 enemy points at a time.
+Only the standard bearer can capture the enemy zone.
+The zone captured by the enemy can be recaptured.";"In [Banner] mode, players have to capture the flag and assault enemy positions while holding it.
+
+- Grab the Banner!
+- Assault the enemy position while holding it.
+
+The flag can be intercepted by destroying the standard bearer.
+You can burn up to 1/3 enemy points at a time.
+Only the standard bearer can capture the enemy zone.
+The zone captured by the enemy can be recaptured.";same;;;;;;;;;;;;;;;;;;;
+missions/rheinland_ctf;[Capture the Flag] Advance to the Rhine;[Capture the Flag] Advance to the Rhine;same;;;;;;;;;;;;;;;;;;;
+missions/rheinland_ctf/desc;"In [Capture the Flag] mode, players have to capture the enemy's Flag and bring it to their Flag.
+If you destroy a player who carries the enemy flag, the Flag falls to the ground. If the flag is picked up by a teammate, they will continue to carry it. If the Flag is picked up by a player of the team whose Flag was stolen, the Flag returns to its original position.";"In [Capture the Flag] mode, players have to capture the enemy's Flag and bring it to their Flag.
+If you destroy a player who carries the enemy flag, the Flag falls to the ground. If the flag is picked up by a teammate, they will continue to carry it. If the Flag is picked up by a player of the team whose Flag was stolen, the Flag returns to its original position.";same;;;;;;;;;;;;;;;;;;;
+berlin_dblDom;[Total Domination] Berlin;[Total Domination] Berlin;same;;;;;;;;;;;;;;;;;;;
+berlin_dblDom/desc;In [Total Domination] mode, two teams fight for domination at two strategic points. None of the teams can afford to lose a battle at any of them. They need a complete victory!;In [Total Domination] mode, two teams fight for domination at two strategic points. None of the teams can afford to lose a battle at any of them. They need a complete victory!;same;;;;;;;;;;;;;;;;;;;
+rheinland_dblDom;[Total Domination] Advance to the Rhine;[Total Domination] Advance to the Rhine;same;;;;;;;;;;;;;;;;;;;
+rheinland_dblDom/desc;In [Total Domination] mode, two teams fight for domination at two strategic points. None of the teams can afford to lose a battle at any of them. They need a complete victory!;In [Total Domination] mode, two teams fight for domination at two strategic points. None of the teams can afford to lose a battle at any of them. They need a complete victory!;same;;;;;;;;;;;;;;;;;;;
+abandoned_factory_dblDom;[Total Domination] Abandoned factory;[Total Domination] Abandoned factory;same;;;;;;;;;;;;;;;;;;;
+abandoned_factory_dblDom/desc;In [Total Domination] mode, two teams fight for domination at two strategic points. None of the teams can afford to lose a battle at any of them. They need a complete victory!;In [Total Domination] mode, two teams fight for domination at two strategic points. None of the teams can afford to lose a battle at any of them. They need a complete victory!;same;;;;;;;;;;;;;;;;;;;
+missions/_ctf;[Capture the Flag];[Capture the Flag];same;;;;;;;;;;;;;;;;;;;
+missions/_ctf/desc;"In [Capture the Flag] mode, players have to capture the enemy's Flag at the enemy point and bring it to the allied point. The location of both points is marked on the minimap.
+
+If you destroy a player who carries the enemy Flag - the Flag falls to the ground. If the Flag is picked up by a teammate - they continue to carry it. If the Flag is picked up by a player of the team whose Flag was stolen - the Flag returns to its original position. If a player of any team delivers the Flag to their allied point - both Flags return to their initial places.";"In [Capture the Flag] mode, players have to capture the enemy's Flag at the enemy point and bring it to the allied point. The location of both points is marked on the minimap.
+
+If you destroy a player who carries the enemy Flag - the Flag falls to the ground. If the Flag is picked up by a teammate - they continue to carry it. If the Flag is picked up by a player of the team whose Flag was stolen - the Flag returns to its original position. If a player of any team delivers the Flag to their allied point - both Flags return to their initial places.";same;;;;;;;;;;;;;;;;;;;
+missions/fiji_Conq;[Conquest] Fiji;[Conquest] Fiji;same;;;;;;;;;;;;;;;;;;;
+missions/fiji_Conq/desc;"In [Conquest] mode two teams fight for control over one strategic point.
+
+Fleet objectives:
+- Capture and hold the point ╸";"In [Conquest] mode two teams fight for control over one strategic point.
+
+Fleet objectives:
+- Capture and hold the point ╸";same;;;;;;;;;;;;;;;;;;;
+missions/_NTdm;[┚ Encounter];[┚ Encounter];same;;;;;;;;;;;;;;;;;;;
+missions/_NTdm/desc;"In [┚ Encounter] teams must destroy the enemy fleet with a cover located in the rear.
+
+Fleet objectives:
+- Destroy the enemy fleet with a cover.";"In [┚ Encounter] teams must destroy the enemy fleet with a cover located in the rear.
+
+Fleet objectives:
+- Destroy the enemy fleet with a cover.";same;;;;;;;;;;;;;;;;;;;
+missions/_NDom;[┚ Domination];[┚ Domination];same;;;;;;;;;;;;;;;;;;;
+missions/_NDom/desc;"In [┚ Domination] mode teams fight for control over three strategic points in the location.
+
+Fleet objectives:
+- Capture and keep the advantage by points captured ╸,╹,╺";"In [┚ Domination] mode teams fight for control over three strategic points in the location.
+
+Fleet objectives:
+- Capture and keep the advantage by points captured ╸,╹,╺";same;;;;;;;;;;;;;;;;;;;
+missions/_NBttl;[┚ Battle];[┚ Battle];same;;;;;;;;;;;;;;;;;;;
+missions/_NBttl/desc;"In [┚ Battle] mode, teams will initially have one strategic point that is not available for capture by the enemy team. In order to activate an enemy’s strategic point for capture, you must control both of the regular capture points (╸ and ╹).
+Capturing an enemy strategic point will result in an instant victory.
+
+Fleet objectives:
+- Capture point ╸ and ╹ to activate the enemy strategic point
+- Capture all active points on the map for an instant victory";"In [┚ Battle] mode, teams will initially have one strategic point that is not available for capture by the enemy team. In order to activate an enemy’s strategic point for capture, you must control both of the regular capture points (╸ and ╹).
+Capturing an enemy strategic point will result in an instant victory.
+
+Fleet objectives:
+- Capture point ╸ and ╹ to activate the enemy strategic point
+- Capture all active points on the map for an instant victory";same;;;;;;;;;;;;;;;;;;;
+missions/_simple_NBttl/desc;"
+
+In [┚ Battle] mode each of the teams starts with one strategic point captured. If one of the teams manages to re-capture another team's point, it wins instantly.
+
+Fleet objectives:
+- Capture the enemy point <color=@teamRedColor>╶</color>
+- Prevent the capture of the allied point <color=@teamBlueColor>╶</color>";"
+
+In [┚ Battle] mode each of the teams starts with one strategic point captured. If one of the teams manages to re-capture another team's point, it wins instantly.
+
+Fleet objectives:
+- Capture the enemy point <color=@teamRedColor>╶</color>
+- Prevent the capture of the allied point <color=@teamBlueColor>╶</color>";same;;;;;;;;;;;;;;;;;;;
+missions/_NConq;[┚ Conquest];[┚ Conquest];same;;;;;;;;;;;;;;;;;;;
+missions/_NConq/desc;"
+
+In [┚ Conquest] mode, teams fight for control over one strategic point.
+
+Fleet objectives:
+- Capture and hold the point ╸";"
+
+In [┚ Conquest] mode, teams fight for control over one strategic point.
+
+Fleet objectives:
+- Capture and hold the point ╸";same;;;;;;;;;;;;;;;;;;;
+missions/_simple_NConq/desc;"
+
+In [┚ Conquest] mode, teams fight for control over one strategic point.
+
+Fleet objectives:
+- Capture and hold the point ╸";"
+
+In [┚ Conquest] mode, teams fight for control over one strategic point.
+
+Fleet objectives:
+- Capture and hold the point ╸";same;;;;;;;;;;;;;;;;;;;
+missions/sicily_hasky_BfD_norespawn;[Operation] Husky;[Operation] Husky;same;;;;;;;;;;;;;;;;;;;
+missions/arcade_phiphi_crater_rocks_wingball_AD;Wingball;Wingball;same;;;;;;;;;;;;;;;;;;;
+missions/arcade_phiphi_crater_rocks_wingball_AD/desc;In Wingball, players need to pick up the ball in the center of the map and fly with it through one of the two enemy waypoints. The 'goal' at the distant waypoint will bring in 2 times more points!;In Wingball, players need to pick up the ball in the center of the map and fly with it through one of the two enemy waypoints. The 'goal' at the distant waypoint will bring in 2 times more points!;same;;;;;;;;;;;;;;;;;;;
+missions/hurtgen_BfD_norespawn;[Operation] Hürtgen;[Operation] Hürtgen;same;;;;;;;;;;;;;;;;;;;
+missions/hurtgen_BfD_norespawn/desc;A series of huge battles in the Hürtgen Forest to the east of the German-Belgian border.;A series of huge battles in the Hürtgen Forest to the east of the German-Belgian border.;same;;;;;;;;;;;;;;;;;;;
+missions/hurtgen_2_BfD_norespawn;[Air Battle] Hürtgen. Second Battle;[Air Battle] Hürtgen. Second Battle;same;;;;;;;;;;;;;;;;;;;
+missions/training_ground_race;Tank Biathlon;Tank Biathlon;same;;;;;;;;;;;;;;;;;;;
+missions/training_ground_race/desc;Make your way to the finish line with the aid of both your driving and shooting skills!;Make your way to the finish line with the aid of both your driving and shooting skills!;same;;;;;;;;;;;;;;;;;;;
+missions/black_sea_race;Naval Biathlon;Naval Biathlon;same;;;;;;;;;;;;;;;;;;;
+missions/black_sea_race/desc;Make your way to the finish line with the aid of both your steering and shooting skills!;Make your way to the finish line with the aid of both your steering and shooting skills!;same;;;;;;;;;;;;;;;;;;;
+missions/_BfD_norespawn;[Operation];[Operation];same;;;;;;;;;;;;;;;;;;;
+missions/_BfD_norespawn/desc;"
+
+In [Operation] mode teams should complete various tasks in order to win.
+
+Mission objectives:
+- Destroy indicated ground targets
+- Destroy the enemy bases
+- Destroy the enemy airfield";"
+
+In [Operation] mode teams should complete various tasks in order to win.
+
+Mission objectives:
+- Destroy indicated ground targets
+- Destroy the enemy bases
+- Destroy the enemy airfield";same;;;;;;;;;;;;;;;;;;;
+missions/_frontline_BfD_norespawn;[Front Line];[Front Line];same;;;;;;;;;;;;;;;;;;;
+missions/_frontline_BfD_norespawn/desc;"
+
+In [Front Line] mode teams should complete various tasks at the front line in order to win.
+
+Mission objectives:
+- Destroy indicated ground targets
+- Destroy the enemy bases
+- Destroy the enemy airfield";"
+
+In [Front Line] mode teams should complete various tasks at the front line in order to win.
+
+Mission objectives:
+- Destroy indicated ground targets
+- Destroy the enemy bases
+- Destroy the enemy airfield";same;;;;;;;;;;;;;;;;;;;
+missions/_frontline_GS;[Front Line];[Front Line];same;;;;;;;;;;;;;;;;;;;
+missions/_frontline_GS/desc;In [Front Line] mode, teams should destroy indicated targets and fulfil other tasks in order to win. Every destroyed unit affects the result!;In [Front Line] mode, teams should destroy indicated targets and fulfil other tasks in order to win. Every destroyed unit affects the result!;same;;;;;;;;;;;;;;;;;;;
+missions/el_amain_BfD_norespawn;[Operation] El Alamein;[Operation] El Alamein;same;;;;;;;;;;;;;;;;;;;
+missions/malta_alt_chapter1_BfD_norespawn;[Operation] Landing to Malta;[Operation] Landing to Malta;same;;;;;;;;;;;;;;;;;;;
+missions/malta_alt_chapter2_BfD_norespawn;[Operation] Battle at Malta;[Operation] Battle at Malta;same;;;;;;;;;;;;;;;;;;;
+missions/zhengzhou_46_BfD_norespawn;[Operation] China Civil War 1946;[Operation] China Civil War 1946;same;;;;;;;;;;;;;;;;;;;
+missions/zhengzhou_46_BfD_norespawn/desc;;;same;;;;;;;;;;;;;;;;;;;
+sector_montmedy/name;Maginot Line;Maginot Line;same;;;;;;;;;;;;;;;;;;;
+sector_montmedy/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/_ny_ctf;Chasing Christmas;Chasing Christmas;same;;;;;;;;;;;;;;;;;;;
+missions/_ny_ctf/desc;Try to capture the enemy Christmas tree whilst keeping yours safe or at least be the first to bring the other team’s tree home!;Try to capture the enemy Christmas tree whilst keeping yours safe or at least be the first to bring the other team’s tree home!;same;;;;;;;;;;;;;;;;;;;
+missions/_ny_gift_ctf;Festive Delivery;Festive Delivery;same;;;;;;;;;;;;;;;;;;;
+missions/_ny_gift_ctf/desc;Two teams of Christmas elves are helping Santa gather presents. The team that collects the most presents wins.;Two teams of Christmas elves are helping Santa gather presents. The team that collects the most presents wins.;same;;;;;;;;;;;;;;;;;;;
+missions/_naval_ny_gift_ctf;┚ Festive Delivery;┚ Festive Delivery;same;;;;;;;;;;;;;;;;;;;
+missions/_naval_ny_gift_ctf/desc;Two teams of Christmas elves are helping Santa gather presents again. The team that collects 3 presents and takes them to their own Christmas tree wins.;Two teams of Christmas elves are helping Santa gather presents again. The team that collects 3 presents and takes them to their own Christmas tree wins.;same;;;;;;;;;;;;;;;;;;;
+missions/tank_football_Tdm;Tank Football;Tank Football;same;;;;;;;;;;;;;;;;;;;
+missions/tank_football_Tdm_squads;Tank Football (squads);Tank Football (squads);same;;;;;;;;;;;;;;;;;;;
+missions/tank_football_Tdm/desc;"In Tank Football, players need to put the ball into the opponent's goal.
+The winner is the team that has scored more points at the end of the game.";"In Tank Football, players need to put the ball into the opponent's goal.
+The winner is the team that has scored more points at the end of the game.";same;;;;;;;;;;;;;;;;;;;
+missions/respawn_outfield;Outfield player;Outfield player;same;;;;;;;;;;;;;;;;;;;
+missions/respawn_keeper;Goalkeeper;Goalkeeper;same;;;;;;;;;;;;;;;;;;;
+missions/respawn_ingame;At the touch-line;At the touch-line;same;;;;;;;;;;;;;;;;;;;
+missions/naval_newbie;(boats);(boats);same;;;;;;;;;;;;;;;;;;;
+missions/air_newbie;(light vehicles);(light vehicles);same;;;;;;;;;;;;;;;;;;;
+missions/small;(small);(small);same;;;;;;;;;;;;;;;;;;;
+missions/winter;(winter);(winter);same;;;;;;;;;;;;;;;;;;;
+missions/1946;(1946);(1946);same;;;;;;;;;;;;;;;;;;;
+missions/sector_montmedy_44_BfD_norespawn;[Air Battle] France 1944;[Air Battle] France 1944;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_2_BfD_norespawn;[Air Battle] Moscow 1941;[Air Battle] Moscow 1941;same;;;;;;;;;;;;;;;;;;;
+missions/ladoga_43_BfD_norespawn;[Air Battle] Operation Iskra;[Air Battle] Operation Iskra;same;;;;;;;;;;;;;;;;;;;
+missions/_HS;[⋡ Ground Strike];[⋡ Ground Strike];same;;;;;;;;;;;;;;;;;;;
+missions/_HS/desc;"Mission objectives:
+
+- Destroy enemy ground forces";"Mission objectives:
+
+- Destroy enemy ground forces";same;;;;;;;;;;;;;;;;;;;
+africa_canyon/name;African Canyon;African Canyon;same;;;;;;;;;;;;;;;;;;;
+africa_canyon/desc;;;same;;;;;;;;;;;;;;;;;;;
+africa_seashore/name;Desert Coast;Desert Coast;same;;;;;;;;;;;;;;;;;;;
+africa_seashore/desc;;;same;;;;;;;;;;;;;;;;;;;
+norway_fjords/name;Fjords;Fjords;same;;;;;;;;;;;;;;;;;;;
+norway_fjords/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/_HfD;[⋡ Domination];[⋡ Domination];same;;;;;;;;;;;;;;;;;;;
+missions/_HfD/desc;;;same;;;;;;;;;;;;;;;;;;;
+mediterranean/name;Greece;Greece;same;;;;;;;;;;;;;;;;;;;
+meditetanean/desc;;;same;;;;;;;;;;;;;;;;;;;
+rice_terraces/name; Rice Terraces; Rice Terraces;same;;;;;;;;;;;;;;;;;;;
+rice_terraces/desc;;;same;;;;;;;;;;;;;;;;;;;
+zhang_park/name;Grave Robbers' Cliffs;Grave Robbers' Cliffs;same;;;;;;;;;;;;;;;;;;;
+zhang_park/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/_NCnv;[┚ Convoy];[┚ Convoy];same;;;;;;;;;;;;;;;;;;;
+missions/_NCnvA;[┚ Convoy #1];[┚ Convoy #1];same;;;;;;;;;;;;;;;;;;;
+missions/_NCnvA/defensive;[┚ Convoy #1];[┚ Convoy #1];same;;;;;;;;;;;;;;;;;;;
+missions/_NCnvA/offensive;[┚ Convoy Interception #1];[┚ Convoy Interception #1];same;;;;;;;;;;;;;;;;;;;
+missions/_NCnvB;[┚ Convoy #2];[┚ Convoy #2];same;;;;;;;;;;;;;;;;;;;
+missions/_NCnvB/defensive;[┚ Convoy #2];[┚ Convoy #2];same;;;;;;;;;;;;;;;;;;;
+missions/_NCnvB/offensive;[┚ Convoy Interception #2];[┚ Convoy Interception #2];same;;;;;;;;;;;;;;;;;;;
+missions/_NCnv/desc;"
+
+In [┚ Convoy] mode one of the teams covers the naval convoy from attacks from the second team.
+
+Defenders' objectives:
+- Defend the ship convoy
+
+Attackers' objectives:
+- Destroy the enemy ship convoy";"
+
+In [┚ Convoy] mode one of the teams covers the naval convoy from attacks from the second team.
+
+Defenders' objectives:
+- Defend the ship convoy
+
+Attackers' objectives:
+- Destroy the enemy ship convoy";same;;;;;;;;;;;;;;;;;;;
+missions/_NCnv/desc/defensive;"Our naval convoy is being attacked by enemy vessels.
+
+Mission objective:
+- Cover the vessels in our convoy before they leave the combat area";"Our naval convoy is being attacked by enemy vessels.
+
+Mission objective:
+- Cover the vessels in our convoy before they leave the combat area";same;;;;;;;;;;;;;;;;;;;
+missions/_NCnv/desc/offensive;"We have attacked an enemy naval convoy.
+
+Mission objective:
+- Destroy the enemy convoy before it leaves the combat area";"We have attacked an enemy naval convoy.
+
+Mission objective:
+- Destroy the enemy convoy before it leaves the combat area";same;;;;;;;;;;;;;;;;;;;
+missions/fiji_NS;[┚ Operation] Fiji;[┚ Operation] Fiji;same;;;;;;;;;;;;;;;;;;;
+missions/fiji_NS/desc;;;same;;;;;;;;;;;;;;;;;;;
+vietnam_hills/name;Vietnam;Vietnam;same;;;;;;;;;;;;;;;;;;;
+vietnam_hills/desc;;;same;;;;;;;;;;;;;;;;;;;
+air_afghan/name;Afghanistan;Afghanistan;same;;;;;;;;;;;;;;;;;;;
+air_afghan/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/air_afgan_BfD_norespawn;[Alternate History] Afghanistan;[Alternate History] Afghanistan;same;;;;;;;;;;;;;;;;;;;
+coral_islands/name;Coral Islands;Coral Islands;same;;;;;;;;;;;;;;;;;;;
+coral_islands/desc;;;same;;;;;;;;;;;;;;;;;;;
+volcanic_islands/name;Volcanic Island;Volcanic Island;same;;;;;;;;;;;;;;;;;;;
+volcanic_islands/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/air_smolensk_1941_BfD_norespawn;[Operation] Smolensk. 1941;[Operation] Smolensk. 1941;same;;;;;;;;;;;;;;;;;;;
+missions/air_smolensk_1943_BfD_norespawn;[Operation] Smolensk. 1943;[Operation] Smolensk. 1943;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_01;Magicienne Bay;Magicienne Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_02;Faibus San Hilo Point;Faibus San Hilo Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_03;Mutcho Point;Mutcho Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_04;Dennay Port;Dennay Port;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_05;Asiga Bay;Asiga Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_06;Marpo Point;Marpo Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_01_air;Magicienne Bay;Magicienne Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_02_air;Faibus San Hilo Point;Faibus San Hilo Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_03_air;Mutcho Point;Mutcho Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_04_air;Dennay Port;Dennay Port;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_05_air;Asiga Bay;Asiga Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_06_air;Marpo Point;Marpo Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_01_destroyers;Magicienne Bay;Magicienne Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_02_destroyers;Faibus San Hilo Point;Faibus San Hilo Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_03_destroyers;Mutcho Point;Mutcho Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_04_destroyers;Dennay Port;Dennay Port;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_05_destroyers;Asiga Bay;Asiga Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_06_destroyers;Marpo Point;Marpo Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_01_cruisers;Magicienne Bay;Magicienne Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_02_cruisers;Faibus San Hilo Point;Faibus San Hilo Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_03_cruisers;Mutcho Point;Mutcho Point;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_04_cruisers;Dennay Port;Dennay Port;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_05_cruisers;Asiga Bay;Asiga Bay;same;;;;;;;;;;;;;;;;;;;
+missions/saipan_pt_port_06_cruisers;Marpo Point;Marpo Point;same;;;;;;;;;;;;;;;;;;;
+missions/t1_our_cargo_fleet_spawn;Allied convoy;Allied convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t2_our_cargo_fleet_spawn;Friendly convoy;Friendly convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t1_enemy_cargo_fleet_spawn;Enemy convoy;Enemy convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t2_enemy_cargo_fleet_spawn;Enemy convoy;Enemy convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t1_our_cargo_fleet_spawn_for_planes;Friendly convoy;Friendly convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t2_our_cargo_fleet_spawn_for_planes;Friendly convoy;Friendly convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t1_enemy_cargo_fleet_spawn_for_planes;Enemy convoy;Enemy convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t2_enemy_cargo_fleet_spawn_for_planes;Enemy convoy;Enemy convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t1_enemy_cargo_fleet_spawn_for_boats;Enemy convoy;Enemy convoy;same;;;;;;;;;;;;;;;;;;;
+missions/t2_enemy_cargo_fleet_spawn_for_boats;Enemy convoy;Enemy convoy;same;;;;;;;;;;;;;;;;;;;
+missions/air_afghan_BfDn;[Operation] Near East;[Operation] Near East;same;;;;;;;;;;;;;;;;;;;
+missions/air_ladoga_BfDn;[Operation] Lake Ladoga;[Operation] Lake Ladoga;same;;;;;;;;;;;;;;;;;;;
+missions/air_smolensk_BfDn;[Operation] Counterstrike under Smolensk;[Operation] Counterstrike under Smolensk;same;;;;;;;;;;;;;;;;;;;
+missions/air_vietnam_BfDn;[Operation] Cochinchina;[Operation] Cochinchina;same;;;;;;;;;;;;;;;;;;;
+missions/tunisia_BfDn;[Operation] Central Tunisia;[Operation] Central Tunisia;same;;;;;;;;;;;;;;;;;;;
+missions/pt_sea_spawn_01;Spawn point #1;Spawn point #1;same;;;;;;;;;;;;;;;;;;;
+missions/pt_sea_spawn_02;Spawn point #2;Spawn point #2;same;;;;;;;;;;;;;;;;;;;
+missions/rice_terraces_BfD_norespawn;[Operation] Laizhou Bay;[Operation] Laizhou Bay;same;;;;;;;;;;;;;;;;;;;
+missions/rice_terraces_BfD_norespawn/desc;"
+Mission objectives:
+- Bomb out the enemy base
+- Destroy enemy vehicles";"
+Mission objectives:
+- Bomb out the enemy base
+- Destroy enemy vehicles";same;;;;;;;;;;;;;;;;;;;
+missions/Dover;Dover;Dover;same;;;;;;;;;;;;;;;;;;;
+missions/Dover_cruisers;Dover;Dover;same;;;;;;;;;;;;;;;;;;;
+missions/Dover_destroyers;Dover;Dover;same;;;;;;;;;;;;;;;;;;;
+missions/Calais;Calais;Calais;same;;;;;;;;;;;;;;;;;;;
+missions/Calais_cruisers;Calais;Calais;same;;;;;;;;;;;;;;;;;;;
+missions/Calais_destroyers;Calais;Calais;same;;;;;;;;;;;;;;;;;;;
+missions/Dunkerque;Dunkerque;Dunkerque;same;;;;;;;;;;;;;;;;;;;
+missions/Dunkerque_cruisers;Dunkerque;Dunkerque;same;;;;;;;;;;;;;;;;;;;
+missions/Dunkerque_destroyers;Dunkerque;Dunkerque;same;;;;;;;;;;;;;;;;;;;
+missions/Boulogne-sur-Mer;Boulogne-sur-Mer;Boulogne-sur-Mer;same;;;;;;;;;;;;;;;;;;;
+missions/Boulogne-sur-Mer_cruisers;Boulogne-sur-Mer;Boulogne-sur-Mer;same;;;;;;;;;;;;;;;;;;;
+missions/Boulogne-sur-Mer_destroyers;Boulogne-sur-Mer;Boulogne-sur-Mer;same;;;;;;;;;;;;;;;;;;;
+missions/Ramsgate;Ramsgate;Ramsgate;same;;;;;;;;;;;;;;;;;;;
+missions/Ramsgate_cruisers;Ramsgate;Ramsgate;same;;;;;;;;;;;;;;;;;;;
+missions/Ramsgate_destroyers;Ramsgate;Ramsgate;same;;;;;;;;;;;;;;;;;;;
+missions/Folkestone;Folkestone;Folkestone;same;;;;;;;;;;;;;;;;;;;
+missions/Folkestone_cruisers;Folkestone;Folkestone;same;;;;;;;;;;;;;;;;;;;
+missions/Folkestone_destroyers;Folkestone;Folkestone;same;;;;;;;;;;;;;;;;;;;
+new_zeland_cape/name;New Zealand Cape;New Zealand Cape;same;;;;;;;;;;;;;;;;;;;
+new_zeland_cape/desc;;;same;;;;;;;;;;;;;;;;;;;
+sweden/name;Sweden;Sweden;same;;;;;;;;;;;;;;;;;;;
+sweden/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_01;Port 01;Port 01;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_02;Port 02;Port 02;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_03;Port 03;Port 03;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_04;Port 04;Port 04;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_05;Port 05;Port 05;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_06;Port 06;Port 06;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_07;Port 07;Port 07;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_08;Port 08;Port 08;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_01_air;Port 01;Port 01;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_02_air;Port 02;Port 02;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_03_air;Port 03;Port 03;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_04_air;Port 04;Port 04;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_05_air;Port 05;Port 05;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_06_air;Port 06;Port 06;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_07_air;Port 07;Port 07;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_08_air;Port 08;Port 08;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_01_destroyers;Port 01;Port 01;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_02_destroyers;Port 02;Port 02;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_03_destroyers;Port 03;Port 03;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_04_destroyers;Port 04;Port 04;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_05_destroyers;Port 05;Port 05;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_06_destroyers;Port 06;Port 06;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_07_destroyers;Port 07;Port 07;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_08_destroyers;Port 08;Port 08;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_01_cruisers;Port 01;Port 01;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_02_cruisers;Port 02;Port 02;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_03_cruisers;Port 03;Port 03;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_04_cruisers;Port 04;Port 04;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_05_cruisers;Port 05;Port 05;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_06_cruisers;Port 06;Port 06;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_07_cruisers;Port 07;Port 07;same;;;;;;;;;;;;;;;;;;;
+missions/denmark_pt_port_08_cruisers;Port 08;Port 08;same;;;;;;;;;;;;;;;;;;;
+aleutian_islands/name;Aleutian Islands;Aleutian Islands;same;;;;;;;;;;;;;;;;;;;
+aleutian_islands/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/air_ladoga_BfD_norespawn;[Operation] Lake Ladoga;[Operation] Lake Ladoga;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_42kilometer_BfD_norespawn;[Operation] Moscow. 42nd kilometer;[Operation] Moscow. 42nd kilometer;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_naro_fominsk_BfD_norespawn;[Operation] Moscow. Naro-Fominsk;[Operation] Moscow. Naro-Fominsk;same;;;;;;;;;;;;;;;;;;;
+missions/moscow_serpuhov_BfD_norespawn;[Operation] Moscow. Serpukhov;[Operation] Moscow. Serpukhov;same;;;;;;;;;;;;;;;;;;;
+missions/mozdok_winter_BfD_norespawn;[Operation] Mozdok. Winter 1943;[Operation] Mozdok. Winter 1943;same;;;;;;;;;;;;;;;;;;;
+missions/norway_BfD_norespawn;[Operation] Norway;[Operation] Norway;same;;;;;;;;;;;;;;;;;;;
+missions/april_spitzbergen_NConq;Underwater hunting;Underwater hunting;same;;;;;;;;;;;;;;;;;;;
+missions/april_spitzbergen_NConq/desc;You need to go to the area indicated on the map and carry out a missile strike.;You need to go to the area indicated on the map and carry out a missile strike.;same;;;;;;;;;;;;;;;;;;;
+missions/april_spitzbergen_deathmatch_NTdm;Underwater hunting;Underwater hunting;same;;;;;;;;;;;;;;;;;;;
+missions/april_spitzbergen_deathmatch_NTdm/desc;Your task is to find and destroy strategic submarines ready for a nuclear strike.;Your task is to find and destroy strategic submarines ready for a nuclear strike.;same;;;;;;;;;;;;;;;;;;;
+missions/arcade_floating_islands_AfD;TailSpin;TailSpin;same;;;;;;;;;;;;;;;;;;;
+missions/arcade_floating_islands_AfD/desc;The air above Cape-Sommerset bay is unsettled - rival clans from the Air Pirates Republic decided to determine the master of the region of Soaring Rocks once and for all.;The air above Cape-Sommerset bay is unsettled - rival clans from the Air Pirates Republic decided to determine the master of the region of Soaring Rocks once and for all.;same;;;;;;;;;;;;;;;;;;;
+missions/air_skyscraper_city_BfD_norespawn;[Operation] City;[Operation] City;same;;;;;;;;;;;;;;;;;;;
+nuclear_incident/name;Ground zero;Ground zero;same;;;;;;;;;;;;;;;;;;;
+nuclear_incident/desc;;;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_01_destroyers;Port 01;Port 01;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_02_destroyers;Port 02;Port 02;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_03_destroyers;Port 03;Port 03;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_04_destroyers;Port 04;Port 04;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_05_destroyers;Port 05;Port 05;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_06_destroyers;Port 06;Port 06;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_07_destroyers;Port 07;Port 07;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_08_destroyers;Port 08;Port 08;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_01_cruisers;Port 01;Port 01;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_02_cruisers;Port 02;Port 02;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_03_cruisers;Port 03;Port 03;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_04_cruisers;Port 04;Port 04;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_05_cruisers;Port 05;Port 05;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_06_cruisers;Port 06;Port 06;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_07_cruisers;Port 07;Port 07;same;;;;;;;;;;;;;;;;;;;
+missions/peleliu_pt_port_08_cruisers;Port 08;Port 08;same;;;;;;;;;;;;;;;;;;;
+missions/eastern_front_1941;[Assault] Poland (1941);[Assault] Poland (1941);same;;;;;;;;;;;;;;;;;;;
+missions/eastern_front_1943;[Assault] Kursk (1943);[Assault] Kursk (1943);same;;;;;;;;;;;;;;;;;;;
+missions/middle_east_1973;[Assault] Sinai (1973);[Assault] Sinai (1973);same;;;;;;;;;;;;;;;;;;;
+missions/africa_desert_convoy_pvet;[Convoy] Second battle of El Alamein (1942);[Convoy] Second battle of El Alamein (1942);same;;;;;;;;;;;;;;;;;;;
+missions/volokolamsk_convoy_pvet;[Convoy] Volokolamsk (1942);[Convoy] Volokolamsk (1942);same;;;;;;;;;;;;;;;;;;;
+country_sky_pirates;The Republic of Sky Pirates;The Republic of Sky Pirates;same;;;;;;;;;;;;;;;;;;;
+event/war2077;Warfare 2077;Warfare 2077;same;;;;;;;;;;;;;;;;;;;
+missions/western_europe_Dom;Warfare 2077;Warfare 2077;same;;;;;;;;;;;;;;;;;;;
+missions/_defdom;[DEF-Domination];[DEF-Domination];same;;;;;;;;;;;;;;;;;;;
+missions/_defdom/desc;"
+
+In [DEF-Domination] mode, the area of hostilities is guarded by a defense system that accumulates charge and periodically inflicts an electromagnetic blow on all invaders.
+The emitters are located underground and are ineffective for attacking targets along the applicate axis. Thus, the areas above the emitters are safe and are marked on the map as DEF-zones.
+DEF-zones are not capable of preventing aircraft from being irradiated, so they are advised to keep their distance from the battlefield during an electromagnetic strike.";"
+
+In [DEF-Domination] mode, the area of hostilities is guarded by a defense system that accumulates charge and periodically inflicts an electromagnetic blow on all invaders.
+The emitters are located underground and are ineffective for attacking targets along the applicate axis. Thus, the areas above the emitters are safe and are marked on the map as DEF-zones.
+DEF-zones are not capable of preventing aircraft from being irradiated, so they are advised to keep their distance from the battlefield during an electromagnetic strike.";same;;;;;;;;;;;;;;;;;;;
+event/tailspin_progress;"
+
+Unlock new aircraft by shooting down enemies and supporting your teammates!
+You can monitor your progress at the bottom of the screen - which aircraft are already open and what needs to be done to open the rest!
+All open aircraft are available in battle!";"
+
+Unlock new aircraft by shooting down enemies and supporting your teammates!
+You can monitor your progress at the bottom of the screen - which aircraft are already open and what needs to be done to open the rest!
+All open aircraft are available in battle!";same;;;;;;;;;;;;;;;;;;;
+chapters/deathmatch;Encounter;Encounter;same;;;;;;;;;;;;;;;;;;;
+chapters/capture_the_flag;Capture the Flag;Capture the Flag;same;;;;;;;;;;;;;;;;;;;
+chapters/battle_royale;Battle Royale;Battle Royale;same;;;;;;;;;;;;;;;;;;;
+chapters/confrontation;Confrontation;Confrontation;same;;;;;;;;;;;;;;;;;;;
+chapters/other;Other;Other;same;;;;;;;;;;;;;;;;;;;
+chapters/all;All Categories;All Categories;same;;;;;;;;;;;;;;;;;;;
+chapters/dom;Domination;Domination;same;;;;;;;;;;;;;;;;;;;
+missions/honolulu_alt_BfD_norespawn;[Operation] Military Exercise on Oahu;[Operation] Military Exercise on Oahu;same;;;;;;;;;;;;;;;;;;;
+missions/equatorial_island_BfD_norespawn;[Operation] Bourbon Island;[Operation] Bourbon Island;same;;;;;;;;;;;;;;;;;;;
+missions/air_israel_BfD_norespawn;[Operation] Golan Heights;[Operation] Golan Heights;same;;;;;;;;;;;;;;;;;;;
+missions/air_israel_wide_spawns_BfD_norespawn;[Operation] Golan Heights (air spawns);[Operation] Golan Heights (air spawns);same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_01_for_t1;Helipad 1;Helipad 1;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_02_for_t1;Helipad 2;Helipad 2;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_03_for_t1;Helipad 3;Helipad 3;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_04_for_t1;Helipad 4;Helipad 4;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_05_for_t1;Helipad 5;Helipad 5;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_06_for_t1;Helipad 6;Helipad 6;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_07_for_t1;Helipad 7;Helipad 7;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_08_for_t1;Helipad 8;Helipad 8;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_09_for_t1;Helipad 9;Helipad 9;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_10_for_t1;Helipad 10;Helipad 10;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_11_for_t1;Helipad 11;Helipad 11;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_12_for_t1;Helipad 12;Helipad 12;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_13_for_t1;Helipad 13;Helipad 13;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_14_for_t1;Helipad 14;Helipad 14;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_15_for_t1;Helipad 15;Helipad 15;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_16_for_t1;Helipad 16;Helipad 16;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_17_for_t1;Helipad 17;Helipad 17;same;;;;;;;;;;;;;;;;;;;
+missions/afp_base_18_for_t1;Helipad 18;Helipad 18;same;;;;;;;;;;;;;;;;;;;
+missions/arachis_Dom;Children of Arachis;Children of Arachis;same;;;;;;;;;;;;;;;;;;;
+missions/arachis_Dom/desc;"
+The mission objective is to achieve control over three key points.
+Proceed with extreme caution! Firing guns and moving at high speed attract the sand worm!";"
+The mission objective is to achieve control over three key points.
+Proceed with extreme caution! Firing guns and moving at high speed attract the sand worm!";same;;;;;;;;;;;;;;;;;;;
+country_arachis_bull;House of the Bull;House of the Bull;same;;;;;;;;;;;;;;;;;;;
+country_arachis_hawk;House of the Hawk;House of the Hawk;same;;;;;;;;;;;;;;;;;;;
+missions/_Aslt;[Advance];[Advance];same;;;;;;;;;;;;;;;;;;;
+missions/_Aslt/desc;"
+
+In the [Advance] event teams are divided into attackers and defenders.
+
+Atackers team objective:
+- Consecutively capture all enemy points
+
+Defenders team objective:
+- Hold defensive positions and don't let enemy capture the points";"
+
+In the [Advance] event teams are divided into attackers and defenders.
+
+Atackers team objective:
+- Consecutively capture all enemy points
+
+Defenders team objective:
+- Hold defensive positions and don't let enemy capture the points";same;;;;;;;;;;;;;;;;;;;
+event/advance;Advance;Advance;same;;;;;;;;;;;;;;;;;;;
+event/advance/desc;"
+The attackers have to consecutively capture all the points on a map,
+while the defenders have to protect them.";"
+The attackers have to consecutively capture all the points on a map,
+while the defenders have to protect them.";same;;;;;;;;;;;;;;;;;;;
+missions/area_88;"[Collabo] Special battle ""Area 88""";"[Collabo] Special battle ""Area 88""";same;;;;;;;;;;;;;;;;;;;
+missions/area_88/desc;"In this mode, for every 11 aircraft shot down, you can randomly obtain one of the 8 types of personal mark decals in ""Area 88"". If you collect all the decals for shooting down 88 aircraft, which is equivalent to a $1.5 million penalty, you will receive ""the flaming unicorn"" decal, which is the personal mark of the main character, Makoto Kazama, and the special camouflage for the F-5E TIGER II fighter, as well as the title ""Etranger"".";"In this mode, for every 11 aircraft shot down, you can randomly obtain one of the 8 types of personal mark decals in ""Area 88"". If you collect all the decals for shooting down 88 aircraft, which is equivalent to a $1.5 million penalty, you will receive ""the flaming unicorn"" decal, which is the personal mark of the main character, Makoto Kazama, and the special camouflage for the F-5E TIGER II fighter, as well as the title ""Etranger"".";same;;;;;;;;;;;;;;;;;;;
+missions/arctic_01;Arctic. Pier;Arctic. Pier;same;;;;;;;;;;;;;;;;;;;
+missions/arctic_02;Arctic. Polar base;Arctic. Polar base;same;;;;;;;;;;;;;;;;;;;
+at_gun_right_flank;Anti-tank gun (right flank);Anti-tank gun (right flank);same;;;;;;;;;;;;;;;;;;;
+at_gun_left_flank;Anti-tank gun (left flank);Anti-tank gun (left flank);same;;;;;;;;;;;;;;;;;;;
+missions/moscow_regular_BfD_norespawn;[Operation] Moscow;[Operation] Moscow;same;;;;;;;;;;;;;;;;;;;
+missions/air_ladoga_generic_BfD_norespawn;[Operation] Ladoga. Winter 1941;[Operation] Ladoga. Winter 1941;same;;;;;;;;;;;;;;;;;;;
+missions/egypt_sinai_BfD_norespawn;[Operation] Sinai;[Operation] Sinai;same;;;;;;;;;;;;;;;;;;;
+missions/air_vietnam_generic_BfD_norespawn;[Operation] Battle for Vietnam;[Operation] Battle for Vietnam;same;;;;;;;;;;;;;;;;;;;
+missions/air_pyrenees_BfD_norespawn;[Operation] Pyrenees;[Operation] Pyrenees;same;;;;;;;;;;;;;;;;;;;
+missions/air_southeastern_cliffs_BfD_norespawn;[Operation] Rocky Pillars;[Operation] Rocky Pillars;same;;;;;;;;;;;;;;;;;;;
+missions/air_southeastern_city_BfD_norespawn;[Operation] Southeastern City;[Operation] Southeastern City;same;;;;;;;;;;;;;;;;;;;
+missions/air_kamchatka_BfD_norespawn;[Operation] Kamchatka;[Operation] Kamchatka;same;;;;;;;;;;;;;;;;;;;
+missions/air_kamchatka_east_BfD_norespawn;[Operation] Kamchatka. East;[Operation] Kamchatka. East;same;;;;;;;;;;;;;;;;;;;
+missions/avatar_2022;Pandora’s Box;Pandora’s Box;same;;;;;;;;;;;;;;;;;;;
+missions/avatar_2022/desc;"
+The attackers have to destroy the Sacred Tree with incendiary rockets in the allotted time,
+while the defenders have to prevent the Sacred Tree from being destroyed.";"
+The attackers have to destroy the Sacred Tree with incendiary rockets in the allotted time,
+while the defenders have to prevent the Sacred Tree from being destroyed.";same;;;;;;;;;;;;;;;;;;;
+missions/_deepdefa;[Defense In Depth #1];[Defense In Depth #1];same;;;;;;;;;;;;;;;;;;;
+missions/_deepdefa/defensive;[Defense In Depth #1];[Defense In Depth #1];same;;;;;;;;;;;;;;;;;;;
+missions/_deepdefa/offensive;[Onslaught #1];[Onslaught #1];same;;;;;;;;;;;;;;;;;;;
+missions/_deepdefb;[Defense In Depth #2];[Defense In Depth #2];same;;;;;;;;;;;;;;;;;;;
+missions/_deepdefb/defensive;[Defense In Depth #2];[Defense In Depth #2];same;;;;;;;;;;;;;;;;;;;
+missions/_deepdefb/offensive;[Onslaught #2];[Onslaught #2];same;;;;;;;;;;;;;;;;;;;
+missions/_deepdef/desc/defensive;"Enemy armored forces are preparing to storm our defense in depth.
+
+Mission objective:
+- Prevent the enemy from breaking through and consecutively capturing all the key positions <color=@teamBlueColor>╶</color>";"Enemy armored forces are preparing to storm our defense in depth.
+
+Mission objective:
+- Prevent the enemy from breaking through and consecutively capturing all the key positions <color=@teamBlueColor>╶</color>";same;;;;;;;;;;;;;;;;;;;
+missions/_deepdef/desc/offensive;"We have begun an assault on the enemy defense in depth.
+
+Mission objective:
+- Consecutively capture all the enemy's key positions <color=@teamRedColor>╶</color> within the allotted time";"We have begun an assault on the enemy defense in depth.
+
+Mission objective:
+- Consecutively capture all the enemy's key positions <color=@teamRedColor>╶</color> within the allotted time";same;;;;;;;;;;;;;;;;;;;
+missions/_aconq;[Air Conquest];[Air Conquest];same;;;;;;;;;;;;;;;;;;;
+missions/_aconq/main/desc;Teams should destroy indicated targets, capture airfields and air zones and fulfil other tasks in order to win.;Teams should destroy indicated targets, capture airfields and air zones and fulfil other tasks in order to win.;same;;;;;;;;;;;;;;;;;;;
+missions/short/submarine_convoy_hunting_ncnv;Battle of the Atlantic;Battle of the Atlantic;same;;;;;;;;;;;;;;;;;;;
+missions/submarine_convoy_hunting_ncnv;Battle of the Atlantic;Battle of the Atlantic;same;;;;;;;;;;;;;;;;;;;
+missions/submarine_convoy_hunting_ncnv/desc;"
+Convoys consist of ships controlled by AI and escort ships controlled by players. If you are playing as a defender, you will win if you bring at least 20% of the cargo ships to the meeting point with the escort fleet!";"
+Convoys consist of ships controlled by AI and escort ships controlled by players. If you are playing as a defender, you will win if you bring at least 20% of the cargo ships to the meeting point with the escort fleet!";same;;;;;;;;;;;;;;;;;;;
+raider_vehicles;Raider vehicles;Raider vehicles;same;;;;;;;;;;;;;;;;;;;
+missions/air_mysterious_valley_spaceport_BfD_norespawn;[Operation] Mysterious Valley. Spaceport;[Operation] Mysterious Valley. Spaceport;same;;;;;;;;;;;;;;;;;;;
+MISSION_VERSUS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

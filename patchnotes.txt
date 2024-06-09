@@ -1,0 +1,1074 @@
+duhchuy's SCAM patchnotes
+
+2.36.0.16
+>
+Base > Three Gorges Dam
+_0 dates from row 5000-6200
+IL- > Il-
+liters. > ℓ
+50 kg Vliegtuigbom bomb > 39 kg Vliegtuigbom
+100 kg Vliegtuigbom bomb > 118 kg Vliegtuigbom
+BA-FG-230-Lizard-2 > 277 kg Lizard-2
+H.E. M.C. 540 lb > 295 kg╌
+105 mm Giat 105 G1 cannon > 105 mm CN 105 G1
+Strela-2M launcher > 9K32M SAM
+Strela-3 launcher > 9K34 SAM
+SAM 9M32M > 9M32M Strela-2M
+SAM 9M36 > 9M36 Strela-3
+2A36 Gun > 152 mm 2A36
+M198 howitzer > 155 mm M198
+BM-21 MLRS > BM-21 Grad
+TPS-43 Radar > AN/TPS-43A
+P-37 Radar > P-37 Sword
+MGM-52 Lance > M752 Lance
+9K72 > 9P117 Elbrus
+_0 Tornado F.3 Late > Tornado ADV F.3 CSP-AOP, 2006
+_0 Landsverk U-SH 204 GK > Unimog SH 405/2 cm 204 GK, 1961
+_1 U-SH 204 GK > ♚Lunchbox 204GK
+_0 ZSL92 > (WZ-551A) ZSL1992, 1998
+≁ > C≁U≁M
+1500Кр > 1500Kr
+
+2.35.1.88
+>
+Type 4 APCR > Pzgr.40 (imported ammo of identical stats)
+trim machine gun from ksp
+_0 dates from row 4600-5000
+revert unused PzGr 40W
+K.Z (mHb) > Kz (m.Hb)
+MEL58 mounting > Mod 58 II mount
+_0 He 112 A-0 V8 > He 112 A-0 V6
+106 mm > 105 mm (actual diameter over nomenclature)
+append series to SB
+
+2.35.1.80
+>
+_0 dates from row 4000-4600
+CA-16 Wirraway > CA-9 Wirraway
+K.18 cannon > Kanone 18
+K.40 cannon > Kanone 40
+_0 Yak-3(e) Eremin's > Boris Eremin's Yak-3, 1944
+Aluminium Alloy > Dural 24ST3
+remove cannon from French guns with CN designation i.e M-51 cannon > D1508 CN 105 D1
+_0 30B2 Valorisé > 30 B2 Revalorisé, 1983
+_0 Char léger AMX ELC > AMX Engin Léger de Combat bis, 1961
+_0 AMX-13 VTT DCA > AMX Véhicule Transport de Troupe/tourelle M45, 1965
+
+2.35.1.70
+>
+160 kg P.D 630 bomb > 630 kg P.D 630 bomb
+PL59A-130 HE > DJB1-130
+PL59A-130 Smoke > DJB1-130☁
+PL59A-130 HE-VT > DJB1-130 VT
+weapons/152mm_m81_naval_user_cannon 152 mm gun/launcher M81 > 152 mm M81 gun
+Vagn Eldledning AutomatKanon 40 > Vagn Eldledning AutomatKanon 40X62, 1966
+more battle-ass
+
+2.35.1.47
+>
+PaK/KwK/BK/FlaK/StuK/MK cannon > kanone
+_0 dates from row 3700-4000
+
+2.35.1.31
+>
+P-51D-20-NA > F-51D-20
+april mad max
+
+2.35.0.56
+>
+MIT 12.7 CRC F1 > 12.7 mm CRC F1 machine gun
+MiG-9 Late > MiG-9 (I-307), 1948
+_0 dates from row 3500-3700
+⛨P-47D-30 > ⛨F-47D-30
+☀P-47D-28 > ☀F-47D-28
+add Maverick to AGM-65G/H
+
+2.35.0.33
+>
+_0 dates from row 3300-3500
+fix Sherman Composito
+add trop to hurricane 2
+revert more unused assets
+
+2.34.0.28
+>
+fix SD10 bomb
+_0 dates from row 3000-3300
+adjust lendlease IT names to match Gli Autoveicoli da combattimento dell'Esercito Italiano
+
+2.34.0.20
+>
+_0 FV721 Fox > FV721 Fox CVR(W), 1974
+_0 AMX-13 VTT DCA > AMX 13 VTT défense contre-avion, 1965
+_0 AH-1W > AH-1W "Super Cobra"
+_0 AH-60 Battle Hawk > AH-60 "Yansuf 3"
+_0 dates from row 2900-3000
+12.7 mm M8C machine gun > 12.7 mm M8C spotting rifle
+GATR missiles > Guided Advanced Tactical Rocket
+Kh-38ML rockets > Kh-38ML missile
+Kh-38MT rockets > Kh-38MT missile
+SAM 9M39 > 9K38 SAM
+9М39 > 9M39 Igla
+410 mm No5 APC > 410 mm Type 5
+410 mm/45 Type 3 gun > 410 mm/45 Type 3 cannon
+М > M (remove cyrillic M)
+SNECMA Turbomeca Larzac > SNECMA Turbomeca
+04-C5 > Larzac 04-C5
+AUT > Auto
+
+2.33.0.150
+>
+T-80B obr. 1985g.> T-80BV obr. 1985g./Agava
+Sisu XA-180 > Sisu XA-181
+_0 dates from row 2800-2900
+
+2.33.0.120
+>
+update APFSDS type to correct length ratio and material
+update JP explosive ordnance to TM-9-1985-4
+split IJN and IJA bombs
+14-inch/45 BL Mk.VIII > 14-inch/45 Mk 8 (not bri*ish)
+less ammo > ammo-
+more ammo > ammo+
+_0 dates from row 2600-2800
+
+2.33.0.110
+>
+bunch of CN ammo changes
+404 not found
+_0 ADATS, XM1069 > LOS-F-H, XM1069
+
+2.33.0.95
+>
+units_weaponry only -pdr > Pr (match markings on gun)
+_0 Light Tank Stuart > Tank, Light, Stuart
+_0 Cruiser Tank Sherman > Tank, Cruiser, Sherman
+_0 Heavy Assault Tank Tortoise > Tank, Heavy Assault, Tortoise
+_0 MARS 15 > MARS 15/tourelle TS90
+_0 more dates from row 2400-2600
+
+2.33.0.65
+>
+Vickers K > Vickers GO
+Browning-FN M36 No.3 > LKk/36
+M68A1 cannon (auto) > EX35 cannon
+M594 > M599
+_0 more dates from row 2200-2400
+Medium Tank Turret Demonstrator > Medium Turret Technology Demonstrator
+
+2.33.0.54
+>
+_0 more dates from row 1800-2200
+
+2.33.0.40
+>
+separate shielding/unshielded ai units: add Pillbox back to XX_for_land_battles i.e Bofors 152 mm > Pillbox 152 mm m/98, update XX_coastal i.e Bofors 152 mm > 152 mm m/98
+№103 Landing craft > Daihatsu Landing craft
+№101 Landing craft > Ki Daihatsu Landing craft
+☭Liberty > Liberti
+_0 BM-8-24 > T-60/BM-8-24 obr. 1941g.
+Activate ESS to hide yourself from the enemy > Activate ESS to be a pussy
+Smoke screen doesn't hide you if the enemy is using the thermal sight > Smoke screen doesn't hide your pussy from thermal sights
+_0 more dates from row 1600-1800
+revert försöksmodell to fm
+_0 finn stuff gets numerical designator
+_0 projected vehicle depictions get P suffix, fictional get F suffix, i.e Pz.Kpfw. VI Ausf. B (H) mit Simmering Sla.16 > Pz.Kpfw. Tiger Ausf. B/Simmering Sla.16, 1945P, Pz.Kpfw. Panther II > Pz.Kpfw. Panther II/8.8 cm Kwk 43, 1945F, F-16C Block 50 Fighting Falcon > F-16C Block 50 "Fighting Falcon", 1993F
+
+2.33.0.21
+>
+_shop _1 JP missile AA swap SAM and Arrow
+flip 29-K and YaG-10
+M15 > M15A1
+_0 more dates from row 0-1600 i.e ▄M109A1 > ▄M109A1B, 1976
+BP-350A > BP-354A
+PTZ89 cannon > No.447 L/52 cannon
+6P49 machine gun > 6P49MT machine gun
+Type 41 cannonn > cannon
+Tigris > ◐Tigris, ◐E típusú Tigris
+AMX Ghibli > AMX ACOL "Ghibli", 2011
+
+2.32.0.26
+>
+_2 Car, SpzB > ⋤sPzB
+_2 M3 GMC > M3┴
+revert Goliath
+Type 4 Kou > Kō
+T320 > T320E60
+fix launcher designation from M to K, e.g 9M120 ATGM > 9K120 ATGM, 9M133 ATGM > 9K135 ATGM, 9M114 ATGM > 9K114 Shturm ATGM, 9M14 ATGM > 9K11 ATGM, 9M113 ATGM "Konkurs" > 9K111-1 ATGM
+3M7 Drakon ATGM > 2K4 ATGM
+3M7 > 3M7 Drakon
+9M114 Shturm missile > 9M114 Kokon missile
+fix launcher AAM > SAM, e.g AAM 9M37M > 9K35M SAM
+9M311-1M SAM > 2K22M SAM
+9M311 SAM > 2K22 SAM
+_0 ␗9K331 Tor-M1 > ␗9A331 "Tor-M1"
+replace ben column with unused asset identifier
+il_m109 > Rochev (e), M109A1L "Rochev", 1982
+il_m109a1 > Rochev (l), M109AL "Rochev", 1973
+Challenger 3 (P) > Challenger 2 LEP, Challenger 2 Life Extension Programme (RBSL), 2020
+move megatron to CR2 OES i.e Challenger 2 Operational Entry Standard «Megatron», 2017
+mirage_4000_0 > Super Mirage 4000
+add star to M1A1 AIM (not 'merican used)
+M1A1 Click-Bait > «Click-Bait»
+_1 Pvkv m/43 (1946) > Pvkv m/43 (open)
+Soukou-Tei > Sōkō-Tei
+5.8 mm QJT > QJT88
+replace cyrillic А with A (again?)
+f_15a_0 > F-15A MSIP I "Eagle"
+ACMAT TPK 6.41 VPC > VLRA TPK 6.41 Véhicule de Protection de Convoi
+JGSDF _0 got dates
+_0 M113A1 TOW > M113A1/TOW "Giraffe"
+tungsten > WA
+
+2.31.1.59
+>
+M109 > Rochev
+revert unused b_25j_30, g8n2, g5n2, mig-15bis_ns23, ki_84, me-410
+Smol Angel > Tiny Jörgen
+add ▀ to bf-109g-2_romania
+magach, merkava, WZ-120/121/122 dates
+Democracy? Non-negotiable > YUROP (poor)
+
+2.31.1.49
+>
+mission_beton_simple_br Bridge > Concretebridge
+bridge_stone_bu Bridge > Stonebridge
+beton_simple_br Bridge > Woodbridge
+_group Chally (e) > Chally 1
+_group Vampire > ▄Vampire
+italy ⛨MQ-1 > ⛨Predator A
+uk ▄MQ-1 > Predator A
+revert tutorial weapons and unused H-75s
+_2 AI vehicles > ⛟, player technical > ⋢ (crosshair truck), player armored car > ⋤ (crosshair AC)
+_1 Lunchbox DB Shotgun > ⛨Lunchbox DB Rifle
+_1 DB Rev. Rocket > ♚Lunchbox RakAm
+_1 Tractor > Technical (tractors can be technicals too)
+_2 SPz RakAm > ◄RakAm
+_2 Mirage > MIR- (like Ace Combat)
+BRENUS > Brenus (not an acronym)
+swap ARG, CAN, ZAF in DE to use FRG ◄Eisenkreuz
+remove ☨ from FR nuke Jaguar
+readd ☢ to Washington B Mk.1
+
+2.31.1.37
+>
+remove - between AMX-XX
+revert RAF M2 Browning
+correct weight of several bombs
+restore cannon/machine gun to akan/ksp
+kan > kanon
+27 mm Mauser BK27 cannon > 27 mm BK 27 cannon
+90 mm BK90 cannon > 90 mm BK 90 L/40 cannon
+revert ki-148 event (nolonger used)
+revert world war mode vehicles (nolonger used)
+40 mm Bofors DA 40/70 cannon > 40 mm Bofors-Breda L/70 cannon
+ZBD86 Late > ZBD86, 2020
+update a few modification descriptions
+fuel > ⛽
+medical > ⛑
+cargo > ╪ (crate)
+Harley-Davidson WLA > 42WLA
+Ford Gun Tractor > CMP FAT
+radio > ☎
+2A38, Mk 11 cannon > dual cannon 
+
+2.31.1.25
+>
+J52-P-8As > J52-P-8A
+revert Saab 35FS to Saab 35XS
+adjust many US _0 1980s names per DoD Index of Specs and Stds July 1989
+TF40-801A > TF40-IHI-801A
+An active air battle is already live, you can start a new one after current one ends > An active air battle is either happening or is bugged out
+_2 CR2 2E > CR2E
+_2 CR2 2F > CR2(2F)
+Armor-piercing incendiary bullet with high-explosive fragmentation (core) > Armor-piercing discarding sabot high-explosive incendiary
+Metal-polymer block > BDD Cast-poly
+_0 BTR-152D > BTR-152D/ZPTU-4
+_2 BTR-152 > BTR-152A
+revert JPz.IV/70 to Pz.IV/70
+TOW-2missiles > TOW-2 missiles
+_0 TOG II > Tank, Heavy, TOG II*
+_0 (WZ-123) MBT2000 > (BW-123C) MBT2000 "Al-Khalid"
+7_62mm_fn_mag_naval  FN MAG > L44A1
+FN MAG 60-40 > MAG 60.40
+unused assets revert to vanilla
+every bomb is now in kg since TNT equiv is in kg
+
+2.31.1.7
+>
+FN 60.30 > MAG 60.30
+armor-piercing bomb > AP bomb
+_short denote AP bombs
+old low HE% bombs switch to SAP
+ship projects get planned completion date with P appended
+HE-I-T-M2 > M2 HEI-T
+Granata Esplosiva mod.36R > Gr. Mod.36R
+Breda 90/53 > Breda 52/90
+ZSU-23-4 > Gandish
+Leopard 40/70 > ⛨Leopard/40
+_0 M109A1 > Howitzer, Medium, SP, 155 mm Gun, M109A1
+_0 M109G > mittlere Panzerhaubitze M109
+_0 T54E2 > 105 mm Gun Tank T54E2, 1956
+_0 Type 81 (C) Tan-SAM kai > Type 81 mod.C "Short Arrow" «Tan-SAM» Kai
+
+2.29.0.99
+>
+AAM MIM-72 > MIM-72 SAM
+swap VBCI _0 and _1
+You have custom localization enabled. If some texts in the game are displayed incorrectly, contact the author of the installed custom localization (mod) or disable it. > You have SCAM enabled. If some texts in the game are displayed incorrectly, too bad.
+_2 Chally 1 > CR1, Chally 2 > CR2, Vickers MX > Vickers X
+Shusui > Shūsui
+affût automoteur 3 pouces > chasseur de chars
+
+2.29.0.88
+>
+Jap post-1917 shipguns switch to metric
+remove custom loc label from menu
+
+2.29.0.72
+>
+reduce redundant JP variant designator (use of both -a/ko)
+Ki-48-II ostu > Ki-48-II kō
+_group Brigand > Obsolete
+Ki-27/Ki-43 > ☀Ki-27/43
+Car (fast) > FIAT
+Yak-3U/9UT > Yaks '45
+Yak-3P/9P > Yaks '46
+Yak-3/9U > Yaks '44
+JP planes in CN switch to Allied reporting names
+_shop _1
+A6M2 > A6M2b
+A6M2 mod. 11 > A6M2a
+MBT2000 > ␗Al-Khalid
+_0
+MBT2000 > (WZ-123) MBT2000 "Al-Khalid"
+add (1ª Div. Corazzata "M") to IT's Panzers
+Commonwealth of Independent States > Confederacy of Independent Systems
+╌3GD > SA
+South Asia > Beware of Trains
+European Union > Democracy? Non-negotiable
+North America > Supersized Degeneracy
+Omni-purpose bullet > Ball
+M2 Omni-purpose bullet > M2 Ball
+47 mm Pak.(t)(Sf.) cannon > 47 mm PaK36(t) cannon
+
+2.29.0.49
+>
+restore Mobnik and Obe-city
+remove extra 2 invite friend links
+update FY-2, modern RHAHH modifiers
+_group:
+V.G.33C/D.520 > Chasseur
+J8A/J6B > Jägare
+Martin 167/M.B.174A > Bombardier léger
+USS Fargo/USS Brooklyn > 6 inch Cruiser
+HMAS Tobruk/HMS Armada > Battle-class
+HMS Diana/HMS Daring > Daring-class
+HMS Kent/HMS Norfolk > County-class
+Anti-Tank Guided Missile > Kinetic Energy Missile
+_0 LOSAT-CCVL > Close Combat Vehicle Light, Anti-Tank, LOS, XM1071
+_0 Ki-48-II otsu > Ki-48-II otsu "Sōkei"
+PGZ1980 > W1988
+
+2.29.0.11
+>
+adjust more garbage group names, e.g Sea Hawk/Sea Venom > Sea Poop
+M.D.454/M.D.460 > Mystère 
+C. 202/C. 205 (e) > Macchi
+Breda 88/P.108 > ⛨Attack (multi)
+Ba.65/▄Ju 87 > ⛨Attack (single)
+TKX (P) > Tank Experimental 2-0005 Prototype №3, 2007
+12.7 mm s.MG.50 machine gun > 12.7 mm MG 50-1 machine gun
+
+2.28.0.27
+>
+undo color force in killcam
+Turan > Turán
+remove a few annoying hints, e.g "Use the 'crew' panel to improve pilot skills."
+cannonM61A1_pgu_28 > 20 mm M61A1 (1991) cannon
+updated bomb weights per patchnotes
+remove /930 from AMX-50
+2000 lb LDGP Mk 84 Air bomb > 2000 lb Mk 84 AIR ballute-type retarded bomb
+HU Bf 109 (Magyar Légierő) > "Messzer"
+apply HU roundel to Mi-24s
+PTL02/AFT09 > WZ-551
+
+2.28.0.21
+>
+redid group names to be less messy, e.g Magach 1/2 > Magach (1967)
+Magach 3/6 > Magach (1973)
+Magach 6A/5 > Magach (1979)
+Lorraine/Char > 50s FR Oscil
+Lorraine/ELC > 50s FR TD
+T-34/Pz.IV > 40s Fin
+PT/Comet > 50s Fin
+Strv 101/103A > 70s Strv
+Strv 104/103C > 80s Strv
+apply HU roundel to Hungarian veh, e.g 40/43.M Zrinyi II > ◐43M Zrínyi II
+2S1 > ◐2SZ1 "Gvozgyika"
+T-72M1 > ◐T-72M1 harckocsi
+2S1 > 2S1 "Gvozdika"
+Imp.Chaparral > Drakon
+MBT2000 > MBT2000 "Al-Khalid"
+Improved Chaparral > Carrier, Air Defense Missile System, Improved Chaparral, M730A1, 1981
+Leopard 2 PSO > Kampfpanzer Leopard 2 Peace Support Operation
+Versatile InDirect ARTillery > ＋K9A1 Versatile InDirect ARtillery
+40mm MAVAG 41.M 40/51 > 40 mm MÁVAG 41M L/51 cannon
+105mm Mavag 40/43M > 105 mm MÁVAG 40/43M cannon
+Leclerc AZUR > Char Leclerc Action en Zone URbaine
+_open_turret add (open) to open-top guns
+separate 20 pounder fume extractor variant
+Kh-XX rockets > Kh-XX missile
+20 mm Solothurn QF.36M cannon > 20 mm Solothurn 36M anti-tank rifle
+Flamethrower > ATO-200
+100 mm D-10T2S cannon> 100 mm D-10T2S cannon (less ammo)
+pancelgranat > páncélgranat
+a few more dates
+attempt to force non-damaging hits to red, damage to yellow, kills to green
+ИГЛА > Igla
+and other ILS-28 HUD text convert cyrilic to english
+20 mm Fucile Controcarri S Mod.39 antitank rifle > 20 mm Fucile anticarro "S" Mod.39
+
+2.27.2.41
+>
+update some french rounds
+undo some rounds where german doc conflict with TM 9-1985-3 Explosive Ordnance
+revert russian nicknames to 2SXX designation
+BMP-2 > BMP-2D
+add caliber barrel length to naval autocannons
+
+2.27.2.33
+>
+more dates for US tank per AGF Board No.2
+update apology text
+
+2.27.2.22
+>
+apply name to Lydia Litvyak's Yak-1
+_shop, _1 Pz.Sp.Wg.P204(f) KwK > P 204(f)/KwK
+_0 Patria CT-CV 105HP > AMV/CT-CV 105HP
+_1 add Suffren to Suffren-classe cruisers
+revert GBU from guided bombs
+
+2.27.1.74
+>
+remove "machine gun" from ksp m/XX
+Schneider-Canet 1898 cannon > Schneider-Canet L/30 cannon
+801A > 801L-2
+Pak > PaK
+fix soviet bomb weights
+FAB-1000M-44 > AP 891
+12.7 mm M80 machine gun > 12.7 mm M8C spotting rifle
+12.7 mm Type 60 (B) machine gun > 12.7 mm Type 60 spotting rifle
+revert Shillelagh from MGM-51s
+Improved TOW > I-TOW
+
+2.27.1.66
+>
+_0 Schützenpanzer 12-3 mit Leichtgeschütz > Schützenpanzer (lang) 12-3/10 cm Leichtgeschütz
+_shop, _1 SPz 12-3 LGS > SPz 12-3/LGs
+_0 B7A2 (Homare 23) Ryusei > B7A2 Ryūsei model 12
+_0 S 26-class, MC 485 > Schnellboote 1939/40, MC 485, 1955
+for US AN/MX > AN-MX e.g AN/M2 > AN-M2
+
+2.27.1.32
+>
+() around landsverk designation
+unify Sverige designation S/I > S-I
+revert french roland to vanilla
+_0 fix Semovente M43 da 75/34 (14° Rgt. Cav. di Alessandria)
+_0 fix M42 Duster per MS-51978, M3 Bradley per MS-52267, M901 per MS-52225
+_shop, _1 add ◄ to F-4Fs, applicable to Ben
+_shop, _1 EBR (1963) > EBR revalorisé
+_2 EBR '63⌂ > EBR 90⌂
+formatting changed for year of state rather than model year, e.g Pr.1124 (1940) > Pr.1124, 1940
+Cruiser Mk.IV (1939) > Cruiser Mk.IV, 1939, AMX-30 (1972) > AMX-30B, 1972
+_shop, _1 IL-10 > IL-10 (e), IL-10 (1946) > IL-10 (l)
+_0 IL-10 (1946) > IL-10, 1946, ␗IL-10 (1946) > ␗IL-10, 1952
+_0 Pz.Kpfw. T 34 747 (r) > Pz.Kpfw. T-34/76 Ausf. D 747(r)
+
+2.27.0.83
+>
+_0 undo M728, GAZ-MM, M103 changes
+_0 WZ-121H > BW-121G
+_0 ◄UH-1D > ◄UH-1D "Teppichklopfer"
+revert nonplayble S 204s, Centaur AA, IA 58 to vanilla
+_shop, _1 revert M163, M247, M1128, XM8, M901 to vanilla
+_0 add dates for many stuff, e.g M60-1961, M551-1970, M46-1950, T95E1-1958, T92-1958, M56-1957, M42-1953, M103-1958, etc
+_0 switch XM1 from Hunnicutt to Aberdeen designation
+_0 ROC tanks switch to translated localized name, e.g ☀90 mm Gun Tank M48A1 > ☀M48A1 "Fire Bull", 1978
+_0 ☀M18/M10 Gun Motor Carriage > Tank Destoyer
+_0 remove "Full-Tracked" from US post-1991
+_shop, _1 add east/west german symbols to some coastal boats
+revert Type 10 (P) to TKX-2
+
+2.27.0.71
+>
+naval tutorial revert
+more key not assigned messages deleted
+_0 FV4007 Tank Combat 17pdr Centurion Mk.1* > Tank, Cruiser, A41 Centurion Mk.I*
+_0 FV4007 Tank Combat 17pdr Centurion Mk.2 > Tank, Cruiser, A41A Centurion Mk.II
+9M133M-2 ATGM > 9M133M-2 Kornet missile
+9M133FM3 ATGM > 9M133FM-3 Kornet-M missile
+fix 9M120 Ataka, Python 3, french 75mm/35
+_0 Fix M60s, M50, M56, M41A1, M46, M47, M163, M48A1 to post-1959 naming scheme
+_0 XM975, XM1069 correction
+flakpanzer trim
+MBT/XM > MBT-70
+XM8 > XM8 "Buford"
+_0 Pz.38(t) n.A. > Pz.Kpfw. 38(t) neue Art
+
+2.27.0.57
+>
+_0 Alecto I > SP, 95 mm, Mk.III, A25 Alecto Mk.I
+_0 Vijayanta > Vijayanta Mk.1A
+more removal of vehicle type from copy paste premiums at _0
+_0 Improved Performance > Improved Product
+_0 switch T92 and T95E1 to post-1959 naming scheme like M60s
+MBT-70 > XM70
+_0 XM975 "Roland" > Missile, Air Defence Artillery, SP, Roland, XM975
+_0 Fighting Vehicle, Cavalry, M3 > Fighting Vehicle, Cavalry, M3A0 "Bradley"
+_0 M3 (Air Defense Anti-Tank System) > Missile, Air Defence Artillery, SP, ADATS, XM1069 LOS-F(H)
+pillbox 6-inch Gun M1905 > 6-inch M1905A2
+125 mm L/54 cannon > 125 mm No.201 L/54 cannon
+155 mm G6 L/45 cannon > 155 mm G5 L/45 cannon
+12.8 cm SK C/41 naval gun > 12.8 cm/45 SK C/41 cannon
+76 mm/62 SMP 3 gun > 76 mm/62 SMP-3 cannon
+40 mm Bofors L/70 model 1948 cannon > 40 mm/70 Bofors SAK-40/L70-315 mount
+120 mm L/12 Type 3 short gun > 120 mm Type 3 L/12 cannon
+120 mm 122TM cannon > 120 mm No.617 L/48 cannon
+_1 _2 "1221" (P) > "122-2" (P)
+_0 Object 122 Medium Tank "Mechanical Controls" > Project 122-2 Triple Mechanical/Type 302
+_1 _2 Object 211 > "211" (P)
+125 mm Type 99A cannon > 125 mm ZPT98A L/50 cannon
+125 mm Type 88C cannon > 125 mm ZPT98 cannon
+_0 M4/T26 > Medium Tank M4 "Sherman"/T26
+
+2.27.0.35
+>
+30 mm HE-T > 3UOR-6
+152 mm/55 model 1930 gun > 152 mm/55 Mle1930 cannon
+75 mm/35 model 1927 > 75 mm/35 Mle1915 cannon, Mle1925 mount
+torp, mine, depth are blue
+bomb, bullet, rocket are green
+shell, arty, air def are red
+_0 Type 1936A (Mob)-class, Marceau, 1950 > Zerstörer 1936A (Mob), Marceau (D601), 1950
+_1 Marceau > Marceau (Typ 1936A)
+Ships of a single ship class remove class from name, e.g
+_0 Emile Bertin-class, Emile Bertin, 1942 > Emile Bertin, 1942
+_0 Jeanne d'Arc-class, Jeanne d'Arc, 1944 > Jeanne d'Arc, 1944
+ Azimuth %d, the altitude is about %d > Azimuth %d, Altitude %d
+50% to get "Requesting UAV online" instead of "Requesting air reconnaissance"
+MG3 > MG 3
+MG4 > MG 4
+BP Plamya > AG-17M "Plamya"
+130 mm dist. grenade > 130 mm OF-28
+130 mm pat.1928 HE > 130 mm DG-28
+130 mm pat.1928 SAP > 130 mm PB-46
+76 mm APHE > 76 mm ASP M78
+76 mm/55 39-K cannon > 76 mm/55 Pattern 1935, 39-K mount
+75 mm Ansaldo 75 L/34 cannon > 75 mm Ansaldo L/34 Mod.SF cannon and other Italian tank guns
+revert some US naval ammo too verbose: Antiair common > PD
+common > BF
+AA HE-TF > TF
+apply red to kills by air
+apply green to kills by ground
+apply blue to kills by sea
+apply gold to damage by equipment
+▄PBY-5A Catalina (Late) > ☨PBY-5A "Catalina", 1946
+138,6 mm/55 model 1910 gun > 138.6 mm/55 Mle1910 cannon and other french naval guns
+_0 VBCI-2 (MCT30) > Véhicule Blindé de Combat d'Infanterie/tourelle MCT30
+distinguish german from french boats, e.g
+Jaguar-class, Panthere > Jaguar-classe, Panthère
+9К121 > 9K121
+500Кр > 500Kr
+25МЛ > 25ML
+АБ > 500Sh
+9K127 Vikhr > 9M121 Vikhr like the rest of russian atgms
+30x170 APHEI > RIA
+30x170 HEI > UIA
+30x170 HEI-T > UIAT
+30х170 APDS-T > RINT
+20 mm Mk.149 APDS > MK 149 and minor us naval ammo 
+MK258 > MK 258 Mod 0
+MK266 > MK 266 Mod 0
+fix incendiary weight
+_1 remove PLSS
+85 mm Type 63 cannon > 85 mm Type 62-85TC cannon (1980)
+swap Peten (e) and Peten, tech tree one is newer
+30 mm HE > 3UOF-8
+30 mm APT > 3UBR-6
+mg131 description IAI > HEIT
+Undelete some Type ammo suffix for killfeed clarity e.g 1-72-13 > Type 73 HEAT
+3 pdr Mk.2 HE > 47 mm HE
+3 pdr QF Hotchkiss cannon > 47 mm/40 HQF 3-pdr MK.II cannon + other pdr changes
+fix churchill na75 gun
+G6 Smoke > M1 SCM☁ + more smoke clouds
+O-FUM-PH-105 F3 > OFUM PH105 F3
+100 mm, 120 mm Obus de rupture > OR 100, OR 120
+120 mm Obus explosif > OE 120 + more french ammo homogenization
+_0 Raketenjagdpanzer 2 (HOT) > Raketenjagdpanzer 2/HOT Prototyp
+fix GAZ mm > GAZ-MM
+german word salad reduction: Selbstfahrlafette > Sfl., Sonderfahrgestell > Sf., Fahrgestell > Fgst.
+27ЭР > 27ER
+АБ > 500-62
+retarded bombs gets ╌ suffix if name too similar e.g 1000-фн Mk.13 №117 > 1000 lb Mk.13╌
+500 lb Mk 81 Snakeye > 250 lb Mk 81 Snakeye
+remove ldgp from bombs
+OE 155 56 > OE 155 Mle1956
+french model > Mle or Modèle
+_0 Raketenautomat > SPz lg 12-3/8 cm Zwilling-Raketenautomat
+_1, _2 Raketenautomat > SPz RakAm
+_1 M1 KVT > «LODKA»
+Lancaster MR.7 > ☨Lancaster MR.7
+Magach Hydra > Magach 6/Hydra
+_0 Type 87 RCV (P) > Reconnaissance Combat Vehicle "Black Eye" Prototype
+_2 Light tank > RCV20⌂
+_1 Sherman III/IV > ♚Sherman Mk.III/IV
+_0 ▅AH-1S, 1984 > ▅AH-1E, 1989
+88B-105T > ZPL83A
+Type 83 > ZPL83
+Applied israeli name to helis, i.e AH-64A (e) > Peten (e)
+◄Mi-24P HFS 80 > ◄Mi-24P
+_1 > AH-1S Kisarazu > «Kisarazu»
+_1 ▅AH-64D > AH-64DJP
+_0 Centurion Mk.2 > FV4007 Tank Combat 17 pdr Centurion Mk.2
+revert old ai boats at _2 to vanilla
+equalized torpedoes, remove wet-heater, steam turbine
+OCC 60-62 > OCC 90-62
+Panzerbataillon > PzBtl
+MGS «Wolfpack»
+L6/40 (31 Rgt.) > ⛨L6/40
+FY-1D1 ERA > FY-1D1 ERA (0.30 KE) and more armor cleanup
+Saab 21 "Tvestjärten"
+_0 J26 David > J 26 (P-51B-7) "Mustang" «Vit David»
+S 100 (30) > S 147
+S 100 (37) > S 100
+T108 > M348
+76 mm 1902/30 cannon > 76 mm Mod.1902/30 cannon
+3-inch/50 Mk.33 cannon > 3-inch/50 Mk.22 cannon
+3-inch/50 Mk.34 gun > 3-inch/50 Mk.22 cannon, Mk.34 mount
+3-inch/70 Mk.37 cannon > 3-inch/70 Mk.26 cannon, Mk.37 mount
+Automitrailleuse de découverte P modèle 1935/SA35 «Voiture 47» > Voiture Spéciale Type 178/SA35 (1st RAM)
+TKX > Type 10 (P)
+5-inch/54 Mk.18 cannon, Mk.42 mount > 5-inch/54 Mk.42 gun mount
+AMX-13-90 > AMX-13/90
+Fly to the tank battlefield to activate the bomb fuze > Fly to the battlefield to arm the nuke
+cut down on _0 names of copypasta
+Leopard 2PL, 2019 > Czołg Leopard 2PL
+☨Char moyen M4A4T "Sherman"/SA50 > ☨M4A4 Transformé M50 "Sherman"
+variance to get "leech" and "shit" instead of "dumb" and "cum"
+more patch notes cleanup
+_0 "Burakkuai" > "Black Eye" and more JP nicknames
+Pfeil > ◄Pfeil
+_shop AMD.35 (SA35) > «Voiture 47»
+_0 ▅Medium Tank M4A3(76)W HVSS > ▅M4A3(76)W HVSS Medium Tank "Emuyon"
+_0 remove hetzer
+_0 ▅90-mm Gun Motor Carriage M36 > M36 Special Vehicle (1954)
+_0 Type 61 > Type 61 Tank "Rokuichi", and others
+_2 jp tanks updated to ##+abreviation
+FY-1 ERA, 2 layers (0.50 KE) > FY-2 ERA (0.50 KE) gaijoob finally confirmed
+Type 73 SUB-I-II > SUB-II-2
+_0 ▅90 mm Gun Tank M47 > M47 Special Vehicle (1956)
+_0 UH-1B "Hiyodori" > HU-1B "Hiyodori"
+▅UH-1B > HU-1B
+remove starship from m60a2, a-historical
+12Zars > 12Z
+HUD_DESTROYED_BY_AMMO %s ammunition - %s > %s - %s
+hints/bailout_cant_repair The plane can't be repaired, you'll leave it > Gaijin is a cunt, fuck your repair
+Martin Model 167-A3 "Maryland" > Martin Model 167-F3 "Glenn"
+mount Mk.XX > Mk.XX mount
+forgot a copypaste 100mm B-34, fixed
+ui: death/wingOveload Wing overload crash > Skill Issue
+NET_PLAYER_HAS_CRASHED	has crashed. > has a skill issue.
+cluster/SA	NotChina > ╌3GD (bomb 3 gorges dam)
+Bulletproof glass > Glass (0.20 KE|0.22 CE)
+FY-1 ERA (two layered, 0.50 KE) > FY-1 ERA, 2 layers (0.50 KE)
+hints/save_ammo	Shoot more accurately - conserve ammo. > Shoot more accurately - get gud.
+improved install and patch notes, highlight skill issue color=#b00baa
+reduced redundancy eg. (model)(weight)(swedish)(english) > (model)(weight)(swedish)
+add tail number to big brit bomb
+Q-5A > Q-5I
+reduced redundancy eg. (model)(weight)(german)(english) > (model)(weight)(german)
+Lwf 63/80 air-to-air missiles > Lwf 63/80 (AIM-9P-3) missile
+Lwf LB 82 air-to-ground missile > Lwf LB 82 (AGM-65B) missile
+naval cleanup eg. 130 mm B-13 mount > 130 mm/50 Patt.1936, B-13 mount
+76 mm 34-K mount > 76 mm/55 patt.1935, 34-K mount
+100 mm/56 B-34 pattern 1940 > 100 mm/56 patt.1940, B-34 mount
+_1,_2 Re.2001 gruppo 22 > ⛨Re.2001 serie 1
+_0 remove vehicle type from more copypasta premiums
+Leopard 2 (PzBtl 123) > ◄Leopard 2A4
+_2 roman numeral to arabic numeral
+add "skill issue" to crash in kill feed
+_0, (WZ-1001) ZTZ1999A Prototype №2 > (WZ-1001) ZTZ1999A №3, Long Cannon Prototype
+shop _1, ZTZ99A P2 > WZ-1001 (L/54)
+germ_3x280mm_sk_c34_for_land_battles_0 38 cm SK C/34 > 28 cm SK C/34 (woops)
+Pz.35(t) RM > ▀Pz.35(t)
+standardize serie/series to -XX suffix notation at _2
+75 mm APX cannon > APX Canon-obusier de 75 mm Mle1929
+75 mm APX Canon de 75 mm modèle 1897 cannon > APX Canon de 75 mm Mle1897
+_1,_2 Krasnolutsky's I-15bis > ☭I-15bis
+Type 16 (FPS) > ▅Type 16 MCV
+KPz T-72M1 > Kampfpanzer T-72M1
+Challenger 2E > Tank, Combat, 120 mm Gun, Challenger 2 EuroPowerPack, 2002
+Yak-141 > Yak-41
+_0 M53/59 > Praga PLDvK vz.53/59 "Ještěrka"
+Ariete AMV PT1 > Ariete Ammodernamento di Mezza Vita PT1
+Merkava Siman 4 LIC > Merkava Siman 4 Low Intensity Conflict
+ZTS63 > ZTS63-II
+cn_0 le.Pz.Sp.Wg. (2 cm) Ausf.A 1.Serie > le.Pz.Sp.Wg. Sd.Kfz. 222 Ausf.A Serie 1 "Háo xū"
+153-class, Pfeil (P6193) > Ferocity-class, 153-type, Pfeil (P6193)
+replace ▀ Wehrmacht with ◄ on postww2 bundeswehr vehicles
+Jagdpanzer Kürassier > Cazacarro Kürassier (treating it as Argentino like TAM, IE58, etc)
+ddr ▀BMP-1P > ◊BMP-1P
+add weight to lots of incendiary bombs
+replace Saab with austrian inverted triangle or swed crown
+J 35XS > ＋35FS
+Vautour IIN (I) > Vautour II-1N
+＋ZSU-57-2 > ＋ItPsv 57-2
+AMX-50 (1950) > AMX-50 (90)
+AMX-50 (1951) > AMX-50 (100)
+Fuso > Fusō
+Kongo > Kongō
+Yubari > Yūbari
+german capitalship armament to cm
+made german ammo consistent (again), e.g 38 cm R Spgr.4581 > 38 cm R.Sprgr.4581
+100 mm Cannone da 100/17 Mod.1914 cannon > Obice da 100 mm/17 Mod. 1914
+some () > / optimizing
+14R > 14R-4
+_0 split italian tanks from pre-august 1942 reform names
+_0 M3 Degem Alef/TCM-20 > M3 Zachlam Hatzirim
+_1 Challenger DS > «ØC»
+APC > ╟
+(date) > , date
+long > L15/30
+secondary > ┖
+short tungsten > L10 tungsten
+starshell > ▉
+Vickers P > PV
+/L > (l), /E > (e)
+_0 ▄90 mm Gun Motor Carriage M36B2 > ☨Canon automoteur de 90 mm M36B2 (CEFEO)
+_0 copy pasta with «name» no longer have vehicle class like Char léger, you fucking know what it is
+_0 S-199 > S-199 "Sakeen"
+_1 Ystervark > ▄Tractor (20)
+_2 Challenger > Chally
+_2 challenger 2 (2f) > challenger 2f
+_2 E.B.R. (1951) > EBR '51⌂
+_2 Eland 90, bradleys, AMX-10, EBR, AML will have binos
+_2 Flak 38 > ▀2 cm▤
+_2 historical abbreviated name (87AW, 89FV, etc)
+_2 I-16 type XX > I-16-XX
+_2 Leopard > Leo
+_2 Lighting > Lighting 6
+_2 Lighting F.53 > Lighting 53
+_2 Proto. > (P)
+_2 remove mm from technicals
+_2 Spitfire F.XX > Spitfire XX
+_2 Super Mystère > SMB2
+_2 Technical > ⛟
+_2 trim off Mk.
+_shop, _1 A.C. IV > A.C. Mk.IV
+＋T-80U > ♚T-80U
+▂A-20G-30 Havoc > ☭A-20G-30 "Zhuchok"
+▄Ar 196 A-5 > ＋Ar 196 A-5
+▄Bf 109 G-6 > ＋Bf 109 G-6 (Trop) "Mersu"
+▄Bf 109 G-6 Erla > ＋Bf 109 G-6/AS "Mersu"
+▄Brewster Model 239 > Brewster Model 239E "Taivaan Helmi"
+▀CR.42/C.202 group > ▀Caccia
+▄F-16A ADF Fighting Falcon > ▄F-16A-15 "Fighting Falcon" (Peace Caesar)
+▄Fokker D.XXI Series 3 > Tykki-Fokker D.XXI III-sarjan
+▀MiG-21 ""Lazur-M""" > ▀MiG-21bis-Lazur
+☭Medium Tank M3 > ☭M3 Medium (reversion to vanilla)
+10 mins left > 4 mins left
+105 mm M-51 > D1504
+105mm_M68A1_IP_user_cannon > 105 mm M68A1 (1991) cannon
+106 mm Recoilless Rifle s.r.M40A1 Cannone > 106 mm Senza Rinculo M40A1 cannone
+14K II c32 > K14-II C32
+15 mm MG151 (all except overheating naval) cannon > machine gun
+150 mm > 158 mm Wgr.41 Spr
+155 mm Schneider 155 C howitzer > Canon de 155 mm C Mle1915
+1650-9 > V-1650-9
+178 mm > 7 in
+2S38 > 2S38 "Derivatsiya-PVO"
+2S3M > Akatsiya
+302 > J-302 (J for Jian)
+305 mm/45 Mark X > 12-inch/45 BL Mark X et al. english units for brit
+38 cm Sturmmörser > 38 cm Sturmmörser G.W 606/9
+8.8 cm S.K.C/35 > 8.8 cm/45 SK C/35
+8.8 cm universal naval cannon SK C/30 > 8.8 cm/45 SK C/30 cannon
+88 mm/45 AA-cannon SK L/45 > 8.8 cm/45 Flak L/45 cannon
+88 mm/45 casemate cannon SK L/45 > 8.8 cm/45 SK L/45 cannon
+90 F2 > CN90 F2
+90 mm Obus explosif > OEA 90 Mle 26
+A13 > Cruiser
+A6M2/N1K1 > ▅Floaty and other group names
+A74 > A.74 R.C.38
+A-A-F1N > AANF1
+accurate smoke name for m60a2
+Ace and killing spree popups remove
+ACh-30 > ACh-30B
+add commonwealth roundel to SA stuff, AC4, Ram SPG
+add dates or signifiers to weapons with identical names
+add object to proto soviet stuff
+add star to A-29
+adjust italian sherman (no more tipo, _0) historicalish to brit style
+adjusted turret belt descriptions
+AGM-65 > AGM-65 Maverick
+AH-64A (GR) > ▆AH-64A "Apache"
+AIDC F-5E > F-5E "Peace Tiger"
+remove http:// links
+Allows shoots off fcountermeasures > Allows launching countermeasures
+alternate bomb icon (bombs) > (┓)
+An error occurred while trying to respawn. > Get Gaijined again xaxaxa
+apply ben vers jap F-86F-40 to everyone version
+apply z-10W/WA to _1 and _2
+ARAT ERA > ARAT ERA (0.10 KE)
+Arctic. > Arctic
+add Arty symbol
+AS 410 > As 410
+ASH-XX > ASh-XX
+50% Attack the D point! > I'm dumb!
+AV 14 Kirs > 14Kirs
+avec de > avec
+Bagelpanzer > Bagel-Pz.
+Begleitpanzer 57 > BgPz.57 (make consistent with KPz.70)
+ben ge Cobra king, prem vehic
+blue water type symbols lose space before symbol
+BMP-1 > BMP-1P (match naming convention based on fully spaded config)
+boat > ⛵
+brit phantoms back to vanilla shop name, was too long
+british bombs Shit > SAP
+BV 155 B-1 > 155 B-0 V2 (no production 155s)
+C8 > 8KO
+Camionetta AS42 Sahariana II > Autocarro Sahariano 1942
+Cancel > eject
+cancel > fuck off
+capitalize assisting repair/extinguish
+Centurion Action X > Centurion Mk.7 (MT)
+Chally 2 TES > "Megatron"
+clarify Hydra-70 type (hedp, heat)
+clarify magach 6 for round vs needle nose turret
+Commies > OPSEC?
+Complesso da 12.7mm su CM 52 > Carro Militare 1952/M45
+counters sub-30 seconds > Waiting
+Cyclone R-1820G2 > R-1820-G2
+Cyrllic "С" replace with Latin "C"
+Defend the D point! > And I'm gonna cum!
+delete decal > remove decal (or bush)
+Diabetes > Obe-city
+distinguished Isuzu boats
+drones get nation icon as with other killstreak
+EBR (1963) > EBR 90⌂
+EBR⌂ > EBR 75⌂
+ERA - M60 > BS G2 ERA
+F-14A Tomcat (Early) > F-14A-90 "Tomcat", 1977
+F1M2 "Rei-kan" > F1M2 Reikan model 11
+F-4J(UK) Phantom II > ▄F-4J
+Falco I > "Falco"
+fin G-6/AS > G-6 (Erla-kuomuun)
+finnish 109 "mersu", SM.79B > SM.79 Bimotore
+fire > napalm▐ (fire symbol)
+fireplate > firewall
+fix smoke > ☁
+fixed ammo types (acronymns correspond to words)
+flak38_helipad > Flak 30 (due to 120 rpm nerf)
+flak38_noground_light > GebFlak 38
+french ammo fixes e.g 100 mm Obus explosif > OEA 100 Mle 45
+french helicopter simplifications
+fuck Motoranlage and Triebwerksanlage designations, all 801 to bare names
+Full tracked combat engineer vehicle M728 > Engineer Vehicle, Combat, Full-Tracked, 165 mm Gun M728
+Fw 190 A > Fw 190 A-5 (⌋)
+G2 Navale > 75 kg G2
+Gal Batash > Magach 6B Gal
+Gal Batash > Magach 6BGB
+GBU-38 JDAM > 500 lb JDAM
+Granata > Gr.
+gunner optics separated from regular optics
+gunpod icon (Gunpods) > (┖s)
+guns for one-off tanks use / separator
+HEAT HVAR > AT HVAR
+help > i'm retarded
+homogenize british naval guns and italian torpedoes
+i.e. aphe_i_sd/name/short APHE > APHEI-SD
+I-153 M-62 > I-153
+I2 Navale > 150 kg I2
+IAR-14KIVc32 > K14-IV C32
+ils/fr_r_550_magic MAG > MG1
+ils/fr_r_550_magic_2 MAG > MG2
+Implement kingdom of italy emblem, finnish cross emblem
+IT ju 87 "Picchiatello", french f-100 "super sabre" > "Hun"
+IT tank ammo and brit gun trimmings
+italy CL-13 Mk.4 > ⛨F-86E(M)
+J57P7 > J57-P-7
+J-7II > J-7B
+Jagdpanther, Panzerjaeger Panther (8.8cm) Ausf.G1 > Panzerjäger Jagdpanther Ausf. G2
+Jaguar GR.1A > GR.1B
+jp rocket characteristics denoted
+Ju 388 J-1 > J-0
+Jumo-213E1 > Jumo 213E-1
+K-14fc > 14Kfs
+Kerch (cruiser) > Stalingrad (already a Kerch destroyer)
+Kfir Canard > Kfir C.1
+Kh-23 and others rocket > missile
+Khalid > FV4030/2 Khalid
+ksp made lowercase
+kv-1 (L-11) > kv-1 (1939)
+kv-1 (zis-5) > kv-1 (1941)
+Kwk SPW > Heat SPW
+Lancia 3Ro > ⛨Technical
+Late 298 > Laté 298
+Leopard 2A6 > Leopard 2A6NL
+lightbulb symbol, searchlight > ▉
+lines for goliath mine
+Localized Israeli icons to parent nation (⚜F-84F,▃Merkava Mk.3D)
+M16 > M16 "Meat Chopper"
+M1A2 SEP > M1A2 "Abrams" System Enhancement Package
+m2a2 > m2a2 "Mae West"
+M3 Bradley > M3 CFV
+M-51 > M51 (w)
+machine gun shell rack > machine gun belts
+machinegun > machine gun
+made consistent germ ammo and brit naval guns
+Me 262 (mk 103) > Me 262 (6x┖) et al Technicals
+Mercury Mercury VIII > Mercury VIII
+MG-3 machinegun > 7.62 mm MG3 machine gun
+Mi-28A > ♚Mi-28A
+MiG-21S > SM
+mix battles > mixed battles
+more ai symbols, i.e Brander Fire boat > ▅▐⋛
+more hint/tutorial removal
+moved Pr.XX of ussr destroyers to the end
+Myoko > Myōkō
+Nesher > Nesher S
+normal 105 mm M68A1 cannon > 105 mm M68A1 (1983) cannon
+orderUseResult/result/bad_player > You're a naughty player.
+Panzerjaeger-Befehlswagen Jagdpanther Ausf.G1 > Pz.Jg.Befehlswagen Jagdpanther Ausf. G1
+plane turrets use / separator
+Potez > P.
+PT-16/T14 mod. > Leopard 2 T14 mod.
+_0 PT-76B > Tiedusteluvaunu PT-76B
+Re.2001 "Falco II" > Re.2001 "Ariete"
+Recon Micro > ScanEagle
+Recon Mirco (FLIR) > NightEagle
+remove ▅ from f-4ejs, move to F-4EJ ADTW
+remove 190 A/F nickname, "Dora" > "Langnasen-Dora"
+remove finnish cross from ASRAD
+remove "key not assigned" lines
+remove (nerfed) from Mk 103 gunpod (improve spread)
+remove _help menu lines, gaijoob awards list
+remove «» from M46 Tiger
+remove advertising vehicle skins lines
+remove air-to-xxxxx from missiles
+remove ammo type from most ammo name if have specific designation
+remove cyber cafe lines
+remove DH. manufacturer prefix
+remove epicgamestore playstationplus and xboxgold
+remove ERA CE mulitplier due to being inaccurate
+remove extra contractions from weapons
+remove FV from postcoldwar bitish vehicles
+remove HE prefix from bombs
+remove late suffix if vehicle has an early version and no normal version
+remove matra from matra rockets
+remove mk. from brit engines
+remove Mk. from brit planes/helis if produced after 1957
+remove most tutorial messages from missions_hints (uninstall SCAM to play tutorial)
+remove prefix icons at _0 if nation didn't use killstreak vehicle
+remove prefix symbol from some planes (redundant due to unique names)
+remove renault yr and acg-1 from AMC 34 and 35 (no manufacturer designation pls)
+remove shit bomb (not shit anymore)
+remove shot/shell from most US/UK ammo
+remove space after Elc bis
+remove spaces before unique symbols
+remove Squadron Arcade Events
+remove STBY stuffix on hud standby lines
+remove submarine lines
+remove trailing space at end
+remove tutorial_karantan lines
+remove waves 16-25
+rename most bluewater units to include unit icon in place of hull number
+replace 109 E/F/G/K nickname with "Messer" or "Die Beule", remove A/B nickname
+revert EC ships to vanilla names
+rocket symbol, (RP-3) > (▣)-
+Ro-Go > Ro-Gō
+Sd.Kfz.251/10 > Shit SPW
+Sd.Kfz.251/21 > MG151 SPW
+Sd.Kfz.251/22 > Pak SPW
+Sd.Kfz.251/9 > Kwk SPW
+self propelled > SP
+separated AA M2 and ground M2 brownings
+ship_armor_belt_l/_r belt armor plate > belt port/starboard plate
+ship_armor_cit_l/_r vertical armor plate > citadel port/starboard plate
+shit bombs renamed to AP XX, number in kg
+shop/_1 Prototype > Proto.
+shorter tooltips
+Shrapnel shell with time fuze > Advanced Hit Efficiency And Destruction
+Skoda > Škoda
+smoke grenade > ☁ grenade
+somecannon > ┖
+Something went wrong. Please try again. > Get Gaijined xaxaxa
+specify ap bombs
+spell out postwar german acronyms
+Su-6 prototype > Su-6 (A)
+Su-7BMK > ☭Su-7BMK (better distingush prem from tt)
+swap smoke symbols to appear on launchers instead of ammo
+switch jp engines to post-1943 unified Ha-XX, if pre-1943 become HaXX
+T114 > T114 BAT
+T-2 Early > XT-2
+T25 > T25 Pilot 2
+T-26E > ＋T-26E
+T-34 (1941) > T-34-76B "Sotka"
+T-34-85 > T-34-85 "Pitkäputkinen Sotka"
+T-54 (1951) > ＋T-54 m/51
+T-72AV (TURMS-T) > T-72AV
+T-72M2 > ═T-72M2
+TCM-20 > M3 Degem Alef/TCM-20
+TeenyTinyTim > Smol Angel
+Tempest (40) > Tempest (47)
+The Administration > "The Snail"
+the Britain > "the British"
+Tightened grammar/syntax
+TNShSh > TNSh-1 and other MG trimmings
+Tor-M1 > ␗9K331 Tor-M1
+toxic server names
+trimed /N from bf 109E lates
+Turan II > ⛨Turán II
+Turm III > ET 3AT (make consistent with VT1-2)
+turret > ⋗
+Type 16 (P) > MCV P3
+Type 69-IIa > T-69-IIA like T-69-IIG export desig
+Type 74 B/C/D > Type 74 D/E
+Type 87 > Guntank
+Typhoon Mk.1b > Typhoon 1b
+unitize Mod. 19XX and Mod.XX for italian guns
+units_modification included as optional file
+unused Hawk 75 have revert to vanilla
+update fiat 66XX to match CM (Carro Militare) prefix
+updated east/west german icons
+updated ERA equiv values
+various Flak names changed to calibre if there exists another with same name
+VBC (PT2) > VBC P2
+VBC > VBM
+Vehicle > ⛟
+Verstellpropeller > Verstell-Luftschrauben
+Wiesel 1A2 > Wiesel TOW
+Wiesel 1A4 > Wiesel 20
+WZ1001 > (WZ-1001) ZTZ1999A Prototype №2
+XF-104X Starfighter > F-104J "Eiko", ▀F-104G "Zipper", ⛨F-104S "Spillone", ☪F-104S "Uçan Tabut"
+yag-10 (29-k) > zsu 29-k
+Yer-2 Ach/E, Yer-2 Ach/L > Yer-2 Ach/E, Yer-2 Ach
+yum > cum
+ZLT > ZTL
+ZTZ99-II > ZTZ99 II (chinese vehicles post-06 nolonger used -XX suffix)
+ZTZ99-III > ZTZ99 III
+Zuisey > Zuisei
+С24 > 24B
+F-4E "Phantom II" > F-4E "Kurnass"
+Spitfire LF Mk IX (Clipped Wings) > Spitfire LF Mk.IXe
+
+1.99.1.74
+>
+earliest remaining SCAM public release
+
+1.89.1.78
+>
+SCAM pack created (not called SCAM at the time)
