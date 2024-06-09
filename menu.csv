@@ -744,7 +744,7 @@ shop/recruitCrew;Recruit crew;Recruit crew;same;;;;;;;;;;;;;;;;;;;
 shop/crewInBattle;<color=@warningTextColor>Crew is in combat</color>;<color=@warningTextColor>Crew is in combat</color>;same;;;;;;;;;;;;;;;;;;;
 shop/chooseAircraft;Choose vehicle;Choose vehicle;same;;;;;;;;;;;;;;;;;;;
 shop/aircraftNotSelected;Vehicle not chosen;Vehicle not chosen;same;;;;;;;;;;;;;;;;;;;
-shop/emptyCrew;Send to holiday;Send to holiday;same;;;;;;;;;;;;;;;;;;;
+shop/emptyCrew;Send to holiday;Remove from the preset;nice;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/button;Presets;Presets;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/title;Vehicle Presets;Vehicle Presets;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/tooltip;"Vehicle Presets
@@ -929,9 +929,11 @@ mainmenu/questionChangePlayer;Are you sure you want to log out and then log in a
 crew/currentAircraft;Current Vehicle;Current Vehicle;same;;;;;;;;;;;;;;;;;;;
 crew/forUnit;"For ""{unitName}""";"For ""{unitName}""";same;;;;;;;;;;;;;;;;;;;
 crew/availablePoints;Crew XP Points:;Crew XP Points:;same;;;;;;;;;;;;;;;;;;;
+crew/availablePoints/short;XP Points:;XP Points:;same;;;;;;;;;;;;;;;;;;;
 crew/availablePoints/advice;It is recommended to distribute the Crew XP Points;It is recommended to distribute the Crew XP Points;same;;;;;;;;;;;;;;;;;;;
 crew/availablePoints/tooltip;Experience points available for assignment.;Experience points available for assignment.;same;;;;;;;;;;;;;;;;;;;
 crew/usedSkills;Crew Level:;Crew Level:;same;;;;;;;;;;;;;;;;;;;
+crew/usedSkills/short;Level:;Level:;same;;;;;;;;;;;;;;;;;;;
 crew/usedSkills/tooltip;Total number of skill upgrades.;Total number of skill upgrades.;same;;;;;;;;;;;;;;;;;;;
 crew/incCost/tooltip;Cost of New Skill Level;Cost of New Skill Level;same;;;;;;;;;;;;;;;;;;;
 crew/pilot;Pilot;Pilot;same;;;;;;;;;;;;;;;;;;;
@@ -2127,6 +2129,7 @@ unit/bulletsDecrease;Decrease number;Decrease number;same;;;;;;;;;;;;;;;;;;;
 msgbox/buy_all_researched_modifications;"You have unpurchased modifications for {unitsList}.
 Would you like to purchase them for {cost}?";"You have unpurchased modifications for {unitsList}.
 Would you like to purchase them for {cost}?";same;;;;;;;;;;;;;;;;;;;
+msgBox/unitNecessaryForSlot;For crew training it is necessary to set the technique in the slot.;For crew training it is necessary to set the technique in the slot.;same;;;;;;;;;;;;;;;;;;;
 msgbox/all_researched_modifications_bought;All modifications have been successfully purchased;All modifications have been successfully purchased;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnPsnFriends;;Add Friend;nice;;;;;;;;;;;;;;;;;;;
 cbt_tanks/forbidden/compatibility_mode;Please open Advanced settings in Launcher, and disable 'Old videocards support' option.;Please open Advanced settings in Launcher, and disable 'Old videocards support' option.;same;;;;;;;;;;;;;;;;;;;
@@ -2305,8 +2308,8 @@ armor_class/electronic_equipment;Electronic equipment;Electronic equipment;same;
 armor_class/desc/electronic_equipment;"A set of radio electronic equipment.
 If a failure occurs, the operation of the above equipment is blocked.
 {partsList}";"A set of radio electronic equipment.
-If a failure occurs, the operation of the above equipment is blocked.
-{partsList}";same;;;;;;;;;;;;;;;;;;;
+If a failure occurs, the operation of the electronic equipment is blocked.
+{partsList}";nice;;;;;;;;;;;;;;;;;;;
 armor_class/gun_stabilizer;Gun Stabilizer;Gun Stabilizer;same;;;;;;;;;;;;;;;;;;;
 armor_class/guided_weapon_controls;Guided weapon controls;Guided weapon controls;same;;;;;;;;;;;;;;;;;;;
 armor_class/armored_glass;Armored glass (0.28);Armored glass;trim;;;;;;;;;;;;;;;;;;;
@@ -4277,10 +4280,8 @@ msgBox/quiz_answer/confirm;"Are you sure you have found the correct list of defe
 {itemName}?";same;;;;;;;;;;;;;;;;;;;
 msgBox/quiz_answered/cant/fakeByUser;This defect list is was marked as incorrect;This defect list is was marked as incorrect;same;;;;;;;;;;;;;;;;;;;
 msgBox/quiz_cancel_check/confirm;Are you sure you want to cancel the selection check?;Are you sure you want to cancel the selection check?;same;;;;;;;;;;;;;;;;;;;
-mainmenu/compareAchievements;Compare Gaijin.Net Achievements;Compare Gaijin.Net Achievements;same;;;;;;;;;;;;;;;;;;;
-mainmenu/showAchievements;Show Gaijin.Net Achievements;Show Gaijin.Net Achievements;same;;;;;;;;;;;;;;;;;;;
-mainmenu/comparePixelAchievements;Compare Pixel Storm Achievements;Compare Pixel Storm Achievements;same;;;;;;;;;;;;;;;;;;;
-mainmenu/showPixelAchievements;Show Pixel Storm Achievements;Show Pixel Storm Achievements;same;;;;;;;;;;;;;;;;;;;
+mainmenu/compareAchievements;Compare {name} Achievements;Compare {name} Achievements;same;;;;;;;;;;;;;;;;;;;
+mainmenu/showAchievements;Show {name} Achievements;Show {name} Achievements;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/throttle;ᚵᚩᚳᚰᚵᚵᚭᚦ;ᚵᚩᚳᚰᚵᚵᚭᚦ;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/velocity;ᚷᚦᚭᚰᚤᚪᚵᚸ;ᚷᚦᚭᚰᚤᚪᚵᚸ;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/kmph;;;same;;;;;;;;;;;;;;;;;;;
@@ -4447,7 +4448,7 @@ collection/summer_2017;"""Operation S.U.M.M.E.R. 2017"" decals";"""Operation S.U
 collection/shield;"""Shields"" decorations";"""Shields"" decorations";same;;;;;;;;;;;;;;;;;;;
 collection/summer_2023;"""Summer Extreme 2023"" decals";"""Summer Extreme 2023"" decals";same;;;;;;;;;;;;;;;;;;;
 collection/winter_extreme_2024;"""Winter Extreme 2023-24"" decals";"""Winter Extreme 2023-24"" decals";same;;;;;;;;;;;;;;;;;;;
-collection/pinup_zodiac;"""Zodiac"" Pinups";"""Zodiac"" Pinups";same;;;;;;;;;;;;;;;;;;;
+collection/pinup_zodiac;"""Zodiac"" Pinups";"""Zodiac"" Pin-ups";nice;;;;;;;;;;;;;;;;;;;
 collection/go_to_collection;Go to collection;Go to collection;same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decoration_special_console_trophy;"Trophy ""Collection of decorations"" (Common)";"Trophy ""Collection of decorations"" (Common)";same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decoration_weapon_console_trophy;"Trophy ""Collection of decorations"" (Weapon)";"Trophy ""Collection of decorations"" (Weapon)";same;;;;;;;;;;;;;;;;;;;
@@ -4718,6 +4719,7 @@ loading_bg/login_layer_hungary_aircrafts;Hungarian Air Force;Hungarian Air Force
 loading_bg/login_layer_mad_thunder;Mad Thunder;Mad Thunder;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_kungstiger;Kungstiger;Kungstiger;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_kungstiger/desc;"Reward for level 100 in the ""Northern King"" Battle Pass Season";"Reward for level 100 in the ""Northern King"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_f_4f_lws_lv;◄F-4F KWS LV;◄F-4F KWS LV;same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.M.M.E.R.;Good Old S.U.M.M.E.R.;same;;;;;;;;;;;;;;;;;;;
@@ -4894,7 +4896,8 @@ Participation in night battles is only possible if there is a vehicle with a Bat
 When participating in night battles, you can earn the following unique night themed rewards:";same;;;;;;;;;;;;;;;;;;;
 small_teams/desc;"When the ""{optionName}"" option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of a regular battle (min - max: {usualTeamsCount}). This may only occur if there are enough players in the queue who also have the option enabled. Enabling the option does not replace the basic battles, but allows to get into battles with smaller team sizes.
 Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";"When the ""{optionName}"" option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of a regular battle (min - max: {usualTeamsCount}). This may only occur if there are enough players in the queue who also have the option enabled. Enabling the option does not replace the basic battles, but allows to get into battles with smaller team sizes.
-Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";same;;;;;;;;;;;;;;;;;;;
+
+Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";nice;;;;;;;;;;;;;;;;;;;
 help/crewSelectVenicle;Selecting the type of vehicle for training this crew. The same crew is used and can be trained for all types of vehicle.;Selecting the type of vehicle for training this crew. The same crew is used and can be trained for all types of vehicle.;same;;;;;;;;;;;;;;;;;;;
 help/crewBtnApply;Do not forget to apply your changes.;Do not forget to apply your changes.;same;;;;;;;;;;;;;;;;;;;
 help/crewBtnBuy;"To upgrade your crew skills faster, you can use the ""Accelerated Training"" menu, in which you can purchase additional skill points for Golden Eagles.";"To upgrade your crew skills faster, you can use the ""Accelerated Training"" menu, in which you can purchase additional skill points for Golden Eagles.";same;;;;;;;;;;;;;;;;;;;
@@ -4991,7 +4994,7 @@ wishlist/filter/premiumVehicle;Premium;Premium;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/squadronVehicle;Squadron;Squadron;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/shopVehicle;From Online Store;From Online Store;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/marketPlaceVehicle;From Marketplace;From Marketplace;same;;;;;;;;;;;;;;;;;;;
-wishlist/filter/conditionToReceive;With condition to receive;With a conditional receipt;nice;;;;;;;;;;;;;;;;;;;
+wishlist/filter/conditionToReceive;With a conditional receipt;With a conditional receipt;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/available;Available for purchase;Available for purchase;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/discount;Discount available;Discount available;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/emptyList;Wishlist is empty;Wishlist is empty;same;;;;;;;;;;;;;;;;;;;
@@ -5013,6 +5016,9 @@ hints/tutorial_extraction/rage/stage_5;When you reach the fifth level of rage, i
 mainmenu/btnExpandAll;Expand all;Expand all;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnCollapseAll;Collapse all;Collapse all;same;;;;;;;;;;;;;;;;;;;
 mainmenu/noSteamGift;You cannot give gifts to friends from a game running via Steam. Launch War Thunder through the Launcher to give a gift.;You cannot give gifts to friends from a game running via Steam. Launch War Thunder through the Launcher to give a gift.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/noSteamGiftBindEmail;You cannot give gifts to friends using Steam account. Link your Steam account to email and launch War Thunder through the Launcher to give a gift.;You cannot give gifts to friends using a Steam account. Link your Steam account to email and launch War Thunder through the Launcher to give a gift.;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/noSteamGiftBindEmail;You cannot give gifts to friends using a Steam account. Link your Steam account to email and launch War Thunder through the Launcher to give a gift.;You cannot give gifts to friends using a Steam account. Link your Steam account to email and launch War Thunder through the Launcher to give a gift.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/steamBindinEmail;Binding a Steam account to your e-mail address;Binding a Steam account to your e-mail address;same;;;;;;;;;;;;;;;;;;;
 game_mode_settings;Game mode settings;Game mode settings;same;;;;;;;;;;;;;;;;;;;
+mainmenu/crewMap;Show crew distribution;Show crew distribution;same;;;;;;;;;;;;;;;;;;;
+slotbar/removeVehicle;Remove vehicle from the preset;Remove vehicle from the preset;same;;;;;;;;;;;;;;;;;;;
+slotbar/swapCrew;Swap with the crew:;Swap with the crew:;same;;;;;;;;;;;;;;;;;;;
