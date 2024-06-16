@@ -1,5 +1,12 @@
 duhchuy's SCAM patchnotes
 
+2.36.0.26
+>
+Ta 154 A-1 > Ta 154 V7
+CL-13A Mk.5 > Sabre Mk.5
+CL-13B Mk.6 > Sabre Mk.6
+_0 dates from row 7000-7400
+
 2.36.0.24
 >
 trim belgium spifire and C U M

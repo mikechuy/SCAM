@@ -157,6 +157,13 @@ rewardReceived;Reward received;Reward received;same;;;;;;;;;;;;;;;;;;;
 baseReward;Base reward;Base reward;same;;;;;;;;;;;;;;;;;;;
 baseReward/tooltip;The final reward for the mission also depends on the chosen difficulty and the number of players in the session.;The final reward for the mission also depends on the chosen difficulty and the number of players in the session.;same;;;;;;;;;;;;;;;;;;;
 player_score_name;Player score:;Player score:;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spawns_per_battle;available and maximum number of respawns on this vehicle ({unit_name}). Some vehicles (usually reserve) have several respawns even without the use of a backup.;available and maximum number of respawns on this vehicle ({unit_name}). Some vehicles (usually reserve) have several respawns even without the use of a backup.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/cost_sp;the cost of using vehicle in Spawn points. Spawn points are awarded for any successful actions in battle, in proportion to the mission points. Current quantity: {current_cost_sp}.;the cost of using vehicle in Spawn points. Spawn points are awarded for any successful actions in battle, in proportion to the mission points. Current quantity: {current_cost_sp}.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/cost_sl;the cost of using vehicle in Silver Lions.;the cost of using vehicle in Silver Lions.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spare;the number of backups on this vehicle. The backup allows you to use a vehicle twice in one battle.;the number of backups on this vehicle. The backup allows you to use a vehicle twice in one battle.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spare/universal_spawn;there is a universal backup for this vehicle. You can use this vehicle a second time by spending one universal backup.;there is a universal backup for this vehicle. You can use this vehicle a second time by spending one universal backup.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spare/spawn;number of backups on this vehicle. You can use this vehicle a second time by spending one backup.;number of backups on this vehicle. You can use this vehicle a second time by spending one backup.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spawns_per_unit;available and maximum number of respawns on this type of vehicle ({army}).;available and maximum number of respawns on this type of vehicle ({army}).;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_yes;Yes;Yes;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_no;No;No;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_ok;OK;OK;same;;;;;;;;;;;;;;;;;;;
@@ -749,7 +756,7 @@ shop/slotbarPresets/button;Presets;Presets;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/title;Vehicle Presets;Vehicle Presets;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/tooltip;"Vehicle Presets
 Here you can create and use multiple interchangeable sets of crew vehicles.";"Vehicle Presets
-Here you can create and use multiple interchangeable sets of crew vehicles.";same;;;;;;;;;;;;;;;;;;;
+Here you can create and use multiple interchangeable sets of vehicles.";trim;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/item;Preset #{number};Preset #{number};same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/contents;Preset contents;Preset contents;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/presetUnknown;The current set of vehicles doesn't match any of the saved presets.;The current set of vehicles doesn't match any of the saved presets.;same;;;;;;;;;;;;;;;;;;;
@@ -2129,7 +2136,7 @@ unit/bulletsDecrease;Decrease number;Decrease number;same;;;;;;;;;;;;;;;;;;;
 msgbox/buy_all_researched_modifications;"You have unpurchased modifications for {unitsList}.
 Would you like to purchase them for {cost}?";"You have unpurchased modifications for {unitsList}.
 Would you like to purchase them for {cost}?";same;;;;;;;;;;;;;;;;;;;
-msgBox/unitNecessaryForSlot;For crew training it is necessary to set the technique in the slot.;For crew training it is necessary to set the technique in the slot.;same;;;;;;;;;;;;;;;;;;;
+msgBox/unitNecessaryForSlot;For crew training it is necessary to set the technique in the slot.;For crew training, you need to put the vehicle in the slot.;trim;;;;;;;;;;;;;;;;;;;
 msgbox/all_researched_modifications_bought;All modifications have been successfully purchased;All modifications have been successfully purchased;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnPsnFriends;;Add Friend;nice;;;;;;;;;;;;;;;;;;;
 cbt_tanks/forbidden/compatibility_mode;Please open Advanced settings in Launcher, and disable 'Old videocards support' option.;Please open Advanced settings in Launcher, and disable 'Old videocards support' option.;same;;;;;;;;;;;;;;;;;;;
@@ -2306,10 +2313,10 @@ loading of the next projectile will not be available until field repair is carri
 loading of the next projectile will not be available until field repair is carried out.";same;;;;;;;;;;;;;;;;;;;
 armor_class/electronic_equipment;Electronic equipment;Electronic equipment;same;;;;;;;;;;;;;;;;;;;
 armor_class/desc/electronic_equipment;"A set of radio electronic equipment.
-If a failure occurs, the operation of the above equipment is blocked.
+If a failure occurs, the operation of the electronic equipment is blocked.
 {partsList}";"A set of radio electronic equipment.
 If a failure occurs, the operation of the electronic equipment is blocked.
-{partsList}";nice;;;;;;;;;;;;;;;;;;;
+{partsList}";same;;;;;;;;;;;;;;;;;;;
 armor_class/gun_stabilizer;Gun Stabilizer;Gun Stabilizer;same;;;;;;;;;;;;;;;;;;;
 armor_class/guided_weapon_controls;Guided weapon controls;Guided weapon controls;same;;;;;;;;;;;;;;;;;;;
 armor_class/armored_glass;Armored glass (0.28);Armored glass;trim;;;;;;;;;;;;;;;;;;;
@@ -2915,7 +2922,7 @@ item/consume/several;Consume several;Consume several;same;;;;;;;;;;;;;;;;;;;
 item/consume/coupon;Consume coupon;Consume coupon;same;;;;;;;;;;;;;;;;;;;
 item/buyAndConsume;Purchase and consume;Purchase and consume;same;;;;;;;;;;;;;;;;;;;
 item/consume/additionalRewardUnlock/progressOfConsume;Consumed;Consumed;same;;;;;;;;;;;;;;;;;;;
-item/consume/additionalRewardUnlock/desc;Consume {itemName} to get additional prizes;Consume {itemName} to get additional rewards;nice;;;;;;;;;;;;;;;;;;;
+item/consume/additionalRewardUnlock/desc;Consume {itemName} to get additional rewards;Consume {itemName} to get additional rewards;same;;;;;;;;;;;;;;;;;;;
 item/assemble;Assemble;Assemble;same;;;;;;;;;;;;;;;;;;;
 item/cant_consume_yet;You cannot consume this item yet.;You cannot consume this item yet.;same;;;;;;;;;;;;;;;;;;;
 item/assemble/instant;Assemble instantly;Assemble instantly;same;;;;;;;;;;;;;;;;;;;
@@ -4347,6 +4354,8 @@ eac/eac_not_inited_restart;Anti-cheat is not initialized. The selected game mode
 eac/eac_for_linux;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;same;;;;;;;;;;;;;;;;;;;
 squadMember/eac_not_inited;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;same;;;;;;;;;;;;;;;;;;;
 sound_mod_not_allowed_restart;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;same;;;;;;;;;;;;;;;;;;;
+sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification is disabled. Please contact the author of the modification for a updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification is disabled. Please contact the author of the modification for a updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;same;;;;;;;;;;;;;;;;;;;
+sound_mods_url;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;same;;;;;;;;;;;;;;;;;;;
 promo/XBOXAccount_linked;;Binding an e-mail to your account;nice;;;;;;;;;;;;;;;;;;;
 promo/XBOXAccount_linked/desc;;"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
 This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";nice;;;;;;;;;;;;;;;;;;;
@@ -4448,7 +4457,7 @@ collection/summer_2017;"""Operation S.U.M.M.E.R. 2017"" decals";"""Operation S.U
 collection/shield;"""Shields"" decorations";"""Shields"" decorations";same;;;;;;;;;;;;;;;;;;;
 collection/summer_2023;"""Summer Extreme 2023"" decals";"""Summer Extreme 2023"" decals";same;;;;;;;;;;;;;;;;;;;
 collection/winter_extreme_2024;"""Winter Extreme 2023-24"" decals";"""Winter Extreme 2023-24"" decals";same;;;;;;;;;;;;;;;;;;;
-collection/pinup_zodiac;"""Zodiac"" Pinups";"""Zodiac"" Pin-ups";nice;;;;;;;;;;;;;;;;;;;
+collection/pinup_zodiac;"""Zodiac"" Pin-ups";"""Zodiac"" Pin-ups";same;;;;;;;;;;;;;;;;;;;
 collection/go_to_collection;Go to collection;Go to collection;same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decoration_special_console_trophy;"Trophy ""Collection of decorations"" (Common)";"Trophy ""Collection of decorations"" (Common)";same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decoration_weapon_console_trophy;"Trophy ""Collection of decorations"" (Weapon)";"Trophy ""Collection of decorations"" (Weapon)";same;;;;;;;;;;;;;;;;;;;
@@ -4533,9 +4542,9 @@ mainmenu/acceptObjective;Accept Objective;Accept Objective;same;;;;;;;;;;;;;;;;;
 mainmenu/regionalUnlockActivationError;Failed to accept objective. Please try again later.;Failed to accept objective. Please try again later.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/promoteUnit;Available vehicle for purchase for a limited time;Available vehicle for purchase for a limited time;same;;;;;;;;;;;;;;;;;;;
 loading_bg;Loading screen;Loading screen;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer;"P-47 Thunderbolt ""Ardennes""";"P-47 Thunderbolt ""Ardennes""";nice;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_a1;Spitfire Mk IX;Spitfire Mk IX;nice;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_b1;PBY-5 Catalina;PBY-5 Catalina;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer;"P-47 Thunderbolt ""Ardennes""";"P-47 Thunderbolt ""Ardennes""";same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_a1;Spitfire Mk IX;Spitfire Mk IX;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_b1;PBY-5 Catalina;PBY-5 Catalina;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_c1;F-86 Sabre;F-86 Sabre;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_d1;He 111;He 111;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_e1;Tiger H1 / Fw 190;Tiger H1 / Fw 190;same;;;;;;;;;;;;;;;;;;;
@@ -4543,8 +4552,8 @@ loading_bg/login_layer_f1;Pe-2;Pe-2;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_g1;Ki-84;Ki-84;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_h1;"P-47 Thunderbolt ""Aztec Eagle""";"P-47 Thunderbolt ""Aztec Eagle""";same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_i1;F-84 Thunderjet;F-84 Thunderjet;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_j1;Bf 109 vs Spitfire;Bf 109 vs Spitfire;nice;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_k1;F6F Hellcat;F6F Hellcat;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_j1;Bf 109 vs Spitfire;Bf 109 vs Spitfire;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_k1;F6F Hellcat;F6F Hellcat;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_l1;Me 410;Me 410;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_m1;Tiger H1;Tiger H1;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_n1;T-34-85 vs Panther;T-34-85 vs Panther;same;;;;;;;;;;;;;;;;;;;
@@ -4592,7 +4601,7 @@ loading_bg/login_layer_wt_6_years;6th Anniversary of War Thunder;6th Anniversary
 loading_bg/login_layer_stormer_hvm;Stormer HVM;Stormer HVM;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_f_4_phantom;F-4 Phantom;F-4 Phantom;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_1_93_mangusta;A129CBT Mangusta;A129CBT Mangusta;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_us_1_65;F6F-5 Hellcat;F6F-5 Hellcat;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_us_1_65;F6F-5 Hellcat;F6F-5 Hellcat;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_p51_1_71;P-51 Mustang;P-51 Mustang;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_saab_j29d;J29D Tunnan;J29D Tunnan;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_it_g91;G.91 R/4;G.91 R/4;same;;;;;;;;;;;;;;;;;;;
@@ -4719,7 +4728,8 @@ loading_bg/login_layer_hungary_aircrafts;Hungarian Air Force;Hungarian Air Force
 loading_bg/login_layer_mad_thunder;Mad Thunder;Mad Thunder;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_kungstiger;Kungstiger;Kungstiger;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_kungstiger/desc;"Reward for level 100 in the ""Northern King"" Battle Pass Season";"Reward for level 100 in the ""Northern King"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_f_4f_lws_lv;◄F-4F KWS LV;◄F-4F KWS LV;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_f_4f_lws_lv;F-4F KWS LV;F-4F KWS LV;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_desert_warrior;Desert Warrior;Desert Warrior;same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.M.M.E.R.;Good Old S.U.M.M.E.R.;same;;;;;;;;;;;;;;;;;;;
@@ -4895,9 +4905,10 @@ Participation in night battles is only possible if there is a vehicle with a Bat
 
 When participating in night battles, you can earn the following unique night themed rewards:";same;;;;;;;;;;;;;;;;;;;
 small_teams/desc;"When the ""{optionName}"" option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of a regular battle (min - max: {usualTeamsCount}). This may only occur if there are enough players in the queue who also have the option enabled. Enabling the option does not replace the basic battles, but allows to get into battles with smaller team sizes.
+
 Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";"When the ""{optionName}"" option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of a regular battle (min - max: {usualTeamsCount}). This may only occur if there are enough players in the queue who also have the option enabled. Enabling the option does not replace the basic battles, but allows to get into battles with smaller team sizes.
 
-Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";nice;;;;;;;;;;;;;;;;;;;
+Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";same;;;;;;;;;;;;;;;;;;;
 help/crewSelectVenicle;Selecting the type of vehicle for training this crew. The same crew is used and can be trained for all types of vehicle.;Selecting the type of vehicle for training this crew. The same crew is used and can be trained for all types of vehicle.;same;;;;;;;;;;;;;;;;;;;
 help/crewBtnApply;Do not forget to apply your changes.;Do not forget to apply your changes.;same;;;;;;;;;;;;;;;;;;;
 help/crewBtnBuy;"To upgrade your crew skills faster, you can use the ""Accelerated Training"" menu, in which you can purchase additional skill points for Golden Eagles.";"To upgrade your crew skills faster, you can use the ""Accelerated Training"" menu, in which you can purchase additional skill points for Golden Eagles.";same;;;;;;;;;;;;;;;;;;;
@@ -5020,5 +5031,5 @@ mainmenu/noSteamGiftBindEmail;You cannot give gifts to friends using a Steam acc
 mainmenu/steamBindinEmail;Binding a Steam account to your e-mail address;Binding a Steam account to your e-mail address;same;;;;;;;;;;;;;;;;;;;
 game_mode_settings;Game mode settings;Game mode settings;same;;;;;;;;;;;;;;;;;;;
 mainmenu/crewMap;Show crew distribution;Show crew distribution;same;;;;;;;;;;;;;;;;;;;
-slotbar/removeVehicle;Remove vehicle from the preset;Remove vehicle from the preset;same;;;;;;;;;;;;;;;;;;;
+slotbar/removeVehicle;Remove vehicle from the preset;Remove vehicle from preset;trim;;;;;;;;;;;;;;;;;;;
 slotbar/swapCrew;Swap with the crew:;Swap with the crew:;same;;;;;;;;;;;;;;;;;;;
