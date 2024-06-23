@@ -1,5 +1,15 @@
 duhchuy's SCAM patchnotes
 
+2.37.0.22
+>
+_2 F-4F KWS > F-4F KYS
+_2 Petard > Retard
+▄F-5E FCU > ▅B.K̄h.18 K̄h
+AH-60 > «Battlehawk»
+_0 dates from row 7400-8000
+adjust group names
+most turret ammo belts get turret icon
+
 2.36.0.26
 >
 Ta 154 A-1 > Ta 154 V7

@@ -157,12 +157,12 @@ rewardReceived;Reward received;Reward received;same;;;;;;;;;;;;;;;;;;;
 baseReward;Base reward;Base reward;same;;;;;;;;;;;;;;;;;;;
 baseReward/tooltip;The final reward for the mission also depends on the chosen difficulty and the number of players in the session.;The final reward for the mission also depends on the chosen difficulty and the number of players in the session.;same;;;;;;;;;;;;;;;;;;;
 player_score_name;Player score:;Player score:;same;;;;;;;;;;;;;;;;;;;
-mission_hint/spawns_per_battle;available and maximum number of respawns on this vehicle ({unit_name}). Some vehicles (usually reserve) have several respawns even without the use of a backup.;available and maximum number of respawns on this vehicle ({unit_name}). Some vehicles (usually reserve) have several respawns even without the use of a backup.;same;;;;;;;;;;;;;;;;;;;
-mission_hint/cost_sp;the cost of using vehicle in Spawn points. Spawn points are awarded for any successful actions in battle, in proportion to the mission points. Current quantity: {current_cost_sp}.;the cost of using vehicle in Spawn points. Spawn points are awarded for any successful actions in battle, in proportion to the mission points. Current quantity: {current_cost_sp}.;same;;;;;;;;;;;;;;;;;;;
-mission_hint/cost_sl;the cost of using vehicle in Silver Lions.;the cost of using vehicle in Silver Lions.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spawns_per_battle;available and maximum number of respawns on this vehicle ({unit_name}). Some vehicles (usually reserve ones) have several respawns even without the use of a backup.;available and maximum number of respawns on this vehicle ({unit_name}). Some vehicles (usually reserve ones) have several respawns even without the use of a backup.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/cost_sp;the cost of using the vehicle in Spawn points. Spawn points are awarded for any successful actions in battle, in proportion to the mission points. Current amount: {current_cost_sp}.;the cost of using the vehicle in Spawn points. Spawn points are awarded for any successful actions in battle, in proportion to the mission points. Current amount: {current_cost_sp}.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/cost_sl;the cost of using the vehicle in Silver Lions.;the cost of using the vehicle in Silver Lions.;same;;;;;;;;;;;;;;;;;;;
 mission_hint/spare;the number of backups on this vehicle. The backup allows you to use a vehicle twice in one battle.;the number of backups on this vehicle. The backup allows you to use a vehicle twice in one battle.;same;;;;;;;;;;;;;;;;;;;
-mission_hint/spare/universal_spawn;there is a universal backup for this vehicle. You can use this vehicle a second time by spending one universal backup.;there is a universal backup for this vehicle. You can use this vehicle a second time by spending one universal backup.;same;;;;;;;;;;;;;;;;;;;
-mission_hint/spare/spawn;number of backups on this vehicle. You can use this vehicle a second time by spending one backup.;number of backups on this vehicle. You can use this vehicle a second time by spending one backup.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spare/universal_spawn;there is a universal backup for this vehicle. You can use this vehicle for a second time by spending one universal backup.;there is a universal backup for this vehicle. You can use this vehicle for a second time by spending one universal backup.;same;;;;;;;;;;;;;;;;;;;
+mission_hint/spare/spawn;the number of backups on this vehicle. You can use this vehicle for a second time by spending one backup.;the number of backups on this vehicle. You can use this vehicle for a second time by spending one backup.;same;;;;;;;;;;;;;;;;;;;
 mission_hint/spawns_per_unit;available and maximum number of respawns on this type of vehicle ({army}).;available and maximum number of respawns on this type of vehicle ({army}).;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_yes;Yes;Yes;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_no;No;No;same;;;;;;;;;;;;;;;;;;;
@@ -348,10 +348,10 @@ msgbox/existingBoosters;"You already have active boosters. When more than one bo
 {newBooster} will increase common effect by {newBoosterEffect}.
 Are you sure you want to activate the booster?";"You already have active boosters. When more than one booster is active, their total effect is less than sum of all boosters.
 {newBooster} will increase common effect by {newBoosterEffect}.
-Are you sure you want to activate the booster?";nice;;;;;;;;;;;;;;;;;;;
+Are you sure you want to activate the booster?";same;;;;;;;;;;;;;;;;;;;
 msgbox/isInFlightBooster;"Booster will have an effect starting with the next battle.
 Are you sure you want to activate the booster?";"Booster will have an effect starting with the next battle.
-Are you sure you want to activate the booster?";nice;;;;;;;;;;;;;;;;;;;
+Are you sure you want to activate the booster?";same;;;;;;;;;;;;;;;;;;;
 msgbox/conflictingBoosters/boosterEndsIn;Ends in %s;Ends in %s;same;;;;;;;;;;;;;;;;;;;
 msgbox/conflictingWager;Stake on %s will cancel current active stake;Stake on %s will cancel current active stake;same;;;;;;;;;;;;;;;;;;;
 msgbox/notEnoughMoneyWager/wp;Not enough Silver Lions to start the wager.;Not enough Silver Lions to start the wager.;same;;;;;;;;;;;;;;;;;;;
@@ -714,7 +714,7 @@ mainmenu/password/capslock;CAPS;CAPS;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2stepVerifCode;Verification Code;Verification Code;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2stepVerifCode/tooltip;You have enabled two-step authentication service on your account. Open Google Authenticator on your mobile device for getting verification code.;You have enabled two-step authentication service on your account. Open Google Authenticator on your mobile device for getting verification code.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/EnhancedProtection;Enhanced protection;Enhanced protection;same;;;;;;;;;;;;;;;;;;;
-mainmenu/2step/confirmSign;Confirm sign;Confirm sign;same;;;;;;;;;;;;;;;;;;;
+mainmenu/2step/confirmSign;Confirm sign in;Confirm sign in;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/confirmUnknown;Enter verification code;Enter verification code;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/confirmGA;Enter verification code from Google Authentificator or War Thunder Assistant apps;Enter verification code from Google Authentificator or War Thunder Assistant apps;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/confirmMail;Enter verification code from email;Enter verification code from email;same;;;;;;;;;;;;;;;;;;;
@@ -755,8 +755,8 @@ shop/emptyCrew;Send to holiday;Remove from the preset;nice;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/button;Presets;Presets;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/title;Vehicle Presets;Vehicle Presets;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/tooltip;"Vehicle Presets
-Here you can create and use multiple interchangeable sets of crew vehicles.";"Vehicle Presets
-Here you can create and use multiple interchangeable sets of vehicles.";trim;;;;;;;;;;;;;;;;;;;
+Here you can create and use multiple interchangeable sets of vehicles.";"Vehicle Presets
+Here you can create and use multiple interchangeable sets of vehicles.";same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/item;Preset #{number};Preset #{number};same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/contents;Preset contents;Preset contents;same;;;;;;;;;;;;;;;;;;;
 shop/slotbarPresets/presetUnknown;The current set of vehicles doesn't match any of the saved presets.;The current set of vehicles doesn't match any of the saved presets.;same;;;;;;;;;;;;;;;;;;;
@@ -906,11 +906,13 @@ msgbox/btn_ContinueWithoutRepair;Continue Without Repair;Continue Without Repair
 mainmenu/online_info;Online: {playersOnline}, Battles: {battles};Online: {playersOnline}, Battles: {battles};same;;;;;;;;;;;;;;;;;;;
 mainmenu/custom_lang_info;;Custom localization enabled;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/custom_lang_info/tooltip;You have SCAM enabled. If some texts in the game are displayed incorrectly, too bad.;You have custom localization enabled. If some texts in the game are displayed incorrectly, contact the author of the installed custom localization (mod) or disable it.;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/customSoundMods;Sound modification enabled;Sound modification enabled;same;;;;;;;;;;;;;;;;;;;
+mainmenu/customSoundMods/tooltip;You have a custom sound modification enabled. The game may not work stably if you use outdated or incorrect modifications.;You have a custom sound modification enabled. The game may not work stably if you use outdated or incorrect modifications.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/mode_countPlayers;Players:;Players:;same;;;;;;;;;;;;;;;;;;;
 mainmenu/mode_countBattles;Battles:;Battles:;same;;;;;;;;;;;;;;;;;;;
 msgbox/invalidEmail;Invalid e-mail;Invalid e-mail;same;;;;;;;;;;;;;;;;;;;
 msgbox/cantClaimManualUnlockPrize;You cannot claim this prize as you do not have {unitname} on your account.;You cannot claim this prize as you do not have {unitname} on your account.;same;;;;;;;;;;;;;;;;;;;
-tooltip/invalidEmail/possibly;Possibly, you have entered wrong e-mail. Please, ensure before sending.;Possibly, you have entered wrong e-mail. Please, ensure before sending.;same;;;;;;;;;;;;;;;;;;;
+tooltip/invalidEmail/possibly;Remember to buy Battle Ass, our families are under sanction!;Possibly, you have entered wrong e-mail. Please, ensure before sending.;nice;;;;;;;;;;;;;;;;;;;
 msgbox/emptyLogin;Empty login;Empty login;same;;;;;;;;;;;;;;;;;;;
 msgbox/invalidReplayFileName;"Invalid replay file name. The name must not be empty or start with ""#"" as well as contain
 \ \ | / < > : ? * """;"Invalid replay file name. The name must not be empty or start with ""#"" as well as contain
@@ -947,6 +949,7 @@ crew/pilot;Pilot;Pilot;same;;;;;;;;;;;;;;;;;;;
 crew/gunner;Defensive armament;Defensive armament;same;;;;;;;;;;;;;;;;;;;
 crew/driver;Driver;Driver;same;;;;;;;;;;;;;;;;;;;
 crew/tank_gunner;Gunner;Gunner;same;;;;;;;;;;;;;;;;;;;
+crew/tank_machine_gunner;Machine Gunner;Machine Gunner;same;;;;;;;;;;;;;;;;;;;
 crew/commander;Commander;Tank Commander;nice;;;;;;;;;;;;;;;;;;;
 crew/loader;Loader;Tank Loader;nice;;;;;;;;;;;;;;;;;;;
 crew/radio_gunner;Radio Operator Gunner;Radio Operator Gunner;same;;;;;;;;;;;;;;;;;;;
@@ -2125,8 +2128,8 @@ modifications/full_tier_researched/header;You have researched all modifications 
 modifications/full_unit_researched/header;You have researched all modifications!;You have researched all modifications!;same;;;;;;;;;;;;;;;;;;;
 modifications/full_tier_researched;You have researched all modifications in tier <color=@activeTextColor><B>{tier}</B></color> for <color=@userlogColoredText>{unitName}</color>.;You have researched all modifications in tier <color=@activeTextColor><B>{tier}</B></color> for <color=@userlogColoredText>{unitName}</color>.;same;;;;;;;;;;;;;;;;;;;
 modifications/full_unit_researched;You have researched all modifications for <color=@userlogColoredText>{unitName}</color>.;You have researched all modifications for <color=@userlogColoredText>{unitName}</color>.;same;;;;;;;;;;;;;;;;;;;
-ps4/reqInstantConnection;;This game requires constant Internet connection.;nice;;;;;;;;;;;;;;;;;;;
-ps4/noInternetConnection;;You cannot play War Thunder due to the lack of Internet connection.;nice;;;;;;;;;;;;;;;;;;;
+ps4/reqInstantConnection;This game requires constant Internet connection.;This game requires constant Internet connection.;same;;;;;;;;;;;;;;;;;;;
+ps4/noInternetConnection;You cannot play War Thunder due to the lack of Internet connection.;You cannot play War Thunder due to the lack of Internet connection.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/experience/oldName;XP;XP;same;;;;;;;;;;;;;;;;;;;
 profile/units_own;Amount of units;Amount of units;same;;;;;;;;;;;;;;;;;;;
 profile/elite_units_own;Amount of elite units;Amount of elite units;same;;;;;;;;;;;;;;;;;;;
@@ -2136,9 +2139,9 @@ unit/bulletsDecrease;Decrease number;Decrease number;same;;;;;;;;;;;;;;;;;;;
 msgbox/buy_all_researched_modifications;"You have unpurchased modifications for {unitsList}.
 Would you like to purchase them for {cost}?";"You have unpurchased modifications for {unitsList}.
 Would you like to purchase them for {cost}?";same;;;;;;;;;;;;;;;;;;;
-msgBox/unitNecessaryForSlot;For crew training it is necessary to set the technique in the slot.;For crew training, you need to put the vehicle in the slot.;trim;;;;;;;;;;;;;;;;;;;
+msgBox/unitNecessaryForSlot;For crew training, you need to put the vehicle in the slot.;For crew training, you need to put the vehicle in the slot.;same;;;;;;;;;;;;;;;;;;;
 msgbox/all_researched_modifications_bought;All modifications have been successfully purchased;All modifications have been successfully purchased;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnPsnFriends;;Add Friend;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnPsnFriends;Add Friend;Add Friend;same;;;;;;;;;;;;;;;;;;;
 cbt_tanks/forbidden/compatibility_mode;Please open Advanced settings in Launcher, and disable 'Old videocards support' option.;Please open Advanced settings in Launcher, and disable 'Old videocards support' option.;same;;;;;;;;;;;;;;;;;;;
 cbt_tanks/forbidden/instant_action;Ground vehicles are not yet supported in Random Battles mode. Please remove all ground vehicles from selected country's crew slots.;Ground vehicles are not yet supported in Random Battles mode. Please remove all ground vehicles from selected country's crew slots.;same;;;;;;;;;;;;;;;;;;;
 cbt_tanks/forbidden/skirmish;Ground vehicles are not yet supported in Custom Battles mode. Please remove all ground vehicles from selected country's crew slots.;Ground vehicles are not yet supported in Custom Battles mode. Please remove all ground vehicles from selected country's crew slots.;same;;;;;;;;;;;;;;;;;;;
@@ -4151,6 +4154,7 @@ workshop/esport_trophy;'eSport';'eSport';same;;;;;;;;;;;;;;;;;;;
 workshop/esport_trophy_2;'eSport II';'eSport II';same;;;;;;;;;;;;;;;;;;;
 workshop/air_superiority;'Air Superiority';'Air Superiority';same;;;;;;;;;;;;;;;;;;;
 workshop/alpha_strike;'Alpha Strike';'Alpha Strike';same;;;;;;;;;;;;;;;;;;;
+workshop/seek_and_destroy;'Seek & Destroy';'Seek & Destroy';same;;;;;;;;;;;;;;;;;;;
 workshop/la_royale;'La Royale';'La Royale';same;;;;;;;;;;;;;;;;;;;
 workshop/sons_of_attila;'Sons of Attila';'Sons of Attila';same;;;;;;;;;;;;;;;;;;;
 workshop/kings_of_battle;'Kings of Battle';'Kings of Battle';same;;;;;;;;;;;;;;;;;;;
@@ -4354,7 +4358,7 @@ eac/eac_not_inited_restart;Anti-cheat is not initialized. The selected game mode
 eac/eac_for_linux;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;same;;;;;;;;;;;;;;;;;;;
 squadMember/eac_not_inited;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;same;;;;;;;;;;;;;;;;;;;
 sound_mod_not_allowed_restart;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;same;;;;;;;;;;;;;;;;;;;
-sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification is disabled. Please contact the author of the modification for a updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification is disabled. Please contact the author of the modification for a updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;same;;;;;;;;;;;;;;;;;;;
+sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;same;;;;;;;;;;;;;;;;;;;
 sound_mods_url;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;same;;;;;;;;;;;;;;;;;;;
 promo/XBOXAccount_linked;;Binding an e-mail to your account;nice;;;;;;;;;;;;;;;;;;;
 promo/XBOXAccount_linked/desc;;"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
@@ -4730,6 +4734,8 @@ loading_bg/login_layer_kungstiger;Kungstiger;Kungstiger;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_kungstiger/desc;"Reward for level 100 in the ""Northern King"" Battle Pass Season";"Reward for level 100 in the ""Northern King"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_f_4f_lws_lv;F-4F KWS LV;F-4F KWS LV;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_desert_warrior;Desert Warrior;Desert Warrior;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_fokker_g1a;Fokker G.IA;Fokker G.IA;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_seek_and_destroy;Seek and Destroy;Seek and Destroy;same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.M.M.E.R.;Good Old S.U.M.M.E.R.;same;;;;;;;;;;;;;;;;;;;
@@ -5031,5 +5037,19 @@ mainmenu/noSteamGiftBindEmail;You cannot give gifts to friends using a Steam acc
 mainmenu/steamBindinEmail;Binding a Steam account to your e-mail address;Binding a Steam account to your e-mail address;same;;;;;;;;;;;;;;;;;;;
 game_mode_settings;Game mode settings;Game mode settings;same;;;;;;;;;;;;;;;;;;;
 mainmenu/crewMap;Show crew distribution;Show crew distribution;same;;;;;;;;;;;;;;;;;;;
-slotbar/removeVehicle;Remove vehicle from the preset;Remove vehicle from preset;trim;;;;;;;;;;;;;;;;;;;
+slotbar/removeVehicle;Remove vehicle from preset;Remove vehicle from preset;same;;;;;;;;;;;;;;;;;;;
+slotbar/noRemoveVehicle;You cannot remove the last vehicle from the preset;You cannot remove the last vehicle from the preset;same;;;;;;;;;;;;;;;;;;;
 slotbar/swapCrew;Swap with the crew:;Swap with the crew:;same;;;;;;;;;;;;;;;;;;;
+topmenu/wtAssistantDeeplink;WT Assistant;WT Assistant;same;;;;;;;;;;;;;;;;;;;
+wtassistant_deeplink/title;WT Assistant;WT Assistant;same;;;;;;;;;;;;;;;;;;;
+wtassistant_deeplink/descr;"Install WT Assistant:
+Scan the QR code with your phone's camera and download the app right now!
+
+WT Assistant is your mobile companion for your favourite game!
+Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
+Stay one step ahead with WT Assistant!";"Install WT Assistant:
+Scan the QR code with your phone's camera and download the app right now!
+
+WT Assistant is your mobile companion for your favourite game!
+Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
+Stay one step ahead with WT Assistant!";same;;;;;;;;;;;;;;;;;;;
