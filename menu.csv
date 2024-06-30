@@ -39,8 +39,8 @@ mainmenu/btnExitWizard;Exit the Controls Setup Wizard;Exit the Controls Setup Wi
 mainmenu/btnChangeName;Change Nickname;Change Nickname;same;;;;;;;;;;;;;;;;;;;
 mainmenu/chooseName;Choose a Nickname;Choose a Nickname;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnChangePlayer;Switch User;Switch User;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnXboxProfile;;Gamercard;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/btnPsnProfile;;Profile;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnXboxProfile;Gamercard;Gamercard;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnPsnProfile;Profile;Profile;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnComplain;Complain;Complain;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnSend;Send;Send;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnUserCard;Player Card;Player Card;same;;;;;;;;;;;;;;;;;;;
@@ -211,7 +211,7 @@ profile/pilots;Pilots;Pilots;same;;;;;;;;;;;;;;;;;;;
 profile/language;Language;Language;same;;;;;;;;;;;;;;;;;;;
 profile/steamName;Steam: ;Steam: ;same;;;;;;;;;;;;;;;;;;;
 profile/facebookName;;Facebook: ;nice;;;;;;;;;;;;;;;;;;;
-profile/psnName;;OnlineID: ;nice;;;;;;;;;;;;;;;;;;;
+profile/psnName;OnlineID: ;OnlineID: ;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnGameplay;Options;Options;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnWeapons;Modifications;Modifications;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnWeaponsDesc;Modify the vehicle in accordance with your purposes;Modify the vehicle in accordance with your purposes;same;;;;;;;;;;;;;;;;;;;
@@ -1409,8 +1409,8 @@ userlog/WagerStageFailDesc;;;same;;;;;;;;;;;;;;;;;;;
 userlog/WagerStageWinDesc;;;same;;;;;;;;;;;;;;;;;;;
 userlog/PeriodicCalendarAward;Monthly Award;Monthly Award;same;;;;;;;;;;;;;;;;;;;
 userlog/PerMonthAward;;Monthly bonus for PlayStation®Plus subscribers;nice;;;;;;;;;;;;;;;;;;;
-userlog/PeriodicCalendarAwardXBOXPlus;;Xbox Live Gold Monthly Award;nice;;;;;;;;;;;;;;;;;;;
-userlog/PerMonthAwardXBOXPlus;;Monthly bonus for Xbox Live Gold;nice;;;;;;;;;;;;;;;;;;;
+userlog/PeriodicCalendarAwardXBOXPlus;Xbox Live Gold Monthly Award;Xbox Live Gold Monthly Award;same;;;;;;;;;;;;;;;;;;;
+userlog/PerMonthAwardXBOXPlus;Monthly bonus for Xbox Live Gold;Monthly bonus for Xbox Live Gold;same;;;;;;;;;;;;;;;;;;;
 userlog/clanUnits/flush/name;Adding experience to squadron vehicle;Adding experience to squadron vehicle;same;;;;;;;;;;;;;;;;;;;
 userlog/clanUnits/flush/desc;{rp} added to {unit};{rp} added to {unit};same;;;;;;;;;;;;;;;;;;;
 userlog/clanUnits/add_unit/name;Squadron vehicle was earned;Squadron vehicle was earned;same;;;;;;;;;;;;;;;;;;;
@@ -1484,7 +1484,7 @@ contacts/cancel_invitation;Cancel Invite;Cancel Invite;same;;;;;;;;;;;;;;;;;;;
 contacts/friends_online;Friends online: %d;Friends online: %d;same;;;;;;;;;;;;;;;;;;;
 contacts/friend;Friends;Friends;same;;;;;;;;;;;;;;;;;;;
 contacts/totalCount;Total contacts in group: {contactsCount};Total contacts in group: {contactsCount};same;;;;;;;;;;;;;;;;;;;
-contacts/ps4_friends;;Friends;nice;;;;;;;;;;;;;;;;;;;
+contacts/ps4_friends;Friends;Friends;same;;;;;;;;;;;;;;;;;;;
 contacts/recent;Fought Together;Fought Together;same;;;;;;;;;;;;;;;;;;;
 contacts/met;Met in Battle;Met in Battle;same;;;;;;;;;;;;;;;;;;;
 contacts/block;Blacklist;Blacklist;same;;;;;;;;;;;;;;;;;;;
@@ -1502,9 +1502,9 @@ contacts/popup_friend_invitation_received;Player {userName} added you to their f
 contacts/friend_invitation_received/no_nick;added you to their friend list;added you to their friend list;same;;;;;;;;;;;;;;;;;;;
 contacts/popup_has_friend_invitations;You have {count} friend {count=invitation/invitations}.;You have {count} friend {count=invitation/invitations}.;same;;;;;;;;;;;;;;;;;;;
 msg/added_to_friend;You have added <color=@userlogColoredText>%s</color> to your friends list;You have added <color=@userlogColoredText>%s</color> to your friends list;same;;;;;;;;;;;;;;;;;;;
-msg/added_to_ps4_friends;;You have added <color=@userlogColoredText>%s</color> to your friends list;nice;;;;;;;;;;;;;;;;;;;
+msg/added_to_ps4_friends;You have added <color=@userlogColoredText>%s</color> to your friends list;You have added <color=@userlogColoredText>%s</color> to your friends list;same;;;;;;;;;;;;;;;;;;;
 msg/ask_remove_from_friend;Remove <color=@userlogColoredText>%s</color> from your friends list?;Remove <color=@userlogColoredText>%s</color> from your friends list?;same;;;;;;;;;;;;;;;;;;;
-msg/ask_remove_from_ps4_friends;;Remove <color=@userlogColoredText>%s</color> from your friends list?;nice;;;;;;;;;;;;;;;;;;;
+msg/ask_remove_from_ps4_friends;Remove <color=@userlogColoredText>%s</color> from your friends list?;Remove <color=@userlogColoredText>%s</color> from your friends list?;same;;;;;;;;;;;;;;;;;;;
 msg/ask_remove_from_f;;Remove <color=@userlogColoredText>%s</color> from your Facebook friends list?;nice;;;;;;;;;;;;;;;;;;;
 msg/ask_remove_from_s;Remove <color=@userlogColoredText>%s</color> from your Steam friends list?;Remove <color=@userlogColoredText>%s</color> from your Steam friends list?;same;;;;;;;;;;;;;;;;;;;
 msg/cant_add/too_many_contacts;You cannot add more than %d contacts.;You cannot add more than %d contacts.;same;;;;;;;;;;;;;;;;;;;
@@ -3130,8 +3130,8 @@ armor_class/gear;Gears;Gears;same;;;;;;;;;;;;;;;;;;;
 armor_class/pilot;Pilot;Pilot;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rewardsList;Rewards;Rewards;same;;;;;;;;;;;;;;;;;;;
 mainmenu/itemsList;Items;Items;same;;;;;;;;;;;;;;;;;;;
-mainmenu/XboxOneEmailRegistration;;Binding an e-mail to your account;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/XboxOneEmailRegistration/desc;;"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
+mainmenu/XboxOneEmailRegistration;Binding an e-mail to your account;Binding an e-mail to your account;same;;;;;;;;;;;;;;;;;;;
+mainmenu/XboxOneEmailRegistration/desc;"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
 With a bound e-mail you will receive:
 <color=@userlogColoredText>* the possibility to play on PC with your War Thunder account and purchase Golden Eagles</color>
 * the access to our technical support
@@ -3141,19 +3141,33 @@ You can <color=@warningTextColor>only unbind your e-mail once</color> via Suppor
 
 By pressing the <color=@activeTextColor>OK</color> button you agree with the Terms of Use.
 You can review them on
-<color=@linkTextColor>warthunder.com/en/support/termsofuse</color>";nice;;;;;;;;;;;;;;;;;;;
+<color=@linkTextColor>warthunder.com/en/support/termsofuse</color>";"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
+With a bound e-mail you will receive:
+<color=@userlogColoredText>* the possibility to play on PC with your War Thunder account and purchase Golden Eagles</color>
+* the access to our technical support
+* the possibility of authorization in the forum, War Thunder Live Portal and wiki.
+You can <color=@warningTextColor>only unbind your e-mail once</color> via Support at
+<color=@linkTextColor>support.gaijin.net</color>
+
+By pressing the <color=@activeTextColor>OK</color> button you agree with the Terms of Use.
+You can review them on
+<color=@linkTextColor>warthunder.com/en/support/termsofuse</color>";same;;;;;;;;;;;;;;;;;;;
 mainmenu/GaijinNet;Gaijin.Net;Gaijin.Net;same;;;;;;;;;;;;;;;;;;;
-mainmenu/XboxOneEmailRegistration/result/0;;Link successfully sent to the indicated e-mail;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/XboxOneEmailRegistration/result/65535;;An unexpected error has occurred;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/XboxOneEmailRegistration/result/29;;E-mail domain prohibited over Gaijin.Net;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/XboxOneEmailRegistration/result/30;;Wrong e-mail;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/XboxOneEmailRegistration/result/6;;E-mail already in use;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/PS4EmailRegistration;;Binding an e-mail to your account;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/PS4EmailRegistration/desc;;"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
+mainmenu/XboxOneEmailRegistration/result/0;Link successfully sent to the indicated e-mail;Link successfully sent to the indicated e-mail;same;;;;;;;;;;;;;;;;;;;
+mainmenu/XboxOneEmailRegistration/result/65535;An unexpected error has occurred;An unexpected error has occurred;same;;;;;;;;;;;;;;;;;;;
+mainmenu/XboxOneEmailRegistration/result/29;E-mail domain prohibited over Gaijin.Net;E-mail domain prohibited over Gaijin.Net;same;;;;;;;;;;;;;;;;;;;
+mainmenu/XboxOneEmailRegistration/result/30;Wrong e-mail;Wrong e-mail;same;;;;;;;;;;;;;;;;;;;
+mainmenu/XboxOneEmailRegistration/result/6;E-mail already in use;E-mail already in use;same;;;;;;;;;;;;;;;;;;;
+mainmenu/PS4EmailRegistration;Binding an e-mail to your account;Binding an e-mail to your account;same;;;;;;;;;;;;;;;;;;;
+mainmenu/PS4EmailRegistration/desc;"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
 With a bound e-mail you will receive:
 <color=@userlogColoredText>* the possibility to play on PC with your War Thunder account</color>
 * the access to our technical support
-* the possibility of authorization in the forum, live and wiki";nice;;;;;;;;;;;;;;;;;;;
+* the possibility of authorization in the forum, live and wiki";"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
+With a bound e-mail you will receive:
+<color=@userlogColoredText>* the possibility to play on PC with your War Thunder account</color>
+* the access to our technical support
+* the possibility of authorization in the forum, live and wiki";same;;;;;;;;;;;;;;;;;;;
 mainmenu/SteamEmailRegistration;Binding an e-mail to your account;Binding an e-mail to your account;same;;;;;;;;;;;;;;;;;;;
 mainmenu/SteamEmailRegistration/desc;"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
 With a bound e-mail you will receive:
@@ -3467,7 +3481,7 @@ userlog/rent_unit;<color=@userlogColoredText>{unitName}</color> test drive has b
 userlog/rent_unit_extended;<color=@userlogColoredText>{unitName}</color> test drive has been extended.;<color=@userlogColoredText>{unitName}</color> test drive has been extended.;same;;;;;;;;;;;;;;;;;;;
 userlog/rent_unit_expired;<color=@userlogColoredText>{unitName}</color> test drive has expired.;<color=@userlogColoredText>{unitName}</color> test drive has expired.;same;;;;;;;;;;;;;;;;;;;
 userlog/per_month_award;;Congratulations! You have received an exclusive trophy for PlayStation®Plus subscribers;nice;;;;;;;;;;;;;;;;;;;
-userlog/per_month_award_XBOXPlus;;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;nice;;;;;;;;;;;;;;;;;;;
+userlog/per_month_award_XBOXPlus;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit;Vehicle test drive start;Vehicle test drive start;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit_extended;Vehicle test drive extended;Vehicle test drive extended;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit_expired;Vehicle test drive expiration;Vehicle test drive expiration;same;;;;;;;;;;;;;;;;;;;
@@ -3811,7 +3825,7 @@ crewSkillParameter/tankLoderReloadingTime;Primary Weapon Reload Time;Primary Wea
 crewSkillParameter/tankDriverBrakesTime;Braking Time;Braking Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankDriverGearChangeTime;Gear Shifting Time;Gear Shifting Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankGunnerTargetingQuality;Targeting Quality;Targeting Quality;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/turnTurretSpeed;Targeting Speed;Targeting Speed;same;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/turnTurretSpeed;Targeting Horizontal Speed;Targeting Horizontal Speed;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/turnTurretSpeedPitch;Targeting Vertical Speed;Targeting Vertical Speed;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/crewMemberChangeTime;Crew Member Replacement Time;Crew Member Replacement Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/fieldRepairSpeedMultiplier;Field Repair Speed;Field Repair Speed;same;;;;;;;;;;;;;;;;;;;
@@ -4031,8 +4045,8 @@ topmenu/store;Store;Store;same;;;;;;;;;;;;;;;;;;;
 topmenu/tss;Tournaments;Tournaments;same;;;;;;;;;;;;;;;;;;;
 topmenu/streamsAndReplays;Streams and Replays;Streams and Replays;same;;;;;;;;;;;;;;;;;;;
 topmenu/reportAnIssue;Report an issue;Report an issue;same;;;;;;;;;;;;;;;;;;;
-topmenu/xboxIngameShop;;Premium Packs;nice;;;;;;;;;;;;;;;;;;;
-topmenu/ps4IngameShop;;Premium Packs;nice;;;;;;;;;;;;;;;;;;;
+topmenu/xboxIngameShop;Premium Packs;Premium Packs;same;;;;;;;;;;;;;;;;;;;
+topmenu/ps4IngameShop;Premium Packs;Premium Packs;same;;;;;;;;;;;;;;;;;;;
 playTogether/name;Play Together;Play Together;same;;;;;;;;;;;;;;;;;;;
 playTogether/noUsers;players not found;players not found;same;;;;;;;;;;;;;;;;;;;
 playTogether/squad/playerIsMember;"You are in a squad.
@@ -4067,27 +4081,33 @@ item/specialTasksPersonalUnlocks/desc;Complete Special Tasks to earn medals and 
 item/specialTasksPersonalUnlocks/purchaseRestriction;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;same;;;;;;;;;;;;;;;;;;;
 item/specialTasksPersonalUnlocks/limitRestriction;You can not buy a Special Task because you do not have permission to perform Special Tasks. A one-time permit is issued immediately after successfully receiving a reward for completing a Daily Medium Task.;You can not buy a Special Task because you do not have permission to perform Special Tasks. A one-time permit is issued immediately after successfully receiving a reward for completing a Daily Medium Task.;same;;;;;;;;;;;;;;;;;;;
 msg/noUniversalSpareForUnit;You have no universal backup available for this vehicle.;You have no universal backup available for this vehicle.;same;;;;;;;;;;;;;;;;;;;
-xbox/playAs;;Play as: <color=@mainPlayerColor>{name}</color>;nice;;;;;;;;;;;;;;;;;;;
-xbox/reqInstantConnection;;This game requires constant Internet connection.;nice;;;;;;;;;;;;;;;;;;;
-xbox/noInternetConnection;;You cannot play War Thunder due to the lack of Internet connection.;nice;;;;;;;;;;;;;;;;;;;
-xbox/noMultiplayer;;Multiplayer is not available;nice;;;;;;;;;;;;;;;;;;;
-xbox/crossPlayRequired;;⋭ - Enabled Cross-Network Play required.;nice;;;;;;;;;;;;;;;;;;;
-xbox/crossPlayEnabled;;Cross-Network Play is enabled. You will meet players from other platforms in battle.;nice;;;;;;;;;;;;;;;;;;;
+xbox/playAs;Play as: <color=@mainPlayerColor>{name}</color>;Play as: <color=@mainPlayerColor>{name}</color>;same;;;;;;;;;;;;;;;;;;;
+xbox/reqInstantConnection;This game requires constant Internet connection.;This game requires constant Internet connection.;same;;;;;;;;;;;;;;;;;;;
+xbox/noInternetConnection;You cannot play War Thunder due to the lack of Internet connection.;You cannot play War Thunder due to the lack of Internet connection.;same;;;;;;;;;;;;;;;;;;;
+xbox/noMultiplayer;Multiplayer is not available;Multiplayer is not available;same;;;;;;;;;;;;;;;;;;;
+xbox/crossPlayRequired;⋭ - Enabled Cross-Network Play required.;⋭ - Enabled Cross-Network Play required.;same;;;;;;;;;;;;;;;;;;;
+xbox/crossPlayEnabled;Cross-Network Play is enabled. You will meet players from other platforms in battle.;Cross-Network Play is enabled. You will meet players from other platforms in battle.;same;;;;;;;;;;;;;;;;;;;
 queue/crossPlay;;Enabled Cross-Network Play allows you to join the battles quicker.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/showVehicles;Show vehicles;Show vehicles;same;;;;;;;;;;;;;;;;;;;
 mainmenu/showVehiclesTitle;Vehicles for the task: {taskName};Vehicles for the task: {taskName};same;;;;;;;;;;;;;;;;;;;
 mainmenu/showMore;Show more;Show more;same;;;;;;;;;;;;;;;;;;;
 mainmenu/filteredUnits;Vehicles matching the filters: {filtered}/{total};Vehicles matching the filters: {filtered}/{total};same;;;;;;;;;;;;;;;;;;;
-xbox/actionNotAvailableDiffPlatform;;You can't perform this action with player from another platform.;nice;;;;;;;;;;;;;;;;;;;
-xbox/actionNotAvailableLiveCommunications;;"Limited by option ""<color=@warningTextColor>Others can communicate with voice, text, or invites</color>""
+xbox/actionNotAvailableDiffPlatform;You can't perform this action with player from another platform.;You can't perform this action with player from another platform.;same;;;;;;;;;;;;;;;;;;;
+xbox/actionNotAvailableLiveCommunications;"Limited by option ""<color=@warningTextColor>Others can communicate with voice, text, or invites</color>""
 in Xbox Live account privacy settings:
-<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";nice;;;;;;;;;;;;;;;;;;;
-xbox/actionNotAvailableCrossNetworkCommunications;;"Limited by option ""<color=@warningTextColor>You can communicate outside of Xbox Live with voice & text</color>""
+<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";"Limited by option ""<color=@warningTextColor>Others can communicate with voice, text, or invites</color>""
 in Xbox Live account privacy settings:
-<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";nice;;;;;;;;;;;;;;;;;;;
-xbox/actionNotAvailableCrossNetworkPlay;;"Limited by option ""<color=@warningTextColor>You can play with people outside of Xbox Live</color>""
+<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";same;;;;;;;;;;;;;;;;;;;
+xbox/actionNotAvailableCrossNetworkCommunications;"Limited by option ""<color=@warningTextColor>You can communicate outside of Xbox Live with voice & text</color>""
 in Xbox Live account privacy settings:
-<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";nice;;;;;;;;;;;;;;;;;;;
+<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";"Limited by option ""<color=@warningTextColor>You can communicate outside of Xbox Live with voice & text</color>""
+in Xbox Live account privacy settings:
+<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";same;;;;;;;;;;;;;;;;;;;
+xbox/actionNotAvailableCrossNetworkPlay;"Limited by option ""<color=@warningTextColor>You can play with people outside of Xbox Live</color>""
+in Xbox Live account privacy settings:
+<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";"Limited by option ""<color=@warningTextColor>You can play with people outside of Xbox Live</color>""
+in Xbox Live account privacy settings:
+<color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";same;;;;;;;;;;;;;;;;;;;
 battleTasks/daily/name;Daily Task;Daily Task;same;;;;;;;;;;;;;;;;;;;
 battleTasks/specialTasks/name;Special task;Special task;same;;;;;;;;;;;;;;;;;;;
 loadDlDataStat/inFlight;Loading: files left {filesInFlight} ({filesInFlightSizeKB}K);Loading: files left {filesInFlight} ({filesInFlightSizeKB}K);same;;;;;;;;;;;;;;;;;;;
@@ -4187,7 +4207,7 @@ mainmenu/btnDmgSkinPreview;Damaged model preview;Damaged model preview;same;;;;;
 mainmenu/hintDmgSkinPreview;Mouse pointer:;Mouse pointer:;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnDmgSkinDamaged;Repairs damage;Repairs damage;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnDmgSkinUndamaged;Applies damage;Applies damage;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnPostPs4ActivityFeed;;Share;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnPostPs4ActivityFeed;Share;Share;same;;;;;;;;;;;;;;;;;;;
 mainmenu/unlockDiscount;{romanNumeral} ({discountProgress} / {maxProgress}) – Price drops to {cost}.;{romanNumeral} ({discountProgress} / {maxProgress}) – Price drops to {cost}.;same;;;;;;;;;;;;;;;;;;;
 exp_reasons/kill_helicopter;Helicopter shot down;Helicopter shot down;same;;;;;;;;;;;;;;;;;;;
 confirmationMsg/rareCraftPart;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;same;;;;;;;;;;;;;;;;;;;
@@ -4211,9 +4231,9 @@ msgBox/start_new_unit_type_to_battle_tutorial;;"Do you want to try your hand at 
 slotbarPresetsTutorial/openGameModeSelect;;Open the game modes window to choose a proper one.;nice;;;;;;;;;;;;;;;;;;;
 slotbarPresetsTutorial/selectGameMode;;Select a game mode in which you can play on {unitType}.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/gameModeChoice;Game Mode Select;Game Mode Select;same;;;;;;;;;;;;;;;;;;;
-items/openIn/XboxStore;;Open in Microsoft Store;nice;;;;;;;;;;;;;;;;;;;
-items/openIn/Ps4Store;;Open in PlayStation™Store;nice;;;;;;;;;;;;;;;;;;;
-items/purchaseIn/Ps4Store;;Purchase in PlayStation™Store;nice;;;;;;;;;;;;;;;;;;;
+items/openIn/XboxStore;Open in Microsoft Store;Open in Microsoft Store;same;;;;;;;;;;;;;;;;;;;
+items/openIn/Ps4Store;Open in PlayStation™Store;Open in PlayStation™Store;same;;;;;;;;;;;;;;;;;;;
+items/purchaseIn/Ps4Store;Purchase in PlayStation™Store;Purchase in PlayStation™Store;same;;;;;;;;;;;;;;;;;;;
 items/openIn/EpicGameStore;;Purchase in Epic Game Store;nice;;;;;;;;;;;;;;;;;;;
 armor_class/variable_thickness_armor;Variable thickness armor;Variable thickness armor;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor_dimensions_at_point;Armor dimensions at point;Armor dimensions at point;same;;;;;;;;;;;;;;;;;;;
@@ -4360,10 +4380,11 @@ squadMember/eac_not_inited;Anti-cheat is not initialized. The selected game mode
 sound_mod_not_allowed_restart;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;same;;;;;;;;;;;;;;;;;;;
 sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;same;;;;;;;;;;;;;;;;;;;
 sound_mods_url;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;same;;;;;;;;;;;;;;;;;;;
-promo/XBOXAccount_linked;;Binding an e-mail to your account;nice;;;;;;;;;;;;;;;;;;;
-promo/XBOXAccount_linked/desc;;"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
-This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";nice;;;;;;;;;;;;;;;;;;;
-promo/btnXBOXAccount_linked;;Bind account;nice;;;;;;;;;;;;;;;;;;;
+promo/XBOXAccount_linked;Binding an e-mail to your account;Binding an e-mail to your account;same;;;;;;;;;;;;;;;;;;;
+promo/XBOXAccount_linked/desc;"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
+This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
+This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";same;;;;;;;;;;;;;;;;;;;
+promo/btnXBOXAccount_linked;Bind account;Bind account;same;;;;;;;;;;;;;;;;;;;
 msgbox/hasShipWithoutPurshasedTorpedoes;Torpedoes are not purchased for {numShips=ship/ships} {shipsList}!;Torpedoes are not purchased for {numShips=ship/ships} {shipsList}!;same;;;;;;;;;;;;;;;;;;;
 popup/playerMuted;Player {playerName} is muted;Player {playerName} is muted;same;;;;;;;;;;;;;;;;;;;
 msgbox/groupAlreadyInOtherSlot;"Only one vehicle from a group can be installed in crew slots.
@@ -4475,8 +4496,8 @@ for {cost}?";same;;;;;;;;;;;;;;;;;;;
 trophy/openCountTillPrize;When opening {trophiesCount} trophies, {prizeText} is guaranteed;When opening {trophiesCount} trophies, {prizeText} is guaranteed;same;;;;;;;;;;;;;;;;;;;
 trophy/openCount;Trophies open {openTrophiesCount} of {trophiesCount};Trophies open {openTrophiesCount} of {trophiesCount};same;;;;;;;;;;;;;;;;;;;
 trophy/prizeAlreadyReceived;{prizeText} already received;{prizeText} already received;same;;;;;;;;;;;;;;;;;;;
-contacts/psn/blacklist/request;;Block;nice;;;;;;;;;;;;;;;;;;;
-contacts/psn/friends/request;;Friend request;nice;;;;;;;;;;;;;;;;;;;
+contacts/psn/blacklist/request;Block;Block;same;;;;;;;;;;;;;;;;;;;
+contacts/psn/friends/request;Friend request;Friend request;same;;;;;;;;;;;;;;;;;;;
 battlePass/info/today_login_exp;Progress points received today with Login Award: {expNum};Progress points received today with Login Award: {expNum};same;;;;;;;;;;;;;;;;;;;
 battlePass/info/login_streak;The Season's logins: {loginNum};The Season's logins: {loginNum};same;;;;;;;;;;;;;;;;;;;
 battlePass/info/tomorow_login_exp;Progress points will be received tomorrow with Login Award: {expNum};Progress points will be received tomorrow with Login Award: {expNum};same;;;;;;;;;;;;;;;;;;;
@@ -4522,7 +4543,7 @@ battlePass/msgbox/gotoPrize;Go to unclaimed reward;Go to unclaimed reward;same;;
 battlePass/msgbox/gotoPrizeTitle;To receive the selected reward, you need to collect all the previous rewards in the lineup.;To receive the selected reward, you need to collect all the previous rewards in the lineup.;same;;;;;;;;;;;;;;;;;;;
 battlePass/msgbox/alreadyReceived;Prize already received;Prize already received;same;;;;;;;;;;;;;;;;;;;
 battlePass/msgbox/bpLevelInsufficient;To receive the selected prize, you need to earn the corresponding Battle Pass level.;To receive the selected prize, you need to earn the corresponding Battle Pass level.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnPsnMatchReview;;Player Review;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnPsnMatchReview;Player Review;Player Review;same;;;;;;;;;;;;;;;;;;;
 condition/unlockByTime;Unlocks on {date};Unlocks on {date};same;;;;;;;;;;;;;;;;;;;
 condition/unlockByLevel;Unlocks at Battle Pass Level {level};Unlocks at Battle Pass Level {level};same;;;;;;;;;;;;;;;;;;;
 warbonds/canBuySpecialTasks;Permits to purchase Special tasks;Permits to purchase Special tasks;same;;;;;;;;;;;;;;;;;;;
@@ -4535,7 +4556,7 @@ preloaderSettings/maxBannedCount;Get an SSD to see less screens.;Cannot ban scre
 preloaderSettings/hint;The loading screen filter is applied only after you login to the game with your personal account.;The loading screen filter is applied only after you login to the game with your personal account.;same;;;;;;;;;;;;;;;;;;;
 preloaderSettings/trackProgress;Track progress;Track progress;same;;;;;;;;;;;;;;;;;;;
 preloaderSettings/untrackProgress;Untrack progress;Untrack progress;same;;;;;;;;;;;;;;;;;;;
-ps4/updateAvailable;;"A new update is available. Please use ""Check for update"" function if it was not added to Downloads automatically.";nice;;;;;;;;;;;;;;;;;;;
+ps4/updateAvailable;"A new update is available. Please use ""Check for update"" function if it was not added to Downloads automatically.";"A new update is available. Please use ""Check for update"" function if it was not added to Downloads automatically.";same;;;;;;;;;;;;;;;;;;;
 mainmenu/rewardsNotCollected;Rewards not collected;Rewards not collected;same;;;;;;;;;;;;;;;;;;;
 mainmenu/fulfilledChallenges;Fulfilled challenges;Fulfilled challenges;same;;;;;;;;;;;;;;;;;;;
 mainmenu/pageNumOfPages;Page {num} of {total};Page {num} of {total};same;;;;;;;;;;;;;;;;;;;
@@ -4799,7 +4820,7 @@ suggested_skin/available;;"Author's camouflage is available
 {skinName}";nice;;;;;;;;;;;;;;;;;;;
 suggested_skin/info;;This is an author's camouflage, added to the game under the user-generated content supporting program.;nice;;;;;;;;;;;;;;;;;;;
 suggested_skin/find;;You can support the author by purchasing this camouflage on the Marketplace.;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/ps5_update_request;;Please update your War Thunder client to the native PlayStation®5 version.;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/ps5_update_request;Please update your War Thunder client to the native PlayStation®5 version.;Please update your War Thunder client to the native PlayStation®5 version.;same;;;;;;;;;;;;;;;;;;;
 item/talisman_ship_trophy;Random Talisman (Bluewater fleet);Random Talisman (Bluewater fleet);same;;;;;;;;;;;;;;;;;;;
 item/talisman_ship_trophy/shortTypeDesc;Upon purchase, it automatically adds a talisman for a random purchased vehicle that matches the conditions of use.;Upon purchase, it automatically adds a talisman for a random purchased vehicle that matches the conditions of use.;same;;;;;;;;;;;;;;;;;;;
 item/talisman_boat_trophy;Random Talisman (Coastal fleet);Random Talisman (Coastal fleet);same;;;;;;;;;;;;;;;;;;;
@@ -4960,8 +4981,8 @@ dailyAward/qrCodeWTM;;Scan the QR code with your smartphone's camera and downloa
 war_thunder_mobile;;War Thunder Mobile;nice;;;;;;;;;;;;;;;;;;;
 qrCode/downloadApkFile;;APK File;nice;;;;;;;;;;;;;;;;;;;
 qrCode/GooglePlay;;Google Play;nice;;;;;;;;;;;;;;;;;;;
-qrCode/AppStore;;Apple AppStore;nice;;;;;;;;;;;;;;;;;;;
-xbox/acceptSquadInGame;;Do you want exit to the hangar?;nice;;;;;;;;;;;;;;;;;;;
+qrCode/AppStore;Apple AppStore;Apple AppStore;same;;;;;;;;;;;;;;;;;;;
+xbox/acceptSquadInGame;Do you want exit to the hangar?;Do you want exit to the hangar?;same;;;;;;;;;;;;;;;;;;;
 crew/qalification/canbuy;The qualification can be upgraded to {qualify} for {cost};The qualification can be upgraded to {qualify} for {cost};same;;;;;;;;;;;;;;;;;;;
 msgbox/enable_show_others_decals_option;"Decals are intended to diversify the appearance of vehicles, to give it a special, unique or historical appearance. But in some cases, players use them inappropriately — for veiled insults or expressing views. That is why the display of decals on other players vehicles is disabled by default.
 You can turn it on to diversify the appearance of other players vehicles. You can also change your choice later in menu: ""{optionPathText}"".";"Decals are intended to diversify the appearance of vehicles, to give it a special, unique or historical appearance. But in some cases, players use them inappropriately — for veiled insults or expressing views. That is why the display of decals on other players vehicles is disabled by default.
@@ -5053,3 +5074,4 @@ Scan the QR code with your phone's camera and download the app right now!
 WT Assistant is your mobile companion for your favourite game!
 Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
 Stay one step ahead with WT Assistant!";same;;;;;;;;;;;;;;;;;;;
+slotbar/swapCrewButton;Change order;Change order;same;;;;;;;;;;;;;;;;;;;

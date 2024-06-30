@@ -1,5 +1,9 @@
 duhchuy's SCAM patchnotes
 
+2.37.0.37
+>
+_0 dates from row 8000-8600
+
 2.37.0.22
 >
 _2 F-4F KWS > F-4F KYS

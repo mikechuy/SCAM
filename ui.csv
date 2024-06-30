@@ -1609,7 +1609,7 @@ HUD/TXT_CHOOSE_ALIVE_TARGET_FOR_SCOUTING;No dead things;Destroyed targets cannot
 HUD/TXT_CHOOSE_GROUND_TARGET_FOR_SCOUTING;Ground stuff only;Only ground targets can be scouted;nice;;;;;;;;;;;;;;;;;;;
 HUD/TXT_TARGET_ALREADY_SCOUTED;Already spotted;This target has already been scouted;nice;;;;;;;;;;;;;;;;;;;
 HUD/TXT_MUST_SEE_SCOUTING_TARGET;Player out of sight;Target is out of sight;nice;;;;;;;;;;;;;;;;;;;
-hints/ccrp_bomb_not_ready;Bomb release standby;Bomb release permission;nice;;;;;;;;;;;;;;;;;;;
+hints/ccrp_bomb_not_ready;Bomb release permission;Bomb release permission;same;;;;;;;;;;;;;;;;;;;
 hints/critical_buoyancy;Critical buoyancy;Buoyancy is critical;nice;;;;;;;;;;;;;;;;;;;
 hints/critical_buoyancy_nokey;Critical buoyancy;Buoyancy is critical;nice;;;;;;;;;;;;;;;;;;;
 hints/torpedo_deadzone;Torpedo tube aim in a dead zone;Torpedo tube aim in a dead zone;same;;;;;;;;;;;;;;;;;;;
@@ -2134,7 +2134,7 @@ hints/how_to_smoke_screen_grenade;;Shoot smoke grenades to hide yourself from th
 hints/how_to_smoke_screen_grenade_2;;After shooting smoke grenades, try to move away from the aiming line;nice;;;;;;;;;;;;;;;;;;;
 hints/how_to_engine_smoke_screen_system;Activate ESS to be a pussy;Activate ESS to hide yourself from the enemy;nice;;;;;;;;;;;;;;;;;;;
 hints/how_to_engine_smoke_screen_system_2;Smoke screen doesn't hide your pussy from thermal sights;Smoke screen doesn't hide you if the enemy is using the thermal sight;nice;;;;;;;;;;;;;;;;;;;
-hints/disable_night_vision_on_daylight;;Turn off NVD during the daytime;nice;;;;;;;;;;;;;;;;;;;
+hints/disable_night_vision_on_daylight;Turn off NVD during the daytime;Turn off NVD during the daytime;same;;;;;;;;;;;;;;;;;;;
 hints/how_to_use_tv_optical_guided_agm_1;;;same;;;;;;;;;;;;;;;;;;;
 hints/how_to_use_tv_optical_guided_agm_2;;;same;;;;;;;;;;;;;;;;;;;
 hints/how_to_use_tv_optical_guided_agm_3;;;same;;;;;;;;;;;;;;;;;;;
