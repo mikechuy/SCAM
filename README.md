@@ -17,7 +17,10 @@ Just a test/backup repo. This is partially serious, partially joking, completely
 4. Replace Gaijin's csv files with extracted csv files. Not all files are needed, pick and choose whichever one you want:
 	1. _online
 		- console -> handicap; add colors to icons in kill feed
-	2. menu
+
+  	![handicane](https://github.com/mikechuy/SCAM/assets/72666168/68269ce0-5d48-47ff-8e6c-04b1ae06fe60)
+   	
+   	2. menu
 		- bail out -> j out; 'merican English, server rename; armor multiplier
 	3. menu_events
 		- assault -> ass salt
@@ -28,8 +31,11 @@ Just a test/backup repo. This is partially serious, partially joking, completely
 	6. ui
 		- removes useless warnings; add skill issue
 	7. units
-		- no more vague or confusing names, homogenize within each tree![whyxm70](https://github.com/mikechuy/SCAM/assets/72666168/e53cd1f3-2d4b-4fbb-8fee-979e0f618d91)
-	8. units_modifications
+		- no more vague or confusing names, homogenize within each tree
+
+	![whyxm70](https://github.com/mikechuy/SCAM/assets/72666168/e53cd1f3-2d4b-4fbb-8fee-979e0f618d91)
+	
+ 	8. units_modifications
 		- homogenize engine and modification names
 	9. units_weaponry
 		- homogenize weapon names, distinguishes bombs/rockets, round types, bombs in kg
