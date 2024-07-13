@@ -392,9 +392,11 @@ hints/no_event_slots;All vehicles available for the air battle have been taken;A
 hints/already_participating;You're already participating in this air battle;You are already participating in this air battle;nice;;;;;;;;;;;;;;;;;;;
 hints/winch_request;Request team help;Request team help;same;;;;;;;;;;;;;;;;;;;
 hints/winch_use;Attach tow cable;Attach tow cable;same;;;;;;;;;;;;;;;;;;;
+hints/winch_use_ship;Help an ally get out of the shallows;Help an ally get out of the shallows;same;;;;;;;;;;;;;;;;;;;
 hints/winch_detach;Detach tow cable;Detach tow cable;same;;;;;;;;;;;;;;;;;;;
 hints/winch_request_no_key;;Request team help (key not assigned);nice;;;;;;;;;;;;;;;;;;;
 hints/winch_use_no_key;;Attach tow cable (key not assigned);nice;;;;;;;;;;;;;;;;;;;
+hints/winch_use_ship_no_key;;Help an ally get out of the shallows (key not assigned);nice;;;;;;;;;;;;;;;;;;;
 hints/winch_detach_no_key;;Detach tow cable (key not assigned);nice;;;;;;;;;;;;;;;;;;;
 hints/crew_busy_extinguishing;Crew cannot fulfil duty while extinguishing a fire;Crew cannot fulfil duty while extinguishing a fire;same;;;;;;;;;;;;;;;;;;;
 hints/crew_busy_extinguishing_no_key;;Crew cannot fulfil duty while extinguishing a fire (key not assigned);nice;;;;;;;;;;;;;;;;;;;
@@ -1062,7 +1064,7 @@ dmg_msg_short/ship_auxiliary_caliber_gun;auxiliary caliber gun;auxiliary caliber
 dmg_msg_short/ship_auxiliary_caliber_turret;auxiliary caliber turret;auxiliary caliber turret;same;;;;;;;;;;;;;;;;;;;
 dmg_msg_short/ship_aa_gun;AA gun;AA gun;same;;;;;;;;;;;;;;;;;;;
 dmg_msg_short/ship_aa_turret;AA turret;AA turret;same;;;;;;;;;;;;;;;;;;;
-dmg_msg_short/ship_gun_mask;gun mask;gun mask;same;;;;;;;;;;;;;;;;;;;
+dmg_msg_short/ship_gun_mask;gun mask;gun mantlet;nice;;;;;;;;;;;;;;;;;;;
 dmg_msg_short/ship_bridge;bridge;bridge;same;;;;;;;;;;;;;;;;;;;
 dmg_msg_short/ship_ammunition_storage;ammunition storage;ammunition storage;same;;;;;;;;;;;;;;;;;;;
 dmg_msg_short/ship_charges_storage;charge room;magazine;trim;;;;;;;;;;;;;;;;;;;
@@ -1584,6 +1586,7 @@ hints/manual_change_crew_available_driver;"This vehicle has only one crew member
 hints/manual_change_crew_necessary_gunner;"Hold the ""Forward"" button so that the Gunner can take the Driver's place and start to move the vehicle";"Hold the ""Forward"" button so that the Gunner can take the Driver's place and start to move the vehicle";same;;;;;;;;;;;;;;;;;;;
 hints/manual_change_crew_necessary_driver;"Hold the ""Fire"" button so that the Driver can take the Gunner's place and man the cannon";"Hold the ""Fire"" button so that the Driver can take the Gunner's place and man the cannon";same;;;;;;;;;;;;;;;;;;;
 hint/holdBtn/short;Hold;Hold;same;;;;;;;;;;;;;;;;;;;
+hint/pressBtn/short;Press;Press;same;;;;;;;;;;;;;;;;;;;
 HUD/TXT_MACH_SHORT;MACH;MACH;same;;;;;;;;;;;;;;;;;;;
 msg/textToShowInCockpit;Cockpit placeholder;Cockpit placeholder;same;;;;;;;;;;;;;;;;;;;
 HUD/BAY_DOOR_IS_OPEN;BAY OPEN;BAY OPEN;same;;;;;;;;;;;;;;;;;;;
@@ -1668,6 +1671,8 @@ HUD/TXT_LASER_DESIGNATOR;LASER;LASER;same;;;;;;;;;;;;;;;;;;;
 HUD/TXT_ENABLE_LASER_NOW;ENABLE LASER NOW;ENABLE LASER NOW;same;;;;;;;;;;;;;;;;;;;
 HUD/TXT_ATGM_OUT_OF_TRACKER_SECTOR;OUTSIDE TRACKING SECTOR;ATGM OUT OF TRACKING SECTOR;nice;;;;;;;;;;;;;;;;;;;
 HUD/HELICOPTER_FORWARD_SHORT;Forward fire;Forward fire;same;;;;;;;;;;;;;;;;;;;
+HUD/AGM_OUTSIDE_LAUNCH_ZONE;OUTSIDE LAUNCH ZONE;OUTSIDE THE LAUNCH ZONE;nice;;;;;;;;;;;;;;;;;;;
+HUD/TXT_GDWEAP_OUTSIDE_LAUNCH_ZONE;The target is outside the launch zone, use the missile sight to aim;The target is outside the launch zone, use the shooter's (ATGM) camera to aim;nice;;;;;;;;;;;;;;;;;;;
 hints/turbo_charger_damaged;Turbocharger damaged;Turbocharger damaged;same;;;;;;;;;;;;;;;;;;;
 hints/load_factor_too_high;Exceeded load factor;Load factor too high;nice;;;;;;;;;;;;;;;;;;;
 WEAPON_AIM_PITCH;Vertical Guidance;Vertical Guidance;same;;;;;;;;;;;;;;;;;;;
@@ -1926,7 +1931,7 @@ HUD/BOMB_SIGHT_BOMB_BAY;The bomb bay is closed. Press drop to open;The bomb bay 
 HUD/BOMB_SIGHT_HIGH_SPEED;Too fast;Too fast;same;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_NOT_AVAILABLE;Hover absent;Hover absent;same;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_ATTITUDE;Hover off;Hover off;same;;;;;;;;;;;;;;;;;;;
-CONTROL_MODE_CRUISE;Hover on;Hover on;same;;;;;;;;;;;;;;;;;;;
+CONTROL_MODE_CRUISE;Auto hover mode;Hover on;trim;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_NOT_READY_TO_CRUISE;Hover unavailable;Hover unavailable;same;;;;;;;;;;;;;;;;;;;
 hints/vtol_over_limit;VTOL configuration is unavailable;VTOL configuration is unavailable;same;;;;;;;;;;;;;;;;;;;
 hints/need_lock_laser_spot;Cannot launch - the designated area is out of range;Cannot launch - the designated area is out of range;same;;;;;;;;;;;;;;;;;;;

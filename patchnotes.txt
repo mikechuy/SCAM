@@ -1,5 +1,13 @@
 duhchuy's SCAM patchnotes
 
+2.37.0.66
+>
+more smoke clouds
+High-explosive with base fuze > High-explosive, base detonating
+blunt-nose > flat-nose
+adjust a few ammo type acronyms
+_0 dates from row 9100-9600
+
 2.37.0.52
 >
 _0 dates from row 8600-9100

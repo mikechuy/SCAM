@@ -3841,6 +3841,7 @@ crewSkillParameter/commanderLeadershipAgility;Agility;Agility;same;;;;;;;;;;;;;;
 mainmenu/unitRentTimeleft;Unit test drive expires in;Unit test drive expires in;same;;;;;;;;;;;;;;;;;;;
 mainmenu/selectCrew/haveMoreQualified;You have more qualified crew for this vehicle.;You have more qualified crew for this vehicle.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/selectCrew/haveMoreQualified/tooltip;You have more qualified crew for this vehicle.;You have more qualified crew for this vehicle.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/selectCrew/qualificationLegend;For each crew, the level and qualification for the {unitName} is shown.;For each crew, the level and qualification for the {unitName} is shown.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/legend;Legend;Legend;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/fieldRepairTankFullRepairTime;The maximum possible time to repair the tank;The maximum possible time to repair the tank;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameterTable/descriptionLabel;Parameter;Parameter;same;;;;;;;;;;;;;;;;;;;
@@ -5075,3 +5076,7 @@ WT Assistant is your mobile companion for your favourite game!
 Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
 Stay one step ahead with WT Assistant!";same;;;;;;;;;;;;;;;;;;;
 slotbar/swapCrewButton;Change order;Change order;same;;;;;;;;;;;;;;;;;;;
+crew/skillUpgradesAvalible;Skill upgrades available;Skill upgrades available;same;;;;;;;;;;;;;;;;;;;
+slotbar/vehicleAlreadyInSlotbar;"The vehicle is already in the slot!
+You can move it to another slot or remove it from the set using the crew panel.";"The vehicle is already in the slot!
+You can move it to another slot or remove it from the set using the crew panel.";same;;;;;;;;;;;;;;;;;;;
