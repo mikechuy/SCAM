@@ -393,7 +393,7 @@ events/playersRooms/tooltip;Search for available sessions also among the rooms c
 events/noCompatibilityMode/msg;This mode is not available when the 'Old videocards support' option is enabled.;This mode is not available when the 'Old videocards support' option is enabled.;same;;;;;;;;;;;;;;;;;;;
 events/noCompatibilityMode;Switch off the 'Old videocards support' option.;Switch off the 'Old videocards support' option.;same;;;;;;;;;;;;;;;;;;;
 events/notEnoughMoney;Not enough money for a contribution;Not enough money for a contribution;same;;;;;;;;;;;;;;;;;;;
-events/notAvailableNewbiesMode/msg;This mode is not available for noobs. Fuck you, cunt.;This mode is not available for you. Select another suitable mode in the mode selection window.;nice;;;;;;;;;;;;;;;;;;;
+events/notAvailableNewbiesMode/msg;This mode is not available for noobs. Fuck you, cunt.;This mode is not available to you. Select another suitable mode in the mode selection window.;nice;;;;;;;;;;;;;;;;;;;
 missions/ship_timeDelay_battles;[┚ Enduring Confrontation] Naval Battles;[┚ Enduring Confrontation] Naval Battles;same;;;;;;;;;;;;;;;;;;;
 missions/ship_timeDelay_battles/desc;"Achieve superiority by destroying enemy convoys, ports and vehicles.
 

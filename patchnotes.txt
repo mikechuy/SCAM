@@ -1,5 +1,13 @@
 duhchuy's SCAM patchnotes
 
+2.37.0.96
+>
+better optimized scripts
+(PF) > VT
+_0 dates from row 10000-10600
+_0 CN names made verbose, adhere to 1987 renaming scheme
+fix some group names
+
 2.37.0.78
 >
 fix units_weaponry save

@@ -1479,7 +1479,7 @@ HUD_DESTROYED_BY_AMMO;%s - %s;%s ammunition - %s;nice;;;;;;;;;;;;;;;;;;;
 HUD_AWARD_GIVEN_FOR;the award will be given to ;the award will be given to ;same;;;;;;;;;;;;;;;;;;;
 HUD_AWARD_NEAREST;The award may be given to the nearest opponent;The award may be given to the nearest opponent;same;;;;;;;;;;;;;;;;;;;
 HUD_INVULNERABLE_TIME;Invincibility;Invincibility;same;;;;;;;;;;;;;;;;;;;
-InternetRadio/Ulitka;"""Ulitka"" radio";"""Ulitka"" radio";same;;;;;;;;;;;;;;;;;;;
+InternetRadio/Ulitka;Ulitka radio;"""Ulitka"" radio";nice;;;;;;;;;;;;;;;;;;;
 NUD_TIME_TO_START_REPAIR;Repair will start in;Repair will start in;same;;;;;;;;;;;;;;;;;;;
 NUD_TIME_TO_STOP_REPAIR;Repair will end in;Repair will end in;same;;;;;;;;;;;;;;;;;;;
 NUD_TIME_TO_TANK_ASSIST_REPAIR;The allied vehicle will be repaired in;The allied vehicle will be repaired in;same;;;;;;;;;;;;;;;;;;;
@@ -1537,28 +1537,19 @@ TRIM_ELEVATOR_POSITION_HAS_BEEN_SAVED;Elevator trim position has been saved;Elev
 TRIM_POSITION_HAS_BEEN_RESTORED;Position has been restored:;Position has been restored:;same;;;;;;;;;;;;;;;;;;;
 aasReachPlayedTime1;You have been online for 1 hour already.;You have been online for 1 hour already.;same;;;;;;;;;;;;;;;;;;;
 aasReachPlayedTime2;You have been online for 2 hours already.;You have been online for 2 hours already.;same;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTimeTired3;"You have been online for 3 hours already and you are in tired game time.
+aasReachPlayedTimeTired3;You have been online for 3 hours already and you are in tired game time.;"You have been online for 3 hours already and you are in tired game time.
 Your game reward is decreasing by 50%.
-For your health, please logout of the game and take a rest.";"You have been online for 3 hours already and you are in tired game time.
+For your health, please logout of the game and take a rest.";nice;;;;;;;;;;;;;;;;;;;
+aasReachPlayedTime3;You have been online for more than 3 hours and you are in tired game time.;"You have been online for more than 3 hours and you are in tired game time.
 Your game reward is decreasing by 50%.
-For your health, please logout of the game and take a rest.";same;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTime3;"You have been online for more than 3 hours and you are in tired game time.
+For your health, please logout of the game and take a rest.";nice;;;;;;;;;;;;;;;;;;;
+aasReachPlayedTime4;You have been online for more than 4 hours and you are in tired game time.;"You have been online for more than 4 hours and you are in tired game time.
 Your game reward is decreasing by 50%.
-For your health, please logout of the game and take a rest.";"You have been online for more than 3 hours and you are in tired game time.
-Your game reward is decreasing by 50%.
-For your health, please logout of the game and take a rest.";same;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTime4;"You have been online for more than 4 hours and you are in tired game time.
-Your game reward is decreasing by 50%.
-For your health, please logout of the game and take a rest.";"You have been online for more than 4 hours and you are in tired game time.
-Your game reward is decreasing by 50%.
-For your health, please logout of the game and take a rest.";same;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTime5;"You have been online for more than 5 hours and you are in tired game time.
+For your health, please logout of the game and take a rest.";nice;;;;;;;;;;;;;;;;;;;
+aasReachPlayedTime5;You have been online for more than 5 hours and you are in tired game time.;"You have been online for more than 5 hours and you are in tired game time.
 Your reward has became 0.
 For your health, you should logout and take a rest.
-You can only return to normal after your offline time has reached 5 hours.";"You have been online for more than 5 hours and you are in tired game time.
-Your reward has became 0.
-For your health, you should logout and take a rest.
-You can only return to normal after your offline time has reached 5 hours.";same;;;;;;;;;;;;;;;;;;;
+You can only return to normal after your offline time has reached 5 hours.";nice;;;;;;;;;;;;;;;;;;;
 antiAddictSystem/warningMsg;;"You have been online for {playTime}, access to multiplayer modes will be restricted in {limitAfterTime}.
 For your health, please log out of the game and take a rest.";nice;;;;;;;;;;;;;;;;;;;
 antiAddictSystem/warningMsgOnlyPlayTime;;"You have been online for {playTime}, it could be dangerous to your health.
@@ -1620,11 +1611,9 @@ hints/ammo_destroyed;Ammunition lost;Ammunition lost;same;;;;;;;;;;;;;;;;;;;
 hints/weapon_type_unavailable;Selected weapon type unavailable;Selected weapon type unavailable;same;;;;;;;;;;;;;;;;;;;
 hud/textMissile;MSL;MSL;same;;;;;;;;;;;;;;;;;;;
 hud/textRocket;Rocket;Rocket;same;;;;;;;;;;;;;;;;;;;
-hud/successUserSight;"Created a user sight
+hud/successUserSight;Created a user sight;"Created a user sight
 <color=@activeTextColor>%s</color>
-in UserSights folder in game root folder.";"Created a user sight
-<color=@activeTextColor>%s</color>
-in UserSights folder in game root folder.";same;;;;;;;;;;;;;;;;;;;
+in UserSights folder in game root folder.";nice;;;;;;;;;;;;;;;;;;;
 hud/rangefinder_damaged;Rangefinder damaged;Rangefinder damaged;same;;;;;;;;;;;;;;;;;;;
 hints/rangefinder_damaged;Rangefinder damaged;Rangefinder damaged;same;;;;;;;;;;;;;;;;;;;
 hints/night_vision_damaged;Night Vision module damaged;Night Vision module damaged;same;;;;;;;;;;;;;;;;;;;
@@ -1843,8 +1832,8 @@ hud/TWS HDN ACM;TWS HDN ACM;ACM PD HDN;trim;;;;;;;;;;;;;;;;;;;
 hud/TWS HDN BST;TWS HDN BST;BST PD HDN;trim;;;;;;;;;;;;;;;;;;;
 hud/TWS HDN VSL;TWS HDN VSL;VSL PD HDN;trim;;;;;;;;;;;;;;;;;;;
 hud/TWS HDN track;TWS HDN TRK;TRK PD;trim;;;;;;;;;;;;;;;;;;;
-hud/TWS GTM standby;TWS GTM;TWS GTM;same;;;;;;;;;;;;;;;;;;;
-hud/TWS GTM search;TWS GTM;TWS GTM;same;;;;;;;;;;;;;;;;;;;
+hud/TWS GTM standby;GMTI TWS;TWS GMTI;nice;;;;;;;;;;;;;;;;;;;
+hud/TWS GTM search;GMTI TWS;TWS GMTI;nice;;;;;;;;;;;;;;;;;;;
 hud/TWS GTM acquisition;GMTI ACQ;ACQ GMTI;nice;;;;;;;;;;;;;;;;;;;
 hud/TWS GTM ACM;GMTI ACM;ACM GMTI;nice;;;;;;;;;;;;;;;;;;;
 hud/TWS GTM BST;GMTI BST;BST GMTI;nice;;;;;;;;;;;;;;;;;;;
@@ -1931,7 +1920,7 @@ HUD/BOMB_SIGHT_BOMB_BAY;The bomb bay is closed. Press drop to open;The bomb bay 
 HUD/BOMB_SIGHT_HIGH_SPEED;Too fast;Too fast;same;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_NOT_AVAILABLE;Hover absent;Hover absent;same;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_ATTITUDE;Hover off;Hover off;same;;;;;;;;;;;;;;;;;;;
-CONTROL_MODE_CRUISE;Auto hover mode;Hover on;trim;;;;;;;;;;;;;;;;;;;
+CONTROL_MODE_CRUISE;Hover on;Hover on;same;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_NOT_READY_TO_CRUISE;Hover unavailable;Hover unavailable;same;;;;;;;;;;;;;;;;;;;
 hints/vtol_over_limit;VTOL configuration is unavailable;VTOL configuration is unavailable;same;;;;;;;;;;;;;;;;;;;
 hints/need_lock_laser_spot;Cannot launch - the designated area is out of range;Cannot launch - the designated area is out of range;same;;;;;;;;;;;;;;;;;;;
@@ -1994,7 +1983,7 @@ ils/us_aim_54a_default;54A;PH;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim_54c;54C;PH;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim_54c_default;54C;PH;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim7e_sparrow;7E;SP;nice;;;;;;;;;;;;;;;;;;;
-ils/us_aim7e2_dogfight_sparrow;7E2;SP;trim;;;;;;;;;;;;;;;;;;;
+ils/us_aim7e2_dogfight_sparrow;700;SP;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim7f_sparrow;7F;SP;nice;;;;;;;;;;;;;;;;;;;
 ils/us_aim7m_sparrow;7M;SP;nice;;;;;;;;;;;;;;;;;;;
 ils/us_aim7f_sparrow_f_14;7F;SP;nice;;;;;;;;;;;;;;;;;;;
@@ -2111,7 +2100,7 @@ fcs/heading_angle;heading angle;heading angle;same;;;;;;;;;;;;;;;;;;;
 hints/target_lock_sensor_disabled;Turn on the radar/IRST to be able to lock on a target;Turn on the radar/IRST to be able to lock on a target;same;;;;;;;;;;;;;;;;;;;
 hints/target_lock_sensor_damaged;Repair the radar/IRST to be able to lock on a target;Repair the radar/IRST to be able to lock on a target;same;;;;;;;;;;;;;;;;;;;
 hints/exceed_max_depth_to_launch;Torpedo launch is possible on the depth less than %d m;Torpedo launch is possible on the depth less than %d m;same;;;;;;;;;;;;;;;;;;;
-hints/saclos_guidance_mode_auto;Enabled automatic selection of missile guidance mode;Enabled automatic selection of missile guidance mode;same;;;;;;;;;;;;;;;;;;;
+hints/saclos_guidance_mode_auto;Enabled automatic selection of missile guidance mode;Automatic selection of missile guidance mode enabled;nice;;;;;;;;;;;;;;;;;;;
 hints/saclos_guidance_mode_direct;Missile guidance switched to LOS mode;Missile guidance switched to LOS mode;same;;;;;;;;;;;;;;;;;;;
 hints/saclos_guidance_mode_lead;Missile guidance switched to LEAD mode;Missile guidance switched to LEAD mode;same;;;;;;;;;;;;;;;;;;;
 hints/submarine_depth_change;To change depth press {shortcut};To change depth press {shortcut};same;;;;;;;;;;;;;;;;;;;

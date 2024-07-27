@@ -489,7 +489,7 @@ shop/tank_mass/tooltip;Mass;Mass;same;;;;;;;;;;;;;;;;;;;
 shop/horsePowers/tooltip;Engine power;Engine power;same;;;;;;;;;;;;;;;;;;;
 shop/unitValidCondition;at;at;same;;;;;;;;;;;;;;;;;;;
 shop/max_inclination/tooltip;Maximum inclination;Maximum inclination;same;;;;;;;;;;;;;;;;;;;
-shop/turnTurretTime/tooltip;Horizontal rotation speed;Horizontal rotation speed;same;;;;;;;;;;;;;;;;;;;
+shop/turnTurretTime/tooltip;Horizontal rotation speed;Horizontal guidance speed;nice;;;;;;;;;;;;;;;;;;;
 shop/angleVerticalGuidance/tooltip;Vertical guidance;Vertical guidance;same;;;;;;;;;;;;;;;;;;;
 shop/armorThicknessHull/tooltip;Hull armor thickness;Hull armor thickness;same;;;;;;;;;;;;;;;;;;;
 shop/armorThicknessTurret/tooltip;Turret armor thickness;Turret armor thickness;same;;;;;;;;;;;;;;;;;;;
@@ -2469,12 +2469,12 @@ A destroyed fire control director leaves the vessel unable to calculate the targ
 xray_ext_hint/aircraft;Can be launched during the battle to attack the enemy with its weapons, make a smoke screen or capture the point.;Can be launched during the battle to attack the enemy with its weapons, make a smoke screen or capture the point.;same;;;;;;;;;;;;;;;;;;;
 xray_ext_hint/aircraft/shortcut;You can switch between controlling a ship and the launched hydroplane by pressing {{ID_START_SUPPORT_PLANE_SHIP}};You can switch between controlling a ship and the launched hydroplane by pressing {{ID_START_SUPPORT_PLANE_SHIP}};same;;;;;;;;;;;;;;;;;;;
 xray_ext_hint/engine_room;"Provides ship's ability to move.
-Damageing or destroying several boiler rooms (engines) causes reduce of ship's maximum speed.
+Damaging or destroying several boiler rooms (engines) causes reduce of ship's maximum speed.
 
 Destroying all boiler rooms (engines) makes the ship unable to move. And can cause fire.
 
 You can control engine status with this icon:";"Provides ship's ability to move.
-Damageing or destroying several boiler rooms (engines) causes reduce of ship's maximum speed.
+Damaging or destroying several boiler rooms (engines) causes reduce of ship's maximum speed.
 
 Destroying all boiler rooms (engines) makes the ship unable to move. And can cause fire.
 
@@ -3825,8 +3825,8 @@ crewSkillParameter/tankLoderReloadingTime;Primary Weapon Reload Time;Primary Wea
 crewSkillParameter/tankDriverBrakesTime;Braking Time;Braking Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankDriverGearChangeTime;Gear Shifting Time;Gear Shifting Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankGunnerTargetingQuality;Targeting Quality;Targeting Quality;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/turnTurretSpeed;Targeting Horizontal Speed;Targeting Horizontal Speed;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/turnTurretSpeedPitch;Targeting Vertical Speed;Targeting Vertical Speed;same;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/turnTurretSpeed;Horizontal Rotation Speed;Horizontal Guidance Speed;nice;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/turnTurretSpeedPitch;Vertical Rotation Speed;Vertical Guidance Speed;nice;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/crewMemberChangeTime;Crew Member Replacement Time;Crew Member Replacement Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/fieldRepairSpeedMultiplier;Field Repair Speed;Field Repair Speed;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/commanderLeadershipDriving;Tank Driving;Tank Driving;same;;;;;;;;;;;;;;;;;;;
@@ -3888,7 +3888,7 @@ tutorials/hotas_restriction;;You can play in all FLYING missions with T-Flight H
 tutorials/hotas_restriction/tank;;Thrustmaster® T.Flight Hotas 4 cannot be used for tank control. This tutorial can be played with DUALSHOCK®4;nice;;;;;;;;;;;;;;;;;;;
 tutorials/upg_crew/skill_points_info;;For participating in battles the crew receives skill points, which can be spent on improving vehicle control skills.;nice;;;;;;;;;;;;;;;;;;;
 tutorials/upg_crew/press_to_crew;;Choose the crew in order to learn more about crew skills.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/select_crew;;"Select ""Crew"" in the context menu.";nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/select_crew;;"Select ""Crew Training"" in the context menu.";nice;;;;;;;;;;;;;;;;;;;
 tutorials/upg_crew/total_skill_points;;Here you can see the crew level and the number of unassigned skill points. Skill points are used for improving the crew skills.;nice;;;;;;;;;;;;;;;;;;;
 tutorials/upg_crew/skill_groups;;Crew skills are divided into several groups.;nice;;;;;;;;;;;;;;;;;;;
 tutorials/upg_crew/take_skill_points;;The number of points required for improving the skill depends on the skill's current level and is written on the right.;nice;;;;;;;;;;;;;;;;;;;
@@ -4387,7 +4387,7 @@ promo/XBOXAccount_linked/desc;"Great news for Xbox players! Upgrade your account
 This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
 This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";same;;;;;;;;;;;;;;;;;;;
 promo/btnXBOXAccount_linked;Bind account;Bind account;same;;;;;;;;;;;;;;;;;;;
-msgbox/hasShipWithoutPurshasedTorpedoes;Torpedoes are not purchased for {numShips=ship/ships} {shipsList}!;Torpedoes are not purchased for {numShips=ship/ships} {shipsList}!;same;;;;;;;;;;;;;;;;;;;
+msgbox/hasShipWithoutPurshasedTorpedoes;Torpedoes have not been purchased for {numShips=ship/ships} {shipsList}!;Torpedoes have not been purchased for {numShips=ship/ships} {shipsList}!;same;;;;;;;;;;;;;;;;;;;
 popup/playerMuted;Player {playerName} is muted;Player {playerName} is muted;same;;;;;;;;;;;;;;;;;;;
 msgbox/groupAlreadyInOtherSlot;"Only one vehicle from a group can be installed in crew slots.
 Vehicle from {groupName} group has already been used in slot #{slotIdx}. {descMsg}
@@ -4528,6 +4528,7 @@ battlePass/seasonName/12;"""Armour Breaking Ambusher""";"""Armour Breaking Ambus
 battlePass/seasonName/13;"""Tropical Storm""";"""Tropical Storm""";same;;;;;;;;;;;;;;;;;;;
 battlePass/seasonName/14;"""Airborne General""";"""Airborne General""";same;;;;;;;;;;;;;;;;;;;
 battlePass/seasonName/15;"""Northern King""";"""Northern King""";same;;;;;;;;;;;;;;;;;;;
+battlePass/seasonName/16;"""Skilled Marksman""";"""Skilled Marksman""";same;;;;;;;;;;;;;;;;;;;
 season/information;Full information about the Season;Full information about the Season;same;;;;;;;;;;;;;;;;;;;
 battlePass/rewardsTitle;Congratulations! You have earned Battle Pass prize!;Congratulations! You have earned Battle Pass prize!;same;;;;;;;;;;;;;;;;;;;
 battlePass/buy/desc;"The purchase of the ""Battle Pass"" allows to collect rewards from all opened levels of the Season. ""Battle Pass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";"The purchase of the ""Battle Pass"" allows to collect rewards from all opened levels of the Season. ""Battle Pass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";same;;;;;;;;;;;;;;;;;;;
@@ -4759,6 +4760,8 @@ loading_bg/login_layer_f_4f_lws_lv;F-4F KWS LV;F-4F KWS LV;same;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_desert_warrior;Desert Warrior;Desert Warrior;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fokker_g1a;Fokker G.IA;Fokker G.IA;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_seek_and_destroy;Seek and Destroy;Seek and Destroy;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_sholef;Sholef V.1;Sholef V.1;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_sholef/desc;"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.M.M.E.R.;Good Old S.U.M.M.E.R.;same;;;;;;;;;;;;;;;;;;;
@@ -4968,7 +4971,7 @@ help/modificationSpare;A backup allows you to use a vehicle twice in one battle 
 help/modificationTalisman;A talisman brings +100% research points.;A talisman brings +100% research points.;same;;;;;;;;;;;;;;;;;;;
 help/modificationCamouflage;The closest camouflage in terms of progress. Use the appearance menu to view this camouflage and learn how to obtain it.;The closest camouflage in terms of progress. Use the appearance menu to view this camouflage and learn how to obtain it.;same;;;;;;;;;;;;;;;;;;;
 help/modificationCamouflageComplete;The last camouflage received. Use the appearance menu to view other camouflages and learn how to obtain them.;The last camouflage received. Use the appearance menu to view other camouflages and learn how to obtain them.;same;;;;;;;;;;;;;;;;;;;
-help/modificationAutoPurchaseMods;Automatically purchase modifications researched after the battle using Silver Eagles.;Automatically purchase modifications researched after the battle using Silver Eagles.;same;;;;;;;;;;;;;;;;;;;
+help/modificationAutoPurchaseMods;Automatically purchase modifications researched after the battle using Silver Lions.;Automatically purchase modifications researched after the battle using Silver Lions.;same;;;;;;;;;;;;;;;;;;;
 help/modificationProgressLine;The progress of full research of all modifications of this vehicle. A fully researched vehicle has a spade icon in its slot and counts toward some achievements.;The progress of full research of all modifications of this vehicle. A fully researched vehicle has a spade icon in its slot and counts toward some achievements.;same;;;;;;;;;;;;;;;;;;;
 help/modificationProgressItem;The modification chosen for research. Take part in battles to earn research points and research the modification. You can also purchase this modification for Golden Eagles.;The modification chosen for research. Take part in battles to earn research points and research the modification. You can also purchase this modification for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
 help/modificationNoProgressItem;The modification available for research. You can select this modification for research instead of the one currently selected for research. You can also purchase this modification for Golden Eagles.;The modification available for research. You can select this modification for research instead of the one currently selected for research. You can also purchase this modification for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
