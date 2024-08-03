@@ -2750,12 +2750,12 @@ items/extxboxshop;Microsoft Store;Microsoft Store;same;;;;;;;;;;;;;;;;;;;
 items/workshop/fifa_2018_Exchangeables;Soccer ball Exchange;Soccer ball Exchange;same;;;;;;;;;;;;;;;;;;;
 items/workshop/t34e_craft;Assembling the T-34E;Assembling the T-34E;same;;;;;;;;;;;;;;;;;;;
 items/workshop/is7_craft;Assembling the IS-7;Assembling the IS-7;same;;;;;;;;;;;;;;;;;;;
-items/workshop/summer2018_exchange;"Exchange items — ""Operation S.U.M.M.E.R.""";"Exchange items — ""Operation S.U.M.M.E.R.""";same;;;;;;;;;;;;;;;;;;;
+items/workshop/summer2018_exchange;"Exchange items — ""Operation S.U.F.F.E.R.""";"Exchange items — ""Operation S.U.M.M.E.R.""";nice;;;;;;;;;;;;;;;;;;;
 workshop/craft_event_2019_spring;Airbase (repairing the I-180S);Airbase (repairing the I-180S);same;;;;;;;;;;;;;;;;;;;
 workshop/craft_event_2019_spring_exchange;Headquarters (trade items);Headquarters (trade items);same;;;;;;;;;;;;;;;;;;;
 workshop/worldwar_exchange;World War (trade items);World War (trade items);same;;;;;;;;;;;;;;;;;;;
 workshop/summer_2019_exchange;Operation H.E.A.T. (trade items);Operation H.E.A.T. (trade items);same;;;;;;;;;;;;;;;;;;;
-workshop/summer_2020_exchange;"Exchange items — ""Operation S.U.M.M.E.R. 2020""";"Exchange items — ""Operation S.U.M.M.E.R. 2020""";same;;;;;;;;;;;;;;;;;;;
+workshop/summer_2020_exchange;"Exchange items — ""Operation S.U.F.F.E.R. 2020""";"Exchange items — ""Operation S.U.M.M.E.R. 2020""";nice;;;;;;;;;;;;;;;;;;;
 workshop/winter_2021_exchange;"Exchange items — ""Operation W.I.N.T.E.R.""";"Exchange items — ""Operation W.I.N.T.E.R.""";same;;;;;;;;;;;;;;;;;;;
 workshop/tank_biathlon_exchange;Biathlon (trade items);Biathlon (trade items);same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnToWorkshop;To Workshop;To Workshop;same;;;;;;;;;;;;;;;;;;;
@@ -2898,6 +2898,8 @@ item/wagerGold_10win_3fail;Rookie Golden Battles Wager;Rookie Golden Battles Wag
 item/wagerGold_10win_3fail/shortTypeDesc;Get your own Golden Battles event and win up to 500<color=@currencyGoldColor>¤</color>!;Get your own Golden Battles event and win up to 500<color=@currencyGoldColor>¤</color>!;same;;;;;;;;;;;;;;;;;;;
 item/wagerGold_25win_3fail;Commander Golden Battles Wager;Commander Golden Battles Wager;same;;;;;;;;;;;;;;;;;;;
 item/wagerGold_25win_3fail/shortTypeDesc;Get your own Golden Battles event and win up to 1500<color=@currencyGoldColor>¤</color>!;Get your own Golden Battles event and win up to 1500<color=@currencyGoldColor>¤</color>!;same;;;;;;;;;;;;;;;;;;;
+item/wagerGold_12win_3fail;Simp Golden Battles Wager;Collector Golden Battles Wager;nice;;;;;;;;;;;;;;;;;;;
+item/wagerGold_12win_3fail/shortTypeDesc;Get your own Golden Battles event and win up to 1000<color=@currencyGoldColor>¤</color>!;Get your own Golden Battles event and win up to 1000<color=@currencyGoldColor>¤</color>!;same;;;;;;;;;;;;;;;;;;;
 item/wager_10win_3fail_everyDayAward;Battle victory wager;Battle victory wager;same;;;;;;;;;;;;;;;;;;;
 item/wager_3win5kills_3fail_everyDayAward;Destroy 5 units wager;Destroy 5 units wager;same;;;;;;;;;;;;;;;;;;;
 item/wager_10win10kills_10fail_everyDayAward;Destroy 10 units wager;Destroy 10 units wager;same;;;;;;;;;;;;;;;;;;;
@@ -4127,7 +4129,7 @@ workshop/1Animcraft_preview_air_3;Combine identical parts to get new ones. Once 
 workshop/1Animcraft_preview_air_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for PS4 player or player who previously received DMM items)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for PS4 player or player who previously received DMM items)";same;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_main_header;Operation S.U.M.M.E.R.;Operation S.U.M.M.E.R.;same;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
 workshop/t34_summer_2018_preview_1;Craft your own Т-34E!;Craft your own Т-34E!;same;;;;;;;;;;;;;;;;;;;
 workshop/t34_summer_2018_preview_2; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.;same;;;;;;;;;;;;;;;;;;;
 workshop/t34_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;same;;;;;;;;;;;;;;;;;;;
@@ -4136,7 +4138,7 @@ workshop/t34_summer_2018_preview_5;An optional exchange of created T-34E for Sd.
 workshop/t34_summer_2018_preview_6;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";same;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_main_header;Operation S.U.M.M.E.R.;Operation S.U.M.M.E.R.;same;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_preview_1;Craft your own IS-7!;Craft your own IS-7!;same;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_preview_2; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;same;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;same;;;;;;;;;;;;;;;;;;;
@@ -4435,6 +4437,7 @@ specialOffer/discount;DISCOUNT;DISCOUNT;same;;;;;;;;;;;;;;;;;;;
 specialOffer/exclusivePrice;Your Exclusive Price:;Your Exclusive Price:;same;;;;;;;;;;;;;;;;;;;
 specialOffer/TillTime;Special offer ends in: {time};Special offer ends in: {time};same;;;;;;;;;;;;;;;;;;;
 specialOffer/totalAmount;Total amount:;Total amount:;same;;;;;;;;;;;;;;;;;;;
+specialOffer/inWishlist;On your wishlist!;On your wishlist!;same;;;;;;;;;;;;;;;;;;;
 userlog/specialOffer/recived;You have received {itemName};You have received {itemName};same;;;;;;;;;;;;;;;;;;;
 userlog/specialOffer/expired;{itemName} has expired;{itemName} has expired;same;;;;;;;;;;;;;;;;;;;
 userlog/expenses_compensation;Expenses compensation;Expenses compensation;same;;;;;;;;;;;;;;;;;;;
@@ -4479,8 +4482,8 @@ collection/summer_2021_decals;"""Summer landing"" decals";"""Summer landing"" de
 collection/winter_2022_pinup;"""Female Warriors"" Pinups";"""Female Warriors"" Pinups";same;;;;;;;;;;;;;;;;;;;
 collection/winter_quest_2023;"""Winter Quest 2022-23"" decals";"""Winter Quest 2022-23"" decals";same;;;;;;;;;;;;;;;;;;;
 collection/summer_quest_2022;"""Summer Quest 2022"" decals";"""Summer Quest 2022"" decals";same;;;;;;;;;;;;;;;;;;;
-collection/summer_2016;"""Operation S.U.M.M.E.R. 2016"" Pinups";"""Operation S.U.M.M.E.R. 2016"" Pinups";same;;;;;;;;;;;;;;;;;;;
-collection/summer_2017;"""Operation S.U.M.M.E.R. 2017"" decals";"""Operation S.U.M.M.E.R. 2017"" decals";same;;;;;;;;;;;;;;;;;;;
+collection/summer_2016;"""Operation S.U.F.F.E.R. 2016"" Pinups";"""Operation S.U.M.M.E.R. 2016"" Pinups";nice;;;;;;;;;;;;;;;;;;;
+collection/summer_2017;"""Operation S.U.F.F.E.R. 2017"" decals";"""Operation S.U.M.M.E.R. 2017"" decals";nice;;;;;;;;;;;;;;;;;;;
 collection/shield;"""Shields"" decorations";"""Shields"" decorations";same;;;;;;;;;;;;;;;;;;;
 collection/summer_2023;"""Summer Extreme 2023"" decals";"""Summer Extreme 2023"" decals";same;;;;;;;;;;;;;;;;;;;
 collection/winter_extreme_2024;"""Winter Extreme 2023-24"" decals";"""Winter Extreme 2023-24"" decals";same;;;;;;;;;;;;;;;;;;;
@@ -4623,7 +4626,7 @@ loading_bg/login_layer_bo_105;BO-105;BO-105;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_jp_1_65;Japanese Ground Forces;Japanese Ground Forces;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fr_amx;AMX-40;AMX-40;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fr_1_73;French Aircraft (D.510);French Aircraft (D.510);same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_F_4_marathon;Operation S.U.M.M.E.R. — 2018;Operation S.U.M.M.E.R. — 2018;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_F_4_marathon;Operation S.U.F.F.E.R. — 2018;Operation S.U.M.M.E.R. — 2018;nice;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_173_narv;French Aircraft (S.O.8000 Narval);French Aircraft (S.O.8000 Narval);same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_wt_6_years;6th Anniversary of War Thunder;6th Anniversary of War Thunder;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_stormer_hvm;Stormer HVM;Stormer HVM;same;;;;;;;;;;;;;;;;;;;
@@ -4764,7 +4767,7 @@ loading_bg/login_layer_sholef;Sholef V.1;Sholef V.1;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_sholef/desc;"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
-event/good_old_summer;Good Old S.U.M.M.E.R.;Good Old S.U.M.M.E.R.;same;;;;;;;;;;;;;;;;;;;
+event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
 event/unlockAircrafts;"Shoot down enemies to get new aircraft
 (aircraft will be received after battle)";"Shoot down enemies to get new aircraft
 (aircraft will be received after battle)";same;;;;;;;;;;;;;;;;;;;
@@ -5080,7 +5083,28 @@ WT Assistant is your mobile companion for your favourite game!
 Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
 Stay one step ahead with WT Assistant!";same;;;;;;;;;;;;;;;;;;;
 slotbar/swapCrewButton;Change order;Change order;same;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/topSkillValue;value for a top crew;value for a top crew;same;;;;;;;;;;;;;;;;;;;
+shop/exp_top_units_bonus;Bonus for researching vehicles ({type}) of other gaming nations;Bonus for researching vehicles ({type}) of other gaming nations;same;;;;;;;;;;;;;;;;;;;
+shop/top_units_bonus_off;"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type in other gaming nations. Each gaming nation without a top-end vehicle will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
+Get ready to take your military power to the next level!";"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type in other gaming nations. Each gaming nation without a top-end vehicle will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
+Get ready to take your military power to the next level!";same;;;;;;;;;;;;;;;;;;;
+shop/top_units_bonus_on;"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching vehicles of those gaming nations in which you don't yet have any top-end vehicle of this type.
+Get ready to take your research to the next level with your achievements in game and enjoy the daily bonuses!
+The remaining number of bonus battles: {countries}.
+The number of bonus battles is updated daily at {time}.";"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching vehicles of those gaming nations in which you don't yet have any top-end vehicle of this type.
+Get ready to take your research to the next level with your achievements in game and enjoy the daily bonuses!
+The remaining number of bonus battles: {countries}.
+The number of bonus battles is updated daily at {time}.";same;;;;;;;;;;;;;;;;;;;
 crew/skillUpgradesAvalible;Skill upgrades available;Skill upgrades available;same;;;;;;;;;;;;;;;;;;;
 slotbar/vehicleAlreadyInSlotbar;"The vehicle is already in the slot!
 You can move it to another slot or remove it from the set using the crew panel.";"The vehicle is already in the slot!
 You can move it to another slot or remove it from the set using the crew panel.";same;;;;;;;;;;;;;;;;;;;
+shop/unit_nation_bonus_tooltip/header;Daily bonus to vehicle research;Daily bonus to vehicle research;same;;;;;;;;;;;;;;;;;;;
+shop/unit_nation_bonus_tooltip/battles_remain;Number of bonus battles: {battlesRemain};Number of bonus battles: {battlesRemain};same;;;;;;;;;;;;;;;;;;;
+shop/unit_nation_bonus_tooltip/bonus_amount;Bonus amount: +{bonusAmount}%;Bonus amount: +{bonusAmount}%;same;;;;;;;;;;;;;;;;;;;
+shop/unit_nation_bonus_tooltip/bonus_text;"The size of the bonus depends on the rank of the vehicle chosen for research
+{percents}
+Every 30 minutes spent in one battle will count as an additional battle";"The size of the bonus depends on the rank of the vehicle chosen for research
+{percents}
+Every 30 minutes spent in one battle will count as an additional battle";same;;;;;;;;;;;;;;;;;;;
+shop/unit_nation_bonus_tooltip/update_time;The number of bonus battles will be updated in:;The number of bonus battles will be updated in:;same;;;;;;;;;;;;;;;;;;;

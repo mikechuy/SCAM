@@ -319,7 +319,7 @@ url/achievements;auto_local auto_login https://achievements.gaijin.net/?app={app
 url/news;https://warthunder.com/en/game/changelog/;https://warthunder.com/en/game/changelog/;same;;;;;;;;;;;;;;;;;;;;
 url/steam/community;https://steamcommunity.com/app/{appId};https://steamcommunity.com/app/{appId};same;;;;;;;;;;;;;;;;;;;;
 url/reportAnIssue;auto_login https://community.gaijin.net/issues/p/warthunder/new_issue?f.platform={platform}&f.version={version};auto_login https://community.gaijin.net/issues/p/warthunder/new_issue?f.platform={platform}&f.version={version};same;;;;;;;;;;;;;;;;;;;;
-url/eula;https://legal.gaijin.net;auto_local https://legal.gaijin.net;nice;;;;;;;;;;;;;;;;;;;;
+url/eula;auto_local https://legal.gaijin.net;auto_local https://legal.gaijin.net;same;;;;;;;;;;;;;;;;;;;;
 priceText/rub;{price} RUB;{price} RUB;same;;;;;;;;;;;;;;;;;;;;
 priceText/usd;{price} USD;{price} USD;same;;;;;;;;;;;;;;;;;;;;
 priceText/eur;{price} EUR;{price} EUR;same;;;;;;;;;;;;;;;;;;;;

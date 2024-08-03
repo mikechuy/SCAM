@@ -2680,6 +2680,12 @@ modification/il_derby/desc;Allows the installation of Derby air-to-air missiles.
 modification/il_derby;Derby;Derby;same;;;;;;;;;;;;;;;;;;;
 modification/it_aspide/desc;Allows installation of Aspide air-to-air missiles.;Allows the installation of Aspide air-to-air missiles.;nice;;;;;;;;;;;;;;;;;;;
 modification/it_aspide;Aspide;Aspide;same;;;;;;;;;;;;;;;;;;;
+modification/ir_sedjil/desc;Allows the installation of Sedjil air-to-air missiles.;Allows the installation of Sedjil air-to-air missiles.;same;;;;;;;;;;;;;;;;;;;
+modification/ir_sedjil;Sedjil;Sedjil;same;;;;;;;;;;;;;;;;;;;
+modification/ir_fakour_90/desc;Allows the installation of Fakour-90 air-to-air missiles.;Allows the installation of Fakour-90 air-to-air missiles.;same;;;;;;;;;;;;;;;;;;;
+modification/ir_fakour_90;Fakour-90;Fakour-90;same;;;;;;;;;;;;;;;;;;;
+modification/ir_yasser/desc;Allows the installation of Yasser guided missiles.;Allows the installation of Yasser guided missiles.;same;;;;;;;;;;;;;;;;;;;
+modification/ir_yasser;Yasser;Yasser;same;;;;;;;;;;;;;;;;;;;
 modification/uk_skyflash/desc;Allows installation of Skyflash air-to-air missiles.;Allows the installation of Skyflash air-to-air missiles.;nice;;;;;;;;;;;;;;;;;;;
 modification/uk_skyflash;Skyflash;Skyflash;same;;;;;;;;;;;;;;;;;;;
 modification/uk_skyflash_temp/desc;Allows installation of Skyflash SuperTEMP air-to-air missiles.;Allows the installation of Skyflash SuperTEMP air-to-air missiles.;nice;;;;;;;;;;;;;;;;;;;

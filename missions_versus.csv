@@ -1442,7 +1442,7 @@ while the defenders have to protect them.";same;;;;;;;;;;;;;;;;;;;
 missions/area_88;"[Collabo] Special battle ""Area 88""";"[Collabo] Special battle ""Area 88""";same;;;;;;;;;;;;;;;;;;;
 missions/area_88/desc;"In this mode, for every 11 aircraft shot down, you can randomly obtain one of the 8 types of personal mark decals in ""Area 88"". If you collect all the decals for shooting down 88 aircraft, which is equivalent to a $1.5 million penalty, you will receive ""the flaming unicorn"" decal, which is the personal mark of the main character, Makoto Kazama, and the special camouflage for the F-5E TIGER II fighter, as well as the title ""Etranger"".";"In this mode, for every 11 aircraft shot down, you can randomly obtain one of the 8 types of personal mark decals in ""Area 88"". If you collect all the decals for shooting down 88 aircraft, which is equivalent to a $1.5 million penalty, you will receive ""the flaming unicorn"" decal, which is the personal mark of the main character, Makoto Kazama, and the special camouflage for the F-5E TIGER II fighter, as well as the title ""Etranger"".";same;;;;;;;;;;;;;;;;;;;
 missions/arctic_01;Arctic. Pier;Arctic. Pier;same;;;;;;;;;;;;;;;;;;;
-missions/arctic_02;Arctic. Polar base;Arctic. Polar Base;nice;;;;;;;;;;;;;;;;;;;
+missions/arctic_02;Arctic. Polar Base;Arctic. Polar Base;same;;;;;;;;;;;;;;;;;;;
 at_gun_right_flank;Anti-tank gun (right flank);Anti-tank gun (right flank);same;;;;;;;;;;;;;;;;;;;
 at_gun_left_flank;Anti-tank gun (left flank);Anti-tank gun (left flank);same;;;;;;;;;;;;;;;;;;;
 missions/moscow_regular_BfD_norespawn;[Operation] Moscow;[Operation] Moscow;same;;;;;;;;;;;;;;;;;;;

@@ -1,5 +1,12 @@
 duhchuy's SCAM patchnotes
 
+2.37.0.110
+>
+L7A3 > JSW M68
+_0 dates from row 10600-13331 (probably all done)
+Collector Golden Battles Wager > Simp Golden Battles Wager
+S.U.M.M.E.R. > S.U.F.F.E.R.
+
 2.37.0.96
 >
 better optimized scripts

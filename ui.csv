@@ -396,7 +396,7 @@ hints/winch_use_ship;Help an ally get out of the shallows;Help an ally get out o
 hints/winch_detach;Detach tow cable;Detach tow cable;same;;;;;;;;;;;;;;;;;;;
 hints/winch_request_no_key;;Request team help (key not assigned);nice;;;;;;;;;;;;;;;;;;;
 hints/winch_use_no_key;;Attach tow cable (key not assigned);nice;;;;;;;;;;;;;;;;;;;
-hints/winch_use_ship_no_key;;Help an ally get out of the shallows (key not assigned);nice;;;;;;;;;;;;;;;;;;;
+hints/winch_use_ship_no_key;Help an ally get out of the shallows (key not assigned);Help an ally get out of the shallows (key not assigned);same;;;;;;;;;;;;;;;;;;;
 hints/winch_detach_no_key;;Detach tow cable (key not assigned);nice;;;;;;;;;;;;;;;;;;;
 hints/crew_busy_extinguishing;Crew cannot fulfil duty while extinguishing a fire;Crew cannot fulfil duty while extinguishing a fire;same;;;;;;;;;;;;;;;;;;;
 hints/crew_busy_extinguishing_no_key;;Crew cannot fulfil duty while extinguishing a fire (key not assigned);nice;;;;;;;;;;;;;;;;;;;
@@ -1537,16 +1537,18 @@ TRIM_ELEVATOR_POSITION_HAS_BEEN_SAVED;Elevator trim position has been saved;Elev
 TRIM_POSITION_HAS_BEEN_RESTORED;Position has been restored:;Position has been restored:;same;;;;;;;;;;;;;;;;;;;
 aasReachPlayedTime1;You have been online for 1 hour already.;You have been online for 1 hour already.;same;;;;;;;;;;;;;;;;;;;
 aasReachPlayedTime2;You have been online for 2 hours already.;You have been online for 2 hours already.;same;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTimeTired3;You have been online for 3 hours already and you are in tired game time.;"You have been online for 3 hours already and you are in tired game time.
+aasReachPlayedTimeTired3;"You have been online for 3 hours already and you are in tired game time.
+Your game reward is decreasing by 50%.
+For your health, please logout of the game and take a rest.";"You have been online for 3 hours already and you are in tired game time.
+Your game reward is decreasing by 50%.
+For your health, please logout of the game and take a rest.";same;;;;;;;;;;;;;;;;;;;
+aasReachPlayedTime3;;"You have been online for more than 3 hours and you are in tired game time.
 Your game reward is decreasing by 50%.
 For your health, please logout of the game and take a rest.";nice;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTime3;You have been online for more than 3 hours and you are in tired game time.;"You have been online for more than 3 hours and you are in tired game time.
+aasReachPlayedTime4;;"You have been online for more than 4 hours and you are in tired game time.
 Your game reward is decreasing by 50%.
 For your health, please logout of the game and take a rest.";nice;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTime4;You have been online for more than 4 hours and you are in tired game time.;"You have been online for more than 4 hours and you are in tired game time.
-Your game reward is decreasing by 50%.
-For your health, please logout of the game and take a rest.";nice;;;;;;;;;;;;;;;;;;;
-aasReachPlayedTime5;You have been online for more than 5 hours and you are in tired game time.;"You have been online for more than 5 hours and you are in tired game time.
+aasReachPlayedTime5;;"You have been online for more than 5 hours and you are in tired game time.
 Your reward has became 0.
 For your health, you should logout and take a rest.
 You can only return to normal after your offline time has reached 5 hours.";nice;;;;;;;;;;;;;;;;;;;
@@ -1611,9 +1613,11 @@ hints/ammo_destroyed;Ammunition lost;Ammunition lost;same;;;;;;;;;;;;;;;;;;;
 hints/weapon_type_unavailable;Selected weapon type unavailable;Selected weapon type unavailable;same;;;;;;;;;;;;;;;;;;;
 hud/textMissile;MSL;MSL;same;;;;;;;;;;;;;;;;;;;
 hud/textRocket;Rocket;Rocket;same;;;;;;;;;;;;;;;;;;;
-hud/successUserSight;Created a user sight;"Created a user sight
+hud/successUserSight;"Created a user sight
 <color=@activeTextColor>%s</color>
-in UserSights folder in game root folder.";nice;;;;;;;;;;;;;;;;;;;
+in UserSights folder in game root folder.";"Created a user sight
+<color=@activeTextColor>%s</color>
+in UserSights folder in game root folder.";same;;;;;;;;;;;;;;;;;;;
 hud/rangefinder_damaged;Rangefinder damaged;Rangefinder damaged;same;;;;;;;;;;;;;;;;;;;
 hints/rangefinder_damaged;Rangefinder damaged;Rangefinder damaged;same;;;;;;;;;;;;;;;;;;;
 hints/night_vision_damaged;Night Vision module damaged;Night Vision module damaged;same;;;;;;;;;;;;;;;;;;;
@@ -1920,7 +1924,7 @@ HUD/BOMB_SIGHT_BOMB_BAY;The bomb bay is closed. Press drop to open;The bomb bay 
 HUD/BOMB_SIGHT_HIGH_SPEED;Too fast;Too fast;same;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_NOT_AVAILABLE;Hover absent;Hover absent;same;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_ATTITUDE;Hover off;Hover off;same;;;;;;;;;;;;;;;;;;;
-CONTROL_MODE_CRUISE;Hover on;Hover on;same;;;;;;;;;;;;;;;;;;;
+CONTROL_MODE_CRUISE;Auto hover mode;Hover on;trim;;;;;;;;;;;;;;;;;;;
 CONTROL_MODE_NOT_READY_TO_CRUISE;Hover unavailable;Hover unavailable;same;;;;;;;;;;;;;;;;;;;
 hints/vtol_over_limit;VTOL configuration is unavailable;VTOL configuration is unavailable;same;;;;;;;;;;;;;;;;;;;
 hints/need_lock_laser_spot;Cannot launch - the designated area is out of range;Cannot launch - the designated area is out of range;same;;;;;;;;;;;;;;;;;;;
@@ -1983,7 +1987,7 @@ ils/us_aim_54a_default;54A;PH;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim_54c;54C;PH;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim_54c_default;54C;PH;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim7e_sparrow;7E;SP;nice;;;;;;;;;;;;;;;;;;;
-ils/us_aim7e2_dogfight_sparrow;700;SP;trim;;;;;;;;;;;;;;;;;;;
+ils/us_aim7e2_dogfight_sparrow;7E2;SP;trim;;;;;;;;;;;;;;;;;;;
 ils/us_aim7f_sparrow;7F;SP;nice;;;;;;;;;;;;;;;;;;;
 ils/us_aim7m_sparrow;7M;SP;nice;;;;;;;;;;;;;;;;;;;
 ils/us_aim7f_sparrow_f_14;7F;SP;nice;;;;;;;;;;;;;;;;;;;
