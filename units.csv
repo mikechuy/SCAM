@@ -10662,7 +10662,7 @@ jp_type_3_ho_ni_III_0;Type 3 Gun Tank Ho-Ni III, 1945;Type 3 Ho-Ni III;
 jp_type_3_ho_ni_III_1;Ho-Ni III;Ho-Ni III;三式炮战车;same;;;;;;;;;;;;;;;;;;;
 jp_type_3_ho_ni_III_2;Ho-Ni III;SPG;自行火炮;6;;;;;;;;;;;;;;;;;;;
 jp_type_95_heavy_shop;Ro-Gō;Ro-Go;九五式重战车;0;;;;;;;;;;;;;;;;;;;
-jp_type_95_heavy_0;Type 95 Heaby Tank Ro-Gō, 1937;Type 95 Ro-Go;九五式重战车 Ro-Go;17;;;;;;;;;;;;;;;;;;;
+jp_type_95_heavy_0;Type 95 Heavy Tank Ro-Gō, 1937;Type 95 Ro-Go;九五式重战车 Ro-Go;17;;;;;;;;;;;;;;;;;;;
 jp_type_95_heavy_1;Ro-Gō;Ro-Go;九五式重战车;0;;;;;;;;;;;;;;;;;;;
 jp_type_95_heavy_2;Ro-Gō;Heavy tank;重型坦克;-5;;;;;;;;;;;;;;;;;;;
 jp_type_97_chi_ha_shop;Chi-Ha;Chi-Ha;九七式中战车;same;;;;;;;;;;;;;;;;;;;
