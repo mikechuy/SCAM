@@ -4487,14 +4487,14 @@ collection/summer_2017;"""Operation S.U.F.F.E.R. 2017"" decals";"""Operation S.U
 collection/shield;"""Shields"" decorations";"""Shields"" decorations";same;;;;;;;;;;;;;;;;;;;
 collection/summer_2023;"""Summer Extreme 2023"" decals";"""Summer Extreme 2023"" decals";same;;;;;;;;;;;;;;;;;;;
 collection/winter_extreme_2024;"""Winter Extreme 2023-24"" decals";"""Winter Extreme 2023-24"" decals";same;;;;;;;;;;;;;;;;;;;
-collection/pinup_zodiac;"""Zodiac"" Pin-ups";"""Zodiac"" Pin-ups";same;;;;;;;;;;;;;;;;;;;
+collection/pinup_zodiac;"""Zodiac"" Pinups";"""Zodiac"" Pin-ups";nice;;;;;;;;;;;;;;;;;;;
 collection/go_to_collection;Go to collection;Go to collection;same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decoration_special_console_trophy;"Trophy ""Collection of decorations"" (Common)";"Trophy ""Collection of decorations"" (Common)";same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decoration_weapon_console_trophy;"Trophy ""Collection of decorations"" (Weapon)";"Trophy ""Collection of decorations"" (Weapon)";same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decal_console_trophy;"Trophy ""Collection of decals"" (Common)";"Trophy ""Collection of decals"" (Common)";same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decal_football_console_trophy;"Trophy ""Collection of decals"" (Spot the Ball)";"Trophy ""Collection of decals"" (Spot the Ball)";same;;;;;;;;;;;;;;;;;;;
 trophy/collection_decal_camotrophy_console_trophy;"Trophy ""Collection of decals"" (Game update)";"Trophy ""Collection of decals"" (Game update)";same;;;;;;;;;;;;;;;;;;;
-trophy/collection_decal_pinups_console_trophy;"Trophy ""Collection of decals"" (Pin-ups)";"Trophy ""Collection of decals"" (Pin-ups)";same;;;;;;;;;;;;;;;;;;;
+trophy/collection_decal_pinups_console_trophy;"Trophy ""Collection of decals"" (Pinups)";"Trophy ""Collection of decals"" (Pin-ups)";nice;;;;;;;;;;;;;;;;;;;
 item/openForGold/needMoneyQuestion;"Are you sure you want to open {itemName}
 for {cost}?";"Are you sure you want to open {itemName}
 for {cost}?";same;;;;;;;;;;;;;;;;;;;
