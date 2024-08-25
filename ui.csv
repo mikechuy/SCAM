@@ -83,7 +83,7 @@ death/rendinstCrash;Crash;Crash;same;;;;;;;;;;;;;;;;;;;
 death/wingOveload;Skill Issue;Wing overload crash;nice;;;;;;;;;;;;;;;;;;;
 death/helicopterBurn;Burned;Burned;same;;;;;;;;;;;;;;;;;;;
 death/ramAttack;Rammed;Destroyed by a ram attack;nice;;;;;;;;;;;;;;;;;;;
-death/wrecked;Hull fully destroyed;Hull is fully destroyed;nice;;;;;;;;;;;;;;;;;;;
+death/wrecked;Hull destroyed;Hull is fully destroyed;nice;;;;;;;;;;;;;;;;;;;
 wait/sessionSearch;Searching game sessions.;Searching game sessions.;same;;;;;;;;;;;;;;;;;;;
 wait/sessionJoin;Joining game session.;Joining game session.;same;;;;;;;;;;;;;;;;;;;
 wait/sessionCreate;Creating game session.;Creating game session.;same;;;;;;;;;;;;;;;;;;;
@@ -403,7 +403,7 @@ hints/crew_busy_extinguishing_no_key;;Crew cannot fulfil duty while extinguishin
 hints/extinguisher_is_ineffective;This fire can't be extinguished with the extinguisher;This fire can't be extinguished with the extinguisher;same;;;;;;;;;;;;;;;;;;;
 hints/restoring_in;Your vehicle will be restored in;Your vehicle will be restored in;same;;;;;;;;;;;;;;;;;;;
 hints/block_night_vision;Only thermal imaging sights are possible during day conditions;Only thermal imaging night sight is possible during day-time conditions;nice;;;;;;;;;;;;;;;;;;;
-hints/ircm_fail_guidance;IR Counter Measures, missile guidance disrupted;Operation of IRCM, disruption of missile guidance;nice;;;;;;;;;;;;;;;;;;;
+hints/ircm_fail_guidance;IR Countermeasures, missile guidance disrupted;Operation of IRCM, disruption of missile guidance;nice;;;;;;;;;;;;;;;;;;;
 hints/shot_failed_aps_working;Shot intercepted by active protection system;Shot was intercepted by active protection system;nice;;;;;;;;;;;;;;;;;;;
 FLAPS_RAISED;Flaps: Raised;Flaps: Raised;same;;;;;;;;;;;;;;;;;;;
 FLAPS_COMBAT;Flaps: Combat;Flaps: Combat;same;;;;;;;;;;;;;;;;;;;

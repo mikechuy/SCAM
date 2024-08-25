@@ -166,7 +166,7 @@ mission_hint/spare/spawn;the number of backups on this vehicle. You can use this
 mission_hint/spawns_per_unit;available and maximum number of respawns on this type of vehicle ({army}).;available and maximum number of respawns on this type of vehicle ({army}).;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_yes;Yes;Yes;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_no;No;No;same;;;;;;;;;;;;;;;;;;;
-msgbox/btn_ok;OK;OK;same;;;;;;;;;;;;;;;;;;;
+msgbox/btn_ok;Ok;OK;nice;;;;;;;;;;;;;;;;;;;
 msgbox/btn_cancel;Fuck Off;Cancel;trim;;;;;;;;;;;;;;;;;;;
 msgbox/btn_back;Back;Back;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_replace;Replace;Replace;same;;;;;;;;;;;;;;;;;;;
@@ -580,6 +580,8 @@ mainmenu/btnRepair;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnRepairNow;Repair (%s);Repair (%s);same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnRepairNowDesc;You wouldn't be allowed to use damaged vehicle in battle, even if it has a few scratches.;You wouldn't be allowed to use damaged vehicle in battle, even if it has a few scratches.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuy;Purchase;Purchase;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnBuyInstantly;Complete instantly;Complete instantly;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnBuyInstantly/tooltip;Instantly complete a task without having to satisfy its conditions;Instantly complete a task without having to satisfy its conditions;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyAll;Purchase All;Purchase All;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuySelected;Purchase Selected;Purchase Selected;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyAndSetUnitInSlot;Purchase Vehicle and Train a Crew;Purchase Vehicle and Train a Crew;same;;;;;;;;;;;;;;;;;;;
@@ -689,6 +691,7 @@ mainmenu/giftSparesAdded;+ {num} backup {num=vehicle/vehicles} for free, you sav
 mainmenu/dataRemaningTime;The vehicle will be available for purchase until {time}.;The vehicle will be available for purchase until {time}.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/dataExpiredTime;The vehicle was available for purchase until {time}.;The vehicle was available for purchase until {time}.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/timeForBuyVehicle;The vehicle will be available for purchase for {time}.;The vehicle will be available for purchase for {time}.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/timeForBuyTrophy;This trophy will be available for purchase for {time};This trophy will be available for purchase for {time};same;;;;;;;;;;;;;;;;;;;
 mainmenu/buyPreviousModification;The previous modification must be purchased.;The previous modification must be purchased.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/buy_modifications_for_prev_unit;You should research required amount of modifications for previous vehicle;You should research required amount of modifications for previous vehicle;same;;;;;;;;;;;;;;;;;;;
 mainmenu/notEnoughWP;You need more € to purchase this vehicle.;You need more € to purchase this vehicle.;same;;;;;;;;;;;;;;;;;;;
@@ -1285,6 +1288,12 @@ userlog/page/onlineShop;Store;Store;same;;;;;;;;;;;;;;;;;;;
 userlog/page/items;Items;Items;same;;;;;;;;;;;;;;;;;;;
 userlog/page/battletasks;Battle Tasks;Battle Tasks;same;;;;;;;;;;;;;;;;;;;
 userlog/page/worldWar;World War;World War;same;;;;;;;;;;;;;;;;;;;
+userlog/page/complaints;Your complaints;Your complaints;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/successful_single;One player was blocked by one of your complaints;One player was blocked by one of your complaints;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/popup_message/title;Your complaint has been processed!;Your complaint has been processed!;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/popup_message/single;One player was blocked by one of your complaints.;One player was blocked by one of your complaints.;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/popup_message/several;Some players were blocked by your complaints.;Some players were blocked by your complaints.;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/popup_message/thank;We thank you for your vigilance and help in keeping the game in order. Thanks for cooperation!;We thank you for your vigilance and help in keeping the game in order. Thanks for cooperation!;same;;;;;;;;;;;;;;;;;;;
 userlog/early_session_leave;You have left the %s mission before the battle ended.;You have left the %s mission before the battle ended.;same;;;;;;;;;;;;;;;;;;;
 userlog/session_result;The %s mission has been completed.;The %s mission has been completed.;same;;;;;;;;;;;;;;;;;;;
 userlog/session_result/win;<color=@userlogColoredText>Victory</color> in the %s mission!;<color=@userlogColoredText>Victory</color> in the %s mission!;same;;;;;;;;;;;;;;;;;;;
@@ -1886,7 +1895,10 @@ mainmenu/failedInstallAttachable;You cannot set up this item in the indicated pl
 mainmenu/failedInstallAttachableAngle;You cannot set up this item at slope angle {angle}°, maximum allowed angle is {allowedAngle}°;You cannot set up this item at slope angle {angle}°, maximum allowed angle is {allowedAngle}°;same;;;;;;;;;;;;;;;;;;;
 discount/notification;Discounts available;Discounts available;same;;;;;;;;;;;;;;;;;;;
 mainmenu/firstCountry;Choose Country for the first battle;Choose Country for the first battle;same;;;;;;;;;;;;;;;;;;;
+mainmenu/firstCountry/hint;Other countries also will be available;Other countries also will be available;same;;;;;;;;;;;;;;;;;;;
 mainmenu/firstUnit;Choose Unit Type for the first battle;Choose Unit Type for the first battle;same;;;;;;;;;;;;;;;;;;;
+mainmenu/firstUnit/hint;Other vehicles also will be available;Other vehicles also will be available;same;;;;;;;;;;;;;;;;;;;
+mainmenu/firstChoiseBonusNotice;Based on chosen country and vehicles you will get bonuses during the game process;Based on chosen country and vehicles you will get bonuses during the game process;same;;;;;;;;;;;;;;;;;;;
 mainmenu/countryUnlockNotice;Other vehicles and countries will be unlocked as the game progresses;Other vehicles and countries will be unlocked as the game progresses;same;;;;;;;;;;;;;;;;;;;
 mainmenu/lockedCountryDescription;Country will be unlocked in battles against other players;Country will be unlocked in battles against other players;same;;;;;;;;;;;;;;;;;;;
 msgbox/linkCopied;;"Invite your friends to join War Thunder!
@@ -2432,6 +2444,7 @@ xray/aps/reactionTime;Reaction time;Reaction time;same;;;;;;;;;;;;;;;;;;;
 xray/aps/reloadTime;Time of readiness to re-repel threat;Time of readiness to re-repel threat;same;;;;;;;;;;;;;;;;;;;
 xray/aps/targetSpeed;Threat velocity;Threat velocity;same;;;;;;;;;;;;;;;;;;;
 xray/aps/shotCount;Count countermeasures;Count countermeasures;same;;;;;;;;;;;;;;;;;;;
+xray/firing;Firing;Firing;same;;;;;;;;;;;;;;;;;;;
 xray_ext_hint/title;Extended description;Extended description;same;;;;;;;;;;;;;;;;;;;
 xray_ext_hint/ammo_turret;"This ammo is used first. The reload speed of guns is shorter with ready-use shells than with shells from shell storage.
 
@@ -2961,6 +2974,7 @@ item/rarity2;Uncommon;Uncommon;same;;;;;;;;;;;;;;;;;;;
 item/rarity3;Rare;Rare;same;;;;;;;;;;;;;;;;;;;
 item/rarity4;Ultra Rare;Ultra Rare;same;;;;;;;;;;;;;;;;;;;
 item/reached_max_amount;You already have the maximum number of these items.;You already have the maximum number of these items.;same;;;;;;;;;;;;;;;;;;;
+item/vehicle_already_bought;Vehicle from this trophy is already on your account!;Vehicle from this trophy is already on your account!;same;;;;;;;;;;;;;;;;;;;
 userlog/coupon_exchanged/short;You have exchanged;You have exchanged;same;;;;;;;;;;;;;;;;;;;
 mainmenu/chestConsumed/title;You have opened the chest;You have opened the chest;same;;;;;;;;;;;;;;;;;;;
 mainmenu/itemConsumed/title;You have consumed the item;You have consumed the item;same;;;;;;;;;;;;;;;;;;;
@@ -3739,6 +3753,7 @@ actionBarItem/tank_terraform;Entrenching;Entrenching;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/sight_stabilization;Sight stabilization;Sight stabilization;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/night_vision;Night vision device;Night vision device;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/support_plane_orbiting;Flying in orbit;Flying in orbit;same;;;;;;;;;;;;;;;;;;;
+actionBarItem/support_plane_group_return;Return;Return;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/ugv;UGV deploy;UGV deploy;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/mine_detonation;Mine detonation;Mine detonation;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/unlimited_control;Switch control to other vehicle;Switch control to other vehicle;same;;;;;;;;;;;;;;;;;;;
@@ -4425,7 +4440,7 @@ msgbox/activateSpareForUnit;Are you sure you want to activate {spareName} for {u
 mainmenu/important_notice;Important!;Important!;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnChangelog;Changelog;Changelog;same;;;;;;;;;;;;;;;;;;;
 NoUpdateInfo;Oops... No information yet :(;Oops... No information yet :(;same;;;;;;;;;;;;;;;;;;;
-visitGameSite;See game website for more details;See game website for more details;same;;;;;;;;;;;;;;;;;;;
+visitGameSite;See game website for more details;Check the game website for more details and links to the issues already resolved;nice;;;;;;;;;;;;;;;;;;;
 personalUnlocks/needCompleteIntroCampaign;Will be available after completing intro campaign;Will be available after completing intro campaign;same;;;;;;;;;;;;;;;;;;;
 specialOffer;Special offer!;Special offer!;same;;;;;;;;;;;;;;;;;;;
 specialOffer/unitDiscount;Have time to purchase {unitName} at {discount} discount!;Have time to purchase {unitName} at {discount} discount!;same;;;;;;;;;;;;;;;;;;;
@@ -4626,7 +4641,7 @@ loading_bg/login_layer_bo_105;BO-105;BO-105;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_jp_1_65;Japanese Ground Forces;Japanese Ground Forces;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fr_amx;AMX-40;AMX-40;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fr_1_73;French Aircraft (D.510);French Aircraft (D.510);same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_F_4_marathon;Operation S.U.F.F.E.R. — 2018;Operation S.U.M.M.E.R. — 2018;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_F_4_marathon;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R. — 2018;nice;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_173_narv;French Aircraft (S.O.8000 Narval);French Aircraft (S.O.8000 Narval);same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_wt_6_years;6th Anniversary of War Thunder;6th Anniversary of War Thunder;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_stormer_hvm;Stormer HVM;Stormer HVM;same;;;;;;;;;;;;;;;;;;;
@@ -4919,7 +4934,7 @@ help/show_extra_xray;Hiding vehicle armor elements will help you better understa
 help/show_extended_hints;An expanded description of the modules allows you to understand the purpose and features of each module, including the impact on the vehicle's combat characteristics.;An expanded description of the modules allows you to understand the purpose and features of each module, including the impact on the vehicle's combat characteristics.;same;;;;;;;;;;;;;;;;;;;
 help/battlepas;Battle Pass indicator (red = active). Purchase a Battle Pass to receive valuable prizes for completing in-game tasks and challenges.;Battle Pass indicator (red = active). Purchase a Battle Pass to receive valuable prizes for completing in-game tasks and challenges.;same;;;;;;;;;;;;;;;;;;;
 help/free_exp;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
-write_review;Write a review;Write a review;same;;;;;;;;;;;;;;;;;;;
+write_review;Leave feedback;Leave feedback;same;;;;;;;;;;;;;;;;;;;
 help/community_btn;Leaderboards, squadrons and other social activities.;Leaderboards, squadrons and other social activities.;same;;;;;;;;;;;;;;;;;;;
 help/topmenu_pvp_btn;Additional game modes and special missions (training, benchmark).;Additional game modes and special missions (training, benchmark).;same;;;;;;;;;;;;;;;;;;;
 help/topmenu_menu_btn;Game and control settings.;Game and control settings.;same;;;;;;;;;;;;;;;;;;;
@@ -5083,6 +5098,8 @@ WT Assistant is your mobile companion for your favourite game!
 Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
 Stay one step ahead with WT Assistant!";same;;;;;;;;;;;;;;;;;;;
 slotbar/swapCrewButton;Change order;Change order;same;;;;;;;;;;;;;;;;;;;
+slotbar/dragCrewHint;This action can be done by drag-n-drop – just drag the crew block;This action can be done by drag-n-drop – just drag the crew block;same;;;;;;;;;;;;;;;;;;;
+slotbar/dragUnitHint;This action can be done by drag-n-drop – just drag the vehicle slot;This action can be done by drag-n-drop – just drag the vehicle slot;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/topSkillValue;value for a top crew;value for a top crew;same;;;;;;;;;;;;;;;;;;;
 shop/exp_top_units_bonus;Bonus for researching vehicles ({type}) of other gaming nations;Bonus for researching vehicles ({type}) of other gaming nations;same;;;;;;;;;;;;;;;;;;;
 shop/top_units_bonus_off;"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type in other gaming nations. Each gaming nation without a top-end vehicle will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
@@ -5108,3 +5125,7 @@ Every 30 minutes spent in one battle will count as an additional battle";"The si
 {percents}
 Every 30 minutes spent in one battle will count as an additional battle";same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/update_time;The number of bonus battles will be updated in:;The number of bonus battles will be updated in:;same;;;;;;;;;;;;;;;;;;;
+logs/mission_points;{num} Mission Score;{num} Mission Score;same;;;;;;;;;;;;;;;;;;;
+logs/ammunition;Ammunition;Ammunition;same;;;;;;;;;;;;;;;;;;;
+logs/damage;Damage;Damage;same;;;;;;;;;;;;;;;;;;;
+shop/show_nation_bonus_in_tab;Show remaining bonus in headers;Show remaining bonus in headers;same;;;;;;;;;;;;;;;;;;;

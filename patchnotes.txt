@@ -1,5 +1,9 @@
 duhchuy's SCAM patchnotes
 
+2.37.0.163
+>
+smol cleanup
+
 2.37.0.125
 >
 ␗Al-Khalid > VT-1
