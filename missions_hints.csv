@@ -2025,6 +2025,8 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_laser/start2;"These bombs are guided by the carrier aircraft laser signal reflected from the target
 Press {shortcut} to continue";"These bombs are guided by the carrier aircraft laser signal reflected from the target
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_laser/laser_board;;;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_laser/target_sim;;;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_laser/after_bomb1;"Continuous laser designation from the carrier to the target is required for guidance until the target is hit
 Press {shortcut} to continue";"Continuous laser designation from the carrier to the target is required for guidance until the target is hit
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -2037,6 +2039,7 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_tv/start2;"These bombs autonomously target using their own television homing head
 Press {shortcut} to continue";"These bombs autonomously target using their own television homing head
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_tv/target_sim;;;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_ir/start1;"The use of guided bombs with infrared imaging homing head
 Press {shortcut} to continue";"The use of guided bombs with infrared imaging homing head
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -2116,12 +2119,54 @@ hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the
 Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point.
 Press {shortcut} to activate it";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/find_target;Align the aircraft's course to the target;Align the aircraft's course to the target;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/sim_down;;;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/sim_up;;;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/zoom;Press {shortcut} to zoom the camera;Press {shortcut} to zoom the camera;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/change_view;Press {shortcut} to change camera;Press {shortcut} to change camera;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/change_view_camera;Press {shortcut} to change the view and switch to 3rd person view;Press {shortcut} to change the view and switch to 3rd person view;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/try_again;"The target was not hit
 Press {shortcut} to begin the challenge again {{var}}";"The target was not hit
 Press {shortcut} to begin the challenge again {{var}}";same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/find_target;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/find_next_target;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/find_target_again;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/zoom;Press {shortcut} to zoom the camera;Press {shortcut} to zoom the camera;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/aim;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/aim_exit;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/fire;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/start1;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/start2;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/rangefinder_aim;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_sim;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_new_target;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/range_set;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_arcade_close;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_arcade_new_target;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_arcade_far;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_uncaged_tft/shoot_info1;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_uncaged_tft/shoot_info2;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_caged_tft/shoot_info1;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_caged_tft/shoot_info2;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/start;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_01;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_01_after_shoot;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_02;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_03;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_03_change_mode;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_04;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_04_change_mode;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/ir_mode;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/photo_mode;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/info1;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_activate;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_shoot;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_wait_weapon;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/rangefinder;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/info2;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/shoot;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_check_shoot;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/shoot_again;;;same;;;;;;;;;;;;;;;;;;;
 hints/extraction_sandstorm_is_coming_get_out;A devastating sandstorm is approaching, quickly gather resources and evacuate to the zone ␡;A devastating sandstorm is approaching, quickly gather resources and evacuate to the zone ␡;same;;;;;;;;;;;;;;;;;;;
 hints/rage_scanner_active;Destroyed vehicles with available rage flags are marked on the minimap;Destroyed vehicles with available rage flags are marked on the minimap;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

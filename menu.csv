@@ -302,6 +302,7 @@ msgbox/only_default_help;Help is available for default controller only.;Help is 
 options/mp_mission;Mission;Mission;same;;;;;;;;;;;;;;;;;;;
 options/mp_user_mission;User mission;User mission;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_signIn;Cum In;Sign In;nice;;;;;;;;;;;;;;;;;;;
+msgbox/btn_confirm;Confirm;Confirm;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_continue;Continue;Continue;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_download;Download;Download;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_browse;Browse;Browse;same;;;;;;;;;;;;;;;;;;;
@@ -426,6 +427,8 @@ shop/max_speed_alt;at height:;at height:;same;;;;;;;;;;;;;;;;;;;
 shop/max_speed_alt/tooltip;Maximum-speed altitude.;Maximum-speed altitude.;same;;;;;;;;;;;;;;;;;;;
 shop/max_speed_alt_sea;at sea level;at sea level;same;;;;;;;;;;;;;;;;;;;
 shop/max_altitude;Max Altitude:;Max Altitude:;same;;;;;;;;;;;;;;;;;;;
+shop/estimated_damage_to_base;Estimated damage to bases:;Estimated damage to bases:;same;;;;;;;;;;;;;;;;;;;
+shop/reward_multiplier_for_base;Reward multiplier for bases:;Reward multiplier for bases:;same;;;;;;;;;;;;;;;;;;;
 shop/max_altitude/tooltip;The airplane's maximum altitude.;The airplane's maximum altitude.;same;;;;;;;;;;;;;;;;;;;
 shop/turn_time;Turn Time:;Turn Time:;same;;;;;;;;;;;;;;;;;;;
 shop/turn_time/tooltip;The minimum time it takes the airplane to complete a full horizontal circle.;The minimum time it takes the airplane to complete a full horizontal circle.;same;;;;;;;;;;;;;;;;;;;
@@ -592,6 +595,7 @@ mainmenu/btnBuyAllModifications;Purchase All Modifications;Purchase All Modifica
 mainmenu/btnBuyAllResearched;Purchase All Researched;Purchase All Researched;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnOrder;Order;Order;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnOrderDesc;Purchase this beautiful example and win the battle with its help.;Purchase this beautiful example and win the battle with its help.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnTestProjectileProps;Tested parameters of the projectiles;Tested parameters of the projectiles;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnTestFlight;Test Flight;Test Flight;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnTestFlightDesc;Test your aircraft's capabilities in the customizable mission;Test your aircraft's capabilities in the customizable mission;same;;;;;;;;;;;;;;;;;;;
 mainmenu/cantTestFlight;Test Flight is temporarily unavailable for this aircraft.;Test Flight is temporarily unavailable for this aircraft.;same;;;;;;;;;;;;;;;;;;;
@@ -1288,7 +1292,7 @@ userlog/page/onlineShop;Store;Store;same;;;;;;;;;;;;;;;;;;;
 userlog/page/items;Items;Items;same;;;;;;;;;;;;;;;;;;;
 userlog/page/battletasks;Battle Tasks;Battle Tasks;same;;;;;;;;;;;;;;;;;;;
 userlog/page/worldWar;World War;World War;same;;;;;;;;;;;;;;;;;;;
-userlog/page/complaints;Your complaints;Your complaints;same;;;;;;;;;;;;;;;;;;;
+userlog/page/systemNotifications;System notifications;System notifications;same;;;;;;;;;;;;;;;;;;;
 userlog/complaints/successful_single;One player was blocked by one of your complaints;One player was blocked by one of your complaints;same;;;;;;;;;;;;;;;;;;;
 userlog/complaints/popup_message/title;Your complaint has been processed!;Your complaint has been processed!;same;;;;;;;;;;;;;;;;;;;
 userlog/complaints/popup_message/single;One player was blocked by one of your complaints.;One player was blocked by one of your complaints.;same;;;;;;;;;;;;;;;;;;;
@@ -1645,6 +1649,7 @@ shop/featureLock/BritainShip/header;Britain fleet;Britain fleet;same;;;;;;;;;;;;
 shop/featureLock/JapanShip/header;Japan fleet;Japan fleet;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/ItalyShip/header;Italian fleet;Italian fleet;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/FranceShip/header;French fleet;French fleet;same;;;;;;;;;;;;;;;;;;;
+shop/featureLock/FranceBoat/header;French Coastal fleet;French Coastal fleet;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/Ship/warning/research;Vehicle isn’t available for research at the moment.;Vehicle isn’t available for research at the moment.;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/Ship/warning/buy;Vehicle isn’t available for purchase at the moment.;Vehicle isn’t available for purchase at the moment.;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/Ship/warning/main;"Fleet of this country are now in Closed Beta Test. Each vehicle will become available as it is fully tested and tuned. Until then, they are available only for testers.
@@ -1655,10 +1660,21 @@ shop/featureLock/Ship/advise;"You can become a tester and receive access to CBT 
 2) Purchase a suitable bundle:";"You can become a tester and receive access to CBT if you complete any of the following conditions:
 1) Play the game and complete specified game tasks
 2) Purchase a suitable bundle:";same;;;;;;;;;;;;;;;;;;;
+shop/featureLock/Boat/warning/research;Vehicle isn’t available for research at the moment.;Vehicle isn’t available for research at the moment.;same;;;;;;;;;;;;;;;;;;;
+shop/featureLock/Boat/warning/buy;Vehicle isn’t available for purchase at the moment.;Vehicle isn’t available for purchase at the moment.;same;;;;;;;;;;;;;;;;;;;
+shop/featureLock/Boat/warning/main;"Fleet of this country are now in Closed Beta Test. Each vehicle will become available as it is fully tested and tuned. Until then, they are available only for testers.
+<color=@warningTextColor><link=www.warthunder.com>Read more on our website www.warthunder.com</link></color>";"Fleet of this country are now in Closed Beta Test. Each vehicle will become available as it is fully tested and tuned. Until then, they are available only for testers.
+<color=@warningTextColor><link=www.warthunder.com>Read more on our website www.warthunder.com</link></color>";same;;;;;;;;;;;;;;;;;;;
+shop/featureLock/Boat/advise;"You can become a tester and receive access to CBT if you complete any of the following conditions:
+1) Play the game and complete specified game tasks
+2) Purchase a suitable bundle:";"You can become a tester and receive access to CBT if you complete any of the following conditions:
+1) Play the game and complete specified game tasks
+2) Purchase a suitable bundle:";same;;;;;;;;;;;;;;;;;;;
 charServer/entitlement/wt_access_britain_ships_unlocks;Access to the Britain fleet CBT;Access to the Britain fleet CBT;same;;;;;;;;;;;;;;;;;;;
 charServer/entitlement/wt_access_japan_ships_unlocks;Access to the Japan fleet CBT;Access to the Japan fleet CBT;same;;;;;;;;;;;;;;;;;;;
 charServer/entitlement/wt_access_italy_ships_unlocks;Access to the Italian fleet CBT;Access to the Italian fleet CBT;same;;;;;;;;;;;;;;;;;;;
 charServer/entitlement/wt_access_france_ships_unlocks;Access to the French fleet CBT;Access to the French fleet CBT;same;;;;;;;;;;;;;;;;;;;
+charServer/entitlement/wt_access_france_boats_unlocks;Access to the French Coastal fleet CBT;Access to the French Coastal fleet CBT;same;;;;;;;;;;;;;;;;;;;
 charServer/entitlement/wt_access_france_tanks_unlocks;Access to the French Ground Forces CBT;Access to the French Ground Forces CBT;same;;;;;;;;;;;;;;;;;;;
 charServer/entitlement/wt_access_italy_tanks_unlocks;Access to the Italian Ground Forces CBT;Access to the Italian Ground Forces CBT;same;;;;;;;;;;;;;;;;;;;
 charServer/entitlement/wt_access_china_tanks_unlocks;Access to the Chinese Ground Forces CBT;Access to the Chinese Ground Forces CBT;same;;;;;;;;;;;;;;;;;;;
@@ -2260,7 +2276,6 @@ mainmenu/btnDetailedInfo;Detailed Info;Detailed Info;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnShowDamaged;Show damaged model;Show damaged model;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnProtectionAnalysis;Protection Analysis;Protection Analysis;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnShowExternalDmParts;Show external armor;Show external armor;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnShowExtraXrayParts;Show armor parts;Show armor parts;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnShowExtendedHints;Extended module description;Extended module description;same;;;;;;;;;;;;;;;;;;;
 mainmenu/threat;Threat;Threat;same;;;;;;;;;;;;;;;;;;;
 mainmenu/shell;Shell;Shell;same;;;;;;;;;;;;;;;;;;;
@@ -2974,7 +2989,7 @@ item/rarity2;Uncommon;Uncommon;same;;;;;;;;;;;;;;;;;;;
 item/rarity3;Rare;Rare;same;;;;;;;;;;;;;;;;;;;
 item/rarity4;Ultra Rare;Ultra Rare;same;;;;;;;;;;;;;;;;;;;
 item/reached_max_amount;You already have the maximum number of these items.;You already have the maximum number of these items.;same;;;;;;;;;;;;;;;;;;;
-item/vehicle_already_bought;Vehicle from this trophy is already on your account!;Vehicle from this trophy is already on your account!;same;;;;;;;;;;;;;;;;;;;
+item/vehicle_already_bought;Vehicle from this trophy is already on your account!;The vehicle from this trophy is already on your account!;nice;;;;;;;;;;;;;;;;;;;
 userlog/coupon_exchanged/short;You have exchanged;You have exchanged;same;;;;;;;;;;;;;;;;;;;
 mainmenu/chestConsumed/title;You have opened the chest;You have opened the chest;same;;;;;;;;;;;;;;;;;;;
 mainmenu/itemConsumed/title;You have consumed the item;You have consumed the item;same;;;;;;;;;;;;;;;;;;;
@@ -3665,6 +3680,7 @@ armor_class/armor20;Steel 20 mm;Steel 20 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor21;Steel 21 mm;Steel 21 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor22_23;Steel 22.23 mm;Steel 22.23 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor25;Steel 25 mm;Steel 25 mm;same;;;;;;;;;;;;;;;;;;;
+armor_class/armor25_4;Steel 25.4 mm;Steel 25.4 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor25_5;Steel 25.5 mm;Steel 25.5 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor27;Steel 27 mm;Steel 27 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor30;Steel 30 mm;Steel 30 mm;same;;;;;;;;;;;;;;;;;;;
@@ -3757,6 +3773,7 @@ actionBarItem/support_plane_group_return;Return;Return;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/ugv;UGV deploy;UGV deploy;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/mine_detonation;Mine detonation;Mine detonation;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/unlimited_control;Switch control to other vehicle;Switch control to other vehicle;same;;;;;;;;;;;;;;;;;;;
+actionBarItem/building;Building of objects;Building of objects;same;;;;;;;;;;;;;;;;;;;
 hitcamera/result/ricochet;Ricochet;Ricochet;same;;;;;;;;;;;;;;;;;;;
 hitcamera/result/bounce;Non-penetration;Non-penetration;same;;;;;;;;;;;;;;;;;;;
 hitcamera/result/hit;Hit;Hit;same;;;;;;;;;;;;;;;;;;;
@@ -4072,7 +4089,7 @@ Would you like to leave the squad and gather a new one?";"You are in a squad.
 Would you like to leave the squad and gather a new one?";same;;;;;;;;;;;;;;;;;;;
 playTogether/squad/notEnoughtSquadSlots;There are not enough available slots in your squad;There are not enough available slots in your squad;same;;;;;;;;;;;;;;;;;;;
 playTogether/squad/sendLater;You cannot send invitations during the battle. They will be sent automatically after the battle.;You cannot send invitations during the battle. They will be sent automatically after the battle.;same;;;;;;;;;;;;;;;;;;;
-reason/unknown;Unknown reason;Unknown reason;same;;;;;;;;;;;;;;;;;;;
+reason/unknown;Spaghetti;Unknown reason;nice;;;;;;;;;;;;;;;;;;;
 armor_class/ERA_FY_1D1;FY-1D1 ERA (0.3 KE);FY-1D1 ERA;trim;;;;;;;;;;;;;;;;;;;
 armor_class/ERA_FY_2;FY-2 ERA (0.5 KE);FY-2 ERA;trim;;;;;;;;;;;;;;;;;;;
 armor_class/ERA_FY_4;FY-4 ERA (1.3 KE);FY-4 ERA;trim;;;;;;;;;;;;;;;;;;;
@@ -4094,6 +4111,8 @@ armor_class/leopard_2a5_side_skirts_composite_armour;Composite armor;Composite a
 armor_class/leopard_2a5_turret_nera;Composite + NERA (0.5 KE|3.0 CE);External сomposite armor with NERA elements;nice;;;;;;;;;;;;;;;;;;;
 armor_class/hull_side_special_armor;Composite panel (0.1 KE|1.5 CE);Composite screen;trim;;;;;;;;;;;;;;;;;;;
 armor_class/t_90_rubber_fabric_screens;Rubber-fabric panel (0.2);Rubber-fabric screens;trim;;;;;;;;;;;;;;;;;;;
+armor_class/roof_pro_additional_armor;PROTEPUR-S (0.2 KE);roofPRO composite armor;nice;;;;;;;;;;;;;;;;;;;
+armor_class/side_pro_additional_armor;PROTEPUR-S (0.2 KE);sidePRO composite armor;nice;;;;;;;;;;;;;;;;;;;
 item/specialTasksPersonalUnlocks;Special Task;Special Task;same;;;;;;;;;;;;;;;;;;;
 item/specialTasksPersonalUnlocks/desc;Complete Special Tasks to earn medals and get the opportunity to purchase premium vehicles in the Warbond Shop. You will be rewarded with a medal and battle trophy for every completed Special Task.;Complete Special Tasks to earn medals and get the opportunity to purchase premium vehicles in the Warbond Shop. You will be rewarded with a medal and battle trophy for every completed Special Task.;same;;;;;;;;;;;;;;;;;;;
 item/specialTasksPersonalUnlocks/purchaseRestriction;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;same;;;;;;;;;;;;;;;;;;;
@@ -4440,7 +4459,7 @@ msgbox/activateSpareForUnit;Are you sure you want to activate {spareName} for {u
 mainmenu/important_notice;Important!;Important!;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnChangelog;Changelog;Changelog;same;;;;;;;;;;;;;;;;;;;
 NoUpdateInfo;Oops... No information yet :(;Oops... No information yet :(;same;;;;;;;;;;;;;;;;;;;
-visitGameSite;See game website for more details;Check the game website for more details and links to the issues already resolved;nice;;;;;;;;;;;;;;;;;;;
+visitGameSite;Check the game website for more details and links to the issues already resolved;Check the game website for more details and links to the issues already resolved;same;;;;;;;;;;;;;;;;;;;
 personalUnlocks/needCompleteIntroCampaign;Will be available after completing intro campaign;Will be available after completing intro campaign;same;;;;;;;;;;;;;;;;;;;
 specialOffer;Special offer!;Special offer!;same;;;;;;;;;;;;;;;;;;;
 specialOffer/unitDiscount;Have time to purchase {unitName} at {discount} discount!;Have time to purchase {unitName} at {discount} discount!;same;;;;;;;;;;;;;;;;;;;
@@ -4930,7 +4949,7 @@ help/xray;Turn on the vehicle's X-Ray display mode to see the position of the in
 help/modifications;The purchase and installation of various modifications to the vehicle.;The purchase and installation of various modifications to the vehicle.;same;;;;;;;;;;;;;;;;;;;
 help/protection_analysis;A shooting simulation mode at your vehicle to test the impact of various ammunition on it.;A shooting simulation mode at your vehicle to test the impact of various ammunition on it.;same;;;;;;;;;;;;;;;;;;;
 help/show_external_dm;Hiding external structural elements will help you better understand the vehicle's armor scheme and evaluate its strengths and weaknesses.;Hiding external structural elements will help you better understand the vehicle's armor scheme and evaluate its strengths and weaknesses.;same;;;;;;;;;;;;;;;;;;;
-help/show_extra_xray;Hiding vehicle armor elements will help you better understand the position of modules of a vehicle with complex armor (for example, with composite armor).;Hiding vehicle armor elements will help you better understand the position of modules of a vehicle with complex armor (for example, with composite armor).;same;;;;;;;;;;;;;;;;;;;
+help/xray_part_filter;;Hiding vehicle elements will help you better understand the position of modules of a vehicle.;nice;;;;;;;;;;;;;;;;;;;
 help/show_extended_hints;An expanded description of the modules allows you to understand the purpose and features of each module, including the impact on the vehicle's combat characteristics.;An expanded description of the modules allows you to understand the purpose and features of each module, including the impact on the vehicle's combat characteristics.;same;;;;;;;;;;;;;;;;;;;
 help/battlepas;Battle Pass indicator (red = active). Purchase a Battle Pass to receive valuable prizes for completing in-game tasks and challenges.;Battle Pass indicator (red = active). Purchase a Battle Pass to receive valuable prizes for completing in-game tasks and challenges.;same;;;;;;;;;;;;;;;;;;;
 help/free_exp;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
@@ -5101,17 +5120,17 @@ slotbar/swapCrewButton;Change order;Change order;same;;;;;;;;;;;;;;;;;;;
 slotbar/dragCrewHint;This action can be done by drag-n-drop – just drag the crew block;This action can be done by drag-n-drop – just drag the crew block;same;;;;;;;;;;;;;;;;;;;
 slotbar/dragUnitHint;This action can be done by drag-n-drop – just drag the vehicle slot;This action can be done by drag-n-drop – just drag the vehicle slot;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/topSkillValue;value for a top crew;value for a top crew;same;;;;;;;;;;;;;;;;;;;
-shop/exp_top_units_bonus;Bonus for researching vehicles ({type}) of other gaming nations;Bonus for researching vehicles ({type}) of other gaming nations;same;;;;;;;;;;;;;;;;;;;
+shop/exp_top_units_bonus;Bonus for researching vehicles ({type}) of other gaming nations;Bonus for researching vehicles ({type});trim;;;;;;;;;;;;;;;;;;;
 shop/top_units_bonus_off;"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type in other gaming nations. Each gaming nation without a top-end vehicle will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
-Get ready to take your military power to the next level!";"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type in other gaming nations. Each gaming nation without a top-end vehicle will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
-Get ready to take your military power to the next level!";same;;;;;;;;;;;;;;;;;;;
+Get ready to take your military power to the next level!";"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type. Each nation will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
+Get ready to take your military power to the next level!";trim;;;;;;;;;;;;;;;;;;;
 shop/top_units_bonus_on;"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching vehicles of those gaming nations in which you don't yet have any top-end vehicle of this type.
 Get ready to take your research to the next level with your achievements in game and enjoy the daily bonuses!
 The remaining number of bonus battles: {countries}.
-The number of bonus battles is updated daily at {time}.";"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching vehicles of those gaming nations in which you don't yet have any top-end vehicle of this type.
+The number of bonus battles is updated daily at {time}.";"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching such vehicles.
 Get ready to take your research to the next level with your achievements in game and enjoy the daily bonuses!
 The remaining number of bonus battles: {countries}.
-The number of bonus battles is updated daily at {time}.";same;;;;;;;;;;;;;;;;;;;
+The number of bonus battles is updated daily at {time}.";trim;;;;;;;;;;;;;;;;;;;
 crew/skillUpgradesAvalible;Skill upgrades available;Skill upgrades available;same;;;;;;;;;;;;;;;;;;;
 slotbar/vehicleAlreadyInSlotbar;"The vehicle is already in the slot!
 You can move it to another slot or remove it from the set using the crew panel.";"The vehicle is already in the slot!
@@ -5119,6 +5138,7 @@ You can move it to another slot or remove it from the set using the crew panel."
 shop/unit_nation_bonus_tooltip/header;Daily bonus to vehicle research;Daily bonus to vehicle research;same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/battles_remain;Number of bonus battles: {battlesRemain};Number of bonus battles: {battlesRemain};same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/bonus_amount;Bonus amount: +{bonusAmount}%;Bonus amount: +{bonusAmount}%;same;;;;;;;;;;;;;;;;;;;
+shop/unit_nation_bonus_tooltip/recentlyReleasedDays;New vehicle doesn't receive a research bonus for {recentlyReleasedDays} days from its release date;New vehicle doesn't receive a research bonus for {recentlyReleasedDays} days from its release date;same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/bonus_text;"The size of the bonus depends on the rank of the vehicle chosen for research
 {percents}
 Every 30 minutes spent in one battle will count as an additional battle";"The size of the bonus depends on the rank of the vehicle chosen for research

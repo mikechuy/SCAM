@@ -1,5 +1,13 @@
 duhchuy's SCAM patchnotes
 
+2.38.0.15
+>
+fix AN-M65 bomb weights
+roofPRO composite armor, dePRO composite armor > PROTEPUR-S (0.2 KE)
+distinguish new RCV-2 vs old RCV
+i.e _0 RCV (P) > Reconnaissance Combat Vehicle 95-7001 Prototype, 2023
+distinguish Barak II C vs D
+
 2.37.0.163
 >
 smol cleanup
