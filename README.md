@@ -5,7 +5,8 @@
 **A**ccurate
 **M**onikers
 
-Just a test/backup repo. This is partially serious, partially joking, completely offensive.
+Mostly a comparator/backup repo. This is partially serious, partially joking, completely offensive.![image](https://github.com/user-attachments/assets/0ec6558f-8197-4a85-839b-12ed488806c8)
+
 
 ## ONLY WORKS WITH ENGLISH LANGUAGE LOCALIZATION (by design)
 
