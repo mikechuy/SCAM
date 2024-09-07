@@ -1,5 +1,14 @@
 duhchuy's SCAM patchnotes
 
+2.38.0.21
+>
+cleanup
+_1 remove MBT from Vickers
+Mk.52 > Mk 52 Mod 0 Bushmaster
+M601 > M601E1
+Countrol panel > Instrument panel
+_0 anything with M735 or XM578 marked F
+
 2.38.0.15
 >
 fix AN-M65 bomb weights

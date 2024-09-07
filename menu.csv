@@ -595,7 +595,7 @@ mainmenu/btnBuyAllModifications;Purchase All Modifications;Purchase All Modifica
 mainmenu/btnBuyAllResearched;Purchase All Researched;Purchase All Researched;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnOrder;Order;Order;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnOrderDesc;Purchase this beautiful example and win the battle with its help.;Purchase this beautiful example and win the battle with its help.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnTestProjectileProps;Tested parameters of the projectiles;Tested parameters of the projectiles;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnTestProjectileProps;Tested parameters of the projectiles;Testing shells new parameters;trim;;;;;;;;;;;;;;;;;;;
 mainmenu/btnTestFlight;Test Flight;Test Flight;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnTestFlightDesc;Test your aircraft's capabilities in the customizable mission;Test your aircraft's capabilities in the customizable mission;same;;;;;;;;;;;;;;;;;;;
 mainmenu/cantTestFlight;Test Flight is temporarily unavailable for this aircraft.;Test Flight is temporarily unavailable for this aircraft.;same;;;;;;;;;;;;;;;;;;;
@@ -1162,7 +1162,7 @@ crew/aux_caliber_loading_time;Auxiliary caliber reload speed;Auxiliary caliber r
 crew/antiair_caliber_loading_time;AAA caliber reload speed;AAA caliber reload speed;same;;;;;;;;;;;;;;;;;;;
 crew/anti_air_gunner_max_angle;AAA gunner accuracy;AAA gunner accuracy;same;;;;;;;;;;;;;;;;;;;
 crew/aux_gunner_max_angle;Auxiliary gunner accuracy;Auxiliary gunner accuracy;same;;;;;;;;;;;;;;;;;;;
-crew/dist_fuse_penalty;Distance fuze set accuracy;Distance fuze set accuracy;same;;;;;;;;;;;;;;;;;;;
+crew/dist_fuse_penalty;Distance fuze set accuracy;Remote fuze setting accuracy;nice;;;;;;;;;;;;;;;;;;;
 crew/unwatering;Unwatering time;Unwatering time;same;;;;;;;;;;;;;;;;;;;
 crew/extinguish_time;Fire extinguishing;Fire extinguishing;same;;;;;;;;;;;;;;;;;;;
 crew/repair_time;Breach repair;Breach repair;same;;;;;;;;;;;;;;;;;;;
@@ -1180,7 +1180,7 @@ crew/ship_artillery/aux_caliber_loading_time/tooltip;Auxiliary caliber reload ti
 crew/ship_artillery/antiair_caliber_loading_time/tooltip;Antiaircraft caliber reload time;Antiaircraft caliber reload time;same;;;;;;;;;;;;;;;;;;;
 crew/ship_artillery/anti_air_gunner_max_angle/tooltip;Gunners of antiaircraft caliber. Accuracy of shooting automatic gunners for air targets and surface targets;Gunners of antiaircraft caliber. Accuracy of shooting automatic gunners for air targets and surface targets;same;;;;;;;;;;;;;;;;;;;
 crew/ship_artillery/aux_gunner_max_angle/tooltip;Guns of auxiliary caliber. Accuracy of shooting automatic gunners for air targets and surface targets;Guns of auxiliary caliber. Accuracy of shooting automatic gunners for air targets and surface targets;same;;;;;;;;;;;;;;;;;;;
-crew/ship_artillery/dist_fuse_penalty/tooltip;The accuracy of the installation of remote fuzes. For shells with air undermining, the accuracy with which anti-aircraft guns determine the range to the target and set the timer to detonate the projectile.;The accuracy of the installation of remote fuzes. For shells with air undermining, the accuracy with which anti-aircraft guns determine the range to the target and set the timer to detonate the projectile.;same;;;;;;;;;;;;;;;;;;;
+crew/ship_artillery/dist_fuse_penalty/tooltip;The accuracy of the installation of remote fuzes. For shells with air undermining, the accuracy with which anti-aircraft guns determine the range to the target and set the timer to detonate the projectile.;The accuracy of setting remote fuzes. For shells with air undermining, the accuracy with which anti-aircraft guns determine the range to the target and set the timer to detonate the projectile.;trim;;;;;;;;;;;;;;;;;;;
 crew/ship_damage_control/unwatering/tooltip;Time to eliminate flooding;Time to eliminate flooding;same;;;;;;;;;;;;;;;;;;;
 crew/ship_damage_control/extinguish_time/tooltip;Fighting fires. Time of extinguishing the fire. Modification for the minimum and maximum time of fire extinguishing;Fighting fires. Time of extinguishing the fire. Modification for the minimum and maximum time of fire extinguishing;same;;;;;;;;;;;;;;;;;;;
 crew/ship_damage_control/repair_time/tooltip;Elimination of combat damage. Modification of repair time.;Elimination of combat damage. Modification of repair time.;same;;;;;;;;;;;;;;;;;;;
@@ -1200,7 +1200,7 @@ crewSkillParameter/shipAuxCaliberLoadTime;Auxiliary caliber reload speed;Auxilia
 crewSkillParameter/shipAntiAirCaliberLoadTime;AAA caliber reload speed;AAA caliber reload speed;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/shipAntiAirMaxAngle;AAA gunner accuracy;AAA gunner accuracy;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/shipAuxMaxAngle;Auxiliary gunner accuracy;Auxiliary gunner accuracy;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/shipDistFusePenalty;Distance fuze set accuracy;Distance fuze set accuracy;same;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/shipDistFusePenalty;Distance fuze set accuracy;Remote fuze setting accuracy;nice;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/shipUnwateringTime;Unwatering maximum time;Unwatering maximum time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/shipExtinguishTime;Fire extinguishing maximum time;Fire extinguishing maximum time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/shipRepairTime;Ship's repair maximum time;Ship's repair maximum time;same;;;;;;;;;;;;;;;;;;;
@@ -1221,7 +1221,7 @@ crewSkillParameter/commanderLeadershipShipAuxCaliberLoadTime;Auxiliary caliber r
 crewSkillParameter/commanderLeadershipShipAntiAirCaliberLoadTime;AAA caliber reload speed;AAA caliber reload speed;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/commanderLeadershipShipAntiAirMaxAngle;AAA gunner accuracy;AAA gunner accuracy;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/commanderLeadershipShipAuxMaxAngle;Auxiliary gunner accuracy;Auxiliary gunner accuracy;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/commanderLeadershipShipDistFusePenalty;Distance fuze set accuracy;Distance fuze set accuracy;same;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/commanderLeadershipShipDistFusePenalty;Distance fuze set accuracy;Remote fuze setting accuracy;nice;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/commanderLeadershipShipUnwateringTime;Unwatering maximum time;Unwatering maximum time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/commanderLeadershipShipExtinguishTime;Fire extinguishing maximum time;Fire extinguishing maximum time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/commanderLeadershipShipFireDamageMult;Fire damage;Fire damage;same;;;;;;;;;;;;;;;;;;;
@@ -1293,11 +1293,11 @@ userlog/page/items;Items;Items;same;;;;;;;;;;;;;;;;;;;
 userlog/page/battletasks;Battle Tasks;Battle Tasks;same;;;;;;;;;;;;;;;;;;;
 userlog/page/worldWar;World War;World War;same;;;;;;;;;;;;;;;;;;;
 userlog/page/systemNotifications;System notifications;System notifications;same;;;;;;;;;;;;;;;;;;;
-userlog/complaints/successful_single;One player was blocked by one of your complaints;One player was blocked by one of your complaints;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/successful_single;A player was blocked from one of your complaints.;A player was blocked from one of your complaints.;same;;;;;;;;;;;;;;;;;;;
 userlog/complaints/popup_message/title;Your complaint has been processed!;Your complaint has been processed!;same;;;;;;;;;;;;;;;;;;;
-userlog/complaints/popup_message/single;One player was blocked by one of your complaints.;One player was blocked by one of your complaints.;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/popup_message/single;A player was blocked from one of your complaints.;A player was blocked from one of your complaints.;same;;;;;;;;;;;;;;;;;;;
 userlog/complaints/popup_message/several;Some players were blocked by your complaints.;Some players were blocked by your complaints.;same;;;;;;;;;;;;;;;;;;;
-userlog/complaints/popup_message/thank;We thank you for your vigilance and help in keeping the game in order. Thanks for cooperation!;We thank you for your vigilance and help in keeping the game in order. Thanks for cooperation!;same;;;;;;;;;;;;;;;;;;;
+userlog/complaints/popup_message/thank;We thank you for your vigilance and help in maintaining fairplay in the game. Thanks for cooperation!;We thank you for your vigilance and help in maintaining fairplay in the game. Thanks for cooperation!;same;;;;;;;;;;;;;;;;;;;
 userlog/early_session_leave;You have left the %s mission before the battle ended.;You have left the %s mission before the battle ended.;same;;;;;;;;;;;;;;;;;;;
 userlog/session_result;The %s mission has been completed.;The %s mission has been completed.;same;;;;;;;;;;;;;;;;;;;
 userlog/session_result/win;<color=@userlogColoredText>Victory</color> in the %s mission!;<color=@userlogColoredText>Victory</color> in the %s mission!;same;;;;;;;;;;;;;;;;;;;
@@ -2662,6 +2662,23 @@ Damaging or destroying several shafts causes the ship's maximum speed to decreas
 Destroying all shafts makes the ship unable to move.
 
 You can check shaft damage status by using this icon:";same;;;;;;;;;;;;;;;;;;;
+armor_class/cockpit_countrol;Instrument panel;Countrol panel;trim;;;;;;;;;;;;;;;;;;;
+armor_class/desc/cockpit_countrol;Used to control information MFD/HUD and electro-optical weapons systems:;Used to control information MFD/HUD and electro-optical weapons systems:;same;;;;;;;;;;;;;;;;;;;
+armor_class/electronic_block;Avionics block;Avionics block;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/electronic_block;Avionics block control block:;Avionics block control block:;same;;;;;;;;;;;;;;;;;;;
+armor_class/optic_block;Electro-optical station;Electro-optical station;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/optic_block;;;same;;;;;;;;;;;;;;;;;;;
+armor_class/ircm;IRCM;IRCM;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/ircm;;;same;;;;;;;;;;;;;;;;;;;
+xray/indicators;MFD/ILS;MFD/ILS;same;;;;;;;;;;;;;;;;;;;
+xray/weaponControls;Weapon countrol;Weapon countrol;same;;;;;;;;;;;;;;;;;;;
+xray/optics;Targeting optic;Targeting optic;same;;;;;;;;;;;;;;;;;;;
+xray/guidance;Guidance weapon countrol;Guidance weapon countrol;same;;;;;;;;;;;;;;;;;;;
+xray/radar;Radar;Radar;same;;;;;;;;;;;;;;;;;;;
+xray/counterMeasures;IRCM;IRCM;same;;;;;;;;;;;;;;;;;;;
+xray/rwr;RWR;RWR;same;;;;;;;;;;;;;;;;;;;
+xray/nightVision;NVD;NVD;same;;;;;;;;;;;;;;;;;;;
+xray/controls;Flying countrol;Flying countrol;same;;;;;;;;;;;;;;;;;;;
 optic/zoom;Zoom;Zoom;same;;;;;;;;;;;;;;;;;;;
 optic/fov;Sight FOV;Sight FOV;same;;;;;;;;;;;;;;;;;;;
 msg/secondaryWeaponrequired;To use this gun you need to select it as Secondary weapon;To use this gun you need to select it as Secondary weapon;same;;;;;;;;;;;;;;;;;;;
@@ -2778,7 +2795,7 @@ items/extxboxshop;Microsoft Store;Microsoft Store;same;;;;;;;;;;;;;;;;;;;
 items/workshop/fifa_2018_Exchangeables;Soccer ball Exchange;Soccer ball Exchange;same;;;;;;;;;;;;;;;;;;;
 items/workshop/t34e_craft;Assembling the T-34E;Assembling the T-34E;same;;;;;;;;;;;;;;;;;;;
 items/workshop/is7_craft;Assembling the IS-7;Assembling the IS-7;same;;;;;;;;;;;;;;;;;;;
-items/workshop/summer2018_exchange;"Exchange items — ""Operation S.U.F.F.E.R.""";"Exchange items — ""Operation S.U.M.M.E.R.""";nice;;;;;;;;;;;;;;;;;;;
+items/workshop/summer2018_exchange;"Exchange items — ""Operation S.U.F.F.E.R. 2018""";"Exchange items — ""Operation S.U.M.M.E.R.""";trim;;;;;;;;;;;;;;;;;;;
 workshop/craft_event_2019_spring;Airbase (repairing the I-180S);Airbase (repairing the I-180S);same;;;;;;;;;;;;;;;;;;;
 workshop/craft_event_2019_spring_exchange;Headquarters (trade items);Headquarters (trade items);same;;;;;;;;;;;;;;;;;;;
 workshop/worldwar_exchange;World War (trade items);World War (trade items);same;;;;;;;;;;;;;;;;;;;
@@ -3773,7 +3790,7 @@ actionBarItem/support_plane_group_return;Return;Return;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/ugv;UGV deploy;UGV deploy;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/mine_detonation;Mine detonation;Mine detonation;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/unlimited_control;Switch control to other vehicle;Switch control to other vehicle;same;;;;;;;;;;;;;;;;;;;
-actionBarItem/building;Building of objects;Building of objects;same;;;;;;;;;;;;;;;;;;;
+actionBarItem/building;Build objects;Building of objects;nice;;;;;;;;;;;;;;;;;;;
 hitcamera/result/ricochet;Ricochet;Ricochet;same;;;;;;;;;;;;;;;;;;;
 hitcamera/result/bounce;Non-penetration;Non-penetration;same;;;;;;;;;;;;;;;;;;;
 hitcamera/result/hit;Hit;Hit;same;;;;;;;;;;;;;;;;;;;
@@ -4602,6 +4619,9 @@ mainmenu/fulfilledChallenges;Fulfilled challenges;Fulfilled challenges;same;;;;;
 mainmenu/pageNumOfPages;Page {num} of {total};Page {num} of {total};same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnMoreOptions;More...;More...;same;;;;;;;;;;;;;;;;;;;
 mainmenu/objectiveAvailable;Objective available;Objective available;same;;;;;;;;;;;;;;;;;;;
+mainmenu/objectiveNameAvailable;"Objective available: {unlockName}
+Click on this label to go to the task";"Objective available: {unlockName}
+Click on this label to go to the task";same;;;;;;;;;;;;;;;;;;;
 mainmenu/newObjectiveAvailable;New objective available;New objective available;same;;;;;;;;;;;;;;;;;;;
 mainmenu/acceptObjective;Accept Objective;Accept Objective;same;;;;;;;;;;;;;;;;;;;
 mainmenu/regionalUnlockActivationError;Failed to accept objective. Please try again later.;Failed to accept objective. Please try again later.;same;;;;;;;;;;;;;;;;;;;
@@ -5120,17 +5140,17 @@ slotbar/swapCrewButton;Change order;Change order;same;;;;;;;;;;;;;;;;;;;
 slotbar/dragCrewHint;This action can be done by drag-n-drop – just drag the crew block;This action can be done by drag-n-drop – just drag the crew block;same;;;;;;;;;;;;;;;;;;;
 slotbar/dragUnitHint;This action can be done by drag-n-drop – just drag the vehicle slot;This action can be done by drag-n-drop – just drag the vehicle slot;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/topSkillValue;value for a top crew;value for a top crew;same;;;;;;;;;;;;;;;;;;;
-shop/exp_top_units_bonus;Bonus for researching vehicles ({type}) of other gaming nations;Bonus for researching vehicles ({type});trim;;;;;;;;;;;;;;;;;;;
-shop/top_units_bonus_off;"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type in other gaming nations. Each gaming nation without a top-end vehicle will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
-Get ready to take your military power to the next level!";"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type. Each nation will receive {battlesCount} bonus {battlesCount=battle/battles} every day, allowing you to effectively explore many different and unique vehicles at once!
-Get ready to take your military power to the next level!";trim;;;;;;;;;;;;;;;;;;;
-shop/top_units_bonus_on;"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching vehicles of those gaming nations in which you don't yet have any top-end vehicle of this type.
-Get ready to take your research to the next level with your achievements in game and enjoy the daily bonuses!
+shop/exp_top_units_bonus;Bonus for researching vehicles ({type});Bonus for researching vehicles ({type});same;;;;;;;;;;;;;;;;;;;
+shop/top_units_bonus_off;"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type. Each nation will receive {battlesCount} bonus {battlesCount=battle/battles} for this vehicle type every day, allowing you to effectively explore many different and unique vehicles at once!
+Get ready to take your military power to the next level!";"By purchasing the top-end vehicle of this type in any research tree, you will unlock a daily bonus that will contribute to your progress for this vehicle type. Each nation will receive {battlesCount} bonus {battlesCount=battle/battles} for this vehicle type every day, allowing you to effectively explore many different and unique vehicles at once!
+Get ready to take your military power to the next level!";same;;;;;;;;;;;;;;;;;;;
+shop/top_units_bonus_on;"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching such vehicles.
+Get ready to take your research to the next level and enjoy the daily bonuses!
 The remaining number of bonus battles: {countries}.
 The number of bonus battles is updated daily at {time}.";"Congratulations, you have reached a major milestone in your research! There is a top-end vehicle of this type in your hangar, which means that you have access to a daily bonus for researching such vehicles.
-Get ready to take your research to the next level with your achievements in game and enjoy the daily bonuses!
+Get ready to take your research to the next level and enjoy the daily bonuses!
 The remaining number of bonus battles: {countries}.
-The number of bonus battles is updated daily at {time}.";trim;;;;;;;;;;;;;;;;;;;
+The number of bonus battles is updated daily at {time}.";same;;;;;;;;;;;;;;;;;;;
 crew/skillUpgradesAvalible;Skill upgrades available;Skill upgrades available;same;;;;;;;;;;;;;;;;;;;
 slotbar/vehicleAlreadyInSlotbar;"The vehicle is already in the slot!
 You can move it to another slot or remove it from the set using the crew panel.";"The vehicle is already in the slot!
@@ -5138,14 +5158,14 @@ You can move it to another slot or remove it from the set using the crew panel."
 shop/unit_nation_bonus_tooltip/header;Daily bonus to vehicle research;Daily bonus to vehicle research;same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/battles_remain;Number of bonus battles: {battlesRemain};Number of bonus battles: {battlesRemain};same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/bonus_amount;Bonus amount: +{bonusAmount}%;Bonus amount: +{bonusAmount}%;same;;;;;;;;;;;;;;;;;;;
-shop/unit_nation_bonus_tooltip/recentlyReleasedDays;New vehicle doesn't receive a research bonus for {recentlyReleasedDays} days from its release date;New vehicle doesn't receive a research bonus for {recentlyReleasedDays} days from its release date;same;;;;;;;;;;;;;;;;;;;
+shop/unit_nation_bonus_tooltip/recentlyReleasedDays;New vehicles do not receive a research bonus for {recentlyReleasedDays} days from release;New vehicles do not receive a research bonus for {recentlyReleasedDays} days from release;same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/bonus_text;"The size of the bonus depends on the rank of the vehicle chosen for research
 {percents}
 Every 30 minutes spent in one battle will count as an additional battle";"The size of the bonus depends on the rank of the vehicle chosen for research
 {percents}
 Every 30 minutes spent in one battle will count as an additional battle";same;;;;;;;;;;;;;;;;;;;
 shop/unit_nation_bonus_tooltip/update_time;The number of bonus battles will be updated in:;The number of bonus battles will be updated in:;same;;;;;;;;;;;;;;;;;;;
-logs/mission_points;{num} Mission Score;{num} Mission Score;same;;;;;;;;;;;;;;;;;;;
+logs/mission_points;{num} {num=mission point/mission points};{num} {num=mission point/mission points};same;;;;;;;;;;;;;;;;;;;
 logs/ammunition;Ammunition;Ammunition;same;;;;;;;;;;;;;;;;;;;
 logs/damage;Damage;Damage;same;;;;;;;;;;;;;;;;;;;
-shop/show_nation_bonus_in_tab;Show remaining bonus in headers;Show remaining bonus in headers;same;;;;;;;;;;;;;;;;;;;
+shop/show_nation_bonus_in_tab;Show remaining bonus in headers;Show the remaining bonus in headers;nice;;;;;;;;;;;;;;;;;;;
