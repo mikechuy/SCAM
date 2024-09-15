@@ -1,5 +1,12 @@
 duhchuy's SCAM patchnotes
 
+2.39.0.25
+>
+some external fuel tanks get realish names
+final wave > 11th wave fix
+cannot be use > inoperable
+The radio operator gunner is > ඞ is
+
 2.38.0.21
 >
 cleanup
