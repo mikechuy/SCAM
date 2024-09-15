@@ -1,235 +1,235 @@
 ﻿Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9;Column10;Column11;Column12;Column13;Column14;Column15;Column16;Column17;Column18;Column19;Column20;Column21;Column22;Column23
 <ID|readonly|noverify>;<English>;<French>;<Italian>;;;;;;;;;;;;;;;;;;;
-events/join_event;Take part;Take part;same;;;;;;;;;;;;;;;;;;;
-events/join_event_by_team;Take part for team {team};Take part for team {team};same;;;;;;;;;;;;;;;;;;;
-events/teamA;Team A;Team A;same;;;;;;;;;;;;;;;;;;;
-events/teamB;Team B;Team B;same;;;;;;;;;;;;;;;;;;;
-events/ffa;Free For All;Free For All;same;;;;;;;;;;;;;;;;;;;
-events/team_battle;Team Battle;Team Battle;same;;;;;;;;;;;;;;;;;;;
+events/join_event;Take part;Take part;same;;;;;;;;;;;;;;;;;;;
+events/join_event_by_team;Take part for team {team};Take part for team {team};same;;;;;;;;;;;;;;;;;;;
+events/teamA;Team A;Team A;same;;;;;;;;;;;;;;;;;;;
+events/teamB;Team B;Team B;same;;;;;;;;;;;;;;;;;;;
+events/ffa;Free For All;Free For All;same;;;;;;;;;;;;;;;;;;;
+events/team_battle;Team Battle;Team Battle;same;;;;;;;;;;;;;;;;;;;
 teamA;A;A;same;;;;;;;;;;;;;;;;;;;
 teamB;B;B;same;;;;;;;;;;;;;;;;;;;
 events/countres;Countries:;Countries:;same;;;;;;;;;;;;;;;;;;;
-events/required_crafts_no_colon;Required vehicles;Required vehicles;same;;;;;;;;;;;;;;;;;;;
-events/required_crafts;Required vehicles:;Required vehicles:;same;;;;;;;;;;;;;;;;;;;
-events/allowed_crafts_no_colon;Allowed vehicles;Allowed vehicles;same;;;;;;;;;;;;;;;;;;;
-events/allowed_crafts;Allowed vehicles:;Allowed vehicles:;same;;;;;;;;;;;;;;;;;;;
-events/forbidden_crafts;Forbidden vehicles:;Forbidden vehicles:;same;;;;;;;;;;;;;;;;;;;
-events/no_selected_event;Select an event from the list.;Select an event from the list.;same;;;;;;;;;;;;;;;;;;;
-events/no_entitlement;Required {entitlement};Required {entitlement};same;;;;;;;;;;;;;;;;;;;
-events/squad_is_too_big;"Your squad size is too big for this event ({squadSize}).
-Maximum team size is: {maxTeamSize}";"Your squad size is too big for this event ({squadSize}).
-Maximum team size is: {maxTeamSize}";same;;;;;;;;;;;;;;;;;;;
-events/squads_disabled;Joining a squad is not available for this event.;Joining a squad is not available for this event.;same;;;;;;;;;;;;;;;;;;;
-events/no_selected_country;Select a country from the participant list.;Select a country from the participant list.;same;;;;;;;;;;;;;;;;;;;
-events/no_allowed_crafts;Select one of allowed vehicles.;Select one of allowed vehicles.;same;;;;;;;;;;;;;;;;;;;
-events/no_required_crafts;Missing one of required vehicles;Missing one of required vehicles;same;;;;;;;;;;;;;;;;;;;
-events/empty_slotbar;Put a vehicle in at least one crew slot.;Put a vehicle in at least one crew slot.;same;;;;;;;;;;;;;;;;;;;
-events/empty_crew;Select a crew slot that is not empty.;Select a crew slot that is not empty.;same;;;;;;;;;;;;;;;;;;;
-events/specialRequirements;To participate, you need at least one vehicle in the hangar;To participate, you need at least one vehicle in the hangar;same;;;;;;;;;;;;;;;;;;;
-events/no_specialRequirements;No required vehicle in the hangar.;No required vehicle in the hangar.;same;;;;;;;;;;;;;;;;;;;
-events/rank;rank %s;rank %s;same;;;;;;;;;;;;;;;;;;;
-events/br;BR %s;BR %s;same;;;;;;;;;;;;;;;;;;;
-events/event_disabled;The event has ended;The event has ended;same;;;;;;;;;;;;;;;;;;;
-events/event_not_started_yet;The event has not started yet.;The event has not started yet.;same;;;;;;;;;;;;;;;;;;;
-events/event_will_begin_soon;The event will begin soon.;The event will begin soon.;same;;;;;;;;;;;;;;;;;;;
-events/event_is_testing;The event is being tested and is hidden from normies.;The event is being tested. It is hidden from regular users.;nice;;;;;;;;;;;;;;;;;;;
-events/event_goes;The event is ongoing;The event is ongoing;same;;;;;;;;;;;;;;;;;;;
-events/event_started_at;Started: %s ago;Started: %s ago;same;;;;;;;;;;;;;;;;;;;
-events/event_starts_in;Starts in: %s;Starts in: %s;same;;;;;;;;;;;;;;;;;;;
-events/event_ends_in;Ends in: %s;Ends in: %s;same;;;;;;;;;;;;;;;;;;;
-events/featured_event;Featured event:;Featured event:;same;;;;;;;;;;;;;;;;;;;
-events/historical_common_desc;The battles take place in a historical location. The vehicles list is limited to the vehicles that indeed fought in that period.;The battles take place in a historical location. The vehicles list is limited to the vehicles that indeed fought in that period.;same;;;;;;;;;;;;;;;;;;;
-events/hb_with_all_countries;Realistic Battles mission with all countries taking part in it.;Realistic Battles mission with all countries taking part in it.;same;;;;;;;;;;;;;;;;;;;
-events/rb_with_all_countries;Simulator Battles mission with all countries taking part in it.;Simulator Battles mission with all countries taking part in it.;same;;;;;;;;;;;;;;;;;;;
-events/ab_without_respawns;Arcade Battles mission without respawns.;Arcade Battles mission without respawns.;same;;;;;;;;;;;;;;;;;;;
-events/air_bought;You have this vehicle;You have this vehicle;same;;;;;;;;;;;;;;;;;;;
-events/air_can_buy;You can purchase this vehicle;You can purchase this vehicle;same;;;;;;;;;;;;;;;;;;;
-events/all_units_allowed;All types of vehicles are allowed;All types of vehicles are allowed;same;;;;;;;;;;;;;;;;;;;
-events/all_crafts_allowed;All aircraft are allowed;All aircraft are allowed;same;;;;;;;;;;;;;;;;;;;
-events/all_tanks_allowed;All ground forces are allowed;All ground forces are allowed;same;;;;;;;;;;;;;;;;;;;
-events/allowed_units;{unitType} and {unitType2} are allowed;{unitType} and {unitType2} are allowed;same;;;;;;;;;;;;;;;;;;;
+events/required_crafts_no_colon;Required vehicles;Required vehicles;same;;;;;;;;;;;;;;;;;;;
+events/required_crafts;Required vehicles:;Required vehicles:;same;;;;;;;;;;;;;;;;;;;
+events/allowed_crafts_no_colon;Allowed vehicles;Allowed vehicles;same;;;;;;;;;;;;;;;;;;;
+events/allowed_crafts;Allowed vehicles:;Allowed vehicles:;same;;;;;;;;;;;;;;;;;;;
+events/forbidden_crafts;Forbidden vehicles:;Forbidden vehicles:;same;;;;;;;;;;;;;;;;;;;
+events/no_selected_event;Select an event from the list.;Select an event from the list.;same;;;;;;;;;;;;;;;;;;;
+events/no_entitlement;Required {entitlement};Required {entitlement};same;;;;;;;;;;;;;;;;;;;
+events/squad_is_too_big;"Your squad size is too big for this event ({squadSize}).
+Maximum team size is: {maxTeamSize}";"Your squad size is too big for this event ({squadSize}).
+Maximum team size is: {maxTeamSize}";same;;;;;;;;;;;;;;;;;;;
+events/squads_disabled;Joining a squad is not available for this event.;Joining a squad is not available for this event.;same;;;;;;;;;;;;;;;;;;;
+events/no_selected_country;Select a country from the participant list.;Select a country from the participant list.;same;;;;;;;;;;;;;;;;;;;
+events/no_allowed_crafts;Select one of allowed vehicles.;Select one of allowed vehicles.;same;;;;;;;;;;;;;;;;;;;
+events/no_required_crafts;Missing one of required vehicles;Missing one of required vehicles;same;;;;;;;;;;;;;;;;;;;
+events/empty_slotbar;Put a vehicle in at least one crew slot.;Put a vehicle in at least one crew slot.;same;;;;;;;;;;;;;;;;;;;
+events/empty_crew;Select a crew slot that is not empty.;Select a crew slot that is not empty.;same;;;;;;;;;;;;;;;;;;;
+events/specialRequirements;To participate, you need at least one vehicle in the hangar;To participate, you need at least one vehicle in the hangar;same;;;;;;;;;;;;;;;;;;;
+events/no_specialRequirements;No required vehicle in the hangar.;No required vehicle in the hangar.;same;;;;;;;;;;;;;;;;;;;
+events/rank;rank %s;rank %s;same;;;;;;;;;;;;;;;;;;;
+events/br;BR %s;BR %s;same;;;;;;;;;;;;;;;;;;;
+events/event_disabled;The event has ended;The event has ended;same;;;;;;;;;;;;;;;;;;;
+events/event_not_started_yet;The event has not started yet.;The event has not started yet.;same;;;;;;;;;;;;;;;;;;;
+events/event_will_begin_soon;The event will begin soon.;The event will begin soon.;same;;;;;;;;;;;;;;;;;;;
+events/event_is_testing;The event is being tested and is hidden from normies.;The event is being tested. It is hidden from regular users.;nice;;;;;;;;;;;;;;;;;;;
+events/event_goes;The event is ongoing;The event is ongoing;same;;;;;;;;;;;;;;;;;;;
+events/event_started_at;Started: %s ago;Started: %s ago;same;;;;;;;;;;;;;;;;;;;
+events/event_starts_in;Starts in: %s;Starts in: %s;same;;;;;;;;;;;;;;;;;;;
+events/event_ends_in;Ends in: %s;Ends in: %s;same;;;;;;;;;;;;;;;;;;;
+events/featured_event;Featured event:;Featured event:;same;;;;;;;;;;;;;;;;;;;
+events/historical_common_desc;The battles take place in a historical location. The vehicles list is limited to the vehicles that indeed fought in that period.;The battles take place in a historical location. The vehicles list is limited to the vehicles that indeed fought in that period.;same;;;;;;;;;;;;;;;;;;;
+events/hb_with_all_countries;Realistic Battles mission with all countries taking part in it.;Realistic Battles mission with all countries taking part in it.;same;;;;;;;;;;;;;;;;;;;
+events/rb_with_all_countries;Simulator Battles mission with all countries taking part in it.;Simulator Battles mission with all countries taking part in it.;same;;;;;;;;;;;;;;;;;;;
+events/ab_without_respawns;Arcade Battles mission without respawns.;Arcade Battles mission without respawns.;same;;;;;;;;;;;;;;;;;;;
+events/air_bought;You have this vehicle;You have this vehicle;same;;;;;;;;;;;;;;;;;;;
+events/air_can_buy;You can purchase this vehicle;You can purchase this vehicle;same;;;;;;;;;;;;;;;;;;;
+events/all_units_allowed;All types of vehicles are allowed;All types of vehicles are allowed;same;;;;;;;;;;;;;;;;;;;
+events/all_crafts_allowed;All aircraft are allowed;All aircraft are allowed;same;;;;;;;;;;;;;;;;;;;
+events/all_tanks_allowed;All ground forces are allowed;All ground forces are allowed;same;;;;;;;;;;;;;;;;;;;
+events/allowed_units;{unitType} and {unitType2} are allowed;{unitType} and {unitType2} are allowed;same;;;;;;;;;;;;;;;;;;;
 events/allowed_units/Aircraft;aircraft;aircraft;same;;;;;;;;;;;;;;;;;;;
-events/allowed_units/Tank;ground forces;ground forces;same;;;;;;;;;;;;;;;;;;;
-events/allowed_units/Ship;naval vessels;naval vessels;same;;;;;;;;;;;;;;;;;;;
+events/allowed_units/Tank;ground forces;ground forces;same;;;;;;;;;;;;;;;;;;;
+events/allowed_units/Ship;naval vessels;naval vessels;same;;;;;;;;;;;;;;;;;;;
 events/allowed_units/Helicopter;helicopters;helicopters;same;;;;;;;;;;;;;;;;;;;
-events/allowed_only/Aircraft;Only aircraft are allowed;Only aircraft are allowed;same;;;;;;;;;;;;;;;;;;;
-events/allowed_only/Tank;Only ground vehicles are allowed;Only ground vehicles are allowed;same;;;;;;;;;;;;;;;;;;;
-events/allowed_only/Ship;Only naval vessels are allowed;Only naval vessels are allowed;same;;;;;;;;;;;;;;;;;;;
-events/allowed_only/Helicopter;Only helicopters are allowed;Only helicopters are allowed;same;;;;;;;;;;;;;;;;;;;
-events/selected_craft_is_not_allowed;Selected vehicle is not allowed;Selected vehicle is not allowed;same;;;;;;;;;;;;;;;;;;;
-events/minSquadSize;Squad size is smaller than {minSize};Squad size is smaller than {minSize};same;;;;;;;;;;;;;;;;;;;
-events/maxSquadSize;Squad size is bigger than {maxSize};Squad size is bigger than {maxSize};same;;;;;;;;;;;;;;;;;;;
+events/allowed_only/Aircraft;Only aircraft are allowed;Only aircraft are allowed;same;;;;;;;;;;;;;;;;;;;
+events/allowed_only/Tank;Only ground vehicles are allowed;Only ground vehicles are allowed;same;;;;;;;;;;;;;;;;;;;
+events/allowed_only/Ship;Only naval vessels are allowed;Only naval vessels are allowed;same;;;;;;;;;;;;;;;;;;;
+events/allowed_only/Helicopter;Only helicopters are allowed;Only helicopters are allowed;same;;;;;;;;;;;;;;;;;;;
+events/selected_craft_is_not_allowed;Selected vehicle is not allowed;Selected vehicle is not allowed;same;;;;;;;;;;;;;;;;;;;
+events/minSquadSize;Squad size is smaller than {minSize};Squad size is smaller than {minSize};same;;;;;;;;;;;;;;;;;;;
+events/maxSquadSize;Squad size is bigger than {maxSize};Squad size is bigger than {maxSize};same;;;;;;;;;;;;;;;;;;;
 events/chapter/basic_events;Events;Events;same;;;;;;;;;;;;;;;;;;;
-events/chapter/basic_events/ended;Ended Events;Ended Events;same;;;;;;;;;;;;;;;;;;;
-events/chapter/clan_events;Squadron Events;Squadron Events;same;;;;;;;;;;;;;;;;;;;
-events/chapter/clan_events/ended;Ended Squadron Events;Ended Squadron Events;same;;;;;;;;;;;;;;;;;;;
+events/chapter/basic_events/ended;Ended Events;Ended Events;same;;;;;;;;;;;;;;;;;;;
+events/chapter/clan_events;Squadron Events;Squadron Events;same;;;;;;;;;;;;;;;;;;;
+events/chapter/clan_events/ended;Ended Squadron Events;Ended Squadron Events;same;;;;;;;;;;;;;;;;;;;
 events/chapter/tournaments;Tournaments;Tournaments;same;;;;;;;;;;;;;;;;;;;
-events/chapter/tournaments/ended;Ended Tournaments;Ended Tournaments;same;;;;;;;;;;;;;;;;;;;
-events/chapter/simulation_battles;Simulator Battles;Simulator Battles;same;;;;;;;;;;;;;;;;;;;
-simulator_battles/desc;"Simulator Battles is a mode where missions, as in Realistic Battles, take place in the locations of historical battles, and players are divided into teams of the countries that participated in the conflict.
-Battles in the ""Enduring Confrontation"" mode are held for aircraft only. Aircraft controls are as realistic as possible in this mode, cockpit view is only available, take off is effected from the airfield. Markers are only present above allied players at short distances.
-Ground Battles are held in the Combined Battles mode, a player can use both ground and air vehicles according to his preference. The position of the external camera when commanding a ground vehicle is limited to the Commander's position. Markers are absent for both allies and enemies.";"Simulator Battles is a mode where missions, as in Realistic Battles, take place in the locations of historical battles, and players are divided into teams of the countries that participated in the conflict.
-Battles in the ""Enduring Confrontation"" mode are held for aircraft only. Aircraft controls are as realistic as possible in this mode, cockpit view is only available, take off is effected from the airfield. Markers are only present above allied players at short distances.
-Ground Battles are held in the Combined Battles mode, a player can use both ground and air vehicles according to his preference. The position of the external camera when commanding a ground vehicle is limited to the Commander's position. Markers are absent for both allies and enemies.";same;;;;;;;;;;;;;;;;;;;
-events/chapter/test_events;Test Events;Test Events;same;;;;;;;;;;;;;;;;;;;
+events/chapter/tournaments/ended;Ended Tournaments;Ended Tournaments;same;;;;;;;;;;;;;;;;;;;
+events/chapter/simulation_battles;Simulator Battles;Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+simulator_battles/desc;"Simulator Battles is a mode where missions, as in Realistic Battles, take place in the locations of historical battles, and players are divided into teams of the countries that participated in the conflict.
+Battles in the ""Enduring Confrontation"" mode are held for aircraft only. Aircraft controls are as realistic as possible in this mode, cockpit view is only available, take off is effected from the airfield. Markers are only present above allied players at short distances.
+Ground Battles are held in the Combined Battles mode, a player can use both ground and air vehicles according to his preference. The position of the external camera when commanding a ground vehicle is limited to the Commander's position. Markers are absent for both allies and enemies.";"Simulator Battles is a mode where missions, as in Realistic Battles, take place in the locations of historical battles, and players are divided into teams of the countries that participated in the conflict.
+Battles in the ""Enduring Confrontation"" mode are held for aircraft only. Aircraft controls are as realistic as possible in this mode, cockpit view is only available, take off is effected from the airfield. Markers are only present above allied players at short distances.
+Ground Battles are held in the Combined Battles mode, a player can use both ground and air vehicles according to his preference. The position of the external camera when commanding a ground vehicle is limited to the Commander's position. Markers are absent for both allies and enemies.";same;;;;;;;;;;;;;;;;;;;
+events/chapter/test_events;Test Events;Test Events;same;;;;;;;;;;;;;;;;;;;
 events/chapter/playtest_events;Playtest;Playtest;same;;;;;;;;;;;;;;;;;;;
-events/chapter/combined_battles;Combined Battles;Combined Battles;same;;;;;;;;;;;;;;;;;;;
-events/chapter/special_events;Special Events;Special Events;same;;;;;;;;;;;;;;;;;;;
-events/chapter/historical_events;Historical Events;Historical Events;same;;;;;;;;;;;;;;;;;;;
-events/chapter/chronicle;WW2 Chronicles;WW2 Chronicles;same;;;;;;;;;;;;;;;;;;;
-events/chapter/air_tournaments;Air Tournaments;Air Tournaments;same;;;;;;;;;;;;;;;;;;;
-events/chapter/tank_tournaments;Ground Tournaments;Ground Tournaments;same;;;;;;;;;;;;;;;;;;;
-events/chapter/clan_tournaments;Squadron Tournaments;Squadron Tournaments;same;;;;;;;;;;;;;;;;;;;
+events/chapter/combined_battles;Combined Battles;Combined Battles;same;;;;;;;;;;;;;;;;;;;
+events/chapter/special_events;Special Events;Special Events;same;;;;;;;;;;;;;;;;;;;
+events/chapter/historical_events;Historical Events;Historical Events;same;;;;;;;;;;;;;;;;;;;
+events/chapter/chronicle;WW2 Chronicles;WW2 Chronicles;same;;;;;;;;;;;;;;;;;;;
+events/chapter/air_tournaments;Air Tournaments;Air Tournaments;same;;;;;;;;;;;;;;;;;;;
+events/chapter/tank_tournaments;Ground Tournaments;Ground Tournaments;same;;;;;;;;;;;;;;;;;;;
+events/chapter/clan_tournaments;Squadron Tournaments;Squadron Tournaments;same;;;;;;;;;;;;;;;;;;;
 events/chapter/race;Race;Race;same;;;;;;;;;;;;;;;;;;;
-events/chapter/mad_thunder;Mad Thunder;Mad Thunder;same;;;;;;;;;;;;;;;;;;;
-events/future_events;Future Events;Future Events;same;;;;;;;;;;;;;;;;;;;
+events/chapter/mad_thunder;Mad Thunder;Mad Thunder;same;;;;;;;;;;;;;;;;;;;
+events/future_events;Future Events;Future Events;same;;;;;;;;;;;;;;;;;;;
 events/players_count;Players;Players;same;;;;;;;;;;;;;;;;;;;
 events/clans_count;Squadrons;Squadrons;same;;;;;;;;;;;;;;;;;;;
-events/max_players_count;Max players;Max players;same;;;;;;;;;;;;;;;;;;;
-events/players_range;Players required (min - max): ;Players required (min - max): ;same;;;;;;;;;;;;;;;;;;;
-events/players_short;Players (min - max): ;Players (min - max): ;same;;;;;;;;;;;;;;;;;;;
-events/players_range_single;Players required: ;Players required: ;same;;;;;;;;;;;;;;;;;;;
-events/arcade_common_desc;An Arcade Battle based on a real historical event, it takes place in random arcade locations. The vehicles list is limited to the vehicles that indeed fought in that period.;An Arcade Battle based on a real historical event, it takes place in random arcade locations. The vehicles list is limited to the vehicles that indeed fought in that period.;same;;;;;;;;;;;;;;;;;;;
-events/clan_only;This event is for Squadrons members only;This event is for Squadrons members only;same;;;;;;;;;;;;;;;;;;;
-events/clan_event_help;In this kind of event, a team of your squadron fights against a team of another squadron.;In this kind of event, a team of your squadron fights against a team of another squadron.;same;;;;;;;;;;;;;;;;;;;
-events/allowSwitchClan/false;Changing squadron during this tournament is not allowed.;Changing squadron during this tournament is not allowed.;same;;;;;;;;;;;;;;;;;;;
-events/allowSwitchClan/true;Changing squadron during this tournament is allowed.;Changing squadron during this tournament is allowed.;same;;;;;;;;;;;;;;;;;;;
-events/handicap;Maximum players: ;Maximum players: ;same;;;;;;;;;;;;;;;;;;;
-events/ticket_cost;Participation cost: {cost};Participation cost: {cost};same;;;;;;;;;;;;;;;;;;;
-events/battle_cost;Battle cost: {cost};Battle cost: {cost};same;;;;;;;;;;;;;;;;;;;
-ticket/max_defeat_count;Up to {value} defeats;Up to {value} defeats;same;;;;;;;;;;;;;;;;;;;
-ticket/max_defeat_count_in_a_row;Up to {value} consecutive defeats;Up to {value} consecutive defeats;same;;;;;;;;;;;;;;;;;;;
-ticket/battle_limit;Up to {value} battles.;Up to {value} battles.;same;;;;;;;;;;;;;;;;;;;
-ticket/battle_count;Battles played;Battles played;same;;;;;;;;;;;;;;;;;;;
+events/max_players_count;Max players;Max players;same;;;;;;;;;;;;;;;;;;;
+events/players_range;Players required (min - max): ;Players required (min - max): ;same;;;;;;;;;;;;;;;;;;;
+events/players_short;Players (min - max): ;Players (min - max): ;same;;;;;;;;;;;;;;;;;;;
+events/players_range_single;Players required: ;Players required: ;same;;;;;;;;;;;;;;;;;;;
+events/arcade_common_desc;An Arcade Battle based on a real historical event, it takes place in random arcade locations. The vehicles list is limited to the vehicles that indeed fought in that period.;An Arcade Battle based on a real historical event, it takes place in random arcade locations. The vehicles list is limited to the vehicles that indeed fought in that period.;same;;;;;;;;;;;;;;;;;;;
+events/clan_only;This event is for Squadrons members only;This event is for Squadrons members only;same;;;;;;;;;;;;;;;;;;;
+events/clan_event_help;In this kind of event, a team of your squadron fights against a team of another squadron.;In this kind of event, a team of your squadron fights against a team of another squadron.;same;;;;;;;;;;;;;;;;;;;
+events/allowSwitchClan/false;Changing squadron during this tournament is not allowed.;Changing squadron during this tournament is not allowed.;same;;;;;;;;;;;;;;;;;;;
+events/allowSwitchClan/true;Changing squadron during this tournament is allowed.;Changing squadron during this tournament is allowed.;same;;;;;;;;;;;;;;;;;;;
+events/handicap;Maximum players: ;Maximum players: ;same;;;;;;;;;;;;;;;;;;;
+events/ticket_cost;Participation cost: {cost};Participation cost: {cost};same;;;;;;;;;;;;;;;;;;;
+events/battle_cost;Battle cost: {cost};Battle cost: {cost};same;;;;;;;;;;;;;;;;;;;
+ticket/max_defeat_count;Up to {value} defeats;Up to {value} defeats;same;;;;;;;;;;;;;;;;;;;
+ticket/max_defeat_count_in_a_row;Up to {value} consecutive defeats;Up to {value} consecutive defeats;same;;;;;;;;;;;;;;;;;;;
+ticket/battle_limit;Up to {value} battles.;Up to {value} battles.;same;;;;;;;;;;;;;;;;;;;
+ticket/battle_count;Battles played;Battles played;same;;;;;;;;;;;;;;;;;;;
 ticket/defeat_count;Defeats;Defeats;same;;;;;;;;;;;;;;;;;;;
-ticket/defeat_count_in_a_row;Consecutive defeats;Consecutive defeats;same;;;;;;;;;;;;;;;;;;;
-msgbox/need_ticket/purchase;"To participate, you need to purchase:
+ticket/defeat_count_in_a_row;Consecutive defeats;Consecutive defeats;same;;;;;;;;;;;;;;;;;;;
+msgbox/need_ticket/purchase;"To participate, you need to purchase:
 {ticket}
 {info}
-Cost: {cost}";"To participate, you need to purchase:
+Cost: {cost}";"To participate, you need to purchase:
 {ticket}
 {info}
-Cost: {cost}";same;;;;;;;;;;;;;;;;;;;
-msgbox/need_ticket/no_tickets;"Unfortunately, there are no available tickets
-for the event {eventName}.";"Unfortunately, there are no available tickets
-for the event {eventName}.";same;;;;;;;;;;;;;;;;;;;
-events/all_vs_all;[Confrontation] All against all;[Confrontation] All against all;same;;;;;;;;;;;;;;;;;;;
-events/all_vs_all_desc;An Arcade Battle based on real historical event, it takes place in random historical locations. Respawn has been disabled for this type of battle.;An Arcade Battle based on real historical event, it takes place in random historical locations. Respawn has been disabled for this type of battle.;same;;;;;;;;;;;;;;;;;;;
-missions/clan_event;Squadron Battles;Squadron Battles;same;;;;;;;;;;;;;;;;;;;
-missions/clan_event/desc;A special event where squadrons fight each other. In squadron events any units can fight in one battle, regardless of their rank.;A special event where squadrons fight each other. In squadron events any units can fight in one battle, regardless of their rank.;same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_9;Squadron Arcade Events (max BR 3.7);Squadron Arcade Events (max BR 3.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_9;Squadron Realistic Events (max BR 3.7);Squadron Realistic Events (max BR 3.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_10;Squadron Arcade Events (max BR 4.0);Squadron Arcade Events (max BR 4.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_10;Squadron Realistic Events (max BR 4.0);Squadron Realistic Events (max BR 4.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_11;Squadron Arcade Events (max BR 4.3);Squadron Arcade Events (max BR 4.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_11;Squadron Realistic Events (max BR 4.3);Squadron Realistic Events (max BR 4.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_12;Squadron Arcade Events (max BR 4.7);Squadron Arcade Events (max BR 4.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_12;Squadron Realistic Events (max BR 4.7);Squadron Realistic Events (max BR 4.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_13;Squadron Arcade Events (max BR 5.0);Squadron Arcade Events (max BR 5.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_13;Squadron Realistic Events (max BR 5.0);Squadron Realistic Events (max BR 5.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_14;Squadron Arcade Events (max BR 5.3);Squadron Arcade Events (max BR 5.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_14;Squadron Realistic Events (max BR 5.3);Squadron Realistic Events (max BR 5.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_15;Squadron Arcade Events (max BR 5.7);Squadron Arcade Events (max BR 5.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_15;Squadron Realistic Events (max BR 5.7);Squadron Realistic Events (max BR 5.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_16;Squadron Arcade Events (max BR 6.0);Squadron Arcade Events (max BR 6.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_16;Squadron Realistic Events (max BR 6.0);Squadron Realistic Events (max BR 6.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_17;Squadron Arcade Events (max BR 6.3);Squadron Arcade Events (max BR 6.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_17;Squadron Realistic Events (max BR 6.3);Squadron Realistic Events (max BR 6.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_18;Squadron Arcade Events (max BR 6.7);Squadron Arcade Events (max BR 6.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_18;Squadron Realistic Events (max BR 6.7);Squadron Realistic Events (max BR 6.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_19;Squadron Arcade Events (max BR 7.0);Squadron Arcade Events (max BR 7.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_19;Squadron Realistic Events (max BR 7.0);Squadron Realistic Events (max BR 7.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_20;Squadron Arcade Events (max BR 7.3);Squadron Arcade Events (max BR 7.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_20;Squadron Realistic Events (max BR 7.3);Squadron Realistic Events (max BR 7.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_21;Squadron Arcade Events (max BR 7.7);Squadron Arcade Events (max BR 7.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_21;Squadron Realistic Events (max BR 7.7);Squadron Realistic Events (max BR 7.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_22;Squadron Arcade Events (max BR 8.0);Squadron Arcade Events (max BR 8.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_22;Squadron Realistic Events (max BR 8.0);Squadron Realistic Events (max BR 8.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_23;Squadron Arcade Events (max BR 8.3);Squadron Arcade Events (max BR 8.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_23;Squadron Realistic Events (max BR 8.3);Squadron Realistic Events (max BR 8.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_24;Squadron Arcade Events (max BR 8.7);Squadron Arcade Events (max BR 8.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_24;Squadron Realistic Events (max BR 8.7);Squadron Realistic Events (max BR 8.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_25;Squadron Arcade Events (max BR 9.0);Squadron Arcade Events (max BR 9.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_25;Squadron Realistic Events (max BR 9.0);Squadron Realistic Events (max BR 9.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_26;Squadron Arcade Events (max BR 9.3);Squadron Arcade Events (max BR 9.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_26;Squadron Realistic Events (max BR 9.3);Squadron Realistic Events (max BR 9.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_27;Squadron Arcade Events (max BR 9.7);Squadron Arcade Events (max BR 9.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_27;Squadron Realistic Events (max BR 9.7);Squadron Realistic Events (max BR 9.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_28;Squadron Arcade Events (max BR 10.0);Squadron Arcade Events (max BR 10.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_28;Squadron Realistic Events (max BR 10.0);Squadron Realistic Events (max BR 10.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_29;Squadron Arcade Events (max BR 10.7);Squadron Arcade Events (max BR 10.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_29;Squadron Realistic Events (max BR 10.7);Squadron Realistic Events (max BR 10.7);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_30;Squadron Arcade Events (max BR 11.0);Squadron Arcade Events (max BR 11.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_30;Squadron Realistic Events (max BR 11.0);Squadron Realistic Events (max BR 11.0);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade_31;Squadron Arcade Events (max BR 11.3);Squadron Arcade Events (max BR 11.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic_31;Squadron Realistic Events (max BR 11.3);Squadron Realistic Events (max BR 11.3);same;;;;;;;;;;;;;;;;;;;
-events/clan_event_arcade;Squadron Arcade Events;Squadron Arcade Events;same;;;;;;;;;;;;;;;;;;;
-events/clan_event_realistic;Squadron Realistic Events;Squadron Realistic Events;same;;;;;;;;;;;;;;;;;;;
-mainmenu/maxBR;max BR {br};max BR {br};same;;;;;;;;;;;;;;;;;;;
-missions/tank_event;Ground Battles;Ground Battles;same;;;;;;;;;;;;;;;;;;;
+Cost: {cost}";same;;;;;;;;;;;;;;;;;;;
+msgbox/need_ticket/no_tickets;"Unfortunately, there are no available tickets
+for the event {eventName}.";"Unfortunately, there are no available tickets
+for the event {eventName}.";same;;;;;;;;;;;;;;;;;;;
+events/all_vs_all;[Confrontation] All against all;[Confrontation] All against all;same;;;;;;;;;;;;;;;;;;;
+events/all_vs_all_desc;An Arcade Battle based on real historical event, it takes place in random historical locations. Respawn has been disabled for this type of battle.;An Arcade Battle based on real historical event, it takes place in random historical locations. Respawn has been disabled for this type of battle.;same;;;;;;;;;;;;;;;;;;;
+missions/clan_event;Squadron Battles;Squadron Battles;same;;;;;;;;;;;;;;;;;;;
+missions/clan_event/desc;A special event where squadrons fight each other. In squadron events any units can fight in one battle, regardless of their rank.;A special event where squadrons fight each other. In squadron events any units can fight in one battle, regardless of their rank.;same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_9;Squadron Arcade Events (max BR 3.7);Squadron Arcade Events (max BR 3.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_9;Squadron Realistic Events (max BR 3.7);Squadron Realistic Events (max BR 3.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_10;Squadron Arcade Events (max BR 4.0);Squadron Arcade Events (max BR 4.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_10;Squadron Realistic Events (max BR 4.0);Squadron Realistic Events (max BR 4.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_11;Squadron Arcade Events (max BR 4.3);Squadron Arcade Events (max BR 4.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_11;Squadron Realistic Events (max BR 4.3);Squadron Realistic Events (max BR 4.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_12;Squadron Arcade Events (max BR 4.7);Squadron Arcade Events (max BR 4.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_12;Squadron Realistic Events (max BR 4.7);Squadron Realistic Events (max BR 4.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_13;Squadron Arcade Events (max BR 5.0);Squadron Arcade Events (max BR 5.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_13;Squadron Realistic Events (max BR 5.0);Squadron Realistic Events (max BR 5.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_14;Squadron Arcade Events (max BR 5.3);Squadron Arcade Events (max BR 5.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_14;Squadron Realistic Events (max BR 5.3);Squadron Realistic Events (max BR 5.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_15;Squadron Arcade Events (max BR 5.7);Squadron Arcade Events (max BR 5.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_15;Squadron Realistic Events (max BR 5.7);Squadron Realistic Events (max BR 5.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_16;Squadron Arcade Events (max BR 6.0);Squadron Arcade Events (max BR 6.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_16;Squadron Realistic Events (max BR 6.0);Squadron Realistic Events (max BR 6.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_17;Squadron Arcade Events (max BR 6.3);Squadron Arcade Events (max BR 6.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_17;Squadron Realistic Events (max BR 6.3);Squadron Realistic Events (max BR 6.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_18;Squadron Arcade Events (max BR 6.7);Squadron Arcade Events (max BR 6.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_18;Squadron Realistic Events (max BR 6.7);Squadron Realistic Events (max BR 6.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_19;Squadron Arcade Events (max BR 7.0);Squadron Arcade Events (max BR 7.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_19;Squadron Realistic Events (max BR 7.0);Squadron Realistic Events (max BR 7.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_20;Squadron Arcade Events (max BR 7.3);Squadron Arcade Events (max BR 7.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_20;Squadron Realistic Events (max BR 7.3);Squadron Realistic Events (max BR 7.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_21;Squadron Arcade Events (max BR 7.7);Squadron Arcade Events (max BR 7.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_21;Squadron Realistic Events (max BR 7.7);Squadron Realistic Events (max BR 7.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_22;Squadron Arcade Events (max BR 8.0);Squadron Arcade Events (max BR 8.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_22;Squadron Realistic Events (max BR 8.0);Squadron Realistic Events (max BR 8.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_23;Squadron Arcade Events (max BR 8.3);Squadron Arcade Events (max BR 8.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_23;Squadron Realistic Events (max BR 8.3);Squadron Realistic Events (max BR 8.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_24;Squadron Arcade Events (max BR 8.7);Squadron Arcade Events (max BR 8.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_24;Squadron Realistic Events (max BR 8.7);Squadron Realistic Events (max BR 8.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_25;Squadron Arcade Events (max BR 9.0);Squadron Arcade Events (max BR 9.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_25;Squadron Realistic Events (max BR 9.0);Squadron Realistic Events (max BR 9.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_26;Squadron Arcade Events (max BR 9.3);Squadron Arcade Events (max BR 9.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_26;Squadron Realistic Events (max BR 9.3);Squadron Realistic Events (max BR 9.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_27;Squadron Arcade Events (max BR 9.7);Squadron Arcade Events (max BR 9.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_27;Squadron Realistic Events (max BR 9.7);Squadron Realistic Events (max BR 9.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_28;Squadron Arcade Events (max BR 10.0);Squadron Arcade Events (max BR 10.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_28;Squadron Realistic Events (max BR 10.0);Squadron Realistic Events (max BR 10.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_29;Squadron Arcade Events (max BR 10.7);Squadron Arcade Events (max BR 10.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_29;Squadron Realistic Events (max BR 10.7);Squadron Realistic Events (max BR 10.7);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_30;Squadron Arcade Events (max BR 11.0);Squadron Arcade Events (max BR 11.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_30;Squadron Realistic Events (max BR 11.0);Squadron Realistic Events (max BR 11.0);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade_31;Squadron Arcade Events (max BR 11.3);Squadron Arcade Events (max BR 11.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic_31;Squadron Realistic Events (max BR 11.3);Squadron Realistic Events (max BR 11.3);same;;;;;;;;;;;;;;;;;;;
+events/clan_event_arcade;Squadron Arcade Events;Squadron Arcade Events;same;;;;;;;;;;;;;;;;;;;
+events/clan_event_realistic;Squadron Realistic Events;Squadron Realistic Events;same;;;;;;;;;;;;;;;;;;;
+mainmenu/maxBR;max BR {br};max BR {br};same;;;;;;;;;;;;;;;;;;;
+missions/tank_event;Ground Battles;Ground Battles;same;;;;;;;;;;;;;;;;;;;
 missions/tank_event/desc;;;same;;;;;;;;;;;;;;;;;;;
-missions/air_event;Air Battles;Air Battles;same;;;;;;;;;;;;;;;;;;;
+missions/air_event;Air Battles;Air Battles;same;;;;;;;;;;;;;;;;;;;
 missions/air_event/desc;;;same;;;;;;;;;;;;;;;;;;;
-missions/ship_event;Naval Battles;Naval Battles;same;;;;;;;;;;;;;;;;;;;
+missions/ship_event;Naval Battles;Naval Battles;same;;;;;;;;;;;;;;;;;;;
 missions/ship_event/desc;;;same;;;;;;;;;;;;;;;;;;;
-missions/helicopter_event;Helicopter Battles;Helicopter Battles;same;;;;;;;;;;;;;;;;;;;
+missions/helicopter_event;Helicopter Battles;Helicopter Battles;same;;;;;;;;;;;;;;;;;;;
 missions/helicopter_event/desc;;;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_arcade;Ground Arcade Battles;Ground Arcade Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_arcade/desc;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_in_random_battles_arcade;Ground Arcade Battles;Ground Arcade Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_in_random_battles_arcade/desc;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;same;;;;;;;;;;;;;;;;;;;
-missions/air_event_arcade;Air Arcade Battles;Air Arcade Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_arcade_short;Ground AB;Ground AB;same;;;;;;;;;;;;;;;;;;;
-missions/short/tank_event_in_random_battles_arcade;Ground AB;Ground AB;same;;;;;;;;;;;;;;;;;;;
-missions/air_event_arcade_short;Air AB;Air AB;same;;;;;;;;;;;;;;;;;;;
-missions/short/air_arcade;Air AB;Air AB;same;;;;;;;;;;;;;;;;;;;
-missions/ship_event_arcade_short;Naval AB;Naval AB;same;;;;;;;;;;;;;;;;;;;
-missions/short/ship_event_in_random_battles_arcade;Naval AB;Naval AB;same;;;;;;;;;;;;;;;;;;;
-missions/mixed_event_arcade;Mixed Arcade Battles;Mixed Arcade Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_historical;Ground Realistic Battles;Ground Realistic Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_historical/desc;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_in_random_battles_historical;Ground Realistic Battles;Ground Realistic Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_in_random_battles_historical/desc;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;same;;;;;;;;;;;;;;;;;;;
-missions/air_event_historical;Air Realistic Battles;Air Realistic Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_historical_short;Ground RB;Ground RB;same;;;;;;;;;;;;;;;;;;;
-missions/short/tank_event_in_random_battles_historical;Ground RB;Ground RB;same;;;;;;;;;;;;;;;;;;;
-missions/air_event_historical_short;Air RB;Air RB;same;;;;;;;;;;;;;;;;;;;
-missions/short/air_realistic;Air RB;Air RB;same;;;;;;;;;;;;;;;;;;;
-missions/ship_event_historical_short;Naval RB;Naval RB;same;;;;;;;;;;;;;;;;;;;
-missions/short/ship_event_in_random_battles_realistic;Naval RB;Naval RB;same;;;;;;;;;;;;;;;;;;;
-missions/mixed_event_historical;Mixed Realistic Battles;Mixed Realistic Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_simulator;Ground Simulator Battles;Ground Simulator Battles;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_simulator_short;Ground SB;Ground SB;same;;;;;;;;;;;;;;;;;;;
-missions/tank_event_in_random_battles_simulator;Ground Simulator Battles;Ground Simulator Battles;same;;;;;;;;;;;;;;;;;;;
-missions/short/tank_random_battles_simulation;Ground SB;Ground SB;same;;;;;;;;;;;;;;;;;;;
-missions/short/tank_random_battles_simulation_1;Ground SB;Ground SB;same;;;;;;;;;;;;;;;;;;;
-missions/air_event_simulator;Air Simulator Battles;Air Simulator Battles;same;;;;;;;;;;;;;;;;;;;
-missions/air_event_simulator_short;Air SB;Air SB;same;;;;;;;;;;;;;;;;;;;
-missions/air_simulation_timeDelay_battles;Air Simulator Battles;Air Simulator Battles;same;;;;;;;;;;;;;;;;;;;
-missions/air_simulation_timeDelay_battles_short;Air SB;Air SB;same;;;;;;;;;;;;;;;;;;;
-missions/short/air_simulation_timeDelay_battles;Air SB;Air SB;same;;;;;;;;;;;;;;;;;;;
-missions/mixed_event_simulator;Mixed Simulator Battles;Mixed Simulator Battles;same;;;;;;;;;;;;;;;;;;;
-missions/ship_event_arcade;Naval Arcade Battles;Naval Arcade Battles;same;;;;;;;;;;;;;;;;;;;
-missions/ship_event_arcade/desc;Naval Arcade Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. There are markers over both allied and enemy units. The manoeuvrability characteristics of the vehicles are improved over those in Realistic Battles. Parties can have vehicles from any nation. The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.;Naval Arcade Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. There are markers over both allied and enemy units. The manoeuvrability characteristics of the vehicles are improved over those in Realistic Battles. Parties can have vehicles from any nation. The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.;same;;;;;;;;;;;;;;;;;;;
-missions/ship_event_historical;Naval Realistic Battles;Naval Realistic Battles;same;;;;;;;;;;;;;;;;;;;
-missions/ship_event_historical/desc;"Naval Realistic Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – and you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. The markers are used for allied units only. Vehicle characteristics are maximally approximated to those of their real-life counterparts. Parties can have vehicles from one or several nations.
-The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.";"Naval Realistic Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – and you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. The markers are used for allied units only. Vehicle characteristics are maximally approximated to those of their real-life counterparts. Parties can have vehicles from one or several nations.
-The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.";same;;;;;;;;;;;;;;;;;;;
-missions/ship_event_simulator;Naval Simulator Battles;Naval Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_arcade;Ground Arcade Battles;Ground Arcade Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_arcade/desc;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_in_random_battles_arcade;Ground Arcade Battles;Ground Arcade Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_in_random_battles_arcade/desc;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;same;;;;;;;;;;;;;;;;;;;
+missions/air_event_arcade;Air Arcade Battles;Air Arcade Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_arcade_short;Ground AB;Ground AB;same;;;;;;;;;;;;;;;;;;;
+missions/short/tank_event_in_random_battles_arcade;Ground AB;Ground AB;same;;;;;;;;;;;;;;;;;;;
+missions/air_event_arcade_short;Air AB;Air AB;same;;;;;;;;;;;;;;;;;;;
+missions/short/air_arcade;Air AB;Air AB;same;;;;;;;;;;;;;;;;;;;
+missions/ship_event_arcade_short;Naval AB;Naval AB;same;;;;;;;;;;;;;;;;;;;
+missions/short/ship_event_in_random_battles_arcade;Naval AB;Naval AB;same;;;;;;;;;;;;;;;;;;;
+missions/mixed_event_arcade;Mixed Arcade Battles;Mixed Arcade Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_historical;Ground Realistic Battles;Ground Realistic Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_historical/desc;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_in_random_battles_historical;Ground Realistic Battles;Ground Realistic Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_in_random_battles_historical/desc;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;Ground Vehicle Realistic Battles is a mode that includes both ground vehicles and aviation. Special spawn points are used in this mode, which are accrued for successful actions in a battle and are spent on subsequent respawns on ground vehicles or aircraft. The number of points received at the beginning of the battle allows you to run ground vehicles. Markers are only used to indicate allies. Vehicle characteristics are as close as possible to the real ones. Vehicles of one or more nations may be present in a team, only the battles with two participating nations are possible.;same;;;;;;;;;;;;;;;;;;;
+missions/air_event_historical;Air Realistic Battles;Air Realistic Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_historical_short;Ground RB;Ground RB;same;;;;;;;;;;;;;;;;;;;
+missions/short/tank_event_in_random_battles_historical;Ground RB;Ground RB;same;;;;;;;;;;;;;;;;;;;
+missions/air_event_historical_short;Air RB;Air RB;same;;;;;;;;;;;;;;;;;;;
+missions/short/air_realistic;Air RB;Air RB;same;;;;;;;;;;;;;;;;;;;
+missions/ship_event_historical_short;Naval RB;Naval RB;same;;;;;;;;;;;;;;;;;;;
+missions/short/ship_event_in_random_battles_realistic;Naval RB;Naval RB;same;;;;;;;;;;;;;;;;;;;
+missions/mixed_event_historical;Mixed Realistic Battles;Mixed Realistic Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_simulator;Ground Simulator Battles;Ground Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_simulator_short;Ground SB;Ground SB;same;;;;;;;;;;;;;;;;;;;
+missions/tank_event_in_random_battles_simulator;Ground Simulator Battles;Ground Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+missions/short/tank_random_battles_simulation;Ground SB;Ground SB;same;;;;;;;;;;;;;;;;;;;
+missions/short/tank_random_battles_simulation_1;Ground SB;Ground SB;same;;;;;;;;;;;;;;;;;;;
+missions/air_event_simulator;Air Simulator Battles;Air Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+missions/air_event_simulator_short;Air SB;Air SB;same;;;;;;;;;;;;;;;;;;;
+missions/air_simulation_timeDelay_battles;Air Simulator Battles;Air Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+missions/air_simulation_timeDelay_battles_short;Air SB;Air SB;same;;;;;;;;;;;;;;;;;;;
+missions/short/air_simulation_timeDelay_battles;Air SB;Air SB;same;;;;;;;;;;;;;;;;;;;
+missions/mixed_event_simulator;Mixed Simulator Battles;Mixed Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+missions/ship_event_arcade;Naval Arcade Battles;Naval Arcade Battles;same;;;;;;;;;;;;;;;;;;;
+missions/ship_event_arcade/desc;Naval Arcade Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. There are markers over both allied and enemy units. The manoeuvrability characteristics of the vehicles are improved over those in Realistic Battles. Parties can have vehicles from any nation. The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.;Naval Arcade Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. There are markers over both allied and enemy units. The manoeuvrability characteristics of the vehicles are improved over those in Realistic Battles. Parties can have vehicles from any nation. The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.;same;;;;;;;;;;;;;;;;;;;
+missions/ship_event_historical;Naval Realistic Battles;Naval Realistic Battles;same;;;;;;;;;;;;;;;;;;;
+missions/ship_event_historical/desc;"Naval Realistic Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – and you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. The markers are used for allied units only. Vehicle characteristics are maximally approximated to those of their real-life counterparts. Parties can have vehicles from one or several nations.
+The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.";"Naval Realistic Battles is a battle mode for naval vessels and aircraft only. Two extra aircraft slots are included in addition to your current naval vessel setup – and you can also use aircraft of your choice. This mode uses a special kind of Spawn Points that are earned by successfully performing specific actions in combat. You can use these points to respawn an aircraft. The number of points you have at the start of a battle is below what is required to pilot an aircraft. The markers are used for allied units only. Vehicle characteristics are maximally approximated to those of their real-life counterparts. Parties can have vehicles from one or several nations.
+The maximum number of in-combat respawns is as follows: 3 for naval vessels and 2 for aircraft.";same;;;;;;;;;;;;;;;;;;;
+missions/ship_event_simulator;Naval Simulator Battles;Naval Simulator Battles;same;;;;;;;;;;;;;;;;;;;
 missions/ship_event_simulator/desc;;;same;;;;;;;;;;;;;;;;;;;
-missions/helicopter_event_arcade;Helicopter Arcade Battles;Helicopter Arcade Battles;same;;;;;;;;;;;;;;;;;;;
-missions/helicopter_event_historical;Helicopter Realistic Battles;Helicopter Realistic Battles;same;;;;;;;;;;;;;;;;;;;
-missions/helicopter_event_simulator;Helicopter Simulator Battles;Helicopter Simulator Battles;same;;;;;;;;;;;;;;;;;;;
+missions/helicopter_event_arcade;Helicopter Arcade Battles;Helicopter Arcade Battles;same;;;;;;;;;;;;;;;;;;;
+missions/helicopter_event_historical;Helicopter Realistic Battles;Helicopter Realistic Battles;same;;;;;;;;;;;;;;;;;;;
+missions/helicopter_event_simulator;Helicopter Simulator Battles;Helicopter Simulator Battles;same;;;;;;;;;;;;;;;;;;;
 common_air_kills;(aircraft);(aircraft);same;;;;;;;;;;;;;;;;;;;
-common_ground_kills;(ground forces);(ground forces);same;;;;;;;;;;;;;;;;;;;
+common_ground_kills;(ground forces);(ground forces);same;;;;;;;;;;;;;;;;;;;
 common_missions_played;(missions);(missions);same;;;;;;;;;;;;;;;;;;;
-premium_tanks_givaway_day01;First Battles;First Battles;same;;;;;;;;;;;;;;;;;;;
+premium_tanks_givaway_day01;First Battles;First Battles;same;;;;;;;;;;;;;;;;;;;
 premium_tanks_givaway_day02;Avenger;Avenger;same;;;;;;;;;;;;;;;;;;;
-premium_tanks_givaway_day03;Aircraft Score Too!;Aircraft Score Too!;same;;;;;;;;;;;;;;;;;;;
-premium_tanks_givaway_day04;Meet the Heavy;Meet the Heavy;same;;;;;;;;;;;;;;;;;;;
-premium_tanks_givaway_day05;Daily Routine;Daily Routine;same;;;;;;;;;;;;;;;;;;;
-premium_tanks_givaway_day06;Can See My Enemy;Can See My Enemy;same;;;;;;;;;;;;;;;;;;;
-premium_tanks_givaway_day07;Five After Ten;Five After Ten;same;;;;;;;;;;;;;;;;;;;
+premium_tanks_givaway_day03;Aircraft Score Too!;Aircraft Score Too!;same;;;;;;;;;;;;;;;;;;;
+premium_tanks_givaway_day04;Meet the Heavy;Meet the Heavy;same;;;;;;;;;;;;;;;;;;;
+premium_tanks_givaway_day05;Daily Routine;Daily Routine;same;;;;;;;;;;;;;;;;;;;
+premium_tanks_givaway_day06;Can See My Enemy;Can See My Enemy;same;;;;;;;;;;;;;;;;;;;
+premium_tanks_givaway_day07;Five After Ten;Five After Ten;same;;;;;;;;;;;;;;;;;;;
 event_country_germany;(Germany);(Germany);same;;;;;;;;;;;;;;;;;;;
 event_country_ussr;(USSR);(USSR);same;;;;;;;;;;;;;;;;;;;
 event_country_britain;(Britain);(Britain);same;;;;;;;;;;;;;;;;;;;
@@ -238,165 +238,165 @@ event_country_usa;(USA);(USA);same;;;;;;;;;;;;;;;;;;;
 event_country_italy;(Italy);(Italy);same;;;;;;;;;;;;;;;;;;;
 event_country_japan;(Japan);(Japan);same;;;;;;;;;;;;;;;;;;;
 event_country_china;(China);(China);same;;;;;;;;;;;;;;;;;;;
-event_airforce_germany;German Air Force;German Air Force;same;;;;;;;;;;;;;;;;;;;
-event_airforce_ussr;USSR Air Force;USSR Air Force;same;;;;;;;;;;;;;;;;;;;
-event_airforce_britain;British Air Force;British Air Force;same;;;;;;;;;;;;;;;;;;;
-event_airforce_australia;Australian Air Force;Australian Air Force;same;;;;;;;;;;;;;;;;;;;
-event_airforce_usa;US Air Force;US Air Force;same;;;;;;;;;;;;;;;;;;;
-event_airforce_italy;Italian Air Force;Italian Air Force;same;;;;;;;;;;;;;;;;;;;
-event_airforce_japan;Japanese Air Force;Japanese Air Force;same;;;;;;;;;;;;;;;;;;;
-event_airforce_china;Chinese Air Force;Chinese Air Force;same;;;;;;;;;;;;;;;;;;;
-event_army_germany;German Army;German Army;same;;;;;;;;;;;;;;;;;;;
-event_army_ussr;USSR Army;USSR Army;same;;;;;;;;;;;;;;;;;;;
-event_army_britain;British Army;British Army;same;;;;;;;;;;;;;;;;;;;
-event_army_australia;Australian Army;Australian Army;same;;;;;;;;;;;;;;;;;;;
-event_army_usa;US Army;US Army;same;;;;;;;;;;;;;;;;;;;
-event_army_italy;Italian Army;Italian Army;same;;;;;;;;;;;;;;;;;;;
-event_army_japan;Japanese Army;Japanese Army;same;;;;;;;;;;;;;;;;;;;
-event_army_china;Chinese Army;Chinese Army;same;;;;;;;;;;;;;;;;;;;
-events/kursk_battle;Battle of Kursk;Battle of Kursk;same;;;;;;;;;;;;;;;;;;;
+event_airforce_germany;German Air Force;German Air Force;same;;;;;;;;;;;;;;;;;;;
+event_airforce_ussr;USSR Air Force;USSR Air Force;same;;;;;;;;;;;;;;;;;;;
+event_airforce_britain;British Air Force;British Air Force;same;;;;;;;;;;;;;;;;;;;
+event_airforce_australia;Australian Air Force;Australian Air Force;same;;;;;;;;;;;;;;;;;;;
+event_airforce_usa;US Air Force;US Air Force;same;;;;;;;;;;;;;;;;;;;
+event_airforce_italy;Italian Air Force;Italian Air Force;same;;;;;;;;;;;;;;;;;;;
+event_airforce_japan;Japanese Air Force;Japanese Air Force;same;;;;;;;;;;;;;;;;;;;
+event_airforce_china;Chinese Air Force;Chinese Air Force;same;;;;;;;;;;;;;;;;;;;
+event_army_germany;German Army;German Army;same;;;;;;;;;;;;;;;;;;;
+event_army_ussr;USSR Army;USSR Army;same;;;;;;;;;;;;;;;;;;;
+event_army_britain;British Army;British Army;same;;;;;;;;;;;;;;;;;;;
+event_army_australia;Australian Army;Australian Army;same;;;;;;;;;;;;;;;;;;;
+event_army_usa;US Army;US Army;same;;;;;;;;;;;;;;;;;;;
+event_army_italy;Italian Army;Italian Army;same;;;;;;;;;;;;;;;;;;;
+event_army_japan;Japanese Army;Japanese Army;same;;;;;;;;;;;;;;;;;;;
+event_army_china;Chinese Army;Chinese Army;same;;;;;;;;;;;;;;;;;;;
+events/kursk_battle;Battle of Kursk;Battle of Kursk;same;;;;;;;;;;;;;;;;;;;
 events/kursk_battle/desc;;;same;;;;;;;;;;;;;;;;;;;
-events/prokhorovka_battle;Battle of Prokhorovka;Battle of Prokhorovka;same;;;;;;;;;;;;;;;;;;;
+events/prokhorovka_battle;Battle of Prokhorovka;Battle of Prokhorovka;same;;;;;;;;;;;;;;;;;;;
 events/prokhorovka_battle/desc;;;same;;;;;;;;;;;;;;;;;;;
-events/antiaircraft_battle;Rapid Fire;Rapid Fire;same;;;;;;;;;;;;;;;;;;;
+events/antiaircraft_battle;Rapid Fire;Rapid Fire;same;;;;;;;;;;;;;;;;;;;
 events/antiaircraft_battle/desc;;;same;;;;;;;;;;;;;;;;;;;
-events/tank_vs_air_arcade;The Sky is for Heroes;The Sky is for Heroes;same;;;;;;;;;;;;;;;;;;;
-events/tank_vs_air_arcade/desc;Only the best will reach the heights! Gain one opportunity of using an aircraft in a ground battle for each three enemies defeated.;Only the best will reach the heights! Gain one opportunity of using an aircraft in a ground battle for each three enemies defeated.;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_v1_race_inverted;[Race] Tropical Island;[Race] Tropical Island;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_v1_race_inverted/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_v2_race_straight;[Race] Tropical Island;[Race] Tropical Island;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_v2_race_straight/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_v2_race_inverted;[Race] Tropical Island;[Race] Tropical Island;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_v2_race_inverted/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles;[Race] Island;[Race] Island;same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_1st_rank;[Race] Island (1st rank);[Race] Island (1st rank);same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_2nd_rank;[Race] Island (2nd rank);[Race] Island (2nd rank);same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_3rd_rank;[Race] Island (3rd rank);[Race] Island (3rd rank);same;;;;;;;;;;;;;;;;;;;
-missions/phiphi_race_two_circles_4th_rank;[Race] Island (4th rank);[Race] Island (4th rank);same;;;;;;;;;;;;;;;;;;;
-events/wrong_clan_for_this_tornament;In this tournament you can participate in only one Squadron.;In this tournament you can participate in only one Squadron.;same;;;;;;;;;;;;;;;;;;;
-events/wait_for_sessions_to_finish/main;You cannot join the battle until the current tournament battle is finished.;You cannot join the battle until the current tournament battle is finished.;same;;;;;;;;;;;;;;;;;;;
-events/wait_for_sessions_to_finish/optional;Less than {timeleft} left.;Less than {timeleft} left.;same;;;;;;;;;;;;;;;;;;;
-events/no_unlock_progress;Achievement progress is not counted in this battle.;Achievement progress is not counted in this battle.;same;;;;;;;;;;;;;;;;;;;
-events/has_time_awarding_economics;This mode uses a system of rewards for useful actions per unit of time. The reward for individual actions is not accrued.;This mode uses a system of rewards for useful actions per unit of time. The reward for individual actions is not accrued.;same;;;;;;;;;;;;;;;;;;;
-missions/ab_airfield_assault;Airfield Ass salt;Airfield Assault;trim;;;;;;;;;;;;;;;;;;;
-missions/ab_airfield_assault/desc;Three airfields surround the town. Each team has an airfield, but there is a central one in the middle of the town - this airfield is open for capture by all and, once capped, the owning team can capture the others. The central base has no ticket bleed, but as soon as any of the other fields are taken, tickets will bleed from the original owners. This will continue until the central airfield is captured again and then the team's satellite base is re-captured. This will be a real tug of war between the three teams, a real struggle for survival.;Three airfields surround the town. Each team has an airfield, but there is a central one in the middle of the town - this airfield is open for capture by all and, once capped, the owning team can capture the others. The central base has no ticket bleed, but as soon as any of the other fields are taken, tickets will bleed from the original owners. This will continue until the central airfield is captured again and then the team's satellite base is re-captured. This will be a real tug of war between the three teams, a real struggle for survival.;same;;;;;;;;;;;;;;;;;;;
-mission/pve_event;Victory Hour;Victory Hour;same;;;;;;;;;;;;;;;;;;;
-mission/pve_event/desc;Take part in the events that became a symbol of victory in the Second World War.;Take part in the events that became a symbol of victory in the Second World War.;same;;;;;;;;;;;;;;;;;;;
-missions/ussr_capture_of_reichstag;Victory Hour;Victory Hour;same;;;;;;;;;;;;;;;;;;;
-missions/ussr_capture_of_reichstag_PvE;Victory Hour;Victory Hour;same;;;;;;;;;;;;;;;;;;;
-missions/ussr_capture_of_reichstag_PvE/desc;Take part in the events that became a symbol of victory in the Second World War: the Battle for the Reichstag!;Take part in the events that became a symbol of victory in the Second World War: the Battle for the Reichstag!;same;;;;;;;;;;;;;;;;;;;
-missions/chastise;"Operation ""Chastise""";"Operation ""Chastise""";same;;;;;;;;;;;;;;;;;;;
-missions/chastise/desc;"Operation ""Chastise"" was planned for the 16th and 17th of May 1943. The RAF bomber groups were to provide massive attacks over the industrial areas of the Ruhr. The intention of operation ""Chastise"", was to significantly weaken the weapon production of the enemy.";"Operation ""Chastise"" was planned for the 16th and 17th of May 1943. The RAF bomber groups were to provide massive attacks over the industrial areas of the Ruhr. The intention of operation ""Chastise"", was to significantly weaken the weapon production of the enemy.";same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank0_5;[1][Enduring Confrontation] Stalingrad;[1][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank6_10;[2][Enduring Confrontation] Stalingrad;[2][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank11_16;[3][Enduring Confrontation] Stalingrad;[3][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank17_25;[4][Enduring Confrontation] Stalingrad;[4][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank_1;[1][Enduring Confrontation] Stalingrad;[1][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank_2;[2][Enduring Confrontation] Stalingrad;[2][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank_3;[3][Enduring Confrontation] Stalingrad;[3][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank_4;[4][Enduring Confrontation] Stalingrad;[4][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/stalingrad_I2M_rank_5;[5][Enduring Confrontation] Stalingrad;[5][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
-missions/khalkhin_gol_I2M_rank_1;[1][Enduring Confrontation] Khalkhin Gol;[1][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
-missions/khalkhin_gol_I2M_rank_2;[2][Enduring Confrontation] Khalkhin Gol;[2][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
-missions/khalkhin_gol_I2M_rank_3;[3][Enduring Confrontation] Khalkhin Gol;[3][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
-missions/khalkhin_gol_I2M_rank_4;[4][Enduring Confrontation] Khalkhin Gol;[4][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
-missions/khalkhin_gol_I2M_rank_5;[5][Enduring Confrontation] Khalkhin Gol;[5][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
-missions/ruhr_I2M_rank_1;[1][Enduring Confrontation] Ruhr;[1][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
-missions/ruhr_I2M_rank_2;[2][Enduring Confrontation] Ruhr;[2][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
-missions/ruhr_I2M_rank_3;[3][Enduring Confrontation] Ruhr;[3][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
-missions/ruhr_I2M_rank_4;[4][Enduring Confrontation] Ruhr;[4][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
-missions/ruhr_I2M_rank_5;[5][Enduring Confrontation] Ruhr;[5][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
-missions/sicily_I2M_rank_1;[1][Enduring Confrontation] Sicily;[1][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
-missions/sicily_I2M_rank_2;[2][Enduring Confrontation] Sicily;[2][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
-missions/sicily_I2M_rank_3;[3][Enduring Confrontation] Sicily;[3][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
-missions/sicily_I2M_rank_4;[4][Enduring Confrontation] Sicily;[4][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
-missions/sicily_I2M_rank_5;[5][Enduring Confrontation] Sicily;[5][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
-missions/port_moresby_I2M_rank_1;[1][Enduring Confrontation] New Guinea;[1][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
-missions/port_moresby_I2M_rank_2;[2][Enduring Confrontation] New Guinea;[2][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
-missions/port_moresby_I2M_rank_3;[3][Enduring Confrontation] New Guinea;[3][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
-missions/port_moresby_I2M_rank_4;[4][Enduring Confrontation] New Guinea;[4][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
-missions/port_moresby_I2M_rank_5;[5][Enduring Confrontation] New Guinea;[5][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
-missions/volokolamsk_I2M_rank_1;[1][Enduring Confrontation] Volokolamsk;[1][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
-missions/volokolamsk_I2M_rank_2;[2][Enduring Confrontation] Volokolamsk;[2][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
-missions/volokolamsk_I2M_rank_3;[3][Enduring Confrontation] Volokolamsk;[3][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
-missions/volokolamsk_I2M_rank_4;[4][Enduring Confrontation] Volokolamsk;[4][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
-missions/volokolamsk_I2M_rank_5;[5][Enduring Confrontation] Volokolamsk;[5][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
-missions/I2M;Enduring Confrontation;Enduring Confrontation;same;;;;;;;;;;;;;;;;;;;
-missions/I2M/desc;"This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:
-[1] 1.0 - 2.0
-[2] 2.3 - 3.3
-[3] 3.7 - 4.7
-[4] 5.0 - 6.3
-[5] 6.7+
-Plan your vehicle setup accordingly.";"This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:
-[1] 1.0 - 2.0
-[2] 2.3 - 3.3
-[3] 3.7 - 4.7
-[4] 5.0 - 6.3
-[5] 6.7+
-Plan your vehicle setup accordingly.";same;;;;;;;;;;;;;;;;;;;
-missions/I2M_rank_1;[1][Enduring Confrontation];[1][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
-missions/I2M_rank_2;[2][Enduring Confrontation];[2][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
-missions/I2M_rank_3;[3][Enduring Confrontation];[3][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
-missions/I2M_rank_4;[4][Enduring Confrontation];[4][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
-missions/I2M_rank_5;[5][Enduring Confrontation];[5][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
-mission/survival;The Last Stand;The Last Stand;same;;;;;;;;;;;;;;;;;;;
-mission/survival/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
-mission/survival_clan;[Squadron Event] The Last Stand;[Squadron Event] The Last Stand;same;;;;;;;;;;;;;;;;;;;
-mission/survival_clan/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
-missions/battle_for_survival_8_players_PvE;The Last Stand;The Last Stand;same;;;;;;;;;;;;;;;;;;;
-missions/battle_for_survival_8_players_PvE/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
-missions/battle_for_survival;The Last Stand;The Last Stand;same;;;;;;;;;;;;;;;;;;;
-missions/battle_for_survival/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
-msg/eventAccess/needEntitlements;To access the event {event}, you must have {entitlement};To access the event {event}, you must have {entitlement};same;;;;;;;;;;;;;;;;;;;
-msg/members_no_access_to_mode;{members} do not have access to this mode.;{members} do not have access to this mode.;same;;;;;;;;;;;;;;;;;;;
-event/pve_main_air_arcade;Air Ass salt;Assault. Air Arcade;nice;;;;;;;;;;;;;;;;;;;
-event/pve_main_air_arcade/desc;"Play this air arcade PvE mode
-cause the grind fucking sucks: 
-1.0 - 2.3
-2.7 - 3.7
-4.0 - 5.0
-5.3 - 6.3
-6.7 - 12.7
-Go fuck youself!";"Cooperative PvE game mode in which players defend an allied base from several waves of enemies. Every day, the first battle in ""Assault"" mode brings players a special reward.
-This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:
-1.0 - 2.3
-2.7 - 3.7
-4.0 - 5.0
-5.3 - 6.3
-6.7 - 12.7
-Plan your vehicle setup accordingly.";nice;;;;;;;;;;;;;;;;;;;
-event/pve_main_tank_arcade;Tank Ass salt;Assault. Ground Arcade;nice;;;;;;;;;;;;;;;;;;;
-event/pve_main_tank_arcade/desc;"Play this tank arcade PvE mode
-cause the grind fucking sucks:
-1.0 - 2.3
-2.7 - 3.7
-4.0 - 5.0
-5.3 - 6.3
-6.7 - 8.0
-8.3+ 
-Don't be a dumb cunt.";"Cooperative PvE game mode in which players defend an allied base from several waves of enemies. Every day, the first battle in ""Assault"" mode brings players a special reward.
-This game mode has 6 levels depending on the maximum battle rating of your vehicle setup:
-1.0 - 2.3
-2.7 - 3.7
-4.0 - 5.0
-5.3 - 6.3
-6.7 - 8.0
+events/tank_vs_air_arcade;The Sky is for Heroes;The Sky is for Heroes;same;;;;;;;;;;;;;;;;;;;
+events/tank_vs_air_arcade/desc;Only the best will reach the heights! Gain one opportunity of using an aircraft in a ground battle for each three enemies defeated.;Only the best will reach the heights! Gain one opportunity of using an aircraft in a ground battle for each three enemies defeated.;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_v1_race_inverted;[Race] Tropical Island;[Race] Tropical Island;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_v1_race_inverted/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_v2_race_straight;[Race] Tropical Island;[Race] Tropical Island;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_v2_race_straight/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_v2_race_inverted;[Race] Tropical Island;[Race] Tropical Island;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_v2_race_inverted/desc;Race track above the tropical island.;Race track above the tropical island.;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles;[Race] Island;[Race] Island;same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_1st_rank;[Race] Island (1st rank);[Race] Island (1st rank);same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_2nd_rank;[Race] Island (2nd rank);[Race] Island (2nd rank);same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_3rd_rank;[Race] Island (3rd rank);[Race] Island (3rd rank);same;;;;;;;;;;;;;;;;;;;
+missions/phiphi_race_two_circles_4th_rank;[Race] Island (4th rank);[Race] Island (4th rank);same;;;;;;;;;;;;;;;;;;;
+events/wrong_clan_for_this_tornament;In this tournament you can participate in only one Squadron.;In this tournament you can participate in only one Squadron.;same;;;;;;;;;;;;;;;;;;;
+events/wait_for_sessions_to_finish/main;You cannot join the battle until the current tournament battle is finished.;You cannot join the battle until the current tournament battle is finished.;same;;;;;;;;;;;;;;;;;;;
+events/wait_for_sessions_to_finish/optional;Less than {timeleft} left.;Less than {timeleft} left.;same;;;;;;;;;;;;;;;;;;;
+events/no_unlock_progress;Achievement progress is not counted in this battle.;Achievement progress is not counted in this battle.;same;;;;;;;;;;;;;;;;;;;
+events/has_time_awarding_economics;This mode uses a system of rewards for useful actions per unit of time. The reward for individual actions is not accrued.;This mode uses a system of rewards for useful actions per unit of time. The reward for individual actions is not accrued.;same;;;;;;;;;;;;;;;;;;;
+missions/ab_airfield_assault;Airfield Ass salt;Airfield Assault;trim;;;;;;;;;;;;;;;;;;;
+missions/ab_airfield_assault/desc;Three airfields surround the town. Each team has an airfield, but there is a central one in the middle of the town - this airfield is open for capture by all and, once capped, the owning team can capture the others. The central base has no ticket bleed, but as soon as any of the other fields are taken, tickets will bleed from the original owners. This will continue until the central airfield is captured again and then the team's satellite base is re-captured. This will be a real tug of war between the three teams, a real struggle for survival.;Three airfields surround the town. Each team has an airfield, but there is a central one in the middle of the town - this airfield is open for capture by all and, once capped, the owning team can capture the others. The central base has no ticket bleed, but as soon as any of the other fields are taken, tickets will bleed from the original owners. This will continue until the central airfield is captured again and then the team's satellite base is re-captured. This will be a real tug of war between the three teams, a real struggle for survival.;same;;;;;;;;;;;;;;;;;;;
+mission/pve_event;Victory Hour;Victory Hour;same;;;;;;;;;;;;;;;;;;;
+mission/pve_event/desc;Take part in the events that became a symbol of victory in the Second World War.;Take part in the events that became a symbol of victory in the Second World War.;same;;;;;;;;;;;;;;;;;;;
+missions/ussr_capture_of_reichstag;Victory Hour;Victory Hour;same;;;;;;;;;;;;;;;;;;;
+missions/ussr_capture_of_reichstag_PvE;Victory Hour;Victory Hour;same;;;;;;;;;;;;;;;;;;;
+missions/ussr_capture_of_reichstag_PvE/desc;Take part in the events that became a symbol of victory in the Second World War: the Battle for the Reichstag!;Take part in the events that became a symbol of victory in the Second World War: the Battle for the Reichstag!;same;;;;;;;;;;;;;;;;;;;
+missions/chastise;"Operation ""Chastise""";"Operation ""Chastise""";same;;;;;;;;;;;;;;;;;;;
+missions/chastise/desc;"Operation ""Chastise"" was planned for the 16th and 17th of May 1943. The RAF bomber groups were to provide massive attacks over the industrial areas of the Ruhr. The intention of operation ""Chastise"", was to significantly weaken the weapon production of the enemy.";"Operation ""Chastise"" was planned for the 16th and 17th of May 1943. The RAF bomber groups were to provide massive attacks over the industrial areas of the Ruhr. The intention of operation ""Chastise"", was to significantly weaken the weapon production of the enemy.";same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank0_5;[1][Enduring Confrontation] Stalingrad;[1][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank6_10;[2][Enduring Confrontation] Stalingrad;[2][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank11_16;[3][Enduring Confrontation] Stalingrad;[3][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank17_25;[4][Enduring Confrontation] Stalingrad;[4][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank_1;[1][Enduring Confrontation] Stalingrad;[1][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank_2;[2][Enduring Confrontation] Stalingrad;[2][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank_3;[3][Enduring Confrontation] Stalingrad;[3][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank_4;[4][Enduring Confrontation] Stalingrad;[4][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/stalingrad_I2M_rank_5;[5][Enduring Confrontation] Stalingrad;[5][Enduring Confrontation] Stalingrad;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_I2M_rank_1;[1][Enduring Confrontation] Khalkhin Gol;[1][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_I2M_rank_2;[2][Enduring Confrontation] Khalkhin Gol;[2][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_I2M_rank_3;[3][Enduring Confrontation] Khalkhin Gol;[3][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_I2M_rank_4;[4][Enduring Confrontation] Khalkhin Gol;[4][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
+missions/khalkhin_gol_I2M_rank_5;[5][Enduring Confrontation] Khalkhin Gol;[5][Enduring Confrontation] Khalkhin Gol;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_I2M_rank_1;[1][Enduring Confrontation] Ruhr;[1][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_I2M_rank_2;[2][Enduring Confrontation] Ruhr;[2][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_I2M_rank_3;[3][Enduring Confrontation] Ruhr;[3][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_I2M_rank_4;[4][Enduring Confrontation] Ruhr;[4][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
+missions/ruhr_I2M_rank_5;[5][Enduring Confrontation] Ruhr;[5][Enduring Confrontation] Ruhr;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_I2M_rank_1;[1][Enduring Confrontation] Sicily;[1][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_I2M_rank_2;[2][Enduring Confrontation] Sicily;[2][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_I2M_rank_3;[3][Enduring Confrontation] Sicily;[3][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_I2M_rank_4;[4][Enduring Confrontation] Sicily;[4][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
+missions/sicily_I2M_rank_5;[5][Enduring Confrontation] Sicily;[5][Enduring Confrontation] Sicily;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_I2M_rank_1;[1][Enduring Confrontation] New Guinea;[1][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_I2M_rank_2;[2][Enduring Confrontation] New Guinea;[2][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_I2M_rank_3;[3][Enduring Confrontation] New Guinea;[3][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_I2M_rank_4;[4][Enduring Confrontation] New Guinea;[4][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
+missions/port_moresby_I2M_rank_5;[5][Enduring Confrontation] New Guinea;[5][Enduring Confrontation] New Guinea;same;;;;;;;;;;;;;;;;;;;
+missions/volokolamsk_I2M_rank_1;[1][Enduring Confrontation] Volokolamsk;[1][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
+missions/volokolamsk_I2M_rank_2;[2][Enduring Confrontation] Volokolamsk;[2][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
+missions/volokolamsk_I2M_rank_3;[3][Enduring Confrontation] Volokolamsk;[3][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
+missions/volokolamsk_I2M_rank_4;[4][Enduring Confrontation] Volokolamsk;[4][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
+missions/volokolamsk_I2M_rank_5;[5][Enduring Confrontation] Volokolamsk;[5][Enduring Confrontation] Volokolamsk;same;;;;;;;;;;;;;;;;;;;
+missions/I2M;Enduring Confrontation;Enduring Confrontation;same;;;;;;;;;;;;;;;;;;;
+missions/I2M/desc;"This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:
+[1] 1.0 - 2.0
+[2] 2.3 - 3.3
+[3] 3.7 - 4.7
+[4] 5.0 - 6.3
+[5] 6.7+
+Plan your vehicle setup accordingly.";"This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:
+[1] 1.0 - 2.0
+[2] 2.3 - 3.3
+[3] 3.7 - 4.7
+[4] 5.0 - 6.3
+[5] 6.7+
+Plan your vehicle setup accordingly.";same;;;;;;;;;;;;;;;;;;;
+missions/I2M_rank_1;[1][Enduring Confrontation];[1][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+missions/I2M_rank_2;[2][Enduring Confrontation];[2][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+missions/I2M_rank_3;[3][Enduring Confrontation];[3][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+missions/I2M_rank_4;[4][Enduring Confrontation];[4][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+missions/I2M_rank_5;[5][Enduring Confrontation];[5][Enduring Confrontation];same;;;;;;;;;;;;;;;;;;;
+mission/survival;The Last Stand;The Last Stand;same;;;;;;;;;;;;;;;;;;;
+mission/survival/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
+mission/survival_clan;[Squadron Event] The Last Stand;[Squadron Event] The Last Stand;same;;;;;;;;;;;;;;;;;;;
+mission/survival_clan/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
+missions/battle_for_survival_8_players_PvE;The Last Stand;The Last Stand;same;;;;;;;;;;;;;;;;;;;
+missions/battle_for_survival_8_players_PvE/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
+missions/battle_for_survival;The Last Stand;The Last Stand;same;;;;;;;;;;;;;;;;;;;
+missions/battle_for_survival/desc;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;Amidst the hordes of enemies charging from all sides your squad is the last island of resistance. Hold the line! Don't let them overthrow you!;same;;;;;;;;;;;;;;;;;;;
+msg/eventAccess/needEntitlements;To access the event {event}, you must have {entitlement};To access the event {event}, you must have {entitlement};same;;;;;;;;;;;;;;;;;;;
+msg/members_no_access_to_mode;{members} do not have access to this mode.;{members} do not have access to this mode.;same;;;;;;;;;;;;;;;;;;;
+event/pve_main_air_arcade;Air Ass salt;Assault. Air Arcade;nice;;;;;;;;;;;;;;;;;;;
+event/pve_main_air_arcade/desc;"Play this air arcade PvE mode
+cause the grind fucking sucks: 
+1.0 - 2.3
+2.7 - 3.7
+4.0 - 5.0
+5.3 - 6.3
+6.7 - 12.7
+Go fuck youself!";"Cooperative PvE game mode in which players defend an allied base from several waves of enemies. Every day, the first battle in ""Assault"" mode brings players a special reward.
+This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:
+1.0 - 2.3
+2.7 - 3.7
+4.0 - 5.0
+5.3 - 6.3
+6.7 - 12.7
+Plan your vehicle setup accordingly.";nice;;;;;;;;;;;;;;;;;;;
+event/pve_main_tank_arcade;Tank Ass salt;Assault. Ground Arcade;nice;;;;;;;;;;;;;;;;;;;
+event/pve_main_tank_arcade/desc;"Play this tank arcade PvE mode
+cause the grind fucking sucks:
+1.0 - 2.3
+2.7 - 3.7
+4.0 - 5.0
+5.3 - 6.3
+6.7 - 8.0
+8.3+ 
+Don't be a dumb cunt.";"Cooperative PvE game mode in which players defend an allied base from several waves of enemies. Every day, the first battle in ""Assault"" mode brings players a special reward.
+This game mode has 6 levels depending on the maximum battle rating of your vehicle setup:
+1.0 - 2.3
+2.7 - 3.7
+4.0 - 5.0
+5.3 - 6.3
+6.7 - 8.0
 8.3+
-Plan your vehicle setup accordingly.";nice;;;;;;;;;;;;;;;;;;;
-trophy/pve_main_trophy;Ass salt trophy;Trophy for taking part in the Assault;nice;;;;;;;;;;;;;;;;;;;
-event/BR;Battle Royale;Battle Royale;same;;;;;;;;;;;;;;;;;;;
-event/BR32;Battle Royale (32 players);Battle Royale (32 players);same;;;;;;;;;;;;;;;;;;;
-event/BR64;Battle Royale (64 players);Battle Royale (64 players);same;;;;;;;;;;;;;;;;;;;
-events/playersRooms;Rooms created by players;Rooms created by players;same;;;;;;;;;;;;;;;;;;;
-events/playersRooms/tooltip;Search for available sessions also among the rooms created by players.;Search for available sessions also among the rooms created by players.;same;;;;;;;;;;;;;;;;;;;
-events/noCompatibilityMode/msg;This mode is not available when the 'Old videocards support' option is enabled.;This mode is not available when the 'Old videocards support' option is enabled.;same;;;;;;;;;;;;;;;;;;;
-events/noCompatibilityMode;Switch off the 'Old videocards support' option.;Switch off the 'Old videocards support' option.;same;;;;;;;;;;;;;;;;;;;
-events/notEnoughMoney;Not enough money for a contribution;Not enough money for a contribution;same;;;;;;;;;;;;;;;;;;;
-events/notAvailableNewbiesMode/msg;This mode is not available for noobs. Fuck you, cunt.;This mode is not available to you. Select another suitable mode in the mode selection window.;nice;;;;;;;;;;;;;;;;;;;
-missions/ship_timeDelay_battles;[┚ Enduring Confrontation] Naval Battles;[┚ Enduring Confrontation] Naval Battles;same;;;;;;;;;;;;;;;;;;;
-missions/ship_timeDelay_battles/desc;"Achieve superiority by destroying enemy convoys, ports and vehicles.
+Plan your vehicle setup accordingly.";nice;;;;;;;;;;;;;;;;;;;
+trophy/pve_main_trophy;Ass salt trophy;Trophy for taking part in the Assault;nice;;;;;;;;;;;;;;;;;;;
+event/BR;Battle Royale;Battle Royale;same;;;;;;;;;;;;;;;;;;;
+event/BR32;Battle Royale (32 players);Battle Royale (32 players);same;;;;;;;;;;;;;;;;;;;
+event/BR64;Battle Royale (64 players);Battle Royale (64 players);same;;;;;;;;;;;;;;;;;;;
+events/playersRooms;Rooms created by players;Rooms created by players;same;;;;;;;;;;;;;;;;;;;
+events/playersRooms/tooltip;Search for available sessions also among the rooms created by players.;Search for available sessions also among the rooms created by players.;same;;;;;;;;;;;;;;;;;;;
+events/noCompatibilityMode/msg;This mode is not available when the 'Old videocards support' option is enabled.;This mode is not available when the 'Old videocards support' option is enabled.;same;;;;;;;;;;;;;;;;;;;
+events/noCompatibilityMode;Switch off the 'Old videocards support' option.;Switch off the 'Old videocards support' option.;same;;;;;;;;;;;;;;;;;;;
+events/notEnoughMoney;Not enough money for a contribution;Not enough money for a contribution;same;;;;;;;;;;;;;;;;;;;
+events/notAvailableNewbiesMode/msg;This mode is not available for noobs. Fuck you, cunt.;This mode is not available to you. Select another suitable mode in the mode selection window.;nice;;;;;;;;;;;;;;;;;;;
+missions/ship_timeDelay_battles;[┚ Enduring Confrontation] Naval Battles;[┚ Enduring Confrontation] Naval Battles;same;;;;;;;;;;;;;;;;;;;
+missions/ship_timeDelay_battles/desc;"Achieve superiority by destroying enemy convoys, ports and vehicles.
 
-Aircraft fly outs require a fixed amount of available respawn points. Respawns on ships with BR 4.7 and higher require respawn points depending on the BR. The amount of respawns is not limited and you can respawn with same vehicle multiple times but every respawn will cost Silver Lions depending on the repair cost of the vehicle.";"Achieve superiority by destroying enemy convoys, ports and vehicles.
+Aircraft fly outs require a fixed amount of available respawn points. Respawns on ships with BR 4.7 and higher require respawn points depending on the BR. The amount of respawns is not limited and you can respawn with same vehicle multiple times but every respawn will cost Silver Lions depending on the repair cost of the vehicle.";"Achieve superiority by destroying enemy convoys, ports and vehicles.
 
-Aircraft fly outs require a fixed amount of available respawn points. Respawns on ships with BR 4.7 and higher require respawn points depending on the BR. The amount of respawns is not limited and you can respawn with same vehicle multiple times but every respawn will cost Silver Lions depending on the repair cost of the vehicle.";same;;;;;;;;;;;;;;;;;;;
+Aircraft fly outs require a fixed amount of available respawn points. Respawns on ships with BR 4.7 and higher require respawn points depending on the BR. The amount of respawns is not limited and you can respawn with same vehicle multiple times but every respawn will cost Silver Lions depending on the repair cost of the vehicle.";same;;;;;;;;;;;;;;;;;;;
