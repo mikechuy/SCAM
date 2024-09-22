@@ -656,9 +656,7 @@ Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_switch_to_sniper_sight;;Switch to gunner view;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_zoom_in;;You can use zoom to get a better view of the target;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_crosshair;;The aim assist indicator in the centre of the screen shows where the shell will strike when you fire a shot;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_about_crosshair_continue;"The aim assist indicator in the centre of the screen shows where the shell will strike when you fire a shot
-
-Press {{ID_CONTINUE}} to continue";"The aim assist indicator in the centre of the screen shows where the shell will strike when you fire a shot
+hints/tutorial_tank_about_crosshair_continue;;"The aim assist indicator in the centre of the screen shows where the shell will strike when you fire a shot
 
 Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_crosshair_colors;;Depending on your target's armor thickness, the aim assist indicator changes to various colors;nice;;;;;;;;;;;;;;;;;;;
@@ -1676,7 +1674,7 @@ hud_tutorial_boat_auto_gunners_modes;Your gunners’ current target-selection mo
 hud_tutorial_boat_auto_gunners_mode_off;Manual control;Manual control;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_auto_gunners_mode_air;Fire at will – airborne targets;Fire at will – airborne targets;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_auto_gunners_mode_water;Fire at will – surface targets;Fire at will – surface targets;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_boat_auto_gunners_mode_all;Fire at will – any enemy targets;Fire at will – any enemy targets;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_boat_auto_gunners_mode_all;Fire at will – all targets;Fire at will – any enemy targets;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_switch_gunners_mode;"Switch your gunners’ target-selection mode to ""surface"" or ""any"" and wait for your crew to destroy the target on their own.";"Switch your gunners’ target-selection mode to ""surface"" or ""any"" and wait for your crew to destroy the target on their own.";same;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_gunners_killed_the_target;"Splendid! Your next objective is to capture a strategic point.
 
@@ -1829,7 +1827,7 @@ Lock on this target using {{ID_LOCK_TARGET}}.";"Next target is a destroyer, pret
 
 Lock on this target using {{ID_LOCK_TARGET}}.";same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fifth_target_torpedo_sight;Activate the torpedo sight: {{ID_SHIP_TORPEDO_SIGHT}}.;Activate the torpedo sight: {{ID_SHIP_TORPEDO_SIGHT}}.;same;;;;;;;;;;;;;;;;;;;
-hints/tutorialDestr_fifth_target_torpedo_launch;Aim torpedoes at the target and lauch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;Aim torpedoes at the target and lauch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialDestr_fifth_target_torpedo_launch;Aim torpedoes at the target and launch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;Aim torpedoes at the target and lauch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;trim;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fifth_target_wait;Wait for torpedoes to hit.;Wait for torpedoes to hit.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fifth_target_done;Awesome!;Awesome!;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_capture_move;"Your last target is the strategic point that you need to capture by moving your vessel into the designated zone.
@@ -1889,7 +1887,7 @@ missions/tutorial_destroyer_battle/lock_target;Choose and lock your target by pr
 missions/tutorial_destroyer_battle/aim_explanation;"Your target distance displays in <color=#ff0000>red</color>. The distance your guns are aiming at displays in <color=#000000>black</color>.
 For correct distance aiming, guide the aim marker to the same distance as the locked target";"Your target distance displays in <color=#ff0000>red</color>. The distance your guns are aiming at displays in <color=#000000>black</color>.
 For correct distance aiming, guide the aim marker to the same distance as the locked target";same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_destroyer_battle/distance_calculation;To get a shooting lead point, wait for the fire control system to finalise its calculations;To get a shooting lead point, wait for the fire control system to finalise its calculations;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_destroyer_battle/distance_calculation;To get a shooting lead point, wait for the fire control system to finalize its calculations;To get a shooting lead point, wait for the fire control system to finalise its calculations;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/weapons_hud;There are gun readiness indicators below. Guns that are ready to fire are marked with <color=#00ff00>green</color>. Guns in the dead guidance sector are marked with <color=#888888>grey</color>;There are gun readiness indicators below. Guns that are ready to fire are marked with <color=#00ff00>green</color>. Guns in the dead guidance sector are marked with <color=#888888>grey</color>;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/shoot_guns;"Fire at the target: {{ID_SHIP_WEAPON_ALL}}
 Please note that it takes some time for the guns to acquire the target";"Fire at the target: {{ID_SHIP_WEAPON_ALL}}
@@ -2109,12 +2107,12 @@ Press {shortcut} to activate the aiming point";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/spi_menu1;"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
 Press {shortcut} to open the multi-function menu";"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
 Press {shortcut} to open the multi-function menu";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/menu_choose_cockpit;Сhoose 'Cockpit';Сhoose 'Cockpit';same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/menu_choose_spi;Сhoose 'Activate target point';Сhoose 'Activate target point';same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/menu_choose_mfd;Сhoose 'MFD / NVD';Сhoose 'MFD / NVD';same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/menu_choose_ndv;Сhoose 'Switch NVD mode';Сhoose 'Switch NVD mode';same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/menu_choose_radar;Сhoose 'Radar / IRST';Сhoose 'Radar / IRST';same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/menu_choose_radar_switch;Сhoose 'Change Radar/IRST mode';Сhoose 'Change Radar/IRST mode';same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/menu_choose_cockpit;Choose 'Cockpit';Сhoose 'Cockpit';nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/menu_choose_spi;Choose 'Activate target point';Сhoose 'Activate target point';nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/menu_choose_mfd;Choose 'MFD / NVD';Сhoose 'MFD / NVD';nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/menu_choose_ndv;Choose 'Switch NVD mode';Сhoose 'Switch NVD mode';nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/menu_choose_radar;Choose 'Radar / IRST';Сhoose 'Radar / IRST';nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/menu_choose_radar_switch;Choose 'Change Radar/IRST mode';Сhoose 'Change Radar/IRST mode';nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the desired point and activate the aiming point.
 Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point.
 Press {shortcut} to activate it";same;;;;;;;;;;;;;;;;;;;

@@ -2704,7 +2704,7 @@ modification/swd_rb99/desc;Allows the installation of RB 99 air-to-air missiles.
 modification/swd_rb99;RB 99;RB 99;same;;;;;;;;;;;;;;;;;;;
 modification/us_aim_7d/desc;Allows the installation of AIM-7D air-to-air missiles.;Allows the installation of AIM-7D air-to-air missiles.;same;;;;;;;;;;;;;;;;;;;
 modification/us_aim_7d;AIM-7D;AIM-7D;same;;;;;;;;;;;;;;;;;;;
-modification/us_aim_7c/desc;Allows the installation of AIM-7С air-to-air missiles.;Allows the installation of AIM-7С air-to-air missiles.;same;;;;;;;;;;;;;;;;;;;
+modification/us_aim_7c/desc;Allows the installation of AIM-7C air-to-air missiles.;Allows the installation of AIM-7С air-to-air missiles.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_aim_7c;AIM-7C;AIM-7С;nice;;;;;;;;;;;;;;;;;;;
 modification/us_aim_7e/desc;Allows the installation of AIM-7E air-to-air missiles.;Allows the installation of AIM-7E air-to-air missiles.;same;;;;;;;;;;;;;;;;;;;
 modification/us_aim_7e;AIM-7E;AIM-7E;same;;;;;;;;;;;;;;;;;;;
@@ -3065,7 +3065,7 @@ modification/tr_fz207;HL-19-70;HL-19-70;same;;;;;;;;;;;;;;;;;;;
 modification/tr_fz49/desc;Allows the installation of FZ49 unguided rockets.;Allows the installation of FZ49 unguided rockets.;same;;;;;;;;;;;;;;;;;;;
 modification/tr_fz49;FZ49;FZ49;same;;;;;;;;;;;;;;;;;;;
 modification/8_cm_flz_rakete;8-cm Flz.-Rakete;8-cm Flz.-Rakete;same;;;;;;;;;;;;;;;;;;;
-modification/8_cm_flz_rakete/desc;Allows the installation of unguided 8-cm Flz.-Rakete Oerlicon rockets.;Allows the installation of unguided 8-cm Flz.-Rakete Oerlicon rockets.;same;;;;;;;;;;;;;;;;;;;
+modification/8_cm_flz_rakete/desc;Allows the installation of unguided 8-cm Flz.-Rakete Oerlikon rockets.;Allows the installation of unguided 8-cm Flz.-Rakete Oerlicon rockets.;nice;;;;;;;;;;;;;;;;;;;
 modification/sws_flz_lwf_63_80/desc;Allows the installation of Flz Lwf 63/80 air-to-air missiles.;Allows the installation of Flz Lwf 63/80 air-to-air missiles.;same;;;;;;;;;;;;;;;;;;;
 modification/sws_flz_lwf_63_80;Flz Lwf 63/80;Flz Lwf 63/80;same;;;;;;;;;;;;;;;;;;;
 modification/sws_flz_lwf_63/desc;Allows the installation of Flz Lwf 63 air-to-air missiles.;Allows the installation of Flz Lwf 63 air-to-air missiles.;same;;;;;;;;;;;;;;;;;;;

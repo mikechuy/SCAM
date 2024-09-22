@@ -132,7 +132,7 @@ flightmenu/haveAvailableCrews;You still have crews ready to fight.;You still hav
 respawn/withCheaperWeapon;With cheaper weapons;With cheaper weapons;same;;;;;;;;;;;;;;;;;;;
 flightmenu/questionQuitMissionHost;"Are you sure you want to go back to the hangar?
 All other players will fail the mission as well.";"Are you sure you want to go back to the hangar?
-All other players will fail the mission as well.";nice;;;;;;;;;;;;;;;;;;;
+All other players will fail the mission as well.";same;;;;;;;;;;;;;;;;;;;
 flightmenu/questionRestartMission;Are you sure you want to restart this mission?;Are you sure you want to restart this mission?;same;;;;;;;;;;;;;;;;;;;
 flightmenu/questionQuitCampaign;Are you sure you want to quit the campaign?;Are you sure you want to quit the campaign?;same;;;;;;;;;;;;;;;;;;;
 flightmenu/questionBailout;You sure you want to j out of the aircraft?;Are you sure you want to bail out from the aircraft?;nice;;;;;;;;;;;;;;;;;;;
@@ -705,7 +705,7 @@ mainmenu/notEnoughGold;You need more ¤ to purchase this vehicle.;You need more 
 mainmenu/btnWorkshop;Modifications;Modifications;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnPreview;Preview;Preview;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnShowroom;Customization;Customization;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnShowroomDesc;You can change your vehicle's appearance in the hangar to become more or less noticable on the battlefield.;You can change your vehicle's appearance in the hangar to become more or less noticable on the battlefield.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnShowroomDesc;You can change your vehicle's appearance in the hangar to become more or less noticeable on the battlefield.;You can change your vehicle's appearance in the hangar to become more or less noticable on the battlefield.;trim;;;;;;;;;;;;;;;;;;;
 mainmenu/btnOnlineShop;Shop;Shop;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_onlineShop;Online Store;Online Store;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_onlineShop_unlockEvent;Online Store;Online Store;same;;;;;;;;;;;;;;;;;;;
@@ -725,7 +725,7 @@ mainmenu/2stepVerifCode/tooltip;You have enabled two-step authentication service
 mainmenu/2step/EnhancedProtection;Enhanced protection;Enhanced protection;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/confirmSign;Confirm sign in;Confirm sign in;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/confirmUnknown;Enter verification code;Enter verification code;same;;;;;;;;;;;;;;;;;;;
-mainmenu/2step/confirmGA;Enter verification code from Google Authentificator or War Thunder Assistant apps;Enter verification code from Google Authentificator or War Thunder Assistant apps;same;;;;;;;;;;;;;;;;;;;
+mainmenu/2step/confirmGA;Enter verification code from Google Authenticator or War Thunder Assistant apps;Enter verification code from Google Authentificator or War Thunder Assistant apps;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/confirmMail;Enter verification code from email;Enter verification code from email;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/confirmPass;Enter the verification code from {passName} or any other app you use;Enter the verification code from {passName} or any other app you use;same;;;;;;;;;;;;;;;;;;;
 mainmenu/2step/wrongCode;Wrong verification code, please try again! Your device's time should be synchronized with server. Server time;Wrong verification code, please try again! Your device's time should be synchronized with server. Server time;same;;;;;;;;;;;;;;;;;;;
@@ -824,8 +824,8 @@ Purchase more vehicles.";same;;;;;;;;;;;;;;;;;;;
 shop/pilot/coupon/info;This profile icon can be obtained from a coupon by purchasing it on the Marketplace;This profile icon can be obtained from a coupon by purchasing it on the Marketplace;same;;;;;;;;;;;;;;;;;;;
 shop/reserve;Reserve;Reserve;same;;;;;;;;;;;;;;;;;;;
 shop/reserve/short;—;—;same;;;;;;;;;;;;;;;;;;;
-shop/spawnScore;{cost} SP;{cost} SP;nice;;;;;;;;;;;;;;;;;;;
-shop/rageTokens;{cost} RT;{cost} RT;nice;;;;;;;;;;;;;;;;;;;
+shop/spawnScore;{cost} SP;{cost} SP;same;;;;;;;;;;;;;;;;;;;
+shop/rageTokens;{cost} RT;{cost} RT;same;;;;;;;;;;;;;;;;;;;
 shop/reserve/info;A reserve vehicle, available to everyone. This vehicle is repaired immediately after each battle.;A reserve vehicle, available to everyone. This vehicle is repaired immediately after each battle.;same;;;;;;;;;;;;;;;;;;;
 shop/unit_bought;Purchased;Purchased;same;;;;;;;;;;;;;;;;;;;
 shop/object/can_be_purchased;Can be purchased;Can be purchased;same;;;;;;;;;;;;;;;;;;;
@@ -1039,9 +1039,9 @@ Reduces repair time by up to 3 times when fully researched.";"The mechanic's ski
 Reduces repair time by up to 3 times when fully researched.";same;;;;;;;;;;;;;;;;;;;
 crew/repairRank;Repair Rank;Repair Rank;same;;;;;;;;;;;;;;;;;;;
 crew/groundService/repairRank/tooltip;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;same;;;;;;;;;;;;;;;;;;;
-crew/notEnoughRepairRank;"Сurrent vehicle rank is too high ({rank}) to be affected by repair speed.
+crew/notEnoughRepairRank;"Current vehicle rank is too high ({rank}) to be affected by repair speed.
 Upgrade Repair Rank to {level} to activate repair speed.";"Сurrent vehicle rank is too high ({rank}) to be affected by repair speed.
-Upgrade Repair Rank to {level} to activate repair speed.";same;;;;;;;;;;;;;;;;;;;
+Upgrade Repair Rank to {level} to activate repair speed.";nice;;;;;;;;;;;;;;;;;;;
 crew/airReloadSkill;Reload Speed;Reload Speed;same;;;;;;;;;;;;;;;;;;;
 crew/groundService/airReloadSkill/tooltip;"The armorer's skill. Increases the rate at which the weapons are reloaded in the air and at the field.
 
@@ -1588,7 +1588,7 @@ options/doNotAskMeAgain/tutorial/hint;;You can always find the tutorial missions
 shop/giftAir/new_year_2014;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/new_year_2014/info;This vehicle can only be obtained by purchasing a special pack.;This vehicle can only be obtained by purchasing a special pack.;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/rbt_5;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
-shop/giftAir/rbt_5/info;This vehicle can only be obtained by purchasing a special pack. Attention! The minimum distance to fire rockets is 200 metres.;This vehicle can only be obtained by purchasing a special pack. Attention! The minimum distance to fire rockets is 200 metres.;same;;;;;;;;;;;;;;;;;;;
+shop/giftAir/rbt_5/info;This vehicle can only be obtained by purchasing a special pack. Attention! The minimum distance to fire rockets is 200 meters.;This vehicle can only be obtained by purchasing a special pack. Attention! The minimum distance to fire rockets is 200 metres.;nice;;;;;;;;;;;;;;;;;;;
 shop/giftAir/uk_tanks_cbt;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/uk_tanks_cbt/info;This vehicle can only be obtained by purchasing a special pack.;This vehicle can only be obtained by purchasing a special pack.;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/it_tanks_cbt;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
@@ -2131,8 +2131,8 @@ Are you sure you want to close the window?";"If you close the research window, {
 Are you sure you want to close the window?";same;;;;;;;;;;;;;;;;;;;
 mainmenu/nextResearch/noModifications;No modifications available for research.;No modifications available for research.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/nextResearch/noUnits;No vehicles available for research.;No vehicles available for research.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/nextResearch/canChangeLater/modification;You can change your decision later in weapory window.;You can change your decision later in weapory window.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/nextResearch/changeChoosedModificationLater;You can change your decision later in weapory window.;You can change your decision later in weapory window.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/nextResearch/canChangeLater/modification;You can change your decision later in weaponry window.;You can change your decision later in weapory window.;trim;;;;;;;;;;;;;;;;;;;
+mainmenu/nextResearch/changeChoosedModificationLater;You can change your decision later in weaponry window.;You can change your decision later in weapory window.;trim;;;;;;;;;;;;;;;;;;;
 mainmenu/nextResearch/canChangeLater/unit;You can change your decision later in research window.;You can change your decision later in research window.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/nextResearch/changeChoosedUnitLater;You can change your decision later in research window.;You can change your decision later in research window.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/nextResearch/eliteUnit;Everything that is available for this vehicle model has been researched.;Everything that is available for this vehicle model has been researched.;same;;;;;;;;;;;;;;;;;;;
@@ -2640,8 +2640,8 @@ When all rangefinders (and fire directors, if they are set) are destroyed, the s
 
 If the fire control room (or the battle bridge) is destroyed, the ship also loses the ability to calculate the lead point, even if all the directors are intact.";same;;;;;;;;;;;;;;;;;;;
 xray_ext_hint/catapult;"Allows launching of the ship's hydroplane scout.
-The ship loses this abilty if the catapult is destroyed.";"Allows launching of the ship's hydroplane scout.
-The ship loses this abilty if the catapult is destroyed.";same;;;;;;;;;;;;;;;;;;;
+The ship loses this ability if the catapult is destroyed.";"Allows launching of the ship's hydroplane scout.
+The ship loses this abilty if the catapult is destroyed.";trim;;;;;;;;;;;;;;;;;;;
 xray_ext_hint/turret;"A destroyed turret cannot be directed and cannot fire.
 
 There is a chance of fire when a turret is destroyed.
@@ -2867,7 +2867,7 @@ help/OBJ_CLICK/gamepad_specific;;Press A to continue.;nice;;;;;;;;;;;;;;;;;;;
 help/newModification;;"Choose your new modification for research now.
 <color=@userlogColoredText>{modName}</color> for example.
 You could change choice after tutorial is finished.";nice;;;;;;;;;;;;;;;;;;;
-help/FreeExp;If you will have free experience points, they will be automatically transfered to chosen research.;If you will have free experience points, they will be automatically transfered to chosen research.;same;;;;;;;;;;;;;;;;;;;
+help/FreeExp;If you will have free experience points, they will be automatically transferred to chosen research.;If you will have free experience points, they will be automatically transfered to chosen research.;trim;;;;;;;;;;;;;;;;;;;
 text/new_amount;(New {amount});(New {amount});same;;;;;;;;;;;;;;;;;;;
 text/new;(New);(New);same;;;;;;;;;;;;;;;;;;;
 items/expired;Expired;Expired;same;;;;;;;;;;;;;;;;;;;
@@ -2962,7 +2962,7 @@ item/test_overdrive_usa_air_r13;Test Modification Overdrive;Test Modification Ov
 item/modOverdrive;Pre-battle Preparation;Pre-battle Preparation;same;;;;;;;;;;;;;;;;;;;
 item/modOverdrive/shortTypeDesc;Increases the efficiency of the installed modifications listed in the item description for all vehicles for one battle. The effect of several activated items is not summed up, but is prolonged by the appropriate number of subsequent battles. The resulting effect can be seen in the unit modifications window.;Increases the efficiency of the installed modifications listed in the item description for all vehicles for one battle. The effect of several activated items is not summed up, but is prolonged by the appropriate number of subsequent battles. The resulting effect can be seen in the unit modifications window.;same;;;;;;;;;;;;;;;;;;;
 item/modUpgrade;Modification Upgrade;Modification Upgrade;same;;;;;;;;;;;;;;;;;;;
-item/modUpgrade/shortTypeDesc;Allows you to permamently improve the purchased modification for the chosen vehicle. Upon activation, it cannot be deinstalled and used for another vehicle.;Allows you to permamently improve the purchased modification for the chosen vehicle. Upon activation, it cannot be deinstalled and used for another vehicle.;same;;;;;;;;;;;;;;;;;;;
+item/modUpgrade/shortTypeDesc;Allows you to permanently improve the purchased modification for the chosen vehicle. Upon activation, it cannot be deinstalled and used for another vehicle.;Allows you to permamently improve the purchased modification for the chosen vehicle. Upon activation, it cannot be deinstalled and used for another vehicle.;nice;;;;;;;;;;;;;;;;;;;
 item/modUpgrade/activateInModifications;You can activate it in the modification window.;You can activate it in the modification window.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnUpgrade;Upgrade;Upgrade;same;;;;;;;;;;;;;;;;;;;
 msg/noUpgradeItemsForMod;You do not have upgrades for the chosen modification.;You do not have upgrades for the chosen modification.;same;;;;;;;;;;;;;;;;;;;
@@ -3003,7 +3003,7 @@ items/craft_process/countdown/disassemble;Disassembly will be finished in {timel
 items/craft_process/finished;Finished;Finished;same;;;;;;;;;;;;;;;;;;;
 items/craft_process/finish;Finish;Finish;same;;;;;;;;;;;;;;;;;;;
 items/craft_process/using;Items used in the assembly:;Items used in the assembly:;same;;;;;;;;;;;;;;;;;;;
-item/craft_process/cancel;Сancel;Сancel;same;;;;;;;;;;;;;;;;;;;
+item/craft_process/cancel;Cancel;Сancel;nice;;;;;;;;;;;;;;;;;;;
 item/rarity1;Common;Common;same;;;;;;;;;;;;;;;;;;;
 item/rarity2;Uncommon;Uncommon;same;;;;;;;;;;;;;;;;;;;
 item/rarity3;Rare;Rare;same;;;;;;;;;;;;;;;;;;;
@@ -3088,7 +3088,7 @@ content/tag/semihistorical;Semihistorical;Semihistorical;same;;;;;;;;;;;;;;;;;;;
 content/tag/fictional;Fictional;Fictional;same;;;;;;;;;;;;;;;;;;;
 content/tag/except_fictional;Except fictional;Except fictional;same;;;;;;;;;;;;;;;;;;;
 content/tag/any;Any;Any;same;;;;;;;;;;;;;;;;;;;
-content/tag/thunderleague;Thunder League;Thunder League;nice;;;;;;;;;;;;;;;;;;;
+content/tag/thunderleague;Thunder League;Thunder League;same;;;;;;;;;;;;;;;;;;;
 content/tag/usergenerated;User-generated;User-generated;same;;;;;;;;;;;;;;;;;;;
 camouflage/for_environment_conditions;For conditions;For conditions;same;;;;;;;;;;;;;;;;;;;
 camoType/forest;Forest;Forest;same;;;;;;;;;;;;;;;;;;;
@@ -3237,7 +3237,7 @@ With a bound e-mail you will receive:
 * the possibility of authentication in the forum, live and wiki.
 Once bound, the account will no longer be a guest account. A login and password will be required for authentication.";same;;;;;;;;;;;;;;;;;;;
 mainmenu/binding;Email bind;Email bind;same;;;;;;;;;;;;;;;;;;;
-mainmenu/alreadyBinded;E-mail aready bound;E-mail aready bound;same;;;;;;;;;;;;;;;;;;;
+mainmenu/alreadyBinded;E-mail already bound;E-mail aready bound;trim;;;;;;;;;;;;;;;;;;;
 mainmenu/login/steamRelogin;"Your account has already been registered at Gaijin.net.
 If you want to continue playing on it,
 the client will be restarted outside Steam upon pressing the <color=@warningTextColor>ОК</color> button.";"Your account has already been registered at Gaijin.net.
@@ -3436,7 +3436,7 @@ multiAward/type/modification;Modifications;Modifications;same;;;;;;;;;;;;;;;;;;;
 multiAward/type/premExpMul;Talismans;Talismans;same;;;;;;;;;;;;;;;;;;;
 multiAward/type/specialization;Qualifications;Qualifications;same;;;;;;;;;;;;;;;;;;;
 multiAward/fromLastBattle;For vehicles used in battle;For vehicles used in battle;same;;;;;;;;;;;;;;;;;;;
-orderUseResult/error;Error occured during order activation.;Error occured during order activation.;same;;;;;;;;;;;;;;;;;;;
+orderUseResult/error;Error occurred during order activation.;Error occured during order activation.;trim;;;;;;;;;;;;;;;;;;;
 orderUseResult/result/ok;Order was successfully activated.;Order was successfully activated.;same;;;;;;;;;;;;;;;;;;;
 orderUseResult/result/bad_mode;Unknown server error. (2);Unknown server error. (2);same;;;;;;;;;;;;;;;;;;;
 orderUseResult/result/bad_player;You're a naughty player.;You cannot activate order now.;nice;;;;;;;;;;;;;;;;;;;
@@ -3532,7 +3532,7 @@ userlog/rent_unit;<color=@userlogColoredText>{unitName}</color> test drive has b
 userlog/rent_unit_extended;<color=@userlogColoredText>{unitName}</color> test drive has been extended.;<color=@userlogColoredText>{unitName}</color> test drive has been extended.;same;;;;;;;;;;;;;;;;;;;
 userlog/rent_unit_expired;<color=@userlogColoredText>{unitName}</color> test drive has expired.;<color=@userlogColoredText>{unitName}</color> test drive has expired.;same;;;;;;;;;;;;;;;;;;;
 userlog/per_month_award;;Congratulations! You have received an exclusive trophy for PlayStation®Plus subscribers;nice;;;;;;;;;;;;;;;;;;;
-userlog/per_month_award_XBOXPlus;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;same;;;;;;;;;;;;;;;;;;;
+userlog/per_month_award_XBOXPlus;;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit;Vehicle test drive start;Vehicle test drive start;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit_extended;Vehicle test drive extended;Vehicle test drive extended;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit_expired;Vehicle test drive expiration;Vehicle test drive expiration;same;;;;;;;;;;;;;;;;;;;
@@ -3746,12 +3746,12 @@ actionBarItem/engine_smoke_screen_system;ESS;ESS;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/extinguisher;Fire extinguisher;Fire extinguisher;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/repair_breaches;Unwatering;Unwatering;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/special_unit_bomber;Bomber flyout;Bomber flyout;same;;;;;;;;;;;;;;;;;;;
-actionBarItem/special_unit_bomber_nuclear;Bomber with nuclear weapon flyout;Bomber with nuclear weapon flyout;same;;;;;;;;;;;;;;;;;;;
+actionBarItem/special_unit_bomber_nuclear;Bomber with nuke flyout;Bomber with nuclear weapon flyout;nice;;;;;;;;;;;;;;;;;;;
 actionBarItem/special_unit_attacker;Attacker flyout;Attacker flyout;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/special_unit_fighter;Fighter flyout;Fighter flyout;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/special_unit_helicopter_atgm;Helicopter with missiles flyout;Helicopter with missiles flyout;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/special_unit_helicopter_rocket;Helicopter with rockets flyout;Helicopter with rockets flyout;same;;;;;;;;;;;;;;;;;;;
-actionBarItem/special_unit_helicopter_mguns;Helicopter with machine guns or cannons flyout;Helicopter with machine guns or cannons flyout;same;;;;;;;;;;;;;;;;;;;
+actionBarItem/special_unit_helicopter_mguns;Near useless helicopter flyout;Helicopter with machine guns or cannons flyout;nice;;;;;;;;;;;;;;;;;;;
 actionBarItem/winch;Winch;Winch;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/winch_detach;Detach winch;Detach winch;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/winch_attach;Attach winch;Attach winch;same;;;;;;;;;;;;;;;;;;;
@@ -3779,7 +3779,7 @@ guidance_method/auto;Auto;Auto;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/ai_gunners;Toggle gunner targets;Toggle gunner targets;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/stealth_activate;Camouflage system;Сamouflage system;nice;;;;;;;;;;;;;;;;;;;
 actionBarItem/support_plane;UAV Launch;UAV Launch;same;;;;;;;;;;;;;;;;;;;
-actionBarItem/support_plane_ship;Surveillance aircraft: catapult activation / launch;Surveillance aircraft: catapult activation / launch;same;;;;;;;;;;;;;;;;;;;
+actionBarItem/support_plane_ship;Surveillance aircraft: catapult / launch;Surveillance aircraft: catapult activation / launch;nice;;;;;;;;;;;;;;;;;;;
 actionBarItem/switch_to_ship;Switch to ship;Switch to ship;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/switch_to_tank;Switch to tank;Switch to tank;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/auto_turret;Toggle autoturret targets;Toggle autoturret targets;same;;;;;;;;;;;;;;;;;;;
@@ -4138,12 +4138,12 @@ item/specialTasksPersonalUnlocks/desc;Complete Special Tasks to earn medals and 
 item/specialTasksPersonalUnlocks/purchaseRestriction;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;same;;;;;;;;;;;;;;;;;;;
 item/specialTasksPersonalUnlocks/limitRestriction;You can not buy a Special Task because you do not have permission to perform Special Tasks. A one-time permit is issued immediately after successfully receiving a reward for completing a Daily Medium Task.;You can not buy a Special Task because you do not have permission to perform Special Tasks. A one-time permit is issued immediately after successfully receiving a reward for completing a Daily Medium Task.;same;;;;;;;;;;;;;;;;;;;
 msg/noUniversalSpareForUnit;You have no universal backup available for this vehicle.;You have no universal backup available for this vehicle.;same;;;;;;;;;;;;;;;;;;;
-xbox/playAs;Play as: <color=@mainPlayerColor>{name}</color>;Play as: <color=@mainPlayerColor>{name}</color>;same;;;;;;;;;;;;;;;;;;;
-xbox/reqInstantConnection;This game requires constant Internet connection.;This game requires constant Internet connection.;same;;;;;;;;;;;;;;;;;;;
-xbox/noInternetConnection;You cannot play War Thunder due to the lack of Internet connection.;You cannot play War Thunder due to the lack of Internet connection.;same;;;;;;;;;;;;;;;;;;;
-xbox/noMultiplayer;Multiplayer is not available;Multiplayer is not available;same;;;;;;;;;;;;;;;;;;;
-xbox/crossPlayRequired;⋭ - Enabled Cross-Network Play required.;⋭ - Enabled Cross-Network Play required.;same;;;;;;;;;;;;;;;;;;;
-xbox/crossPlayEnabled;Cross-Network Play is enabled. You will meet players from other platforms in battle.;Cross-Network Play is enabled. You will meet players from other platforms in battle.;same;;;;;;;;;;;;;;;;;;;
+xbox/playAs;;Play as: <color=@mainPlayerColor>{name}</color>;nice;;;;;;;;;;;;;;;;;;;
+xbox/reqInstantConnection;;This game requires constant Internet connection.;nice;;;;;;;;;;;;;;;;;;;
+xbox/noInternetConnection;;You cannot play War Thunder due to the lack of Internet connection.;nice;;;;;;;;;;;;;;;;;;;
+xbox/noMultiplayer;;Multiplayer is not available;nice;;;;;;;;;;;;;;;;;;;
+xbox/crossPlayRequired;;⋭ - Enabled Cross-Network Play required.;nice;;;;;;;;;;;;;;;;;;;
+xbox/crossPlayEnabled;;Cross-Network Play is enabled. You will meet players from other platforms in battle.;nice;;;;;;;;;;;;;;;;;;;
 queue/crossPlay;;Enabled Cross-Network Play allows you to join the battles quicker.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/showVehicles;Show vehicles;Show vehicles;same;;;;;;;;;;;;;;;;;;;
 mainmenu/showVehiclesTitle;Vehicles for the task: {taskName};Vehicles for the task: {taskName};same;;;;;;;;;;;;;;;;;;;
@@ -4195,7 +4195,7 @@ workshop/t34_summer_2018_preview_6;"Sell extra or unwanted parts or buy the ones
 workshop/is7_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_preview_1;Craft your own IS-7!;Craft your own IS-7!;same;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_preview_2; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;same;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;same;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИC-7.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;nice;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_preview_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";same;;;;;;;;;;;;;;;;;;;
@@ -4301,9 +4301,9 @@ mainmenu/playersAreNotInvited;Players haven't been invited into the session;Play
 mainmenu/btnRevealNotifications;Show hidden notifications;Show hidden notifications;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnRevealNotifications/onSuccess;Hidden notifications will be show again.;Hidden notifications will be show again.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnFindSquadron;Find Squadron;Find Squadron;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnRevealNotifications/askPlayer;"Reset all options about player choice to hide any notifications and dialog boxes with recomendations, tips, etc.
+mainmenu/btnRevealNotifications/askPlayer;"Reset all options about player choice to hide any notifications and dialog boxes with recommendations, tips, etc.
 Reset these settings to the original form?";"Reset all options about player choice to hide any notifications and dialog boxes with recomendations, tips, etc.
-Reset these settings to the original form?";same;;;;;;;;;;;;;;;;;;;
+Reset these settings to the original form?";trim;;;;;;;;;;;;;;;;;;;
 mainmenu/btnInvestSquadronExp;Invest experience;Invest experience;same;;;;;;;;;;;;;;;;;;;
 mainmenu/needJoinSquadronForResearch;To research this vehicle you need to join squadron and play random battles.;To research this vehicle you need to join squadron and play random battles.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/needJoinSquadronForResearch/continue;To continue researching this vehicle you need to join squadron and play random battles.;To continue researching this vehicle you need to join squadron and play random battles.;same;;;;;;;;;;;;;;;;;;;
@@ -4434,7 +4434,7 @@ maps/preferences/notice/request_reset;Are you sure you want to reset all chosen 
 eac/eac_violation;EAC Violation;EAC Violation;same;;;;;;;;;;;;;;;;;;;
 eac/eac_not_inited;EAC not initiated. Online games will not be available. Please run the game through launcher.exe.;EAC not initiated. Online games will not be available. Please run the game through launcher.exe.;same;;;;;;;;;;;;;;;;;;;
 eac/eac_not_inited_restart;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled. Reload the game with anti-cheat?;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled. Reload the game with anti-cheat?;same;;;;;;;;;;;;;;;;;;;
-eac/eac_for_linux;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;same;;;;;;;;;;;;;;;;;;;
+eac/eac_for_linux;For the game use the Linux version. Turn off Proton Compatibility Mode in Steam game settings;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;nice;;;;;;;;;;;;;;;;;;;
 squadMember/eac_not_inited;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;same;;;;;;;;;;;;;;;;;;;
 sound_mod_not_allowed_restart;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;same;;;;;;;;;;;;;;;;;;;
 sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;same;;;;;;;;;;;;;;;;;;;
@@ -4631,9 +4631,9 @@ mainmenu/acceptObjective;Accept Objective;Accept Objective;same;;;;;;;;;;;;;;;;;
 mainmenu/regionalUnlockActivationError;Failed to accept objective. Please try again later.;Failed to accept objective. Please try again later.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/promoteUnit;Available vehicle for purchase for a limited time;Available vehicle for purchase for a limited time;same;;;;;;;;;;;;;;;;;;;
 loading_bg;Loading screen;Loading screen;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer;"P-47 Thunderbolt ""Ardennes""";"P-47 Thunderbolt ""Ardennes""";nice;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_a1;Spitfire Mk IX;Spitfire Mk IX;nice;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_b1;PBY-5 Catalina;PBY-5 Catalina;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer;"P-47 Thunderbolt ""Ardennes""";"P-47 Thunderbolt ""Ardennes""";same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_a1;Spitfire Mk IX;Spitfire Mk IX;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_b1;PBY-5 Catalina;PBY-5 Catalina;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_c1;F-86 Sabre;F-86 Sabre;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_d1;He 111;He 111;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_e1;Tiger H1 / Fw 190;Tiger H1 / Fw 190;same;;;;;;;;;;;;;;;;;;;
@@ -4641,8 +4641,8 @@ loading_bg/login_layer_f1;Pe-2;Pe-2;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_g1;Ki-84;Ki-84;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_h1;"P-47 Thunderbolt ""Aztec Eagle""";"P-47 Thunderbolt ""Aztec Eagle""";same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_i1;F-84 Thunderjet;F-84 Thunderjet;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_j1;Bf 109 vs Spitfire;Bf 109 vs Spitfire;nice;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_k1;F6F Hellcat;F6F Hellcat;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_j1;Bf 109 vs Spitfire;Bf 109 vs Spitfire;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_k1;F6F Hellcat;F6F Hellcat;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_l1;Me 410;Me 410;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_m1;Tiger H1;Tiger H1;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_n1;T-34-85 vs Panther;T-34-85 vs Panther;same;;;;;;;;;;;;;;;;;;;
@@ -4690,7 +4690,7 @@ loading_bg/login_layer_wt_6_years;6th Anniversary of War Thunder;6th Anniversary
 loading_bg/login_layer_stormer_hvm;Stormer HVM;Stormer HVM;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_f_4_phantom;F-4 Phantom;F-4 Phantom;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_1_93_mangusta;A129CBT Mangusta;A129CBT Mangusta;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_us_1_65;F6F-5 Hellcat;F6F-5 Hellcat;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_us_1_65;F6F-5 Hellcat;F6F-5 Hellcat;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_p51_1_71;P-51 Mustang;P-51 Mustang;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_saab_j29d;J29D Tunnan;J29D Tunnan;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_it_g91;G.91 R/4;G.91 R/4;same;;;;;;;;;;;;;;;;;;;
@@ -4926,7 +4926,7 @@ ship/damage_control;Damage control;Damage control;same;;;;;;;;;;;;;;;;;;;
 ship/damage_control_set;Damage control set;Damage control set;same;;;;;;;;;;;;;;;;;;;
 ship/damage_control_priority;To provide damage control by priority;To provide damage control by priority;same;;;;;;;;;;;;;;;;;;;
 ship/repair_priority;Repair priority {num};Repair priority {num};same;;;;;;;;;;;;;;;;;;;
-ship/extinguising_priority;Extinguising priority {num};Extinguising priority {num};same;;;;;;;;;;;;;;;;;;;
+ship/extinguising_priority;Extinguishing priority {num};Extinguising priority {num};trim;;;;;;;;;;;;;;;;;;;
 ship/unwatering_priority;Unwatering priority {num};Unwatering priority {num};same;;;;;;;;;;;;;;;;;;;
 ship/btn_select_for;Select for;Select for;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/designate_target;Designate a target;Designate a target;same;;;;;;;;;;;;;;;;;;;
@@ -4959,8 +4959,8 @@ captcha/btnCheck;Check;Check;same;;;;;;;;;;;;;;;;;;;
 captcha/retry;You have not been verified, please try again. Remaining attempts: {tries};You have not been verified, please try again. Remaining attempts: {tries};same;;;;;;;;;;;;;;;;;;;
 captcha/temp_blocked_time_left;Maximum number of captcha attempts exceeded. Please try again in {timeLeft};Maximum number of captcha attempts exceeded. Please try again in {timeLeft};same;;;;;;;;;;;;;;;;;;;
 actionBarItem/periscope;Up/down periscope;Up/down periscope;same;;;;;;;;;;;;;;;;;;;
-actionBarItem/emergency_surfacing;Emergency ascention;Emergency ascention;same;;;;;;;;;;;;;;;;;;;
-armor_class/air_tank;Pressurised air tanks;Pressurised air tanks;same;;;;;;;;;;;;;;;;;;;
+actionBarItem/emergency_surfacing;Emergency ascension;Emergency ascention;nice;;;;;;;;;;;;;;;;;;;
+armor_class/air_tank;Pressurized air tanks;Pressurised air tanks;nice;;;;;;;;;;;;;;;;;;;
 armor_class/ballast_tank;Ballast tank;Ballast tank;same;;;;;;;;;;;;;;;;;;;
 armor_class/battery;Battery;Battery;same;;;;;;;;;;;;;;;;;;;
 armor_class/periscope;Periscope;Periscope;same;;;;;;;;;;;;;;;;;;;
@@ -5135,14 +5135,14 @@ wtassistant_deeplink/title;WT Assistant;WT Assistant;same;;;;;;;;;;;;;;;;;;;
 wtassistant_deeplink/descr;"Install WT Assistant:
 Scan the QR code with your phone's camera and download the app right now!
 
-WT Assistant is your mobile companion for your favourite game!
-Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
+WT Assistant is your mobile companion for your favorite game!
+Always be at the epicenter of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
 Stay one step ahead with WT Assistant!";"Install WT Assistant:
 Scan the QR code with your phone's camera and download the app right now!
 
 WT Assistant is your mobile companion for your favourite game!
 Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
-Stay one step ahead with WT Assistant!";same;;;;;;;;;;;;;;;;;;;
+Stay one step ahead with WT Assistant!";nice;;;;;;;;;;;;;;;;;;;
 slotbar/swapCrewButton;Change order;Change order;same;;;;;;;;;;;;;;;;;;;
 slotbar/dragCrewHint;This action can be done by drag-n-drop – just drag the crew block;This action can be done by drag-n-drop – just drag the crew block;same;;;;;;;;;;;;;;;;;;;
 slotbar/dragUnitHint;This action can be done by drag-n-drop – just drag the vehicle slot;This action can be done by drag-n-drop – just drag the vehicle slot;same;;;;;;;;;;;;;;;;;;;
@@ -5176,3 +5176,5 @@ logs/mission_points;{num} {num=mission point/mission points};{num} {num=mission 
 logs/ammunition;Ammunition;Ammunition;same;;;;;;;;;;;;;;;;;;;
 logs/damage;Damage;Damage;same;;;;;;;;;;;;;;;;;;;
 shop/show_nation_bonus_in_tab;Show remaining bonus in headers;Show the remaining bonus in headers;nice;;;;;;;;;;;;;;;;;;;
+shop/moreVehicles;+ {num} more {num=vehicle/vehicles};+ {num} more {num=vehicle/vehicles};same;;;;;;;;;;;;;;;;;;;
+shop/tasksExpired;<color=@redMenuButtonColor>task completed</color>;<color=@redMenuButtonColor>task completed</color>;same;;;;;;;;;;;;;;;;;;;

@@ -1,5 +1,10 @@
 duhchuy's SCAM patchnotes
 
+2.39.0.39
+>
+minor spell check, i.e carburettor > carburetor, refuelled > refueled
+The Snail sends its regards
+
 2.39.0.25
 >
 some external fuel tanks get realish names
