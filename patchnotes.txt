@@ -1,5 +1,11 @@
 duhchuy's SCAM patchnotes
 
+2.39.0.61
+>
+slight rocket cleanup
+add dates to centmk2, qn-506
+Practice > Target practice
+
 2.39.0.39
 >
 minor spell check, i.e carburettor > carburetor, refuelled > refueled

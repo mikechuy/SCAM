@@ -2125,47 +2125,96 @@ hints/aircraft_modifications/change_view_camera;Press {shortcut} to change the v
 hints/aircraft_modifications/try_again;"The target was not hit
 Press {shortcut} to begin the challenge again {{var}}";"The target was not hit
 Press {shortcut} to begin the challenge again {{var}}";same;;;;;;;;;;;;;;;;;;;
-hints/tank_modifications/find_target;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_modifications/find_next_target;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_modifications/find_target_again;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/find_target;Align the crosshair with the target;Align the crosshair with the target;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/find_next_target;Align the crosshair with the next target;Align the crosshair with the next target;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/find_target_again;The lock has been lost. Aim at the target again;The lock has been lost. Aim at the target again;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/zoom;Press {shortcut} to zoom the camera;Press {shortcut} to zoom the camera;same;;;;;;;;;;;;;;;;;;;
-hints/tank_modifications/aim;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_modifications/aim_exit;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_modifications/fire;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_modifications/lock_target;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/start1;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/start2;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/rangefinder_aim;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/shoot;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/shoot_sim;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/shoot_new_target;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/range_set;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/shoot_arcade_close;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/shoot_arcade_new_target;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_laser_rangefinder/shoot_arcade_far;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_uncaged_tft/shoot_info1;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_uncaged_tft/shoot_info2;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_caged_tft/shoot_info1;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_caged_tft/shoot_info2;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/start;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/info_01;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/info_02;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/info_02_change_mode;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/info_03;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/info_03_change_mode;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/ir_mode;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/photo_mode;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/info1;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/binocular_activate;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/binocular_shoot;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/binocular_wait_weapon;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/rangefinder;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/info2;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/shoot;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/binocular_check_shoot;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/aim_target_arcade;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/aim_arcade;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/shoot_again;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/aim;Press {shortcut} to switch to sniper mode;Press {shortcut} to switch to sniper mode;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/aim_exit;Press {shortcut} to exit sniper mode;Press {shortcut} to exit sniper mode;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/fire;Press {shortcut} to fire;Press {shortcut} to fire;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/start1;"A laser rangefinder allows you to quickly and accurately measure the distance to the target
+Press {shortcut} to continue";"A laser rangefinder allows you to quickly and accurately measure the distance to the target
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/start2;"When measuring distance, the FCS automatically adjusts for it, and the shot aimed at the crosshair will be fired at this distance
+Press {shortcut} to continue.";"When measuring distance, the FCS automatically adjusts for it, and the shot aimed at the crosshair will be fired at this distance
+Press {shortcut} to continue.";same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/rangefinder_aim;Aim the crosshair at the target and press {shortcut} to measure the distance to it;Aim the crosshair at the target and press {shortcut} to measure the distance to it;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot;"The distance to the target is set in the sight — fire at the center of the crosshair
+Press {shortcut} to fire";"The distance to the target is set in the sight — fire at the center of the crosshair
+Press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_sim;"The distance to the target is set in the sight — fire at the center of the crosshair, but first identify whether a friendly or enemy target is in front of you
+Press {shortcut} to fire";"The distance to the target is set in the sight — fire at the center of the crosshair, but first identify whether a friendly or enemy target is in front of you
+Press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_new_target;"The correction in the sight is not reset automatically, so keep this in mind for subsequent shots
+Press {shortcut} to continue";"The correction in the sight is not reset automatically, so keep this in mind for subsequent shots
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/range_set;Press {shortcut} to reset the distance correction in the sight;Press {shortcut} to reset the distance correction in the sight;same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_arcade_new_target;"The target is far away, so the aiming point (white cross) does not indicate the possibility of penetrating the target but only shows the point of impact of the projectile
+Press {shortcut} to continue";"The target is far away, so the aiming point (white cross) does not indicate the possibility of penetrating the target but only shows the point of impact of the projectile
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_laser_rangefinder/shoot_arcade_far;"When aiming the aiming point (white marker) at the target, its outline will be highlighted in the enemy markers’ color
+Press {shortcut} to fire";"When aiming the aiming point (white marker) at the target, its outline will be highlighted in the enemy markers’ color
+Press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_uncaged_tft/shoot_info1;"A homing head with uncaging allows the missile to deviate from the locked target at a certain angle, displayed in the game as an external circle, without losing target lock
+Press {shortcut} to continue";"A homing head with uncaging allows the missile to deviate from the locked target at a certain angle, displayed in the game as an external circle, without losing target lock
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_uncaged_tft/shoot_info2;"This way, you can apply additional lead when launching the missile, creating more favourable conditions for hitting the target
+Press {shortcut} to continue";"This way, you can apply additional lead when launching the missile, creating more favourable conditions for hitting the target
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_caged_tft/shoot_info1;"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
+Press {shortcut} to continue";"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_caged_tft/shoot_info2;"As a result, targets flying with a high lateral minimum (the angle between the target’s flight direction and the direction from the launcher to the target) are less likely to be hit due to the missile’s less optimal trajectory
+Press {shortcut} to continue";"As a result, targets flying with a high lateral minimum (the angle between the target’s flight direction and the direction from the launcher to the target) are less likely to be hit due to the missile’s less optimal trajectory
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/start;"In the game, missiles with multi-channel optical homing heads have three guidance modes: photo-contrast, infrared, and automatic (enabled by default)
+Press {shortcut} to continue";"In the game, missiles with multi-channel optical homing heads have three guidance modes: photo-contrast, infrared, and automatic (enabled by default)
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_01;"In automatic mode, the homing head continuously determines in which channel (photo-contrast or infrared) the target is most visible and automatically selects the best channel for target lock at the moment of launch
+Press {shortcut} to continue";"In automatic mode, the homing head continuously determines in which channel (photo-contrast or infrared) the target is most visible and automatically selects the best channel for target lock at the moment of launch
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_02;"In most cases, automatic mode works well, but it cannot account for the maneuvers and behaviour of the target (e.g., firing flares)
+Press {shortcut} to continue";"In most cases, automatic mode works well, but it cannot account for the maneuvers and behaviour of the target (e.g., firing flares)
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_02_aim;Try to hit a target using flares;Try to hit a target using flares;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_02_change_mode_aim;Try to hit the same target in photo-contrast seeker mode;Try to hit the same target in photo-contrast seeker mode;same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_02_missed;"As you can see, the missile was diverted by the flares
+Press {shortcut} to continue";"As you can see, the missile was diverted by the flares
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_02_change_mode;"The photo-contrast seeker channel operates in the visible spectrum and is well-suited for target locking during daylight hours against a clear sky (including when flares are fired)
+Press {shortcut} to activate the missile homing head (an aircraft icon with a sight on the front part)";"The photo-contrast seeker channel operates in the visible spectrum and is well-suited for target locking during daylight hours against a clear sky (including when flares are fired)
+Press {shortcut} to activate the missile homing head (an aircraft icon with a sight on the front part)";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_03;"The photo-contrast channel cannot acquire a target against terrain, you can confirm this for yourself
+Press {shortcut} to continue";"The photo-contrast channel cannot acquire a target against terrain, you can confirm this for yourself
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_03_change_mode;"The infrared channel is well-suited for target locking against the ground and during nighttime
+Press {shortcut} to switch missile guidance mode (an aircraft icon with a sight on the rear part)";"The infrared channel is well-suited for target locking against the ground and during nighttime
+Press {shortcut} to switch missile guidance mode (an aircraft icon with a sight on the rear part)";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/info1;;"Binoculars are one of the cameras available to the player. Binoculars are convenient for observing enemies from cover and for pre-aiming your weapon at the target for a subsequent shot
+Press {shortcut} to switch to binoculars";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_shoot;;Press {shortcut} on the enemy to turn the turret in their direction;nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_wait_weapon;;Wait for the weapon to aim at the target;nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/rangefinder;;"The binoculars, like the sight, have a rangefinder available
+Aim at the enemy and press {shortcut} to measure the distance";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/info2;;"Now you know the direction and distance to the enemy, so you can fire at them if your weapon’s ballistics allow
+Press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/shoot;;"Raise the weapon to the measured distance to the target and fire a shot
+Press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_check_shoot;;"Switch to binoculars to see where the projectile hit
+Press {shortcut} to switch to binoculars";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/aim_target_arcade;;"The white cross shows where the projectile will hit after the shot
+Use {shortcut} to aim it at the target";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/aim_arcade;;"When the point of impact (white cross) is exactly on the target,
+press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/shoot_again;;"The projectile missed the target. Switch to the sight and adjust the direction or angle of fire
+Press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_msg;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_01;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_02;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/change_target;;;same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/end_msg;;;same;;;;;;;;;;;;;;;;;;;
 hints/extraction_sandstorm_is_coming_get_out;A devastating sandstorm is approaching, quickly gather resources and evacuate to the zone ␡;A devastating sandstorm is approaching, quickly gather resources and evacuate to the zone ␡;same;;;;;;;;;;;;;;;;;;;
 hints/rage_scanner_active;Destroyed vehicles with available rage flags are marked on the minimap;Destroyed vehicles with available rage flags are marked on the minimap;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

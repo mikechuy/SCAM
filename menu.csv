@@ -503,9 +503,9 @@ shop/visibilityFactor/tooltip;Visibility depends on the height of the tank, it a
 shop/unitIsRecentlyReleased;New vehicle!;New vehicle!;same;;;;;;;;;;;;;;;;;;;
 shop/lootCapacity;Loot capacity;Loot capacity;same;;;;;;;;;;;;;;;;;;;
 airLimits/wing_plane_strength_vne;Air Speed Limit (IAS):;Indicated Air Speed Limit:;nice;;;;;;;;;;;;;;;;;;;
-airLimits/wing_plane_strength_vne/tooltip;;The highest indicated air speed that the machine structure can withstand without damage.;nice;;;;;;;;;;;;;;;;;;;
+airLimits/wing_plane_strength_vne/tooltip;;The highest indicated air speed that the vehicle structure can withstand without damage.;nice;;;;;;;;;;;;;;;;;;;
 airLimits/wing_plane_strength_mne;Mach Number Limit:;Mach Number Limit:;same;;;;;;;;;;;;;;;;;;;
-airLimits/wing_plane_strength_mne/tooltip;;The highest Mach number (M) that the machine structure can withstand without damage.;nice;;;;;;;;;;;;;;;;;;;
+airLimits/wing_plane_strength_mne/tooltip;;The highest Mach number (M) that the vehicle structure can withstand without damage.;nice;;;;;;;;;;;;;;;;;;;
 airLimits/gear_destruction_ind_speed;Landing Gear Limit (IAS):;Landing Gear Extension Speed Limit (IAS):;nice;;;;;;;;;;;;;;;;;;;
 airLimits/gear_destruction_ind_speed/tooltip;;The highest indicated air speed that the gear structure can withstand without damage.;nice;;;;;;;;;;;;;;;;;;;
 airLimits/flaps_destruction_ind_speed;Flaps Limits (IAS):;Flap Extension Speed Limit (IAS):;nice;;;;;;;;;;;;;;;;;;;
@@ -595,7 +595,7 @@ mainmenu/btnBuyAllModifications;Purchase All Modifications;Purchase All Modifica
 mainmenu/btnBuyAllResearched;Purchase All Researched;Purchase All Researched;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnOrder;Order;Order;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnOrderDesc;Purchase this beautiful example and win the battle with its help.;Purchase this beautiful example and win the battle with its help.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnTestProjectileProps;Testing shells' new parameters;Testing shells new parameters;trim;;;;;;;;;;;;;;;;;;;
+mainmenu/btnTestProjectileProps;Testing shells' new parameters;Testable shell parameters;trim;;;;;;;;;;;;;;;;;;;
 mainmenu/btnTestFlight;Test Flight;Test Flight;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnTestFlightDesc;Test your aircraft's capabilities in the customizable mission;Test your aircraft's capabilities in the customizable mission;same;;;;;;;;;;;;;;;;;;;
 mainmenu/cantTestFlight;Test Flight is temporarily unavailable for this aircraft.;Test Flight is temporarily unavailable for this aircraft.;same;;;;;;;;;;;;;;;;;;;
@@ -694,10 +694,10 @@ mainmenu/giftSparesClan;+ {num} backup {num=vehicle/vehicles} for free when purc
 mainmenu/giftSparesAdded;+ {num} backup {num=vehicle/vehicles} for free, you saved {cost}!;+ {num} backup {num=vehicle/vehicles} for free, you saved {cost}!;same;;;;;;;;;;;;;;;;;;;
 mainmenu/dataRemaningTime;The vehicle will be available for purchase until {time}.;The vehicle will be available for purchase until {time}.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/dataExpiredTime;The vehicle was available for purchase until {time}.;The vehicle was available for purchase until {time}.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/timeForBuyVehicle;The vehicle will be available for purchase for {time}.;The vehicle will be available for purchase for {time}.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/timeForBuyVehicle;The vehicle will be available for purchase for {time}.;The vehicle will be available for purchase for {time};trim;;;;;;;;;;;;;;;;;;;
 mainmenu/timeForBuyTrophy;This trophy will be available for purchase for {time};This trophy will be available for purchase for {time};same;;;;;;;;;;;;;;;;;;;
 mainmenu/dataRemaningTimeShort;until {time};until {time};same;;;;;;;;;;;;;;;;;;;
-mainmenu/timeForBuyVehicleShort;left {time};left {time};same;;;;;;;;;;;;;;;;;;;
+mainmenu/timeForBuyVehicleShort;left {time};{time} left;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/buyPreviousModification;The previous modification must be purchased.;The previous modification must be purchased.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/buy_modifications_for_prev_unit;You should research required amount of modifications for previous vehicle;You should research required amount of modifications for previous vehicle;same;;;;;;;;;;;;;;;;;;;
 mainmenu/notEnoughWP;You need more € to purchase this vehicle.;You need more € to purchase this vehicle.;same;;;;;;;;;;;;;;;;;;;
@@ -2664,32 +2664,32 @@ Damaging or destroying several shafts causes the ship's maximum speed to decreas
 Destroying all shafts makes the ship unable to move.
 
 You can check shaft damage status by using this icon:";same;;;;;;;;;;;;;;;;;;;
-armor_class/cockpit_countrol;Instrument panel;Flight Control Panels;nice;;;;;;;;;;;;;;;;;;;
-armor_class/desc/cockpit_countrol;If it fails, systems cannot be used:;If it fails, systems cannot be used:;same;;;;;;;;;;;;;;;;;;;
+armor_class/cockpit_countrol;Instrument panel;Flight control system;nice;;;;;;;;;;;;;;;;;;;
+armor_class/desc/cockpit_countrol;If it fails, systems cannot be used:;If it fails, these systems cannot be used:;nice;;;;;;;;;;;;;;;;;;;
 armor_class/electronic_block;Avionics block;Avionics block;same;;;;;;;;;;;;;;;;;;;
-armor_class/desc/electronic_block;If it fails, systems cannot be used:;If it fails, systems cannot be used:;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/electronic_block;If it fails, systems cannot be used:;If it fails, these systems cannot be used:;nice;;;;;;;;;;;;;;;;;;;
 armor_class/optic_block;Electro-optical station;Electro-optical station;same;;;;;;;;;;;;;;;;;;;
-armor_class/desc/optic_block;If it fails, systems cannot be used:;If it fails, systems cannot be used:;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/optic_block;If it fails, systems cannot be used:;If it fails, these systems cannot be used:;nice;;;;;;;;;;;;;;;;;;;
 armor_class/ircm;IRCM;IRCM block;nice;;;;;;;;;;;;;;;;;;;
-armor_class/desc/ircm;If it fails, systems cannot be used:;If it fails, systems cannot be used:;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/ircm;If it fails, systems cannot be used:;If it fails, these systems cannot be used:;nice;;;;;;;;;;;;;;;;;;;
 xray/indicators;MFD/HUD;MFD/HUD;same;;;;;;;;;;;;;;;;;;;
-xray/weaponControls;Weapon control;Weapon countrol;nice;;;;;;;;;;;;;;;;;;;
-xray/optics;Targeting optic;Targeting optic;same;;;;;;;;;;;;;;;;;;;
-xray/guidance;Guidance weapon control;Guidance weapon countrol;nice;;;;;;;;;;;;;;;;;;;
+xray/weaponControls;Weapon control;Weapon control;same;;;;;;;;;;;;;;;;;;;
+xray/optics;Targeting optic;Targeting optics;nice;;;;;;;;;;;;;;;;;;;
+xray/guidance;Guidance weapon control;Guidance weapon control;same;;;;;;;;;;;;;;;;;;;
 xray/sensors;Sensors;Sensors;same;;;;;;;;;;;;;;;;;;;
 xray/radar;Radar;Radar;same;;;;;;;;;;;;;;;;;;;
 xray/counterMeasures;IRCM;IRCM;same;;;;;;;;;;;;;;;;;;;
 xray/rwr;RWR;RWR;same;;;;;;;;;;;;;;;;;;;
 xray/nightVision;NVD;NVD;same;;;;;;;;;;;;;;;;;;;
-xray/controls;Flying control;Flying countrol;nice;;;;;;;;;;;;;;;;;;;
+xray/controls;Flying control;Flight control;nice;;;;;;;;;;;;;;;;;;;
 optic/zoom;Zoom;Zoom;same;;;;;;;;;;;;;;;;;;;
 optic/fov;Sight FOV;Sight FOV;same;;;;;;;;;;;;;;;;;;;
-msg/secondaryWeaponrequired;To use this gun you need to select it as Secondary weapon;To use this gun you need to select it as Secondary weapon;same;;;;;;;;;;;;;;;;;;;
+msg/secondaryWeaponrequired;To use this gun you need to select it as Secondary weapon;To use this gun, you need to select it as a secondary weapon;nice;;;;;;;;;;;;;;;;;;;
 msg/weaponSelectRequired;To use it, you need to select it as a weapon;To use it, you need to select it as a weapon;same;;;;;;;;;;;;;;;;;;;
 available_countries;Available countries;Available countries;same;;;;;;;;;;;;;;;;;;;
 filter_option/choose_units_filter_title;Filter options;Filter options;same;;;;;;;;;;;;;;;;;;;
 filter_option/change_filter_options;change filter options;change filter options;same;;;;;;;;;;;;;;;;;;;
-filter_option/return_to_units_list;return to units list;return to units list;same;;;;;;;;;;;;;;;;;;;
+filter_option/return_to_units_list;return to units list;return to the unit list;nice;;;;;;;;;;;;;;;;;;;
 armor_class/tank_steel_wheels;Wheel/suspension unit (0.6);Structural steel of chassis;nice;;;;;;;;;;;;;;;;;;;
 streaks/max_streak_amount;Best count in a row: <color=@activeTextColor>x%s</color>;Best count in a row: <color=@activeTextColor>x%s</color>;same;;;;;;;;;;;;;;;;;;;
 streaks/rewarded_count;Rewarded {count} times.;Rewarded {count} times.;same;;;;;;;;;;;;;;;;;;;
@@ -4171,42 +4171,37 @@ loadDlDataStat/inFlight;Loading: files left {filesInFlight} ({filesInFlightSizeK
 loadDlDataStat/failed;failed {filesFailed} ({filesFailedSizeKB}K);failed {filesFailed} ({filesFailedSizeKB}K);same;;;;;;;;;;;;;;;;;;;
 loadDlDataStat/delayed;postponed {filesDelayed};postponed {filesDelayed};same;;;;;;;;;;;;;;;;;;;
 workshop/1Animcraft_main_header;Flying Serpent, Crouching Tiger!;Flying Serpent, Crouching Tiger!;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_1;Craft your own ␠Tiger with animal camouflage!;Craft your own ␠Tiger with animal camouflage!;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_2;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_3;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_1;Craft your own ␠Kingcobra aircraft with animal camouflage!;Craft your own ␠Kingcobra aircraft with animal camouflage!;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_2;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_3;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for PS4 player or player who previously received DMM items)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for PS4 player or player who previously received DMM items)";same;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_tank_1;;Craft your own ␠Tiger with animal camouflage!;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_tank_2;;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_tank_3;;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_tank_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_air_1;;Craft your own ␠Kingcobra aircraft with animal camouflage!;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_air_2;;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_air_3;;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_air_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for PS4 player or player who previously received DMM items)";nice;;;;;;;;;;;;;;;;;;;
 workshop/t34_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_1;Craft your own Т-34E!;Craft your own Т-34E!;same;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_2; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.;same;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;same;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_4;In addition to T-34E get access to a second part of the event - IS-7 assemble!;In addition to T-34E get access to a second part of the event - IS-7 assemble!;same;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_5;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;same;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_6;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";same;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_1;;Craft your own Т-34E!;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_2;; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_3;;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_4;;In addition to T-34E get access to a second part of the event - IS-7 assemble!;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_5;;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_6;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_1;Craft your own IS-7!;Craft your own IS-7!;same;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_2; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;same;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИC-7.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;nice;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";same;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_1;;Craft your own IS-7!;nice;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_2;; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;nice;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_3;;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;nice;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
 workshop/craft_event_2019_spring_header;Battlefield Engineer;Battlefield Engineer;same;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_1;Repair your own I-180S!;Repair your own I-180S!;same;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_2;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;same;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_3;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;same;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_4;"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";same;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_5;"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";same;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_1;;Repair your own I-180S!;nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_2;;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_3;;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_4;;"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_5;;"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
 workshop/camo_trophy_exchange;Camo Trophy (trade items);Camo Trophy (trade items);same;;;;;;;;;;;;;;;;;;;
 workshop/advancing_storm;Advancing Storm';'Advancing Storm';nice;;;;;;;;;;;;;;;;;;;
 workshop/project_x;Project X' I;'Project X' I;nice;;;;;;;;;;;;;;;;;;;
@@ -4684,7 +4679,7 @@ loading_bg/login_layer_bo_105;BO-105;BO-105;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_jp_1_65;Japanese Ground Forces;Japanese Ground Forces;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fr_amx;AMX-40;AMX-40;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fr_1_73;French Aircraft (D.510);French Aircraft (D.510);same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_F_4_marathon;Operation S.U.F.F.E.R.     2018;Operation S.U.M.M.E.R. — 2018;trim;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_F_4_marathon;Operation S.U.F.F.E.R. — 2018;Operation S.U.M.M.E.R. — 2018;nice;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_173_narv;French Aircraft (S.O.8000 Narval);French Aircraft (S.O.8000 Narval);same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_wt_6_years;6th Anniversary of War Thunder;6th Anniversary of War Thunder;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_stormer_hvm;Stormer HVM;Stormer HVM;same;;;;;;;;;;;;;;;;;;;
@@ -4825,7 +4820,7 @@ loading_bg/login_layer_sholef;Sholef V.1;Sholef V.1;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_sholef/desc;"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_battlecruiser_izmail;Izmail;Izmail;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_tactical_wheeled_vehicle;CTWV RCV;CTWV RCV;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_dance_of_dragons;Dance of dragons;Dance of dragons;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_dance_of_dragons;Dance of dragons;Dance of Dragons;nice;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
