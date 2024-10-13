@@ -638,21 +638,17 @@ hints/follow_leader;Follow the squad leader;Follow the squad leader;same;;;;;;;;
 hints/our_base_destroyed_no_respawn;Our airfield has been destroyed! Respawns disabled!;Our airfield has been destroyed! Respawns disabled!;same;;;;;;;;;;;;;;;;;;;
 hints/enemy_base_destroyed_no_respawn;Enemy airfield has been destroyed! Enemy respawns disabled!;Enemy airfield has been destroyed! Enemy respawns disabled!;same;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_hello;;Welcome to one of War Thunder's training areas! Here you will learn how to control your vehicle;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_hello_continue;"Welcome to one of War Thunder's training areas! Here you will learn how to control your vehicle
+hints/tutorial_tank_hello_continue;;"Welcome to one of War Thunder's training areas! Here you will learn how to control your vehicle
 
-Press {{ID_CONTINUE}} to continue";"Welcome to one of War Thunder's training areas! Here you will learn how to control your vehicle
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_use_transmission;;Use it to control the tank gears;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_ride_forward;;Use it to move the tank;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_reach_waypoint;;Follow the waypoints to the firing area;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_move_turret;;Now move the cursor over the indicated tank;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_wait_for_turret;;Wait until the tank turret finishes rotating and the weapon sight to be aligned with the cursor;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_wait_for_turret_continue;"Wait until the tank turret finishes rotating and the weapon sight to be aligned with the cursor
+hints/tutorial_tank_wait_for_turret_continue;;"Wait until the tank turret finishes rotating and the weapon sight to be aligned with the cursor
 
-Press {{ID_CONTINUE}} to continue";"Wait until the tank turret finishes rotating and the weapon sight to be aligned with the cursor
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_switch_to_sniper_sight;;Switch to gunner view;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_zoom_in;;You can use zoom to get a better view of the target;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_crosshair;;The aim assist indicator in the centre of the screen shows where the shell will strike when you fire a shot;nice;;;;;;;;;;;;;;;;;;;
@@ -660,17 +656,13 @@ hints/tutorial_tank_about_crosshair_continue;;"The aim assist indicator in the c
 
 Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_crosshair_colors;;Depending on your target's armor thickness, the aim assist indicator changes to various colors;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_crosshair_colors_continue;"Depending on your target's armor thickness, the aim assist indicator changes to various colors
+hints/tutorial_tank_crosshair_colors_continue;;"Depending on your target's armor thickness, the aim assist indicator changes to various colors
 
-Press {{ID_CONTINUE}} to continue";"Depending on your target's armor thickness, the aim assist indicator changes to various colors
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_crosshair_colors_explanation;;"It turns red if the current shell cannot pierce the armor; yellow if it is possible to pierce; and green if your shell can easily pierce the armor";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_crosshair_colors_explanation_continue;"It turns red if the current shell cannot pierce the armor; yellow if it is possible to pierce; and green if your shell can easily pierce the armor
+hints/tutorial_tank_crosshair_colors_explanation_continue;;"It turns red if the current shell cannot pierce the armor; yellow if it is possible to pierce; and green if your shell can easily pierce the armor
 
-Press {{ID_CONTINUE}} to continue";"It turns red if the current shell cannot pierce the armor; yellow if it is possible to pierce; and green if your shell can easily pierce the armor
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_aim_at_crew;;"One of the best ways to destroy a tank is to put its crew out of action
 
 Move the reticule over the central area of the tank";nice;;;;;;;;;;;;;;;;;;;
@@ -708,155 +700,111 @@ hints/tutorial_tank_load_ap_shells;;"As we can see, the target is well-protected
 
 Switch to them";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_shells_are_ineffective;;As you can see, the shells we are using are useless against armor that is this strong, so we should switch to another type;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_shells_are_ineffective_continue;"As you can see, the shells we are using are useless against armor that is this strong, so we should switch to another type
+hints/tutorial_tank_shells_are_ineffective_continue;;"As you can see, the shells we are using are useless against armor that is this strong, so we should switch to another type
 
-Press {{ID_CONTINUE}} to continue";"As you can see, the shells we are using are useless against armor that is this strong, so we should switch to another type
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_look_at_the_shell_icon;;To understand how effective different shells are in different situations, you need to look at the icon of the shell;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_look_at_the_shell_icon_continue;"To understand how effective different shells are in different situations, you need to look at the icon of the shell
+hints/tutorial_tank_look_at_the_shell_icon_continue;;"To understand how effective different shells are in different situations, you need to look at the icon of the shell
 
-Press {{ID_CONTINUE}} to continue";"To understand how effective different shells are in different situations, you need to look at the icon of the shell
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_what_is_shown_on_icon;;The icon shows both the type and armor penetration of the shell as well as the additional damage it causes;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_what_is_shown_on_icon_continue;"The icon shows both the type and armor penetration of the shell as well as the additional damage it causes
+hints/tutorial_tank_what_is_shown_on_icon_continue;;"The icon shows both the type and armor penetration of the shell as well as the additional damage it causes
 
-Press {{ID_CONTINUE}} to continue";"The icon shows both the type and armor penetration of the shell as well as the additional damage it causes
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_shells_comparison;;If you compare two types of shell that your tank is equipped with, you can see that the currently selected shell causes more damage;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_shells_comparison_continue;"If you compare two types of shell that your tank is equipped with, you can see that the currently selected shell causes more damage
+hints/tutorial_tank_shells_comparison_continue;;"If you compare two types of shell that your tank is equipped with, you can see that the currently selected shell causes more damage
 
-Press {{ID_CONTINUE}} to continue";"If you compare two types of shell that your tank is equipped with, you can see that the currently selected shell causes more damage
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_shells_are_ineffective_again;;However, this will not help us to destroy the tank if we cannot penetrate its armor;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_shells_are_ineffective_again_continue;"However, this will not help us to destroy the tank if we cannot penetrate its armor
+hints/tutorial_tank_shells_are_ineffective_again_continue;;"However, this will not help us to destroy the tank if we cannot penetrate its armor
 
-Press {{ID_CONTINUE}} to continue";"However, this will not help us to destroy the tank if we cannot penetrate its armor
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_look_at_2nd_type_of_shells;;Now, look at the armor penetration of the shells – the second type of shell can penetrate far stronger armor;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_look_at_2nd_type_of_shells_continue;"Now, look at the armor penetration of the shells – the second type of shell can penetrate far stronger armor
+hints/tutorial_tank_look_at_2nd_type_of_shells_continue;;"Now, look at the armor penetration of the shells – the second type of shell can penetrate far stronger armor
 
-Press {{ID_CONTINUE}} to continue";"Now, look at the armor penetration of the shells – the second type of shell can penetrate far stronger armor
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_shells_conclusion;;"Even though the first type of shell causes more damage, it would not be effective in this situation, so shells with better armor penetration should be used
 
 Use the second type of shell";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_01_notMA;;You can see several markers on your screen: the targeting crosshair that shows the direction that the main armament of the plane is aimed and the lead angle indicator showing the flight path of the enemy plane that indicates where you need to shoot to hit your opponent.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_video_01_notMA_continue;"You can see several markers on your screen: the targeting crosshair that shows the direction that the main armament of the plane is aimed and the lead angle indicator showing the flight path of the enemy plane that indicates where you need to shoot to hit your opponent.
+hints/tutorialB_fighter_video_01_notMA_continue;;"You can see several markers on your screen: the targeting crosshair that shows the direction that the main armament of the plane is aimed and the lead angle indicator showing the flight path of the enemy plane that indicates where you need to shoot to hit your opponent.
 
-Press {{ID_CONTINUE}} to continue";"You can see several markers on your screen: the targeting crosshair that shows the direction that the main armament of the plane is aimed and the lead angle indicator showing the flight path of the enemy plane that indicates where you need to shoot to hit your opponent.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_02_notMA;;You will be unable to hit a moving target if you put the crosshair directly onto it, as the target will move and make the burst miss while the rounds travel directly towards it.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_video_02_notMA_continue;"You will be unable to hit a moving target if you put the crosshair directly onto it, as the target will move and make the burst miss while the rounds travel directly towards it.
+hints/tutorialB_fighter_video_02_notMA_continue;;"You will be unable to hit a moving target if you put the crosshair directly onto it, as the target will move and make the burst miss while the rounds travel directly towards it.
 
-Press {{ID_CONTINUE}} to continue";"You will be unable to hit a moving target if you put the crosshair directly onto it, as the target will move and make the burst miss while the rounds travel directly towards it.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_01;;You can see several markers on the screen: the mouse targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_video_01_continue;"You can see several markers on the screen: the mouse targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.
+hints/tutorialB_fighter_video_01_continue;;"You can see several markers on the screen: the mouse targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.
 
-Press {{ID_CONTINUE}} to continue";"You can see several markers on the screen: the mouse targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_02;;You will be unable to hit your opponent if you move the targeting cursor onto them with your mouse – the rounds will fly in the direction that the crosshair is aimed.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_video_02_continue;"You will be unable to hit your opponent if you move the targeting cursor onto them with your mouse – the rounds will fly in the direction that the crosshair is aimed.
+hints/tutorialB_fighter_video_02_continue;;"You will be unable to hit your opponent if you move the targeting cursor onto them with your mouse – the rounds will fly in the direction that the crosshair is aimed.
 
-Press {{ID_CONTINUE}} to continue";"You will be unable to hit your opponent if you move the targeting cursor onto them with your mouse – the rounds will fly in the direction that the crosshair is aimed.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_03;;You will also be unable to hit a moving target if you move the targeting crosshair directly onto it, as the target will move while the rounds fly forward and the burst will miss.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_video_03_continue;"You will also be unable to hit a moving target if you move the targeting crosshair directly onto it, as the target will move while the rounds fly forward and the burst will miss.
+hints/tutorialB_fighter_video_03_continue;;"You will also be unable to hit a moving target if you move the targeting crosshair directly onto it, as the target will move while the rounds fly forward and the burst will miss.
 
-Press {{ID_CONTINUE}} to continue";"You will also be unable to hit a moving target if you move the targeting crosshair directly onto it, as the target will move while the rounds fly forward and the burst will miss.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_04;;To hit the opponent, put the targeting crosshair over the lead angle indicator of the enemy plane and fire.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_video_04_continue;"To hit the opponent, put the targeting crosshair over the lead angle indicator of the enemy plane and fire.
+hints/tutorialB_fighter_video_04_continue;;"To hit the opponent, put the targeting crosshair over the lead angle indicator of the enemy plane and fire.
 
-Press {{ID_CONTINUE}} to continue";"To hit the opponent, put the targeting crosshair over the lead angle indicator of the enemy plane and fire.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_video_01;;When shooting at long distances, you need to take into consideration that shells do not fly straight but follow a parabolic path into account, meaning that they fall to the ground once they pass a certain distance. For the shell to reach a distant target, the cannon should have a higher elevation.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_long_range_video_01_continue;"When shooting at long distances, you need to take into consideration that shells do not fly straight but follow a parabolic path into account, meaning that they fall to the ground once they pass a certain distance. For the shell to reach a distant target, the cannon should have a higher elevation.
+hints/tutorial_tank_long_range_video_01_continue;;"When shooting at long distances, you need to take into consideration that shells do not fly straight but follow a parabolic path into account, meaning that they fall to the ground once they pass a certain distance. For the shell to reach a distant target, the cannon should have a higher elevation.
 
-Press {{ID_CONTINUE}} to continue";"When shooting at long distances, you need to take into consideration that shells do not fly straight but follow a parabolic path into account, meaning that they fall to the ground once they pass a certain distance. For the shell to reach a distant target, the cannon should have a higher elevation.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_video_02;;Accordingly, when you aim the targeting crosshair in sniper mode or when the cannon orientation marker points towards the target you will not be able to hit it – the shell will fall without reaching the opponent.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_long_range_video_02_continue;"Accordingly, when you aim the targeting crosshair in sniper mode or when the cannon orientation marker points towards the target you will not be able to hit it – the shell will fall without reaching the opponent.
+hints/tutorial_tank_long_range_video_02_continue;;"Accordingly, when you aim the targeting crosshair in sniper mode or when the cannon orientation marker points towards the target you will not be able to hit it – the shell will fall without reaching the opponent.
 
-Press {{ID_CONTINUE}} to continue";"Accordingly, when you aim the targeting crosshair in sniper mode or when the cannon orientation marker points towards the target you will not be able to hit it – the shell will fall without reaching the opponent.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_video_03;;To hit the opponent no matter how far away they are, move the white crosshair onto them and fire.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_long_range_video_03_continue;"To hit the opponent no matter how far away they are, move the white crosshair onto them and fire.
+hints/tutorial_tank_long_range_video_03_continue;;"To hit the opponent no matter how far away they are, move the white crosshair onto them and fire.
 
-Press {{ID_CONTINUE}} to continue";"To hit the opponent no matter how far away they are, move the white crosshair onto them and fire.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_fire_off_previous_shells;;Fire off your current shell to load the new type of shell that you've switched to;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_kill_the_angled_tank;;"You have switched to composite shells. These shells successfully pierce almost any armor, but they cause lower damage
 
 Destroy the target tank";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_ammo_summary;;Now, you can see that even though composite shells make it possible to destroy a well armored target, it takes quite a long time because of their low damage;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_ammo_summary_continue;"Now, you can see that even though composite shells make it possible to destroy a well armored target, it takes quite a long time because of their low damage
+hints/tutorial_tank_ammo_summary_continue;;"Now, you can see that even though composite shells make it possible to destroy a well armored target, it takes quite a long time because of their low damage
 
-Press {{ID_CONTINUE}} to continue";"Now, you can see that even though composite shells make it possible to destroy a well armored target, it takes quite a long time because of their low damage
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_observe_long_range_target;;Move the cursor on to one of the marked targets;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_target_found;;For a better view of your target, switch to gunner mode;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_destroy_targets;;Destroy the enemy vehicles;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_long_range_explanation_start;Press {{ID_CONTINUE}} to learn more about firing at long range;Press {{ID_CONTINUE}} to learn more about firing at long range;same;;;;;;;;;;;;;;;;;;;
+hints/tutorial_tank_long_range_explanation_start;;Press {{ID_CONTINUE}} to learn more about firing at long range;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_explanation01;;The fired shell flies along a ballistic trajectory, while the reticule shows where the cannon is aiming. If you shoot at a distant object using the reticule, the shell will drop before it reaches its target;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_explanation02;;This means that when you fire at a distant target, you need to aim the cannon a little higher;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_explanation03;;Fortunately, in Arcade Battles, we always have an aim assist indicator that shows roughly where the shell will actually land;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_explanation04;;Move the cannon so that the aim assist indicator is aligned with the target. When properly aimed, it should light up green;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_capture_zone_toggle_view_back;;Switch to third-person view;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_capture_zone_start;;Now you have to complete a real combat assignment: Capture and hold a strategic point!;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_capture_zone_start_continue;"Now you have to complete a real combat assignment: Capture and hold a strategic point!
+hints/tutorial_tank_capture_zone_start_continue;;"Now you have to complete a real combat assignment: Capture and hold a strategic point!
 
-Press {{ID_CONTINUE}} to continue";"Now you have to complete a real combat assignment: Capture and hold a strategic point!
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_final_hint;;Nice shot!;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_captures_are_important;;Capturing strategic points is one of the main methods of winning a battle;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_captures_are_important_continue;"Capturing strategic points is one of the main methods of winning a battle
+hints/tutorial_tank_captures_are_important_continue;;"Capturing strategic points is one of the main methods of winning a battle
 
-Press {{ID_CONTINUE}} to continue";"Capturing strategic points is one of the main methods of winning a battle
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_look_at_zone_marker;;You can see a marker above the capture point. If the marker is white, this means that the point is currently neutral;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_look_at_zone_marker_continue;"You can see a marker above the capture point. If the marker is white, this means that the point is currently neutral
+hints/tutorial_tank_look_at_zone_marker_continue;;"You can see a marker above the capture point. If the marker is white, this means that the point is currently neutral
 
-Press {{ID_CONTINUE}} to continue";"You can see a marker above the capture point. If the marker is white, this means that the point is currently neutral
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_go_inside_the_circle;;Move to the capture zone;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_allied_artillery_warning;;Attention! You are entering a zone which is about be bombarded by artillery;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_allied_artillery_warning_continue;"Attention! You are entering a zone which is about be bombarded by artillery
+hints/tutorial_tank_allied_artillery_warning_continue;;"Attention! You are entering a zone which is about be bombarded by artillery
 
-Press {{ID_CONTINUE}} to continue";"Attention! You are entering a zone which is about be bombarded by artillery
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_allied_artillery_cross;;Pay attention to the cross on the mini-map – it marks the spot which has been targeted by an allied artillery strike;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_allied_artillery_cross_continue;"Pay attention to the cross on the mini-map – it marks the spot which has been targeted by an allied artillery strike
+hints/tutorial_tank_allied_artillery_cross_continue;;"Pay attention to the cross on the mini-map – it marks the spot which has been targeted by an allied artillery strike
 
-Press {{ID_CONTINUE}} to continue";"Pay attention to the cross on the mini-map – it marks the spot which has been targeted by an allied artillery strike
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_allied_artillery_beware;;The artillery strike covers a large area and causes damage to all units that are under fire, both opponents and allies;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_allied_artillery_beware_continue;"The artillery strike covers a large area and causes damage to all units that are under fire, both opponents and allies
+hints/tutorial_tank_allied_artillery_beware_continue;;"The artillery strike covers a large area and causes damage to all units that are under fire, both opponents and allies
 
-Press {{ID_CONTINUE}} to continue";"The artillery strike covers a large area and causes damage to all units that are under fire, both opponents and allies
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_allied_artillery_turn_back;;To avoid coming under friendly artillery fire, fall back and wait for the artillery bombardment to finish;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_allied_artillery_wait;;"Now you need to wait for the artillery strike to finish
 
@@ -867,38 +815,34 @@ hints/tutorial_tank_allied_artillery_move_continue;;"When shots are no longer fi
 Move to the capture zone";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_allied_artillery_you_will_get_it_too;;In future, you will have the opportunity to call an artillery strike on your opponents;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_target_camera;;Not all opponents will be idle in real battle.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_about_target_camera_continue;"Not all opponents will be idle in real battle.
+hints/tutorial_tank_about_target_camera_continue;;"Not all opponents will be idle in real battle.
 
-Press {{ID_CONTINUE}} to continue";"Not all opponents will be idle in real battle.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_target_camera_manual;;Try to move and hold the targeting reticule over the marked tank;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_target_camera_manual_is_hard;;As you can see, it is harder to aim at a moving target than at an immobile one;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_use_target_camera;;"There is a target camera mode that lets you track the opponent
 
 Use the target camera";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_target_camera_used;;While you hold the button, the sight and the turret of the tank automatically turn towards the selected enemy unit, while the cursor can be moved slightly to make targeting more precise;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_target_camera_used_continue;"While you hold the button, the sight and the turret of the tank automatically turn towards the selected enemy unit, while the cursor can be moved slightly to make targeting more precise
+hints/tutorial_tank_target_camera_used_continue;;"While you hold the button, the sight and the turret of the tank automatically turn towards the selected enemy unit, while the cursor can be moved slightly to make targeting more precise
 
-Press {{ID_CONTINUE}} to continue";"While you hold the button, the sight and the turret of the tank automatically turn towards the selected enemy unit, while the cursor can be moved slightly to make targeting more precise
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_long_range_watch_video_again;Press {{ID_CONTINUE}} to watch the video again;Press {{ID_CONTINUE}} to watch the video again;same;;;;;;;;;;;;;;;;;;;
-hints/tutorial_press_id_continue;Press {{ID_CONTINUE}} to continue;Press {{ID_CONTINUE}} to continue;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_minimap_player_tank;;YOUR TANK;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_minimap_enemy_tank;;ENEMY TANK;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_minimap_friendly_tank;;ALLIED TANK;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_minimap_fov;;FIELD OF VIEW;nice;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_tank_long_range_watch_video_again;;Press {{ID_CONTINUE}} to watch the video again;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_press_id_continue;;Press {{ID_CONTINUE}} to continue;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_minimap_player_tank;YOUR TANK;YOUR TANK;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_minimap_enemy_tank;ENEMY TANK;ENEMY TANK;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_minimap_friendly_tank;ALLIED TANK;ALLIED TANK;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_minimap_fov;FIELD OF VIEW;FIELD OF VIEW;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_minimap_itself;;The mini-map is located here and it can be used to track the position of your tank, the surrounding environment and the location of allies and opponents;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_cross_general;;The cross indicates where the shell will hit – it changes color depending on the thickness of the armor underneath;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_cross_green;;When the cross is green, it means that the shell will penetrate the armor;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_cross_yellow;;Yellow means that there’s a chance to penetrate the armor;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_cross_red;;Red means it is impossible to penetrate the armor at this location;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_xray_itself;;HIT CAMERA;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_xray_itself;HIT CAMERA;HIT CAMERA;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_xray_explanation;;Here, you can see which parts of the enemy tank have been struck by your shell;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_tickets;;TEAM POINTS;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_your_team_tickets;;YOUR TEAM POINTS;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_enemy_team_tickets;;ENEMY TEAM POINTS;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_tickets;TEAM POINTS;TEAM POINTS;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_your_team_tickets;YOUR TEAM POINTS;YOUR TEAM POINTS;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_enemy_team_tickets;ENEMY TEAM POINTS;ENEMY TEAM POINTS;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_artillery_strike;;This type of cross marks the location of an allied artillery strike on the mini-map;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_movement_info;;You can see information about the number of gears, engine RPM and speed of your tank here;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_armor_front;;The front armor of a tank is usually the strongest;nice;;;;;;;;;;;;;;;;;;;
@@ -919,38 +863,32 @@ hud_tutorial_tank_ammo_final;;Because armor penetration is more important in an 
 hud_tutorial_tank_xray_crew_count;;The enemy tank is considered to be destroyed if there are no active crew members remaining inside;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_fire_and_explosion;;If the tank’s engine, ammunition or fuel tanks are damaged, it might cause an explosion or fire inside the tank;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_tickets_zone_white_corners;;When you are inside the capture zone, white corners appear around the zone marker;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_cursor_location;;CURSOR;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_cannon_aiming;;CANNON MARKER;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_cross_location;;CROSSHAIR;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_cursor_location;CURSOR;CURSOR;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_cannon_aiming;CANNON MARKER;CANNON MARKER;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_cross_location;CROSSHAIR;CROSSHAIR;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_artillery_warning;;This warning means that you are in an artillery strike zone;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_tank_ammo_summary;;SUMMARY;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_tank_ammo_summary;SUMMARY;SUMMARY;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_ammo_for_light_tanks;;shells for use against lightly armored targets;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_ammo_for_light_tanks_use;;Always use this type of shell if they can penetrate the armor of the target;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_ammo_for_heavy_tanks;;shells for heavily armored targets;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_ammo_for_heavy_tanks_use;;Use this type of shell only if the first type cannot penetrate the armor of the target;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_lr_how_the_shells_fly;;Shells follow a parabolic path when firing at long distances;nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_tank_lr_what_to_do_with_cannon;;For the shell to reach a distant target, the cannon must have a higher elevation;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_air_ma_cursor_location;;CURSOR;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_air_aiming_location;;MAIN ARMAMENT SIGHT;nice;;;;;;;;;;;;;;;;;;;
-hud_tutorial_air_forestall_location;;LEAD ANGLE INDICATOR;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_air_ma_cursor_location;CURSOR;CURSOR;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_air_aiming_location;MAIN ARMAMENT SIGHT;MAIN ARMAMENT SIGHT;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_air_forestall_location;LEAD ANGLE INDICATOR;LEAD ANGLE INDICATOR;same;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_video_about_hud_markers;;You can see several markers on the screen – the cursor, which the turret of your tank follows, the marker indicating the direction of the tank cannon and the cross that shows where the tank shell will hit.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_video_about_hud_markers_continue;"You can see several markers on the screen – the cursor, which the turret of your tank follows, the marker indicating the direction of the tank cannon and the cross that shows where the tank shell will hit.
+hints/tutorial_tank_video_about_hud_markers_continue;;"You can see several markers on the screen – the cursor, which the turret of your tank follows, the marker indicating the direction of the tank cannon and the cross that shows where the tank shell will hit.
 
-Press {{ID_CONTINUE}} to continue";"You can see several markers on the screen – the cursor, which the turret of your tank follows, the marker indicating the direction of the tank cannon and the cross that shows where the tank shell will hit.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_video_dont_shoot_at_cursor;;Take into consideration that the mouse aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_video_dont_shoot_at_cursor_continue;"Take into consideration that the mouse aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.
+hints/tutorial_tank_video_dont_shoot_at_cursor_continue;;"Take into consideration that the mouse aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.
 
-Press {{ID_CONTINUE}} to continue";"Take into consideration that the mouse aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_video_shoot_at_cross;;If you want to hit the enemy tank wait for the turret to turn towards the opponent, align the crosshair with the target (it will change color when it is over the opponent) and fire.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_video_shoot_at_cross_continue;"If you want to hit the enemy tank wait for the turret to turn towards the opponent, align the crosshair with the target (it will change color when it is over the opponent) and fire.
+hints/tutorial_tank_video_shoot_at_cross_continue;;"If you want to hit the enemy tank wait for the turret to turn towards the opponent, align the crosshair with the target (it will change color when it is over the opponent) and fire.
 
-Press {{ID_CONTINUE}} to continue";"If you want to hit the enemy tank wait for the turret to turn towards the opponent, align the crosshair with the target (it will change color when it is over the opponent) and fire.
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_how_to_capture_the_zone;;To capture the point, you must drive into the capture zone. The border of the capture zone is delineated by a white lined circle on the ground;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_destroy_enemy_tank_in_zone;;"Your tank has reached the indicated point, but you can't capture the zone while it still has enemy vehicles in it
 
@@ -963,61 +901,43 @@ hints/tutorial_tank_capture_zone_clear;;Great! Now you can capture the zone;nice
 hints/tutorial_tank_wait_until_capture_ends;;Wait for the marker to turn blue and for a message to appear notifying you that you have captured the zone;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_go_to_circle_and_wait_until_capture_ends;;Return to the capture zone and wait for the marker to turn blue and for a message to appear notifying you that you have captured the zone;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_zone_colors;;The capture zone's marker has turned blue — that means the zone now belongs to your team. If the enemy team had captured the zone, the marker would have turned red;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_about_zone_colors_continue;"The capture zone's marker has turned blue — that means the zone now belongs to your team. If the enemy team had captured the zone, the marker would have turned red
+hints/tutorial_tank_about_zone_colors_continue;;"The capture zone's marker has turned blue — that means the zone now belongs to your team. If the enemy team had captured the zone, the marker would have turned red
 
-Press {{ID_CONTINUE}} to continue";"The capture zone's marker has turned blue — that means the zone now belongs to your team. If the enemy team had captured the zone, the marker would have turned red
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_tickets_explanation01;;Note the red and blue lines at the top of the screen. This shows both teams' points. The blue line shows your team's points, while the red line shows the enemy's;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_tickets_explanation01_continue;"Note the red and blue lines at the top of the screen. This shows both teams' points. The blue line shows your team's points, while the red line shows the enemy's
+hints/tutorial_tank_tickets_explanation01_continue;;"Note the red and blue lines at the top of the screen. This shows both teams' points. The blue line shows your team's points, while the red line shows the enemy's
 
-Press {{ID_CONTINUE}} to continue";"Note the red and blue lines at the top of the screen. This shows both teams' points. The blue line shows your team's points, while the red line shows the enemy's
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_tickets_explanation02;;When one team captures more strategic points than the other team, the enemy team begins to lose points;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_tickets_explanation02_continue;"When one team captures more strategic points than the other team, the enemy team begins to lose points
+hints/tutorial_tank_tickets_explanation02_continue;;"When one team captures more strategic points than the other team, the enemy team begins to lose points
 
-Press {{ID_CONTINUE}} to continue";"When one team captures more strategic points than the other team, the enemy team begins to lose points
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_tickets_explanation03;;Victory is achieved when the enemy team loses all its points, so always try to keep control of the strategic zones;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_tickets_explanation03_continue;"Victory is achieved when the enemy team loses all its points, so always try to keep control of the strategic zones
+hints/tutorial_tank_tickets_explanation03_continue;;"Victory is achieved when the enemy team loses all its points, so always try to keep control of the strategic zones
 
-Press {{ID_CONTINUE}} to continue";"Victory is achieved when the enemy team loses all its points, so always try to keep control of the strategic zones
-
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_final_hint;;"Great Job! You won!
 Now you're a true tanker!";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_minimap;;In the lower right corner, you can see a minimap which shows your tank as an arrow. It also shows the positions of your enemies and allies as icons;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_about_minimap_continue;"In the lower right corner, you can see a minimap which shows your tank as an arrow. It also shows the positions of your enemies and allies as icons
+hints/tutorial_tank_about_minimap_continue;;"In the lower right corner, you can see a minimap which shows your tank as an arrow. It also shows the positions of your enemies and allies as icons
  
-Press {{ID_CONTINUE}} to continue";"In the lower right corner, you can see a minimap which shows your tank as an arrow. It also shows the positions of your enemies and allies as icons
- 
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_minimap_markers;;Your opponent this time – a training target – is the red icon on the map. Your allies’ icons are blue;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_about_minimap_markers_continue;"Your opponent this time – a training target – is the red icon on the map. Your allies’ icons are blue
+hints/tutorial_tank_about_minimap_markers_continue;;"Your opponent this time – a training target – is the red icon on the map. Your allies’ icons are blue
  
-Press {{ID_CONTINUE}} to continue";"Your opponent this time – a training target – is the red icon on the map. Your allies’ icons are blue
- 
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_look_at_xray;;When a shell penetrates armor, the ‘x-ray’ window appears in the top right corner. This shows which parts of the tank and which crew members took damage;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_look_at_xray_continue;"When a shell penetrates armor, the ‘x-ray’ window appears in the top right corner. This shows which parts of the tank and which crew members took damage
+hints/tutorial_tank_look_at_xray_continue;;"When a shell penetrates armor, the ‘x-ray’ window appears in the top right corner. This shows which parts of the tank and which crew members took damage
  
-Press {{ID_CONTINUE}} to continue";"When a shell penetrates armor, the ‘x-ray’ window appears in the top right corner. This shows which parts of the tank and which crew members took damage
- 
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_xray_explanation;;The enemy tank is considered destroyed if it has no crew members remaining inside;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_xray_explanation_continue;"The enemy tank is considered destroyed if it has less than two crew members remaining inside
+hints/tutorial_tank_xray_explanation_continue;;"The enemy tank is considered destroyed if it has less than two crew members remaining inside
  
-Press {{ID_CONTINUE}} to continue";"The enemy tank is considered destroyed if it has less than two crew members remaining inside
- 
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_fire_and_explosion;;If the engine, ammo rack or fuel tanks inside the tank are damaged, this may cause an explosion or start a fire;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_fire_and_explosion_continue;"If the engine, ammo rack or fuel tanks inside the tank are damaged, this may cause an explosion or start a fire
+hints/tutorial_tank_fire_and_explosion_continue;;"If the engine, ammo rack or fuel tanks inside the tank are damaged, this may cause an explosion or start a fire
  
-Press {{ID_CONTINUE}} to continue";"If the engine, ammo rack or fuel tanks inside the tank are damaged, this may cause an explosion or start a fire
- 
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_cannon_deviation;;"Every tank’s cannon has a scatter radius which can reduce accuracy at long ranges
  
 If a shell doesn’t hit the target even when you’re aiming at it correctly, try firing again";nice;;;;;;;;;;;;;;;;;;;
@@ -1026,11 +946,9 @@ hints/tutorial_tank_hello_part2_continue;;"Welcome to the second part of the tan
 
 Please move to the route marker";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_armor_intro;;As you may have noticed in battles against other players, enemy tank armor can be tough to penetrate;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_armor_intro_continue;"As you may have noticed in battles against other players, enemy tank armor can be tough to penetrate
+hints/tutorial_tank_armor_intro_continue;;"As you may have noticed in battles against other players, enemy tank armor can be tough to penetrate
 
-Press {{ID_CONTINUE}} to continue.";"As you may have noticed in battles against other players, enemy tank armor can be tough to penetrate
-
-Press {{ID_CONTINUE}} to continue.";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue.";nice;;;;;;;;;;;;;;;;;;;
 hints/hc_western_tutorial_ailerons_left;;Use the ailerons to lurch your aircraft to the left;nice;;;;;;;;;;;;;;;;;;;
 hints/hc_western_tutorial_ailerons_right;;Use the ailerons to lurch your aircraft to the right;nice;;;;;;;;;;;;;;;;;;;
 hints/hc_western_tutorial_elevator_down;;Use the elevator to descend (dive);nice;;;;;;;;;;;;;;;;;;;
@@ -1768,14 +1686,14 @@ hints/tutorial_karantan_find_cover;;Find cover from enemy fire and repair damage
 hints/tutorial_karantan_weak_spots;;When shooting at well-armored enemies, try to aim at weakly protected places. The ballistic marker will show the probability of penetration at the point of impact of your projectile in the corresponding color: Red – low penetration probability. Green – high.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_karantan_cover;;First you need to get out of the shelling by hiding behind cover.;nice;;;;;;;;;;;;;;;;;;;
 hints/tank_football_how_to_play;Use {{ID_FIRE_GM}} to hit the ball and {{ID_FIRE_GM_MACHINE_GUN}} to jump up to catch a flying ball;Use {{ID_FIRE_GM}} to hit the ball and {{ID_FIRE_GM_MACHINE_GUN}} to jump up to catch a flying ball;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_elevator_max;Use {{elevator=max}} to ascend.;Use {{elevator=max}} to ascend.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_elevator_min;Use {{elevator=min}} to descend.;Use {{elevator=min}} to descend.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_ailerons_min;Use {{ailerons=min}} to lurch your aircraft to the left.;Use {{ailerons=min}} to lurch your aircraft to the left.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_ailerons_max;Use {{ailerons=max}} to lurch your aircraft to the right.;Use {{ailerons=max}} to lurch your aircraft to the right.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_mouse_aim;Use {{mouse_aim_x+mouse_aim_y}} to control the aircraft.;Use {{mouse_aim_x+mouse_aim_y}} to control the aircraft.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_throttle_max;Use {{throttle=max}} to increase engine power and get more speed.;Use {{throttle=max}} to increase engine power and get more speed.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_throttle_min;Use {{throttle=min}} to decrease engine power and slow down.;Use {{throttle=min}} to decrease engine power and slow down.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_fighter_initial_controls_fire;Use {{ID_FIRE_MGUNS}} to fire at the enemy aircraft.;Use {{ID_FIRE_MGUNS}} to fire at the enemy aircraft.;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_elevator_max;;Use {{elevator=max}} to ascend.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_elevator_min;;Use {{elevator=min}} to descend.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_ailerons_min;;Use {{ailerons=min}} to lurch your aircraft to the left.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_ailerons_max;;Use {{ailerons=max}} to lurch your aircraft to the right.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_mouse_aim;;Use {{mouse_aim_x+mouse_aim_y}} to control the aircraft.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_throttle_max;;Use {{throttle=max}} to increase engine power and get more speed.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_throttle_min;;Use {{throttle=min}} to decrease engine power and slow down.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_fighter_initial_controls_fire;;Use {{ID_FIRE_MGUNS}} to fire at the enemy aircraft.;nice;;;;;;;;;;;;;;;;;;;
 hints/naval_biathlon_targets;Destroy designated targets to gain the ability to boost your speed by pressing {{ID_EVENT_ACTION}};Destroy designated targets to gain the ability to boost your speed by pressing {{ID_EVENT_ACTION}};same;;;;;;;;;;;;;;;;;;;
 hints/tank_biathlon_pillars;Try to avoid colliding with pillars: the impact will slow down your vehicle.;Try to avoid colliding with pillars: the impact will slow down your vehicle.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_welcome;Welcome to the quick guide to battleship controls.;Welcome to the quick guide to battleship controls.;same;;;;;;;;;;;;;;;;;;;
@@ -1942,8 +1860,8 @@ hints/aircraft_atgm_mclos/destroy_target;Hit the target with the missile;Hit the
 hints/aircraft_aam_ir/start;"Missiles with thermal homing head are guided by heat radiated by aircraft engines or its airframe. Engines radiate far more heat, which makes capture distance greater for launching in pursuit rather than firing from ahead
 Press {shortcut} to continue";"Missiles with thermal homing head are guided by heat radiated by aircraft engines or its airframe. Engines radiate far more heat, which makes capture distance greater for launching in pursuit rather than firing from ahead
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_aam_ir/target;"Capture the target ahead of you by aiming the missile homing head (central circle) at the target. If the central circle stops blinking and changes its color to red, it means that the target is captured and you may launch a missile
-Press {shortcut} to continue";"Capture the target ahead of you by aiming the missile homing head (central circle) at the target. If the central circle stops blinking and changes its color to red, it means that the target is captured and you may launch a missile
+hints/aircraft_aam_ir/target;"Lock the target ahead of you by aiming the missile seeker (central circle) at the target. If the central circle stops blinking and changes its color to red, it means that the target is locked and you may launch a missile
+Press {shortcut} to continue";"Lock the target ahead of you by aiming the missile seeker (central circle) at the target. If the central circle stops blinking and changes its color to red, it means that the target is locked and you may launch a missile
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_aam_sarh/start1;"The use of missiles with semi-active radar homing head
 Press {shortcut} to continue";"The use of missiles with semi-active radar homing head
@@ -1963,7 +1881,7 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/start2;"These missiles aim at the launch aircraft laser signal reflected from the target
 Press {shortcut} to continue";"These missiles aim at the launch aircraft laser signal reflected from the target
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_atgm_laser/change_view;Press {shortcut} to change camera;Press {shortcut} to change camera;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_atgm_laser/change_view;Press {shortcut} to change camera;Align the crosshair with the target and press {shortcut} to change camera;nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/activation_rocket1;You have to activate a missile homing head;You have to activate a missile homing head;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/target;Press {shortcut} to stabilize the crosshair in relation to surface. You can use settings to enable the automatic crosshair stabilization at missile launch;Press {shortcut} to stabilize the crosshair in relation to surface. You can use settings to enable the automatic crosshair stabilization at missile launch;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/rocket_move;Hold the central crosshair mark on the target until the missile hits;Hold the central crosshair mark on the target until the missile hits;same;;;;;;;;;;;;;;;;;;;
@@ -2023,8 +1941,12 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_laser/start2;"These bombs are guided by the carrier aircraft laser signal reflected from the target
 Press {shortcut} to continue";"These bombs are guided by the carrier aircraft laser signal reflected from the target
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_guided_bombs_laser/laser_board;;;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_guided_bombs_laser/target_sim;;;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_laser/laser_board;"Two laser designators are displayed on the screen. The upper one shows where the aircraft's nose is pointing. The lower one indicates where the bomb will land
+Press {shortcut} to continue";"Two laser designators are displayed on the screen. The upper one shows where the aircraft's nose is pointing. The lower one indicates where the bomb will land
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_laser/target_sim;"Align the bomb's laser designator with the target's laser designator
+Press {shortcut} to release the bomb";"Align the bomb's laser designator with the target's laser designator
+Press {shortcut} to release the bomb";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_laser/after_bomb1;"Continuous laser designation from the carrier to the target is required for guidance until the target is hit
 Press {shortcut} to continue";"Continuous laser designation from the carrier to the target is required for guidance until the target is hit
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -2037,7 +1959,9 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_tv/start2;"These bombs autonomously target using their own television homing head
 Press {shortcut} to continue";"These bombs autonomously target using their own television homing head
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_guided_bombs_tv/target_sim;;;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_tv/target_sim;"Align the aircraft's sight with the target
+Press {shortcut} to release the bomb";"Align the aircraft's sight with the target
+Press {shortcut} to release the bomb";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_ir/start1;"The use of guided bombs with infrared imaging homing head
 Press {shortcut} to continue";"The use of guided bombs with infrared imaging homing head
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -2086,9 +2010,9 @@ hints/aircraft_modifications/after_rocket;After launching the missile, the trans
 hints/aircraft_modifications/nvd;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/nvd_menu;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/boomb_view;"After dropping the bomb, you can switch to bomb tracking mode.
-To do this, press and hold {shortcut} until the target is hit";"After dropping the bomb, you can switch to bomb tracking mode.
-To do this, press and hold {shortcut} until the target is hit";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/activation_rocket;Press {shortcut} to activate missile homing head;Press {shortcut} to activate missile homing head;same;;;;;;;;;;;;;;;;;;;
+To do this, press and hold {shortcut} until the target is hit";"After dropping the bomb, you can switch to bomb tracking mode
+To do this, press and hold {shortcut} until the target is hit";trim;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/activation_rocket;Press {shortcut} to activate missile seeker;Press {shortcut} to activate missile seeker;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_tv_rocket;Press {shortcut} to activate missile;Press {shortcut} to activate missile;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activation_rocket;"A small circle indicates the point illuminated by the laser from the side of your aircraft. The missile will be guided to that point
 Press {shortcut} to continue";"A small circle indicates the point illuminated by the laser from the side of your aircraft. The missile will be guided to that point
@@ -2114,11 +2038,11 @@ hints/aircraft_modifications/menu_choose_ndv;Choose 'Switch NVD mode';Сhoose 'S
 hints/aircraft_modifications/menu_choose_radar;Choose 'Radar / IRST';Сhoose 'Radar / IRST';nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/menu_choose_radar_switch;Choose 'Change Radar/IRST mode';Сhoose 'Change Radar/IRST mode';nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the desired point and activate the aiming point.
-Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point.
-Press {shortcut} to activate it";same;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point
+Press {shortcut} to activate it";trim;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/find_target;Align the aircraft's course to the target;Align the aircraft's course to the target;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/sim_down;;;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/sim_up;;;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/sim_down;Align the aircraft's course to the ground to find a target;Align the aircraft's course to the ground to find a target;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/sim_up;Align the aircraft's course to the sky to avoid colliding with the ground;Align the aircraft's course to the sky to avoid colliding with the ground;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/zoom;Press {shortcut} to zoom the camera;Press {shortcut} to zoom the camera;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/change_view;Press {shortcut} to change camera;Press {shortcut} to change camera;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/change_view_camera;Press {shortcut} to change the view and switch to 3rd person view;Press {shortcut} to change the view and switch to 3rd person view;same;;;;;;;;;;;;;;;;;;;
@@ -2164,8 +2088,8 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_caged_tft/shoot_info1;"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
 Press {shortcut} to continue";"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_caged_tft/shoot_info2;"As a result, targets flying with a high lateral minimum (the angle between the target’s flight direction and the direction from the launcher to the target) are less likely to be hit due to the missile’s less optimal trajectory
-Press {shortcut} to continue";"As a result, targets flying with a high lateral minimum (the angle between the target’s flight direction and the direction from the launcher to the target) are less likely to be hit due to the missile’s less optimal trajectory
+hints/tank_sam_ir_caged_tft/shoot_info2;"As a result, targets flying with a large ground range (the shortest distance from the launcher to the target's ground track) are less likely to be hit due to the missile’s less optimal trajectory
+Press {shortcut} to continue";"As a result, targets flying with a large ground range (the shortest distance from the launcher to the target's ground track) are less likely to be hit due to the missile’s less optimal trajectory
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/start;"In the game, missiles with multi-channel optical homing heads have three guidance modes: photo-contrast, infrared, and automatic (enabled by default)
 Press {shortcut} to continue";"In the game, missiles with multi-channel optical homing heads have three guidance modes: photo-contrast, infrared, and automatic (enabled by default)

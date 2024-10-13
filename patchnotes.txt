@@ -1,5 +1,10 @@
 duhchuy's SCAM patchnotes
 
+2.39.0.75
+>
+_0 append more F to vehicles with fictional config
+adjusted menu and hint text
+
 2.39.0.61
 >
 slight rocket cleanup
