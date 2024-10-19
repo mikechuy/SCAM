@@ -2108,12 +2108,18 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_02_change_mode;"The photo-contrast seeker channel operates in the visible spectrum and is well-suited for target locking during daylight hours against a clear sky (including when flares are fired)
 Press {shortcut} to activate the missile homing head (an aircraft icon with a sight on the front part)";"The photo-contrast seeker channel operates in the visible spectrum and is well-suited for target locking during daylight hours against a clear sky (including when flares are fired)
 Press {shortcut} to activate the missile homing head (an aircraft icon with a sight on the front part)";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_02_change_mode_gamepad;"Select the ""Switch guidance method"" option. You need to switch to the photo-contrast missile targeting mode (the icon showing an aircraft with a crosshair on the front)
+After switching, press {shortcut} to continue";"Select the ""Switch guidance method"" option. You need to switch to the photo-contrast missile targeting mode (the icon showing an aircraft with a crosshair on the front)
+After switching, press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_03;"The photo-contrast channel cannot acquire a target against terrain, you can confirm this for yourself
 Press {shortcut} to continue";"The photo-contrast channel cannot acquire a target against terrain, you can confirm this for yourself
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_03_change_mode;"The infrared channel is well-suited for target locking against the ground and during nighttime
 Press {shortcut} to switch missile guidance mode (an aircraft icon with a sight on the rear part)";"The infrared channel is well-suited for target locking against the ground and during nighttime
 Press {shortcut} to switch missile guidance mode (an aircraft icon with a sight on the rear part)";same;;;;;;;;;;;;;;;;;;;
+hints/tank_sam_ir_photocontrast_mode_tft/info_03_change_mode_gamepad;"Select the ""Switch guidance method"" option. You need to switch to the infrared missile targeting mode (the icon showing an aircraft with a crosshair on the rear)
+After switching, press {shortcut} to continue";"Select the ""Switch guidance method"" option. You need to switch to the infrared missile targeting mode (the icon showing an aircraft with a crosshair on the rear)
+After switching, press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_binocular_tft/info1;;"Binoculars are one of the cameras available to the player. Binoculars are convenient for observing enemies from cover and for pre-aiming your weapon at the target for a subsequent shot
 Press {shortcut} to switch to binoculars";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_binocular_tft/binocular_shoot;;Press {shortcut} on the enemy to turn the turret in their direction;nice;;;;;;;;;;;;;;;;;;;
@@ -2132,13 +2138,22 @@ hints/tank_binocular_tft/aim_arcade;;"When the point of impact (white cross) is 
 press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_binocular_tft/shoot_again;;"The projectile missed the target. Switch to the sight and adjust the direction or angle of fire
 Press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_msg;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_02;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/change_target;;;same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/end_msg;;;same;;;;;;;;;;;;;;;;;;;
-hints/extraction_sandstorm_is_coming_get_out;A devastating sandstorm is approaching, quickly gather resources and evacuate to the zone ␡;A devastating sandstorm is approaching, quickly gather resources and evacuate to the zone ␡;same;;;;;;;;;;;;;;;;;;;
-hints/rage_scanner_active;Destroyed vehicles with available rage flags are marked on the minimap;Destroyed vehicles with available rage flags are marked on the minimap;same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_msg;;"The more ammo in the vehicle, the higher the chance that when the ammo is hit by a shell, the vehicle will be disabled
+Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_01;;"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front section
+Press {shortcut} to switch to sniper mode";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;;"The turret and upper frontal plate are generally tough, so shooting them is not effective
+It is more efficient to aim at the lower frontal plate, where the ammo is stored
+Aim at the highlighted part and press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_02;;"The second tank has only half the ammo load. The ammunition is stored only in the turret
+Press {shortcut} to switch to sniper mode";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;;"There is no ammo in the lower frontal section now, making the tank less vulnerable
+Aim at the highlighted part and press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/change_target;;"As you can see, the target is destroyed by hitting the area with the ammo
+Press {shortcut} to exit sniper mode";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/end_msg;;"A full ammo load makes a tank more vulnerable, so take as much ammo into battle as you usually need
+Replenish it at the capture point if necessary
+Press {shortcut} to complete the mission";nice;;;;;;;;;;;;;;;;;;;
+hints/extraction_sandstorm_is_coming_get_out;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;same;;;;;;;;;;;;;;;;;;;
+hints/rage_scanner_active;The remains of vehicles with available rage flags are highlighted on the minimap.;The remains of vehicles with available rage flags are highlighted on the minimap.;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

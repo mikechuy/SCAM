@@ -3997,6 +3997,7 @@ warbonds/shop/notAvailableForCurrentShop;This item is not available because the 
 warbonds/shop/inactive/level; shop level. Current shop cannot be upgraded anymore but the goods are still available for purchase.; shop level. Current shop cannot be upgraded anymore but the goods are still available for purchase.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/newItemsAvailable;New items are available;New items are available;same;;;;;;;;;;;;;;;;;;;
 mainmenu/gamemodesNotLoaded;Loading modes...;Loading modes...;same;;;;;;;;;;;;;;;;;;;
+mainmenu/gamemodesNotLoaded/support_message;Connection problems? Cum here.;Connection problems? Click here.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/gamemodesNotLoaded/desc;"Game modes haven't been loaded.
 Try to relogin.";"Game modes haven't been loaded.
 Try to relogin.";same;;;;;;;;;;;;;;;;;;;
@@ -5041,8 +5042,8 @@ help/modificationBuyed;Purchased modification. This modification is installed on
 help/modificationWeapons;Selecting a standard weapon or its modification.;Selecting a standard weapon or its modification.;same;;;;;;;;;;;;;;;;;;;
 help/crewSkillDecBtn;Reduce skill level.;Reduce skill level.;same;;;;;;;;;;;;;;;;;;;
 help/customizationAutoSkin;The game will automatically select the appropriate camouflage in battle;The game will automatically select the appropriate camouflage in battle;same;;;;;;;;;;;;;;;;;;;
-dailyAward/playWTM;;"Don't lose your daily reward progress even if you can't log into War Thunder.
-By logging into <Link=War Thunder Mobile><Color=@linkTextColor>War Thunder Mobile</Color></Link> {sendShortcuts} every day, you will avoid penalties for the days you missed in War Thunder and maintain your login streak!";nice;;;;;;;;;;;;;;;;;;;
+dailyAward/playWTM;;"Keep your daily progress even if you can't log in to War Thunder.
+Simply log in to <Link=War Thunder Mobile><Color=@linkTextColor>War Thunder Mobile</Color></Link>{sendShortcuts} every day to maintain your streak!";nice;;;;;;;;;;;;;;;;;;;
 dailyAward/qrCodeWTM;;Scan the QR code with your smartphone's camera and download War Thunder Mobile now!;nice;;;;;;;;;;;;;;;;;;;
 war_thunder_mobile;;War Thunder Mobile;nice;;;;;;;;;;;;;;;;;;;
 qrCode/downloadApkFile;;APK File;nice;;;;;;;;;;;;;;;;;;;

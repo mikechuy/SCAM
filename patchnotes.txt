@@ -1,5 +1,9 @@
 duhchuy's SCAM patchnotes
 
+2.39.0.94
+>
+nothing really
+
 2.39.0.75
 >
 _0 append more F to vehicles with fictional config
