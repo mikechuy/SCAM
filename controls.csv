@@ -1956,7 +1956,7 @@ hotkeys/ID_MINE_DETONATION;Mine detonation;Mine detonation;same;;;;;;;;;;;;;;;;;
 hotkeys/ID_UNLIMITED_CONTROL;Select the mission vehicle to control;Select the mission vehicle to control;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TOGGLE_CONSTRUCTION_MODE;Build objects;Building of objects;nice;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SUBMARINE_TOGGLE_PERISCOPE;Up/down periscope;Up/down periscope;same;;;;;;;;;;;;;;;;;;;;
-CONTROLS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;;
+controls/haptic_feedback;Haptic Feedback;Haptic Feedback;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_HUMAN_MOVE_HEADER;Movement;Movement;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_HUMAN_CONTROL_HEADER;Infantryman;Infantryman;same;;;;;;;;;;;;;;;;;;;;
 controls/human_walk;Move axis;Move axis;same;;;;;;;;;;;;;;;;;;;;
@@ -2033,3 +2033,8 @@ controls/help/aircraft/aam/countermeasures;Countermeasures are used to divert we
 controls/help/aircraft/atmg/shooting_window_info;Shooting window indication;Shooting window indication;same;;;;;;;;;;;;;;;;;;;;
 controls/help/aircraft/atmg/guided_weapons_info;Use of guided weapons;Use of guided weapons;same;;;;;;;;;;;;;;;;;;;;
 controls/help/aircraft/atmg/aiming_camera_info;Controlling the aiming camera and weapons;Controlling the aiming camera and weapons;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_AIRPLANE_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_HELICOPTER_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SHIP_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_TANK_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
+CONTROLS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;;

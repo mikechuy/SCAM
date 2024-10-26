@@ -1,5 +1,16 @@
 duhchuy's SCAM patchnotes
 
+2.40.0.31
+>
+shop, killfeed Object > Obj.
+HS 293 A-1 guided bomb > Hs 293 A-1 missile
+9M33A3 > 9M33M3
+give D-54TS ammo names from D-10T
+Brimstone (SAL) > Brimstone♿
+remove battleship and battlecruiser icon from killfeed, capital ships are ez to spot
+Ballistic protection(Aramid) > Aramid composite 18 mm
+
+
 2.39.0.94
 >
 nothing really

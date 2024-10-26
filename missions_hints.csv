@@ -1881,7 +1881,7 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/start2;"These missiles aim at the launch aircraft laser signal reflected from the target
 Press {shortcut} to continue";"These missiles aim at the launch aircraft laser signal reflected from the target
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_atgm_laser/change_view;Press {shortcut} to change camera;Align the crosshair with the target and press {shortcut} to change camera;nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_atgm_laser/change_view;Align the crosshair with the target and press {shortcut} to change camera;Align the crosshair with the target and press {shortcut} to change camera;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/activation_rocket1;You have to activate a missile homing head;You have to activate a missile homing head;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/target;Press {shortcut} to stabilize the crosshair in relation to surface. You can use settings to enable the automatic crosshair stabilization at missile launch;Press {shortcut} to stabilize the crosshair in relation to surface. You can use settings to enable the automatic crosshair stabilization at missile launch;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser/rocket_move;Hold the central crosshair mark on the target until the missile hits;Hold the central crosshair mark on the target until the missile hits;same;;;;;;;;;;;;;;;;;;;
@@ -1997,6 +1997,22 @@ Press {shortcut} to continue";"Align the aircraft's course to the target
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser_fixed_beam/hold_on_target1;To adjust the alignment of the laser beam, the direction of the carrier aircraft's flight is used;To adjust the alignment of the laser beam, the direction of the carrier aircraft's flight is used;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_atgm_laser_fixed_beam/hold_on_target2;Keep the circle on the target with the aircraft's heading until the missile hits;Keep the circle on the target with the aircraft's heading until the missile hits;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/start;"Use of guided bombs with satellite targeting
+These bombs use a designated marker on the surface for targeting before being dropped
+Press {shortcut} to continue";"Use of guided bombs with satellite targeting
+These bombs use a designated marker on the surface for targeting before being dropped
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/zoom;To better identify the target's location, use the camera zoom {shortcut};To better identify the target's location, use the camera zoom {shortcut};same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/spi_info1;If the marker is far from the target, it can be repositioned {shortcut};If the marker is far from the target, it can be repositioned {shortcut};same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/spi_info2;If the marker is correctly placed, use {shortcut} to release the bomb;If the marker is correctly placed, use {shortcut} to release the bomb;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/after_bomb1;"A satellite-guided bomb is unaffected by weather conditions, smoke interference, or time of day
+However, this type of weapon cannot be adjusted after release
+Press {shortcut} to continue";"A satellite-guided bomb is unaffected by weather conditions, smoke interference, or time of day
+However, this type of weapon cannot be adjusted after release
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/after_bomb2;"This makes it ineffective against moving targets
+Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment";"This makes it ineffective against moving targets
+Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/rocket_start;Press {shortcut} to launch missile;Press {shortcut} to launch missile;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activate;Press {shortcut} to activate the laser;Press {shortcut} to activate the laser;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/view_target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;same;;;;;;;;;;;;;;;;;;;
@@ -2056,6 +2072,7 @@ hints/tank_modifications/zoom;Press {shortcut} to zoom the camera;Press {shortcu
 hints/tank_modifications/aim;Press {shortcut} to switch to sniper mode;Press {shortcut} to switch to sniper mode;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/aim_exit;Press {shortcut} to exit sniper mode;Press {shortcut} to exit sniper mode;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/fire;Press {shortcut} to fire;Press {shortcut} to fire;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/need_button;To continue this mission, you need to assign a button {shortcut};To continue this mission, you need to assign a button {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/tank_laser_rangefinder/start1;"A laser rangefinder allows you to quickly and accurately measure the distance to the target
 Press {shortcut} to continue";"A laser rangefinder allows you to quickly and accurately measure the distance to the target
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -2154,6 +2171,29 @@ Press {shortcut} to exit sniper mode";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/end_msg;;"A full ammo load makes a tank more vulnerable, so take as much ammo into battle as you usually need
 Replenish it at the capture point if necessary
 Press {shortcut} to complete the mission";nice;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/info1;"Information on Modification
+Press {shortcut} to continue";"Information on Modification
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/activate;Press {shortcut} to activate the UCAV;Press {shortcut} to activate the UCAV;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_move;The UCAV is very fast and agile, it requires careful handling. Fly to the point;The UCAV is very fast and agile, it requires careful handling. Fly to the point;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai;"The UCAV has a ""circle flight"" mode that allows flight control to be handed over to AI, so that you can focus on enemy detection or target designation
+Press {shortcut} to enable ""circle flight""";"The UCAV has a ""circle flight"" mode that allows flight control to be handed over to AI, so that you can focus on enemy detection or target designation
+Press {shortcut} to enable ""circle flight""";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_enemy;Press {shortcut} to mark the enemy;Press {shortcut} to mark the enemy;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_enemy_find;Allies received a message that the UCAV operator (you) has spotted a target and seen a marker on the map. They can now respond to your information;Allies received a message that the UCAV operator (you) has spotted a target and seen a marker on the map. They can now respond to your information;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai_off;"To turn off ""circle flight"" mode, press {shortcut}";"To turn off ""circle flight"" mode, press {shortcut}";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/info2;"The UCAV also allows you to survey the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
+Press {shortcut} to continue";"The UCAV also allows you to survey the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_target;Fly to your tank;Fly to your tank;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/check_enemy_pause;"An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming
+Press {shortcut} to continue";"An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/check_enemy;An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming;An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_off;"When you understand where the enemy is looking, press ""circle flight"" again to hand over flight control to AI, and switch back to your tank
+Press {shortcut} to switch to your tank";"When you understand where the enemy is looking, press ""circle flight"" again to hand over flight control to AI, and switch back to your tank
+Press {shortcut} to switch to your tank";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/attack_target;Get behind the spotted enemy and destroy them;Get behind the spotted enemy and destroy them;same;;;;;;;;;;;;;;;;;;;
 hints/extraction_sandstorm_is_coming_get_out;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;same;;;;;;;;;;;;;;;;;;;
 hints/rage_scanner_active;The remains of vehicles with available rage flags are highlighted on the minimap.;The remains of vehicles with available rage flags are highlighted on the minimap.;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;
