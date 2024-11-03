@@ -1676,8 +1676,8 @@ hints/tutorial_karantan_capture_02;;If vehicles from both teams are in the captu
 hints/tutorial_karantan_heavy_enemy;;A heavy enemy tank is a serious threat to your vehicle. Find cover and wait for a better moment to attack.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_karantan_flank_02;;Most of the ground vehicle models have weaker armor in the side and rear projections. Vulnerable critical components such as ammo racks and fuel tanks are also located there.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_karantan_flank_03;;Destroy the enemy tank by shooting at the ammo rack located on the side of the tank.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_karantan_spaa;;Self-propelled anti-aircraft (SPAA) vehicles are designed to destroy air targets. Covering allied ground vehicles from enemy aircrafts is an important task on the battlefield.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_karantan_aa_strategy_01;;Shooting at air targets at long range can be ineffective. Enemy aircrafts are most vulnerable when they attack ground targets.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_karantan_spaa;;Self-propelled anti-aircraft (SPAA) vehicles are designed to destroy air targets. Covering allied ground vehicles from enemy aircraft is an important task on the battlefield.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_karantan_aa_strategy_01;;Shooting at air targets at long range can be ineffective. Enemy aircraft are most vulnerable when they attack ground targets.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_karantan_aa_strategy_02;;Wait until the enemy bombers are in the direct line of attack.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_karantan_aa_strategy_03;;Open fire!;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_karantan_heavy_tank;;Heavy tanks have low mobility, but good armor and can withstand multiple hits, making them extremely effective in frontal attacks.;nice;;;;;;;;;;;;;;;;;;;
@@ -2027,7 +2027,7 @@ hints/aircraft_modifications/nvd;Press {shortcut} to switch to the infrared imag
 hints/aircraft_modifications/nvd_menu;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/boomb_view;"After dropping the bomb, you can switch to bomb tracking mode.
 To do this, press and hold {shortcut} until the target is hit";"After dropping the bomb, you can switch to bomb tracking mode
-To do this, press and hold {shortcut} until the target is hit";trim;;;;;;;;;;;;;;;;;;;
+To do this, press and hold {shortcut} until the target is hit";nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_rocket;Press {shortcut} to activate missile seeker;Press {shortcut} to activate missile seeker;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_tv_rocket;Press {shortcut} to activate missile;Press {shortcut} to activate missile;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activation_rocket;"A small circle indicates the point illuminated by the laser from the side of your aircraft. The missile will be guided to that point
@@ -2196,4 +2196,5 @@ Press {shortcut} to switch to your tank";same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/attack_target;Get behind the spotted enemy and destroy them;Get behind the spotted enemy and destroy them;same;;;;;;;;;;;;;;;;;;;
 hints/extraction_sandstorm_is_coming_get_out;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;same;;;;;;;;;;;;;;;;;;;
 hints/rage_scanner_active;The remains of vehicles with available rage flags are highlighted on the minimap.;The remains of vehicles with available rage flags are highlighted on the minimap.;same;;;;;;;;;;;;;;;;;;;
+hints/test_flight/attack_area;You are in the attack zone of an enemy SAM;You are in the attack zone of an enemy SAM;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

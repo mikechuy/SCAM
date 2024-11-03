@@ -1,5 +1,10 @@
 duhchuy's SCAM patchnotes
 
+2.40.0.46
+>
+AV-8S > B.K̄L.1
+correct star for and cross for BMP-2M
+
 2.40.0.31
 >
 shop, killfeed Object > Obj.
@@ -9,7 +14,6 @@ give D-54TS ammo names from D-10T
 Brimstone (SAL) > Brimstone♿
 remove battleship and battlecruiser icon from killfeed, capital ships are ez to spot
 Ballistic protection(Aramid) > Aramid composite 18 mm
-
 
 2.39.0.94
 >
