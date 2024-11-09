@@ -44,7 +44,7 @@ mainmenu/btnPsnProfile;Profile;Profile;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnComplain;Complain;Complain;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnSend;Send;Send;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnUserCard;Player Card;Player Card;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnProfile;Player Card;Player Profile;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnProfile;Player Profile;Player Profile;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnMain;Main;Main;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnSteamFriendsAdd;Add Steam Friends;Add Steam Friends;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnFacebookFriendsAdd;;Add Facebook Friends;nice;;;;;;;;;;;;;;;;;;;
@@ -683,6 +683,7 @@ exp_reasons/kill_finishing_other;Aircraft finished off;Aircraft finished off;sam
 exp_reasons/kill_from_severe_damage;Severely damaged aircraft kill counted;Severely damaged aircraft kill counted;same;;;;;;;;;;;;;;;;;;;
 exp_reasons/kill_helicopter_finishing_other;Helicopter finished off;Helicopter finished off;same;;;;;;;;;;;;;;;;;;;
 exp_reasons/kill_helicopter_from_severe_damage;Severely damaged helicopter kill counted;Severely damaged helicopter kill counted;same;;;;;;;;;;;;;;;;;;;
+exp_reasons/missile_evade;Missile evasion;Missile evasion;same;;;;;;;;;;;;;;;;;;;
 campaigns/demo_campaign;Historical Campaign;Historical Campaign;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnPersonnel;Crew;Crew;same;;;;;;;;;;;;;;;;;;;
 menu/not_bought;Not acquired;Not acquired;same;;;;;;;;;;;;;;;;;;;
@@ -893,7 +894,7 @@ msgbox/select_repared_aircraft;"You need to select a fully repaired vehicle to s
 msgbox/select_repared_aircrafts_random;"You need to select a fully repaired vehicle for each country to start a mission.
  Full repair cost: %s";"You need to select a fully repaired vehicle for each country to start a mission.
  Full repair cost: %s";same;;;;;;;;;;;;;;;;;;;
-msgbox/no_available_aircrafts;The crews of the selected country are still in battle and cannot be used until the mission has ended or until %s has passed after you have left the battle.;The crews of the selected country are still in battle and cannot be used until the mission has ended or until %s has passed after you have entered the battle.;nice;;;;;;;;;;;;;;;;;;;
+msgbox/no_available_aircrafts;The crews of the selected country are still in battle and cannot be used until the mission has ended or until %s has passed after you have entered the battle.;The crews of the selected country are still in battle and cannot be used until the mission has ended or until %s has passed after you have entered the battle.;same;;;;;;;;;;;;;;;;;;;
 msgbox/no_available_aircrafts_random;All your crews are still in battle and cannot be used until the mission has ended or until %s have passed after you entered the battle.;All your crews are still in battle and cannot be used until the mission has ended or until %s have passed after you entered the battle.;same;;;;;;;;;;;;;;;;;;;
 msgbox/select_available_aircraft;You need to choose an available vehicle to start a mission.;You need to choose an available vehicle to start a mission.;same;;;;;;;;;;;;;;;;;;;
 msgbox/select_available_aircrafts_random;You need to choose an available vehicle in each country to start a mission.;You need to choose an available vehicle in each country to start a mission.;same;;;;;;;;;;;;;;;;;;;
@@ -4849,8 +4850,8 @@ Please confirm if you are from {country}.";"Random rewards functionality may be 
 Please confirm if you are from {country}.";same;;;;;;;;;;;;;;;;;;;
 msgbox/legalRestrictionsNotice;Purchasing random reward items is limited due to legal restrictions imposed in your country.;Purchasing random reward items is limited due to legal restrictions imposed in your country.;same;;;;;;;;;;;;;;;;;;;
 duplicate_role/tank_gunner;Fires main armament;Can fire main armament;nice;;;;;;;;;;;;;;;;;;;
-duplicate_role/driver;Drives the vehicle;Can drive the vehicle;nice;;;;;;;;;;;;;;;;;;;
-duplicate_role/loader;Loads vehicle armament;Performs tank loader's duties;nice;;;;;;;;;;;;;;;;;;;
+duplicate_role/driver;Drives;Can drive the vehicle;nice;;;;;;;;;;;;;;;;;;;
+duplicate_role/loader;Loads armament;Performs tank loader's duties;nice;;;;;;;;;;;;;;;;;;;
 duplicate_role/commander;Overworked;;trim;;;;;;;;;;;;;;;;;;;
 duplicate_role/radio_gunner;Meat Shield;;trim;;;;;;;;;;;;;;;;;;;
 msg/error_when_try_to_respawn;Get Gaijined again xaxaxa;An error occurred while trying to respawn.;nice;;;;;;;;;;;;;;;;;;;
@@ -5199,3 +5200,5 @@ shipHitHint/pierceThroughHit;Pierced through with no damage;Pierced through with
 hints/cover_destroyed;Unsinkability lost!;Unsinkability lost!;same;;;;;;;;;;;;;;;;;;;
 hitsAnalisys/openHitFile;Open hit file;Open hit file;same;;;;;;;;;;;;;;;;;;;
 hitsAnalisys/replayShot;Replay shot;Replay shot;same;;;;;;;;;;;;;;;;;;;
+stats/average_active_kills_by_spawn;Targets Destroyed/Deaths Ratio (players);Targets Destroyed/Deaths Ratio (players);same;;;;;;;;;;;;;;;;;;;
+stats/average_script_kills_by_spawn;Targets Destroyed/Deaths Ratio (AI);Targets Destroyed/Deaths Ratio (AI);same;;;;;;;;;;;;;;;;;;;

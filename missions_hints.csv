@@ -504,7 +504,7 @@ WEAPONS WILL BE ENABLED AFTER THE TIMER EXPIRES";"The first who wins in two roun
 
 WEAPONS WILL BE ENABLED AFTER THE TIMER EXPIRES";same;;;;;;;;;;;;;;;;;;;
 hints/duel_round_finished;Round has finished. Be ready for the next Round;Round has finished. Be ready for the next Round;same;;;;;;;;;;;;;;;;;;;
-hints/youre_living_battlearea;WARNING !!! You're leaving the battlearea !;WARNING !!! You're leaving the battlearea !;same;;;;;;;;;;;;;;;;;;;
+hints/youre_living_battlearea;WARNING!!! You're leaving the battle!;WARNING !!! You're leaving the battlearea !;nice;;;;;;;;;;;;;;;;;;;
 hints/gladiators_waiting_for_players;Waiting for players, if the team is missing, they will receive defeat;Waiting for players, if the team is missing, they will receive defeat;same;;;;;;;;;;;;;;;;;;;
 hints/duel_waiting_for_players;Waiting for players;Waiting for players;same;;;;;;;;;;;;;;;;;;;
 hints/duel_battle_begin;The battle begins!;The battle begins!;same;;;;;;;;;;;;;;;;;;;
@@ -547,7 +547,7 @@ hints/dlc_britain_battle_of_britain_day_hint;A new group of enemy fighters is co
 hints/dlc_britain_battle_of_britain_day_area_hint;Return to the patrol area;Return to the patrol area;same;;;;;;;;;;;;;;;;;;;
 hints/blind_hunt_f86_help;Aircraft of the second flight have spotted the convoys!;Aircraft of the second flight have spotted the convoys!;same;;;;;;;;;;;;;;;;;;;
 hints/on_the_grozny_way;The bombers were suddenly attacked by a large group of fighters. Now they are making a hasty retreat!;The bombers were suddenly attacked by a large group of fighters. Now they are making a hasty retreat!;same;;;;;;;;;;;;;;;;;;;
-hints/pkg9_close_to_water_hint;Anti-aircraft fire is becoming heavier! Manoeuvre more actively!;Anti-aircraft fire is becoming heavier! Manoeuvre more actively!;same;;;;;;;;;;;;;;;;;;;
+hints/pkg9_close_to_water_hint;Anti-aircraft fire is becoming heavier! Maneuver more actively!;Anti-aircraft fire is becoming heavier! Manoeuvre more actively!;nice;;;;;;;;;;;;;;;;;;;
 hints/bad_bomb_angle;You cannot drop the bombs because of your plane's current attitude;You cannot drop the bombs because of your plane's current attitude;same;;;;;;;;;;;;;;;;;;;
 hints/bad_torpedo_angle;You cannot drop the torpedo because of your plane's current attitude;You cannot drop the torpedo because of your plane's current attitude;same;;;;;;;;;;;;;;;;;;;
 hints/single_pokryshkin_zone_left;Return to the covering force area!;Return to the covering force area!;same;;;;;;;;;;;;;;;;;;;
@@ -1048,7 +1048,7 @@ hints/duel_shoot_disable;Fly straight until the weapon is enabled;Fly straight u
 hints/tournament_shooting_disabled;Weapon will be enabled after the timer runs out;Weapon will be enabled after the timer runs out;same;;;;;;;;;;;;;;;;;;;
 hints/tournament_shooting_enabled;Weapon enabled;Weapon enabled;same;;;;;;;;;;;;;;;;;;;
 hints/enemy_have_advantage;The enemy has achieved air superiority. You have started losing victory points!;The enemy has achieved air superiority. You have started losing victory points!;same;;;;;;;;;;;;;;;;;;;
-hints/tank_in_enemy_zone;Your tank is in the hostile area !;Your tank is in the hostile area !;same;;;;;;;;;;;;;;;;;;;
+hints/tank_in_enemy_zone;Your tank is in the hostile area!;Your tank is in the hostile area !;nice;;;;;;;;;;;;;;;;;;;
 hints/tank_will_respawn_in_1;Trophy will respawn in 1 second;Trophy will respawn in 1 second;same;;;;;;;;;;;;;;;;;;;
 hints/tank_will_respawn_in_2;Trophy will respawn in 2 seconds;Trophy will respawn in 2 seconds;same;;;;;;;;;;;;;;;;;;;
 hints/tank_will_respawn_in_3;Trophy will respawn in 3 seconds;Trophy will respawn in 3 seconds;same;;;;;;;;;;;;;;;;;;;
@@ -2053,9 +2053,9 @@ hints/aircraft_modifications/menu_choose_mfd;Choose 'MFD / NVD';Сhoose 'MFD / N
 hints/aircraft_modifications/menu_choose_ndv;Choose 'Switch NVD mode';Сhoose 'Switch NVD mode';nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/menu_choose_radar;Choose 'Radar / IRST';Сhoose 'Radar / IRST';nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/menu_choose_radar_switch;Choose 'Change Radar/IRST mode';Сhoose 'Change Radar/IRST mode';nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the desired point and activate the aiming point.
+hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the desired point and activate the aiming point
 Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point
-Press {shortcut} to activate it";trim;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to activate it";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/find_target;Align the aircraft's course to the target;Align the aircraft's course to the target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/sim_down;Align the aircraft's course to the ground to find a target;Align the aircraft's course to the ground to find a target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/sim_up;Align the aircraft's course to the sky to avoid colliding with the ground;Align the aircraft's course to the sky to avoid colliding with the ground;same;;;;;;;;;;;;;;;;;;;
@@ -2064,7 +2064,7 @@ hints/aircraft_modifications/change_view;Press {shortcut} to change camera;Press
 hints/aircraft_modifications/change_view_camera;Press {shortcut} to change the view and switch to 3rd person view;Press {shortcut} to change the view and switch to 3rd person view;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/try_again;"The target was not hit
 Press {shortcut} to begin the challenge again {{var}}";"The target was not hit
-Press {shortcut} to begin the challenge again {{var}}";same;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to begin the challenge again ({var})";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_target;Align the crosshair with the target;Align the crosshair with the target;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_next_target;Align the crosshair with the next target;Align the crosshair with the next target;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_target_again;The lock has been lost. Aim at the target again;The lock has been lost. Aim at the target again;same;;;;;;;;;;;;;;;;;;;
@@ -2099,9 +2099,9 @@ Press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_uncaged_tft/shoot_info1;"A homing head with uncaging allows the missile to deviate from the locked target at a certain angle, displayed in the game as an external circle, without losing target lock
 Press {shortcut} to continue";"A homing head with uncaging allows the missile to deviate from the locked target at a certain angle, displayed in the game as an external circle, without losing target lock
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_uncaged_tft/shoot_info2;"This way, you can apply additional lead when launching the missile, creating more favourable conditions for hitting the target
+hints/tank_sam_ir_uncaged_tft/shoot_info2;"This way, you can apply additional lead when launching the missile, creating more favorable conditions for hitting the target
 Press {shortcut} to continue";"This way, you can apply additional lead when launching the missile, creating more favourable conditions for hitting the target
-Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_caged_tft/shoot_info1;"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
 Press {shortcut} to continue";"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -2114,9 +2114,9 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_01;"In automatic mode, the homing head continuously determines in which channel (photo-contrast or infrared) the target is most visible and automatically selects the best channel for target lock at the moment of launch
 Press {shortcut} to continue";"In automatic mode, the homing head continuously determines in which channel (photo-contrast or infrared) the target is most visible and automatically selects the best channel for target lock at the moment of launch
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/info_02;"In most cases, automatic mode works well, but it cannot account for the maneuvers and behaviour of the target (e.g., firing flares)
+hints/tank_sam_ir_photocontrast_mode_tft/info_02;"In most cases, automatic mode works well, but it cannot account for the maneuvers and behavior of the target (e.g., firing flares)
 Press {shortcut} to continue";"In most cases, automatic mode works well, but it cannot account for the maneuvers and behaviour of the target (e.g., firing flares)
-Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_02_aim;Try to hit a target using flares;Try to hit a target using flares;same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_02_change_mode_aim;Try to hit the same target in photo-contrast seeker mode;Try to hit the same target in photo-contrast seeker mode;same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_02_missed;"As you can see, the missile was diverted by the flares
@@ -2196,5 +2196,6 @@ Press {shortcut} to switch to your tank";same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/attack_target;Get behind the spotted enemy and destroy them;Get behind the spotted enemy and destroy them;same;;;;;;;;;;;;;;;;;;;
 hints/extraction_sandstorm_is_coming_get_out;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;same;;;;;;;;;;;;;;;;;;;
 hints/rage_scanner_active;The remains of vehicles with available rage flags are highlighted on the minimap.;The remains of vehicles with available rage flags are highlighted on the minimap.;same;;;;;;;;;;;;;;;;;;;
-hints/test_flight/attack_area;You are in the attack zone of an enemy SAM;You are in the attack zone of an enemy SAM;same;;;;;;;;;;;;;;;;;;;
+hints/test_flight/attack_area;You are in the attack zone of enemy air defense;You are in the attack zone of enemy air defense;same;;;;;;;;;;;;;;;;;;;
+hints/ammo_used_exit_zone;Ammo is out, you can leave the mission using zone ␡;Ammo is out, you can leave the mission using zone ␡;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

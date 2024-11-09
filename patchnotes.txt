@@ -1,9 +1,21 @@
 duhchuy's SCAM patchnotes
 
+2.40.0.53
+>
+JA37DI F21 > ♚JA 37DI
+▄Mi-35M > ☪Mi-35M
+fix some guided bomb weights
+Pave Spike targeting pod > AN/ASQ-153 Pave Spike
+Pave Tack targeting pod > AN/AVQ-26 Pave Tack
+add diameter to most torpedoes
+Special weapon > 25 kg Toilet bomb
+Thales RDY > Radar Doppler Multicible
+Thomson-CSF RDM > Radar Doppler Multifonction
+
 2.40.0.46
 >
 AV-8S > B.K̄L.1
-correct star for and cross for BMP-2M
+correct star for Mirage and cross for BMP-2M
 
 2.40.0.31
 >
