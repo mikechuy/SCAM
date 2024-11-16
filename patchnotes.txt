@@ -1,5 +1,15 @@
 duhchuy's SCAM patchnotes
 
+2.40.0.65
+>
+_0 adjust french tanks
+_0 add production block to F-15s
+correct cn_f47n star
+add ♋ to 183mm Hesh
+restore common to naval shell
+Schneider-Canet SAP > SC Common pointed
+to activate the bomb fuze > and end <color=#ff0000>«</color>one million lives<color=#ff0000>»</color>
+
 2.40.0.53
 >
 JA37DI F21 > ♚JA 37DI

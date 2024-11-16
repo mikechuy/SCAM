@@ -533,7 +533,7 @@ hints/ready_to_bailout_helicopter_nokey;"Your helicopter had suffered critical d
 hints/bailout_helicopter_in_progress;You'll leave your helicopter in;You'll leave your helicopter in;same;;;;;;;;;;;;;;;;;;;
 hints/bailout_in_progress;You'll leave your aircraft in;You'll leave your aircraft in;same;;;;;;;;;;;;;;;;;;;
 hints/leaving_the_tank_in_progress;You'll leave your vehicle in;You'll leave your vehicle in;same;;;;;;;;;;;;;;;;;;;
-hints/bailout_cant_repair;Gaijin is a cunt, fuck your repair;The plane can't be repaired, you'll leave it;nice;;;;;;;;;;;;;;;;;;;
+hints/bailout_cant_repair;Gaijin is a cunt, no repair;The plane can't be repaired, you'll leave it;nice;;;;;;;;;;;;;;;;;;;
 hints/wait_for_orders;Wait for new orders;Wait for new orders;same;;;;;;;;;;;;;;;;;;;
 hints/dlc_in_tennets_of_berlin_hint;Enemy fighters are approaching;Enemy fighters are approaching;same;;;;;;;;;;;;;;;;;;;
 hints/dlc_in_tennets_of_berlin_bombs_good;The bombing was successful;The bombing was successful;same;;;;;;;;;;;;;;;;;;;
@@ -1768,8 +1768,8 @@ hints/tutorialDestr_capture_done;"The zone is yours — as is the victory!
 That's all you need to know to join your first battle.";"The zone is yours — as is the victory!
 
 That's all you need to know to join your first battle.";same;;;;;;;;;;;;;;;;;;;
-hints/reach_battlearea_to_activate_the_bomb;Fly to the battlefield to arm the nuke;Fly to the tank battlefield to activate the bomb fuze;nice;;;;;;;;;;;;;;;;;;;
-hints/drop_the_bomb;Drop the nuke;Drop the bomb;nice;;;;;;;;;;;;;;;;;;;
+hints/reach_battlearea_to_activate_the_bomb;Fly to the battlefield and end <color=#ff0000>«</color>one million lives<color=#ff0000>»</color>;Fly to the tank battlefield to activate the bomb fuze;trim;;;;;;;;;;;;;;;;;;;
+hints/drop_the_bomb;Drop the <color=#ff0000>nuke</color>!;Drop the bomb;trim;;;;;;;;;;;;;;;;;;;
 hints/take_defensive_positions;You have {var} seconds to take defensive positions;You have {var} seconds to take defensive positions;same;;;;;;;;;;;;;;;;;;;
 hints/mission_starts_in;The mission will start in: {var};The mission will start in: {var};same;;;;;;;;;;;;;;;;;;;
 hints/rearm_available;Ammunition replenishment is available near the captured stockpiles;Ammunition replenishment is available near the captured stockpiles;same;;;;;;;;;;;;;;;;;;;
@@ -2063,8 +2063,8 @@ hints/aircraft_modifications/zoom;Press {shortcut} to zoom the camera;Press {sho
 hints/aircraft_modifications/change_view;Press {shortcut} to change camera;Press {shortcut} to change camera;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/change_view_camera;Press {shortcut} to change the view and switch to 3rd person view;Press {shortcut} to change the view and switch to 3rd person view;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/try_again;"The target was not hit
-Press {shortcut} to begin the challenge again {{var}}";"The target was not hit
-Press {shortcut} to begin the challenge again ({var})";nice;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to begin the challenge again ({var})";"The target was not hit
+Press {shortcut} to begin the challenge again ({var})";same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_target;Align the crosshair with the target;Align the crosshair with the target;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_next_target;Align the crosshair with the next target;Align the crosshair with the next target;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_target_again;The lock has been lost. Aim at the target again;The lock has been lost. Aim at the target again;same;;;;;;;;;;;;;;;;;;;
@@ -2137,40 +2137,57 @@ Press {shortcut} to switch missile guidance mode (an aircraft icon with a sight 
 hints/tank_sam_ir_photocontrast_mode_tft/info_03_change_mode_gamepad;"Select the ""Switch guidance method"" option. You need to switch to the infrared missile targeting mode (the icon showing an aircraft with a crosshair on the rear)
 After switching, press {shortcut} to continue";"Select the ""Switch guidance method"" option. You need to switch to the infrared missile targeting mode (the icon showing an aircraft with a crosshair on the rear)
 After switching, press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/info1;;"Binoculars are one of the cameras available to the player. Binoculars are convenient for observing enemies from cover and for pre-aiming your weapon at the target for a subsequent shot
-Press {shortcut} to switch to binoculars";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/binocular_shoot;;Press {shortcut} on the enemy to turn the turret in their direction;nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/binocular_wait_weapon;;Wait for the weapon to aim at the target;nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/rangefinder;;"The binoculars, like the sight, have a rangefinder available
-Aim at the enemy and press {shortcut} to measure the distance";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/info2;;"Now you know the direction and distance to the enemy, so you can fire at them if your weapon’s ballistics allow
-Press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/shoot;;"Raise the weapon to the measured distance to the target and fire a shot
-Press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/binocular_check_shoot;;"Switch to binoculars to see where the projectile hit
-Press {shortcut} to switch to binoculars";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/aim_target_arcade;;"The white cross shows where the projectile will hit after the shot
-Use {shortcut} to aim it at the target";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/aim_arcade;;"When the point of impact (white cross) is exactly on the target,
-press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_binocular_tft/shoot_again;;"The projectile missed the target. Switch to the sight and adjust the direction or angle of fire
-Press {shortcut} to switch to the sight";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_msg;;"The more ammo in the vehicle, the higher the chance that when the ammo is hit by a shell, the vehicle will be disabled
-Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01;;"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front section
-Press {shortcut} to switch to sniper mode";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;;"The turret and upper frontal plate are generally tough, so shooting them is not effective
+hints/tank_binocular_tft/info1;"Binoculars are one of the cameras available to the player. Binoculars are convenient for observing enemies from cover and for pre-aiming your weapon at the target for a subsequent shot
+Press {shortcut} to switch to binoculars";"Binoculars are one of the cameras available to the player. Binoculars are convenient for observing enemies from cover and for pre-aiming your weapon at the target for a subsequent shot
+Press {shortcut} to switch to binoculars";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_shoot;Press {shortcut} on the enemy to turn the turret in their direction;Press {shortcut} on the enemy to turn the turret in their direction;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_wait_weapon;Wait for the weapon to aim at the target;Wait for the weapon to aim at the target;same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/rangefinder;"The binoculars, like the sight, have a rangefinder available
+Aim at the enemy and press {shortcut} to measure the distance";"The binoculars, like the sight, have a rangefinder available
+Aim at the enemy and press {shortcut} to measure the distance";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/info2;"Now you know the direction and distance to the enemy, so you can fire at them if your weapon’s ballistics allow
+Press {shortcut} to switch to the sight";"Now you know the direction and distance to the enemy, so you can fire at them if your weapon’s ballistics allow
+Press {shortcut} to switch to the sight";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/shoot;"Raise the weapon to the measured distance to the target and fire a shot
+Press {shortcut} to fire";"Raise the weapon to the measured distance to the target and fire a shot
+Press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/binocular_check_shoot;"Switch to binoculars to see where the projectile hit
+Press {shortcut} to switch to binoculars";"Switch to binoculars to see where the projectile hit
+Press {shortcut} to switch to binoculars";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/aim_target_arcade;"The white cross shows where the projectile will hit after the shot
+Use {shortcut} to aim it at the target";"The white cross shows where the projectile will hit after the shot
+Use {shortcut} to aim it at the target";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/aim_arcade;"When the point of impact (white cross) is exactly on the target,
+press {shortcut} to switch to the sight";"When the point of impact (white cross) is exactly on the target,
+press {shortcut} to switch to the sight";same;;;;;;;;;;;;;;;;;;;
+hints/tank_binocular_tft/shoot_again;"The projectile missed the target. Switch to the sight and adjust the direction or angle of fire
+Press {shortcut} to switch to the sight";"The projectile missed the target. Switch to the sight and adjust the direction or angle of fire
+Press {shortcut} to switch to the sight";same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_msg;"The more ammo in the vehicle, the higher the chance that when the ammo is hit by a shell, the vehicle will be disabled
+Press {shortcut} to continue";"The more ammo in the vehicle, the higher the chance that when the ammo is hit by a shell, the vehicle will be disabled
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front section
+Press {shortcut} to switch to sniper mode";"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front section
+Press {shortcut} to switch to sniper mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;"The turret and upper frontal plate are generally tough, so shooting them is not effective
 It is more efficient to aim at the lower frontal plate, where the ammo is stored
-Aim at the highlighted part and press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_02;;"The second tank has only half the ammo load. The ammunition is stored only in the turret
-Press {shortcut} to switch to sniper mode";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;;"There is no ammo in the lower frontal section now, making the tank less vulnerable
-Aim at the highlighted part and press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/change_target;;"As you can see, the target is destroyed by hitting the area with the ammo
-Press {shortcut} to exit sniper mode";nice;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/end_msg;;"A full ammo load makes a tank more vulnerable, so take as much ammo into battle as you usually need
+Aim at the highlighted part and press {shortcut} to fire";"The turret and upper frontal plate are generally tough, so shooting them is not effective
+It is more efficient to aim at the lower frontal plate, where the ammo is stored
+Aim at the highlighted part and press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_02;"The second tank has only half the ammo load. The ammunition is stored only in the turret
+Press {shortcut} to switch to sniper mode";"The second tank has only half the ammo load. The ammunition is stored only in the turret
+Press {shortcut} to switch to sniper mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;"There is no ammo in the lower frontal section now, making the tank less vulnerable
+Aim at the highlighted part and press {shortcut} to fire";"There is no ammo in the lower frontal section now, making the tank less vulnerable
+Aim at the highlighted part and press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/change_target;"As you can see, the target is destroyed by hitting the area with the ammo
+Press {shortcut} to exit sniper mode";"As you can see, the target is destroyed by hitting the area with the ammo
+Press {shortcut} to exit sniper mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_low_ammo_survivability_tft/end_msg;"A full ammo load makes a tank more vulnerable, so take as much ammo into battle as you usually need
 Replenish it at the capture point if necessary
-Press {shortcut} to complete the mission";nice;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to complete the mission";"A full ammo load makes a tank more vulnerable, so take as much ammo into battle as you usually need
+Replenish it at the capture point if necessary
+Press {shortcut} to complete the mission";same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/info1;"Information on Modification
 Press {shortcut} to continue";"Information on Modification
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
