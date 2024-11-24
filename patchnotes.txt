@@ -1,5 +1,10 @@
 duhchuy's SCAM patchnotes
 
+2.41.0.29
+>
+gunner unconscious > gunner dead
+EasyAntiCheat > BattlEye
+
 2.40.0.65
 >
 _0 adjust french tanks

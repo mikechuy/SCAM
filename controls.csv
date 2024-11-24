@@ -1138,7 +1138,7 @@ joystick/axis_not_assigned;Not Assigned;Not Assigned;same;;;;;;;;;;;;;;;;;;;;
 joystick/no_available_joystick;No available devices;No available devices;same;;;;;;;;;;;;;;;;;;;;
 joystick/logicalAxis;Logical axis;Logical axis;same;;;;;;;;;;;;;;;;;;;;
 joystick/physicalAxis;Physical axis;Physical axis;same;;;;;;;;;;;;;;;;;;;;
-hotkeys/shortcut_not_assigned;Key not assigned;Key not assigned;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/shortcut_not_assigned;Fuck Gaijin Code;Key not assigned;nice;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SEPARATE_ENGINE_CONTROL_HEADER;Separate engine control;Separate engine control;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TOGGLE_1_ENGINE_CONTROL;First engine controls;First engine controls;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TOGGLE_2_ENGINE_CONTROL;Second engine controls;Second engine controls;same;;;;;;;;;;;;;;;;;;;;

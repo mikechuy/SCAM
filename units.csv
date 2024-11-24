@@ -4795,7 +4795,7 @@ ahs_shop;AHS S95;AHS;AHS;4;;;;;;;;;;;;;;;;;;;
 ahs_0;Attackhelikoptersystem studie 1995P;Attack Helicopter System;攻击直升机系统研究计划;11;;;;;;;;;;;;;;;;;;;
 ahs_1;AHS S95;AHS;AHS;4;;;;;;;;;;;;;;;;;;;
 ahs_2;AHS;AHS;AHS;same;;;;;;;;;;;;;;;;;;;
-shop/group/saab_ja37d_group;JA 37D;JA37D/DI;JA37D/DI;-2;;;;;;;;;;;;;;;;;;;
+shop/group/saab_ja37d_group;JA 37D;JA37D/DI;JA 37D/DI;-2;;;;;;;;;;;;;;;;;;;
 saab_ja37_shop;JA 37C;JA37C;JA 37C;1;;;;;;;;;;;;;;;;;;;
 saab_ja37_0;"JA 37C ""Jaktviggen"", 1993";JA37C Jaktviggen;JA 37C 猎雷;9;;;;;;;;;;;;;;;;;;;
 saab_ja37_1;JA 37C;JA37C;JA 37C;1;;;;;;;;;;;;;;;;;;;
@@ -13533,7 +13533,7 @@ fr_battleship_dunkerque_0;Dunkerque-classe, Dunkerque, 1939;Dunkerque-class, 
 fr_battleship_dunkerque_1;Dunkerque;Dunkerque;敦刻尔克;same;;;;;;;;;;;;;;;;;;;
 fr_battleship_dunkerque_2;Dunkerque;Battleship;战列舰;-1;;;;;;;;;;;;;;;;;;;
 uk_battlecruiser_repulse_shop;HMS Repulse;HMS Repulse;反击;same;;;;;;;;;;;;;;;;;;;
-uk_battlecruiser_repulse_0;Renown-class, HMS Repulse (34), 1941;Renown-class, HMS Repulse (34), 1941;声望级战列巡洋舰“反击”号 (34, 1944);same;;;;;;;;;;;;;;;;;;;
+uk_battlecruiser_repulse_0;Renown-class, HMS Repulse (34), 1941;Renown-class, HMS Repulse (34), 1941;声望级战列巡洋舰“反击”号 (34, 1941);same;;;;;;;;;;;;;;;;;;;
 uk_battlecruiser_repulse_1;Repulse;HMS Repulse;反击;-4;;;;;;;;;;;;;;;;;;;
 uk_battlecruiser_repulse_2;Repulse;Battlecruiser;战列巡洋舰;-6;;;;;;;;;;;;;;;;;;;
 jp_destroyer_murasame_shop;JDS Murasame (DD-107);JDS Murasame (DD-107);村雨;same;;;;;;;;;;;;;;;;;;;
