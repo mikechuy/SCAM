@@ -1,5 +1,10 @@
 duhchuy's SCAM patchnotes
 
+2.41.0.47
+>
+SM.79 B > ⛨SM-79B
+adjust boat missile launchers
+
 2.41.0.29
 >
 gunner unconscious > gunner dead
