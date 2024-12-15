@@ -1,5 +1,20 @@
 duhchuy's SCAM patchnotes
 
+2.42.0.24
+>
+NEXTER 30M791 > DEFA 791
+FAB-3000 UMPK bomb > FAB-3000 UMPK guided bomb
+AGM-130A guided bomb > AGM-130A missile
+HAMMER guided bomb > HAMMER missile
+Drop tank (2000 liters.) > RP741⛽ (2000 ℓ)
+16 inch/45 BL Mark I mod.2 cannon > 16-inch/45 BL Mk.I, rifling Mk.II cannon
+Two Fronts > Spit Roast
+▅Howitzer, Self-propelled, Full Tracked: 155-mm, M44 > M44 155 mm Howitzer SP, 1967F
+and ▄155 mm SP, Tracked, M44 "Cardinal", 1962
+and ☨Houwitser 155 mm M44, 1961
+Ju 87 G "Stuka" > Ju 87 G "Kanonenvogel"
+localized all Thai designations
+
 2.41.0.47
 >
 SM.79 B > ⛨SM-79B

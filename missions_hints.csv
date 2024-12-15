@@ -1638,20 +1638,20 @@ Return to the 3rd person view with {{ID_TOGGLE_VIEW_SHIP}}.";"Perfect! The targe
 
 Return to the 3rd person view with {{ID_TOGGLE_VIEW_SHIP}}.";same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_third_target_auto;"Your new target is another boat, but it's moving this time.
-
-Switch the automatic gunners mode to ""surface targets"" with {{ID_SHIP_TOGGLE_GUNNERS}}.";"Your new target is another boat, but it's moving this time.
-
-Switch the automatic gunners mode to ""surface targets"" with {{ID_SHIP_TOGGLE_GUNNERS}}.";same;;;;;;;;;;;;;;;;;;;
-hints/tutorialDestr_third_target_down;As you can see your gunners can deal with light vessels on their own.;As you can see your gunners can deal with light vessels on their own.;same;;;;;;;;;;;;;;;;;;;
+Switch the automatic gunners mode to ""surface targets""
+with {{ID_SHIP_TOGGLE_GUNNERS}}.";"Your new target is another boat, but it's moving this time.
+Switch the automatic gunners mode to ""surface targets""
+with {{ID_SHIP_TOGGLE_GUNNERS}}.";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialDestr_third_target_down;As you can see, your gunners can deal with light vessels on their own.;As you can see, your gunners can deal with light vessels on their own.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fourth_target_auto;"Your gunners can also help you to repel air attacks.
 
 Switch the automatic gunners mode to ""aerial targets"" with {{ID_SHIP_TOGGLE_GUNNERS}}.";"Your gunners can also help you to repel air attacks.
 
 Switch the automatic gunners mode to ""aerial targets"" with {{ID_SHIP_TOGGLE_GUNNERS}}.";same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fourth_target_down;The aircraft's destroyed!;The aircraft's destroyed!;same;;;;;;;;;;;;;;;;;;;
-hints/tutorialDestr_fifth_target_lock;"Next target is a destroyer, pretty much like your own. It's better to use torpedoes against that kind of vessel.
+hints/tutorialDestr_fifth_target_lock;"Your next target is a destroyer, pretty much like your own. It's better to use torpedoes against that kind of vessel.
 
-Lock on this target using {{ID_LOCK_TARGET}}.";"Next target is a destroyer, pretty much like your own. It's better to use torpedoes against that kind of vessel.
+Lock on this target using {{ID_LOCK_TARGET}}.";"Your next target is a destroyer, pretty much like your own. It's better to use torpedoes against that kind of vessel.
 
 Lock on this target using {{ID_LOCK_TARGET}}.";same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fifth_target_torpedo_sight;Activate the torpedo sight: {{ID_SHIP_TORPEDO_SIGHT}}.;Activate the torpedo sight: {{ID_SHIP_TORPEDO_SIGHT}}.;same;;;;;;;;;;;;;;;;;;;
@@ -1915,6 +1915,9 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/zoom;To better identify the target's location, use the camera zoom {shortcut};To better identify the target's location, use the camera zoom {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info1;If the marker is far from the target, it can be repositioned {shortcut};If the marker is far from the target, it can be repositioned {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info2;If the marker is correctly placed, use {shortcut} to release the bomb;If the marker is correctly placed, use {shortcut} to release the bomb;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/next_target;;Mark the next target and press {shortcut} to drop the bomb;nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/aim_bomb;;Aim at the target and press {shortcut} to drop the bomb;nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/aim_next_target;;Aim at the next target and press {shortcut} to drop the bomb;nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/after_bomb1;"A satellite-guided bomb is unaffected by weather conditions, smoke interference, or time of day
 However, this type of weapon cannot be adjusted after release
 Press {shortcut} to continue";"A satellite-guided bomb is unaffected by weather conditions, smoke interference, or time of day
@@ -1927,8 +1930,9 @@ hints/aircraft_modifications/rocket_start;Press {shortcut} to launch missile;Pre
 hints/aircraft_modifications/laser_activate;Press {shortcut} to activate the laser;Press {shortcut} to activate the laser;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/view_target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/view_target_after;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/change_view_homing;To switch to the TV camera mode, use the change view {shortcut};To switch to the TV camera mode, use the change view {shortcut};same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/change_view_container;To switch to the view from the targeting container, use the change view {shortcut};To switch to the view from the targeting container, use the change view {shortcut};same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/change_view_homing;To switch to the seeker camera mode, use the view change {shortcut};To switch to the seeker camera mode, use the view change {shortcut};same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/change_view_laser;To switch to the pod camera mode, use the view change {shortcut};To switch to the pod camera mode, use the view change {shortcut};same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/change_view_container;To switch to the targeting container view, use the view change {shortcut};To switch to the targeting container view, use the view change {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/boomb_start;When the target is within the circle of the release zone, press {shortcut};When the target is within the circle of the release zone, press {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/bomb_cancel;The bomb has not been dropped;The bomb has not been dropped;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/after_bomb;After the bomb is dropped, the transmission of the image to the carrier aircraft stops, and the bomb is guided to the target independently. You can perform any defensive maneuvers or attack the next target;After the bomb is dropped, the transmission of the image to the carrier aircraft stops, and the bomb is guided to the target independently. You can perform any defensive maneuvers or attack the next target;same;;;;;;;;;;;;;;;;;;;
@@ -1937,7 +1941,7 @@ hints/aircraft_modifications/nvd;Press {shortcut} to switch to the infrared imag
 hints/aircraft_modifications/nvd_menu;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/boomb_view;"After dropping the bomb, you can switch to bomb tracking mode.
 To do this, press and hold {shortcut} until the target is hit";"After dropping the bomb, you can switch to bomb tracking mode
-To do this, press and hold {shortcut} until the target is hit";nice;;;;;;;;;;;;;;;;;;;
+To do this, press and hold {shortcut} until the target is hit";trim;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_rocket;Press {shortcut} to activate missile seeker;Press {shortcut} to activate missile seeker;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_tv_rocket;Press {shortcut} to activate missile;Press {shortcut} to activate missile;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activation_rocket;"A small circle indicates the point illuminated by the laser from the side of your aircraft. The missile will be guided to that point
@@ -1965,7 +1969,7 @@ hints/aircraft_modifications/menu_choose_radar;Choose 'Radar / IRST';Сhoose 'Ra
 hints/aircraft_modifications/menu_choose_radar_switch;Choose 'Change Radar/IRST mode';Сhoose 'Change Radar/IRST mode';nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the desired point and activate the aiming point
 Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point
-Press {shortcut} to activate it";nice;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to activate it";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/find_target;Align the aircraft's course to the target;Align the aircraft's course to the target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/sim_down;Align the aircraft's course to the ground to find a target;Align the aircraft's course to the ground to find a target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/sim_up;Align the aircraft's course to the sky to avoid colliding with the ground;Align the aircraft's course to the sky to avoid colliding with the ground;same;;;;;;;;;;;;;;;;;;;
@@ -2102,7 +2106,10 @@ hints/tank_support_ucav_tft/info1;"Information on Modification
 Press {shortcut} to continue";"Information on Modification
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/activate;Press {shortcut} to activate the UCAV;Press {shortcut} to activate the UCAV;same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_move;The UCAV is very fast and agile, it requires careful handling. Fly to the point;The UCAV is very fast and agile, it requires careful handling. Fly to the point;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_move;"The UCAV is very fast and agile, it requires careful handling
+Press {shortcut} to continue";"The UCAV is very fast and agile, it requires careful handling
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_move_point;Fly to the point;Fly to the point;same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/ucav_ai;"The UCAV has a ""circle flight"" mode that allows flight control to be handed over to AI, so that you can focus on enemy detection or target designation
 Press {shortcut} to enable ""circle flight""";"The UCAV has a ""circle flight"" mode that allows flight control to be handed over to AI, so that you can focus on enemy detection or target designation
 Press {shortcut} to enable ""circle flight""";same;;;;;;;;;;;;;;;;;;;
