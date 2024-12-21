@@ -1,5 +1,15 @@
 duhchuy's SCAM patchnotes
 
+2.43.0.29
+M456A2 > M456A1
+jp M44 > M44A1
+T-80UD/BE > ☪T-80UD
+T-80s get Object designation
+swap italy symbol post-1948 stuff▄/⛨ > ▱
+_2 fix some cruiser symbols
+RN Ghibli Destroyer correct to Frigate
+_0 update US tank with more accurate commas
+
 2.42.0.24
 >
 NEXTER 30M791 > DEFA 791

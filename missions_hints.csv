@@ -1941,7 +1941,7 @@ hints/aircraft_modifications/nvd;Press {shortcut} to switch to the infrared imag
 hints/aircraft_modifications/nvd_menu;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/boomb_view;"After dropping the bomb, you can switch to bomb tracking mode.
 To do this, press and hold {shortcut} until the target is hit";"After dropping the bomb, you can switch to bomb tracking mode
-To do this, press and hold {shortcut} until the target is hit";trim;;;;;;;;;;;;;;;;;;;
+To do this, press and hold {shortcut} until the target is hit";nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_rocket;Press {shortcut} to activate missile seeker;Press {shortcut} to activate missile seeker;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_tv_rocket;Press {shortcut} to activate missile;Press {shortcut} to activate missile;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activation_rocket;"A small circle indicates the point illuminated by the laser from the side of your aircraft. The missile will be guided to that point

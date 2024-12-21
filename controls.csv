@@ -2037,4 +2037,5 @@ hotkeys/ID_AIRPLANE_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;
 hotkeys/ID_HELICOPTER_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SHIP_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
+options/hold_button_for_tactical_map;Hold the tactical map button;Hold the tactical map button;same;;;;;;;;;;;;;;;;;;;;
 CONTROLS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;;

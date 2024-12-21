@@ -246,10 +246,10 @@ sony/scea_en;Purchase and use of items are subject to the Network Terms of Servi
 sony/scee_en;"Any content purchased in an in-game store will be purchased from Sony Network Entertainment Europe Limited (""SNEE"") and be subject to Sony Entertainment Network Terms of Service and User Agreement which is available on the PlayStation®Store. Please check usage rights for each purchase as these may differ from item to item. Unless otherwise shown, content available in any in-game store has the same age rating as the game.";"Any content purchased in an in-game store will be purchased from Sony Network Entertainment Europe Limited (""SNEE"") and be subject to Sony Entertainment Network Terms of Service and User Agreement which is available on the PlayStation®Store. Please check usage rights for each purchase as these may differ from item to item. Unless otherwise shown, content available in any in-game store has the same age rating as the game.";same;;;;;;;;;;;;;;;;;;;;
 texture_presets/country_flags;default;default;same;;;;;;;;;;;;;;;;;;;;
 default_circuit;production2;production2;same;;;;;;;;;;;;;;;;;;;;
-url/wiki_objects;;https://wiki.warthunder.com/objects?game_id=%s;nice;;;;;;;;;;;;;;;;;;;;
-url/wiki;;https://wiki.warthunder.com;nice;;;;;;;;;;;;;;;;;;;;
-url/wiki_matchmaker;;https://wiki.warthunder.com/matchmaking;nice;;;;;;;;;;;;;;;;;;;;
-url/wiki_battlepass;https://wiki.warthunder.com/Battle_Pass_Seasons;https://wiki.warthunder.com/battlepass;trim;;;;;;;;;;;;;;;;;;;;
+url/wiki_objects;https://wiki.warthunder.com/objects?game_id=%s;https://wiki.warthunder.com/objects?game_id=%s;same;;;;;;;;;;;;;;;;;;;;
+url/wiki;https://wiki.warthunder.com;https://wiki.warthunder.com;same;;;;;;;;;;;;;;;;;;;;
+url/wiki_matchmaker;https://wiki.warthunder.com/matchmaking;https://wiki.warthunder.com/matchmaking;same;;;;;;;;;;;;;;;;;;;;
+url/wiki_battlepass;https://wiki.warthunder.com/battlepass;https://wiki.warthunder.com/battlepass;same;;;;;;;;;;;;;;;;;;;;
 ps4/activityFeed/win_session/image_url_small;;;same;;;;;;;;;;;;;;;;;;;;
 ps4/activityFeed/win_session/image_url_large;;;same;;;;;;;;;;;;;;;;;;;;
 harmonizationSuffixes;;;same;;;;;;;;;;;;;;;;;;;;
