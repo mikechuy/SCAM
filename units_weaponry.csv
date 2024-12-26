@@ -5882,8 +5882,8 @@ weapons/381mm_42_bl_mk1_naval_user_cannon;15-inch/42 BL Mk.I cannon;15 inch/42 B
 381mm_mark_1a_4crh_apc;381 mm Mk.Ia APC;381 mm Mk.Ia APC;same;;;;;;;;;;;;;;;;;;;;
 weapons/406mm_45_bl_mk1_r1_naval_user_cannon;16-inch/45 BL Mk.I, rifling Mk.I cannon;16 inch/45 BL Mark I cannon;trim;;;;;;;;;;;;;;;;;;;;
 weapons/406mm_45_bl_mk1_r2_naval_user_cannon;16-inch/45 BL Mk.I, rifling Mk.II cannon;16 inch/45 BL Mark I mod.2 cannon;trim;;;;;;;;;;;;;;;;;;;;
-406mm_uk_he;16 in HE;16 inch Mark Ib HE;nice;;;;;;;;;;;;;;;;;;;;
-406mm_mark_1a_apcbc;16 in Mk.Ia;16 inch Mark Ib APCBC;nice;;;;;;;;;;;;;;;;;;;;
+406mm_uk_he;16 in Mk.Ib HE;16 inch Mark Ib HE;nice;;;;;;;;;;;;;;;;;;;;
+406mm_mark_1a_apcbc;16 in Mk.Ib APC;16 inch Mark Ib APCBC;nice;;;;;;;;;;;;;;;;;;;;
 weapons/178mm_up_mk1_naval_rocket_launcher;7-inch Unrotated Projectile Mk.1;178 mm UP Mk.1;trim;;;;;;;;;;;;;;;;;;;;
 weapons/178mm_up_mk1_naval_rocket_launcher/short;UP Mk.1;UP Mk.1;same;n;;;;;;;;;;;;;;;;;;;
 up_mk1;178 mm UP Mk.1;178 mm UP Mk.1;same;n;;;;;;;;;;;;;;;;;;;

@@ -1256,7 +1256,7 @@ modification/c1_pso_protection_improvement/desc;Installs side NERA panels.;PSO T
 modification/t_62m_1_protection_improvement;Side skirts;Side skirts;same;;;;;;;;;;;;;;;;;;;
 modification/t_62m_1_protection_improvement/desc;Additional side skirts;Additional side skirts;same;;;;;;;;;;;;;;;;;;;
 modification/lav_ad_hydra_70;Hydra 70;Hydra 70;same;;;;;;;;;;;;;;;;;;;
-modification/lav_ad_hydra_70/desc;Swap Stingers for Hydras.;Add-on Hydra 70 launcher;trim;;;;;;;;;;;;;;;;;;;
+modification/lav_ad_hydra_70/desc;Swap FIM-92s for Hydras.;Add-on Hydra 70 launcher;nice;;;;;;;;;;;;;;;;;;;
 modification/9p149m_upgrade_modification;9P149M;9P149M;same;;;;;;;;;;;;;;;;;;;
 modification/9p149m_upgrade_modification/desc;9P149M upgrade kit;9P149M upgrade kit;same;;;;;;;;;;;;;;;;;;;
 modification/2s6_upgrade_modification;2S6M1;2S6M1;same;;;;;;;;;;;;;;;;;;;

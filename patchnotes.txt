@@ -1,6 +1,12 @@
 duhchuy's SCAM patchnotes
 
+2.43.0.40
+>
+T-64s, T-90s get Object designation
+remove IJN and JDS designation
+
 2.43.0.29
+>
 M456A2 > M456A1
 jp M44 > M44A1
 T-80UD/BE > ☪T-80UD
