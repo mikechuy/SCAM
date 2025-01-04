@@ -1,5 +1,10 @@
 duhchuy's SCAM patchnotes
 
+2.43.0.41
+>
+fix 90mm T54 ammo
+add czech lion to M53/59
+
 2.43.0.40
 >
 T-64s, T-90s get Object designation
