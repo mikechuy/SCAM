@@ -1,5 +1,9 @@
 duhchuy's SCAM patchnotes
 
+2.43.0.59
+>
+new battleass vehicles
+
 2.43.0.41
 >
 fix 90mm T54 ammo
