@@ -1,5 +1,9 @@
 duhchuy's SCAM patchnotes
 
+2.43.0.70
+>
+smol cleanup
+
 2.43.0.59
 >
 new battleass vehicles
