@@ -1,5 +1,15 @@
 duhchuy's SCAM patchnotes
 
+2.43.0.82
+>
+PG 02 > PG-822
+PT-15 > PT-815
+a few more dates and slightly longer sidewinder
+WZ1001(E) LCT > ZTZ99A (L/54)
+Improved torpedo > Derated torpedo
+installation of 1 torpedo LTF-5b. > installing a LT F5w torpedo.
+Battle Pass > Battle Ass
+
 2.43.0.70
 >
 smol cleanup
