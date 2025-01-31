@@ -47,10 +47,10 @@ mainmenu/btnUserCard;Player Card;Player Card;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnProfile;Player Profile;Player Profile;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnMain;Main;Main;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnSteamFriendsAdd;Add Steam Friends;Add Steam Friends;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnFacebookFriendsAdd;0;Add Facebook Friends;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnFacebookFriendsAdd;;Add Facebook Friends;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/btnSteamFriendsAddShort;Add Friends from;Add Friends from;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnFacebookFriendsAddShort;0;Add Friends from;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/btnInviteFriend;0;+ Invite Friend;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnFacebookFriendsAddShort;;Add Friends from;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnInviteFriend;;+ Invite Friend;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/btnRandomBattlesMenu;Battle Settings;Battle Settings;same;;;;;;;;;;;;;;;;;;;
 mainmenu/title;Main Menu;Main Menu;same;;;;;;;;;;;;;;;;;;;
 mainmenu/addCustomNick;Add Nickname;Add Nickname;same;;;;;;;;;;;;;;;;;;;
@@ -143,7 +143,7 @@ flightmenu/btnStats;Statistics;Statistics;same;;;;;;;;;;;;;;;;;;;
 flightmenu/btnActivateOrder;Orders;Orders;same;;;;;;;;;;;;;;;;;;;
 campaign/unlockPrevious;This mission is currently locked.;This mission is currently locked.;same;;;;;;;;;;;;;;;;;;;
 campaign/unlockPreviousChapter;You need to complete the previous chapter to watch this movie.;You need to complete the previous chapter to watch this movie.;same;;;;;;;;;;;;;;;;;;;
-campaign/unlockTutorial;0;You need to complete the Tutorial.;nice;;;;;;;;;;;;;;;;;;;
+campaign/unlockTutorial;;You need to complete the Tutorial.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/btnWatchMovie;Watch Video;Watch Video;same;;;;;;;;;;;;;;;;;;;
 difficulty0;Arcade Battles;Arcade Battles;same;;;;;;;;;;;;;;;;;;;
 difficulty1;Realistic Battles;Realistic Battles;same;;;;;;;;;;;;;;;;;;;
@@ -151,7 +151,7 @@ difficulty2;Simulator Battles;Simulator Battles;same;;;;;;;;;;;;;;;;;;;
 difficulty_name;Difficulty level:;Difficulty level:;same;;;;;;;;;;;;;;;;;;;
 reward;Reward;Reward;same;;;;;;;;;;;;;;;;;;;
 max_timed_reward;Max. reward for useful actions;Max. reward for useful actions;same;;;;;;;;;;;;;;;;;;;
-reward/tutorialFirstComplet;0;Reward for first basic tutorial;nice;;;;;;;;;;;;;;;;;;;
+reward/tutorialFirstComplet;;Reward for first basic tutorial;nice;;;;;;;;;;;;;;;;;;;
 reward/everyDay;Reward once a day: ;Reward once a day: ;same;;;;;;;;;;;;;;;;;;;
 rewardReceived;Reward received;Reward received;same;;;;;;;;;;;;;;;;;;;
 baseReward;Base reward;Base reward;same;;;;;;;;;;;;;;;;;;;
@@ -211,7 +211,7 @@ mainmenu/btnEncyclopedia;Shitpedia;Encyclopedia;nice;;;;;;;;;;;;;;;;;;;
 profile/pilots;Pilots;Pilots;same;;;;;;;;;;;;;;;;;;;
 profile/language;Language;Language;same;;;;;;;;;;;;;;;;;;;
 profile/steamName;Steam: ;Steam: ;same;;;;;;;;;;;;;;;;;;;
-profile/facebookName;0;Facebook: ;nice;;;;;;;;;;;;;;;;;;;
+profile/facebookName;;Facebook: ;nice;;;;;;;;;;;;;;;;;;;
 profile/psnName;OnlineID: ;OnlineID: ;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnGameplay;Options;Options;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnWeapons;Modifications;Modifications;same;;;;;;;;;;;;;;;;;;;
@@ -298,7 +298,7 @@ mission_status_0;Accomplished on Arcade difficulty;Accomplished on Arcade diffic
 mission_status_1;Accomplished on Realistic difficulty;Accomplished on Realistic difficulty;same;;;;;;;;;;;;;;;;;;;
 mission_status_2;Accomplished on Simulator difficulty;Accomplished on Simulator difficulty;same;;;;;;;;;;;;;;;;;;;
 new_rank;You've got a new rank;You've got a new rank;same;;;;;;;;;;;;;;;;;;;
-new_rank_country;0;You've been promoted to a new rank in your country's air forces!;nice;;;;;;;;;;;;;;;;;;;
+new_rank_country;;You've been promoted to a new rank in your country's air forces!;nice;;;;;;;;;;;;;;;;;;;
 players_recommended;Recommended for %s players;Recommended for %s players;same;;;;;;;;;;;;;;;;;;;
 msgbox/only_default_help;Help is available for default controller only.;Help is available for default controller only.;same;;;;;;;;;;;;;;;;;;;
 options/mp_mission;Mission;Mission;same;;;;;;;;;;;;;;;;;;;
@@ -309,7 +309,7 @@ msgbox/btn_continue;Continue;Continue;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_download;Download;Download;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_browse;Browse;Browse;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_use;Use;Use;same;;;;;;;;;;;;;;;;;;;
-msgbox/start_tutorial;0;You haven't completed any mission on this difficulty setting yet. Would you like to play tutorial first?;nice;;;;;;;;;;;;;;;;;;;
+msgbox/start_tutorial;;You haven't completed any mission on this difficulty setting yet. Would you like to play tutorial first?;nice;;;;;;;;;;;;;;;;;;;
 msgbox/not_in_leaderboard;You haven't been listed in the Leaderboard yet.;You haven't been listed in the Leaderboard yet.;same;;;;;;;;;;;;;;;;;;;
 profile/difficulty;Difficulty Settings;Difficulty Settings;same;;;;;;;;;;;;;;;;;;;
 customdiff/value;Evaluated Difficulty: ;Evaluated Difficulty: ;same;;;;;;;;;;;;;;;;;;;
@@ -572,8 +572,8 @@ discount/buyPoints/tooltip;Discount on accelerated training %s%%.;Discount on ac
 discount/exp_to_gold_rate/tooltip;Discount on RP conversion %s%%.;Discount on RP conversion %s%%.;same;;;;;;;;;;;;;;;;;;;
 discount/spare/tooltip;Discount on back-ups %s%%.;Discount on back-ups %s%%.;same;;;;;;;;;;;;;;;;;;;
 discount/list_string;* {itemName} -{discount}%;* {itemName} -{discount}%;same;;;;;;;;;;;;;;;;;;;
-bonus/wpRates/tooltip;0;;trim;;;;;;;;;;;;;;;;;;;
-bonus/xpRates/tooltip;0;;trim;;;;;;;;;;;;;;;;;;;
+bonus/wpRates/tooltip;;;same;;;;;;;;;;;;;;;;;;;
+bonus/xpRates/tooltip;;;same;;;;;;;;;;;;;;;;;;;
 bonus/xpFirstWinInDayMul/tooltip;Bonus to the research points for the first victory with this country's vehicles;Bonus to the research points for the first victory with this country's vehicles;same;;;;;;;;;;;;;;;;;;;
 bonus/wpFirstWinInDayMul/tooltip;Bonus <color=@currencyWpColor>€</color> for the first victory for this country.;Bonus <color=@currencyWpColor>€</color> for the first victory for this country.;same;;;;;;;;;;;;;;;;;;;
 bonus/xpAircraftMul/tooltip;%s bonus to the research points on this vehicle.;%s bonus to the research points on this vehicle.;same;;;;;;;;;;;;;;;;;;;
@@ -793,7 +793,7 @@ The cost to hire and train a new crew for this type of vehicles: %s
 Are you sure?";"Your new crew should undergo training to be able to operate this vehicle.
 The cost to hire and train a new crew for this type of vehicles: %s
 Are you sure?";same;;;;;;;;;;;;;;;;;;;
-shop/needMoneyQuestion_warning;0;;trim;;;;;;;;;;;;;;;;;;;
+shop/needMoneyQuestion_warning;;;same;;;;;;;;;;;;;;;;;;;
 shop/needMoneyQuestion_purchaseAircraft;Are you sure you want to order {unitName}? It will cost you: {cost};Are you sure you want to order {unitName}? It will cost you: {cost};same;;;;;;;;;;;;;;;;;;;
 shop/needMoneyQuestion_purchaseCrew;Are you sure you want to recruit new crew? It will cost you: %s;Are you sure you want to recruit new crew? It will cost you: %s;same;;;;;;;;;;;;;;;;;;;
 onlineShop/needMoneyQuestion;"Are you sure you want to purchase {purchase}
@@ -919,7 +919,7 @@ msgbox/btn_RepairAll;Repair All;Repair All;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_Repair;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
 msgbox/btn_ContinueWithoutRepair;Continue Without Repair;Continue Without Repair;same;;;;;;;;;;;;;;;;;;;
 mainmenu/online_info;Online: {playersOnline}, Battles: {battles};Online: {playersOnline}, Battles: {battles};same;;;;;;;;;;;;;;;;;;;
-mainmenu/custom_lang_info;0;Custom localization enabled;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/custom_lang_info;;Custom localization enabled;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/custom_lang_info/tooltip;You have SCAM enabled. If some texts in the game are displayed incorrectly, too bad.;You have custom localization enabled. If some texts in the game are displayed incorrectly, contact the author of the installed custom localization (mod) or disable it.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/customSoundMods;Sound modification enabled;Sound modification enabled;same;;;;;;;;;;;;;;;;;;;
 mainmenu/customSoundMods/tooltip;You have a custom sound modification enabled. The game may not work stably if you use outdated or incorrect modifications.;You have a custom sound modification enabled. The game may not work stably if you use outdated or incorrect modifications.;same;;;;;;;;;;;;;;;;;;;
@@ -1426,12 +1426,12 @@ userlog/WagerStageFail;New stage was not achieved;New stage was not achieved;sam
 userlog/WagerFail;{wagerName} ended;{wagerName} ended;same;;;;;;;;;;;;;;;;;;;
 userlog/WagerStageWin;New stage achieved!;New stage achieved!;same;;;;;;;;;;;;;;;;;;;
 userlog/WagerWin;{wagerName} Won!;{wagerName} Won!;same;;;;;;;;;;;;;;;;;;;
-userlog/WagerFailDesc;0;;trim;;;;;;;;;;;;;;;;;;;
+userlog/WagerFailDesc;;;same;;;;;;;;;;;;;;;;;;;
 userlog/WagerWinDesc;Reward;Reward;same;;;;;;;;;;;;;;;;;;;
-userlog/WagerStageFailDesc;0;;trim;;;;;;;;;;;;;;;;;;;
-userlog/WagerStageWinDesc;0;;trim;;;;;;;;;;;;;;;;;;;
+userlog/WagerStageFailDesc;;;same;;;;;;;;;;;;;;;;;;;
+userlog/WagerStageWinDesc;;;same;;;;;;;;;;;;;;;;;;;
 userlog/PeriodicCalendarAward;Monthly Award;Monthly Award;same;;;;;;;;;;;;;;;;;;;
-userlog/PerMonthAward;0;Monthly bonus for PlayStation®Plus subscribers;nice;;;;;;;;;;;;;;;;;;;
+userlog/PerMonthAward;;Monthly bonus for PlayStation®Plus subscribers;nice;;;;;;;;;;;;;;;;;;;
 userlog/PeriodicCalendarAwardXBOXPlus;Xbox Live Gold Monthly Award;Xbox Live Gold Monthly Award;same;;;;;;;;;;;;;;;;;;;
 userlog/PerMonthAwardXBOXPlus;Monthly bonus for Xbox Live Gold;Monthly bonus for Xbox Live Gold;same;;;;;;;;;;;;;;;;;;;
 userlog/clanUnits/flush/name;Adding experience to squadron vehicle;Adding experience to squadron vehicle;same;;;;;;;;;;;;;;;;;;;
@@ -1518,7 +1518,7 @@ contacts/search_advice;Press ENTER to perform global search;Press ENTER to perfo
 contacts/searchNotFound;No Search Results;No Search Results;same;;;;;;;;;;;;;;;;;;;
 contacts/friendlist/add;Add Friend;Add Friend;same;;;;;;;;;;;;;;;;;;;
 contacts/friendlist/remove;Remove Friend;Remove Friend;same;;;;;;;;;;;;;;;;;;;
-contacts/facebooklist/remove;0;Remove from Facebook Friend list;nice;;;;;;;;;;;;;;;;;;;
+contacts/facebooklist/remove;;Remove from Facebook Friend list;nice;;;;;;;;;;;;;;;;;;;
 contacts/steamlist/remove;Remove from Steam Friend list;Remove from Steam Friend list;same;;;;;;;;;;;;;;;;;;;
 contacts/search_placeholder;⌡ Search...;⌡ Search...;same;;;;;;;;;;;;;;;;;;;
 contacts/popup_friend_invitation_received;Player {userName} added you to their friend list;Player {userName} added you to their friend list;same;;;;;;;;;;;;;;;;;;;
@@ -1528,7 +1528,7 @@ msg/added_to_friend;You have added <color=@userlogColoredText>%s</color> to your
 msg/added_to_ps4_friends;You have added <color=@userlogColoredText>%s</color> to your friends list;You have added <color=@userlogColoredText>%s</color> to your friends list;same;;;;;;;;;;;;;;;;;;;
 msg/ask_remove_from_friend;Remove <color=@userlogColoredText>%s</color> from your friends list?;Remove <color=@userlogColoredText>%s</color> from your friends list?;same;;;;;;;;;;;;;;;;;;;
 msg/ask_remove_from_ps4_friends;Remove <color=@userlogColoredText>%s</color> from your friends list?;Remove <color=@userlogColoredText>%s</color> from your friends list?;same;;;;;;;;;;;;;;;;;;;
-msg/ask_remove_from_f;0;Remove <color=@userlogColoredText>%s</color> from your Facebook friends list?;nice;;;;;;;;;;;;;;;;;;;
+msg/ask_remove_from_f;;Remove <color=@userlogColoredText>%s</color> from your Facebook friends list?;nice;;;;;;;;;;;;;;;;;;;
 msg/ask_remove_from_s;Remove <color=@userlogColoredText>%s</color> from your Steam friends list?;Remove <color=@userlogColoredText>%s</color> from your Steam friends list?;same;;;;;;;;;;;;;;;;;;;
 msg/cant_add/too_many_contacts;You cannot add more than %d contacts.;You cannot add more than %d contacts.;same;;;;;;;;;;;;;;;;;;;
 msgbox/add_steam_friends;Would you like to add your Steam friends to your friends list?;Would you like to add your Steam friends to your friends list?;same;;;;;;;;;;;;;;;;;;;
@@ -1587,12 +1587,12 @@ shop/giftAir/campaign;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/campaign/info;"This vehicle can only be received by purchasing the %s campaign or ""Ultra"" Advanced Pack.";"This vehicle can only be received by purchasing the %s campaign or ""Ultra"" Advanced Pack.";same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/beta;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/beta/info;"This vehicle can only be received by purchasing ""Typhoon"" or ""Ultra"" Advanced Pack.%s";"This vehicle can only be received by purchasing ""Typhoon"" or ""Ultra"" Advanced Pack.%s";same;;;;;;;;;;;;;;;;;;;
-askPlayTutorial;0;Would you like to complete the tutorial?;nice;;;;;;;;;;;;;;;;;;;
-msgbox/req_tutorial_for_mode;0;"To play this game mode you need to complete the tutorial.
+askPlayTutorial;;Would you like to complete the tutorial?;nice;;;;;;;;;;;;;;;;;;;
+msgbox/req_tutorial_for_mode;;"To play this game mode you need to complete the tutorial.
 Would you like to complete the tutorial for <color=@activeTextColor>%s</color> difficulty?";nice;;;;;;;;;;;;;;;;;;;
-msgbox/btn_startTutorial;0;Start Tutorial;nice;;;;;;;;;;;;;;;;;;;
+msgbox/btn_startTutorial;;Start Tutorial;nice;;;;;;;;;;;;;;;;;;;
 options/doNotAskMeAgain;Fuck off;Do not ask me again;nice;;;;;;;;;;;;;;;;;;;
-options/doNotAskMeAgain/tutorial/hint;0;You can always find the tutorial missions in the menu.;nice;;;;;;;;;;;;;;;;;;;
+options/doNotAskMeAgain/tutorial/hint;;You can always find the tutorial missions in the menu.;nice;;;;;;;;;;;;;;;;;;;
 shop/giftAir/new_year_2014;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/new_year_2014/info;This vehicle can only be obtained by purchasing a special pack.;This vehicle can only be obtained by purchasing a special pack.;same;;;;;;;;;;;;;;;;;;;
 shop/giftAir/rbt_5;Pack;Pack;same;;;;;;;;;;;;;;;;;;;
@@ -1607,7 +1607,7 @@ shop/giftAir/coupon/info;This vehicle can be obtained with coupon by purchasing 
 shop/featureLock/USATanks/warning/research;Vehicle isn’t available for research at the moment.;Vehicle isn’t available for research at the moment.;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/USATanks/warning/buy;Vehicle isn’t available for purchase at the moment.;Vehicle isn’t available for purchase at the moment.;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/USATanks/warning/main;Ground forces of this country are now in Closed Beta Test. Each vehicle will become available as it is fully tested and tuned. Until then, they are available only for testers.;Ground forces of this country are now in Closed Beta Test. Each vehicle will become available as it is fully tested and tuned. Until then, they are available only for testers.;same;;;;;;;;;;;;;;;;;;;
-shop/featureLock/USATanks/warning/specialPackPart;0;;trim;;;;;;;;;;;;;;;;;;;
+shop/featureLock/USATanks/warning/specialPackPart;;;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/BritainTanks/header;British Ground Forces;British Ground Forces;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/JapanTank/header;Japanese Ground Forces;Japanese Ground Forces;same;;;;;;;;;;;;;;;;;;;
 shop/featureLock/ChinaTank/header;China Ground Forces;China Ground Forces;same;;;;;;;;;;;;;;;;;;;
@@ -1747,7 +1747,7 @@ mainmenu/type_robot;Robot;Robot;same;;;;;;;;;;;;;;;;;;;
 mainmenu/type_md_interceptor;Interceptor;Interceptor;same;;;;;;;;;;;;;;;;;;;
 mainmenu/type_md_loot_carrier;Loot Carrier;Loot Carrier;same;;;;;;;;;;;;;;;;;;;
 mainmenu/type_md_combat_loot_carrier;Combat Loot Carrier;Combat Loot Carrier;same;;;;;;;;;;;;;;;;;;;
-MENU_TYPES_LANG_KEEP_IT_ALWAYS_FIRST;0;;trim;;;;;;;;;;;;;;;;;;;
+MENU_TYPES_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;
 mainmenu/type_cv_ship;Aircraft Carrier;Aircraft Carrier;same;;;;;;;;;;;;;;;;;;;
 mainmenu/type_ship_and_boat;Vessel;Vessel;same;;;;;;;;;;;;;;;;;;;
 mainmenu/type_ship_only;Bluewater ship;Bluewater ship;same;;;;;;;;;;;;;;;;;;;
@@ -1927,7 +1927,7 @@ mainmenu/firstUnit/hint;Other vehicles also will be available;Other vehicles als
 mainmenu/firstChoiseBonusNotice;Based on chosen country and vehicles you will get bonuses during the game process;Based on chosen country and vehicles you will get bonuses during the game process;same;;;;;;;;;;;;;;;;;;;
 mainmenu/countryUnlockNotice;Other vehicles and countries will be unlocked as the game progresses;Other vehicles and countries will be unlocked as the game progresses;same;;;;;;;;;;;;;;;;;;;
 mainmenu/lockedCountryDescription;Country will be unlocked in battles against other players;Country will be unlocked in battles against other players;same;;;;;;;;;;;;;;;;;;;
-msgbox/linkCopied;0;"Invite your friends to join War Thunder!
+msgbox/linkCopied;;"Invite your friends to join War Thunder!
 Share the link below with your friends on social media and get:
 
 {firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank}</color>
@@ -1938,7 +1938,7 @@ Each player who registers using your link and turns on two-factor authentication
 
 ""<color=@userlogColoredText>{link}</color>""
 (link copied to clipboard)";nice;;;;;;;;;;;;;;;;;;;
-msgbox/linkCopied/separatedVessels;0;"Invite your friends to join War Thunder!
+msgbox/linkCopied/separatedVessels;;"Invite your friends to join War Thunder!
 Share the link below with your friends on social media and get:
 
 {firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
@@ -1949,7 +1949,7 @@ Each player who registers using your link and turns on two-factor authentication
 
 ""<color=@userlogColoredText>{link}</color>""
 (link copied to clipboard)";nice;;;;;;;;;;;;;;;;;;;
-msgbox/linkCopied/disabledThirdStageForVessels;0;"Invite your friends to join War Thunder!
+msgbox/linkCopied/disabledThirdStageForVessels;;"Invite your friends to join War Thunder!
 Share the link below with your friends on social media and get:
 
 {firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
@@ -1960,8 +1960,8 @@ Each player who registers using your link and turns on two-factor authentication
 
 ""<color=@userlogColoredText>{link}</color>""
 (link copied to clipboard)";nice;;;;;;;;;;;;;;;;;;;
-mainmenu/btnGetLink;0;Invite Friend;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/getLinkDesc;0;"Invite your friends and get a reward!
+mainmenu/btnGetLink;;Invite Friend;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/getLinkDesc;;"Invite your friends and get a reward!
 
 The invited player will receive {gift} when he logs in for the first time after enabling two-factor authentication.
 
@@ -1970,7 +1970,7 @@ For each invited player you'll gain:
 {secondAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {secondAwardRank} in any country
 {thirdAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {thirdAwardRank} in any country
 When 10 of your friends reach rank III, you'll receive a unique additional crew slot for each country.";nice;;;;;;;;;;;;;;;;;;;
-mainmenu/getLinkDesc/separatedVessels;0;"Invite your friends and get a reward!
+mainmenu/getLinkDesc/separatedVessels;;"Invite your friends and get a reward!
 
 The invited player will receive {gift} when he logs in for the first time after enabling two-factor authentication.
 
@@ -1979,7 +1979,7 @@ For each invited player you'll gain:
 {secondAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {secondAwardRank} in the aviation/army tree or rank {secondAwardVesselsRank} in the fleet trees
 {thirdAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {thirdAwardRank} in the aviation/army tree or rank {thirdAwardVesselsRank} in the fleet trees
 When 10 of your friends reach rank III, you'll receive a unique additional crew slot for each country.";nice;;;;;;;;;;;;;;;;;;;
-mainmenu/getLinkDesc/disabledThirdStageForVessels;0;"Invite your friends and get a reward!
+mainmenu/getLinkDesc/disabledThirdStageForVessels;;"Invite your friends and get a reward!
 
 The invited player will receive {gift} when he logs in for the first time after enabling two-factor authentication.
 
@@ -1988,8 +1988,8 @@ For each invited player you'll gain:
 {secondAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {secondAwardRank} in the aviation/army tree or rank {secondAwardVesselsRank} in the fleet trees
 {thirdAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {thirdAwardRank} in the aviation/army tree
 When 10 of your friends reach rank III, you'll receive a unique additional crew slot for each country.";nice;;;;;;;;;;;;;;;;;;;
-mainmenu/getLink;0;Invitation ;nice;;;;;;;;;;;;;;;;;;;
-mainmenu/getLinkTitle;0;Invitation;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/getLink;;Invitation ;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/getLinkTitle;;Invitation;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/invitationHead;%s has sent you an invitation to War Thunder;%s has sent you an invitation to War Thunder;same;;;;;;;;;;;;;;;;;;;
 mainmenu/invitationBody;"You've received an invitation to War Thunder.%%0D%%0A%s%%0D%%0A
 Use the link above to get an extra bonus.";"You've received an invitation to War Thunder.%%0D%%0A%s%%0D%%0A
@@ -2003,9 +2003,9 @@ bonus/expitemLogMul/tooltip;%s bonus to the research points for the first victor
 bonus/expcountryMul/tooltip;%s bonus to the research points for the first victory with vehicles of this country.;%s bonus to the research points for the first victory with vehicles of this country.;same;;;;;;;;;;;;;;;;;;;
 bonus/wpitemLogMul/tooltip;%s bonus <color=@currencyWpColor>€</color> for the first victory with vehicles of this country.;%s bonus <color=@currencyWpColor>€</color> for the first victory with vehicles of this country.;same;;;;;;;;;;;;;;;;;;;
 bonus/wpcountryMul/tooltip;%s bonus <color=@currencyWpColor>€</color> for the first victory with vehicles of this country.;%s bonus <color=@currencyWpColor>€</color> for the first victory with vehicles of this country.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnUploadFacebookScreenshot;0;Share Results;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnUploadFacebookScreenshot;;Share Results;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/btnClanCard;Gamer Squadron;Gamer Squadron;same;;;;;;;;;;;;;;;;;;;
-mainmenu/facebookShareLimit;0;You can upload no more than %d screenshots per day;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/facebookShareLimit;;You can upload no more than %d screenshots per day;nice;;;;;;;;;;;;;;;;;;;
 msgbox/req_tutorial_for_hist;"""Realistic Battles"" is a mode for experienced players. There are no respawns in this mode, and vehicle controls are more like real-world controls.";"""Realistic Battles"" is a mode for experienced players. There are no respawns in this mode, and vehicle controls are more like real-world controls.";same;;;;;;;;;;;;;;;;;;;
 msgbox/req_tutorial_for_real;"""Simulator Battles"" is a mode for veterans and grind bots. Mouse aim is disabled: the mouse joystick is used by default. Third-person view is disabled, physics are more realistic, and planes start on the airfield engines off. Joystick recommended.";"""Simulator Battles"" is a mode for veteran players. There are no Mouse Aim controls here: from the very start, the ""mouse joystick"" control type is used. Third-person view is unavailable, flight physics when flying aircraft are more realistic, and all players' planes start on an airfield with their engines switched off. We highly recommend using a joystick for this mode.";nice;;;;;;;;;;;;;;;;;;;
 msgbox/tutorial_controls_type_locked;"You cannot change your control type during the tutorial mission.
@@ -2074,7 +2074,7 @@ mainmenu/crewLockLeftTable;Time left until crew return;Time left until crew retu
 mainmenu/crewLockLeft;Crew will be on a mission for;Crew will be on a mission for;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btn_crew_unlock;Unlock Crew for;Unlock Crew for;same;;;;;;;;;;;;;;;;;;;
 msgbox/question_crew_unlock;Would you like to unlock the crew for;Would you like to unlock the crew for;same;;;;;;;;;;;;;;;;;;;
-mainmenu/multiplePuchDesc;0;;trim;;;;;;;;;;;;;;;;;;;
+mainmenu/multiplePuchDesc;;;same;;;;;;;;;;;;;;;;;;;
 mainmenu/events;Events;Events;same;;;;;;;;;;;;;;;;;;;
 mainmenu/tournaments;Tournaments;Tournaments;same;;;;;;;;;;;;;;;;;;;
 tournaments/battle_aviation;Aviation;Aviation;same;;;;;;;;;;;;;;;;;;;
@@ -2232,7 +2232,7 @@ userLog/clanDuelRewardEqualPlaces;Other squadron members having equal rating:;Ot
 userLog/clanDuelRewardClanRating;Squadron rating:;Squadron rating:;same;;;;;;;;;;;;;;;;;;;
 userLog/clanDuelRewardRating;Your duel rating:;Your duel rating:;same;;;;;;;;;;;;;;;;;;;
 encyclopedia/no_unit_description;Description will be ready soon.;Description will be ready soon.;same;;;;;;;;;;;;;;;;;;;
-profile/wiki_link;0;See wiki.warthunder.com for more detailed description;nice;;;;;;;;;;;;;;;;;;;
+profile/wiki_link;;See wiki.warthunder.com for more detailed description;nice;;;;;;;;;;;;;;;;;;;
 profile/wiki_matchmaking;Learn more about Battle Rating (BR);Learn more about Battle Rating (BR);same;;;;;;;;;;;;;;;;;;;
 mainmenu/server;Server;Server;same;;;;;;;;;;;;;;;;;;;
 mainmenu/graphics_card_does_not_support_tank;You graphics card does not support tank battles.;You graphics card does not support tank battles.;same;;;;;;;;;;;;;;;;;;;
@@ -2702,7 +2702,7 @@ armor_class/tank_steel_wheels;Wheel/suspension unit (0.6);Structural steel of ch
 streaks/max_streak_amount;Best count in a row: <color=@activeTextColor>x%s</color>;Best count in a row: <color=@activeTextColor>x%s</color>;same;;;;;;;;;;;;;;;;;;;
 streaks/rewarded_count;Rewarded {count} times.;Rewarded {count} times.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/sessionResults;Session results;Session results;same;;;;;;;;;;;;;;;;;;;
-trophy/defaultDesc;0;;trim;;;;;;;;;;;;;;;;;;;
+trophy/defaultDesc;;;same;;;;;;;;;;;;;;;;;;;
 mainmenu/finish;Finish;Finish;same;;;;;;;;;;;;;;;;;;;
 mainmenu/autoPurchaseMods;Autopurchase modifications;Autopurchase modifications;same;;;;;;;;;;;;;;;;;;;
 mainmenu/autoPurchaseMods/tooltip;Autopurchase of modifications, available for <color=@currencyWpColor>€</color>.;Autopurchase of modifications, available for <color=@currencyWpColor>€</color>.;same;;;;;;;;;;;;;;;;;;;
@@ -2757,40 +2757,40 @@ artillery_strike/not_ready;Artillery is reloading.;Artillery is reloading.;same;
 artillery_strike/crew_lost;Artillery crew was destroyed by the enemy.;Artillery crew was destroyed by the enemy.;same;;;;;;;;;;;;;;;;;;;
 artillery_strike/called_by_player;{player} called an artillery strike.;{player} called an artillery strike.;same;;;;;;;;;;;;;;;;;;;
 help/NEXT_ACTION;Press Left Mouse Button to continue.;Press Left Mouse Button to continue.;same;;;;;;;;;;;;;;;;;;;
-help/NEXT_ACTION/gamepad_specific;0;Press A to continue.;nice;;;;;;;;;;;;;;;;;;;
+help/NEXT_ACTION/gamepad_specific;;Press A to continue.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/newPresetName;New preset name;New preset name;same;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/aircraft_aiming/leading;0;Lead angle indicator;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/aircraft_aiming/step1;0;To destroy a selected opponent, shoot for prediction.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/aircraft_aiming/step2;0;To do this, align the crosshair with a leading marker of an enemy aircraft.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/aircraft_aiming/step3;0;When the crosshair and the lead angle indicator line up, open the fire.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/capture/tickets;0;Tickets of your team and the enemy team;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/capture/zones;0;"Number of capture zones and their status:
+hints/tutorial_newbie/aircraft_aiming/leading;;Lead angle indicator;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/aircraft_aiming/step1;;To destroy a selected opponent, shoot for prediction.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/aircraft_aiming/step2;;To do this, align the crosshair with a leading marker of an enemy aircraft.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/aircraft_aiming/step3;;When the crosshair and the lead angle indicator line up, open the fire.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/capture/tickets;;Tickets of your team and the enemy team;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/capture/zones;;"Number of capture zones and their status:
 White - neutral zone,
 Blue - captured by your team,
 Red - captured by the enemy team.";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_capture/zone_mark;0;Capture zone mark;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_capture/zone_border;0;Capture zone area border;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_capture/step1;0;To capture a strategic point, stand inside the outlined area and wait for a message about the successful capture.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/airfield_capture/airfield;0;Airfield;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/airfield_capture/step1;0;To capture an airfield, land on it.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/capture/strategy_a;0;When one team has captured more areas than the other, the other team starts to lose tickets.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/capture/strategy_b;0;Each captured zone takes points from the enemy team.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/capture/team_lose;0;When the team loses all tickets, it loses the battle.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/step1;0;Destruction of enemy ground vehicles and bases reduces the tickets of the enemy team.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/step2;0;Ground vehicles which destruction takes points from the enemy team are flashing yellow.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/units_counters;0;Number of enemy and allied ground vehicles is shown in the bottom left corner.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/base_mark;0;"Enemy base mark
+hints/tutorial_newbie/ground_capture/zone_mark;;Capture zone mark;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_capture/zone_border;;Capture zone area border;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_capture/step1;;To capture a strategic point, stand inside the outlined area and wait for a message about the successful capture.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/airfield_capture/airfield;;Airfield;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/airfield_capture/step1;;To capture an airfield, land on it.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/capture/strategy_a;;When one team has captured more areas than the other, the other team starts to lose tickets.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/capture/strategy_b;;Each captured zone takes points from the enemy team.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/capture/team_lose;;When the team loses all tickets, it loses the battle.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/step1;;Destruction of enemy ground vehicles and bases reduces the tickets of the enemy team.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/step2;;Ground vehicles which destruction takes points from the enemy team are flashing yellow.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/units_counters;;Number of enemy and allied ground vehicles is shown in the bottom left corner.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/base_mark;;"Enemy base mark
 It also shows the base damage stage.";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/step3;0;Bases can be destroyed by bombs.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/step4;0;When all enemy bases are destroyed, it becomes possible to destroy the enemy airfield.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/airfield_mark;0;Enemy airfield mark;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/step5;0;The airfield also can be destroyed by bombs.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/ground_strike/step6;0;Destruction of the enemy airfield brings an automatic victory.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/air_domination/air_capture_zone;0;Air capture zone has the shape of a cylinder, which area can be seen on the radar. It is also limited in height at the bottom and top.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/air_domination/air_capture_zone/altitudes;0;In this mission, it is located between the altitudes {altitudeBottom} and {altitudeTop} meters.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/air_domination/presence_mark;0;The fact that you currently are in the capture zone can be identified by the white corners on its mark.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/air_domination/step1;0;The presence of enemy vehicles in the capture zone prevents the capture.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_newbie/air_domination/step2;0;To capture a zone, you need to completely clear it of the presence of enemy vehicles and wait for a message about the successful capture staying within the zone.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/step3;;Bases can be destroyed by bombs.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/step4;;When all enemy bases are destroyed, it becomes possible to destroy the enemy airfield.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/airfield_mark;;Enemy airfield mark;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/step5;;The airfield also can be destroyed by bombs.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/ground_strike/step6;;Destruction of the enemy airfield brings an automatic victory.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/air_domination/air_capture_zone;;Air capture zone has the shape of a cylinder, which area can be seen on the radar. It is also limited in height at the bottom and top.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/air_domination/air_capture_zone/altitudes;;In this mission, it is located between the altitudes {altitudeBottom} and {altitudeTop} meters.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/air_domination/presence_mark;;The fact that you currently are in the capture zone can be identified by the white corners on its mark.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/air_domination/step1;;The presence of enemy vehicles in the capture zone prevents the capture.;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_newbie/air_domination/step2;;To capture a zone, you need to completely clear it of the presence of enemy vehicles and wait for a message about the successful capture staying within the zone.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_newbie/naval/number_of_capture_zones;Number of capture zones and their status:;Number of capture zones and their status:;same;;;;;;;;;;;;;;;;;;;
 hints/tutorial_newbie/naval/captured_by_enemy;Captured by the enemy team;Captured by the enemy team;same;;;;;;;;;;;;;;;;;;;
 hints/tutorial_newbie/naval/captured_by_you;Captured by your team;Captured by your team;same;;;;;;;;;;;;;;;;;;;
@@ -2870,11 +2870,11 @@ coupon/for/skin;Exchange coupon for a camouflage:;Exchange coupon for a camoufla
 coupon/for/decal;Exchange coupon for a decal:;Exchange coupon for a decal:;same;;;;;;;;;;;;;;;;;;;
 coupon/for/attachable;Exchange coupon for a decorator:;Exchange coupon for a decorator:;same;;;;;;;;;;;;;;;;;;;
 msgbox/find_on_marketplace;"Find ""{itemName}"" on Marketplace?";"Find ""{itemName}"" on Marketplace?";same;;;;;;;;;;;;;;;;;;;
-help/finishedModification;0;"Congratulations! You have researched the modification <color=@userlogColoredText>{modName}</color>.
+help/finishedModification;;"Congratulations! You have researched the modification <color=@userlogColoredText>{modName}</color>.
 Now you can purchase it.";nice;;;;;;;;;;;;;;;;;;;
 help/OBJ_CLICK;Press Left Mouse Button on it.;Press Left Mouse Button on it.;same;;;;;;;;;;;;;;;;;;;
-help/OBJ_CLICK/gamepad_specific;0;Press A to continue.;nice;;;;;;;;;;;;;;;;;;;
-help/newModification;0;"Choose your new modification for research now.
+help/OBJ_CLICK/gamepad_specific;;Press A to continue.;nice;;;;;;;;;;;;;;;;;;;
+help/newModification;;"Choose your new modification for research now.
 <color=@userlogColoredText>{modName}</color> for example.
 You could change choice after tutorial is finished.";nice;;;;;;;;;;;;;;;;;;;
 help/FreeExp;If you will have free experience points, they will be automatically transferred to chosen research.;If you will have free experience points, they will be automatically transfered to chosen research.;trim;;;;;;;;;;;;;;;;;;;
@@ -3139,7 +3139,7 @@ item/la-5fn_luftwaffe_trophy_rare/shortTypeDesc;Officer trophy gives a good chan
 item/ussr_su_122P_trophy_rare;Officer trophy;Officer trophy;same;;;;;;;;;;;;;;;;;;;
 item/ussr_su_122P_trophy_rare/shortTypeDesc;Officer trophy gives a good chance of getting a vehicle;Officer trophy gives a good chance of getting a vehicle;same;;;;;;;;;;;;;;;;;;;
 item/fw-190d-9_ussr_trophy_rare;USSR Aviation trophy;USSR Aviation trophy;same;;;;;;;;;;;;;;;;;;;
-item/fw-190d-9_ussr_trophy_rare/shortTypeDesc;0;;trim;;;;;;;;;;;;;;;;;;;
+item/fw-190d-9_ussr_trophy_rare/shortTypeDesc;;;same;;;;;;;;;;;;;;;;;;;
 item/spitfire_mk14c_trophy_rare;Officer trophy;Officer trophy;same;;;;;;;;;;;;;;;;;;;
 item/spitfire_mk14c_trophy_rare/shortTypeDesc;Officer trophy gives a good chance of getting a vehicle;Officer trophy gives a good chance of getting a vehicle;same;;;;;;;;;;;;;;;;;;;
 item/b-17e_japan_trophy_rare;Officer trophy;Officer trophy;same;;;;;;;;;;;;;;;;;;;
@@ -3160,7 +3160,7 @@ item/spitfire_mk14c_trophy_rich;Commander trophy;Commander trophy;same;;;;;;;;;;
 item/spitfire_mk14c_trophy_rich/shortTypeDesc;Commander trophy gives a big chance of getting a vehicle;Commander trophy gives a big chance of getting a vehicle;same;;;;;;;;;;;;;;;;;;;
 item/b-17e_japan_trophy_rich;Commander trophy;Commander trophy;same;;;;;;;;;;;;;;;;;;;
 item/b-17e_japan_trophy_rich/shortTypeDesc;Commander trophy gives a big chance of getting a vehicle;Commander trophy gives a big chance of getting a vehicle;same;;;;;;;;;;;;;;;;;;;
-trophy/chest_contents/hidden;0;;trim;;;;;;;;;;;;;;;;;;;
+trophy/chest_contents/hidden;;;same;;;;;;;;;;;;;;;;;;;
 trophy/chest_contents;Contains one of the following items:;Contains one of the following items:;same;;;;;;;;;;;;;;;;;;;
 trophy/chest_contents/all;Contains items:;Contains items:;same;;;;;;;;;;;;;;;;;;;
 trophy/chest_contents/many;Contains {amount} of the following items:;Contains {amount} of the following items:;same;;;;;;;;;;;;;;;;;;;
@@ -3368,7 +3368,7 @@ You have no such items at the moment.";same;;;;;;;;;;;;;;;;;;;
 items/shop/emptyTab/booster;"Boosters are the items that allow you to receive more Research Points and Silver Lions in battles.
 You have no such items at the moment.";"Boosters are the items that allow you to receive more Research Points and Silver Lions in battles.
 You have no such items at the moment.";same;;;;;;;;;;;;;;;;;;;
-items/shop/emptyTab/wagers;0;;trim;;;;;;;;;;;;;;;;;;;
+items/shop/emptyTab/wagers;;;same;;;;;;;;;;;;;;;;;;;
 items/shop/emptyTab/discount;"Personal Discount is an item which, upon activation, allows you to purchase one of the in-game items at a lower price.
 You have no such items at the moment.";"Personal Discount is an item which, upon activation, allows you to purchase one of the in-game items at a lower price.
 You have no such items at the moment.";same;;;;;;;;;;;;;;;;;;;
@@ -3391,7 +3391,7 @@ You have no such items at the moment.";same;;;;;;;;;;;;;;;;;;;
 items/shop/emptyTab/chests;"Chest allows you to receive a random award from the described list.
 You have no such items at the moment.";"Chest allows you to receive a random award from the described list.
 You have no such items at the moment.";same;;;;;;;;;;;;;;;;;;;
-items/shop/emptyTab/devItems;0;;trim;;;;;;;;;;;;;;;;;;;
+items/shop/emptyTab/devItems;;;same;;;;;;;;;;;;;;;;;;;
 items/shop/emptyTab/toShopButton;Switch to shop;Switch to shop;same;;;;;;;;;;;;;;;;;;;
 items/shop/emptyTab/noItemsAdvice/shopEnabled;You can get the items as rewards or purchase them in the shop.;You can get the items as rewards or purchase them in the shop.;same;;;;;;;;;;;;;;;;;;;
 items/shop/emptyTab/noItemsAdvice/shopDisabled;You can get items as rewards.;You can get items as rewards.;same;;;;;;;;;;;;;;;;;;;
@@ -3420,14 +3420,14 @@ items/expireTimeLeft;Time left;Time left;same;;;;;;;;;;;;;;;;;;;
 items/expireTimeBeforeActivation;Valid for;Valid for;same;;;;;;;;;;;;;;;;;;;
 items/expireDate;Will disappear after {datetime}, time left: {timeleft};Will disappear after {datetime}, time left: {timeleft};same;;;;;;;;;;;;;;;;;;;
 trophy/moreRewards;+ {num} more items;+ {num} more items;same;;;;;;;;;;;;;;;;;;;
-mainmenu/onlyArmyAvailableForCountry;0;Available as the first choice for this country: {army};nice;;;;;;;;;;;;;;;;;;;
+mainmenu/onlyArmyAvailableForCountry;;Available as the first choice for this country: {army};nice;;;;;;;;;;;;;;;;;;;
 msg/countryNotAvailableForUnitType;Country not available for the chosen vehicle type.;Country not available for the chosen vehicle type.;same;;;;;;;;;;;;;;;;;;;
-slotbarPresetsTutorial/selectPreset;0;Select preset which has {unitType}.;nice;;;;;;;;;;;;;;;;;;;
-slotbarPresetsTutorial/openWindow;0;Open the vehicle preset list in order to choose a proper one.;nice;;;;;;;;;;;;;;;;;;;
-slotbarPresetsTutorial/pressApplyButton;0;"Press ""Apply"" to change your vehicles to the selected preset.
+slotbarPresetsTutorial/selectPreset;;Select preset which has {unitType}.;nice;;;;;;;;;;;;;;;;;;;
+slotbarPresetsTutorial/openWindow;;Open the vehicle preset list in order to choose a proper one.;nice;;;;;;;;;;;;;;;;;;;
+slotbarPresetsTutorial/pressApplyButton;;"Press ""Apply"" to change your vehicles to the selected preset.
 You can always restore your current vehicles in this menu.";nice;;;;;;;;;;;;;;;;;;;
-slotbarPresetsTutorial/selectUnit;0;Select unit allowed for this game mode.;nice;;;;;;;;;;;;;;;;;;;
-slotbarPresetsTutorial/pressToBattleButton;0;"Congratulations! You have successfully changed your vehicle preset
+slotbarPresetsTutorial/selectUnit;;Select unit allowed for this game mode.;nice;;;;;;;;;;;;;;;;;;;
+slotbarPresetsTutorial/pressToBattleButton;;"Congratulations! You have successfully changed your vehicle preset
 and are ready to join the ""{gameModeName}"".";nice;;;;;;;;;;;;;;;;;;;
 lobby/vehicles;Vehicles;Vehicles;same;;;;;;;;;;;;;;;;;;;
 ticketBuyWindow/header;Ticket purchase;Ticket purchase;same;;;;;;;;;;;;;;;;;;;
@@ -3521,8 +3521,8 @@ item/order_eventMul_kill;AAA;AAA;same;;;;;;;;;;;;;;;;;;;
 item/order_eventMul_ground;Antimech;Antimech;same;;;;;;;;;;;;;;;;;;;
 items/order/type/eventMul/description;Destroy enemy vehicles.;Destroy enemy vehicles.;same;;;;;;;;;;;;;;;;;;;
 items/order/type/eventMul/statusDescription;Destroy enemy vehicles.;Destroy enemy vehicles.;same;;;;;;;;;;;;;;;;;;;
-items/order/type/eventMul/param/event;0;;trim;;;;;;;;;;;;;;;;;;;
-items/order/type/eventMul/param/event/value/GAMEPLAY_EVENT_KILL;0;;trim;;;;;;;;;;;;;;;;;;;
+items/order/type/eventMul/param/event;;;same;;;;;;;;;;;;;;;;;;;
+items/order/type/eventMul/param/event/value/GAMEPLAY_EVENT_KILL;;;same;;;;;;;;;;;;;;;;;;;
 items/order/type/eventMul/param/target;Target type: ;Target type: ;same;;;;;;;;;;;;;;;;;;;
 items/order/type/eventMul/param/target/value/ground;Ground;Ground;same;;;;;;;;;;;;;;;;;;;
 items/order/type/eventMul/param/target/value/aircraft;Air;Air;same;;;;;;;;;;;;;;;;;;;
@@ -3544,8 +3544,8 @@ userlog/used_vehicled;Achieved with vehicle;Achieved with vehicle;same;;;;;;;;;;
 userlog/rent_unit;<color=@userlogColoredText>{unitName}</color> test drive has begun.;<color=@userlogColoredText>{unitName}</color> test drive has begun.;same;;;;;;;;;;;;;;;;;;;
 userlog/rent_unit_extended;<color=@userlogColoredText>{unitName}</color> test drive has been extended.;<color=@userlogColoredText>{unitName}</color> test drive has been extended.;same;;;;;;;;;;;;;;;;;;;
 userlog/rent_unit_expired;<color=@userlogColoredText>{unitName}</color> test drive has expired.;<color=@userlogColoredText>{unitName}</color> test drive has expired.;same;;;;;;;;;;;;;;;;;;;
-userlog/per_month_award;0;Congratulations! You have received an exclusive trophy for PlayStation®Plus subscribers;nice;;;;;;;;;;;;;;;;;;;
-userlog/per_month_award_XBOXPlus;0;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;nice;;;;;;;;;;;;;;;;;;;
+userlog/per_month_award;;Congratulations! You have received an exclusive trophy for PlayStation®Plus subscribers;nice;;;;;;;;;;;;;;;;;;;
+userlog/per_month_award_XBOXPlus;;Congratulations! You have received an exclusive trophy for Xbox Live Gold subscribers;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit;Vehicle test drive start;Vehicle test drive start;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit_extended;Vehicle test drive extended;Vehicle test drive extended;same;;;;;;;;;;;;;;;;;;;
 mainmenu/rent/rent_unit_expired;Vehicle test drive expiration;Vehicle test drive expiration;same;;;;;;;;;;;;;;;;;;;
@@ -3598,7 +3598,7 @@ slotInfoPanel/crewButton;Crew Training;Crew Training;same;;;;;;;;;;;;;;;;;;;
 slotInfoPanel/crewButton/tooltip;Improve skills of your crew.;Improve skills of your crew.;same;;;;;;;;;;;;;;;;;;;
 vehicle/for_crew/available;Available;Available;same;;;;;;;;;;;;;;;;;;;
 vehicle/for_crew/engaged;Engaged;Engaged;same;;;;;;;;;;;;;;;;;;;
-promo/showAllPromoBlocks;0;Show All Promo Blocks;nice;;;;;;;;;;;;;;;;;;;
+promo/showAllPromoBlocks;;Show All Promo Blocks;nice;;;;;;;;;;;;;;;;;;;
 respawn/timeToKick;Time left to join: {timeToKick};Time left to join: {timeToKick};same;;;;;;;;;;;;;;;;;;;
 respawn/timeToKickAlert;Join the battle;Join the battle;same;;;;;;;;;;;;;;;;;;;
 respawn/leftRespawns;Respawns: {num};Respawns: {num};same;;;;;;;;;;;;;;;;;;;
@@ -3608,10 +3608,10 @@ respawn/noUnitLeft;You ran out of {unitName}.;You ran out of {unitName}.;same;;;
 respawn/randomUnitsGroup/description;Random vehicle: {groupName};Random vehicle: {groupName};same;;;;;;;;;;;;;;;;;;;
 respawn/randomUnitsGroup/name;Random vehicle;Random vehicle;same;;;;;;;;;;;;;;;;;;;
 respawn/randomUnitsGroup/content;Contains one vehicle from the list:;Contains one vehicle from the list:;same;;;;;;;;;;;;;;;;;;;
-inBattle/timeToKick;0;"WARNING!
+inBattle/timeToKick;;"WARNING!
 If you remain inactive,
 you will be returned to the main menu in {timeToKick}";nice;;;;;;;;;;;;;;;;;;;
-inBattle/timeToKickAlert;0;"WARNING!
+inBattle/timeToKickAlert;;"WARNING!
 If you remain inactive,
 you will be returned to the main menu.";nice;;;;;;;;;;;;;;;;;;;
 items/limitDescription/limitGlobal;Item quantity is limited. Items left: {itemsLeft};Item quantity is limited. Items left: {itemsLeft};same;;;;;;;;;;;;;;;;;;;
@@ -3949,24 +3949,24 @@ popup/newcontroller/message;Change controls preset?;Change controls preset?;same
 popup/keyboard_or_mouse_connected;Keyboard and/or mouse connected;Keyboard and/or mouse connected;same;;;;;;;;;;;;;;;;;;;
 popup/keyboard_or_mouse_connected/message;Change controls preset?;Change controls preset?;same;;;;;;;;;;;;;;;;;;;
 mainmenu/skirmish/noProgress;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of achievements.;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of achievements.;same;;;;;;;;;;;;;;;;;;;
-browser_bug_disclaimer;0;"ATTENTION NEW PLAYERS
+browser_bug_disclaimer;;"ATTENTION NEW PLAYERS
 To create an account for playing War Thunder, сlick the Sign Up link. It should open your browser, and if it does not, please get back to the game and click Sign Up once again.";nice;;;;;;;;;;;;;;;;;;;
 msgbox/controller_hotas4_found;Thrustmaster® T.Flight Hotas 4 device found. Use controls preset?;Thrustmaster® T.Flight Hotas 4 device found. Use controls preset?;same;;;;;;;;;;;;;;;;;;;
 msgbox/controller_hotas_one_found;Thrustmaster® T.Flight Hotas One device found. Use controls preset?;Thrustmaster® T.Flight Hotas One device found. Use controls preset?;same;;;;;;;;;;;;;;;;;;;
-tutorials/hotas_restriction;0;You can play in all FLYING missions with T-Flight Hotas 4. Only this tutorial must be played with DUALSHOCK®4. Tutorial for Flying missions playable with T-Flight Hotas 4 coming in next update.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/hotas_restriction/tank;0;Thrustmaster® T.Flight Hotas 4 cannot be used for tank control. This tutorial can be played with DUALSHOCK®4;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/skill_points_info;0;For participating in battles the crew receives skill points, which can be spent on improving vehicle control skills.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/press_to_crew;0;Choose the crew in order to learn more about crew skills.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/select_crew;0;"Select ""Crew Training"" in the context menu.";nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/total_skill_points;0;Here you can see the crew level and the number of unassigned skill points. Skill points are used for improving the crew skills.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/skill_groups;0;Crew skills are divided into several groups.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/take_skill_points;0;The number of points required for improving the skill depends on the skill's current level and is written on the right.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/inc_skills;0;Choose several skills and increase their level.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/apply_upgr_skills;0;"Press ""Apply"" to confirm your choice.";nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/spec1;0;"Skill level can also be increased by qualification. Qualification, as opposed to skills, is increased separately for each vehicle. Press here to upgrade qualification to ""Expert"".";nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/confirm_spec1;0;Qualification significantly increases the level of a greater number of crew skills. Try to upgrade it for each new vehicle.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/upg_crew/final_massage;0;Congratulations! Now you know how to improve the effectiveness of your crews. Do not forget to do it from time to time.;nice;;;;;;;;;;;;;;;;;;;
-tutorials/research_next_aircraft;0;"After the completion of the research you must choose the following vehicle and click on the ""Research"" button.";nice;;;;;;;;;;;;;;;;;;;
+tutorials/hotas_restriction;;You can play in all FLYING missions with T-Flight Hotas 4. Only this tutorial must be played with DUALSHOCK®4. Tutorial for Flying missions playable with T-Flight Hotas 4 coming in next update.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/hotas_restriction/tank;;Thrustmaster® T.Flight Hotas 4 cannot be used for tank control. This tutorial can be played with DUALSHOCK®4;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/skill_points_info;;For participating in battles the crew receives skill points, which can be spent on improving vehicle control skills.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/press_to_crew;;Choose the crew in order to learn more about crew skills.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/select_crew;;"Select ""Crew Training"" in the context menu.";nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/total_skill_points;;Here you can see the crew level and the number of unassigned skill points. Skill points are used for improving the crew skills.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/skill_groups;;Crew skills are divided into several groups.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/take_skill_points;;The number of points required for improving the skill depends on the skill's current level and is written on the right.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/inc_skills;;Choose several skills and increase their level.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/apply_upgr_skills;;"Press ""Apply"" to confirm your choice.";nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/spec1;;"Skill level can also be increased by qualification. Qualification, as opposed to skills, is increased separately for each vehicle. Press here to upgrade qualification to ""Expert"".";nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/confirm_spec1;;Qualification significantly increases the level of a greater number of crew skills. Try to upgrade it for each new vehicle.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/upg_crew/final_massage;;Congratulations! Now you know how to improve the effectiveness of your crews. Do not forget to do it from time to time.;nice;;;;;;;;;;;;;;;;;;;
+tutorials/research_next_aircraft;;"After the completion of the research you must choose the following vehicle and click on the ""Research"" button.";nice;;;;;;;;;;;;;;;;;;;
 msgbox/return_to_battle_session;Would you like to return to the current battle?;Would you like to return to the current battle?;same;;;;;;;;;;;;;;;;;;;
 mission_objectives;Mission objectives;Mission objectives;same;;;;;;;;;;;;;;;;;;;
 warbonds/currentAmount;You have {warbonds};You have {warbonds};same;;;;;;;;;;;;;;;;;;;
@@ -4019,7 +4019,7 @@ msgbox/relogin_required;You need to return to the login screen in order to apply
 msgbox/downloadPercent;Downloaded: {percent}%;Downloaded: {percent}%;same;;;;;;;;;;;;;;;;;;;
 download/inProgress;Client is still downloading.;Client is still downloading.;same;;;;;;;;;;;;;;;;;;;
 download/finished;Download is finished.;Download is finished.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/bonusCyberCafe;0;Cyber Café Privilege;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/bonusCyberCafe;;Cyber Café Privilege;nice;;;;;;;;;;;;;;;;;;;
 skipInBattleSpareActivateConfirm;Skip Confirmation;Skip Confirmation;same;;;;;;;;;;;;;;;;;;;
 mainmenu/two_step_popup_header;Two-step authentication;Two-step authentication;same;;;;;;;;;;;;;;;;;;;
 mainmenu/two_step_popup_text;Two-step authentication not activated. Sign in to your Profile Management page to activate it.;Two-step authentication not activated. Sign in to your Profile Management page to activate it.;same;;;;;;;;;;;;;;;;;;;
@@ -4030,12 +4030,12 @@ mainmenu/gamemode_change_notice;"Game mode changed by current Vehicle Preset.
 Press to change back to ""%s"".";"Game mode changed by current Vehicle Preset.
 Press to change back to ""%s"".";same;;;;;;;;;;;;;;;;;;;
 mainmenu/leader_gamemode_notice;Game mode changed by squad leader;Game mode changed by squad leader;same;;;;;;;;;;;;;;;;;;;
-item/FakeBoosterForNetCafeLevel;0;Cyber Café Privilege;nice;;;;;;;;;;;;;;;;;;;
-item/FakeBoosterForNetCafeLevel/desc;0;Special Bonus;nice;;;;;;;;;;;;;;;;;;;
-item/FakeBoosterForNetCafeLevel/squad;0;Bonus for {num} player squad;nice;;;;;;;;;;;;;;;;;;;
-item/FakeBoosterForSquadFromSameCafe2;0;Bonus for 2 player squad;nice;;;;;;;;;;;;;;;;;;;
-item/FakeBoosterForSquadFromSameCafe3;0;Bonus for 3 player squad;nice;;;;;;;;;;;;;;;;;;;
-item/FakeBoosterForSquadFromSameCafe4;0;Bonus for 4 player squad;nice;;;;;;;;;;;;;;;;;;;
+item/FakeBoosterForNetCafeLevel;;Cyber Café Privilege;nice;;;;;;;;;;;;;;;;;;;
+item/FakeBoosterForNetCafeLevel/desc;;Special Bonus;nice;;;;;;;;;;;;;;;;;;;
+item/FakeBoosterForNetCafeLevel/squad;;Bonus for {num} player squad;nice;;;;;;;;;;;;;;;;;;;
+item/FakeBoosterForSquadFromSameCafe2;;Bonus for 2 player squad;nice;;;;;;;;;;;;;;;;;;;
+item/FakeBoosterForSquadFromSameCafe3;;Bonus for 3 player squad;nice;;;;;;;;;;;;;;;;;;;
+item/FakeBoosterForSquadFromSameCafe4;;Bonus for 4 player squad;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/lbUpdateTime;Updated at;Updated at;same;;;;;;;;;;;;;;;;;;;
 sound;Sound;Sound;same;;;;;;;;;;;;;;;;;;;
 mainmenu/sound/play;Play;Play;same;;;;;;;;;;;;;;;;;;;
@@ -4064,9 +4064,9 @@ profile/only_for_bought/hint;Show only those that are suitable for the purchased
 profile/only_for_bought_disabled/hint;You have no vehicles of this type purchased;You have no vehicles of this type purchased;same;;;;;;;;;;;;;;;;;;;
 move_cursor;Move cursor;Move cursor;same;;;;;;;;;;;;;;;;;;;
 scroll;Scroll;Scroll;same;;;;;;;;;;;;;;;;;;;
-gamepad_cursor_control_splash/header_text;0;New navigation in UI;nice;;;;;;;;;;;;;;;;;;;
-gamepad_cursor_control_splash/navigation_by_ui_objects;0;Navigation by UI elements;nice;;;;;;;;;;;;;;;;;;;
-gamepad_cursor_control_splash/activation_of_selected_object;0;Activate the selected UI element;nice;;;;;;;;;;;;;;;;;;;
+gamepad_cursor_control_splash/header_text;;New navigation in UI;nice;;;;;;;;;;;;;;;;;;;
+gamepad_cursor_control_splash/navigation_by_ui_objects;;Navigation by UI elements;nice;;;;;;;;;;;;;;;;;;;
+gamepad_cursor_control_splash/activation_of_selected_object;;Activate the selected UI element;nice;;;;;;;;;;;;;;;;;;;
 filesystem/file;File;File;same;;;;;;;;;;;;;;;;;;;
 filesystem/directory;Folder;Folder;same;;;;;;;;;;;;;;;;;;;
 filesystem/openfile;Open file;Open file;same;;;;;;;;;;;;;;;;;;;
@@ -4154,13 +4154,13 @@ item/specialTasksPersonalUnlocks/desc;Complete Special Tasks to earn medals and 
 item/specialTasksPersonalUnlocks/purchaseRestriction;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;Current Special Task hasn't been completed yet. It is impossible to purchase a new one.;same;;;;;;;;;;;;;;;;;;;
 item/specialTasksPersonalUnlocks/limitRestriction;You can not buy a Special Task because you do not have permission to perform Special Tasks. A one-time permit is issued immediately after successfully receiving a reward for completing a Daily Medium Task.;You can not buy a Special Task because you do not have permission to perform Special Tasks. A one-time permit is issued immediately after successfully receiving a reward for completing a Daily Medium Task.;same;;;;;;;;;;;;;;;;;;;
 msg/noUniversalSpareForUnit;You have no universal backup available for this vehicle.;You have no universal backup available for this vehicle.;same;;;;;;;;;;;;;;;;;;;
-xbox/playAs;0;Play as: <color=@mainPlayerColor>{name}</color>;nice;;;;;;;;;;;;;;;;;;;
-xbox/reqInstantConnection;0;This game requires constant Internet connection.;nice;;;;;;;;;;;;;;;;;;;
-xbox/noInternetConnection;0;You cannot play War Thunder due to the lack of Internet connection.;nice;;;;;;;;;;;;;;;;;;;
-xbox/noMultiplayer;0;Multiplayer is not available;nice;;;;;;;;;;;;;;;;;;;
-xbox/crossPlayRequired;0;⋭ - Enabled Cross-Network Play required.;nice;;;;;;;;;;;;;;;;;;;
-xbox/crossPlayEnabled;0;Cross-Network Play is enabled. You will meet players from other platforms in battle.;nice;;;;;;;;;;;;;;;;;;;
-queue/crossPlay;0;Enabled Cross-Network Play allows you to join the battles quicker.;nice;;;;;;;;;;;;;;;;;;;
+xbox/playAs;;Play as: <color=@mainPlayerColor>{name}</color>;nice;;;;;;;;;;;;;;;;;;;
+xbox/reqInstantConnection;;This game requires constant Internet connection.;nice;;;;;;;;;;;;;;;;;;;
+xbox/noInternetConnection;;You cannot play War Thunder due to the lack of Internet connection.;nice;;;;;;;;;;;;;;;;;;;
+xbox/noMultiplayer;;Multiplayer is not available;nice;;;;;;;;;;;;;;;;;;;
+xbox/crossPlayRequired;;⋭ - Enabled Cross-Network Play required.;nice;;;;;;;;;;;;;;;;;;;
+xbox/crossPlayEnabled;;Cross-Network Play is enabled. You will meet players from other platforms in battle.;nice;;;;;;;;;;;;;;;;;;;
+queue/crossPlay;;Enabled Cross-Network Play allows you to join the battles quicker.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/showVehicles;Show vehicles;Show vehicles;same;;;;;;;;;;;;;;;;;;;
 mainmenu/showVehiclesTitle;Vehicles for the task: {taskName};Vehicles for the task: {taskName};same;;;;;;;;;;;;;;;;;;;
 mainmenu/showMore;Show more;Show more;same;;;;;;;;;;;;;;;;;;;
@@ -4187,36 +4187,36 @@ loadDlDataStat/inFlight;Loading: files left {filesInFlight} ({filesInFlightSizeK
 loadDlDataStat/failed;failed {filesFailed} ({filesFailedSizeKB}K);failed {filesFailed} ({filesFailedSizeKB}K);same;;;;;;;;;;;;;;;;;;;
 loadDlDataStat/delayed;postponed {filesDelayed};postponed {filesDelayed};same;;;;;;;;;;;;;;;;;;;
 workshop/1Animcraft_main_header;Flying Serpent, Crouching Tiger!;Flying Serpent, Crouching Tiger!;same;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_1;0;Craft your own ␠Tiger with animal camouflage!;nice;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_2;0;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;nice;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_3;0;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_tank_4;0;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+workshop/1Animcraft_preview_tank_1;;Craft your own ␠Tiger with animal camouflage!;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_tank_2;;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_tank_3;;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_tank_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_1;0;Craft your own ␠Kingcobra aircraft with animal camouflage!;nice;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_2;0;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;nice;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_3;0;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;;;;;;;;;;;;;;;;;
-workshop/1Animcraft_preview_air_4;0;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+workshop/1Animcraft_preview_air_1;;Craft your own ␠Kingcobra aircraft with animal camouflage!;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_air_2;;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_air_3;;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;;;;;;;;;;;;;;;;;
+workshop/1Animcraft_preview_air_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for PS4 player or player who previously received DMM items)";nice;;;;;;;;;;;;;;;;;;;
 workshop/t34_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_1;0;Craft your own Т-34E!;nice;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_2;0; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.;nice;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_3;0;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;nice;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_4;0;In addition to T-34E get access to a second part of the event - IS-7 assemble!;nice;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_5;0;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;nice;;;;;;;;;;;;;;;;;;;
-workshop/t34_summer_2018_preview_6;0;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+workshop/t34_summer_2018_preview_1;;Craft your own Т-34E!;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_2;; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_3;;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_4;;In addition to T-34E get access to a second part of the event - IS-7 assemble!;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_5;;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;nice;;;;;;;;;;;;;;;;;;;
+workshop/t34_summer_2018_preview_6;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
 workshop/is7_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_1;0;Craft your own IS-7!;nice;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_2;0; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;nice;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_3;0;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;nice;;;;;;;;;;;;;;;;;;;
-workshop/is7_summer_2018_preview_4;0;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+workshop/is7_summer_2018_preview_1;;Craft your own IS-7!;nice;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_2;; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;nice;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_3;;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;nice;;;;;;;;;;;;;;;;;;;
+workshop/is7_summer_2018_preview_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
 workshop/craft_event_2019_spring_header;Battlefield Engineer;Battlefield Engineer;same;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_1;0;Repair your own I-180S!;nice;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_2;0;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;nice;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_3;0;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;nice;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_4;0;"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";nice;;;;;;;;;;;;;;;;;;;
-workshop/craft_event_2019_spring_preview_5;0;"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+workshop/craft_event_2019_spring_preview_1;;Repair your own I-180S!;nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_2;;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_3;;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_4;;"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";nice;;;;;;;;;;;;;;;;;;;
+workshop/craft_event_2019_spring_preview_5;;"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
 workshop/camo_trophy_exchange;Camo Trophy (trade items);Camo Trophy (trade items);same;;;;;;;;;;;;;;;;;;;
 workshop/advancing_storm;'Advancing Storm';'Advancing Storm';same;;;;;;;;;;;;;;;;;;;
@@ -4299,14 +4299,14 @@ items/sort/name;by name;by name;same;;;;;;;;;;;;;;;;;;;
 items/sort/isBought;already bought;already bought;same;;;;;;;;;;;;;;;;;;;
 items/sort/ascending;Ascending;Ascending;same;;;;;;;;;;;;;;;;;;;
 items/sort/descending;Descending;Descending;same;;;;;;;;;;;;;;;;;;;
-msgBox/start_new_unit_type_to_battle_tutorial;0;"Do you want to try your hand at mode ""{gameModeName}""?";nice;;;;;;;;;;;;;;;;;;;
-slotbarPresetsTutorial/openGameModeSelect;0;Open the game modes window to choose a proper one.;nice;;;;;;;;;;;;;;;;;;;
-slotbarPresetsTutorial/selectGameMode;0;Select a game mode in which you can play on {unitType}.;nice;;;;;;;;;;;;;;;;;;;
+msgBox/start_new_unit_type_to_battle_tutorial;;"Do you want to try your hand at mode ""{gameModeName}""?";nice;;;;;;;;;;;;;;;;;;;
+slotbarPresetsTutorial/openGameModeSelect;;Open the game modes window to choose a proper one.;nice;;;;;;;;;;;;;;;;;;;
+slotbarPresetsTutorial/selectGameMode;;Select a game mode in which you can play on {unitType}.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/gameModeChoice;Game Mode Select;Game Mode Select;same;;;;;;;;;;;;;;;;;;;
 items/openIn/XboxStore;Open in Microsoft Store;Open in Microsoft Store;same;;;;;;;;;;;;;;;;;;;
 items/openIn/Ps4Store;Open in PlayStation™Store;Open in PlayStation™Store;same;;;;;;;;;;;;;;;;;;;
 items/purchaseIn/Ps4Store;Purchase in PlayStation™Store;Purchase in PlayStation™Store;same;;;;;;;;;;;;;;;;;;;
-items/openIn/EpicGameStore;0;Purchase in Epic Game Store;nice;;;;;;;;;;;;;;;;;;;
+items/openIn/EpicGameStore;;Purchase in Epic Game Store;nice;;;;;;;;;;;;;;;;;;;
 armor_class/variable_thickness_armor;Variable thickness armor;Variable thickness armor;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor_dimensions_at_point;Armor dimensions at point;Armor dimensions at point;same;;;;;;;;;;;;;;;;;;;
 mainmenu/playersCannotBeInvites;Players cannot take part in skirmish;Players cannot take part in skirmish;same;;;;;;;;;;;;;;;;;;;
@@ -4387,10 +4387,10 @@ mainmenu/compareAchievements;Compare {name} Achievements;Compare {name} Achievem
 mainmenu/showAchievements;Show {name} Achievements;Show {name} Achievements;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/throttle;ᚵᚩᚳᚰᚵᚵᚭᚦ;ᚵᚩᚳᚰᚵᚵᚭᚦ;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/velocity;ᚷᚦᚭᚰᚤᚪᚵᚸ;ᚷᚦᚭᚰᚤᚪᚵᚸ;same;;;;;;;;;;;;;;;;;;;
-HUD/alien/kmph;0;;trim;;;;;;;;;;;;;;;;;;;
+HUD/alien/kmph;;;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/gun;ᚢᚮᚮᚰ ᚨᚶᚯ;ᚢᚮᚮᚰ ᚨᚶᚯ;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/rockets;ᚢᚮᚮᚰ ᚱᚰᚤᚬᚦᚵᚴ;ᚢᚮᚮᚰ ᚱᚰᚤᚬᚦᚵᚴ;same;;;;;;;;;;;;;;;;;;;
-HUD/alien/percent;0;;trim;;;;;;;;;;;;;;;;;;;
+HUD/alien/percent;;;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/comma;ᛃ;ᛃ;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/minus;ᛅ;ᛅ;same;;;;;;;;;;;;;;;;;;;
 HUD/alien/digit0;ᚼ;ᚼ;same;;;;;;;;;;;;;;;;;;;
@@ -4477,7 +4477,7 @@ mainmenu/needRecruitCrewWarning;For upgrade crew is need to recruit him;For upgr
 crew/qualifyRequirement/toTrainUnit;To qualify for {wantedQualify} on {unitName}, you need to train crew to operate this vehicle.;To qualify for {wantedQualify} on {unitName}, you need to train crew to operate this vehicle.;same;;;;;;;;;;;;;;;;;;;
 generatePreset/current_preset_is_better;Current preset has best available vehicles in slots.;Current preset has best available vehicles in slots.;same;;;;;;;;;;;;;;;;;;;
 generatePreset/warning/can_create_best_preset/tooltip;You can generate better vehicles preset.;You can generate better vehicles preset.;same;;;;;;;;;;;;;;;;;;;
-options/voiceChat/disableWarning;0;"Ingame Voice chat available only with enabled ""Cross-platform communication"" option";nice;;;;;;;;;;;;;;;;;;;
+options/voiceChat/disableWarning;;"Ingame Voice chat available only with enabled ""Cross-platform communication"" option";nice;;;;;;;;;;;;;;;;;;;
 mainemnu/comingsoon;Coming Soon;Coming Soon;same;;;;;;;;;;;;;;;;;;;
 workshop/accentCraftTreeButton;"Press ""{buttonName}"" to open scheme.";"Press ""{buttonName}"" to open scheme.";same;;;;;;;;;;;;;;;;;;;
 workshop/tutorial/selectRecipe;Choose one of the available options;Choose one of the available options;same;;;;;;;;;;;;;;;;;;;
@@ -4865,7 +4865,7 @@ weaponry/select_on_buy;Autoselect upon purchase;Autoselect upon purchase;same;;;
 msgbox/confirmDelayedDownload;Confirm;Confirm;same;;;;;;;;;;;;;;;;;;;
 msgbox/delayedDownloadContent;The mode of loading additional content only in the hangar is enabled. The mode has been enabled due to poor network quality or insufficient download speed. You can turn it off in settings;The mode of loading additional content only in the hangar is enabled. The mode has been enabled due to poor network quality or insufficient download speed. You can turn it off in settings;same;;;;;;;;;;;;;;;;;;;
 weaponry/select_on_buy/tooltip;Will be set automatically upon purchase;Will be set automatically upon purchase;same;;;;;;;;;;;;;;;;;;;
-msgbox/steam/rate_review;0;We hope you’re enjoying War Thunder! If you have time, would you like to share your opinions about the game or read reviews from fellow players? Your review can help us improve and make War Thunder better, and help other players discover the game.;nice;;;;;;;;;;;;;;;;;;;
+msgbox/steam/rate_review;;We hope you’re enjoying War Thunder! If you have time, would you like to share your opinions about the game or read reviews from fellow players? Your review can help us improve and make War Thunder better, and help other players discover the game.;nice;;;;;;;;;;;;;;;;;;;
 msgbox/goToSteam;Go to Steam;Go to Steam;same;;;;;;;;;;;;;;;;;;;
 msgbox/countryConfirmation;"Random rewards functionality may be limited due to legal restrictions imposed in some countries.
 Please confirm if you are from {country}.";"Random rewards functionality may be limited due to legal restrictions imposed in some countries.
@@ -4913,10 +4913,10 @@ mainmenu/btnGotoSkinUnlock;Achievement Conditions;Achievement Conditions;same;;;
 mainmenu/skinHintCanBuyOrUnlock;This camouflage can be obtained by fulfilling its conditions or purchased for Golden Eagles.;This camouflage can be obtained by fulfilling its conditions or purchased for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/skinHintCanBuy;This camouflage can be purchased for Golden Eagles.;This camouflage can be purchased for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/skinHintCanUnlock;This camouflage can be obtained by fulfilling its conditions.;This camouflage can be obtained by fulfilling its conditions.;same;;;;;;;;;;;;;;;;;;;
-suggested_skin/available;0;"Author's camouflage is available
+suggested_skin/available;;"Author's camouflage is available
 {skinName}";nice;;;;;;;;;;;;;;;;;;;
-suggested_skin/info;0;This is an author's camouflage, added to the game under the user-generated content supporting program.;nice;;;;;;;;;;;;;;;;;;;
-suggested_skin/find;0;You can support the author by purchasing this camouflage on the Marketplace.;nice;;;;;;;;;;;;;;;;;;;
+suggested_skin/info;;This is an author's camouflage, added to the game under the user-generated content supporting program.;nice;;;;;;;;;;;;;;;;;;;
+suggested_skin/find;;You can support the author by purchasing this camouflage on the Marketplace.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/ps5_update_request;Please update your War Thunder client to the native PlayStation®5 version.;Please update your War Thunder client to the native PlayStation®5 version.;same;;;;;;;;;;;;;;;;;;;
 item/talisman_ship_trophy;Random Talisman (Bluewater fleet);Random Talisman (Bluewater fleet);same;;;;;;;;;;;;;;;;;;;
 item/talisman_ship_trophy/shortTypeDesc;Upon purchase, it automatically adds a talisman for a random purchased vehicle that matches the conditions of use.;Upon purchase, it automatically adds a talisman for a random purchased vehicle that matches the conditions of use.;same;;;;;;;;;;;;;;;;;;;
@@ -4948,7 +4948,7 @@ item/prem_unit_rank_7;Random Premium Vehicle (rank VII);Random Premium Vehicle (
 open_url_in_browser;Open in a browser;Open in a browser;same;;;;;;;;;;;;;;;;;;;
 qrWindow/info;Scan the QR code with smartphone or tablet or use the link.;Scan the QR code with smartphone or tablet or use the link.;same;;;;;;;;;;;;;;;;;;;
 qrWindow/info/reportAnIssue;By scanning QR code you can immediately attach a photo or video of your problem to the report.;By scanning QR code you can immediately attach a photo or video of your problem to the report.;same;;;;;;;;;;;;;;;;;;;
-eagles/rechargeUrlNotification;0;;trim;;;;;;;;;;;;;;;;;;;
+eagles/rechargeUrlNotification;;;same;;;;;;;;;;;;;;;;;;;
 mainmenu/getQR;Sign in via QR code;Sign in via QR code;same;;;;;;;;;;;;;;;;;;;
 ship/damage_control;Damage control;Damage control;same;;;;;;;;;;;;;;;;;;;
 ship/damage_control_set;Damage control set;Damage control set;same;;;;;;;;;;;;;;;;;;;
@@ -5004,7 +5004,7 @@ help/xray;Turn on the vehicle's X-Ray display mode to see the position of the in
 help/modifications;The purchase and installation of various modifications to the vehicle.;The purchase and installation of various modifications to the vehicle.;same;;;;;;;;;;;;;;;;;;;
 help/protection_analysis;A shooting simulation mode at your vehicle to test the impact of various ammunition on it.;A shooting simulation mode at your vehicle to test the impact of various ammunition on it.;same;;;;;;;;;;;;;;;;;;;
 help/show_external_dm;Hiding external structural elements will help you better understand the vehicle's armor scheme and evaluate its strengths and weaknesses.;Hiding external structural elements will help you better understand the vehicle's armor scheme and evaluate its strengths and weaknesses.;same;;;;;;;;;;;;;;;;;;;
-help/xray_part_filter;0;Hiding vehicle elements will help you better understand the position of modules of a vehicle.;nice;;;;;;;;;;;;;;;;;;;
+help/xray_part_filter;;Hiding vehicle elements will help you better understand the position of modules of a vehicle.;nice;;;;;;;;;;;;;;;;;;;
 help/show_extended_hints;An expanded description of the modules allows you to understand the purpose and features of each module, including the impact on the vehicle's combat characteristics.;An expanded description of the modules allows you to understand the purpose and features of each module, including the impact on the vehicle's combat characteristics.;same;;;;;;;;;;;;;;;;;;;
 help/battlepas;Battle Ass indicator (red = active). Purchase a Battle Ass to receive valuable prizes for completing in-game tasks and challenges.;Battle Pass indicator (red = active). Purchase a Battle Pass to receive valuable prizes for completing in-game tasks and challenges.;nice;;;;;;;;;;;;;;;;;;;
 help/free_exp;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
@@ -5072,12 +5072,12 @@ help/modificationBuyed;Purchased modification. This modification is installed on
 help/modificationWeapons;Selecting a standard weapon or its modification.;Selecting a standard weapon or its modification.;same;;;;;;;;;;;;;;;;;;;
 help/crewSkillDecBtn;Reduce skill level.;Reduce skill level.;same;;;;;;;;;;;;;;;;;;;
 help/customizationAutoSkin;The game will automatically select the appropriate camouflage in battle;The game will automatically select the appropriate camouflage in battle;same;;;;;;;;;;;;;;;;;;;
-dailyAward/playWTM;0;"Keep your daily progress even if you can't log in to War Thunder.
+dailyAward/playWTM;;"Keep your daily progress even if you can't log in to War Thunder.
 Simply log in to <Link=War Thunder Mobile><Color=@linkTextColor>War Thunder Mobile</Color></Link>{sendShortcuts} every day to maintain your streak!";nice;;;;;;;;;;;;;;;;;;;
-dailyAward/qrCodeWTM;0;Scan the QR code with your smartphone's camera and download War Thunder Mobile now!;nice;;;;;;;;;;;;;;;;;;;
-war_thunder_mobile;0;War Thunder Mobile;nice;;;;;;;;;;;;;;;;;;;
-qrCode/downloadApkFile;0;APK File;nice;;;;;;;;;;;;;;;;;;;
-qrCode/GooglePlay;0;Google Play;nice;;;;;;;;;;;;;;;;;;;
+dailyAward/qrCodeWTM;;Scan the QR code with your smartphone's camera and download War Thunder Mobile now!;nice;;;;;;;;;;;;;;;;;;;
+war_thunder_mobile;;War Thunder Mobile;nice;;;;;;;;;;;;;;;;;;;
+qrCode/downloadApkFile;;APK File;nice;;;;;;;;;;;;;;;;;;;
+qrCode/GooglePlay;;Google Play;nice;;;;;;;;;;;;;;;;;;;
 qrCode/AppStore;Apple AppStore;Apple AppStore;same;;;;;;;;;;;;;;;;;;;
 xbox/acceptSquadInGame;Do you want exit to the hangar?;Do you want exit to the hangar?;same;;;;;;;;;;;;;;;;;;;
 crew/qalification/canbuy;The qualification can be upgraded to {qualify} for {cost};The qualification can be upgraded to {qualify} for {cost};same;;;;;;;;;;;;;;;;;;;
