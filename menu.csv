@@ -5276,4 +5276,14 @@ stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targe
 profile/choose_profile_icon;Selection of profile icon;Selection of profile icon;same;;;;;;;;;;;;;;;;;;;
 profile/choose_frame;Selection of frame;Selection of frame;same;;;;;;;;;;;;;;;;;;;
 profile/no_frame;No frame;No frame;same;;;;;;;;;;;;;;;;;;;
+items/recycling;Item recycling;Item recycling;same;;;;;;;;;;;;;;;;;;;
+items/recycling/emptyTab;There are no items to recycle;There are no items to recycle;same;;;;;;;;;;;;;;;;;;;
+items/recycling/createItems;Create items;Create items;same;;;;;;;;;;;;;;;;;;;
+items/recycling/descWithNumberOfRecycledItems;"You can recycle unwanted items and then create new random items from them in the ratio of <color=@activeTextColor>2:1</color>.
+You currently have <color=@activeTextColor>{unusedItemsCount}</color> recycled and unused {unusedItemsCount=item/items}, so <color=@activeTextColor>{maxNewItemsCount}</color> new {maxNewItemsCount=item/items} can be created.";"You can recycle unwanted items and then create new random items from them in the ratio of <color=@activeTextColor>2:1</color>.
+You currently have <color=@activeTextColor>{unusedItemsCount}</color> recycled and unused {unusedItemsCount=item/items}, so <color=@activeTextColor>{maxNewItemsCount}</color> new {maxNewItemsCount=item/items} can be created.";same;;;;;;;;;;;;;;;;;;;
+items/recycling/chooseItemsToRecycle;Select items to recycle;Select items to recycle;same;;;;;;;;;;;;;;;;;;;
+items/recycling/recycle;Recycle selected items;Recycle selected items;same;;;;;;;;;;;;;;;;;;;
 showcase/changeBg;Change profile background;Change profile background;same;;;;;;;;;;;;;;;;;;;
+items/recycling/confirmRecycle;Are you sure you want to recycle the following items?;Are you sure you want to recycle the following items?;same;;;;;;;;;;;;;;;;;;;
+userlog/remove_item/recycled;Item {itemName} has been recycled;Item {itemName} has been recycled;same;;;;;;;;;;;;;;;;;;;
