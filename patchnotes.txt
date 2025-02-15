@@ -1,5 +1,10 @@
 duhchuy's SCAM patchnotes
 
+2.43.0.108
+>
+T340E14H > T340E2H
+update _0 names per TM 9-2800-1 and Trends of Development in Vehicles and Tanks, AGF Board No.2
+
 2.43.0.95
 >
 Hl > HL

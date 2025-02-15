@@ -704,6 +704,9 @@ mainmenu/timeForBuyVehicle;The vehicle will be available for purchase for {time}
 mainmenu/timeForBuyTrophy;This trophy will be available for purchase for {time};This trophy will be available for purchase for {time};same;;;;;;;;;;;;;;;;;;;
 mainmenu/dataRemaningTimeShort;until {time};until {time};same;;;;;;;;;;;;;;;;;;;
 mainmenu/timeForBuyVehicleShort;{time} left;{time} left;same;;;;;;;;;;;;;;;;;;;
+mainmenu/vehicleResearchTillDate;After {time} the vehicle will be hidden in the research tree and will no longer be available to start researching.;After {time} the vehicle will be hidden in the research tree and will no longer be available to start researching.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/vehicleExpireTimeForResearch;The vehicle will be available for research and purchase for {time}.;The vehicle will be available for research and purchase for {time}.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/vehicleInGroupAvailableLimitedTimeTooltip;In the group below, there is a technique available to start research for a limited time.;In the group below, there is a technique available to start research for a limited time.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/buyPreviousModification;The previous modification must be purchased.;The previous modification must be purchased.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/buy_modifications_for_prev_unit;You should research required amount of modifications for previous vehicle;You should research required amount of modifications for previous vehicle;same;;;;;;;;;;;;;;;;;;;
 mainmenu/notEnoughWP;You need more € to purchase this vehicle.;You need more € to purchase this vehicle.;same;;;;;;;;;;;;;;;;;;;
