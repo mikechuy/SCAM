@@ -47,6 +47,10 @@ Mostly a comparator/backup repo. This is partially serious, partially joking, co
 ### Instructions to install units names mod:
 
 1. Enable custom localization in game options.
+	 - If this option does not exist, add "testLocalization:b=yes" to the debug section of config.blk
+
+ 	![image](https://github.com/user-attachments/assets/ba8495f3-1801-4b15-ae27-17b65630dda6)
+
 2. Relaunch warthunder (aces.exe) to download Gaijin's latest csv files.
 3. Download newest release/pre-release.
 4. Replace Gaijin's csv files with extracted csv files.
