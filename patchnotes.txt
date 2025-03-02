@@ -1,5 +1,13 @@
 duhchuy's SCAM patchnotes
 
+2.44.0.21
+>
+Ariete Сertezza > ▱Ariete
+Pz.Sp.Wg.P204(f) PaK > P 204(f)/PaK
+Rapier > RCM 748
+▄Tornado IDS MLU > ▄A-200C
+CLOVIS > ◄Clovis
+
 2.43.0.108
 >
 T340E14H > T340E2H

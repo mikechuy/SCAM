@@ -1381,17 +1381,17 @@ hints/tutorialBoat_spot_the_1st_target;"This is your first training target: a bo
 Move the cursor over it.";"This is your first training target: a boat
 
 Move the cursor over it.";same;;;;;;;;;;;;;;;;;;;
-hints/tutorialBoat_about_cursors;There are a few indicators on the screen, including a cursor showing the firing direction and turret markers showing the points at which the ship’s weapons are aimed.;There are a few indicators on the screen, including a cursor showing the firing direction and turret markers showing the points at which the ship’s weapons are aimed.;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialBoat_about_cursors;There are a few indicators on the screen, including a cursor showing the firing direction and turret markers showing the points at which the ship’s weapons are aimed.;There are a few indicators on the screen, including a cursor showing the firing direction. In Realistic Battles there will be a green marker on water surface showing the approximate point of shell impact.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_about_cursors_continue;"There are a few indicators on the screen, including a cursor showing the firing direction and turret markers showing the points at which the ship’s weapons are aimed.
 
-Press {{ID_CONTINUE}} to continue";"There are a few indicators on the screen, including a cursor showing the firing direction and turret markers showing the points at which the ship’s weapons are aimed.
+Press {{ID_CONTINUE}} to continue";"There are a few indicators on the screen, including a cursor showing the firing direction. In Realistic Battles there will be a green marker on water surface showing the approximate point of shell impact.
 
-Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_mouse_aim_cursor;CURSOR INDICATOR;CURSOR INDICATOR;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_turrets_cursors;WEAPON MARKERS;WEAPON MARKERS;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_white_turret_cursor;The white marker shows that the weapon can fire in the indicated direction.;The white marker shows that the weapon can fire in the indicated direction.;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_grey_turret_cursor;The gray marker shows that the weapon in the indicated sector is inactive.;The gray marker shows that the weapon in the indicated sector is inactive.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_boat_green_turret_cursor;The green marker shows an approximate point where the projectile will hit the water.;The green marker shows an approximate point where the projectile will hit the water.;same;;;;;;;;;;;;;;;;;;;
+hud_tutorial_boat_green_turret_cursor;The green marker shows an approximate point where the projectile will hit the water.;In Realistic Battles here will be the green marker on water surface showing the approximate point of shell impact.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_turrets_aim_hint01;The boat’s weapons cannot be controlled directly.;The boat’s weapons cannot be controlled directly.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_turrets_aim_hint01_continue;"The boat’s weapons cannot be controlled directly.
 
@@ -1549,9 +1549,10 @@ Press {{ID_CONTINUE}} to continue";"However, once your gunners have taken a few 
 Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_ranged_combat_hint05;"Gunners do not account for the target’s movement direction and speed, so tracking the target as it moves and firing at its future position is still up to you.
 
-Start firing at the target.";"Gunners do not account for the target’s movement direction and speed, so tracking the target as it moves and firing at its future position is still up to you.
+Start firing at the target.";"In Realistic battles, gunners do not account for the target’s movement direction and speed, so tracking the target as it moves and firing at its future position is still up to you.
+In Arcade battles, you don’t need to fire at the rarget’s future position.
 
-Start firing at the target.";same;;;;;;;;;;;;;;;;;;;
+Start firing at the target.";nice;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_fire_adjustment_info;The status of your adjustment fire at the current target is displayed here.;The status of your adjustment fire at the current target is displayed here.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_ranged_combat_target_killed;"Excellent! Target destroyed! Now you can capture the strategic point.
 
@@ -1709,7 +1710,8 @@ will turn with a delay. Plan your maneuvers in advance!";"Use {{ship_steering}} 
 will turn with a delay. Plan your maneuvers in advance!";same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/steering_explanation;When turning, the ship heels to the side opposite to the turning direction. It can prevent you from firing your guns. Complete the maneuver to get the ship level and move the guns out of the dead guidance sector;When turning, the ship heels to the side opposite to the turning direction. It can prevent you from firing your guns. Complete the maneuver to get the ship level and move the guns out of the dead guidance sector;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/movement;Use {{ship_main_engine+ship_steering}} to control your ship.;Use {{ship_main_engine+ship_steering}} to control your ship.;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_destroyer_battle/engine;The ship has an engine telegraph, which sets the movement mode: from slow to full. Forward and reverse. Switch modes with {{ship_main_engine}};The ship has an engine telegraph, which sets the movement mode: from slow to full. Forward and reverse. Switch modes with {{ship_main_engine}};same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_destroyer_battle/engine;The ship has an engine telegraph, which sets the movement mode: from slow to full. Forward and reverse. Switch modes with {{ship_main_engine}};"The ship has an engine telegraph, which sets the movement mode: from slow to full.
+Forward and reverse. Switch modes with {{ship_main_engine}}";nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/zoom;Press {{ID_ZOOM_TOGGLE}} to zoom;Press {{ID_ZOOM_TOGGLE}} to zoom;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/lock_target;Choose and lock your target by pressing {{ID_LOCK_TARGET}};Choose and lock your target by pressing {{ID_LOCK_TARGET}};same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/aim_explanation;"Your target distance displays in <color=#ff0000>red</color>. The distance your guns are aiming at displays in <color=#000000>black</color>.
@@ -2132,4 +2134,5 @@ hints/extraction_sandstorm_is_coming_get_out;A destructive sandstorm is approach
 hints/rage_scanner_active;The remains of vehicles with available rage flags are highlighted on the minimap.;The remains of vehicles with available rage flags are highlighted on the minimap.;same;;;;;;;;;;;;;;;;;;;
 hints/test_flight/attack_area;You are in the attack zone of enemy air defense;You are in the attack zone of enemy air defense;same;;;;;;;;;;;;;;;;;;;
 hints/ammo_used_exit_zone;Ammo is out, you can leave the mission using zone ␡;Ammo is out, you can leave the mission using zone ␡;same;;;;;;;;;;;;;;;;;;;
+hints/return_spawn_cost_exit_zone;In this case, the spawn cost will be returned to you;In this case, the spawn cost will be returned to you;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

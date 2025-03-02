@@ -221,6 +221,8 @@ hotkeys/ID_SENSOR_TYPE_SWITCH;Switch between Radar and IRST;Switch between Radar
 hotkeys/ID_SENSOR_MODE_SWITCH;Change Radar/IRST mode;Change Radar/IRST mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_SWITCH;Switch Radar/IRST search on/off;Switch Radar/IRST search on/off;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH;Change Radar/IRST search mode;Change Radar/IRST search mode;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SENSOR_STABILIZATION_SWITCH;Switch Radar/IRST gyro stabilization on/off;Switch Radar/IRST gyro stabilization on/off;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SENSOR_DIRECTION_AXES_RESET;Reset Radar/IRST direction to boresight;Reset Radar/IRST direction to boresight;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_RANGE_SWITCH;Change Radar/IRST scope scale;Change Radar/IRST scope scale;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_ACM_SWITCH;Radar/IRST beyond/within visual range combat;Radar/IRST beyond/within visual range combat;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_SWITCH;Select Radar/IRST target to lock;Select Radar/IRST target to lock;same;;;;;;;;;;;;;;;;;;;;
@@ -233,6 +235,8 @@ hotkeys/ID_SENSOR_MODE_SWITCH_HELICOPTER;Change radar mode;Change radar mode;sam
 hotkeys/ID_SENSOR_SWITCH_HELICOPTER;Switch radar search on/off;Switch radar search on/off;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH_HELICOPTER;Change radar search mode;Change radar search mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_RANGE_SWITCH_HELICOPTER;Change radar scope scale;Change radar scope scale;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SENSOR_STABILIZATION_SWITCH_HELICOPTER;Switch Radar/IRST gyro stabilization on/off;Switch Radar/IRST gyro stabilization on/off;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SENSOR_DIRECTION_AXES_RESET_HELICOPTER;Reset Radar/IRST direction to boresight;Reset Radar/IRST direction to boresight;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_ACM_SWITCH_HELICOPTER;Radar/IRST beyond/within visual range combat;Radar/IRST beyond/within visual range combat;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_SWITCH_HELICOPTER;Select radar target to lock on;Select radar target to lock on;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_LOCK_HELICOPTER;Lock radar target on;Lock radar target on;same;;;;;;;;;;;;;;;;;;;;
@@ -1549,7 +1553,7 @@ controls/help/submarine/launching_torpedos_depth;Launching torpedoes and laying 
 controls/help/submarine/torpedo_firing_calc;To calculate torpedo firing, locate the target through the periscope and lock onto it.;To calculate torpedo firing, locate the target through the periscope and lock onto it.;same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/wait_calc;Wait for the calculations to complete.;Wait for the calculations to complete.;same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/wait_firing_calc;Wait for the firing calculation to finish.;Wait for the firing calculation to finish.;same;;;;;;;;;;;;;;;;;;;;
-controls/help/submarine/align_bearing;Align the specified bearing with the bearing on the scale at the top of the screen. Or use standard torpedo sight beam;Align the specified bearing with the bearing on the scale at the top of the screen. Or use standart  torpedo sight beam;nice;;;;;;;;;;;;;;;;;;;;
+controls/help/submarine/align_bearing;Align the specified bearing with the bearing on the scale at the top of the screen. Or use standard torpedo sight beam;Align the specified bearing with the bearing on the scale at the top of the screen or use a standard torpedo sight beam;nice;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/approach_distance;"Approach the desired distance: if the distance exceeds the maximum, the indicator will be red; with a yellow indicator, you can fire, but with a higher chance of missing; green indication shows the best firing distance.";"Approach the desired distance: if the distance exceeds the maximum, the indicator will be red; with a yellow indicator, you can fire, but with a higher chance of missing; green indication shows the best firing distance.";same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/periscope_usage_depth;The periscope can only be used at a periscope depth of {meters} {meters=meter/meters}.;The periscope can only be used at a periscope depth of {meters} {meters=meter/meters}.;same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/modules_can_repair_on_surface;Some modules can only be repaired on the surface: ballast tanks, high-pressure air tanks.;Some modules can only be repaired on the surface: ballast tanks, high-pressure air tanks.;same;;;;;;;;;;;;;;;;;;;;
@@ -2038,4 +2042,9 @@ hotkeys/ID_HELICOPTER_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;
 hotkeys/ID_SHIP_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;;;;;;;;;;;;
 options/hold_button_for_tactical_map;Hold the tactical map button;Hold the tactical map button;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_MANEVERABILITY_MODE;Switch maneuver and limits mode;Switch maneuver and limits mode;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_MANEVERABILITY_MODE_HELICOPTER;Switch maneuver and limits mode;Switch maneuver and limits mode;same;;;;;;;;;;;;;;;;;;;;
+TXT_MANEUVERABILITY_MODE_ON;"""Maneuver"" mode: ON. AoA limits: OFF";"""Maneuver"" mode: ON. AoA limits: OFF";same;;;;;;;;;;;;;;;;;;;;
+TXT_MANEUVERABILITY_MODE_OFF;"""Maneuver"" mode: OFF. AoA limits: ON";"""Maneuver"" mode: OFF. AoA limits: ON";same;;;;;;;;;;;;;;;;;;;;
+TXT_NO_MANEUVERABILITY_MODE;;No special maneuver mode.;nice;;;;;;;;;;;;;;;;;;;;
 CONTROLS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;;
