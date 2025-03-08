@@ -154,7 +154,7 @@ id_full_title;title;title;same;;;;;;;;;;;;;;;;;;;;
 url_login_host;store.gaijin.net;store.gaijin.net;same;;;;;;;;;;;;;;;;;;;;
 url/replenish;auto_local auto_login https://store.gaijin.net/replenishment.php?utm_source=wt_game&utm_medium=special;auto_local auto_login https://store.gaijin.net/replenishment.php?utm_source=wt_game&utm_medium=special;same;;;;;;;;;;;;;;;;;;;;
 url/recovery;https://login.gaijin.net/en/sso/forgot;https://login.gaijin.net/en/sso/forgot;same;;;;;;;;;;;;;;;;;;;;
-url/signUp;https://login.gaijin.net/fromgame?distr={distr}&project=warthunder;https://login.gaijin.net/fromgame?distr={distr}&project=warthunder&lang={lang};nice;;;;;;;;;;;;;;;;;;;;
+url/signUp;https://login.gaijin.net/fromgame?distr={distr}&project=warthunder&lang={lang};https://login.gaijin.net/fromgame?distr={distr}&project=warthunder&lang={lang};same;;;;;;;;;;;;;;;;;;;;
 url/signUpSteam;;http://warthunder.com/en/registration?r=steam;nice;;;;;;;;;;;;;;;;;;;;
 url/signUpShieldTV;;http://warthunder.com/android;nice;;;;;;;;;;;;;;;;;;;;
 url/changeName;auto_local auto_login https://store.gaijin.net/user.php;auto_local auto_login https://store.gaijin.net/user.php;same;;;;;;;;;;;;;;;;;;;;

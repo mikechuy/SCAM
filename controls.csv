@@ -1553,7 +1553,7 @@ controls/help/submarine/launching_torpedos_depth;Launching torpedoes and laying 
 controls/help/submarine/torpedo_firing_calc;To calculate torpedo firing, locate the target through the periscope and lock onto it.;To calculate torpedo firing, locate the target through the periscope and lock onto it.;same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/wait_calc;Wait for the calculations to complete.;Wait for the calculations to complete.;same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/wait_firing_calc;Wait for the firing calculation to finish.;Wait for the firing calculation to finish.;same;;;;;;;;;;;;;;;;;;;;
-controls/help/submarine/align_bearing;Align the specified bearing with the bearing on the scale at the top of the screen. Or use standard torpedo sight beam;Align the specified bearing with the bearing on the scale at the top of the screen or use a standard torpedo sight beam;nice;;;;;;;;;;;;;;;;;;;;
+controls/help/submarine/align_bearing;Align the specified bearing with the bearing on the scale at the top of the screen or use a standard torpedo sight beam;Align the specified bearing with the bearing on the scale at the top of the screen or use a standard torpedo sight beam;same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/approach_distance;"Approach the desired distance: if the distance exceeds the maximum, the indicator will be red; with a yellow indicator, you can fire, but with a higher chance of missing; green indication shows the best firing distance.";"Approach the desired distance: if the distance exceeds the maximum, the indicator will be red; with a yellow indicator, you can fire, but with a higher chance of missing; green indication shows the best firing distance.";same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/periscope_usage_depth;The periscope can only be used at a periscope depth of {meters} {meters=meter/meters}.;The periscope can only be used at a periscope depth of {meters} {meters=meter/meters}.;same;;;;;;;;;;;;;;;;;;;;
 controls/help/submarine/modules_can_repair_on_surface;Some modules can only be repaired on the surface: ballast tanks, high-pressure air tanks.;Some modules can only be repaired on the surface: ballast tanks, high-pressure air tanks.;same;;;;;;;;;;;;;;;;;;;;
@@ -1860,6 +1860,7 @@ controls/hud_ground_cannon;Sight mode: Cannon on ground target;Sight mode: Canno
 controls/hud_ground_rocket;Sight mode: Rockets;Sight mode: Rockets;same;;;;;;;;;;;;;;;;;;;;
 controls/hud_ground_bomb;Sight mode: Bombs;Sight mode: Bombs;same;;;;;;;;;;;;;;;;;;;;
 controls/hud_ground_bomb_auto;Sight mode: Bombs (auto);Sight mode: Bombs (auto);same;;;;;;;;;;;;;;;;;;;;
+controls/hud_air_rockets;Sight mode: AAMs;Sight mode: AAMs;same;;;;;;;;;;;;;;;;;;;;
 controls/hud_no_mode;;No ballistic computer;nice;;;;;;;;;;;;;;;;;;;;
 controls/hud_cannons_and_rockets_ballistic_computer;Ballistic computer - cannons and rockets;Ballistic computer - cannons and rockets;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TOGGLE_CANNONS_AND_ROCKETS_BALLISTIC_COMPUTER;Toggle Cannon Ballistic Computer;Toggle Cannon Ballistic Computer;same;;;;;;;;;;;;;;;;;;;;
@@ -2044,6 +2045,7 @@ hotkeys/ID_TANK_SWITCH_FUSE_MODE;Switch fuze mode;Switch fuze mode;same;;;;;;;;;
 options/hold_button_for_tactical_map;Hold the tactical map button;Hold the tactical map button;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_MANEVERABILITY_MODE;Switch maneuver and limits mode;Switch maneuver and limits mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_MANEVERABILITY_MODE_HELICOPTER;Switch maneuver and limits mode;Switch maneuver and limits mode;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_TOGGLE_UAV_CAMERA;Switch tactical map to UAV camera;Switch tactical map to UAV camera;same;;;;;;;;;;;;;;;;;;;;
 TXT_MANEUVERABILITY_MODE_ON;"""Maneuver"" mode: ON. AoA limits: OFF";"""Maneuver"" mode: ON. AoA limits: OFF";same;;;;;;;;;;;;;;;;;;;;
 TXT_MANEUVERABILITY_MODE_OFF;"""Maneuver"" mode: OFF. AoA limits: ON";"""Maneuver"" mode: OFF. AoA limits: ON";same;;;;;;;;;;;;;;;;;;;;
 TXT_NO_MANEUVERABILITY_MODE;;No special maneuver mode.;nice;;;;;;;;;;;;;;;;;;;;

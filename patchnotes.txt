@@ -1,5 +1,13 @@
 duhchuy's SCAM patchnotes
 
+2.44.0.31
+>
+406 mm > 16 in
+SPICE guided bomb > SPICE missile
+Type 74 Red Star > ▅Type 74C
+adjust US _0
+shorten mod desc
+
 2.44.0.21
 >
 Ariete Сertezza > ▱Ariete

@@ -1381,17 +1381,17 @@ hints/tutorialBoat_spot_the_1st_target;"This is your first training target: a bo
 Move the cursor over it.";"This is your first training target: a boat
 
 Move the cursor over it.";same;;;;;;;;;;;;;;;;;;;
-hints/tutorialBoat_about_cursors;There are a few indicators on the screen, including a cursor showing the firing direction and turret markers showing the points at which the ship’s weapons are aimed.;There are a few indicators on the screen, including a cursor showing the firing direction. In Realistic Battles there will be a green marker on water surface showing the approximate point of shell impact.;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialBoat_about_cursors_continue;"There are a few indicators on the screen, including a cursor showing the firing direction and turret markers showing the points at which the ship’s weapons are aimed.
+hints/tutorialBoat_about_cursors;There is a cursor on the screen showing the firing direction. In Realistic Battles, there is also a green marker on the water surface showing the approximate point of shell impact.;There is a cursor on the screen showing the firing direction. In Realistic Battles, there is also a green marker on the water surface showing the approximate point of shell impact.;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialBoat_about_cursors_continue;"There is a cursor on the screen showing the firing direction. In Realistic Battles, there is also a green marker on the water surface showing the approximate point of shell impact.
 
-Press {{ID_CONTINUE}} to continue";"There are a few indicators on the screen, including a cursor showing the firing direction. In Realistic Battles there will be a green marker on water surface showing the approximate point of shell impact.
+Press {{ID_CONTINUE}} to continue";"There is a cursor on the screen showing the firing direction. In Realistic Battles, there is also a green marker on the water surface showing the approximate point of shell impact.
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_mouse_aim_cursor;CURSOR INDICATOR;CURSOR INDICATOR;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_turrets_cursors;WEAPON MARKERS;WEAPON MARKERS;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_white_turret_cursor;The white marker shows that the weapon can fire in the indicated direction.;The white marker shows that the weapon can fire in the indicated direction.;same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_grey_turret_cursor;The gray marker shows that the weapon in the indicated sector is inactive.;The gray marker shows that the weapon in the indicated sector is inactive.;same;;;;;;;;;;;;;;;;;;;
-hud_tutorial_boat_green_turret_cursor;The green marker shows an approximate point where the projectile will hit the water.;In Realistic Battles here will be the green marker on water surface showing the approximate point of shell impact.;nice;;;;;;;;;;;;;;;;;;;
+hud_tutorial_boat_green_turret_cursor;In Realistic Battles, a green marker is located on the water surface, showing the approximate point of shell impact.;In Realistic Battles, a green marker is located on the water surface, showing the approximate point of shell impact.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_turrets_aim_hint01;The boat’s weapons cannot be controlled directly.;The boat’s weapons cannot be controlled directly.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_turrets_aim_hint01_continue;"The boat’s weapons cannot be controlled directly.
 
@@ -1547,12 +1547,13 @@ hints/tutorialBoat_ranged_combat_hint04_continue;"However, once your gunners hav
 Press {{ID_CONTINUE}} to continue";"However, once your gunners have taken a few trial shots they will be able to fire accurately at the current target at range.
 
 Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tutorialBoat_ranged_combat_hint05;"Gunners do not account for the target’s movement direction and speed, so tracking the target as it moves and firing at its future position is still up to you.
+hints/tutorialBoat_ranged_combat_hint05;"In Realistic battles, gunners do not account for the target’s movement direction and speed, so tracking the target as it moves and firing at its future position is still up to you.
+In Arcade battles, you don’t need to fire at the rarget’s future position.
 
 Start firing at the target.";"In Realistic battles, gunners do not account for the target’s movement direction and speed, so tracking the target as it moves and firing at its future position is still up to you.
 In Arcade battles, you don’t need to fire at the rarget’s future position.
 
-Start firing at the target.";nice;;;;;;;;;;;;;;;;;;;
+Start firing at the target.";same;;;;;;;;;;;;;;;;;;;
 hud_tutorial_boat_fire_adjustment_info;The status of your adjustment fire at the current target is displayed here.;The status of your adjustment fire at the current target is displayed here.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialBoat_ranged_combat_target_killed;"Excellent! Target destroyed! Now you can capture the strategic point.
 
@@ -1656,7 +1657,7 @@ Lock on this target using {{ID_LOCK_TARGET}}.";"Your next target is a destroyer,
 
 Lock on this target using {{ID_LOCK_TARGET}}.";same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fifth_target_torpedo_sight;Activate the torpedo sight: {{ID_SHIP_TORPEDO_SIGHT}}.;Activate the torpedo sight: {{ID_SHIP_TORPEDO_SIGHT}}.;same;;;;;;;;;;;;;;;;;;;
-hints/tutorialDestr_fifth_target_torpedo_launch;Aim torpedoes at the target and launch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;Aim torpedoes at the target and lauch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;trim;;;;;;;;;;;;;;;;;;;
+hints/tutorialDestr_fifth_target_torpedo_launch;Aim torpedoes at the target and lauch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;Aim torpedoes at the target and lauch them with {{ID_SHIP_WEAPON_TORPEDOES}}.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fifth_target_wait;Wait for torpedoes to hit.;Wait for torpedoes to hit.;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_fifth_target_done;Awesome!;Awesome!;same;;;;;;;;;;;;;;;;;;;
 hints/tutorialDestr_capture_move;"Your last target is the strategic point that you need to capture by moving your vessel into the designated zone.

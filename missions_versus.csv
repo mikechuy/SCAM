@@ -1126,7 +1126,7 @@ missions/el_amain_BfD_norespawn;[Operation] El Alamein;[Operation] El Alamein;sa
 missions/malta_alt_chapter1_BfD_norespawn;[Operation] Landing to Malta;[Operation] Landing to Malta;same;;;;;;;;;;;;;;;;;;;
 missions/malta_alt_chapter2_BfD_norespawn;[Operation] Battle at Malta;[Operation] Battle at Malta;same;;;;;;;;;;;;;;;;;;;
 missions/zhengzhou_46_BfD_norespawn;[Operation] China Civil War 1946;[Operation] China Civil War 1946;same;;;;;;;;;;;;;;;;;;;
-missions/zhengzhou_46_BfD_norespawn/desc;;In 1946, Communist forces launched several major offensives against the troops of Nationalist China. U.S. President Truman signed an order for large-scale military support to the Kuomintang, while the USSR began providing assistance to Mao Zedong's government.;nice;;;;;;;;;;;;;;;;;;;
+missions/zhengzhou_46_BfD_norespawn/desc;In 1946, Communist forces launched several major offensives against the troops of Nationalist China. U.S. President Truman signed an order for large-scale military support to the Kuomintang, while the USSR began providing assistance to Mao Zedong's government.;In 1946, Communist forces launched several major offensives against the troops of Nationalist China. U.S. President Truman signed an order for large-scale military support to the Kuomintang, while the USSR began providing assistance to Mao Zedong's government.;same;;;;;;;;;;;;;;;;;;;
 sector_montmedy/name;Maginot Line;Maginot Line;same;;;;;;;;;;;;;;;;;;;
 sector_montmedy/desc;;;same;;;;;;;;;;;;;;;;;;;
 missions/_ny_ctf;Chasing Christmas;Chasing Christmas;same;;;;;;;;;;;;;;;;;;;
@@ -1164,10 +1164,13 @@ africa_seashore/desc;;;same;;;;;;;;;;;;;;;;;;;
 norway_fjords/name;Fjords;Fjords;same;;;;;;;;;;;;;;;;;;;
 norway_fjords/desc;;;same;;;;;;;;;;;;;;;;;;;
 missions/_HfD;[⋡ Domination];[⋡ Domination];same;;;;;;;;;;;;;;;;;;;
-missions/_HfD/desc;;"In ""Domination,"" the main objective is to capture and hold the ground zone. When one team captures the zone, the opposing team loses a portion of its points. A team loses the match when it runs out of points allocated at the start of the game.
+missions/_HfD/desc;"In ""Domination,"" the main objective is to capture and hold the ground zone. When one team captures the zone, the opposing team loses a portion of its points. A team loses the match when it runs out of points allocated at the start of the game.
 
 Mission objectives:
-- Capture and maintain supremacy over the helipads ╸, ╹, ╺";nice;;;;;;;;;;;;;;;;;;;
+- Capture and maintain supremacy over the helipads ╸, ╹, ╺";"In ""Domination,"" the main objective is to capture and hold the ground zone. When one team captures the zone, the opposing team loses a portion of its points. A team loses the match when it runs out of points allocated at the start of the game.
+
+Mission objectives:
+- Capture and maintain supremacy over the helipads ╸, ╹, ╺";same;;;;;;;;;;;;;;;;;;;
 mediterranean/name;Greece;Greece;same;;;;;;;;;;;;;;;;;;;
 meditetanean/desc;;;same;;;;;;;;;;;;;;;;;;;
 rice_terraces/name; Rice Terraces; Rice Terraces;same;;;;;;;;;;;;;;;;;;;

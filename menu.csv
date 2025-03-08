@@ -429,8 +429,9 @@ shop/max_speed_alt;at height:;at height:;same;;;;;;;;;;;;;;;;;;;
 shop/max_speed_alt/tooltip;Maximum-speed altitude.;Maximum-speed altitude.;same;;;;;;;;;;;;;;;;;;;
 shop/max_speed_alt_sea;at sea level;at sea level;same;;;;;;;;;;;;;;;;;;;
 shop/max_altitude;Max Altitude:;Max Altitude:;same;;;;;;;;;;;;;;;;;;;
-shop/estimated_damage_to_base;Estimated damage to bases:;Estimated damage to bases:;same;;;;;;;;;;;;;;;;;;;
-shop/reward_multiplier_for_base;Reward multiplier for bases:;Reward multiplier for bases:;same;;;;;;;;;;;;;;;;;;;
+shop/estimated_damage_to_base_title;Estimated damage to bases;Estimated damage to bases;same;;;;;;;;;;;;;;;;;;;
+shop/estimated_damage_to_base;Estimated damage to bases:;Estimated damage;trim;;;;;;;;;;;;;;;;;;;
+shop/reward_multiplier_for_base;Reward multiplier for bases:;Reward multiplier for bases;trim;;;;;;;;;;;;;;;;;;;
 shop/max_altitude/tooltip;The vehicle's maximum altitude.;The vehicle's maximum altitude.;same;;;;;;;;;;;;;;;;;;;
 shop/turn_time;Turn Time:;Turn Time:;same;;;;;;;;;;;;;;;;;;;
 shop/turn_time/tooltip;The minimum time it takes the airplane to complete a full horizontal circle.;The minimum time it takes the airplane to complete a full horizontal circle.;same;;;;;;;;;;;;;;;;;;;
@@ -530,7 +531,7 @@ bullet_properties/proximityFuze/triggerRadius;Trigger radius;Trigger radius;same
 bullet_properties/ricochet;Chance of a ricochet at an angle of attack of {angle}°;Chance of a ricochet at an angle of attack of {angle}°;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/normalization;Angle of normalization at an angle of attack of {angle}°;Angle of normalization at an angle of attack of {angle}°;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/angleByProbability;Angle of attack with {probability}% chance of a ricochet.;Angle of attack with {probability}% chance of a ricochet.;same;;;;;;;;;;;;;;;;;;;
-bullet_properties/angleWithRicochet;Angle of attack with chance of a ricochet;Angle of attack with chance of a ricochet;same;;;;;;;;;;;;;;;;;;;
+bullet_properties/angleWithRicochet;Angle of attack with chance to ricochet;Angle of attack with a chance of ricochet;nice;;;;;;;;;;;;;;;;;;;
 distance;Distance;Distance;same;;;;;;;;;;;;;;;;;;;
 weapon/noTracer/icon;◖;◖;same;;;;;;;;;;;;;;;;;;;
 weapon/noTracer;no tracers;no tracers;same;;;;;;;;;;;;;;;;;;;
@@ -545,7 +546,7 @@ bullet_properties/smokeShellRad;Smoke screen radius;Smoke screen radius;same;;;;
 bullet_properties/smokeShellRad_short;Smoke radius;Smoke radius;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/smokeActivateTime;Smoke screening time;Smoke screening time;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/smokeTime;Smoke screen hold time;Smoke screen hold time;same;;;;;;;;;;;;;;;;;;;
-bullet_properties/smokeTime_short;Hold time;Hold time;same;;;;;;;;;;;;;;;;;;;
+bullet_properties/smokeTime_short;Smoke duration;Hold time;trim;;;;;;;;;;;;;;;;;;;
 bullet_properties/salvo;Ammo in volley;Ammo in volley;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/maxArmorPenetration;Armor penetration by high-energy action;Armor penetration by high-energy action;same;;;;;;;;;;;;;;;;;;;
 bombProperties/machLimit;Maximum allowed bomb release speed;Maximum allowed bomb release speed;same;;;;;;;;;;;;;;;;;;;
@@ -714,9 +715,9 @@ mainmenu/timeForBuyVehicle;The vehicle will be available for purchase for {time}
 mainmenu/timeForBuyTrophy;This trophy will be available for purchase for {time};This trophy will be available for purchase for {time};same;;;;;;;;;;;;;;;;;;;
 mainmenu/dataRemaningTimeShort;until {time};until {time};same;;;;;;;;;;;;;;;;;;;
 mainmenu/timeForBuyVehicleShort;{time} left;{time} left;same;;;;;;;;;;;;;;;;;;;
-mainmenu/vehicleResearchTillDate;After {time} the vehicle will be hidden in the research tree and will no longer be available to start researching.;After {time}, the vehicle will be hidden in the research tree and will no longer be available to start researching.;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/vehicleResearchTillDate;After {time}, the vehicle will be hidden in the research tree and will no longer be available to start researching.;After {time}, the vehicle will be hidden in the research tree and will no longer be available to start researching.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/vehicleExpireTimeForResearch;The vehicle will be available for research and purchase for {time}.;The vehicle will be available for research and purchase for {time}.;same;;;;;;;;;;;;;;;;;;;
-mainmenu/vehicleInGroupAvailableLimitedTimeTooltip;In the group below, there is a technique available to start research for a limited time.;In the group below, there is a vehicle available to start research for a limited time.;trim;;;;;;;;;;;;;;;;;;;
+mainmenu/vehicleInGroupAvailableLimitedTimeTooltip;In the group below, there is a vehicle available to start research for a limited time.;In the group below, there is a vehicle available to start research for a limited time.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/buyPreviousModification;The previous modification must be purchased.;The previous modification must be purchased.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/buy_modifications_for_prev_unit;You should research required amount of modifications for previous vehicle;You should research required amount of modifications for previous vehicle;same;;;;;;;;;;;;;;;;;;;
 mainmenu/notEnoughWP;You need more € to purchase this vehicle.;You need more € to purchase this vehicle.;same;;;;;;;;;;;;;;;;;;;
@@ -1352,7 +1353,7 @@ userlog/buy_unlock/ship_flag;You have purchased a(n) <color=@userlogColoredText>
 userlog/buy_unlock/challenge;You have purchased a(n) <color=@userlogColoredText>%s</color> challenge.;You have purchased a(n) <color=@userlogColoredText>%s</color> challenge.;same;;;;;;;;;;;;;;;;;;;
 userlog/buy_resource/decal;You have purchased a(n) <color=@userlogColoredText>%s</color> decal.;You have purchased a(n) <color=@userlogColoredText>%s</color> decal.;same;;;;;;;;;;;;;;;;;;;
 userlog/buy_resource/skin;You have purchased a(n) <color=@userlogColoredText>%s</color> camouflage.;You have purchased a(n) <color=@userlogColoredText>%s</color> camouflage.;same;;;;;;;;;;;;;;;;;;;
-userlog/buy_resource/attachable;You have purchased a(n) <color=@userlogColoredText>%s</color>  decoration.;You have purchased a(n) <color=@userlogColoredText>%s</color> decoration.;trim;;;;;;;;;;;;;;;;;;;
+userlog/buy_resource/attachable;You have purchased a(n) <color=@userlogColoredText>%s</color> decoration.;You have purchased a(n) <color=@userlogColoredText>%s</color> decoration.;same;;;;;;;;;;;;;;;;;;;
 userlog/buy_resource/;You have purchased <color=@userlogColoredText>%s</color>.;You have purchased <color=@userlogColoredText>%s</color>.;same;;;;;;;;;;;;;;;;;;;
 userlog/repair_aircraft;You have repaired your <color=@userlogColoredText>%s</color>.;You have repaired your <color=@userlogColoredText>%s</color>.;same;;;;;;;;;;;;;;;;;;;
 userlog/repair_aircraft_multi;You have repaired the vehicle.;You have repaired the vehicle.;same;;;;;;;;;;;;;;;;;;;
@@ -2050,8 +2051,8 @@ This bonus can only be received in case of purchase in the battle results menu";
 userlog/PremiumAwardForDay;You have received a bonus for purchasing a Premium Account in the battle results menu;You have received a bonus for purchasing a Premium Account in the battle results menu;same;;;;;;;;;;;;;;;;;;;
 userlog/PremiumAwardForDayDesc;Your bonus is: ;Your bonus is: ;same;;;;;;;;;;;;;;;;;;;
 weaponry/unlockTier/countsBlock/startText;This is your progress towards the next tier. It shows how many of the required modifications you have researched.;This is your progress towards the next tier. It shows how many of the required modifications you have researched.;same;;;;;;;;;;;;;;;;;;;
-weaponry/unlockTier/tooltip;You need <color=@badTextColor>{amount}</color> more modifications in previous tier to gain access to <color=@userlogColoredText>{tier}</color> tier.;You need <color=@badTextColor>{amount}</color> more {amount=modification/modifications} in previous tier to gain access to tier <color=@userlogColoredText>{tier}</color>.;nice;;;;;;;;;;;;;;;;;;;
-weaponry/unlockModTierReq;To gain access to the <color=@userlogColoredText>{tier}</color> tier, you need to research <color=@badTextColor>{amount}</color> more modifications on the previous tier.;To gain access to tier <color=@userlogColoredText>{tier}</color>, you need to research <color=@badTextColor>{amount}</color> more {amount=modification/modifications} on the previous tier.;nice;;;;;;;;;;;;;;;;;;;
+weaponry/unlockTier/tooltip;You need <color=@badTextColor>{amount}</color> more {amount=modification/modifications} in previous tier to gain access to tier <color=@userlogColoredText>{tier}</color>.;You need <color=@badTextColor>{amount}</color> more {amount=modification/modifications} in previous tier to gain access to tier <color=@userlogColoredText>{tier}</color>.;same;;;;;;;;;;;;;;;;;;;
+weaponry/unlockModTierReq;To gain access to tier <color=@userlogColoredText>{tier}</color>, you need to research <color=@badTextColor>{amount}</color> more {amount=modification/modifications} on the previous tier.;To gain access to tier <color=@userlogColoredText>{tier}</color>, you need to research <color=@badTextColor>{amount}</color> more {amount=modification/modifications} on the previous tier.;same;;;;;;;;;;;;;;;;;;;
 weaponry/weaponsUpgradeInstalled;Weapon modifications installed ({current}/{total}):;Weapon modifications installed ({current}/{total}):;same;;;;;;;;;;;;;;;;;;;
 controls/no_ammo_left_warning;"Not enough ammunition. Reloading during battle is impossible when your ammunition is depleted.
 You can purchase ammunition in the Hangar, in the Weapons area.";"Not enough ammunition. Reloading during battle is impossible when your ammunition is depleted.
@@ -2063,7 +2064,7 @@ shop/reference_footnote;<color=@fadedTextColor>* - this characteristic relates t
 shop/timed_award_hint;{note_symbol} - used only in missions with the specified reward system;{note_symbol} - used only in missions with the specified reward system;same;;;;;;;;;;;;;;;;;;;
 shop/all_info_relevant_to_current_game_mode;Information is relevant to;Information is relevant to;same;;;;;;;;;;;;;;;;;;;
 shop/showing_unit_state/basic;Basic vehicle modification.;Basic vehicle modification.;same;;;;;;;;;;;;;;;;;;;
-shop/showing_unit_state/reference;Reference vehicle modification.;The characteristics of the vehicle with all installed modifications are shown.;nice;;;;;;;;;;;;;;;;;;;
+shop/showing_unit_state/reference;The characteristics of the vehicle with all installed modifications are shown.;The characteristics of the vehicle with all installed modifications are shown.;same;;;;;;;;;;;;;;;;;;;
 shop/showing_unit_state/current;Current vehicle modification.;Current vehicle modification.;same;;;;;;;;;;;;;;;;;;;
 shop/showing_unit_state/current_crew;Current vehicle modification with the crew.;Current vehicle modification with the crew.;same;;;;;;;;;;;;;;;;;;;
 weaponry/action_not_allowed;"The following action is not allowed:
@@ -2185,8 +2186,8 @@ modifications/full_unit_researched;You have researched all modifications for <co
 ps4/reqInstantConnection;This game requires constant Internet connection.;This game requires constant Internet connection.;same;;;;;;;;;;;;;;;;;;;
 ps4/noInternetConnection;You cannot play War Thunder due to the lack of Internet connection.;You cannot play War Thunder due to the lack of Internet connection.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/experience/oldName;XP;XP;same;;;;;;;;;;;;;;;;;;;
-profile/units_own;Amount of units;Total vehicles;trim;;;;;;;;;;;;;;;;;;;
-profile/elite_units_own;Amount of elite units;Spaded vehicles;trim;;;;;;;;;;;;;;;;;;;
+profile/units_own;Total vehicles;Total vehicles;same;;;;;;;;;;;;;;;;;;;
+profile/elite_units_own;Spaded vehicles;Spaded vehicles;same;;;;;;;;;;;;;;;;;;;
 profile/medal_own;Medals granted;Medals granted;same;;;;;;;;;;;;;;;;;;;
 unit/bulletsIncrease;Increase number;Increase number;same;;;;;;;;;;;;;;;;;;;
 unit/bulletsDecrease;Decrease number;Decrease number;same;;;;;;;;;;;;;;;;;;;
@@ -3585,11 +3586,11 @@ mainmenu/battleTasks/progressBarTooltip;{tasksNum} of {nextLevelTasksNum} Daily 
 mainmenu/battleTasks/special/medals;Special task medals;Special task medals;same;;;;;;;;;;;;;;;;;;;
 mainmenu/battleTasks/special/medals/tooltip;"Earned medals: {medals}.
 Complete special tasks and earn medals.
-For {tasksNum} completed tasks you will receive a medal.
+You will receive a medal for every {tasksNum} {tasksNum=completed task/completed tasks}.
 Medals open the access to new goods.";"Earned medals: {medals}.
 Complete special tasks and earn medals.
 You will receive a medal for every {tasksNum} {tasksNum=completed task/completed tasks}.
-Medals open the access to new goods.";nice;;;;;;;;;;;;;;;;;;;
+Medals open the access to new goods.";same;;;;;;;;;;;;;;;;;;;
 mainmenu/battleTasks/special/awardTitle;Special task award;Special task award;same;;;;;;;;;;;;;;;;;;;
 items/order/status/starter;Activated by;Activated by;same;;;;;;;;;;;;;;;;;;;
 items/order/status/target;Target;Target;same;;;;;;;;;;;;;;;;;;;
@@ -4588,7 +4589,7 @@ item/openForGold/needMoneyQuestion;"Are you sure you want to open {itemName}
 for {cost}?";"Are you sure you want to open {itemName}
 for {cost}?";same;;;;;;;;;;;;;;;;;;;
 trophy/openCountTillPrize;When opening {trophiesCount} trophies, {prizeText} is guaranteed;When opening {trophiesCount} trophies, {prizeText} is guaranteed;same;;;;;;;;;;;;;;;;;;;
-trophy/openCount;Trophies open {openTrophiesCount} of {trophiesCount};Trophies open: {openTrophiesCount} of {trophiesCount};nice;;;;;;;;;;;;;;;;;;;
+trophy/openCount;Trophies open: {openTrophiesCount} of {trophiesCount};Trophies open: {openTrophiesCount} of {trophiesCount};same;;;;;;;;;;;;;;;;;;;
 trophy/prizeAlreadyReceived;{prizeText} already received;{prizeText} already received;same;;;;;;;;;;;;;;;;;;;
 contacts/psn/blacklist/request;Block;Block;same;;;;;;;;;;;;;;;;;;;
 contacts/psn/friends/request;Friend request;Friend request;same;;;;;;;;;;;;;;;;;;;
@@ -4918,7 +4919,7 @@ customSecondaryWeapons/available;Custom secondary weapons are available;Custom s
 customSecondaryWeapons/disabled;Creating custom secondary weapons is not available due to the absence of required modifications;Creating custom secondary weapons is not available due to the absence of required modifications;same;;;;;;;;;;;;;;;;;;;
 editWeaponsSlot/requiredForDependedWeapon;The selected slot has {currentWeapon}, which is required for {dependWeapons}.;The selected slot has {currentWeapon}, which is required for {dependWeapons}.;same;;;;;;;;;;;;;;;;;;;
 editWeaponsSlot/weaponInSlot;{weapon} in slot {tierNum};{weapon} in slot {tierNum};same;;;;;;;;;;;;;;;;;;;
-editWeaponsSlot/requiredDependedWeaponInOccupiedSlot;To install a weapon, must install {dependWeapon} in the slot in which {currentWeapon} is placed.;To install a weapon, you must install {dependWeapon} in the slot in which {currentWeapon} is placed.;nice;;;;;;;;;;;;;;;;;;;
+editWeaponsSlot/requiredDependedWeaponInOccupiedSlot;To install a weapon, you must install {dependWeapon} in the slot in which {currentWeapon} is placed.;To install a weapon, you must install {dependWeapon} in the slot in which {currentWeapon} is placed.;same;;;;;;;;;;;;;;;;;;;
 weapons/pylonsWeightDisbalance;Load of {side} pylon group is exceeded by {disbalance}. Maximum permissible weight difference is {maxDisbalance}.;Load of {side} pylon group is exceeded by {disbalance}. Maximum permissible weight difference is {maxDisbalance}.;same;;;;;;;;;;;;;;;;;;;
 weapons/pylonsWeightSummaryOverload;Total weight exceeded on {overload}. Current weight {weight}. Maximum permissible weight is {maxWeight}.;Total weight exceeded on {overload}. Current weight {weight}. Maximum permissible weight is {maxWeight}.;same;;;;;;;;;;;;;;;;;;;
 weapons/pylonsWeightLeftOverload;Left weight exceeded by {overload}. Current weight {weight}. The maximum permissible weight is {maxWeight}.;Left weight exceeded by {overload}. Current weight {weight}. The maximum permissible weight is {maxWeight}.;same;;;;;;;;;;;;;;;;;;;
@@ -5276,10 +5277,10 @@ frame_simple_solid_grey/name;Simple solid, grey;Simple solid, grey;same;;;;;;;;;
 frame_simple_solid_orange/name;Simple solid, orange;Simple solid, orange;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_red/name;Simple solid, red;Simple solid, red;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_black/name;Simple solid, black;Simple solid, black;same;;;;;;;;;;;;;;;;;;;
-frame_simple_dottet_line_orange/name;Simple dotten line, orange;Simple dotted line, orange;nice;;;;;;;;;;;;;;;;;;;
-frame_simple_dottet_line_red/name;Simple dotten line, red;Simple dotted line, red;nice;;;;;;;;;;;;;;;;;;;
-frame_simple_dottet_line_blue/name;Simple dotten line, blue;Simple dotted line, blue;nice;;;;;;;;;;;;;;;;;;;
-frame_simple_dottet_line_turquoise/name;Simple dotten line, turquoise;Simple dotted line, turquoise;nice;;;;;;;;;;;;;;;;;;;
+frame_simple_dottet_line_orange/name;Simple dotted line, orange;Simple dotted line, orange;same;;;;;;;;;;;;;;;;;;;
+frame_simple_dottet_line_red/name;Simple dotted line, red;Simple dotted line, red;same;;;;;;;;;;;;;;;;;;;
+frame_simple_dottet_line_blue/name;Simple dotted line, blue;Simple dotted line, blue;same;;;;;;;;;;;;;;;;;;;
+frame_simple_dottet_line_turquoise/name;Simple dotted line, turquoise;Simple dotted line, turquoise;same;;;;;;;;;;;;;;;;;;;
 frame_simple_corner_accent_grey/name;Simple corner accent, grey;Simple corner accent, grey;same;;;;;;;;;;;;;;;;;;;
 frame_simple_corner_accent_orange/name;Simple corner accent, orange;Simple corner accent, orange;same;;;;;;;;;;;;;;;;;;;
 frame_simple_corner_accent_redorange/name;Simple corner accent, red-orange;Simple corner accent, red-orange;same;;;;;;;;;;;;;;;;;;;
@@ -5293,7 +5294,7 @@ frame_event_xmas_2024/name;Christmas (2024);Christmas (2024);same;;;;;;;;;;;;;;;
 frame_lunar_ny_dragons/name;Spring Festival;Spring Festival;same;;;;;;;;;;;;;;;;;;;
 frame_thunder_cup_2025/name;Thunder Cup 2025;Thunder Cup 2025;same;;;;;;;;;;;;;;;;;;;
 frame_goalpost/name;Tank Football — Goalkeeper;Tank Football — Goalkeeper;same;;;;;;;;;;;;;;;;;;;
-showcase/choose_header_screen;Choose header screen;Choose profile background;nice;;;;;;;;;;;;;;;;;;;
+showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;;;;;;;;;;;;;;;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;;;;;;;;;;;;;;;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;;;;;;;;;;;;;;;;;
 profile/choose_profile_icon;Selection of profile icon;Selection of profile icon;same;;;;;;;;;;;;;;;;;;;
@@ -5303,8 +5304,8 @@ items/recycling;Item recycling;Item recycling;same;;;;;;;;;;;;;;;;;;;
 items/recycling/emptyTab;There are no items to recycle;There are no items to recycle;same;;;;;;;;;;;;;;;;;;;
 items/recycling/createItems;Create items;Create items;same;;;;;;;;;;;;;;;;;;;
 items/recycling/descWithNumberOfRecycledItems;"You can recycle unwanted items and then create new random items from them in the ratio of <color=@activeTextColor>2:1</color>.
-You currently have <color=@activeTextColor>{unusedItemsCount}</color> recycled and unused {unusedItemsCount=item/items}, so <color=@activeTextColor>{maxNewItemsCount}</color> new {maxNewItemsCount=item/items} can be created.";"You can recycle unwanted items and then create new random items from them in the ratio of <color=@activeTextColor>2:1</color>.
-You currently have <color=@activeTextColor>{unusedItemsCount}</color> recycled and unused {unusedItemsCount=item/items}, so <color=@activeTextColor>{maxNewItemsCount}</color> new {maxNewItemsCount=item/items} can be created.";same;;;;;;;;;;;;;;;;;;;
+You currently have <color=@activeTextColor>{unusedItemsCount}</color> recycled and unused {unusedItemsCount=item/items}, so <color=@activeTextColor>{maxNewItemsCount}</color> new {maxNewItemsCount=item/items} can be created.";"You can recycle unwanted items and then create new random items from them in a ratio of <color=@activeTextColor>2:1</color>.
+You currently have <color=@activeTextColor>{unusedItemsCount}</color> recycled and unused {unusedItemsCount=item/items}, so <color=@activeTextColor>{maxNewItemsCount}</color> new {maxNewItemsCount=item/items} can be created.";trim;;;;;;;;;;;;;;;;;;;
 items/recycling/chooseItemsToRecycle;Select items to recycle;Select items to recycle;same;;;;;;;;;;;;;;;;;;;
 items/recycling/recycle;Recycle selected items;Recycle selected items;same;;;;;;;;;;;;;;;;;;;
 showcase/changeBg;Change profile background;Change profile background;same;;;;;;;;;;;;;;;;;;;
@@ -5320,3 +5321,4 @@ ace_of_spades/elite_vehicles_tooltip;An elite vehicle is one that has all the mo
 ace_of_spades/warning_select_category;Need to select at least one type of vehicle in one country;Need to select at least one type of vehicle in one country;same;;;;;;;;;;;;;;;;;;;
 tactical_map_switching/map;MAP;MAP;same;;;;;;;;;;;;;;;;;;;
 tactical_map_switching/uav;UAV;UAV;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnShowShipHitIcons;Show hit icons;Show hit icons;same;;;;;;;;;;;;;;;;;;;
