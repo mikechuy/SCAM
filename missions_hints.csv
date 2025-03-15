@@ -583,7 +583,7 @@ hints/tutorial_tank_enemy_driver_hit;;Driver's position has been damaged!;nice;;
 hints/tutorial_tank_enemy_gunner_hit;;You have hit the Gunner's location!;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_toggle_view_back;;"Great! If there was any crew in this vehicle, they would be in big trouble!
 
-Now, switch to third-person view";nice;;;;;;;;;;;;;;;;;;;
+Now, switch to third-person view {shortcut}";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_engine;;Another effective way of destroying or at least immobilizing a vehicle is to damage or destroy its engine;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_engine_continue;;"Another effective way of destroying or at least immobilizing a vehicle is to damage or destroy its engine
 
@@ -802,7 +802,7 @@ Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_how_to_capture_the_zone;;To capture the point, you must drive into the capture zone. The border of the capture zone is delineated by a white lined circle on the ground;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_destroy_enemy_tank_in_zone;;"Your tank has reached the indicated point, but you can't capture the zone while it still has enemy vehicles in it
 
-Destroy the enemy tank";nice;;;;;;;;;;;;;;;;;;;
+Destroy the enemy tank {shortcut}";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_destroy_enemy_ammo_hint;;You can switch to the previous type of ammo to do more damage to the current target;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_destroy_enemy_crew_hint;;"Remember – to destroy a tank, you have to damage its internal modules
 

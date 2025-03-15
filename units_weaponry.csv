@@ -1520,7 +1520,7 @@ weapons/40mm_Bofors_L60_user_cannon;40 mm Bofors L/60 cannon;40 mm Bofors L/60 c
 weapons/40mm_cannone_da_40_70_user_cannon;40 mm OTO Breda L/70 cannon;40 mm Bofors DA 40/70 cannon;nice;;;;;;;;;;;;;;;;;;;;
 40mm_im219_ap;IM219;IM219;same;;;;;;;;;;;;;;;;;;;;
 40mm_m2_he;M2 HEI-T;HE-I-T-M2;nice;;;;;;;;;;;;;;;;;;;;
-weapons/40mm_M2_user_cannon;40 mm Bofors M2 cannon;40 mm Dual Automatic Gun M2;nice;;;;;;;;;;;;;;;;;;;;
+weapons/40mm_M2_user_cannon;40 mm M2 cannon;40 mm Dual Automatic Gun M2;nice;;;;;;;;;;;;;;;;;;;;
 weapons/45mm_20K_user_cannon;45 mm 20-K cannon;45 mm 20-K cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/50mm_KwK38_user_cannon;50 mm KwK 38 L/42;50 mm KwK L/42 cannon;nice;;;;;;;;;;;;;;;;;;;;
 weapons/50mm_KwK38_open_turret_user_cannon;50 mm KwK 38 L/42 (open);50 mm KwK L/42 cannon;trim;;;;;;;;;;;;;;;;;;;;
@@ -3241,7 +3241,7 @@ weapons/47mm_OQF_3pdr_user_cannon;47 mm OQF 3Pr 2Cwt cannon;47 mm Ordnance QF 3-
 weapons/88mm_Flak37_user_cannon;88 mm FlaK 37;88 mm Flak.37 cannon;nice;;;;;;;;;;;;;;;;;;;;
 88mm_pzgr;Pzgr;Pzgr.;nice;;;;;;;;;;;;;;;;;;;;
 weapons/12_7mm_DShK_GAZ_user_machinegun;12.7 mm DShK machine gun;12.7 mm DShK machine gun;same;;;;;;;;;;;;;;;;;;;;
-weapons/23mm_2A7_user_cannon;23 mm AZP-23 quad cannon;23 mm AZP-23 cannon;trim;;;;;;;;;;;;;;;;;;;;
+weapons/23mm_2A7_user_cannon;23 mm AZP-23 cannon;23 mm AZP-23 cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/23mm_2A14_user_cannon;23 mm ZU-23 dual cannon;23 mm ZU-23 cannon;trim;;;;;;;;;;;;;;;;;;;;
 23mm_apit;API-T;API-T;same;;;;;;;;;;;;;;;;;;;;
 23mm_heit;HEI-T;HEI-T;same;;;;;;;;;;;;;;;;;;;;
@@ -5499,7 +5499,7 @@ weapons/100mm_70_sm_5_1_naval_user_cannon;100 mm/70 SM-5-1 cannon;100 mm/70 SM-5
 100mm_zs_55;100 mm ZS-55;100 mm ZS-55 AA;nice;;;;;;;;;;;;;;;;;;;;
 100mm_f_55;100 mm F-55;100 mm F-55 HE-F;nice;;;;;;;;;;;;;;;;;;;;
 100mm_zs_55r;100 mm ZS-55R VT;100 mm ZS-55R AA-VT;nice;;;;;;;;;;;;;;;;;;;;
-weapons/37mm_67_70k_twin_v11_naval_user_cannon;37 mm/67 V-11 dual cannon;37 mm/67 twin automatic V-11 cannon;nice;;;;;;;;;;;;;;;;;;;;
+weapons/37mm_67_70k_twin_v11_naval_user_cannon;37 mm/67 70-K, V-11 mount;37 mm/67 twin automatic V-11 cannon;nice;;;;;;;;;;;;;;;;;;;;
 weapons/127mm_5_40_type_89_naval_user_cannon;12.7 cm/40 Type 89 cannon;5 inch/40 Type 89 cannon;trim;;;;;;;;;;;;;;;;;;;;
 weapons/uk_533mm_21in_mk9_torpedo;21-inch Mark IX torpedo;533 mm Mk.IX wet-heater torpedo;nice;;;;;;;;;;;;;;;;;;;;
 weapons/uk_533mm_21in_mk9_torpedo/short;Mk.IX;Mk.IX;same;;;;;;;;;;;;;;;;;;;;
@@ -6122,7 +6122,7 @@ weapons/75mm_50_model_1922_naval_user_cannon/short;75 mm Mle1922;75 mm/50 model 
 weapons/330mm_52_model_1931_naval_user_cannon;330 mm/52 Mle1931 cannon;330 mm/52 model 1931 gun;nice;;;;;;;;;;;;;;;;;;;;
 weapons/330mm_52_model_1931_naval_user_cannon/short;330 mm Mle1931;330 mm/52 model 1931;nice;;;;;;;;;;;;;;;;;;;;
 330mm_oea_mle1935_he;330 mm OEA Mle1935;330 mm OEA Mle 1935 HE;nice;;;;;;;;;;;;;;;;;;;;
-330mm_opf_mle1935_sapcbc;330 mm OPF Mle1935;330 mm OPF Mle 1935 SAPCBC;nice;;;;;;;;;;;;;;;;;;;;
+330mm_opf_mle1935_sapcbc;330 mm OPF Mle1935;330 mm OPF Mle 1935 APCBC;nice;;;;;;;;;;;;;;;;;;;;
 weapons/130mm_45_model_1932_naval_user_cannon;130 mm/45 Mle1932 cannon;130 mm/45 model 1932 gun;nice;;;;;;;;;;;;;;;;;;;;
 weapons/130mm_45_model_1932_naval_user_cannon/short;130 mm Mle1932;130 mm/45 model 1932;nice;;;;;;;;;;;;;;;;;;;;
 130mm_oea1934_he;130 mm OEA Mle1934;130 mm OEA Mle 1934 HE;nice;;;;;;;;;;;;;;;;;;;;
