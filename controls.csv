@@ -1088,6 +1088,7 @@ hotkeys/ID_TANK_MOVE_HEADER;Movement;Movement;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_FIRE_HEADER;Weaponry;Weaponry;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_VIEW_HEADER;Camera control;Camera control;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_SUSPENSION_HEADER;Suspension control;Suspension control;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_TANK_SCOUT_UAV_HEADER;Scout UAV;Scout UAV;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_OTHER_HEADER;Miscellaneous;Miscellaneous;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_OPERATIONS_HEADER;Quick settings;Quick settings;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SHIP_CONTROL_HEADER;Naval;Naval;same;;;;;;;;;;;;;;;;;;;;

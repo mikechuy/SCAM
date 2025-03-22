@@ -1983,6 +1983,7 @@ hints/aircraft_modifications/try_again;"The target was not hit
 Press {shortcut} to begin the challenge again ({var})";"The target was not hit
 Press {shortcut} to begin the challenge again ({var})";same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_target;Align the crosshair with the target;Align the crosshair with the target;same;;;;;;;;;;;;;;;;;;;
+hints/tank_modifications/find_target_cursor;Align the cursor with the target;Align the cursor with the target;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_next_target;Align the crosshair with the next target;Align the crosshair with the next target;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/find_target_again;The lock has been lost. Aim at the target again;The lock has been lost. Aim at the target again;same;;;;;;;;;;;;;;;;;;;
 hints/tank_modifications/zoom;Press {shortcut} to zoom the camera;Press {shortcut} to zoom the camera;same;;;;;;;;;;;;;;;;;;;
@@ -2016,9 +2017,9 @@ Press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_uncaged_tft/shoot_info1;"A homing head with uncaging allows the missile to deviate from the locked target at a certain angle, displayed in the game as an external circle, without losing target lock
 Press {shortcut} to continue";"A homing head with uncaging allows the missile to deviate from the locked target at a certain angle, displayed in the game as an external circle, without losing target lock
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_uncaged_tft/shoot_info2;"This way, you can apply additional lead when launching the missile, creating more favorable conditions for hitting the target
+hints/tank_sam_ir_uncaged_tft/shoot_info2;"This way, you can apply additional lead when launching the missile, creating more favourable conditions for hitting the target
 Press {shortcut} to continue";"This way, you can apply additional lead when launching the missile, creating more favourable conditions for hitting the target
-Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_caged_tft/shoot_info1;"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
 Press {shortcut} to continue";"A homing head without uncaging requires manual tracking of the target within the field of view of the homing head’s coordinator (the central circle of the homing head indicator) until the missile is launched, which doesn’t allow for additional lead before launch
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -2031,9 +2032,9 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_01;"In automatic mode, the homing head continuously determines in which channel (photo-contrast or infrared) the target is most visible and automatically selects the best channel for target lock at the moment of launch
 Press {shortcut} to continue";"In automatic mode, the homing head continuously determines in which channel (photo-contrast or infrared) the target is most visible and automatically selects the best channel for target lock at the moment of launch
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_sam_ir_photocontrast_mode_tft/info_02;"In most cases, automatic mode works well, but it cannot account for the maneuvers and behavior of the target (e.g., firing flares)
+hints/tank_sam_ir_photocontrast_mode_tft/info_02;"In most cases, automatic mode works well, but it cannot account for the maneuvers and behaviour of the target (e.g., firing flares)
 Press {shortcut} to continue";"In most cases, automatic mode works well, but it cannot account for the maneuvers and behaviour of the target (e.g., firing flares)
-Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_02_aim;Try to hit a target using flares;Try to hit a target using flares;same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_02_change_mode_aim;Try to hit the same target in photo-contrast seeker mode;Try to hit the same target in photo-contrast seeker mode;same;;;;;;;;;;;;;;;;;;;
 hints/tank_sam_ir_photocontrast_mode_tft/info_02_missed;"As you can see, the missile was diverted by the flares
@@ -2080,57 +2081,60 @@ press {shortcut} to switch to the sight";same;;;;;;;;;;;;;;;;;;;
 hints/tank_binocular_tft/shoot_again;"The projectile missed the target. Switch to the sight and adjust the direction or angle of fire
 Press {shortcut} to switch to the sight";"The projectile missed the target. Switch to the sight and adjust the direction or angle of fire
 Press {shortcut} to switch to the sight";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_msg;"The more ammo in the vehicle, the higher the chance that when the ammo is hit by a shell, the vehicle will be disabled
-Press {shortcut} to continue";"The more ammo in the vehicle, the higher the chance that when the ammo is hit by a shell, the vehicle will be disabled
+hints/tank_low_ammo_survivability_tft/info_msg;"The more ammo in the vehicle's ammunition stowages, the higher the chance that they will be damaged when someone hits the vehicle, leading to a fire or explosion
+Press {shortcut} to continue";"The more ammo in the vehicle's ammunition stowages, the higher the chance that they will be damaged when someone hits the vehicle, leading to a fire or explosion
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front section
-Press {shortcut} to switch to sniper mode";"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front section
+hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front part of the hull
+Press {shortcut} to switch to sniper mode";"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front part of the hull
 Press {shortcut} to switch to sniper mode";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;"The turret and upper frontal plate are generally tough, so shooting them is not effective
-It is more efficient to aim at the lower frontal plate, where the ammo is stored
-Aim at the highlighted part and press {shortcut} to fire";"The turret and upper frontal plate are generally tough, so shooting them is not effective
-It is more efficient to aim at the lower frontal plate, where the ammo is stored
+hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells
+It is more reliable to shoot at the lower frontal plate, behind which the ammunition rack is located on the enemy tank in this mission
+Aim at the highlighted part and press {shortcut} to fire";"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells
+It is more reliable to shoot at the lower frontal plate, behind which the ammunition rack is located on the enemy tank in this mission
 Aim at the highlighted part and press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_02;"The second tank has only half the ammo load. The ammunition is stored only in the turret
-Press {shortcut} to switch to sniper mode";"The second tank has only half the ammo load. The ammunition is stored only in the turret
+hints/tank_low_ammo_survivability_tft/info_target_msg_02;"The second tank is loaded with only half of the maximum ammo capacity. In this case, this tank has ammunition only in the well-protected turret
+Press {shortcut} to switch to sniper mode";"The second tank is loaded with only half of the maximum ammo capacity. In this case, this tank has ammunition only in the well-protected turret
 Press {shortcut} to switch to sniper mode";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;"There is no ammo in the lower frontal section now, making the tank less vulnerable
-Aim at the highlighted part and press {shortcut} to fire";"There is no ammo in the lower frontal section now, making the tank less vulnerable
+hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;"Thus, there is no ammo behind the lower frontal plate of the hull, which means the tank is less vulnerable
+Aim at the highlighted part and press {shortcut} to fire";"Thus, there is no ammo behind the lower frontal plate of the hull, which means the tank is less vulnerable
 Aim at the highlighted part and press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/change_target;"As you can see, the target is destroyed by hitting the area with the ammo
-Press {shortcut} to exit sniper mode";"As you can see, the target is destroyed by hitting the area with the ammo
+hints/tank_low_ammo_survivability_tft/change_target;"As you can see, the target is easily destroyed by hitting the vulnerable area with the ammunition stowage
+Press {shortcut} to exit sniper mode";"As you can see, the target is easily destroyed by hitting the vulnerable area with the ammunition stowage
 Press {shortcut} to exit sniper mode";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/end_msg;"A full ammo load makes a tank more vulnerable, so take as much ammo into battle as you usually need
-Replenish it at the capture point if necessary
-Press {shortcut} to complete the mission";"A full ammo load makes a tank more vulnerable, so take as much ammo into battle as you usually need
-Replenish it at the capture point if necessary
+hints/tank_low_ammo_survivability_tft/end_msg;"Fully loaded ammo racks make the tank much more vulnerable, so take as much ammo into battle as you usually need for it
+Replenish your ammo at the allied capture point if necessary
+Press {shortcut} to complete the mission";"Fully loaded ammo racks make the tank much more vulnerable, so take as much ammo into battle as you usually need for it
+Replenish your ammo at the allied capture point if necessary
 Press {shortcut} to complete the mission";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/info1;"Information on Modification
-Press {shortcut} to continue";"Information on Modification
+hints/tank_support_ucav_tft/info1;"The scout UAV is used to observe the battlefield and visually detect enemies
+Press {shortcut} to continue";"The scout UAV is used to observe the battlefield and visually detect enemies
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/activate;Press {shortcut} to activate the UCAV;Press {shortcut} to activate the UCAV;same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_move;"The UCAV is very fast and agile, it requires careful handling
-Press {shortcut} to continue";"The UCAV is very fast and agile, it requires careful handling
+hints/tank_support_ucav_tft/activate;Press {shortcut} to launch the UAV;Press {shortcut} to launch the UAV;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_move;"The scout UAV is small and nimble, but has a relatively weak engine, making it difficult to control
+Press {shortcut} to continue";"The scout UAV is small and nimble, but has a relatively weak engine, making it difficult to control
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_move_point;Fly to the point;Fly to the point;same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_ai;"The UCAV has a ""circle flight"" mode that allows flight control to be handed over to AI, so that you can focus on enemy detection or target designation
-Press {shortcut} to enable ""circle flight""";"The UCAV has a ""circle flight"" mode that allows flight control to be handed over to AI, so that you can focus on enemy detection or target designation
-Press {shortcut} to enable ""circle flight""";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_enemy;Press {shortcut} to mark the enemy;Press {shortcut} to mark the enemy;same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_enemy_find;Allies received a message that the UCAV operator (you) has spotted a target and seen a marker on the map. They can now respond to your information;Allies received a message that the UCAV operator (you) has spotted a target and seen a marker on the map. They can now respond to your information;same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_ai_off;"To turn off ""circle flight"" mode, press {shortcut}";"To turn off ""circle flight"" mode, press {shortcut}";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/info2;"The UCAV also allows you to survey the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
-Press {shortcut} to continue";"The UCAV also allows you to survey the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
+hints/tank_support_ucav_tft/ucav_move_point;Fly to the next waypoint;Fly to the next waypoint;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai;"The scout UAV has a ""Flying in orbit"" mode, which allows you to lock in flight control to focus on enemy detection or targeting
+Press {shortcut} to enable ""Flying in orbit"" mode";"The scout UAV has a ""Flying in orbit"" mode, which allows you to lock in flight control to focus on enemy detection or targeting
+Press {shortcut} to enable ""Flying in orbit"" mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_enemy;Press {shortcut} to place a targeting mark on the enemy for your teammates;Press {shortcut} to place a targeting mark on the enemy for your teammates;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_enemy_find;Allies received a message that the UAV operator (you) has spotted a target and seen the marker you placed on the map. Now they can react to your intelligence;Allies received a message that the UAV operator (you) has spotted a target and seen the marker you placed on the map. Now they can react to your intelligence;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai_on;"Press {shortcut} to enable ""Flying in orbit"" mode";"Press {shortcut} to enable ""Flying in orbit"" mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai_off;"Press {shortcut} to disable ""Flying in orbit"" mode";"Press {shortcut} to disable ""Flying in orbit"" mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/info2;"The scout UAV also allows you to observe the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
+Press {shortcut} to continue";"The scout UAV also allows you to observe the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_target;Fly to your tank;Fly to your tank;same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/check_enemy_pause;"An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming
-Press {shortcut} to continue";"An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming
+hints/tank_support_ucav_tft/ucav_target;Fly back to your tank to assess the situation nearby;Fly back to your tank to assess the situation nearby;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/check_enemy_pause;"An enemy is hiding just a house away from your tank, controlling the passage. Check where its turret is facing
+Press {shortcut} to continue";"An enemy is hiding just a house away from your tank, controlling the passage. Check where its turret is facing
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/check_enemy;An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming;An enemy is hiding behind the building from you and is controlling the passage to the capture point. Look at where they are aiming;same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/ucav_off;"When you understand where the enemy is looking, press ""circle flight"" again to hand over flight control to AI, and switch back to your tank
-Press {shortcut} to switch to your tank";"When you understand where the enemy is looking, press ""circle flight"" again to hand over flight control to AI, and switch back to your tank
+hints/tank_support_ucav_tft/check_enemy;"An enemy is hiding just a house away from your tank, controlling the passage. Check where its turret is facing
+Press {shortcut} to zoom the camera";"An enemy is hiding just a house away from your tank, controlling the passage. Check where its turret is facing
+Press {shortcut} to zoom the camera";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_off;"When you understand where the enemy is aiming, leave the UAV in ""Flying in orbit"" mode and switch back to your tank
+Press {shortcut} to switch to your tank";"When you understand where the enemy is aiming, leave the UAV in ""Flying in orbit"" mode and switch back to your tank
 Press {shortcut} to switch to your tank";same;;;;;;;;;;;;;;;;;;;
-hints/tank_support_ucav_tft/attack_target;Get behind the spotted enemy and destroy them;Get behind the spotted enemy and destroy them;same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/attack_target;Get behind the detected enemy and destroy it;Get behind the detected enemy and destroy it;same;;;;;;;;;;;;;;;;;;;
 hints/extraction_sandstorm_is_coming_get_out;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;A destructive sandstorm is approaching. Quickly gather resources and evacuate to the area ␡.;same;;;;;;;;;;;;;;;;;;;
 hints/rage_scanner_active;The remains of vehicles with available rage flags are highlighted on the minimap.;The remains of vehicles with available rage flags are highlighted on the minimap.;same;;;;;;;;;;;;;;;;;;;
 hints/test_flight/attack_area;You are in the attack zone of enemy air defense;You are in the attack zone of enemy air defense;same;;;;;;;;;;;;;;;;;;;

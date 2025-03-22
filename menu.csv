@@ -2408,6 +2408,12 @@ armor_class/titanium_alloy_tank;Titanium Alloy;Titanium Alloy;same;;;;;;;;;;;;;;
 armor_class/armor_tank_engine;Engine/transmission (0.15);Engine or transmission;trim;;;;;;;;;;;;;;;;;;;
 armor_class/armor_engine;Engine;Engine;same;;;;;;;;;;;;;;;;;;;
 armor_class/gun_barrel;Weapon gun barrel;Primary or secondary weapon;nice;;;;;;;;;;;;;;;;;;;
+armor_class/gun_trunnion;Trunnions;Trunnions;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/gun_trunnion;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;same;;;;;;;;;;;;;;;;;;;
+armor_class/turret_hydraulics;Hydraulic pump;Hydraulic pump;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/turret_hydraulics;"Hydraulic pumps and power electronics. In case of failure, they block the possibility of gun aiming until field repair.
+{partsList}";"Hydraulic pumps and power electronics. In case of failure, they block the possibility of gun aiming until field repair.
+{partsList}";same;;;;;;;;;;;;;;;;;;;
 armor_class/antenna_target_location;Search radar antenna;Search radar antenna;same;;;;;;;;;;;;;;;;;;;
 armor_class/antenna_target_tagging;Tracking radar director;Tracking radar director;same;;;;;;;;;;;;;;;;;;;
 armor_class/antenna_target_tagging_mount;Tracking radar mount;Tracking radar director;nice;;;;;;;;;;;;;;;;;;;
