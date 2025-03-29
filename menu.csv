@@ -522,6 +522,7 @@ bullet_properties/speed;Muzzle Velocity;Muzzle Velocity;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/armorPiercing;Armor penetration;Armor penetration;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/armorPiercing_short;Penetration;Penetration;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/armorPiercing/cumulative;by cumulative jet;Cumulative jet;trim;;;;;;;;;;;;;;;;;;;
+bullet_properties/armorPiercing/affected_armor;Thickness of the affected obstacle;Thickness of the affected obstacle;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/armorPiercing/kinetic;kinetic;Kinetic;nice;;;;;;;;;;;;;;;;;;;
 bullet_properties/armorPiercing/explosive;High-explosive fragmentation;High-explosive fragmentation;same;;;;;;;;;;;;;;;;;;;
 bullet_properties/cooldown;Reload Time;Reload Time;same;;;;;;;;;;;;;;;;;;;
@@ -3920,8 +3921,8 @@ crewSkillParameter/tankLoderReloadingTime;Primary Weapon Reload Time;Primary Wea
 crewSkillParameter/tankDriverBrakesTime;Braking Time;Braking Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankDriverGearChangeTime;Gear Shifting Time;Gear Shifting Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankGunnerTargetingQuality;Targeting Quality;Targeting Quality;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/turnTurretSpeed;Horizontal Rotation Speed;Horizontal Guidance Speed;nice;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/turnTurretSpeedPitch;Vertical Rotation Speed;Vertical Guidance Speed;nice;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/turnTurretSpeed;Azimuth traverse speed;Horizontal Guidance Speed;nice;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/turnTurretSpeedPitch;Elevation traverse Speed;Vertical Guidance Speed;trim;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/crewMemberChangeTime;Crew Member Replacement Time;Crew Member Replacement Time;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/fieldRepairSpeedMultiplier;Field Repair Speed;Field Repair Speed;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/commanderLeadershipDriving;Tank Driving;Tank Driving;same;;;;;;;;;;;;;;;;;;;
@@ -4794,7 +4795,7 @@ loading_bg/login_layer_su_8/desc;"Reward for level 100 of the ""Firepower"" Batt
 loading_bg/login_layer_a_10a;A-10A;A-10A;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_arizona_1931;USS Arizona;USS Arizona;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_black_night;Black Night;Black Night;same;;;;;;;;;;;;;;;;;;;
-loading_bg/login_layer_desert_2022;Father of the Desert;April's Fool Event — 2022;nice;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_desert_2022;Father of the Desert — 2022;April's Fool Event — 2022;trim;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_elefant;Elefant;Elefant;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_elefant/desc;"Reward for level 100 of the ""Armored Elephant"" Battle Ass Season";"Reward for 100th level of the ""Armored Elephant"" Battle Pass Season";nice;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_battlecruiser_hood;HMS Hood;HMS Hood;same;;;;;;;;;;;;;;;;;;;

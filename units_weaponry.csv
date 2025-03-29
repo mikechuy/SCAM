@@ -1427,6 +1427,8 @@ weapons/counter/left/short;%dx;%dx;same;;;;;;;;;;;;;;;;;;;;
 weapons/counter/right/short;x%d;x%d;same;;;;;;;;;;;;;;;;;;;;
 weapons/drop_speed_range;Drop speed range: %s;Drop speed range: %s;same;;;;;;;;;;;;;;;;;;;;
 weapons/drop_height_range;Drop altitude range: %s;Drop altitude range: %s;same;;;;;;;;;;;;;;;;;;;;
+weapons/drop_speed_range_text;Drop speed range;Drop speed range;same;;;;;;;;;;;;;;;;;;;;
+weapons/drop_height_range_text;Drop altitude range;Drop altitude range;same;;;;;;;;;;;;;;;;;;;;
 weapons/88mm_Flak41_user_cannon;88 mm FlaK 41;88 mm Flak 41 cannon;nice;;;;;;;;;;;;;;;;;;;;
 weapons/128mm_KwK44_user_cannon;128 mm KwK 44 L/55;128 mm KwK44 cannon;nice;;;;;;;;;;;;;;;;;;;;
 128mm_pzgr_ts;12.8/8.8 Pzgr.TS;12,8/8,8 Pzgr.TS;nice;;;;;;;;;;;;;;;;;;;;
