@@ -2140,4 +2140,6 @@ hints/rage_scanner_active;The remains of vehicles with available rage flags are 
 hints/test_flight/attack_area;You are in the attack zone of enemy air defense;You are in the attack zone of enemy air defense;same;;;;;;;;;;;;;;;;;;;
 hints/ammo_used_exit_zone;Ammo is out, you can leave the mission using zone ␡;Ammo is out, you can leave the mission using zone ␡;same;;;;;;;;;;;;;;;;;;;
 hints/return_spawn_cost_exit_zone;In this case, the spawn cost will be returned to you;In this case, the spawn cost will be returned to you;same;;;;;;;;;;;;;;;;;;;
+hints/return_spawn_score_partial_exit_zone;In this case, the spawn points will be partially returned to you;In this case, the spawn points will be partially returned to you;same;;;;;;;;;;;;;;;;;;;
+hints/return_spawn_score_full_exit_zone;In this case, the spawn points will be fully returned to you;In this case, the spawn points will be fully returned to you;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

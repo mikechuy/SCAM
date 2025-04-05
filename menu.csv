@@ -597,7 +597,7 @@ mainmenu/btnRepairNow;Repair (%s);Repair (%s);same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnRepairNowDesc;You wouldn't be allowed to use damaged vehicle in battle, even if it has a few scratches.;You wouldn't be allowed to use damaged vehicle in battle, even if it has a few scratches.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuy;Purchase;Purchase;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyInstantly;Complete instantly;Complete instantly;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnBuyInstantly/tooltip;Instantly complete a task without having to satisfy its conditions;Instantly complete a task without having to satisfy its conditions;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnBuyInstantly/tooltip;Instantly complete a task without having to satisfy its conditions;Instantly complete a task for Golden Eagles without having to satisfy its conditions;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyAll;Purchase All;Purchase All;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuySelected;Purchase Selected;Purchase Selected;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyAndSetUnitInSlot;Purchase Vehicle and Train a Crew;Purchase Vehicle and Train a Crew;same;;;;;;;;;;;;;;;;;;;
@@ -4887,6 +4887,7 @@ loading_bg/login_layer_m46_france;"Char Moyen Type ""Patton"" M46";"Char Moyen T
 loading_bg/login_layer_m46_france/desc;"Reward for level 100 in the ""The Last Legionnaire"" Battle Pass Season";"Reward for level 100 in the ""The Last Legionnaire"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_football_event_2025;Tank Football — What a kick!;Tank Football — What a kick!;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_ship_marathon_strasbourg;Strasbourg;Strasbourg;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_the_great_war;The Great War;The Great War;same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
