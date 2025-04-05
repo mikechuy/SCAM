@@ -597,7 +597,7 @@ mainmenu/btnRepairNow;Repair (%s);Repair (%s);same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnRepairNowDesc;You wouldn't be allowed to use damaged vehicle in battle, even if it has a few scratches.;You wouldn't be allowed to use damaged vehicle in battle, even if it has a few scratches.;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuy;Purchase;Purchase;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyInstantly;Complete instantly;Complete instantly;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnBuyInstantly/tooltip;Instantly complete a task without having to satisfy its conditions;Instantly complete a task for Golden Eagles without having to satisfy its conditions;nice;;;;;;;;;;;;;;;;;;;
+mainmenu/btnBuyInstantly/tooltip;Instantly complete a task for Golden Eagles without having to satisfy its conditions;Instantly complete a task for Golden Eagles without having to satisfy its conditions;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyAll;Purchase All;Purchase All;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuySelected;Purchase Selected;Purchase Selected;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnBuyAndSetUnitInSlot;Purchase Vehicle and Train a Crew;Purchase Vehicle and Train a Crew;same;;;;;;;;;;;;;;;;;;;
