@@ -2461,7 +2461,7 @@ chaff_bullet_large_add_pod/name/short;Chaff L(Add);Chaff L(Add);same;;;;;;;;;;;;
 90mm_t33;T33E7;T33 shot;nice;;;;;;;;;;;;;;;;;;;;
 90mm_m71a1;M71A1;M71A1 shell;nice;;;;;;;;;;;;;;;;;;;;
 90mm_m318a1;M318A1;M318A1 shot;nice;;;;;;;;;;;;;;;;;;;;
-90mm_ap_shot;T50E1;AP Shot;nice;;;;;;;;;;;;;;;;;;;;
+90mm_ap_shot;T54E1;AP Shot;nice;;;;;;;;;;;;;;;;;;;;
 90mm_he_shell;T42;HE Shell;nice;;;;;;;;;;;;;;;;;;;;
 90mm_hvap_shot;T44E2;HVAP Shot;nice;;;;;;;;;;;;;;;;;;;;
 90mm_t42;T42;T42 shell;nice;;;;;;;;;;;;;;;;;;;;
