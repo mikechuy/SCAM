@@ -1222,6 +1222,8 @@ weapons/us_zuni_wafar_mk32_left;Zuni Mk 32 Mod 0 ATAP rocket;Zuni Mk32 Mod 0 ATA
 weapons/us_zuni_wafar_mk32_left/short;Zuni ATAP;Zuni Mk32;nice;;;;;;;;;;;;;;;;;;;;
 weapons/us_zuni_wafar_mk32_right;Zuni Mk 32 Mod 0 ATAP rocket;Zuni Mk32 Mod 0 ATAP rockets;nice;;;;;;;;;;;;;;;;;;;;
 weapons/us_zuni_wafar_mk32_right/short;Zuni ATAP;Zuni Mk32;nice;;;;;;;;;;;;;;;;;;;;
+weapons/us_zuni_wafar_mk34;Zuni Mk34 (Smoke) rockets;Zuni Mk34 (Smoke) rockets;same;;;;;;;;;;;;;;;;;;;;
+weapons/us_zuni_wafar_mk34/short;Zuni Mk34 (Smoke);Zuni Mk34 (Smoke);same;;;;;;;;;;;;;;;;;;;;
 weapons/su_rbs132;RBS-132 rocket;RBS-132 rockets;nice;;;;;;;;;;;;;;;;;;;;
 weapons/su_rbs82;RBS-82 rocket;RBS-82 rockets;nice;;;;;;;;;;;;;;;;;;;;
 weapons/jp_navy_rocket_type3_number1_9kg;Type 3 No.1 Mk 28 Model 1 rocket;Type 3 No.1 Mod.28 Mk.1 rockets;trim;;;;;;;;;;;;;;;;;;;;
@@ -2709,7 +2711,7 @@ weapons/7_62mm_L8A1_user_machinegun;7.62 mm L8A1 machine gun;7.62 mm L8A1 machin
 weapons/gunL8a1;7.62 mm L8A1 machine gun;7.62 mm L8A1 machine gun;same;;;;;;;;;;;;;;;;;;;;
 weapons/gunL8a1/short;L8A1;L8A1;same;;;;;;;;;;;;;;;;;;;;
 weapons/7_62mm_L8A2_user_machinegun;7.62 mm L8A2 machine gun;7.62 mm L8A2 machine gun;same;;;;;;;;;;;;;;;;;;;;
-weapons/12_7mm_L21A1_user_machinegun;12.7 mm L21A1 machine gun;12.7 mm L21A1 machine gun;same;;;;;;;;;;;;;;;;;;;;
+weapons/12_7mm_L21A1_user_machinegun;12.7 mm L21A1 spotting rifle;12.7 mm L21A1 machine gun;trim;;;;;;;;;;;;;;;;;;;;
 weapons/uk_250lbs/short;SAP 104;G.P. 250 lb;nice;;;;;;;;;;;;;;;;;;;;
 weapons/uk_250lbs_43/short;SAP 104;G.P. 250 lb;nice;;;;;;;;;;;;;;;;;;;;
 weapons/uk_250lbs_late/short;SAP 104;G.P. 250 lb;nice;;;;;;;;;;;;;;;;;;;;
@@ -6262,4 +6264,7 @@ weapons/25mm_zpt90_user_cannon;25 mm ZPT90 cannon;25 mm ZPT90 cannon;same;;;;;;;
 weapons/105mm_cockerill_hp_user_cannon;105 mm Cockerill HP cannon;105 mm Cockerill HP cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/152mm_2A64_user_cannon;152 mm 2A64 howitzer;152 mm 2A64 cannon;trim;;;;;;;;;;;;;;;;;;;;
 weapons/152mm_2A65_m2_user_cannon;152 mm 2A64M2 howitzer;152 mm 2A64M2 cannon;trim;;;;;;;;;;;;;;;;;;;;
+V_759;V-759;V-759;same;;;;;;;;;;;;;;;;;;;;
+weapons/V_759/short;V-759;V-759;same;;;;;;;;;;;;;;;;;;;;
+weapons/654mm_S_75_V_755_20DS_rocket_launcher;Launcher SM-90 SAM S-75;Launcher SM-90 SAM S-75;same;;;;;;;;;;;;;;;;;;;;
 CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;;
