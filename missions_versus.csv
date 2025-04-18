@@ -1508,4 +1508,21 @@ raider_vehicles;Raider vehicles;Raider vehicles;same;;;;;;;;;;;;;;;;;;;
 missions/air_mysterious_valley_spaceport_BfD_norespawn;[Operation] Mysterious Valley. Spaceport;[Operation] Mysterious Valley. Spaceport;same;;;;;;;;;;;;;;;;;;;
 missions/air_mysterious_valley_wide_spawns_BfD_norespawn;[Operation] Mysterious Valley (air spawns);[Operation] Mysterious Valley (air spawns);same;;;;;;;;;;;;;;;;;;;
 battle_of_jutland/name;Battle of Jutland;Battle of Jutland;same;;;;;;;;;;;;;;;;;;;
+missions/_sead;[SEAD];[SEAD];same;;;;;;;;;;;;;;;;;;;
+missions/_sead/defensive;[Air Defense Support];[Air Defense Support];same;;;;;;;;;;;;;;;;;;;
+missions/_sead/offensive;[SEAD];[SEAD];same;;;;;;;;;;;;;;;;;;;
+missions/_sead/desc/defensive;"Enemy aircraft are trying to neutralize our air defense system in this area in order to pave the way for further offensive.
+
+Mission objective:
+- Prevent the destruction of SAM sites, provide protection from enemy aircraft";"Enemy aircraft are trying to neutralize our air defense system in this area in order to pave the way for further offensive.
+
+Mission objective:
+- Prevent the destruction of SAM sites, provide protection from enemy aircraft";same;;;;;;;;;;;;;;;;;;;
+missions/_sead/desc/offensive;"The enemy air defense is hampering the actions of our aircraft. Without its neutralization, further advancement is impossible.
+
+Mission objective:
+- Neutralize enemy SAM sites in the area";"The enemy air defense is hampering the actions of our aircraft. Without its neutralization, further advancement is impossible.
+
+Mission objective:
+- Neutralize enemy SAM sites in the area";same;;;;;;;;;;;;;;;;;;;
 MISSION_VERSUS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

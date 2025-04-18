@@ -2723,3 +2723,5 @@ mfd/su_30sm_wpn/su_t_220_targeting_pod;200Т;200Т;same;;;;;;;;;;;;;;;;;;;
 mfd/su_30sm_wpn/su_upab_1500b;1500Б;1500Б;same;;;;;;;;;;;;;;;;;;;
 mfd/su_30sm_wpn/su_upab_500b;500Б;500Б;same;;;;;;;;;;;;;;;;;;;
 mfd/su_30sm_wpn/su_zb_500;ЗБ500;ЗБ500;same;;;;;;;;;;;;;;;;;;;
+hud/sead/defend_text;Protect SAM sites:;Protect SAM sites:;same;;;;;;;;;;;;;;;;;;;
+hud/sead/attack_text;Neutralize SAM sites:;Neutralize SAM sites:;same;;;;;;;;;;;;;;;;;;;

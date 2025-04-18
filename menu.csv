@@ -988,7 +988,8 @@ crew/trained;Qualification;Qualification;same;;;;;;;;;;;;;;;;;;;
 crew/eyesight;Keen Vision;Keen Vision;same;;;;;;;;;;;;;;;;;;;
 crew/eyesight/tank/tooltip;"This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.
 * - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly";"This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.
-* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly";same;;;;;;;;;;;;;;;;;;;
+* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly
+** - regardless of the crew's skill, there is also a radius of absolute detection of vehicles, which is {distance} m";nice;;;;;;;;;;;;;;;;;;;
 crew/pilot/eyesight/tooltip;"This skill affects the pilot's visual range in the direction he is looking; i.e. the maximum distance at which he can detect the enemy in front of himself.
 
 The skill allows to increase the range of detection up to two times (upon identical weather conditions, position of the Sun and altitude difference between the two aircraft).";"This skill affects the pilot's visual range in the direction he is looking; i.e. the maximum distance at which he can detect the enemy in front of himself.
@@ -3858,7 +3859,7 @@ recentItems/useItem;"Are you sure you want to use item
 {itemName} ?";"Are you sure you want to use item
 {itemName} ?";same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/hearingDistance;Absolute Detection;Absolute Detection;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/tankVisionDistance;Movement-Line Detection;Movement-Line Detection;same;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/tankVisionDistance;Movement-Line Detection;Movement-Line Detection**;nice;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/viewVisionDistance;Line-of-Sight Detection*;Line-of-Sight Detection*;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/hearingSpottingDistance;Absolute Identification;Absolute Identification;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankVisionSpottingDistance;Movement-Line Identification;Movement-Line Identification;same;;;;;;;;;;;;;;;;;;;
@@ -5344,3 +5345,5 @@ ace_of_spades/warning_select_category;Need to select at least one type of vehicl
 tactical_map_switching/map;MAP;MAP;same;;;;;;;;;;;;;;;;;;;
 tactical_map_switching/uav;UAV;UAV;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnShowShipHitIcons;Show hit icons;Show hit icons;same;;;;;;;;;;;;;;;;;;;
+profile/unlockConditions/allowActionText;You can instantly complete a task without having to satisfy its conditions.;You can instantly complete a task without having to satisfy its conditions.;same;;;;;;;;;;;;;;;;;;;
+profile/unlockConditions/goToTheTask;Click to go to the task.;Click to go to the task.;same;;;;;;;;;;;;;;;;;;;
