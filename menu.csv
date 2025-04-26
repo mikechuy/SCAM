@@ -987,9 +987,10 @@ crew/groundService;Logistical services;Logistical services;same;;;;;;;;;;;;;;;;;
 crew/trained;Qualification;Qualification;same;;;;;;;;;;;;;;;;;;;
 crew/eyesight;Keen Vision;Keen Vision;same;;;;;;;;;;;;;;;;;;;
 crew/eyesight/tank/tooltip;"This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.
-* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly";"This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.
 * - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly
-** - regardless of the crew's skill, there is also a radius of absolute detection of vehicles, which is {distance} m";nice;;;;;;;;;;;;;;;;;;;
+** - regardless of the crew's skill, there is also a radius of absolute detection of vehicles, which is {distance} m";"This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.
+* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly
+** - regardless of the crew's skill, there is also a radius of absolute detection of vehicles, which is {distance} m";same;;;;;;;;;;;;;;;;;;;
 crew/pilot/eyesight/tooltip;"This skill affects the pilot's visual range in the direction he is looking; i.e. the maximum distance at which he can detect the enemy in front of himself.
 
 The skill allows to increase the range of detection up to two times (upon identical weather conditions, position of the Sun and altitude difference between the two aircraft).";"This skill affects the pilot's visual range in the direction he is looking; i.e. the maximum distance at which he can detect the enemy in front of himself.
@@ -3859,7 +3860,7 @@ recentItems/useItem;"Are you sure you want to use item
 {itemName} ?";"Are you sure you want to use item
 {itemName} ?";same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/hearingDistance;Absolute Detection;Absolute Detection;same;;;;;;;;;;;;;;;;;;;
-crewSkillParameter/tankVisionDistance;Movement-Line Detection;Movement-Line Detection**;nice;;;;;;;;;;;;;;;;;;;
+crewSkillParameter/tankVisionDistance;Movement-Line Detection**;Movement-Line Detection**;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/viewVisionDistance;Line-of-Sight Detection*;Line-of-Sight Detection*;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/hearingSpottingDistance;Absolute Identification;Absolute Identification;same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/tankVisionSpottingDistance;Movement-Line Identification;Movement-Line Identification;same;;;;;;;;;;;;;;;;;;;
@@ -4632,6 +4633,7 @@ battlePass/seasonName/15;"""Northern King""";"""Northern King""";same;;;;;;;;;;;
 battlePass/seasonName/16;"""Skilled Marksman""";"""Skilled Marksman""";same;;;;;;;;;;;;;;;;;;;
 battlePass/seasonName/17;"""Guided Fury""";"""Guided Fury""";same;;;;;;;;;;;;;;;;;;;
 battlePass/seasonName/18;"""The Last Legionnaire""";"""The Last Legionnaire""";same;;;;;;;;;;;;;;;;;;;
+battlePass/seasonName/19;#N/A;"""First Sample""";#N/A;;;;;;;;;;;;;;;;;;;
 season/information;Full information about the Season;Full information about the Season;same;;;;;;;;;;;;;;;;;;;
 battlePass/rewardsTitle;Congratulations! You have earned Battle Ass prize!;Congratulations! You have earned Battle Pass prize!;nice;;;;;;;;;;;;;;;;;;;
 battlePass/buy/desc;"The purchase of the ""Battle Ass"" allows to collect rewards from all opened levels of the Season. ""Battle Ass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";"The purchase of the ""Battle Pass"" allows to collect rewards from all opened levels of the Season. ""Battle Pass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";nice;;;;;;;;;;;;;;;;;;;
@@ -4889,6 +4891,8 @@ loading_bg/login_layer_m46_france/desc;"Reward for level 100 in the ""The Last L
 loading_bg/login_layer_football_event_2025;Tank Football — What a kick!;Tank Football — What a kick!;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_ship_marathon_strasbourg;Strasbourg;Strasbourg;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_the_great_war;The Great War;The Great War;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_t_44_po;#N/A;T-44 First Modification;#N/A;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_t_44_po/desc;#N/A;"Reward for level 100 in the ""First Sample"" Battle Pass Season";#N/A;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
@@ -4973,6 +4977,10 @@ item/tank_skin_trophy;Random camouflage (Tank);Random camouflage (Tank);same;;;;
 item/tank_skin_trophy/shortTypeDesc;Upon purchase, it automatically adds a camouflage for a random purchased vehicle that matches the conditions of use.;Upon purchase, it automatically adds a camouflage for a random purchased vehicle that matches the conditions of use.;same;;;;;;;;;;;;;;;;;;;
 item/aircraft_skin_trophy;Random camouflage (Air vehicles);Random camouflage (Air vehicles);same;;;;;;;;;;;;;;;;;;;
 item/aircraft_skin_trophy/shortTypeDesc;Upon purchase, it automatically adds a camouflage for a random purchased vehicle that matches the conditions of use.;Upon purchase, it automatically adds a camouflage for a random purchased vehicle that matches the conditions of use.;same;;;;;;;;;;;;;;;;;;;
+item/boat_skin_trophy;#N/A;Random camouflage (Coastal fleet);#N/A;;;;;;;;;;;;;;;;;;;
+item/boat_skin_trophy/shortTypeDesc;#N/A;Upon purchase, it automatically adds a camouflage for a random purchased vehicle that matches the conditions of use.;#N/A;;;;;;;;;;;;;;;;;;;
+item/ship_skin_trophy;#N/A;Random camouflage (Bluewater fleet);#N/A;;;;;;;;;;;;;;;;;;;
+item/ship_skin_trophy/shortTypeDesc;#N/A;Upon purchase, it automatically adds a camouflage for a random purchased vehicle that matches the conditions of use.;#N/A;;;;;;;;;;;;;;;;;;;
 item/prem_unit_rank_1;Random Premium Vehicle (rank I);Random Premium Vehicle (rank I);same;;;;;;;;;;;;;;;;;;;
 item/prem_unit_rank_2;Random Premium Vehicle (rank II);Random Premium Vehicle (rank II);same;;;;;;;;;;;;;;;;;;;
 item/prem_unit_rank_3;Random Premium Vehicle (rank III);Random Premium Vehicle (rank III);same;;;;;;;;;;;;;;;;;;;
@@ -5285,6 +5293,7 @@ profile_header_sea_waves_02/name;Sea waves #2;Sea waves #2;same;;;;;;;;;;;;;;;;;
 profile_header_event_xmas_2024/name;New Year's forest (2024);New Year's forest (2024);same;;;;;;;;;;;;;;;;;;;
 profile_header_lunar_ny_2025/name;Year of the Snake;Year of the Snake;same;;;;;;;;;;;;;;;;;;;
 profile_header_football/name;Tank Football — Watch the ball!;Tank Football — Watch the ball!;same;;;;;;;;;;;;;;;;;;;
+profile_header_t_44_po/name;#N/A;T-44 First Modification;#N/A;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_grey/name;Simple solid, grey;Simple solid, grey;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_orange/name;Simple solid, orange;Simple solid, orange;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_red/name;Simple solid, red;Simple solid, red;same;;;;;;;;;;;;;;;;;;;

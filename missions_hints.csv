@@ -466,7 +466,7 @@ hints/dlc_britain_battle_of_britain_day_hint;A new group of enemy fighters is co
 hints/dlc_britain_battle_of_britain_day_area_hint;Return to the patrol area;Return to the patrol area;same;;;;;;;;;;;;;;;;;;;
 hints/blind_hunt_f86_help;Aircraft of the second flight have spotted the convoys!;Aircraft of the second flight have spotted the convoys!;same;;;;;;;;;;;;;;;;;;;
 hints/on_the_grozny_way;The bombers were suddenly attacked by a large group of fighters. Now they are making a hasty retreat!;The bombers were suddenly attacked by a large group of fighters. Now they are making a hasty retreat!;same;;;;;;;;;;;;;;;;;;;
-hints/pkg9_close_to_water_hint;Anti-aircraft fire is becoming heavier! Maneuver more actively!;Anti-aircraft fire is becoming heavier! Manoeuvre more actively!;nice;;;;;;;;;;;;;;;;;;;
+hints/pkg9_close_to_water_hint;Anti-aircraft fire is getting heavier! Maneuver more!;Anti-aircraft fire is becoming heavier! Manoeuvre more actively!;nice;;;;;;;;;;;;;;;;;;;
 hints/bad_bomb_angle;You cannot drop the bombs because of your plane's current attitude;You cannot drop the bombs because of your plane's current attitude;same;;;;;;;;;;;;;;;;;;;
 hints/bad_torpedo_angle;You cannot drop the torpedo because of your plane's current attitude;You cannot drop the torpedo because of your plane's current attitude;same;;;;;;;;;;;;;;;;;;;
 hints/single_pokryshkin_zone_left;Return to the covering force area!;Return to the covering force area!;same;;;;;;;;;;;;;;;;;;;
@@ -500,7 +500,7 @@ hints/dead_pilot;If you increase the pilot's vitality, he will be able to surviv
 hints/pilot_lose_control;;G-tolerance and stamina of a pilot are not enough to sustain such accelerations. Use the 'crew' panel to improve pilot skills.;nice;;;;;;;;;;;;;;;;;;;
 hints/damaged_pilot;Pilot damage LUL;The pilot was injured, piloting capabilities reduced.;nice;;;;;;;;;;;;;;;;;;;
 hints/switch_between_views;Press the button repeatedly to switch between different views;Press the button repeatedly to switch between different views;same;;;;;;;;;;;;;;;;;;;
-hints/track_repair;You cannot move during tank repair.;You cannot move during the tank repair.;nice;;;;;;;;;;;;;;;;;;;
+hints/track_repair;You cannot move during vehicle repair.;You cannot move during the tank repair.;nice;;;;;;;;;;;;;;;;;;;
 hints/gun_jammed;Gun jammed;Gun jammed;same;;;;;;;;;;;;;;;;;;;
 hints/fps_to_virtual_fps;Cockpit view is unavailable;Cockpit view is unavailable;same;;;;;;;;;;;;;;;;;;;
 hints/autothrottle;Your flying speed is too low. Increase throttle to avoid a crash.;Your flying speed is too low. Increase throttle to avoid a crash.;same;;;;;;;;;;;;;;;;;;;
@@ -958,7 +958,7 @@ hints/duel_shoot_disable;Fly straight until the weapon is enabled;Fly straight u
 hints/tournament_shooting_disabled;Weapon will be enabled after the timer runs out;Weapon will be enabled after the timer runs out;same;;;;;;;;;;;;;;;;;;;
 hints/tournament_shooting_enabled;Weapon enabled;Weapon enabled;same;;;;;;;;;;;;;;;;;;;
 hints/enemy_have_advantage;The enemy has achieved air superiority. You have started losing victory points!;The enemy has achieved air superiority. You have started losing victory points!;same;;;;;;;;;;;;;;;;;;;
-hints/tank_in_enemy_zone;Your tank is in the hostile area!;Your tank is in the hostile area !;nice;;;;;;;;;;;;;;;;;;;
+hints/tank_in_enemy_zone;You are in the auto detect area!;Your tank is in the hostile area !;nice;;;;;;;;;;;;;;;;;;;
 hints/tank_will_respawn_in_1;Trophy will respawn in 1 second;Trophy will respawn in 1 second;same;;;;;;;;;;;;;;;;;;;
 hints/tank_will_respawn_in_2;Trophy will respawn in 2 seconds;Trophy will respawn in 2 seconds;same;;;;;;;;;;;;;;;;;;;
 hints/tank_will_respawn_in_3;Trophy will respawn in 3 seconds;Trophy will respawn in 3 seconds;same;;;;;;;;;;;;;;;;;;;
