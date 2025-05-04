@@ -5,7 +5,7 @@
 **A**ccurate
 **M**onikers
 
-Mostly a comparator/backup repo. This is partially serious, partially joking, completely offensive.![image](https://github.com/user-attachments/assets/0ec6558f-8197-4a85-839b-12ed488806c8)
+This is partially serious, partially joking, completely offensive custom language pack for War Thunder. The intentions are rename all vehicles to be Somewhat Accurate from the perspective of the nation tree those vehicles are located in. The year of the vehicle's configuration as represented in game is added as Comprehensively as possible to the applicable tank or plane (boats are not important).![image](https://github.com/user-attachments/assets/0ec6558f-8197-4a85-839b-12ed488806c8)
 
 
 ## ONLY WORKS WITH ENGLISH LANGUAGE LOCALIZATION (by design)
