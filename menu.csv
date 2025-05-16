@@ -322,7 +322,7 @@ mainmenu/UnlockAchievementsRemoveFromFavorite/hint;Remove the achievement from F
 mainmenu/noFavoriteAchievements;You have no favorite achievements. You can add achievements to Favorites on the Achievements page.;You have no favourite achievements. You can add achievements to Favourites on the Achievements page.;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/btnUnlock;Unlocks;Unlocks;same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnUnlockDecal;Decals;Decals;same;;;;;;;;;;;;;;;;;;;
-mainmenu/btnUnlockSkin;Skins;Skins;same;;;;;;;;;;;;;;;;;;;
+mainmenu/btnUnlockSkin;Skins;Camouflages;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/btnUnlockChallenge;Challenges;Challenges;same;;;;;;;;;;;;;;;;;;;
 mainmenu/pleaseSignIn;Offline Mode;Offline Mode;same;;;;;;;;;;;;;;;;;;;
 mainmenu/balance;Balance;Balance;same;;;;;;;;;;;;;;;;;;;
@@ -2904,7 +2904,7 @@ help/OBJ_CLICK/gamepad_specific;;Press A to continue.;nice;;;;;;;;;;;;;;;;;;;
 help/newModification;;"Choose your new modification for research now.
 <color=@userlogColoredText>{modName}</color> for example.
 You could change choice after tutorial is finished.";nice;;;;;;;;;;;;;;;;;;;
-help/FreeExp;If you will have free experience points, they will be automatically transferred to chosen research.;If you will have free experience points, they will be automatically transfered to chosen research.;trim;;;;;;;;;;;;;;;;;;;
+help/FreeExp;If you will have free experience points, they will be automatically transferred to chosen research.;If you have any remaining research points, they will be automatically transferred to the selected new research.;nice;;;;;;;;;;;;;;;;;;;
 text/new_amount;(New {amount});(New {amount});same;;;;;;;;;;;;;;;;;;;
 text/new;(New);(New);same;;;;;;;;;;;;;;;;;;;
 items/expired;Expired;Expired;same;;;;;;;;;;;;;;;;;;;
