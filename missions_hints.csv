@@ -1740,6 +1740,24 @@ missions/tutorial_boat_battle/artillery_support_activate;Press {shortcut} and ch
 missions/tutorial_boat_battle/artillery_support_activate/wheel_menu;"Press {shortcut}, choose ""Artillery strike"" and then choose a strike point on the map";"Press {shortcut}, choose ""Artillery strike"" and then choose a strike point on the map";same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_boat_battle/smoke_about;Hide behind the smoke screen to escape enemy fire and to repair;Hide behind the smoke screen to escape enemy fire and to repair;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_boat_battle/smoke_activate;Press {shortcut} and turn behind the smoke screen;Press {shortcut} and turn behind the smoke screen;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/full_forward;Full forward;Full forward;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/full_back;Full back;Full back;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/stop;Stop;Stop;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/steering;Steering;Steering;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/turn;Turn weapon;Turn weapon;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/camera_turn;Move camera;Move camera;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/objective;"Head to one of the points
+╸ ╹ ╺";"Head to one of the points
+╸ ╹ ╺";same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/binocular;Binocular {{ID_TOGGLE_VIEW_SHIP}};Binocular {{ID_TOGGLE_VIEW_SHIP}};same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/aim_target;"Aim target
+{{ID_LOCK_TARGET}}";"Aim target
+{{ID_LOCK_TARGET}}";same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/aim;Take aim;Take aim;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/fire;"Open fire
+{{ID_SHIP_WEAPON_ALL}}";"Open fire
+{{ID_SHIP_WEAPON_ALL}}";same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/weak_point;Aim for weak points;Aim for weak points;same;;;;;;;;;;;;;;;;;;;
 hints/not_in_burav_ctrl_radius;You must be in the zone marked with the white circle on the map to control the Burav;You must be in the zone marked with the white circle on the map to control the Burav;same;;;;;;;;;;;;;;;;;;;
 hints/burav_ctrl_by_other_player;The other player controls Burav because they are closer to it;The other player controls Burav because they are closer to it;same;;;;;;;;;;;;;;;;;;;
 hints/burav_target_not_in_battle_area;Burav cannot leave the battlefield;Burav cannot leave the battlefield;same;;;;;;;;;;;;;;;;;;;
@@ -1916,6 +1934,8 @@ Press {shortcut} to continue";"Use of guided bombs with satellite targeting
 These bombs use a designated marker on the surface for targeting before being dropped
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/zoom;To better identify the target's location, use the camera zoom {shortcut};To better identify the target's location, use the camera zoom {shortcut};same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/map_activate;Open the map {shortcut} and mark the target;Open the map {shortcut} and mark the target;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/map_exit;After marking the target, press {shortcut} to continue;After marking the target, press {shortcut} to continue;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info1;If the marker is far from the target, it can be repositioned {shortcut};If the marker is far from the target, it can be repositioned {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info2;If the marker is correctly placed, use {shortcut} to release the bomb;If the marker is correctly placed, use {shortcut} to release the bomb;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/next_target;;Mark the next target and press {shortcut} to drop the bomb;nice;;;;;;;;;;;;;;;;;;;
@@ -2143,3 +2163,4 @@ hints/return_spawn_cost_exit_zone;In this case, the spawn cost will be returned 
 hints/return_spawn_score_partial_exit_zone;In this case, the spawn points will be partially returned to you;In this case, the spawn points will be partially returned to you;same;;;;;;;;;;;;;;;;;;;
 hints/return_spawn_score_full_exit_zone;In this case, the spawn points will be fully returned to you;In this case, the spawn points will be fully returned to you;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;
+hints/drone_orbit_mode_controls;Use {pitch} to change altitude and {roll} to change direction and orbit radius;Use {pitch} to change altitude and {roll} to change direction and orbit radius;same;;;;;;;;;;;;;;;;;;;
