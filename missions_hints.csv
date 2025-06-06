@@ -1711,8 +1711,9 @@ will turn with a delay. Plan your maneuvers in advance!";"Use {{ship_steering}} 
 will turn with a delay. Plan your maneuvers in advance!";same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/steering_explanation;When turning, the ship heels to the side opposite to the turning direction. It can prevent you from firing your guns. Complete the maneuver to get the ship level and move the guns out of the dead guidance sector;When turning, the ship heels to the side opposite to the turning direction. It can prevent you from firing your guns. Complete the maneuver to get the ship level and move the guns out of the dead guidance sector;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/movement;Use {{ship_main_engine+ship_steering}} to control your ship.;Use {{ship_main_engine+ship_steering}} to control your ship.;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_destroyer_battle/engine;The ship has an engine telegraph, which sets the movement mode: from slow to full. Forward and reverse. Switch modes with {{ship_main_engine}};"The ship has an engine telegraph, which sets the movement mode: from slow to full.
-Forward and reverse. Switch modes with {{ship_main_engine}}";nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_destroyer_battle/engine;"The ship has an engine telegraph, which sets the movement mode: from slow to full.
+Forward and reverse. Switch modes with {{ship_main_engine}}";"The ship has an engine telegraph, which sets the movement mode: from slow to full.
+Forward and reverse. Switch modes with {{ship_main_engine}}";same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/zoom;Press {{ID_ZOOM_TOGGLE}} to zoom;Press {{ID_ZOOM_TOGGLE}} to zoom;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/lock_target;Choose and lock your target by pressing {{ID_LOCK_TARGET}};Choose and lock your target by pressing {{ID_LOCK_TARGET}};same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/aim_explanation;"Your target distance displays in <color=#ff0000>red</color>. The distance your guns are aiming at displays in <color=#000000>black</color>.
@@ -1938,9 +1939,9 @@ hints/aircraft_guided_bombs_gnss/map_activate;Open the map {shortcut} and mark t
 hints/aircraft_guided_bombs_gnss/map_exit;After marking the target, press {shortcut} to continue;After marking the target, press {shortcut} to continue;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info1;If the marker is far from the target, it can be repositioned {shortcut};If the marker is far from the target, it can be repositioned {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info2;If the marker is correctly placed, use {shortcut} to release the bomb;If the marker is correctly placed, use {shortcut} to release the bomb;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_guided_bombs_gnss/next_target;;Mark the next target and press {shortcut} to drop the bomb;nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_guided_bombs_gnss/aim_bomb;;Aim at the target and press {shortcut} to drop the bomb;nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_guided_bombs_gnss/aim_next_target;;Aim at the next target and press {shortcut} to drop the bomb;nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/next_target;Mark the next target and press {shortcut} to drop the bomb;Mark the next target and press {shortcut} to drop the bomb;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/aim_bomb;Aim at the target and press {shortcut} to drop the bomb;Aim at the target and press {shortcut} to drop the bomb;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/aim_next_target;Aim at the next target and press {shortcut} to drop the bomb;Aim at the next target and press {shortcut} to drop the bomb;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/after_bomb1;"A satellite-guided bomb is unaffected by weather conditions, smoke interference, or time of day
 However, this type of weapon cannot be adjusted after release
 Press {shortcut} to continue";"A satellite-guided bomb is unaffected by weather conditions, smoke interference, or time of day
@@ -1964,7 +1965,7 @@ hints/aircraft_modifications/nvd;Press {shortcut} to switch to the infrared imag
 hints/aircraft_modifications/nvd_menu;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/boomb_view;"After dropping the bomb, you can switch to bomb tracking mode.
 To do this, press and hold {shortcut} until the target is hit";"After dropping the bomb, you can switch to bomb tracking mode
-To do this, press and hold {shortcut} until the target is hit";nice;;;;;;;;;;;;;;;;;;;
+To do this, press and hold {shortcut} until the target is hit";trim;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_rocket;Press {shortcut} to activate missile seeker;Press {shortcut} to activate missile seeker;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_tv_rocket;Press {shortcut} to activate missile;Press {shortcut} to activate missile;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activation_rocket;"A small circle indicates the point illuminated by the laser from the side of your aircraft. The missile will be guided to that point
