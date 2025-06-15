@@ -1750,12 +1750,10 @@ missions/tutorial_ship_action/camera_turn;Move camera;Move camera;same;;;;;;;;;;
 missions/tutorial_ship_action/objective;"Head to one of the points
 ╸ ╹ ╺";"Head to one of the points
 ╸ ╹ ╺";same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/binocular;Binocular {{ID_TOGGLE_VIEW_SHIP}};Binocular;trim;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/aim_target;"Aim target
-{{ID_LOCK_TARGET}}";Aim target;trim;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/binocular;Binocular;Binocular;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/aim_target;Aim target;Aim target;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/aim;Take aim;Take aim;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/fire;"Open fire
-{{ID_SHIP_WEAPON_ALL}}";Open fire;trim;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/fire;Open fire;Open fire;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/weak_point;Aim for weak points;Aim for weak points;same;;;;;;;;;;;;;;;;;;;
 hints/not_in_burav_ctrl_radius;You must be in the zone marked with the white circle on the map to control the Burav;You must be in the zone marked with the white circle on the map to control the Burav;same;;;;;;;;;;;;;;;;;;;
 hints/burav_ctrl_by_other_player;The other player controls Burav because they are closer to it;The other player controls Burav because they are closer to it;same;;;;;;;;;;;;;;;;;;;
