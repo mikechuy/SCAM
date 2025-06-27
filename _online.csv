@@ -313,4 +313,4 @@ priceText/jpy;{price} DP;{price} DP;same;;;;;;;;;;;;;;;;;;;;
 priceText/dp;{price} DP;{price} DP;same;;;;;;;;;;;;;;;;;;;;
 url/workshop/controls;https://live.warthunder.com/feed/controlss/?lang=en;https://live.warthunder.com/feed/controlss/?lang=en;same;;;;;;;;;;;;;;;;;;;;
 url/steamBindingEmailInfoUrl;https://support.gaijin.net/hc/en-us/articles/209617049-Binding-a-Steam-account-to-your-e-mail-address;https://support.gaijin.net/hc/en-us/articles/209617049-Binding-a-Steam-account-to-your-e-mail-address;same;;;;;;;;;;;;;;;;;;;;
-eula_version;12;12;same;;;;;;;;;;;;;;;;;;;;
+eula_version;12;13;nice;;;;;;;;;;;;;;;;;;;;
