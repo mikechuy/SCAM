@@ -1358,7 +1358,7 @@ hotkeys/ID_TOGGLE_COCKPIT_LIGHTS;Cockpit lighting;Cockpit lighting;same;;;;;;;;;
 hotkeys/ID_CAMERA_DRIVER;Driver camera;Driver camera;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_CAMERA_BINOCULARS;Binoculars;Binoculars;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_ZOOM_HOLD_GM;Zoom Camera;Zoom Camera;same;;;;;;;;;;;;;;;;;;;;
-hotkeys/ID_TOGGLE_AA_COMPLEX_MENU;Anti-aircraft system menu;Radar control screen;trim;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_TOGGLE_AA_COMPLEX_MENU;Anti-aircraft control screen;Radar control screen;trim;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TANK_POWERTRAIN_HEADER;Mobility;Mobility;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_ENABLE_GM_DIRECTION_DRIVING;Driver assistance mode;Driver assistance mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_ENABLE_GM_HULL_AIMING;Hull aiming mode;Hull aiming mode;same;;;;;;;;;;;;;;;;;;;;

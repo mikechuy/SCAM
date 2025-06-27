@@ -13432,7 +13432,7 @@ uk_hdml_ml1383_0;Harbour Defence Motor Launch, ML 1383;HDML, ML 1383;港�
 uk_hdml_ml1383_1;ML 1383;ML 1383;ML 1383;same;;;;;;;;;;;;;;;;;;;
 uk_hdml_ml1383_2;ML 1383;Motor gun boat;机动炮艇;-7;;;;;;;;;;;;;;;;;;;
 ussr_battlecruiser_kronshtadt_shop;Kronshtadt;Kronshtadt;喀琅施塔得;same;;;;;;;;;;;;;;;;;;;
-ussr_battlecruiser_kronshtadt_0;Project 69, Kronshtadt, 1944P;Project 69, Kronshtadt, project;69 型 (喀琅施塔得级) 重巡洋舰“喀琅施塔得”号;-2;;;;;;;;;;;;;;;;;;;
+ussr_battlecruiser_kronshtadt_0;Project 69, Kronshtadt, 1944F;Project 69, Kronshtadt, project;69 型 (喀琅施塔得级) 重巡洋舰“喀琅施塔得”号;-2;;;;;;;;;;;;;;;;;;;
 ussr_battlecruiser_kronshtadt_1;Kronshtadt;Kronshtadt;喀琅施塔得;same;;;;;;;;;;;;;;;;;;;
 ussr_battlecruiser_kronshtadt_2;Kronshtadt;Battlecruiser;战列巡洋舰;-3;;;;;;;;;;;;;;;;;;;
 it_destroyer_fletcher_geniere_shop;Geniere;Geniere;工兵;same;;;;;;;;;;;;;;;;;;;
@@ -13440,7 +13440,7 @@ it_destroyer_fletcher_geniere_0;Fante-classe, Geniere (D 555), 1972;Fante-cl
 it_destroyer_fletcher_geniere_1;Geniere (Fletcher␌);Geniere;工兵;12;;;;;;;;;;;;;;;;;;;
 it_destroyer_fletcher_geniere_2;Geniere␌;Destroyer;驱逐舰;-1;;;;;;;;;;;;;;;;;;;
 jp_destroyer_ayanami_shop;Ayanami (DD-103);JDS Ayanami (DD-103);绫波 (DD-103);-4;;;;;;;;;;;;;;;;;;;
-jp_destroyer_ayanami_0;Ayanami-class, Ayanami (DD-103);Ayanami-class, JDS Ayanami (DD-103);绫波型护卫舰“绫波”号 (DD-103);-4;;;;;;;;;;;;;;;;;;;
+jp_destroyer_ayanami_0;Ayanami-class, Ayanami (DD-103), 1961;Ayanami-class, JDS Ayanami (DD-103);绫波型护卫舰“绫波”号 (DD-103);2;;;;;;;;;;;;;;;;;;;
 jp_destroyer_ayanami_1;Ayanami (␌);JDS Ayanami;绫波 (DD-103);0;;;;;;;;;;;;;;;;;;;
 jp_destroyer_ayanami_2;Ayanami␌;Destroyer;驱逐舰;-1;;;;;;;;;;;;;;;;;;;
 us_ashville_class_douglas_shop;USS Douglas;USS Douglas;道格拉斯;same;;;;;;;;;;;;;;;;;;;
@@ -14203,7 +14203,7 @@ fr_arras_class_amiens_0;Arras-classe, Amiens;Arras-class, Amiens;阿拉斯级�
 fr_arras_class_amiens_1;Amiens;Amiens;亚眠;same;;;;;;;;;;;;;;;;;;;
 fr_arras_class_amiens_2;Amiens;Corvette;轻型护卫舰;-2;;;;;;;;;;;;;;;;;;;
 ussr_battleship_pr23_sovetskij_soyuz_shop;Sovetsky Soyuz;Sovetsky Soyuz;苏维埃联盟;same;;;;;;;;;;;;;;;;;;;
-ussr_battleship_pr23_sovetskij_soyuz_0;Project 23, Sovetsky Soyuz, 1946P;Project 23, Sovetsky Soyuz, project;23 型 (苏联级) 战列舰“苏维埃联盟”号 (计划状态);-2;;;;;;;;;;;;;;;;;;;
+ussr_battleship_pr23_sovetskij_soyuz_0;Project 23, Sovetsky Soyuz, 1946F;Project 23, Sovetsky Soyuz, project;23 型 (苏联级) 战列舰“苏维埃联盟”号 (计划状态);-2;;;;;;;;;;;;;;;;;;;
 ussr_battleship_pr23_sovetskij_soyuz_1;Sovetsky Soyuz;Sovetsky Soyuz;苏维埃联盟;same;;;;;;;;;;;;;;;;;;;
 ussr_battleship_pr23_sovetskij_soyuz_2;Sovetsky Soyuz;Battleship;战列舰;4;;;;;;;;;;;;;;;;;;;
 ussr_battlecruiser_sevastopol_shop;Sevastopol;Sevastopol;塞瓦斯托波尔;same;;;;;;;;;;;;;;;;;;;
