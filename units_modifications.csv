@@ -1468,7 +1468,7 @@ modification/me-410_pylon_mod/desc;Allows installing bombs up to 500 kg.;Allows 
 20mm_ger_kwk30_AP/name;20 mm PzGr.;20 mm PzGr.;same;;;;;;;;;;;;;;;;;;;
 20mm_ger_kwk30_APCR/name;20 mm PzGr.40;20 mm PzGr.40;same;;;;;;;;;;;;;;;;;;;
 20mm_ussr_TNSh_HE/name;20 mm OZT;20 mm FI-T;nice;;;;;;;;;;;;;;;;;;;
-20mm_ussr_TNSh_AP/name;20mm API;20 mm API;nice;;;;;;;;;;;;;;;;;;;
+20mm_ussr_TNSh_AP/name;20 mm API;20 mm API;same;;;;;;;;;;;;;;;;;;;
 20mm_ussr_TNSh_APCR/name;20 mm API HV;20 mm API HV;same;;;;;;;;;;;;;;;;;;;
 37mm_ger_flak36_HE/name;37 mm Sprgr.;37 mm Sprgr.;same;;;;;;;;;;;;;;;;;;;
 37mm_ger_flak36_AP/name;37 mm PzGr.;37 mm PzGr.;same;;;;;;;;;;;;;;;;;;;
