@@ -2450,7 +2450,7 @@ armor_class/optics_tank;Optic (0.4);Optics;trim;;;;;;;;;;;;;;;;;;;
 armor_class/car_wheels;Wheel (0.3);Chassis;trim;;;;;;;;;;;;;;;;;;;
 armor_class/tank_barrel;Gun steel (1.1);Gun steel;trim;;;;;;;;;;;;;;;;;;;
 armor_class/ship_wood;Ship wood (0.08);Wood;trim;;;;;;;;;;;;;;;;;;;
-armor_class/sand;Sand;Sand;same;;;;;;;;;;;;;;;;;;;
+armor_class/sand;Sand (0.35);Sand;trim;;;;;;;;;;;;;;;;;;;
 armor_class/concrete;Concrete (0.35);Concrete;trim;;;;;;;;;;;;;;;;;;;
 armor_class/us_era_m_60;BS G2 ERA (0.1 KE);ERA;trim;;;;;;;;;;;;;;;;;;;
 armor_class/ERA_ARAT;ARAT ERA (0.1 KE);ARAT ERA;trim;;;;;;;;;;;;;;;;;;;
@@ -5385,7 +5385,7 @@ profile/unlockConditions/allowActionText;You can instantly complete a task witho
 profile/unlockConditions/goToTheTask;Click to go to the task.;Click to go to the task.;same;;;;;;;;;;;;;;;;;;;
 profile/achievements/totalReceived;Achievements and challenges completed: {count};Achievements and challenges completed: {count};same;;;;;;;;;;;;;;;;;;;
 profile/medals/totalReceived;Medals received: {count};Medals unlocked: {count};nice;;;;;;;;;;;;;;;;;;;
-profile/skins/totalReceived;Camouflage unlocked: {count};Camouflage unlocked: {count};same;;;;;;;;;;;;;;;;;;;
+profile/skins/totalReceived;Camouflage unlocked: {count};Camouflages unlocked: {count};nice;;;;;;;;;;;;;;;;;;;
 profile/decals/totalReceived;Decals unlocked: {count};Decals unlocked: {count};same;;;;;;;;;;;;;;;;;;;
 profile/collections/totalReceived;Collections completed: {count};Collections completed: {count};same;;;;;;;;;;;;;;;;;;;
 profile/skins/filterStrong;No camouflages that match the selected filters;No camouflages that match the selected filters;same;;;;;;;;;;;;;;;;;;;
@@ -5396,6 +5396,6 @@ profile/decals/filterStrong;No decals that match the selected filters;No decals 
 profile/collections/filterStrong;No collections that match the selected filters;No collections that match the selected filters;same;;;;;;;;;;;;;;;;;;;
 profile/achievements/filterStrong;No achievements that match the selected filters;No achievements that match the selected filters;same;;;;;;;;;;;;;;;;;;;
 tooltip/weaponSelector;Weapon Selector;Weapon Selector;same;;;;;;;;;;;;;;;;;;;
-tooltip/flaresChaffsRatioReq;Required modification to select the Flares/Chaff ratio:;Required modification to select the Flares/Chaff ratio:;same;;;;;;;;;;;;;;;;;;;
-tooltip/bulletTapesReq;Required modification to select belt:;Required modification to select belt:;same;;;;;;;;;;;;;;;;;;;
-tooltip/needBuyMasterUnit;Auxiliary vehicle will be available after purchasing the main vehicle:;Auxiliary vehicle will be available after purchasing the main vehicle:;same;;;;;;;;;;;;;;;;;;;
+tooltip/flaresChaffsRatioReq;Required modification to select the Flares/Chaff ratio:;Modification required for selecting the Flares/Chaff ratio:;nice;;;;;;;;;;;;;;;;;;;
+tooltip/bulletTapesReq;Required modification to select belt:;Modification required for selecting belts:;nice;;;;;;;;;;;;;;;;;;;
+tooltip/needBuyMasterUnit;Auxiliary vehicle will be available after purchasing the main vehicle:;The auxiliary vehicle will be available after purchasing the main vehicle:;nice;;;;;;;;;;;;;;;;;;;
