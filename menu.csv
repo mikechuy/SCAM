@@ -5385,7 +5385,7 @@ profile/unlockConditions/allowActionText;You can instantly complete a task witho
 profile/unlockConditions/goToTheTask;Click to go to the task.;Click to go to the task.;same;;;;;;;;;;;;;;;;;;;
 profile/achievements/totalReceived;Achievements and challenges completed: {count};Achievements and challenges completed: {count};same;;;;;;;;;;;;;;;;;;;
 profile/medals/totalReceived;Medals received: {count};Medals unlocked: {count};nice;;;;;;;;;;;;;;;;;;;
-profile/skins/totalReceived;Camouflage unlocked: {count};Camouflages unlocked: {count};nice;;;;;;;;;;;;;;;;;;;
+profile/skins/totalReceived;Camouflages unlocked: {count};Camouflages unlocked: {count};same;;;;;;;;;;;;;;;;;;;
 profile/decals/totalReceived;Decals unlocked: {count};Decals unlocked: {count};same;;;;;;;;;;;;;;;;;;;
 profile/collections/totalReceived;Collections completed: {count};Collections completed: {count};same;;;;;;;;;;;;;;;;;;;
 profile/skins/filterStrong;No camouflages that match the selected filters;No camouflages that match the selected filters;same;;;;;;;;;;;;;;;;;;;
@@ -5399,3 +5399,5 @@ tooltip/weaponSelector;Weapon Selector;Weapon Selector;same;;;;;;;;;;;;;;;;;;;
 tooltip/flaresChaffsRatioReq;Required modification to select the Flares/Chaff ratio:;Modification required for selecting the Flares/Chaff ratio:;nice;;;;;;;;;;;;;;;;;;;
 tooltip/bulletTapesReq;Required modification to select belt:;Modification required for selecting belts:;nice;;;;;;;;;;;;;;;;;;;
 tooltip/needBuyMasterUnit;Auxiliary vehicle will be available after purchasing the main vehicle:;The auxiliary vehicle will be available after purchasing the main vehicle:;nice;;;;;;;;;;;;;;;;;;;
+tooltip/pinWeaponSelector;Pin selector;Pin selector;same;;;;;;;;;;;;;;;;;;;
+tooltip/unpinWeaponSelector;Unpin selector;Unpin selector;same;;;;;;;;;;;;;;;;;;;
