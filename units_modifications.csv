@@ -737,7 +737,7 @@ modification/do217_250-500kg_pylon/desc;Allows installing 500 kg bombs.;Allows t
 modification/do217_2x1000kg_pylon;ITC PVC II;ITC PVC II;same;;;;;;;;;;;;;;;;;;;
 modification/do217_2x1000kg_pylon/desc;Allows installing 2 x 1000 kg bombs.;Allows the installation of 2 x 1000 kg bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/b-25_sbc;SBC-25;SBC-25;same;;;;;;;;;;;;;;;;;;;
-modification/b-25_sbc/desc;Allows installing additional bombs up to 250 lbs.;Allows the installation of additional bombs up to 250 lbs.;nice;;;;;;;;;;;;;;;;;;;
+modification/b-25_sbc/desc;Allows installing additional bombs up to 250 lb.;Allows the installation of additional bombs up to 250 lbs.;nice;;;;;;;;;;;;;;;;;;;
 modification/b-25_mbc;MBC-25;MBC-25;same;;;;;;;;;;;;;;;;;;;
 modification/b-25_mbc/desc;Allows installing 500 lb bombs.;Allows the installation of 500 lb bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/b-25_lbc;LBC-25;LBC-25;same;;;;;;;;;;;;;;;;;;;
@@ -1636,7 +1636,7 @@ modification/bd-4_3000/desc;Allows installing 3000 kg bomb.;Allows the installat
 modification/EEMBC_mark_1;EEMBC No.2 Mark 1;EEMBC No.2 Mark 1;same;;;;;;;;;;;;;;;;;;;
 modification/EEMBC_mark_1/desc;Allows installing 1000 lb bombs.;Allows the installation of 1000 lb bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/EELBC_mark_4;EELBC No.2 Mark 4;EELBC No.2 Mark 4;same;;;;;;;;;;;;;;;;;;;
-modification/EELBC_mark_4/desc;Allows installing bombs in excess of 1000 lbs.;Allows the installation of bombs in excess of 1000 lbs.;nice;;;;;;;;;;;;;;;;;;;
+modification/EELBC_mark_4/desc;Allows installing bombs in excess of 1000 lb.;Allows the installation of bombs in excess of 1000 lbs.;nice;;;;;;;;;;;;;;;;;;;
 modification/nr23_turret_apit;23 mm cannon ammunition belt for armored targets;23 mm cannon ammunition belt for armored targets;same;;;;;;;;;;;;;;;;;;;
 modification/nr23_turret_apit/short;AP;AP;same;;;;;;;;;;;;;;;;;;;
 modification/nr23_turret_heit;23 mm cannon ammunition belt for air targets;23 mm cannon ammunition belt for air targets;same;;;;;;;;;;;;;;;;;;;
@@ -2764,11 +2764,11 @@ modification/fab_500m_54/desc;Allows installing 500 kg bombs.;Allows the install
 modification/fab_500m_54;FAB-500M-54;FAB-500M-54;same;;;;;;;;;;;;;;;;;;;
 modification/mi_24_fab_250/desc;Allows installing 250 kg bombs.;Allows the installation of 250 kg bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/mi_24_fab_250;FAB-250;FAB-250;same;;;;;;;;;;;;;;;;;;;
-modification/su_fab_250_us_mk82/desc;Allows installing 250 kg and 500 lbs bombs.;Allows the installation of 250 kg and 500 lb bombs.;nice;;;;;;;;;;;;;;;;;;;
+modification/su_fab_250_us_mk82/desc;Allows installing 250 kg and 500 lb bombs.;Allows the installation of 250 kg and 500 lb bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/su_fab_250_us_mk82;FAB-250/Mk82;FAB-250/Mk82;same;;;;;;;;;;;;;;;;;;;
 modification/mi_24_fab_500/desc;Allows installing 500 kg bombs.;Allows the installation of 500 kg bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/mi_24_fab_500;FAB-500;FAB-500;same;;;;;;;;;;;;;;;;;;;
-modification/su_fab_500_us_mk83/desc;Allows installing 500 kg and 1000 lbs bombs.;Allows the installation of 500 kg and 1000 lb bombs.;nice;;;;;;;;;;;;;;;;;;;
+modification/su_fab_500_us_mk83/desc;Allows installing 500 kg and 1000 lb bombs.;Allows the installation of 500 kg and 1000 lb bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/su_fab_500_us_mk83;FAB-500/Mk83;FAB-500/Mk83;same;;;;;;;;;;;;;;;;;;;
 modification/mi_4_fab_100/desc;Allows installing 100 kg bombs.;Allows the installation of 100 kg bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/mi_4_fab_100;FAB-100;FAB-100;same;;;;;;;;;;;;;;;;;;;
