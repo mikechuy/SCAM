@@ -3347,6 +3347,10 @@ weapons/90mm_90_53_mod41_user_cannon;90 mm Ansaldo L/53 Mod.41 cannon;90 mm 90/5
 90mm_gr_ca;Gr. Mod.36R;Granata Esplosiva mod.36R;nice;;;;;;;;;;;;;;;;;;;;
 weapons/106mm_106_SR_user_cannon;105 mm M40A1 recoilless rifle;106 mm Recoilless Rifle Cannone da 106 s.r.M40A1;nice;;;;;;;;;;;;;;;;;;;;
 weapons/106mm_M40A1_LGS_user_cannon;105 mm M40A1 recoilless rifle;106 mm Recoilless Rifle M40A1;nice;;;;;;;;;;;;;;;;;;;;
+weapons/105mm_type_75_user_cannon;105 mm Type 75 recoilless rifle;105 mm Recoilless Rifle Type 75;nice;;;;;;;;;;;;;;;;;;;;
+105mm_type_75_heat;Type 75 HEAT;Type 75 HEAT;same;;;;;;;;;;;;;;;;;;;;
+105mm_type_75_hesh;Type 75 HESH;Type 75 HESH;same;;;;;;;;;;;;;;;;;;;;
+weapons/12_7mm_type_77_user_machinegun;12.7 mm Type 77 machine gun;12.7 mm Type 77 machine gun;same;;;;;;;;;;;;;;;;;;;;
 weapons/20mm_MK_20_1_user_cannon;20 mm MK 20-1;20 mm MK20-1 cannon;nice;;;;;;;;;;;;;;;;;;;;
 weapons/90mm_Cockerill_Mk_3_user_cannon;90 mm Cockerill Mk.3 cannon;90 mm Cockerill Mk.3 cannon;same;;;;;;;;;;;;;;;;;;;;
 90mm_m625a1;M625A1;M625A1;same;;;;;;;;;;;;;;;;;;;;
