@@ -4823,7 +4823,7 @@ weapons/57mm_Bofors_L70_Mk_1_user_cannon;57 mm Bofors L/70 Mk.1 cannon;57 mm Bof
 57_438mm_ap;57 mm AP-T;57х438 AP-T;nice;;;;;;;;;;;;;;;;;;;;
 57_438mm_he;57 mm HE-T;57х438 HE-T;nice;;;;;;;;;;;;;;;;;;;;
 57_438mm_he_vt;57 mm HE-VT;57х438 HE-VT;nice;;;;;;;;;;;;;;;;;;;;
-57_438mm_sap;57 mm SAP-T;57х438 SAP-T;nice;;;;;;;;;;;;;;;;;;;;
+57_438mm_sap;57 mm SAP-T;57х438 SAP;trim;;;;;;;;;;;;;;;;;;;;
 apds_fs_long_tank/name;Armor-piercing fin-stabilized discarding sabot (L20/30 DU);Armor-Piercing Fin-Stabilized Discarding Sabot shot;trim;;;;;;;;;;;;;;;;;;;;
 apds_fs_long_tank/name/short;APFSDS;APFSDS;same;;;;;;;;;;;;;;;;;;;;
 apds_fs_tungsten_caliber_fins_tank/name;Armor-piercing fin-stabilized discarding sabot (L15/20 WA);Armor-Piercing Fin-Stabilized Discarding Sabot shot;trim;;;;;;;;;;;;;;;;;;;;

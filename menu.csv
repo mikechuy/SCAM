@@ -3125,6 +3125,9 @@ msgBox/craftProcess/cant/fake;This is an incorrect recipe.;This is an incorrect 
 content/tag/historical;Historical;Historical;same;;;;;;;;;;;;;;;;;;;
 content/tag/semihistorical;Semihistorical;Semihistorical;same;;;;;;;;;;;;;;;;;;;
 content/tag/fictional;Fictional;Fictional;same;;;;;;;;;;;;;;;;;;;
+content/tag/historical/disclaimer;Historical – uses a real or previously existing camouflage applied to a similar vehicle or platform. Camouflages of this type are visible to all players regardless of custom content display settings.;Historical – uses a real or previously existing camouflage applied to a similar vehicle or platform. Camouflages of this type are visible to all players regardless of custom content display settings.;same;;;;;;;;;;;;;;;;;;;
+content/tag/semihistorical/disclaimer;Semi-historical – based on a real camouflage pattern, but some details or the vehicle it is applied to may differ from the original. Camouflages of this type are visible to all players regardless of custom content display settings.;Semi-historical – based on a real camouflage pattern, but some details or the vehicle it is applied to may differ from the original. Camouflages of this type are visible to all players regardless of custom content display settings.;same;;;;;;;;;;;;;;;;;;;
+content/tag/fictional/disclaimer;Fictional – a product of the author's imagination and may not have a real-world prototype. Camouflages of this type may be hidden from view by other players in the game settings.;Fictional – a product of the author's imagination and may not have a real-world prototype. Camouflages of this type may be hidden from view by other players in the game settings.;same;;;;;;;;;;;;;;;;;;;
 content/tag/except_fictional;Except fictional;Except fictional;same;;;;;;;;;;;;;;;;;;;
 content/tag/any;Any;Any;same;;;;;;;;;;;;;;;;;;;
 content/tag/thunderleague;Thunder League;Thunder League;same;;;;;;;;;;;;;;;;;;;
@@ -4933,6 +4936,7 @@ msgbox/confirmDelayedDownload;Confirm;Confirm;same;;;;;;;;;;;;;;;;;;;
 msgbox/delayedDownloadContent;The mode of loading additional content only in the hangar is enabled. The mode has been enabled due to poor network quality or insufficient download speed. You can turn it off in settings;The mode of loading additional content only in the hangar is enabled. The mode has been enabled due to poor network quality or insufficient download speed. You can turn it off in settings;same;;;;;;;;;;;;;;;;;;;
 weaponry/select_on_buy/tooltip;Will be set automatically upon purchase;Will be set automatically upon purchase;same;;;;;;;;;;;;;;;;;;;
 msgbox/steam/rate_review;;We hope you’re enjoying War Thunder! If you have time, would you like to share your opinions about the game or read reviews from fellow players? Your review can help us improve and make War Thunder better, and help other players discover the game.;nice;;;;;;;;;;;;;;;;;;;
+msgbox/steam/rate_review_short;Tell other players how to take a screenshot!;Tell other players why you like War Thunder!;nice;;;;;;;;;;;;;;;;;;;
 msgbox/goToSteam;Go to Steam;Go to Steam;same;;;;;;;;;;;;;;;;;;;
 msgbox/countryConfirmation;"Random rewards functionality may be limited due to legal restrictions imposed in some countries.
 Please confirm if you are from {country}.";"Random rewards functionality may be limited due to legal restrictions imposed in some countries.
