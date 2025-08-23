@@ -4694,9 +4694,9 @@ mainmenu/fulfilledChallenges;Fulfilled challenges;Fulfilled challenges;same;;;;;
 mainmenu/pageNumOfPages;Page {num} of {total};Page {num} of {total};same;;;;;;;;;;;;;;;;;;;
 mainmenu/btnMoreOptions;More...;More...;same;;;;;;;;;;;;;;;;;;;
 mainmenu/objectiveAvailable;Objective available;Objective available;same;;;;;;;;;;;;;;;;;;;
-mainmenu/objectiveNameAvailable;"Objective available: {unlockName}
-Click on this label to go to the task";"Objective available: {unlockName}
-Click on this label to go to the task";same;;;;;;;;;;;;;;;;;;;
+mainmenu/objectiveNameAvailable;;"Objective available: {unlockName}
+Click on this label to go to the task";nice;;;;;;;;;;;;;;;;;;;
+mainmenu/clickOnLabel;;Click on this label to learn more;nice;;;;;;;;;;;;;;;;;;;
 mainmenu/newObjectiveAvailable;New objective available;New objective available;same;;;;;;;;;;;;;;;;;;;
 mainmenu/acceptObjective;Accept Objective;Accept Objective;same;;;;;;;;;;;;;;;;;;;
 mainmenu/regionalUnlockActivationError;Failed to accept objective. Please try again later.;Failed to accept objective. Please try again later.;same;;;;;;;;;;;;;;;;;;;
@@ -5084,6 +5084,7 @@ help/show_extended_hints;An expanded description of the modules allows you to un
 help/battlepas;Battle Ass indicator (red = active). Purchase a Battle Ass to receive valuable prizes for completing in-game tasks and challenges.;Battle Pass indicator (red = active). Purchase a Battle Pass to receive valuable prizes for completing in-game tasks and challenges.;nice;;;;;;;;;;;;;;;;;;;
 help/free_exp;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;Convertible research points are spent for accelerated research of vehicles for Golden Eagles.;same;;;;;;;;;;;;;;;;;;;
 write_review;Leave feedback;Leave feedback;same;;;;;;;;;;;;;;;;;;;
+btn_share_impressions;Share your impressions;Share your impressions;same;;;;;;;;;;;;;;;;;;;
 help/community_btn;Leaderboards, squadrons and other social activities.;Leaderboards, squadrons and other social activities.;same;;;;;;;;;;;;;;;;;;;
 help/topmenu_pvp_btn;Additional game modes and special missions (training, benchmark).;Additional game modes and special missions (training, benchmark).;same;;;;;;;;;;;;;;;;;;;
 help/topmenu_menu_btn;Game and control settings.;Game and control settings.;same;;;;;;;;;;;;;;;;;;;
@@ -5364,6 +5365,7 @@ frame_thunder_cup_2025/name;Thunder Cup 2025;Thunder Cup 2025;same;;;;;;;;;;;;;;
 frame_goalpost/name;Tank Football — Goalkeeper;Tank Football — Goalkeeper;same;;;;;;;;;;;;;;;;;;;
 frame_titan/name;Fresh Paint;Fresh Paint;same;;;;;;;;;;;;;;;;;;;
 frame_armored_apex/name;Green Knight;Green Knight;same;;;;;;;;;;;;;;;;;;;
+frame_top_secret/name;TOP SECRET;TOP SECRET;same;;;;;;;;;;;;;;;;;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;;;;;;;;;;;;;;;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;;;;;;;;;;;;;;;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;;;;;;;;;;;;;;;;;
