@@ -3640,7 +3640,7 @@ weapons/cannonM61;20 mm M61 cannon;20 mm M61 cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/cannonM61/short;M61;M61;same;;;;;;;;;;;;;;;;;;;;
 weapons/cannonM61A1;20 mm M61A1 cannon;20 mm M61A1 cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/cannonM61A1/short;M61A1;M61A1;same;;;;;;;;;;;;;;;;;;;;
-weapons/cannonM61A1_low_rpm;20 mm M61A1 cannon;20 mm M61A1 cannon;same;;;;;;;;;;;;;;;;;;;;
+weapons/cannonM61A1_low_rpm;20 mm M61A1 cannon (1972);20 mm M61A1 cannon;trim;;;;;;;;;;;;;;;;;;;;
 weapons/cannonM61A1_low_rpm/short;M61A1;M61A1;same;;;;;;;;;;;;;;;;;;;;
 weapons/cannonM61A2;20 mm M61A2 cannon;20 mm M61A2 cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/cannonM61A2/short;M61A2;M61A2;same;;;;;;;;;;;;;;;;;;;;

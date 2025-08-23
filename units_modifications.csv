@@ -1046,7 +1046,7 @@ modification/us_500lb_mk82_ls_6_250/desc;Allows installing 250 kg or LS-6 250 gu
 modification/us_500lb_mk82_ls_6_250;Mk82/LS-6 250;Mk82/LS-6 250;same;;;;;;;;;;;;;;;;;;;
 modification/us_1000lb_mk83_ls_6_500/desc;Allows installing 1000 lb or LS-6 500 guided bombs.;Allows the installation of 1000 lb bombs and LS-6 500 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_1000lb_mk83_ls_6_500;Mk83/LS-6 500;Mk83/LS-6 500;same;;;;;;;;;;;;;;;;;;;
-modification/us_1000lb_mk83_gbu31_jdam/desc;Allows installing up to 2000 lb or GBU-31 / 62 JDAM guided bombs.;Allows the installation of bombs up to 2000 lb and GBU-31/62 JDAM guided bombs.;nice;;;;;;;;;;;;;;;;;;;
+modification/us_1000lb_mk83_gbu31_jdam/desc;Allows installing up to 2000 lb or GBU-31/62 JDAM guided bombs.;Allows the installation of bombs up to 2000 lb and GBU-31/62 JDAM guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_1000lb_mk83_gbu31_jdam;Mk83/GBU-31/64;Mk83/GBU-31/64;same;;;;;;;;;;;;;;;;;;;
 modification/us_1000lb_mk83_us_2000lb_mk84/desc;Allows installing 1000 or 2000 lb bombs.;Allows the installation of 1000 lb and 2000 lb bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_1000lb_mk83_us_2000lb_mk84;Mk83/Mk84;Mk83/Mk84;same;;;;;;;;;;;;;;;;;;;
