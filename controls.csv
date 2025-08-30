@@ -1366,6 +1366,7 @@ hotkeys/ID_TOGGLE_TRANSMISSION_MODE_GM;Transmission mode;Transmission mode;same;
 hotkeys/ID_RANGEFINDER;Rangefinder;Rangefinder;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_TOGGLE_GUNNERS;Toggle gunners;Toggle gunners;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SCOUT;Active scouting;Active scouting;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SCOUT_UAV;Active scouting from UAV;Active scouting from UAV;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SHORT_BRAKE;Short brake;Short brake;same;;;;;;;;;;;;;;;;;;;;
 controls/holdThrottleForFlankSpeed;Hold ahead for Flank speed;Hold ahead for Flank speed;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/msg/holdThrottleForFlankSpeed;Hold ahead for Flank speed?;Hold ahead for Flank speed?;same;;;;;;;;;;;;;;;;;;;;

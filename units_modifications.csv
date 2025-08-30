@@ -2597,6 +2597,7 @@ modification/extinguisherReductionTime_change;%s to fire extinguishing time;%s t
 modification/extinguisherActivationAdditionalCount_change;{valueColored} {value=additional use in battle/additional uses in battle};{valueColored} {value=additional use in battle/additional uses in battle};same;;;;;;;;;;;;;;;;;;;
 modification/medicalkitAdditionalCount_change;{valueColored} {value=additional use in battle/additional uses in battle};{valueColored} {value=additional use in battle/additional uses in battle};same;;;;;;;;;;;;;;;;;;;
 modification/ship_acoustic_countermeasure_system_mod;Countermeasure;Countermeasure;same;;;;;;;;;;;;;;;;;;;
+modification/score_multiprier_with_uav;When your reconnaissance UAV is in the air, SP decrease {scoreMulWithUav} {scoreMulWithUav=time/times} slower;When your reconnaissance UAV is in the air, SP decrease {scoreMulWithUav} {scoreMulWithUav=time/times} slower;same;;;;;;;;;;;;;;;;;;;
 15mm_ger_ap_navy/name;15 mm API-T;15 mm API-T;same;;;;;;;;;;;;;;;;;;;
 15mm_ger_he_navy/name;15 mm HEI-T;15 mm HEI-T;same;;;;;;;;;;;;;;;;;;;
 12mm_usa_M2HB_APIT_navy/name;.50 API-T;.50 API-T;same;;;;;;;;;;;;;;;;;;;
@@ -3624,6 +3625,8 @@ modification/381mm_uk_bl_mk1_6crh_22b_navy_apc_ammo_pack;15-inch 6crh Mark XXIIb
 modification/380mm_germ_skl_45_base_fuse_navy_he;380-mm Spr.gr. L/4,1 Bdz.;380-mm Spr.gr. L/4,1 Bdz.;same;;;;;;;;;;;;;;;;;;;
 modification/380mm_germ_skl_45_navy_apcbc;380-mm Psgr. L/3,5 APCBC;380-mm Psgr. L/3,5 APCBC;same;;;;;;;;;;;;;;;;;;;
 modification/380mm_germ_skl_45_navy_apcbc_ammo_pack;380-mm Psgr. L/3,5 APCBC;380-mm Psgr. L/3,5 APCBC;same;;;;;;;;;;;;;;;;;;;
+modification/350mm_germ_skl_45_navy_apcbc;350-mm Psgr. L/3,6 APCBC;350-mm Psgr. L/3,6 APCBC;same;;;;;;;;;;;;;;;;;;;
+modification/350mm_germ_skl_45_navy_apcbc_ammo_pack;350-mm Psgr. L/3,6 APCBC;350-mm Psgr. L/3,6 APCBC;same;;;;;;;;;;;;;;;;;;;
 modification/305mm_ussr_54_b_50_navy_ap;305-mm APCBC;305-mm APCBC;same;;;;;;;;;;;;;;;;;;;
 modification/305mm_ussr_54_b_50_navy_ap_ammo_pack;305-mm APCBC;305-mm APCBC;same;;;;;;;;;;;;;;;;;;;
 engine_model/tf30_p_412a;TF30-P-412A;TF30-P-412A;same;;;;;;;;;;;;;;;;;;;

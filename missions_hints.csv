@@ -1745,15 +1745,15 @@ missions/tutorial_ship_action/full_forward;Full forward;Full forward;same;;;;;;;
 missions/tutorial_ship_action/full_back;Full astern;Full astern;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/stop;Stop;Stop;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/steering;Steering;Steering;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/turn;Turn weapons;Turn weapons;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/camera_turn;Move camera;Move camera;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/turn;Turn weapons;Guide weapons;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/camera_turn;Move camera;Free camera look;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/objective;"Head to one of the points
 ╸ ╹ ╺";"Head to one of the points
 ╸ ╹ ╺";same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/binocular;Binoculars;Binoculars;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/aim_target;Aim on target;Take the target;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/aim_target;Aim on target;Lock the target;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/aim;Take aim;Take aim;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/fire;Open fire;Open fire;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/fire;Open fire;Fire;trim;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/weak_point;Aim for weak points;Aim for the weak points;nice;;;;;;;;;;;;;;;;;;;
 hints/not_in_burav_ctrl_radius;You must be in the zone marked with the white circle on the map to control the Burav;You must be in the zone marked with the white circle on the map to control the Burav;same;;;;;;;;;;;;;;;;;;;
 hints/burav_ctrl_by_other_player;The other player controls Burav because they are closer to it;The other player controls Burav because they are closer to it;same;;;;;;;;;;;;;;;;;;;
@@ -1932,7 +1932,7 @@ These bombs use a designated marker on the surface for targeting before being dr
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/zoom;To better identify the target's location, use the camera zoom {shortcut};To better identify the target's location, use the camera zoom {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/map_activate;Open the map {shortcut} and mark the target;Open the map {shortcut} and mark the target;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_guided_bombs_gnss/map_exit;After marking the target, press {shortcut} to continue;After marking the target, press {shortcut} to continue;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/map_deactivate;If the marker is placed correctly, press {shortcut} to close the map and continue;If the marker is placed correctly, press {shortcut} to close the map and continue;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info1;If the marker is far from the target, it can be repositioned {shortcut};If the marker is far from the target, it can be repositioned {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info2;If the marker is correctly placed, use {shortcut} to release the bomb;If the marker is correctly placed, use {shortcut} to release the bomb;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/next_target;Mark the next target and press {shortcut} to drop the bomb;Mark the next target and press {shortcut} to drop the bomb;same;;;;;;;;;;;;;;;;;;;
@@ -1946,7 +1946,7 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/after_bomb2;"This makes it ineffective against moving targets
 Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment";"This makes it ineffective against moving targets
 Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/rocket_start;Press {shortcut} to launch missile;Press {shortcut} to launch missile;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/rocket_start;Press {shortcut} to launch missile;Press {shortcut} to launch the missile;nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activate;Press {shortcut} to activate the laser;Press {shortcut} to activate the laser;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/view_target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/view_target_after;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;same;;;;;;;;;;;;;;;;;;;
@@ -2102,8 +2102,8 @@ hints/tank_low_ammo_survivability_tft/info_msg;"The more ammo in the vehicle's a
 Press {shortcut} to continue";"The more ammo in the vehicle's ammunition stowages, the higher the chance that they will be damaged when someone hits the vehicle, leading to a fire or explosion
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front part of the hull
-Press {shortcut} to switch to sniper mode";"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front part of the hull
-Press {shortcut} to switch to sniper mode";same;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to switch to sniper mode";"The first tank has an ammo load. The ammunition is stored in the front part of the hull
+Press {shortcut} to switch to sniper mode";trim;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells
 It is more reliable to shoot at the lower frontal plate, behind which the ammunition rack is located on the enemy tank in this mission
 Aim at the highlighted part and press {shortcut} to fire";"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells

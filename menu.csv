@@ -686,6 +686,7 @@ exp_reasons/objective;Objective completed;Objective completed;same;;;;;;;;;;;;;;
 exp_reasons/battle_trophy;Battle trophies;Battle trophies;same;;;;;;;;;;;;;;;;;;;
 exp_reasons/repair;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
 exp_reasons/scout;Target scouted;Target scouted;same;;;;;;;;;;;;;;;;;;;
+exp_reasons/scout_uav;Target scouted (UAV in the air);Target scouted (UAV in the air);same;;;;;;;;;;;;;;;;;;;
 exp_reasons/scout_critical_hit;Marked target crit;Scouted target damaged;nice;;;;;;;;;;;;;;;;;;;
 exp_reasons/scout_kill;I spotted that (smart);Scouted target destroyed (by intelligence);nice;;;;;;;;;;;;;;;;;;;
 exp_reasons/scout_kill_unknown;Someone got it;Scouted target destroyed;nice;;;;;;;;;;;;;;;;;;;
@@ -5202,6 +5203,8 @@ userlog/finishing_type/other;Ally's target (the rest of the reward);Ally's targe
 userlog/finishing_type/converting;By another player (no reward);By another player (no reward);same;;;;;;;;;;;;;;;;;;;
 userlog/finishing_type/mission_end;Mission end (no reward);Mission end (no reward);same;;;;;;;;;;;;;;;;;;;
 userlog/vehicle_condition;Condition;Condition;same;;;;;;;;;;;;;;;;;;;
+userlog/scouted_with_uav;UAV in the air;UAV in the air;same;;;;;;;;;;;;;;;;;;;
+userlog/scouted_without_uav;without UAV;without UAV;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/researchableVehicle;Researchable;Researchable;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/premiumVehicle;Premium;Premium;same;;;;;;;;;;;;;;;;;;;
 wishlist/filter/squadronVehicle;Squadron;Squadron;same;;;;;;;;;;;;;;;;;;;
