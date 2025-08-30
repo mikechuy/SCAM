@@ -1746,14 +1746,14 @@ missions/tutorial_ship_action/full_back;Full astern;Full astern;same;;;;;;;;;;;;
 missions/tutorial_ship_action/stop;Stop;Stop;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/steering;Steering;Steering;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/turn;Turn weapons;Guide weapons;nice;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/camera_turn;Move camera;Free camera look;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/camera_turn;Free camera;Free camera look;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/objective;"Head to one of the points
 ╸ ╹ ╺";"Head to one of the points
 ╸ ╹ ╺";same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/binocular;Binoculars;Binoculars;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/aim_target;Aim on target;Lock the target;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/aim_target;Lock on target;Lock the target;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/aim;Take aim;Take aim;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/fire;Open fire;Fire;trim;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/fire;Fire;Fire;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/weak_point;Aim for weak points;Aim for the weak points;nice;;;;;;;;;;;;;;;;;;;
 hints/not_in_burav_ctrl_radius;You must be in the zone marked with the white circle on the map to control the Burav;You must be in the zone marked with the white circle on the map to control the Burav;same;;;;;;;;;;;;;;;;;;;
 hints/burav_ctrl_by_other_player;The other player controls Burav because they are closer to it;The other player controls Burav because they are closer to it;same;;;;;;;;;;;;;;;;;;;
@@ -2101,9 +2101,9 @@ Press {shortcut} to switch to the sight";same;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_msg;"The more ammo in the vehicle's ammunition stowages, the higher the chance that they will be damaged when someone hits the vehicle, leading to a fire or explosion
 Press {shortcut} to continue";"The more ammo in the vehicle's ammunition stowages, the higher the chance that they will be damaged when someone hits the vehicle, leading to a fire or explosion
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has a full ammo load. The ammunition is stored both in the turret and in the front part of the hull
+hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has ammo loaded, stored in the front part of the hull
 Press {shortcut} to switch to sniper mode";"The first tank has an ammo load. The ammunition is stored in the front part of the hull
-Press {shortcut} to switch to sniper mode";trim;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to switch to sniper mode";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells
 It is more reliable to shoot at the lower frontal plate, behind which the ammunition rack is located on the enemy tank in this mission
 Aim at the highlighted part and press {shortcut} to fire";"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells

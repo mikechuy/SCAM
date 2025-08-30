@@ -6510,7 +6510,7 @@ weapons/rocket_9k34_strela3_naval_rocket_launcher;9K34 SAM launcher;Strela-3 lau
 72mm_strela3;9M36 Strela-3;SAM 9M36;trim;;;;;;;;;;;;;;;;;;;;
 weapons/72mm_9s846_4_rocket_launcher;9K38 SAM;SAM 9M39;nice;;;;;;;;;;;;;;;;;;;;
 72mm_9m39;9M39 Igla;9М39;trim;;;;;;;;;;;;;;;;;;;;
-72mm_9m342;9М342;9М342;same;;;;;;;;;;;;;;;;;;;;
+72mm_9m342;9М342 Igla-S;9М342;trim;;;;;;;;;;;;;;;;;;;;
 weapons/125mm_2A46_M1_T_80UD_user_cannon;125 mm 2A46M-1 cannon;125 mm 2A46M-1 cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/20mm_Oerlikon_204gk_user_cannon;20 mm Oerlikon 204 GK cannon;20 mm Oerlikon 204 GK cannon;same;;;;;;;;;;;;;;;;;;;;
 weapons/25mm_zpt90_user_cannon;25 mm ZPT90 cannon;25 mm ZPT90 cannon;same;;;;;;;;;;;;;;;;;;;;
