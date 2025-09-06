@@ -2389,7 +2389,7 @@ If a failure occurs, the operation of the electronic equipment is blocked.
 armor_class/gun_stabilizer;Gun Stabilizer;Gun Stabilizer;same;;;;;;;;;;;;;;;;;;;
 armor_class/guided_weapon_controls;Guided weapon controls;Guided weapon controls;same;;;;;;;;;;;;;;;;;;;
 armor_class/armored_glass;Armored glass (0.28);Armored glass;trim;;;;;;;;;;;;;;;;;;;
-armor_class/glass;Glass (0.25);Glass;trim;;;;;;;;;;;;;;;;;;;
+armor_class/glass;Glass (0.2);Glass;trim;;;;;;;;;;;;;;;;;;;
 armor_class/wood;Wood (0.08);Wood;trim;;;;;;;;;;;;;;;;;;;
 armor_class/spaced_armor_air;Air (0.05 KE|0.3 CE);Air;trim;;;;;;;;;;;;;;;;;;;
 armor_class/grille_air;Slat (0.05 KE|0.1 CE);Slat armor;trim;;;;;;;;;;;;;;;;;;;
@@ -3803,7 +3803,7 @@ armor_class/graphite8;Graphite 8 mm;Graphite;trim;;;;;;;;;;;;;;;;;;;
 armor_class/graphite_sandwitch12;Graphite composite 12 mm;Graphite sandwich;trim;;;;;;;;;;;;;;;;;;;
 armor_class/kevlar_sandwitch10;Kevlar composite 10 mm;Kevlar sandwich;trim;;;;;;;;;;;;;;;;;;;
 armor_class/kevlar_graphite_sandwitch10;Kevlar/Graphite composite 10 mm;Kevlar/Graphite sandwich;trim;;;;;;;;;;;;;;;;;;;
-armor_class/fibreglass5;Fiberglass 5 mm;Fibreglass;trim;;;;;;;;;;;;;;;;;;;
+armor_class/fibreglass5;Fiberglass (0.2) 5 mm;Fibreglass;trim;;;;;;;;;;;;;;;;;;;
 armor_class/tt;Torpedo tube;Torpedo tube;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/jump;Jump;Jump;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/sprint;Move mode: Run/walk;Move mode: Run/walk;same;;;;;;;;;;;;;;;;;;;
@@ -3856,7 +3856,7 @@ actionBarItem/support_plane_ship;Surveillance aircraft: catapult / launch;Survei
 actionBarItem/switch_to_ship;Switch to ship;Switch to ship;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/switch_to_tank;Switch to tank;Switch to tank;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/auto_turret;Toggle autoturret targets;Toggle autoturret targets;same;;;;;;;;;;;;;;;;;;;
-actionBarItem/guidance_mode;Guidance mode;Guidance mode: {mode};nice;;;;;;;;;;;;;;;;;;;
+actionBarItem/guidance_mode;Guidance mode: {mode};Guidance mode: {mode};same;;;;;;;;;;;;;;;;;;;
 actionBarItem/weapon_lock;Target lock;Target lock;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/tank_terraform;Entrenching;Entrenching;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/sight_stabilization;Sight stabilization;Sight stabilization;same;;;;;;;;;;;;;;;;;;;

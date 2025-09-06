@@ -1094,11 +1094,11 @@ modification/uk_mk_13_18/desc;Allows installing Mk.13/18 guided bombs.;Allows th
 modification/uk_mk_13_18;Mk.13/18;Mk.13/18;same;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_12/desc;Allows installing GBU-12 guided bombs.;Allows the installation of GBU-12 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_12;GBU-12;GBU-12;same;;;;;;;;;;;;;;;;;;;
-modification/us_gbu_12_22/desc;Allows installing GBU-12 and GBU-22 guided bombs.;Allows the installation of GBU-12 and GBU-22 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
+modification/us_gbu_12_22/desc;Allows installing GBU-12/22 guided bombs.;Allows the installation of GBU-12 and GBU-22 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_12_22;GBU-12/22;GBU-12/22;same;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_laser/desc;Allows installing GBU laser guided bombs.;Allows the installation of GBU laser guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_laser;LGBU;LGBU;same;;;;;;;;;;;;;;;;;;;
-modification/us_gbu_12_49/desc;Allows installing GBU-12 or GBU-49 guided bombs.;Allows the installation of GBU-12 and GBU-49 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
+modification/us_gbu_12_49/desc;Allows installing GBU-12/49 guided bombs.;Allows the installation of GBU-12 and GBU-49 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_12_49;GBU-12/49;GBU-12/49;same;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_16/desc;Allows installing GBU-16 guided bombs.;Allows the installation of GBU-16 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_16;GBU-16;GBU-16;same;;;;;;;;;;;;;;;;;;;
@@ -1106,7 +1106,7 @@ modification/us_gbu_48/desc;Allows installing GBU-48 guided bombs.;Allows the in
 modification/us_gbu_48;GBU-48;GBU-48;same;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_24/desc;Allows installing GBU-24 guided bombs.;Allows the installation of GBU-24 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_24;GBU-24;GBU-24;same;;;;;;;;;;;;;;;;;;;
-modification/us_gbu_24_gbu_50/desc;Allows installing GBU-24 or GBU-50 guided bombs.;Allows the installation of GBU-24 and GBU-50 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
+modification/us_gbu_24_gbu_50/desc;Allows installing GBU-24/50 guided bombs.;Allows the installation of GBU-24 and GBU-50 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_24_gbu_50;GBU-24/50;GBU-24/50;same;;;;;;;;;;;;;;;;;;;
 modification/us_egbu_24/desc;Allows installing EGBU-24 guided bombs.;Allows the installation of EGBU-24 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_egbu_24;EGBU-24;EGBU-24;same;;;;;;;;;;;;;;;;;;;
@@ -1114,7 +1114,7 @@ modification/us_gbu_10/desc;Allows installing GBU-10 guided bombs.;Allows the in
 modification/us_gbu_10;GBU-10;GBU-10;same;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_27/desc;Allows installing GBU-27 guided bombs.;Allows the installation of GBU-27 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_27;GBU-27;GBU-27;same;;;;;;;;;;;;;;;;;;;
-modification/us_gbu_10_gbu_24/desc;Allows installing GBU-10 or GBU-24 guided bombs.;Allows the installation of GBU-10 / GBU-24 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
+modification/us_gbu_10_gbu_24/desc;Allows installing GBU-10/24 guided bombs.;Allows the installation of GBU-10 / GBU-24 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_10_gbu_24;GBU-10/24;GBU-10/24;same;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_8/desc;Allows installing GBU-8 guided bombs.;Allows the installation of GBU-8 guided bombs.;nice;;;;;;;;;;;;;;;;;;;
 modification/us_gbu_8;GBU-8;GBU-8;same;;;;;;;;;;;;;;;;;;;
@@ -1188,10 +1188,10 @@ modification/fr_damocles_pod/desc;Allows installing a DAMOCLES laser/electro-opt
 modification/fr_damocles_pod;DAMOCLES;DAMOCLES;same;;;;;;;;;;;;;;;;;;;
 modification/t_220/desc;Allows installing a T220 laser/electro-optical targeting pod.;Allows the installation of a T220 laser/electro-optical targeting pod.;nice;;;;;;;;;;;;;;;;;;;
 modification/t_220;T220;T220;same;;;;;;;;;;;;;;;;;;;
-elite/elite;Elite aircraft rank I;Elite aircraft rank I;same;;;;;;;;;;;;;;;;;;;
-elite/sub_elite;Elite aircraft rank II;Elite aircraft rank II;same;;;;;;;;;;;;;;;;;;;
-elite/elite/desc;To unlock Elite rank I, you have to purchase all modifications for this aircraft.;To unlock Elite rank I, you have to purchase all modifications for this aircraft.;same;;;;;;;;;;;;;;;;;;;
-elite/sub_elite/desc;To unlock Elite rank II, you have to purchase %s modifications of the highest tier for this aircraft.;To unlock Elite rank II, you have to purchase %s modifications of the highest tier for this aircraft.;same;;;;;;;;;;;;;;;;;;;
+elite/elite;Elite aircraft rank I;Elite aircraft rank I;same;n;;;;;;;;;;;;;;;;;;
+elite/sub_elite;Elite aircraft rank II;Elite aircraft rank II;same;n;;;;;;;;;;;;;;;;;;
+elite/elite/desc;To unlock Elite rank I, you have to purchase all modifications for this aircraft.;To unlock Elite rank I, you have to purchase all modifications for this aircraft.;same;n;;;;;;;;;;;;;;;;;;
+elite/sub_elite/desc;To unlock Elite rank II, you have to purchase %s modifications of the highest tier for this aircraft.;To unlock Elite rank II, you have to purchase %s modifications of the highest tier for this aircraft.;same;n;;;;;;;;;;;;;;;;;;
 modification/hydravlic_power;New boosters;New boosters;same;;;;;;;;;;;;;;;;;;;
 modification/hydravlic_power/desc;New hydraulic boosters increase control surface responsiveness.;New hydraulic boosters improve plane's controllability;trim;;;;;;;;;;;;;;;;;;;
 modification/150_octan_fuel;150 octane avgas;150 octane fuel;trim;;;;;;;;;;;;;;;;;;;
