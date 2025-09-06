@@ -1745,12 +1745,13 @@ missions/tutorial_ship_action/full_forward;Full forward;Full forward;same;;;;;;;
 missions/tutorial_ship_action/full_back;Full astern;Full astern;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/stop;Stop;Stop;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/steering;Steering;Steering;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/turn;Turn weapons;Guide weapons;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/turn;Guide weapons;Guide weapons;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/camera_turn;Free camera;Free camera look;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/objective;"Head to one of the points
 ╸ ╹ ╺";"Head to one of the points
 ╸ ╹ ╺";same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/binocular;Binoculars;Binoculars;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/binocular_zoom;Zoom in;Zoom in;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/aim_target;Lock on target;Lock the target;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/aim;Take aim;Take aim;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/fire;Fire;Fire;same;;;;;;;;;;;;;;;;;;;
@@ -1933,6 +1934,9 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/zoom;To better identify the target's location, use the camera zoom {shortcut};To better identify the target's location, use the camera zoom {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/map_activate;Open the map {shortcut} and mark the target;Open the map {shortcut} and mark the target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/map_deactivate;If the marker is placed correctly, press {shortcut} to close the map and continue;If the marker is placed correctly, press {shortcut} to close the map and continue;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/map_activate_press;Press and hold {shortcut} to open the map, and mark the target;Press and hold {shortcut} to open the map, and mark the target;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/map_aim;Press {shortcut} to mark the target on the map;Press {shortcut} to mark the target on the map;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_guided_bombs_gnss/map_exit;If the marker is placed correctly, press {shortcut} to continue;If the marker is placed correctly, press {shortcut} to continue;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info1;If the marker is far from the target, it can be repositioned {shortcut};If the marker is far from the target, it can be repositioned {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/spi_info2;If the marker is correctly placed, use {shortcut} to release the bomb;If the marker is correctly placed, use {shortcut} to release the bomb;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/next_target;Mark the next target and press {shortcut} to drop the bomb;Mark the next target and press {shortcut} to drop the bomb;same;;;;;;;;;;;;;;;;;;;
@@ -1946,8 +1950,44 @@ Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/after_bomb2;"This makes it ineffective against moving targets
 Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment";"This makes it ineffective against moving targets
 Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares/start1;"False Thermal Targets, or Flares, are used to protect aircraft and helicopters from missiles with heat-seeking guidance heads
+Press {shortcut} to continue";"False Thermal Targets, or Flares, are used to protect aircraft and helicopters from missiles with heat-seeking guidance heads
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares/start2_marker;"Missiles with IR guidance seek the heat emitted by the engine as well as the air-friction-heated body of the aircraft. As with all guided missiles, the engine of such a missile operates for a short time. During this moment, the missile can be easily spotted by its white smoky “tail.” The missile with an active engine is also marked with a red indicator
+Press {shortcut} to continue";"Missiles with IR guidance seek the heat emitted by the engine as well as the air-friction-heated body of the aircraft. As with all guided missiles, the engine of such a missile operates for a short time. During this moment, the missile can be easily spotted by its white smoky “tail.” The missile with an active engine is also marked with a red indicator
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares/start2_no_marker;"Missiles with IR guidance seek the heat emitted by the engine as well as the air-friction-heated body of the aircraft. As with all guided missiles, the engine of such a missile operates for a short time. During this moment, the missile can be easily spotted by its white smoky “tail”
+Press {shortcut} to continue";"Missiles with IR guidance seek the heat emitted by the engine as well as the air-friction-heated body of the aircraft. As with all guided missiles, the engine of such a missile operates for a short time. During this moment, the missile can be easily spotted by its white smoky “tail”
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares/start3;"Let’s practice evading such missiles. A heat-seeking missile will be launched at you, and you will need to evade it using false thermal targets
+Press {shortcut} to continue";"Let’s practice evading such missiles. A heat-seeking missile will be launched at you, and you will need to evade it using false thermal targets
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares/wep;"To evade, you need to turn off WEP to reduce your own thermal signature
+Reduce power {shortcut} to disable WEP";"To evade, you need to turn off WEP to reduce your own thermal signature
+Reduce power {shortcut} to disable WEP";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares/flares_activate;"Now, begin deploying false thermal targets. You should also maneuver away from the missile’s possible flight path, because after passing the flares, the missile will continue flying by inertia. If you remain on the same path, it may lock onto your aircraft again
+Press {shortcut} to start deploying decoys";"Now, begin deploying false thermal targets. You should also maneuver away from the missile’s possible flight path, because after passing the flares, the missile will continue flying by inertia. If you remain on the same path, it may lock onto your aircraft again
+Press {shortcut} to start deploying decoys";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares/try_again;"The aircraft was hit
+Press {shortcut} to begin the challenge again ({var})";"The aircraft was hit
+Press {shortcut} to begin the challenge again ({var})";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/start1;"The aircraft was hit
+Press {shortcut} to begin the challenge again";"The aircraft was hit
+Press {shortcut} to begin the challenge again";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/start2;"The aircraft was hit
+Press {shortcut} to begin the challenge again";"The aircraft was hit
+Press {shortcut} to begin the challenge again";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/start3;"The aircraft was hit
+Press {shortcut} to begin the challenge again";"The aircraft was hit
+Press {shortcut} to begin the challenge again";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/wep;"The aircraft was hit
+Press {shortcut} to begin the challenge again";"The aircraft was hit
+Press {shortcut} to begin the challenge again";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/flares_activate;"The aircraft was hit
+Press {shortcut} to begin the challenge again";"The aircraft was hit
+Press {shortcut} to begin the challenge again";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/rocket_start;Press {shortcut} to launch missile;Press {shortcut} to launch the missile;nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/laser_activate;Press {shortcut} to activate the laser;Press {shortcut} to activate the laser;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/laser_activate;Press {shortcut} to activate laser;Press {shortcut} to activate the laser;nice;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/view_target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/view_target_after;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/change_view_homing;To switch to the seeker camera mode, use the view change {shortcut};To switch to the seeker camera mode, use the view change {shortcut};same;;;;;;;;;;;;;;;;;;;
@@ -1972,6 +2012,9 @@ hints/aircraft_modifications/activation_bomb;Press {shortcut} to activate bomb;P
 hints/aircraft_modifications/need_to_choose_agm;Press {shortcut} to select an air-to-surface missile using the selector;Press {shortcut} to select an air-to-surface missile using the selector;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_choose_aam;Press {shortcut} to select an air-to-air missile using the selector;Press {shortcut} to select an air-to-air missile using the selector;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_choose_bomb;Press {shortcut} to select the release of the guided bomb using the selector;Press {shortcut} to select the release of the guided bomb using the selector;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/need_to_choose_flares;Press {shortcut} to select a flares countermeasures using the selector;Press {shortcut} to select a flares countermeasures using the selector;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/need_to_choose_chaff;Press {shortcut} to select a chaff countermeasures using the selector;Press {shortcut} to select a chaff countermeasures using the selector;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/need_to_bound_countermeasures;To test countermeasures in this mission, you need to assign a button {shortcut};To test countermeasures in this mission, you need to assign a button {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_bound_fire_agm;To test air-to-surface missiles in this mission, you need to assign a button {shortcut};To test air-to-surface missiles in this mission, you need to assign a button {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_bound_fire_aam;To test air-to-air missiles in this mission, you need to assign a button {shortcut};To test air-to-air missiles in this mission, you need to assign a button {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_bound_fire_bomb;To test guided bombs in this mission, you need to assign the key {shortcut};To test guided bombs in this mission, you need to assign the key {shortcut};same;;;;;;;;;;;;;;;;;;;
@@ -2134,10 +2177,16 @@ hints/tank_support_ucav_tft/ucav_move_point;Fly to the next waypoint;Fly to the 
 hints/tank_support_ucav_tft/ucav_ai;"The scout UAV has a ""Flying in orbit"" mode, which allows you to lock in flight control to focus on enemy detection or targeting
 Press {shortcut} to enable ""Flying in orbit"" mode";"The scout UAV has a ""Flying in orbit"" mode, which allows you to lock in flight control to focus on enemy detection or targeting
 Press {shortcut} to enable ""Flying in orbit"" mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai_gamepad;"The scout UAV has a ""Flying in orbit"" mode, which allows you to lock in flight control to focus on enemy detection or targeting
+Press {shortcut} and choose ""Flying in orbit"" mode in the multi-function menu";"The scout UAV has a ""Flying in orbit"" mode, which allows you to lock in flight control to focus on enemy detection or targeting
+Press {shortcut} and choose ""Flying in orbit"" mode in the multi-function menu";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai_gamepad_choose;"Press {shortcut} after selecting ""Flying in orbit""";"Press {shortcut} after selecting ""Flying in orbit""";same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/ucav_enemy;Press {shortcut} to place a targeting mark on the enemy for your teammates;Press {shortcut} to place a targeting mark on the enemy for your teammates;same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/ucav_enemy_find;Allies received a message that the UAV operator (you) has spotted a target and seen the marker you placed on the map. Now they can react to your intelligence;Allies received a message that the UAV operator (you) has spotted a target and seen the marker you placed on the map. Now they can react to your intelligence;same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/ucav_ai_on;"Press {shortcut} to enable ""Flying in orbit"" mode";"Press {shortcut} to enable ""Flying in orbit"" mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai_on_gamepad;"Press {shortcut} to enable ""Flying in orbit"" mode in the multi-function menu";"Press {shortcut} to enable ""Flying in orbit"" mode in the multi-function menu";same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/ucav_ai_off;"Press {shortcut} to disable ""Flying in orbit"" mode";"Press {shortcut} to disable ""Flying in orbit"" mode";same;;;;;;;;;;;;;;;;;;;
+hints/tank_support_ucav_tft/ucav_ai_off_gamepad;"Press {shortcut} to disable ""Flying in orbit"" mode in the multi-function menu";"Press {shortcut} to disable ""Flying in orbit"" mode in the multi-function menu";same;;;;;;;;;;;;;;;;;;;
 hints/tank_support_ucav_tft/info2;"The scout UAV also allows you to observe the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
 Press {shortcut} to continue";"The scout UAV also allows you to observe the area near your vehicle to understand where the enemy is located and where threats are coming from, enabling you to plot a safe route, call artillery strikes, or make other decisions
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;

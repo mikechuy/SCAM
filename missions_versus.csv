@@ -1025,6 +1025,8 @@ Fleet objectives:
 Fleet objectives:
 - Destroy the enemy fleet with a cover.";same;;;;;;;;;;;;;;;;;;;
 missions/_NDom;[┚ Domination];[┚ Domination];same;;;;;;;;;;;;;;;;;;;
+missions/_NDom1;[┚ Domination #1];[┚ Domination #1];same;;;;;;;;;;;;;;;;;;;
+missions/_NDom2;[┚ Domination #2];[┚ Domination #2];same;;;;;;;;;;;;;;;;;;;
 missions/_NDom/desc;"In [┚ Domination] mode teams fight for control over three strategic points in the location.
 
 Fleet objectives:
@@ -1507,6 +1509,7 @@ Convoys consist of ships controlled by AI and escort ships controlled by players
 raider_vehicles;Raider vehicles;Raider vehicles;same;;;;;;;;;;;;;;;;;;;
 missions/air_mysterious_valley_spaceport_BfD_norespawn;[Operation] Mysterious Valley. Spaceport;[Operation] Mysterious Valley. Spaceport;same;;;;;;;;;;;;;;;;;;;
 missions/air_mysterious_valley_wide_spawns_BfD_norespawn;[Operation] Mysterious Valley (air spawns);[Operation] Mysterious Valley (air spawns);same;;;;;;;;;;;;;;;;;;;
+missions/air_mysterious_valley_BfD_norespawn;[Operation] Mysterious Valley;[Operation] Mysterious Valley;same;;;;;;;;;;;;;;;;;;;
 battle_of_jutland/name;Battle of Jutland;Battle of Jutland;same;;;;;;;;;;;;;;;;;;;
 missions/_sead;[SEAD];[SEAD];same;;;;;;;;;;;;;;;;;;;
 missions/_sead/defensive;[Air Defense Support];[Air Defense Support];same;;;;;;;;;;;;;;;;;;;
