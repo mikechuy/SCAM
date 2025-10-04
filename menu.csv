@@ -5359,6 +5359,8 @@ profile_header_football/name;Tank Football — Watch the ball!;Tank Football —
 profile_header_t_44_po/name;T-44 First Modification;T-44 First Modification;same;;;;;;;;;;;;;;;;;;;
 profile_header_victory_day_2025/name;Victory Day;Victory Day;same;;;;;;;;;;;;;;;;;;;
 profile_header_armored_apex/name;Armored Apex;Armored Apex;same;;;;;;;;;;;;;;;;;;;
+profile_header_air_superiority/name;Masters of the Sky;Masters of the Sky;same;;;;;;;;;;;;;;;;;;;
+profile_header_efv_p1/name;EFV;EFV;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_grey/name;Simple solid, grey;Simple solid, grey;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_orange/name;Simple solid, orange;Simple solid, orange;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_red/name;Simple solid, red;Simple solid, red;same;;;;;;;;;;;;;;;;;;;
@@ -5415,6 +5417,7 @@ frame_goalpost/name;Tank Football — Goalkeeper;Tank Football — Goalkeeper;sa
 frame_titan/name;Fresh Paint;Fresh Paint;same;;;;;;;;;;;;;;;;;;;
 frame_armored_apex/name;Green Knight;Green Knight;same;;;;;;;;;;;;;;;;;;;
 frame_top_secret/name;TOP SECRET;TOP SECRET;same;;;;;;;;;;;;;;;;;;;
+frame_crystal_shards/name;Crystal Shards;Crystal Shards;same;;;;;;;;;;;;;;;;;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;;;;;;;;;;;;;;;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;;;;;;;;;;;;;;;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;;;;;;;;;;;;;;;;;
