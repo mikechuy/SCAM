@@ -1528,4 +1528,23 @@ Mission objective:
 
 Mission objective:
 - Neutralize enemy SAM sites in the area";same;;;;;;;;;;;;;;;;;;;
+missions/_strbomb;[Deep Strike];[Deep Strike];same;;;;;;;;;;;;;;;;;;;
+missions/_strbomb/defensive;[Infrastructure Air Defense];[Infrastructure Air Defense];same;;;;;;;;;;;;;;;;;;;
+missions/_strbomb/offensive;[Deep Strike];[Deep Strike];same;;;;;;;;;;;;;;;;;;;
+missions/_strbomb/desc/defensive;"Enemy aircraft are planning to strike our infrastructure facility in this area.
+
+Mission objective:
+- Prevent the destruction of the infrastructure facility, provide protection from enemy aircraft";"Enemy aircraft are planning to strike our infrastructure facility in this area.
+
+Mission objective:
+- Prevent the destruction of the infrastructure facility, provide protection from enemy aircraft";same;;;;;;;;;;;;;;;;;;;
+missions/_strbomb/desc/offensive;"An important enemy infrastructure facility is located in this area.
+
+Mission objective:
+- Locate the infrastructure facility
+- Cause as much damage to it as possible";"An important enemy infrastructure facility is located in this area.
+
+Mission objective:
+- Locate the infrastructure facility
+- Cause as much damage to it as possible";same;;;;;;;;;;;;;;;;;;;
 MISSION_VERSUS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;

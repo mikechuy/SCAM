@@ -2953,6 +2953,8 @@ mfd/su_30sm_wpn/su_upab_500b;500Б;500Б;same;;;;;;;;;;;;;;;;;;;
 mfd/su_30sm_wpn/su_zb_500;ЗБ500;ЗБ500;same;;;;;;;;;;;;;;;;;;;
 hud/sead/defend_text;Protect SAM sites:;Protect SAM sites:;same;;;;;;;;;;;;;;;;;;;
 hud/sead/attack_text;Neutralize SAM sites:;Neutralize SAM sites:;same;;;;;;;;;;;;;;;;;;;
+hud/oil_refinery_strbomb/defend_text;Protect oil refinery buildings:;Protect oil refinery buildings:;same;;;;;;;;;;;;;;;;;;;
+hud/oil_refinery_strbomb/attack_text;Destroy oil refinery buildings:;Destroy oil refinery buildings:;same;;;;;;;;;;;;;;;;;;;
 hud/AAComplexMenu/azimuth;Azimuth;Az;trim;;;;;;;;;;;;;;;;;;;
 hud/AAComplexMenu/distance;Range (km);D;trim;;;;;;;;;;;;;;;;;;;
 hud/AAComplexMenu/height;Altitude (km);H;trim;;;;;;;;;;;;;;;;;;;
