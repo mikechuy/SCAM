@@ -256,6 +256,7 @@ hotkeys/ID_SENSOR_RANGE_SWITCH_TANK;Change Radar/IRST scope scale;Change Radar/I
 hotkeys/ID_SENSOR_ACM_SWITCH_TANK;Radar/IRST beyond/within visual range combat;Radar/IRST beyond/within visual range combat;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_SWITCH_TANK;Select Radar/IRST target to lock on;Select Radar/IRST target to lock on;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_LOCK_TANK;Lock Radar/IRST target on;Lock Radar/IRST target on;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_GROUP_SENSORS_MODE_TANK;Radar/IRST group mode;Radar/IRST group mode;same;;;;;;;;;;;;;;;;;;;;
 controls/gm_sensor_cue_x;Horizontal Radar/IRST target cue control axis;Horizontal Radar/IRST target cue control axis;same;;;;;;;;;;;;;;;;;;;;
 controls/gm_sensor_cue_y;Vertical Radar/IRST target cue control axis;Vertical Radar/IRST target cue control axis;same;;;;;;;;;;;;;;;;;;;;
 controls/gm_sensor_cue_z;Radar/IRST tilt control axis;Radar/IRST tilt control axis;same;;;;;;;;;;;;;;;;;;;;
@@ -266,6 +267,7 @@ hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH_SHIP;Change radar search mode;Change radar
 hotkeys/ID_SENSOR_RANGE_SWITCH_SHIP;Change radar scope scale;Change radar scope scale;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_SWITCH_SHIP;Select radar target to lock on;Select radar target to lock on;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_LOCK_SHIP;Lock radar target on;Lock radar target on;same;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_GROUP_SENSORS_MODE_SHIP;Radar/IRST group mode;Radar/IRST group mode;same;;;;;;;;;;;;;;;;;;;;
 controls/ship_sensor_cue_x;Horizontal Radar/IRST target cue control axis;Horizontal Radar/IRST target cue control axis;same;;;;;;;;;;;;;;;;;;;;
 controls/ship_sensor_cue_y;Vertical Radar/IRST target cue control axis;Vertical Radar/IRST target cue control axis;same;;;;;;;;;;;;;;;;;;;;
 controls/ship_sensor_cue_z;Radar/IRST tilt control axis;Radar/IRST tilt control axis;same;;;;;;;;;;;;;;;;;;;;

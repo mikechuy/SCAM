@@ -367,6 +367,8 @@ currency/freeResearchPoints/name;Convertible research points;Convertible researc
 currency/freeResearchPoints/desc;Convertible research points (convertible RP);Convertible research points (convertible RP);same;;;;;;;;;;;;;;;;;;;
 currency/skillPoints/name;Skill points;Skill points;same;;;;;;;;;;;;;;;;;;;
 currency/skillPoints/desc;Crew skill points;Crew skill points;same;;;;;;;;;;;;;;;;;;;
+currency/eagles/plural;{num=Golden Eagle/Golden Eagles};{num=Golden Eagle/Golden Eagles};same;;;;;;;;;;;;;;;;;;;
+currency/lions/plural;{num=Silver Lion/Silver Lions};{num=Silver Lion/Silver Lions};same;;;;;;;;;;;;;;;;;;;
 stats/time_played;Time played;Time played;same;;;;;;;;;;;;;;;;;;;
 stats/missions_wins;Victories;Victories;same;;;;;;;;;;;;;;;;;;;
 stats/missions_completed;Finished missions;Finished missions;same;;;;;;;;;;;;;;;;;;;
@@ -984,9 +986,9 @@ crew/gunner;Defensive armament;Defensive armament;same;;;;;;;;;;;;;;;;;;;
 crew/driver;Driver;Driver;same;;;;;;;;;;;;;;;;;;;
 crew/tank_gunner;Gunner;Gunner;same;;;;;;;;;;;;;;;;;;;
 crew/tank_machine_gunner;Machine Gunner;Machine Gunner;same;;;;;;;;;;;;;;;;;;;
-crew/commander;Commander;Tank Commander;nice;;;;;;;;;;;;;;;;;;;
-crew/loader;Loader;Tank Loader;nice;;;;;;;;;;;;;;;;;;;
-crew/radio_gunner;Radio Operator Gunner;Radio Operator Gunner;same;;;;;;;;;;;;;;;;;;;
+crew/commander;Commander;Commander;same;;;;;;;;;;;;;;;;;;;
+crew/loader;Loader;Loader;same;;;;;;;;;;;;;;;;;;;
+crew/radio_gunner;Radio Operator Gunner;Radio Operator;trim;;;;;;;;;;;;;;;;;;;
 crew/groundService;Logistical services;Logistical services;same;;;;;;;;;;;;;;;;;;;
 crew/trained;Qualification;Qualification;same;;;;;;;;;;;;;;;;;;;
 crew/eyesight;Keen Vision;Keen Vision;same;;;;;;;;;;;;;;;;;;;
@@ -1116,7 +1118,7 @@ crew/skillMax;>;>;same;;;;;;;;;;;;;;;;;;;
 crew/skillMax/tooltip;Maximum Skill Value;Maximum Skill Value;same;;;;;;;;;;;;;;;;;;;
 crew/skillMin;<;<;same;;;;;;;;;;;;;;;;;;;
 crew/skillMin/tooltip;Minimum Skill Value;Minimum Skill Value;same;;;;;;;;;;;;;;;;;;;
-crew/qualification/tooltip;A special course for the crew to train them how to control this vehicle. Improves all crew skills for this vehicle.;A special course for the crew to train them how to control this vehicle. Improves all crew skills for this vehicle.;same;;;;;;;;;;;;;;;;;;;
+crew/qualification/tooltip;A special course for the crew to train them how to control this vehicle. Improves all crew skills for this vehicle.;Special training course: improves all crew skills for this vehicle.;trim;;;;;;;;;;;;;;;;;;;
 crew/qualifyIncrease0;Upgrade qualification to Expert;Upgrade qualification to Expert;same;;;;;;;;;;;;;;;;;;;
 crew/qualifyIncrease1;Upgrade qualification to Ace;Upgrade qualification to Ace;same;;;;;;;;;;;;;;;;;;;
 crew/qualifyIncrease/tooltip;Upgrade qualification to the next level;Upgrade qualification to the next level;same;;;;;;;;;;;;;;;;;;;
@@ -1175,7 +1177,7 @@ crewSkillParameter/endurance/withGForce;Blackout time with G-Force {gForce};Tire
 crewSkillParameter/tankGunnerDistanceError;Distance with the estimation error of {errorText};Distance with the estimation error of {errorText};same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/shipGunnerFuseDistanceError;Fuze installation error for ranges up to {errorText};Fuze installation error for ranges up to {errorText};same;;;;;;;;;;;;;;;;;;;
 crewSkillParameter/gunnersMembersCount;Number of Experienced Gunners;Number of Experienced Gunners;same;;;;;;;;;;;;;;;;;;;
-crew/ship_commander;Ship commander;Ship commander;same;;;;;;;;;;;;;;;;;;;
+crew/ship_commander;Ship commander;Commander;trim;;;;;;;;;;;;;;;;;;;
 crew/ship_look_out_station;Observers;Observers;same;;;;;;;;;;;;;;;;;;;
 crew/ship_engine_room;Boiler room;Boiler room;same;;;;;;;;;;;;;;;;;;;
 crew/ship_artillery;Gunners;Gunners;same;;;;;;;;;;;;;;;;;;;
@@ -2386,6 +2388,24 @@ If a failure occurs, the operation of the electronic equipment is blocked.
 {partsList}";"A set of radio electronic equipment.
 If a failure occurs, the operation of the electronic equipment is blocked.
 {partsList}";same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/firewall_armor;"Protected ammunition compartment.
+If the bulkhead of this compartment is not penetrated when the armor is breached,
+it provides full protection against propellant fires.
+If the ammunition load includes explosive-filled projectiles (HE, HEAT, HESH),
+it may provide protection in the event of detonation of a small number of such rounds.";"Protected ammunition compartment.
+If the bulkhead of this compartment is not penetrated when the armor is breached,
+it provides full protection against propellant fires.
+If the ammunition load includes explosive-filled projectiles (HE, HEAT, HESH),
+it may provide protection in the event of detonation of a small number of such rounds.";same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/fuel_tank_exterior;"External or protected fuel tanks.
+These tanks are located outside the vehicle’s under-armor volume,
+or are protected by separate armor elements.
+If they are hit and catch fire, the fire does not damage the tank’s internal modules
+or the crew and burns out on its own after some time.";"External or protected fuel tanks.
+These tanks are located outside the vehicle’s under-armor volume,
+or are protected by separate armor elements.
+If they are hit and catch fire, the fire does not damage the tank’s internal modules
+or the crew and burns out on its own after some time.";same;;;;;;;;;;;;;;;;;;;
 armor_class/gun_stabilizer;Gun Stabilizer;Gun Stabilizer;same;;;;;;;;;;;;;;;;;;;
 armor_class/guided_weapon_controls;Guided weapon controls;Guided weapon controls;same;;;;;;;;;;;;;;;;;;;
 armor_class/armored_glass;Armored glass (0.28);Armored glass;trim;;;;;;;;;;;;;;;;;;;
@@ -2416,6 +2436,7 @@ armor_class/mexas_2c;MEXAS 2C (0.16);MEXAS 2C;trim;;;;;;;;;;;;;;;;;;;
 armor_class/t_72b_turrert_composite_armor;Composite-reflex plate (0.7 KE|1.1 CE);Combined armor with reflective plates;trim;;;;;;;;;;;;;;;;;;;
 armor_class/ABT-101;Alum alloy ABT-101 (0.375);Alloy ABT-101;trim;;;;;;;;;;;;;;;;;;;
 armor_class/abt_102;Alum alloy ABT-102 (0.425);Alloy ABT-102;trim;;;;;;;;;;;;;;;;;;;
+armor_class/pas_1a;Alum alloy PAS-1A;Alloy PAS-1A;trim;;;;;;;;;;;;;;;;;;;
 armor_class/aluminum_alloy_armor;Alum alloy 24ST3 (0.425);Aluminium alloy;trim;;;;;;;;;;;;;;;;;;;
 armor_class/titanium_alloy_vt6;Titanium BT-6 (0.7);Alloy BT-6;trim;;;;;;;;;;;;;;;;;;;
 armor_class/titanium_alloy_tank;Titanium Alloy;Titanium Alloy;same;;;;;;;;;;;;;;;;;;;
@@ -2423,6 +2444,10 @@ armor_class/armor_tank_engine;Engine/transmission (0.15);Engine or transmission;
 armor_class/armor_engine;Engine;Engine;same;;;;;;;;;;;;;;;;;;;
 armor_class/gun_barrel;Weapon gun barrel;Primary or secondary weapon;nice;;;;;;;;;;;;;;;;;;;
 armor_class/gun_trunnion;Trunnions;Trunnions;same;;;;;;;;;;;;;;;;;;;
+armor_class/auxiliary_power_unit;Auxiliary power unit;Auxiliary power unit;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/auxiliary_power_unit;Auxiliary power unit. Supply power to the vehicle when main engine is shutdown;Auxiliary power unit. Supply power to the vehicle when main engine is shutdown;same;;;;;;;;;;;;;;;;;;;
+armor_class/slip_ring;Slip ring;APU;trim;;;;;;;;;;;;;;;;;;;
+armor_class/desc/slip_ring;Slip ring. Transfer power from hull to turret;Slip ring. Transfer power from hull to turret;same;;;;;;;;;;;;;;;;;;;
 armor_class/desc/gun_trunnion;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;same;;;;;;;;;;;;;;;;;;;
 armor_class/turret_hydraulics;Hydraulic pump;Hydraulic pump;same;;;;;;;;;;;;;;;;;;;
 armor_class/desc/turret_hydraulics;"Hydraulic pumps and power electronics. In case of failure, they block the possibility of gun aiming until field repair.
@@ -2891,6 +2916,7 @@ item/ticket/multipleEvents;Ticket for several tournaments;Ticket for several tou
 item/trophy;Battle trophy;Battle trophy;same;;;;;;;;;;;;;;;;;;;
 item/order;Order;Order;same;;;;;;;;;;;;;;;;;;;
 item/universalSpare;Universal backup;Universal backup;same;;;;;;;;;;;;;;;;;;;
+item/dailyUniversalSpare;Daily universal backup;Daily universal backup;same;;;;;;;;;;;;;;;;;;;
 item/rateBooster;Booster;Booster;same;;;;;;;;;;;;;;;;;;;
 item/missionOrder;Battle order;Battle order;same;;;;;;;;;;;;;;;;;;;
 item/tournamentTicket;Tournament ticket;Tournament ticket;same;;;;;;;;;;;;;;;;;;;
@@ -3355,6 +3381,10 @@ items/universalSpare/description;A universal backup can be activated from the mo
 items/universalSpare/numSpares;Number of backups;Number of backups;same;;;;;;;;;;;;;;;;;;;
 items/universalSpare/activate;Activate {icon};Activate {icon};same;;;;;;;;;;;;;;;;;;;
 items/universalSpare/activate/tooltip;Backups activation. You can activate required number of backups for selected vehicle;Backups activation. You can activate required number of backups for selected vehicle;same;;;;;;;;;;;;;;;;;;;
+items/dailyUniversalSpare/description;Every day you receive <color=@activeTextColor>{max_count}</color> {max_count=free universal backup/free universal backups}, which can be used to respawn on any vehicle.;Every day you receive <color=@activeTextColor>{max_count}</color> {max_count=free universal backup/free universal backups}, which can be used to respawn on any vehicle.;same;;;;;;;;;;;;;;;;;;;
+items/dailyUniversalSpare/remaining;Remaining number of daily backups;Remaining number of daily backups;same;;;;;;;;;;;;;;;;;;;
+items/dailyUniversalSpare/updateTime;Their numbers is updated daily at <color=@activeTextColor>{time}</color>.;Their numbers is updated daily at <color=@activeTextColor>{time}</color>.;same;;;;;;;;;;;;;;;;;;;
+items/dailyUniversalSpare/noLeftSparesMsg;All daily universal backups are used up, please select another universal backup or another vehicle to spawn.;All daily universal backups are used up, please select another universal backup or another vehicle to spawn.;same;;;;;;;;;;;;;;;;;;;
 items/wager/winParams;Rewards:;Rewards:;same;;;;;;;;;;;;;;;;;;;
 items/wager/maxFails;Battles in which a new stage was not achieved: <color=@unlockActiveColor>{maxFails}</color>;Battles in which a new stage was not achieved: <color=@unlockActiveColor>{maxFails}</color>;same;;;;;;;;;;;;;;;;;;;
 items/wager/stake;Stake: <color=@unlockActiveColor>{stakeText}</color>;Stake: <color=@unlockActiveColor>{stakeText}</color>;same;;;;;;;;;;;;;;;;;;;
@@ -3805,6 +3835,11 @@ armor_class/kevlar_sandwitch10;Kevlar composite 10 mm;Kevlar sandwich;trim;;;;;;
 armor_class/kevlar_graphite_sandwitch10;Kevlar/Graphite composite 10 mm;Kevlar/Graphite sandwich;trim;;;;;;;;;;;;;;;;;;;
 armor_class/fibreglass5;Fiberglass (0.2) 5 mm;Fibreglass;trim;;;;;;;;;;;;;;;;;;;
 armor_class/tt;Torpedo tube;Torpedo tube;same;;;;;;;;;;;;;;;;;;;
+armor_meterial/material;Material;Material;same;;;;;;;;;;;;;;;;;;;
+armor_meterial/thickness_rha;Equivalent armor thickness (RHA);Equivalent armor thickness (RHA);same;;;;;;;;;;;;;;;;;;;
+armor_meterial/steel;Steel;Steel;same;;;;;;;;;;;;;;;;;;;
+armor_meterial/kevlar;Kevlar;Kevlar;same;;;;;;;;;;;;;;;;;;;
+armor_meterial/ceramic;Ceramic;Ceramic;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/jump;Jump;Jump;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/sprint;Move mode: Run/walk;Move mode: Run/walk;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/toggle_view;Sniper mode;Sniper mode;same;;;;;;;;;;;;;;;;;;;
@@ -4281,50 +4316,50 @@ workshop/craft_event_2019_spring_preview_4;;"III. An optional exchange of create
 workshop/craft_event_2019_spring_preview_5;;"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
 (Not available for some game accounts)";nice;;;;;;;;;;;;;;;;;;;
 workshop/camo_trophy_exchange;Camo Trophy (trade items);Camo Trophy (trade items);same;;;;;;;;;;;;;;;;;;;
-workshop/advancing_storm;'Advancing Storm';'Advancing Storm';same;;;;;;;;;;;;;;;;;;;
-workshop/project_x;'Project X' I;'Project X' I;same;;;;;;;;;;;;;;;;;;;
-workshop/project_x_ii;'Project X' II;'Project X' II;same;;;;;;;;;;;;;;;;;;;
-workshop/valkyrie_i;'Valkyrie';'Valkyrie';same;;;;;;;;;;;;;;;;;;;
-workshop/supersonic_i;'Supersonic';'Supersonic';same;;;;;;;;;;;;;;;;;;;
-workshop/starfighters;'Starfighters';'Starfighters';same;;;;;;;;;;;;;;;;;;;
-workshop/raining_fire;'Raining Fire';'Raining Fire';same;;;;;;;;;;;;;;;;;;;
-workshop/new_power;'New Power';'New Power';same;;;;;;;;;;;;;;;;;;;
-workshop/hot_tracks;'Hot Tracks';'Hot Tracks';same;;;;;;;;;;;;;;;;;;;
-workshop/ixwa_strike;'Ixwa Strike';'Ixwa Strike';same;;;;;;;;;;;;;;;;;;;
-workshop/direct_hit;'Direct Hit';'Direct Hit';same;;;;;;;;;;;;;;;;;;;
-workshop/ground_breaking;'Ground Breaking';'Ground Breaking';same;;;;;;;;;;;;;;;;;;;
-workshop/winged_lions;'Winged Lions';'Winged Lions';same;;;;;;;;;;;;;;;;;;;
-workshop/wind_of_change;'Wind of Change';'Wind of Change';same;;;;;;;;;;;;;;;;;;;
-workshop/danger_zone;'Danger Zone';'Danger Zone';same;;;;;;;;;;;;;;;;;;;
-workshop/drone_age;'Drone Age';'Drone Age';same;;;;;;;;;;;;;;;;;;;
-workshop/fire_and_ice;'Fire and Ice';'Fire and Ice';same;;;;;;;;;;;;;;;;;;;
-workshop/apex_predators;'Apex Predators';'Apex Predators';same;;;;;;;;;;;;;;;;;;;
-workshop/sky_guardians;'Sky Guardians';'Sky Guardians';same;;;;;;;;;;;;;;;;;;;
-workshop/esport_trophy;'eSport';'eSport';same;;;;;;;;;;;;;;;;;;;
-workshop/esport_trophy_2;'eSport II';'eSport II';same;;;;;;;;;;;;;;;;;;;
-workshop/air_superiority;'Air Superiority';'Air Superiority';same;;;;;;;;;;;;;;;;;;;
-workshop/alpha_strike;'Alpha Strike';'Alpha Strike';same;;;;;;;;;;;;;;;;;;;
-workshop/seek_and_destroy;'Seek & Destroy';'Seek & Destroy';same;;;;;;;;;;;;;;;;;;;
-workshop/esport_trophy_3;'eSport III';'eSport III';same;;;;;;;;;;;;;;;;;;;
-workshop/wtcs_trophy_1;'WTCS Esports Trophy I';'WTCS Esports Trophy I';same;;;;;;;;;;;;;;;;;;;
-workshop/leviathans;'Leviathans';'Leviathans';same;;;;;;;;;;;;;;;;;;;
-workshop/wtcs_trophy_2;'WTCS Esports Trophy II';'WTCS Esports Trophy II';same;;;;;;;;;;;;;;;;;;;
-workshop/tusk_force;'Tusk Force';'Tusk Force';same;;;;;;;;;;;;;;;;;;;
-workshop/wtcs_trophy_3;'WTCS Esports Trophy III';'WTCS Esports Trophy III';same;;;;;;;;;;;;;;;;;;;
-workshop/dance_of_dragons;'Dance of Dragons';'Dance of Dragons';same;;;;;;;;;;;;;;;;;;;
-workshop/firebirds;'Firebirds';'Firebirds';same;;;;;;;;;;;;;;;;;;;
-workshop/storm_warning;'Storm Warning';'Storm Warning';same;;;;;;;;;;;;;;;;;;;
-workshop/hornets_sting;'Hornet’s Sting';'Hornet’s Sting';same;;;;;;;;;;;;;;;;;;;
-workshop/la_royale;'La Royale';'La Royale';same;;;;;;;;;;;;;;;;;;;
-workshop/sons_of_attila;'Sons of Attila';'Sons of Attila';same;;;;;;;;;;;;;;;;;;;
-workshop/kings_of_battle;'Kings of Battle';'Kings of Battle';same;;;;;;;;;;;;;;;;;;;
-workshop/red_skies;'Red Skies';'Red Skies';same;;;;;;;;;;;;;;;;;;;
-workshop/locked_on_i;'Locked on!';'Locked on!';same;;;;;;;;;;;;;;;;;;;
-workshop/imperial_navy_i;'Imperial Navy';'Imperial Navy';same;;;;;;;;;;;;;;;;;;;
-workshop/night_vision;'Night Vision';'Night Vision';same;;;;;;;;;;;;;;;;;;;
-workshop/northern_wind;'Northern wind';'Northern wind';same;;;;;;;;;;;;;;;;;;;
-workshop/viking_fury;'Viking Fury';'Viking Fury';same;;;;;;;;;;;;;;;;;;;
-workshop/viking_fury_test;'Viking Fury (test)';'Viking Fury (test)';same;;;;;;;;;;;;;;;;;;;
+workshop/advancing_storm;'Advancing Storm';Advancing Storm;trim;;;;;;;;;;;;;;;;;;;
+workshop/project_x;'Project X' I;Project X I;trim;;;;;;;;;;;;;;;;;;;
+workshop/project_x_ii;'Project X' II;Project X II;trim;;;;;;;;;;;;;;;;;;;
+workshop/valkyrie_i;'Valkyrie';Valkyrie;trim;;;;;;;;;;;;;;;;;;;
+workshop/supersonic_i;'Supersonic';Supersonic;trim;;;;;;;;;;;;;;;;;;;
+workshop/starfighters;'Starfighters';Starfighters;trim;;;;;;;;;;;;;;;;;;;
+workshop/raining_fire;'Raining Fire';Raining Fire;trim;;;;;;;;;;;;;;;;;;;
+workshop/new_power;'New Power';New Power;trim;;;;;;;;;;;;;;;;;;;
+workshop/hot_tracks;'Hot Tracks';Hot Tracks;trim;;;;;;;;;;;;;;;;;;;
+workshop/ixwa_strike;'Ixwa Strike';Ixwa Strike;trim;;;;;;;;;;;;;;;;;;;
+workshop/direct_hit;'Direct Hit';Direct Hit;trim;;;;;;;;;;;;;;;;;;;
+workshop/ground_breaking;'Ground Breaking';Ground Breaking;trim;;;;;;;;;;;;;;;;;;;
+workshop/winged_lions;'Winged Lions';Winged Lions;trim;;;;;;;;;;;;;;;;;;;
+workshop/wind_of_change;'Wind of Change';Wind of Change;trim;;;;;;;;;;;;;;;;;;;
+workshop/danger_zone;'Danger Zone';Danger Zone;trim;;;;;;;;;;;;;;;;;;;
+workshop/drone_age;'Drone Age';Drone Age;trim;;;;;;;;;;;;;;;;;;;
+workshop/fire_and_ice;'Fire and Ice';Fire and Ice;trim;;;;;;;;;;;;;;;;;;;
+workshop/apex_predators;'Apex Predators';Apex Predators;trim;;;;;;;;;;;;;;;;;;;
+workshop/sky_guardians;'Sky Guardians';Sky Guardians;trim;;;;;;;;;;;;;;;;;;;
+workshop/esport_trophy;'eSport';eSport;trim;;;;;;;;;;;;;;;;;;;
+workshop/esport_trophy_2;'eSport II';eSport II;trim;;;;;;;;;;;;;;;;;;;
+workshop/air_superiority;'Air Superiority';Air Superiority;trim;;;;;;;;;;;;;;;;;;;
+workshop/alpha_strike;'Alpha Strike';Alpha Strike;trim;;;;;;;;;;;;;;;;;;;
+workshop/seek_and_destroy;'Seek & Destroy';Seek & Destroy;trim;;;;;;;;;;;;;;;;;;;
+workshop/esport_trophy_3;'eSport III';eSport III;trim;;;;;;;;;;;;;;;;;;;
+workshop/wtcs_trophy_1;'WTCS Esports Trophy I';WTCS Esports Trophy I;trim;;;;;;;;;;;;;;;;;;;
+workshop/leviathans;'Leviathans';Leviathans;trim;;;;;;;;;;;;;;;;;;;
+workshop/wtcs_trophy_2;'WTCS Esports Trophy II';WTCS Esports Trophy II;trim;;;;;;;;;;;;;;;;;;;
+workshop/tusk_force;'Tusk Force';Tusk Force;trim;;;;;;;;;;;;;;;;;;;
+workshop/wtcs_trophy_3;'WTCS Esports Trophy III';WTCS Esports Trophy III;trim;;;;;;;;;;;;;;;;;;;
+workshop/dance_of_dragons;'Dance of Dragons';Dance of Dragons;trim;;;;;;;;;;;;;;;;;;;
+workshop/firebirds;'Firebirds';Firebirds;trim;;;;;;;;;;;;;;;;;;;
+workshop/storm_warning;'Storm Warning';Storm Warning;trim;;;;;;;;;;;;;;;;;;;
+workshop/hornets_sting;'Hornet’s Sting';Hornet’s Sting;trim;;;;;;;;;;;;;;;;;;;
+workshop/la_royale;'La Royale';La Royale;trim;;;;;;;;;;;;;;;;;;;
+workshop/sons_of_attila;'Sons of Attila';Sons of Attila;trim;;;;;;;;;;;;;;;;;;;
+workshop/kings_of_battle;'Kings of Battle';Kings of Battle;trim;;;;;;;;;;;;;;;;;;;
+workshop/red_skies;'Red Skies';Red Skies;trim;;;;;;;;;;;;;;;;;;;
+workshop/locked_on_i;'Locked on!';Locked on!;trim;;;;;;;;;;;;;;;;;;;
+workshop/imperial_navy_i;'Imperial Navy';Imperial Navy;trim;;;;;;;;;;;;;;;;;;;
+workshop/night_vision;'Night Vision';Night Vision;trim;;;;;;;;;;;;;;;;;;;
+workshop/northern_wind;'Northern wind';Northern wind;trim;;;;;;;;;;;;;;;;;;;
+workshop/viking_fury;'Viking Fury';Viking Fury;trim;;;;;;;;;;;;;;;;;;;
+workshop/viking_fury_test;'Viking Fury (test)';Viking Fury (test);trim;;;;;;;;;;;;;;;;;;;
 workshop/project_x_weekend_exchange;Trophy Exchange;Trophy Exchange;same;;;;;;;;;;;;;;;;;;;
 workshop/new_year_2019;Festive Quest;Festive Quest;same;;;;;;;;;;;;;;;;;;;
 items/exchangeTo;Exchange to {currency};Exchange to {currency};same;;;;;;;;;;;;;;;;;;;
@@ -4675,6 +4710,7 @@ battlePass/seasonName/17;"""Guided Fury""";"""Guided Fury""";same;;;;;;;;;;;;;;;
 battlePass/seasonName/18;"""The Last Legionnaire""";"""The Last Legionnaire""";same;;;;;;;;;;;;;;;;;;;
 battlePass/seasonName/19;"""First Sample""";"""First Sample""";same;;;;;;;;;;;;;;;;;;;
 battlePass/seasonName/20;"""Flying Dragon""";"""Flying Dragon""";same;;;;;;;;;;;;;;;;;;;
+battlePass/seasonName/21;"""Brave Archer""";"""Brave Archer""";same;;;;;;;;;;;;;;;;;;;
 season/information;Full information about the Season;Full information about the Season;same;;;;;;;;;;;;;;;;;;;
 battlePass/rewardsTitle;Congratulations! You have earned Battle Ass prize!;Congratulations! You have earned Battle Pass prize!;nice;;;;;;;;;;;;;;;;;;;
 battlePass/buy/desc;"The purchase of the ""Battle Ass"" allows to collect rewards from all opened levels of the Season. ""Battle Ass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";"The purchase of the ""Battle Pass"" allows to collect rewards from all opened levels of the Season. ""Battle Pass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";nice;;;;;;;;;;;;;;;;;;;
@@ -4949,6 +4985,8 @@ loading_bg/login_layer_battleship_nelson;HMS Nelson;HMS Nelson;same;;;;;;;;;;;;;
 loading_bg/login_layer_m55;M55;M55;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_oplot_t;BM Oplot-T;BM Oplot-T;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fire_and_forget;Attack helicopters;Attack helicopters;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_re_2005_vdm;RE 2005 (VDM);RE 2005 (VDM);same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_re_2005_vdm/desc;"Reward for level 100 in the ""Brave Archer"" Battle Pass Season";"Reward for level 100 in the ""Brave Archer"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
@@ -5045,18 +5083,47 @@ item/prem_unit_rank_4;Random Premium Vehicle (rank IV);Random Premium Vehicle (r
 item/prem_unit_rank_5;Random Premium Vehicle (rank V);Random Premium Vehicle (rank V);same;;;;;;;;;;;;;;;;;;;
 item/prem_unit_rank_6;Random Premium Vehicle (rank VI);Random Premium Vehicle (rank VI);same;;;;;;;;;;;;;;;;;;;
 item/prem_unit_rank_7;Random Premium Vehicle (rank VII);Random Premium Vehicle (rank VII);same;;;;;;;;;;;;;;;;;;;
+item/cardicon_tanker_us_trophy;"""US Tankers"" Profile Icons";"""US Tankers"" Profile Icons";same;;;;;;;;;;;;;;;;;;;
+item/cardicon_tanker_ger_trophy;"""German Tankers"" Profile Icons";"""German Tankers"" Profile Icons";same;;;;;;;;;;;;;;;;;;;
+item/cardicon_tanker_ussr_trophy;"""USSR Tankers"" Profile Icons";"""USSR Tankers"" Profile Icons";same;;;;;;;;;;;;;;;;;;;
+item/camouflage_trophy_wb_shop;"""Camouflage"" Decorations";"""Camouflage"" Decorations";same;;;;;;;;;;;;;;;;;;;
+item/roadSign_trophy_wb_shop;"""Road Signs"" Decorations";"""Road Signs"" Decorations";same;;;;;;;;;;;;;;;;;;;
+item/helmet_decor_trophy;"""Helmets"" Decorations";"""Helmets"" Decorations";same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_zodiac;"""Zodiac Pin-ups"" Decals";"""Zodiac Pin-ups"" Decals";same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_pinup_zodiac;"""Zodiac Collection"" Decals";"""Zodiac Collection"" Decals";same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_tiger;"""Tigers"" Decals";"""Tigers"" Decals";same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_11_21_22;War Bonds Store Decals 2021-2022;War Bonds Store Decals 2021-2022;same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_11_20;War Bonds Store Decals 2020;War Bonds Store Decals 2020;same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_11_19;War Bonds Store Decals 2019;War Bonds Store Decals 2019;same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_11_18;War Bonds Store Decals 2018;War Bonds Store Decals 2018;same;;;;;;;;;;;;;;;;;;;
+item/decal_trophy_warbond_shop_11;War Bonds Store Decals 2016-2017;War Bonds Store Decals 2016-2017;same;;;;;;;;;;;;;;;;;;;
 open_url_in_browser;Open in a browser;Open in a browser;same;;;;;;;;;;;;;;;;;;;
 qrWindow/info;Scan the QR code with smartphone or tablet or use the link.;Scan the QR code with smartphone or tablet or use the link.;same;;;;;;;;;;;;;;;;;;;
 qrWindow/info/reportAnIssue;By scanning QR code you can immediately attach a photo or video of your problem to the report.;By scanning QR code you can immediately attach a photo or video of your problem to the report.;same;;;;;;;;;;;;;;;;;;;
 eagles/rechargeUrlNotification;;;same;;;;;;;;;;;;;;;;;;;
 mainmenu/getQR;Sign in via QR code;Sign in via QR code;same;;;;;;;;;;;;;;;;;;;
 ship/damage_control;Damage control;Damage control;same;;;;;;;;;;;;;;;;;;;
-ship/damage_control_set;Damage control set;Damage control set;same;;;;;;;;;;;;;;;;;;;
-ship/damage_control_priority;To provide damage control by priority;To provide damage control by priority;same;;;;;;;;;;;;;;;;;;;
+ship/damage_control_set;Damage control set;Place the set in a slot;nice;;;;;;;;;;;;;;;;;;;
+ship/damage_control_priority;To provide damage control by priority;Choose a damage control set;trim;;;;;;;;;;;;;;;;;;;
 ship/repair_priority;Repair priority {num};Repair priority {num};same;;;;;;;;;;;;;;;;;;;
-ship/extinguising_priority;Extinguishing priority {num};Extinguising priority {num};trim;;;;;;;;;;;;;;;;;;;
-ship/unwatering_priority;Unwatering priority {num};Unwatering priority {num};same;;;;;;;;;;;;;;;;;;;
+ship/extinguish_priority;Extinguishing priority {num};Extinguishing priority {num};same;;;;;;;;;;;;;;;;;;;
+ship/unwater_priority;Unwatering priority {num};Unwatering priority {num};same;;;;;;;;;;;;;;;;;;;
 ship/btn_select_for;Select for;Select for;same;;;;;;;;;;;;;;;;;;;
+ship/repair;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
+ship/extinguishing;Extinguishing;Extinguishing;same;;;;;;;;;;;;;;;;;;;
+ship/unwatering;Unwatering;Unwatering;same;;;;;;;;;;;;;;;;;;;
+ship/notSelectedPreset;"Switching between the selected sets in combat is done using the keys:
+{{ID_SHIP_ACTION_BAR_ITEM_6}} {{ID_SHIP_ACTION_BAR_ITEM_11}} {{ID_REPAIR_BREACHES}}";"Switching between the selected sets in combat is done using the keys:
+{{ID_SHIP_ACTION_BAR_ITEM_6}} {{ID_SHIP_ACTION_BAR_ITEM_11}} {{ID_REPAIR_BREACHES}}";same;;;;;;;;;;;;;;;;;;;
+ship/damageControlActionPrioritet;<color=@goodTextColor>{action} process is in priority.</color> All three processes can be launched simultaneously. In that case prioritized process always works first.;<color=@goodTextColor>{action} process is in priority.</color> All three processes can be launched simultaneously. In that case prioritized process always works first.;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlRepairText;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlExtinguishText;Extinguish;Extinguish;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlUnwateringText;Unwatering;Unwatering;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlSpecTitle;<color=@activeTextColor>Damage control specs:</color>;<color=@activeTextColor>Damage control specs:</color>;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlSpec;  <color={color}>x{k}</color> <color=@activeTextColor>to {action} time</color>;  <color={color}>x{k}</color> <color=@activeTextColor>to {action} time</color>;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlSpecActionRepairText;repairing;repairing;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlSpecActionExtinguishText;extinguishing;extinguishing;same;;;;;;;;;;;;;;;;;;;
+ship/damageControlSpecActionUnwaterText;unwatering;unwatering;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/designate_target;Designate a target;Designate a target;same;;;;;;;;;;;;;;;;;;;
 choose_nickname_req;The Nickname cannot exceed 16 characters. It may contain letters, numbers and underscores.;The Nickname cannot exceed 16 characters. It may contain letters, numbers and underscores.;same;;;;;;;;;;;;;;;;;;;
 trophyCategory/guaranteedPrize;Guaranteed Prize;Guaranteed Prize;same;;;;;;;;;;;;;;;;;;;
@@ -5418,6 +5485,8 @@ frame_titan/name;Fresh Paint;Fresh Paint;same;;;;;;;;;;;;;;;;;;;
 frame_armored_apex/name;Green Knight;Green Knight;same;;;;;;;;;;;;;;;;;;;
 frame_top_secret/name;TOP SECRET;TOP SECRET;same;;;;;;;;;;;;;;;;;;;
 frame_crystal_shards/name;Crystal Shards;Crystal Shards;same;;;;;;;;;;;;;;;;;;;
+frame_halloween_pumpkins/name;Through the Dark Forest;Through the Dark Forest;same;;;;;;;;;;;;;;;;;;;
+frame_halloween_witch/name;Witch Hunt;Witch Hunt;same;;;;;;;;;;;;;;;;;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;;;;;;;;;;;;;;;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;;;;;;;;;;;;;;;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;;;;;;;;;;;;;;;;;
@@ -5471,5 +5540,16 @@ tooltip/shellSelectRequired;To use this shell, you need to install the armament:
 actionBarItem/ship_damage_control1;Damage Control - mode 1;Damage Control - mode 1;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/ship_damage_control2;Damage Control - mode 2;Damage Control - mode 2;same;;;;;;;;;;;;;;;;;;;
 actionBarItem/ship_damage_control3;Damage Control - mode 3;Damage Control - mode 3;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/title;Selection of research countries appearance;Selection of research countries appearance;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/useOperatorFlagsInBattle;Use operator flags in battle;Use operator flags in battle;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/useOperatorFlagsInBattle/tooltip;Use vehicle operator flags in the battle statistics instead of research country flags.;Use vehicle operator flags in the battle statistics instead of research country flags.;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/options/appearance;Appearance;Appearance;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/options/style;Style;Style;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/styles/default;Show flag and name;Show flag and name;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/styles/only_flag;Show flag only;Show flag only;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/styles/only_name;Show title only;Show title only;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/notAvailableMsg;Purchase your first vehicle from this operator to be able to use its flag and name;Purchase your first vehicle from this operator to be able to use its flag and name;same;;;;;;;;;;;;;;;;;;;
 unlocks/frame;Profile icon frame;Profile icon frame;same;;;;;;;;;;;;;;;;;;;
 hud/radarButtons/exitGamepadNav;Exit control mode;Exit control mode;same;;;;;;;;;;;;;;;;;;;
+mainmenu/probability_info;Probability information;Probability information;same;;;;;;;;;;;;;;;;;;;
+mainmenu/apply_to_all;Apply to all;Apply to all;same;;;;;;;;;;;;;;;;;;;
