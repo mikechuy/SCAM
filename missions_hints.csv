@@ -1719,7 +1719,7 @@ missions/tutorial_destroyer_battle/lock_target;Choose and lock your target by pr
 missions/tutorial_destroyer_battle/aim_explanation;"Your target distance displays in <color=#ff0000>red</color>. The distance your guns are aiming at displays in <color=#000000>black</color>.
 For correct distance aiming, guide the aim marker to the same distance as the locked target";"Your target distance displays in <color=#ff0000>red</color>. The distance your guns are aiming at displays in <color=#000000>black</color>.
 For correct distance aiming, guide the aim marker to the same distance as the locked target";same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_destroyer_battle/distance_calculation;To get a shooting lead point, wait for the fire control system to finalize its calculations;To get a shooting lead point, wait for the fire control system to finalise its calculations;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_destroyer_battle/distance_calculation;To get a shooting lead point, wait for the fire control system to finalise its calculations;To get a shooting lead point, wait for the fire control system to finalise its calculations;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/weapons_hud;There are gun readiness indicators below. Guns that are ready to fire are marked with <color=#00ff00>green</color>. Guns in the dead guidance sector are marked with <color=#888888>grey</color>;There are gun readiness indicators below. Guns that are ready to fire are marked with <color=#00ff00>green</color>. Guns in the dead guidance sector are marked with <color=#888888>grey</color>;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_destroyer_battle/shoot_guns;"Fire at the target: {{ID_SHIP_WEAPON_ALL}}
 Please note that it takes some time for the guns to acquire the target";"Fire at the target: {{ID_SHIP_WEAPON_ALL}}
@@ -1958,9 +1958,10 @@ Press {shortcut} to continue";"A satellite-guided bomb is unaffected by weather 
 However, this type of weapon cannot be adjusted after release
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_guided_bombs_gnss/after_bomb2;"This makes it ineffective against moving targets
-Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment";"This makes it ineffective against moving targets
 Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment
-Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to continue";"This makes it ineffective against moving targets
+Keep this in mind and choose the predicted enemy location in advance, then release the bomb at the right moment
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_countermeasures_flares/start1;"False Thermal Targets, or Flares, are used to protect aircraft and helicopters from missiles with heat-seeking guidance heads
 Press {shortcut} to continue";"False Thermal Targets, or Flares, are used to protect aircraft and helicopters from missiles with heat-seeking guidance heads
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
@@ -1982,23 +1983,22 @@ Press {shortcut} to start deploying decoys";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_countermeasures_flares/try_again;"The aircraft was hit
 Press {shortcut} to begin the challenge again ({var})";"The aircraft was hit
 Press {shortcut} to begin the challenge again ({var})";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_countermeasures_flares_irccm/start1;"The aircraft was hit
-Press {shortcut} to begin the challenge again";"Modern seekers in infrared air-to-air missiles employ various countermeasures against artificial or natural interference. In the game, these countermeasures come in two types
-Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_countermeasures_flares_irccm/start2;"The aircraft was hit
-Press {shortcut} to begin the challenge again";"1. After launch, the missile seeker’s field of view is reduced several times, so it detects far fewer sources of interference
+hints/aircraft_countermeasures_flares_irccm/start1;"Modern seekers in infrared air-to-air missiles employ various countermeasures against artificial or natural interference. In the game, these countermeasures come in two types
+Press {shortcut} to continue";"Modern seekers in infrared air-to-air missiles employ various countermeasures against artificial or natural interference. In the game, these countermeasures come in two types
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/start2;"1. After launch, the missile seeker’s field of view is reduced several times, so it detects far fewer sources of interference
 2. If a flare enters the seeker’s field of view, the guidance system temporarily deactivates until the decoy moves out of sight. During this time, the missile continues toward the interception point using the target’s last known angular velocity data
-Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_countermeasures_flares_irccm/start3;"The aircraft was hit
-Press {shortcut} to begin the challenge again";"In practice, this means that to evade such missiles a pilot must continuously eject a large number of flares while sharply changing the aircraft’s flight path until the missile passes the aircraft
-Press {shortcut} to continue";nice;;;;;;;;;;;;;;;;;;;
+Press {shortcut} to continue";"1. After launch, the missile seeker’s field of view is reduced several times, so it detects far fewer sources of interference
+2. If a flare enters the seeker’s field of view, the guidance system temporarily deactivates until the decoy moves out of sight. During this time, the missile continues toward the interception point using the target’s last known angular velocity data
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/start3;"In practice, this means that to evade such missiles a pilot must continuously eject a large number of flares while sharply changing the aircraft’s flight path until the missile passes the aircraft
+Press {shortcut} to continue";"In practice, this means that to evade such missiles a pilot must continuously eject a large number of flares while sharply changing the aircraft’s flight path until the missile passes the aircraft
+Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_countermeasures_flares_irccm/start4;"Now we'll practice this scenario. An IR missile equipped with an interference-protected seeker will be launched at you
 Press {shortcut} to continue";"Now we'll practice this scenario. An IR missile equipped with an interference-protected seeker will be launched at you
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_countermeasures_flares_irccm/wep;"The aircraft was hit
-Press {shortcut} to begin the challenge again";Disable the WEP to reduce the aircraft's heat signature {shortcut};nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_countermeasures_flares_irccm/flares_activate;"The aircraft was hit
-Press {shortcut} to begin the challenge again";Begin an evasive maneuver laterally and vertically, while continuously deploying flares {shortcut} until the missile passes;nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/wep;Disable the WEP to reduce the aircraft's heat signature {shortcut};Disable the WEP to reduce the aircraft's heat signature {shortcut};same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_countermeasures_flares_irccm/flares_activate;Begin an evasive maneuver laterally and vertically, while continuously deploying flares {shortcut} until the missile passes;Begin an evasive maneuver laterally and vertically, while continuously deploying flares {shortcut} until the missile passes;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_countermeasures_chaff_sky/start1;"Air-to-air guided missiles with an active radar homing seeker are the most advanced and dangerous type of armament carried by modern fighters
 These missiles are equipped with their own radar, which allows the missile to home in on the target without using the carrier aircraft’s data
 Chaff combined with specific maneuvers are used to counter such missiles
@@ -2046,9 +2046,9 @@ hints/aircraft_modifications/after_bomb;After the bomb is dropped, the transmiss
 hints/aircraft_modifications/after_rocket;After launching the missile, the transmission of the image to the carrier aircraft stops, and the missile is guided to the target independently. You can perform any defensive maneuvers or attack the next target;After launching the missile, the transmission of the image to the carrier aircraft stops, and the missile is guided to the target independently. You can perform any defensive maneuvers or attack the next target;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/nvd;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/nvd_menu;Press {shortcut} to switch to the infrared imaging homing mode;Press {shortcut} to switch to the infrared imaging homing mode;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/boomb_view;"After dropping the bomb, you can switch to bomb tracking mode.
+hints/aircraft_modifications/boomb_view;"After dropping the bomb, you can switch to bomb tracking mode
 To do this, press and hold {shortcut} until the target is hit";"After dropping the bomb, you can switch to bomb tracking mode
-To do this, press and hold {shortcut} until the target is hit";nice;;;;;;;;;;;;;;;;;;;
+To do this, press and hold {shortcut} until the target is hit";same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_rocket;Press {shortcut} to activate missile seeker;Press {shortcut} to activate missile seeker;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/activation_tv_rocket;Press {shortcut} to activate missile;Press {shortcut} to activate missile;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/laser_activation_rocket;"A small circle indicates the point illuminated by the laser from the side of your aircraft. The missile will be guided to that point
@@ -2059,8 +2059,8 @@ hints/aircraft_modifications/activation_bomb;Press {shortcut} to activate bomb;P
 hints/aircraft_modifications/need_to_choose_agm;Press {shortcut} to select an air-to-surface missile using the selector;Press {shortcut} to select an air-to-surface missile using the selector;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_choose_aam;Press {shortcut} to select an air-to-air missile using the selector;Press {shortcut} to select an air-to-air missile using the selector;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_choose_bomb;Press {shortcut} to select the release of the guided bomb using the selector;Press {shortcut} to select the release of the guided bomb using the selector;same;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/need_to_choose_flares;Press {shortcut} to select a flares countermeasures using the selector;Press {shortcut} to select flares as countermeasures using the selector;nice;;;;;;;;;;;;;;;;;;;
-hints/aircraft_modifications/need_to_choose_chaff;Press {shortcut} to select a chaff countermeasures using the selector;Press {shortcut} to select chaff as countermeasures using the selector;nice;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/need_to_choose_flares;Press {shortcut} to select flares as countermeasures using the selector;Press {shortcut} to select flares as countermeasures using the selector;same;;;;;;;;;;;;;;;;;;;
+hints/aircraft_modifications/need_to_choose_chaff;Press {shortcut} to select chaff as countermeasures using the selector;Press {shortcut} to select chaff as countermeasures using the selector;same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_bound_countermeasures;To test countermeasures in this mission, you need to assign a button {shortcut};To test countermeasures in this mission, you need to assign a button {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_bound_fire_agm;To test air-to-surface missiles in this mission, you need to assign a button {shortcut};To test air-to-surface missiles in this mission, you need to assign a button {shortcut};same;;;;;;;;;;;;;;;;;;;
 hints/aircraft_modifications/need_to_bound_fire_aam;To test air-to-air missiles in this mission, you need to assign a button {shortcut};To test air-to-air missiles in this mission, you need to assign a button {shortcut};same;;;;;;;;;;;;;;;;;;;
