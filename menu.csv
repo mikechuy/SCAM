@@ -2396,7 +2396,7 @@ it may provide protection in the event of detonation of a small number of such r
 If the bulkhead of this compartment is not penetrated when the armor is breached,
 it provides full protection against propellant fires.
 If the ammunition load includes explosive-filled projectiles (HE, HEAT, HESH),
-it may provide protection in the event of detonation of a small number of such rounds.";same;;;;;;;;;;;;;;;;;;;
+it may provide protection in the event of detonation of a small number of such rounds.";nice;;;;;;;;;;;;;;;;;;;
 armor_class/desc/fuel_tank_exterior;"External or protected fuel tanks.
 These tanks are located outside the vehicle’s under-armor volume,
 or are protected by separate armor elements.
@@ -2414,6 +2414,7 @@ armor_class/wood;Wood (0.08);Wood;trim;;;;;;;;;;;;;;;;;;;
 armor_class/spaced_armor_air;Air (0.05 KE|0.3 CE);Air;trim;;;;;;;;;;;;;;;;;;;
 armor_class/grille_air;Slat (0.05 KE|0.1 CE);Slat armor;trim;;;;;;;;;;;;;;;;;;;
 armor_class/spall_liner;Spall liner;Spall liner;same;;;;;;;;;;;;;;;;;;;
+armor_class/nbc_liner;Anti-radiation liner;Anti-radiation liner;same;;;;;;;;;;;;;;;;;;;
 armor_class/CHA_tank;Cast HA (0.94);Cast homogeneous armor;nice;;;;;;;;;;;;;;;;;;;
 armor_class/RHA_tank;Rolled HA (1.0);Rolled homogeneous armor;nice;;;;;;;;;;;;;;;;;;;
 armor_class/CHA_tank_modern;Modern Cast HA (0.98);Cast homogeneous armor;nice;;;;;;;;;;;;;;;;;;;
@@ -3742,7 +3743,7 @@ armor_class/glass155;Glass (0.2 KE|0.22 CE) 155 mm;Bulletproof glass 155 mm;trim
 armor_class/new_armor_glass22;New glass 22 mm;Bulletproof glass 22 mm;nice;;;;;;;;;;;;;;;;;;;
 armor_class/new_armor_glass42;New glass 42 mm;Bulletproof glass 42 mm;nice;;;;;;;;;;;;;;;;;;;
 armor_class/new_armor_glass44;New glass 44 mm;Bulletproof glass 44 mm;nice;;;;;;;;;;;;;;;;;;;
-armor_class/plexiglas40;Plexiglas 40 mm;Plexiglas 40 mm;same;;;;;;;;;;;;;;;;;;;
+armor_class/plexiglas40;Plexiglass 40 mm;Plexiglas 40 mm;trim;;;;;;;;;;;;;;;;;;;
 armor_class/dural;Dural 1 mm;Dural 1 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/dural5;Dural 5 mm;Dural 5 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/dural6_35;Dural 6.35 mm;Dural 6.35 mm;same;;;;;;;;;;;;;;;;;;;
@@ -3753,6 +3754,7 @@ armor_class/steel;Steel 1 mm;Steel 1 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor2;Steel 2 mm;Steel 2 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor2_54;Steel 2.54 mm;Steel 2.54 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor3;Steel 3 mm;Steel 3 mm;same;;;;;;;;;;;;;;;;;;;
+armor_class/armor3_5;Steel 3.5 mm;Steel 3,5 mm;nice;;;;;;;;;;;;;;;;;;;
 armor_class/armor4;Steel 4 mm;Steel 4 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor4_5;Steel 4.5 mm;Steel 4.5 mm;same;;;;;;;;;;;;;;;;;;;
 armor_class/armor4_7;Steel 4.7 mm;Steel 4.7 mm;same;;;;;;;;;;;;;;;;;;;
@@ -4987,6 +4989,7 @@ loading_bg/login_layer_oplot_t;BM Oplot-T;BM Oplot-T;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_fire_and_forget;Attack helicopters;Attack helicopters;same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_re_2005_vdm;RE 2005 (VDM);RE 2005 (VDM);same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_re_2005_vdm/desc;"Reward for level 100 in the ""Brave Archer"" Battle Pass Season";"Reward for level 100 in the ""Brave Archer"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_xf5u;XF5U-1;XF5U-1;same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
@@ -5114,7 +5117,7 @@ ship/extinguishing;Extinguishing;Extinguishing;same;;;;;;;;;;;;;;;;;;;
 ship/unwatering;Unwatering;Unwatering;same;;;;;;;;;;;;;;;;;;;
 ship/notSelectedPreset;"Switching between the selected sets in combat is done using the keys:
 {{ID_SHIP_ACTION_BAR_ITEM_6}} {{ID_SHIP_ACTION_BAR_ITEM_11}} {{ID_REPAIR_BREACHES}}";"Switching between the selected sets in combat is done using the keys:
-{{ID_SHIP_ACTION_BAR_ITEM_6}} {{ID_SHIP_ACTION_BAR_ITEM_11}} {{ID_REPAIR_BREACHES}}";same;;;;;;;;;;;;;;;;;;;
+{{ID_SHIP_DAMAGE_CONTROL_PRESET_1}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_2}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_3}}";nice;;;;;;;;;;;;;;;;;;;
 ship/damageControlActionPrioritet;<color=@goodTextColor>{action} process is in priority.</color> All three processes can be launched simultaneously. In that case prioritized process always works first.;<color=@goodTextColor>{action} process is in priority.</color> All three processes can be launched simultaneously. In that case prioritized process always works first.;same;;;;;;;;;;;;;;;;;;;
 ship/damageControlRepairText;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
 ship/damageControlExtinguishText;Extinguish;Extinguish;same;;;;;;;;;;;;;;;;;;;
@@ -5428,6 +5431,7 @@ profile_header_victory_day_2025/name;Victory Day;Victory Day;same;;;;;;;;;;;;;;;
 profile_header_armored_apex/name;Armored Apex;Armored Apex;same;;;;;;;;;;;;;;;;;;;
 profile_header_air_superiority/name;Masters of the Sky;Masters of the Sky;same;;;;;;;;;;;;;;;;;;;
 profile_header_efv_p1/name;EFV;EFV;same;;;;;;;;;;;;;;;;;;;
+profile_header_xf5u/name;XF5U;XF5U;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_grey/name;Simple solid, grey;Simple solid, grey;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_orange/name;Simple solid, orange;Simple solid, orange;same;;;;;;;;;;;;;;;;;;;
 frame_simple_solid_red/name;Simple solid, red;Simple solid, red;same;;;;;;;;;;;;;;;;;;;
@@ -5487,6 +5491,7 @@ frame_top_secret/name;TOP SECRET;TOP SECRET;same;;;;;;;;;;;;;;;;;;;
 frame_crystal_shards/name;Crystal Shards;Crystal Shards;same;;;;;;;;;;;;;;;;;;;
 frame_halloween_pumpkins/name;Through the Dark Forest;Through the Dark Forest;same;;;;;;;;;;;;;;;;;;;
 frame_halloween_witch/name;Witch Hunt;Witch Hunt;same;;;;;;;;;;;;;;;;;;;
+frame_pancakes/name;Pancakes;Pancakes;same;;;;;;;;;;;;;;;;;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;;;;;;;;;;;;;;;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;;;;;;;;;;;;;;;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;;;;;;;;;;;;;;;;;
@@ -5553,3 +5558,6 @@ unlocks/frame;Profile icon frame;Profile icon frame;same;;;;;;;;;;;;;;;;;;;
 hud/radarButtons/exitGamepadNav;Exit control mode;Exit control mode;same;;;;;;;;;;;;;;;;;;;
 mainmenu/probability_info;Probability information;Probability information;same;;;;;;;;;;;;;;;;;;;
 mainmenu/apply_to_all;Apply to all;Apply to all;same;;;;;;;;;;;;;;;;;;;
+mainmenu/resetToAllCountries;Reset for all countries;Reset for all countries;same;;;;;;;;;;;;;;;;;;;
+mainmenu/resetToAllCountries/tooltip;All changes made to the appearance of research countries will be reset.;All changes made to the appearance of research countries will be reset.;same;;;;;;;;;;;;;;;;;;;
+mainmenu/resetToAllCountries/msg;Do you wish to reset all changes made to the appearance of research countries?;Do you wish to reset all changes made to the appearance of research countries?;same;;;;;;;;;;;;;;;;;;;
