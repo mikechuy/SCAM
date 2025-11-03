@@ -1759,9 +1759,9 @@ missions/tutorial_ship_action/weak_point;Aim for weak points;Aim for the weak po
 missions/tutorial_ship_action/defence;Defend yourself!;Defend yourself!;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/defence_move;Angle the hull;Angle the hull;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/maneuver;Make a maneuvers;Make a maneuvers;same;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/repair;Repair;To repair damaged modules faster;nice;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/extinguish;Extinguish fire;Extinguish fire faster;nice;;;;;;;;;;;;;;;;;;;
-missions/tutorial_ship_action/hole;Breach repair;Breach repair and pump out water faster;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/repair;Repair modules faster;Repair damaged modules faster;nice;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/extinguish;Extinguish fire faster;Extinguish fire faster;same;;;;;;;;;;;;;;;;;;;
+missions/tutorial_ship_action/hole;Repair hull and pump out water faster;Repair a breach and pump out water faster;nice;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/smoke;Deploy a smoke screen;Deploy a smoke screen;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/torpedo_sight;Torpedo sight;Torpedo sight;same;;;;;;;;;;;;;;;;;;;
 missions/tutorial_ship_action/torpedo_fire;Align and fire;Align and fire;same;;;;;;;;;;;;;;;;;;;

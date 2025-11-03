@@ -1068,9 +1068,9 @@ Reduces repair time by up to 3 times when fully researched.";"The mechanic's ski
 Reduces repair time by up to 3 times when fully researched.";same;;;;;;;;;;;;;;;;;;;
 crew/repairRank;Repair Rank;Repair Rank;same;;;;;;;;;;;;;;;;;;;
 crew/groundService/repairRank/tooltip;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;same;;;;;;;;;;;;;;;;;;;
-crew/notEnoughRepairRank;"Current vehicle rank is too high ({rank}) to be affected by repair speed.
+crew/notEnoughRepairRank;"Сurrent vehicle rank is too high ({rank}) to be affected by repair speed.
 Upgrade Repair Rank to {level} to activate repair speed.";"Сurrent vehicle rank is too high ({rank}) to be affected by repair speed.
-Upgrade Repair Rank to {level} to activate repair speed.";nice;;;;;;;;;;;;;;;;;;;
+Upgrade Repair Rank to {level} to activate repair speed.";same;;;;;;;;;;;;;;;;;;;
 crew/airReloadSkill;Reload Speed;Reload Speed;same;;;;;;;;;;;;;;;;;;;
 crew/groundService/airReloadSkill/tooltip;"The armorer's skill. Increases the rate at which the weapons are reloaded in the air and at the field.
 
@@ -2396,7 +2396,7 @@ it may provide protection in the event of detonation of a small number of such r
 If the bulkhead of this compartment is not penetrated when the armor is breached,
 it provides full protection against propellant fires.
 If the ammunition load includes explosive-filled projectiles (HE, HEAT, HESH),
-it may provide protection in the event of detonation of a small number of such rounds.";nice;;;;;;;;;;;;;;;;;;;
+it may provide protection in the event of detonation of a small number of such rounds.";same;;;;;;;;;;;;;;;;;;;
 armor_class/desc/fuel_tank_exterior;"External or protected fuel tanks.
 These tanks are located outside the vehicle’s under-armor volume,
 or are protected by separate armor elements.
@@ -2738,6 +2738,8 @@ Destroying all shafts makes the ship unable to move.
 You can check shaft damage status by using this icon:";same;;;;;;;;;;;;;;;;;;;
 armor_class/cockpit_countrol;Instrument panel;Flight control system;nice;;;;;;;;;;;;;;;;;;;
 armor_class/desc/cockpit_countrol;If it fails, these fail too:;If it fails, these systems cannot be used:;nice;;;;;;;;;;;;;;;;;;;
+armor_class/cockpit_control;Flight control system;Flight control system;same;;;;;;;;;;;;;;;;;;;
+armor_class/desc/cockpit_control;If it fails, these systems cannot be used:;If it fails, these systems cannot be used:;same;;;;;;;;;;;;;;;;;;;
 armor_class/electronic_block;Avionics block;Avionics block;same;;;;;;;;;;;;;;;;;;;
 armor_class/desc/electronic_block;If it fails, these fail too:;If it fails, these systems cannot be used:;nice;;;;;;;;;;;;;;;;;;;
 armor_class/optic_block;Electro-optical station;Electro-optical station;same;;;;;;;;;;;;;;;;;;;
@@ -4990,6 +4992,9 @@ loading_bg/login_layer_fire_and_forget;Attack helicopters;Attack helicopters;sam
 loading_bg/login_layer_re_2005_vdm;RE 2005 (VDM);RE 2005 (VDM);same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_re_2005_vdm/desc;"Reward for level 100 in the ""Brave Archer"" Battle Pass Season";"Reward for level 100 in the ""Brave Archer"" Battle Pass Season";same;;;;;;;;;;;;;;;;;;;
 loading_bg/login_layer_xf5u;XF5U-1;XF5U-1;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_ah_56a;AH-56A;AH-56A;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_hawk_200;Hawk 200;Hawk 200;same;;;;;;;;;;;;;;;;;;;
+loading_bg/login_layer_jaguar_ebrc;EBRC Jaguar;EBRC Jaguar;same;;;;;;;;;;;;;;;;;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;;;;;;;;;;;;;;;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;;;;;;;;;;;;;;;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;;;;;;;;;;;;;;;;;
@@ -5116,8 +5121,8 @@ ship/repair;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
 ship/extinguishing;Extinguishing;Extinguishing;same;;;;;;;;;;;;;;;;;;;
 ship/unwatering;Unwatering;Unwatering;same;;;;;;;;;;;;;;;;;;;
 ship/notSelectedPreset;"Switching between the selected sets in combat is done using the keys:
-{{ID_SHIP_ACTION_BAR_ITEM_6}} {{ID_SHIP_ACTION_BAR_ITEM_11}} {{ID_REPAIR_BREACHES}}";"Switching between the selected sets in combat is done using the keys:
-{{ID_SHIP_DAMAGE_CONTROL_PRESET_1}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_2}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_3}}";nice;;;;;;;;;;;;;;;;;;;
+{{ID_SHIP_DAMAGE_CONTROL_PRESET_1}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_2}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_3}}";"Switching between the selected sets in combat is done using the keys:
+{{ID_SHIP_DAMAGE_CONTROL_PRESET_1}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_2}} {{ID_SHIP_DAMAGE_CONTROL_PRESET_3}}";same;;;;;;;;;;;;;;;;;;;
 ship/damageControlActionPrioritet;<color=@goodTextColor>{action} process is in priority.</color> All three processes can be launched simultaneously. In that case prioritized process always works first.;<color=@goodTextColor>{action} process is in priority.</color> All three processes can be launched simultaneously. In that case prioritized process always works first.;same;;;;;;;;;;;;;;;;;;;
 ship/damageControlRepairText;Repair;Repair;same;;;;;;;;;;;;;;;;;;;
 ship/damageControlExtinguishText;Extinguish;Extinguish;same;;;;;;;;;;;;;;;;;;;
@@ -5552,8 +5557,8 @@ countriesAppearance/options/appearance;Appearance;Appearance;same;;;;;;;;;;;;;;;
 countriesAppearance/options/style;Style;Style;same;;;;;;;;;;;;;;;;;;;
 countriesAppearance/styles/default;Show flag and name;Show flag and name;same;;;;;;;;;;;;;;;;;;;
 countriesAppearance/styles/only_flag;Show flag only;Show flag only;same;;;;;;;;;;;;;;;;;;;
-countriesAppearance/styles/only_name;Show title only;Show title only;same;;;;;;;;;;;;;;;;;;;
-countriesAppearance/notAvailableMsg;Purchase your first vehicle from this operator to be able to use its flag and name;Purchase your first vehicle from this operator to be able to use its flag and name;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/styles/only_name;Show name only;Show name only;same;;;;;;;;;;;;;;;;;;;
+countriesAppearance/notAvailableMsg;Purchase your first vehicle of this operator to be able to use its flag and name;Purchase your first vehicle of this operator to be able to use its flag and name;same;;;;;;;;;;;;;;;;;;;
 unlocks/frame;Profile icon frame;Profile icon frame;same;;;;;;;;;;;;;;;;;;;
 hud/radarButtons/exitGamepadNav;Exit control mode;Exit control mode;same;;;;;;;;;;;;;;;;;;;
 mainmenu/probability_info;Probability information;Probability information;same;;;;;;;;;;;;;;;;;;;

@@ -395,7 +395,7 @@ event/BR64;Battle Royale (64 players);Battle Royale (64 players);same;;;;;;;;;;;
 events/playersRooms;Rooms created by players;Rooms created by players;same;;;;;;;;;;;;;;;;;;;
 events/playersRooms/tooltip;Search for available sessions also among the rooms created by players.;Search for available sessions also among the rooms created by players.;same;;;;;;;;;;;;;;;;;;;
 events/noCompatibilityMode/msg;This mode is not available when the 'Old videocards support' option is enabled.;This mode is not available when the 'Old videocards support' option is enabled.;same;;;;;;;;;;;;;;;;;;;
-events/noCompatibilityMode;Switch off the 'Old videocards support' option.;Switch off the 'Old videocards support' option.;same;;;;;;;;;;;;;;;;;;;
+events/noCompatibilityMode;Switch off the 'Old videocards support' option to play this event.;This event is not available when the 'Old videocards support' option is enabled.;nice;;;;;;;;;;;;;;;;;;;
 events/notEnoughMoney;Not enough money for a contribution;Not enough money for a contribution;same;;;;;;;;;;;;;;;;;;;
 events/notAvailableNewbiesMode/msg;This mode is not available for noobs. Fuck you, cunt.;This mode is not available to you. Select another suitable mode in the mode selection window.;nice;;;;;;;;;;;;;;;;;;;
 missions/ship_timeDelay_battles;[┚ Enduring Confrontation] Naval Battles;[┚ Enduring Confrontation] Naval Battles;same;;;;;;;;;;;;;;;;;;;
