@@ -1068,9 +1068,9 @@ Reduces repair time by up to 3 times when fully researched.";"The mechanic's ski
 Reduces repair time by up to 3 times when fully researched.";same;;;;;;;;;;;;;;;;;;;
 crew/repairRank;Repair Rank;Repair Rank;same;;;;;;;;;;;;;;;;;;;
 crew/groundService/repairRank/tooltip;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;same;;;;;;;;;;;;;;;;;;;
-crew/notEnoughRepairRank;"Сurrent vehicle rank is too high ({rank}) to be affected by repair speed.
+crew/notEnoughRepairRank;"Current vehicle rank is too high ({rank}) to be affected by repair speed.
 Upgrade Repair Rank to {level} to activate repair speed.";"Сurrent vehicle rank is too high ({rank}) to be affected by repair speed.
-Upgrade Repair Rank to {level} to activate repair speed.";same;;;;;;;;;;;;;;;;;;;
+Upgrade Repair Rank to {level} to activate repair speed.";nice;;;;;;;;;;;;;;;;;;;
 crew/airReloadSkill;Reload Speed;Reload Speed;same;;;;;;;;;;;;;;;;;;;
 crew/groundService/airReloadSkill/tooltip;"The armorer's skill. Increases the rate at which the weapons are reloaded in the air and at the field.
 

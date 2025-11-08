@@ -226,7 +226,7 @@ hotkeys/ID_SENSOR_TYPE_SWITCH;Switch between Radar and IRST;Switch between Radar
 hotkeys/ID_SENSOR_MODE_SWITCH;Change Radar/IRST mode;Change Radar/IRST mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_SWITCH;Switch Radar/IRST search on/off;Switch Radar/IRST search on/off;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH;Change Radar/IRST search mode;Change Radar/IRST search mode;same;;;;;;;;;;;;;;;;;;;;
-hotkeys/ID_SENSOR_STABILIZATION_SWITCH;Switch Radar/IRST gyro stabilization on/off;Switch Radar/IRST elevation stabilization on/off;nice;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SENSOR_STABILIZATION_SWITCH;Switch Radar/IRST elevation stabilization on/off;Switch Radar/IRST elevation stabilization on/off;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_DIRECTION_AXES_RESET;Reset Radar/IRST direction to boresight;Reset Radar/IRST direction to boresight;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_RANGE_SWITCH;Change Radar/IRST scope scale;Change Radar/IRST scope scale;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_ACM_SWITCH;Radar/IRST beyond/within visual range combat;Radar/IRST beyond/within visual range combat;same;;;;;;;;;;;;;;;;;;;;
@@ -240,7 +240,7 @@ hotkeys/ID_SENSOR_MODE_SWITCH_HELICOPTER;Change radar mode;Change radar mode;sam
 hotkeys/ID_SENSOR_SWITCH_HELICOPTER;Switch radar search on/off;Switch radar search on/off;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH_HELICOPTER;Change radar search mode;Change radar search mode;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_RANGE_SWITCH_HELICOPTER;Change radar scope scale;Change radar scope scale;same;;;;;;;;;;;;;;;;;;;;
-hotkeys/ID_SENSOR_STABILIZATION_SWITCH_HELICOPTER;Switch Radar/IRST gyro stabilization on/off;Switch Radar/IRST elevation stabilization on/off;nice;;;;;;;;;;;;;;;;;;;;
+hotkeys/ID_SENSOR_STABILIZATION_SWITCH_HELICOPTER;Switch Radar/IRST elevation stabilization on/off;Switch Radar/IRST elevation stabilization on/off;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_DIRECTION_AXES_RESET_HELICOPTER;Reset Radar/IRST direction to boresight;Reset Radar/IRST direction to boresight;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_ACM_SWITCH_HELICOPTER;Radar/IRST beyond/within visual range combat;Radar/IRST beyond/within visual range combat;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SENSOR_TARGET_SWITCH_HELICOPTER;Select radar target to lock on;Select radar target to lock on;same;;;;;;;;;;;;;;;;;;;;
