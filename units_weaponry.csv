@@ -4316,7 +4316,7 @@ weapons/cn_cm_502kg_he_rail/short;CM-502KG;CM-502KG;same;;;;;;;;;;;;;;;;;;;;
 weapons/cn_ba_9;Blue Arrow 9 missile;Blue Arrow 9 air-to-ground missiles;nice;;;;;;;;;;;;;;;;;;;;
 weapons/cn_ba_9/short;BA-9;BA-9;same;;;;;;;;;;;;;;;;;;;;
 weapons/cn_ba_11;Blue Arrow 11A missile;Blue Arrow 11 air-to-ground missiles;nice;;;;;;;;;;;;;;;;;;;;
-weapons/cn_ba_11/short;BA-11;BA-11A;nice;;;;;;;;;;;;;;;;;;;;
+weapons/cn_ba_11/short;BA-11A;BA-11A;same;;;;;;;;;;;;;;;;;;;;
 weapons/swd_rb75;Rb 75 missile;RB 75 air-to-ground missile;nice;;;;;;;;;;;;;;;;;;;;
 weapons/swd_rb75/short;Rb 75;RB 75;nice;;;;;;;;;;;;;;;;;;;;
 weapons/swd_rb75t;Rb 75T missile;RB 75T air-to-ground missile;nice;;;;;;;;;;;;;;;;;;;;
