@@ -1811,7 +1811,7 @@ modification/ffv_uni_pod/desc;Allows installing FFV UNI-pod 0127 gun pods.;Allow
 modification/il_28sh_s24;S-24;S-24;same;;;;;;;;;;;;;;;;;;;
 modification/il_28sh_s24/desc;Allows installing S-24 rockets.;Allows the installation of unguided S-24 rockets.;nice;;;;;;;;;;;;;;;;;;;
 modification/in_nasser_240;Nasser 240;Nasser 240;same;;;;;;;;;;;;;;;;;;;
-modification/in_nasser_240/desc;Allows installing unguided Nasser 240 rockets.;Allows the installation of unguided Nasser 240 rockets.;nice;;;;;;;;;;;;;;;;;;;
+modification/in_nasser_240/desc;Allows installing Nasser 240 rockets.;Allows the installation of unguided Nasser 240 rockets.;nice;;;;;;;;;;;;;;;;;;;
 modification/su_17_s25;S-25;S-25;same;;;;;;;;;;;;;;;;;;;
 modification/su_17_s25/desc;Allows installing S-25 rockets.;Allows the installation of unguided S-25 rockets.;nice;;;;;;;;;;;;;;;;;;;
 modification/su_s25_s13;S-25/S-13;S-25/S-13;same;;;;;;;;;;;;;;;;;;;

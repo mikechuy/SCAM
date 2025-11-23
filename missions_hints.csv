@@ -2255,5 +2255,6 @@ hints/ammo_used_exit_zone;Ammo is out, you can leave the mission using zone ␡;
 hints/return_spawn_cost_exit_zone;In this case, the spawn cost will be returned to you;In this case, the spawn cost will be returned to you;same;;;;;;;;;;;;;;;;;;;
 hints/return_spawn_score_partial_exit_zone;In this case, the spawn points will be partially returned to you;In this case, the spawn points will be partially returned to you;same;;;;;;;;;;;;;;;;;;;
 hints/return_spawn_score_full_exit_zone;In this case, the spawn points will be fully returned to you;In this case, the spawn points will be fully returned to you;same;;;;;;;;;;;;;;;;;;;
+hints/bullet_hell/guns_only;Guns only! No secondary weapons allowed in this mode;Guns only! No secondary weapons allowed in this mode;same;;;;;;;;;;;;;;;;;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;
 hints/drone_orbit_mode_controls;Use {pitch} to change altitude and {roll} to change direction and orbit radius;Use {pitch} to change altitude and {roll} to change direction and orbit radius;same;;;;;;;;;;;;;;;;;;;
