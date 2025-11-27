@@ -9478,11 +9478,11 @@ it_otobreda_sidam_25_0;M113A1/Sistema Italiano Difesa Aerea Mobile, 25 mm,
 it_otobreda_sidam_25_1;SIDAM 25;SIDAM 25;SIDAM 25;same;;;;;;;;;;;;;;;;;;;
 it_otobreda_sidam_25_2;SIDAM;SPAA;自​行​防​空​炮;1;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_leoncello_shop;"105/25 M43 ""Leoncello""";"M43 ""G.C.Leoncello""";M43 (“幼​狮”​装​甲​大​队);3;;;;;;;;;;;;;;;;;;;
-it_semovente_m43_105_leoncello_0;"105/25 M43 (Gruppo Corazzato ""Leoncello""), 1944";"Semovente 105/25 M43 G.C.""Leoncello""";M43 车​体 105 毫​米​/25 火​炮​运​载​车 (“幼​狮”​装​甲​大​队);11;;;;;;;;;;;;;;;;;;;
+it_semovente_m43_105_leoncello_0;"105/25 M43 ""Bassotto"" (Gruppo Corazzato ""Leoncello""), 1944";"Semovente 105/25 M43 G.C.""Leoncello""";M43 车​体 105 毫​米​/25 火​炮​运​载​车 (“幼​狮”​装​甲​大​队);22;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_leoncello_1;"105/25 M43 ""Leoncello""";"M43 ""G.C.Leoncello""";M43 (“幼​狮”​装​甲​大​队);3;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_leoncello_2;105/25 M43;SPG;自​行​火​炮;7;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_shop;105/25 M43;105/25 M43;105/25 M43;same;;;;;;;;;;;;;;;;;;;
-it_semovente_m43_105_0;Semovente M43 da 105/25, 1944;Semovente 105/25 M43;M43 车​体 105 毫​米​/25 火​炮​运​载​车;9;;;;;;;;;;;;;;;;;;;
+it_semovente_m43_105_0;"Semovente M43 da 105/25 ""Bassotto"", 1944";Semovente 105/25 M43;M43 车​体 105 毫​米​/25 火​炮​运​载​车;20;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_1;105/25 M43;105/25 M43;105/25 M43;same;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_2;105/25 M43;SPG;自​行​火​炮;7;;;;;;;;;;;;;;;;;;;
 it_semovente_m41m_90_shop;90/53 M41M;90/53 M41M;90/53 M41M;same;;;;;;;;;;;;;;;;;;;
