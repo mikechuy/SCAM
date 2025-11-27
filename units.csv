@@ -8922,11 +8922,11 @@ uk_vickers_mk_6_aa_mk_1_0;Tank, Light, Mk.VIA, AA Mk.I, 1942;Tank, Light 
 uk_vickers_mk_6_aa_mk_1_1;Light AA Mk.I;Light AA Mk I;轻​型​坦​克​防​空​型 Mk I;0;;;;;;;;;;;;;;;;;;;
 uk_vickers_mk_6_aa_mk_1_2;Light AA;SPAA;自​行​防​空​炮;4;;;;;;;;;;;;;;;;;;;
 jp_type_10_prototype_shop;TKX-2 (e);TKX (P);TKX (P);2;;;;;;;;;;;;;;;;;;;
-jp_type_10_prototype_0;Tank Experimental 2-0005 prototype №3, 2007F;TKX (P);TKX 原​型​车;37;;;;;;;;;;;;;;;;;;;
+jp_type_10_prototype_0;TanK eXperimental 2-0005 prototype №3, 2007F;TKX (P);TKX 原​型​车;37;;;;;;;;;;;;;;;;;;;
 jp_type_10_prototype_1;TKX-2 (e);TKX (P);TKX (P);2;;;;;;;;;;;;;;;;;;;
 jp_type_10_prototype_2;TKX (e);MBT;主​战​坦​克;4;;;;;;;;;;;;;;;;;;;
 jp_tkx_prot_shop;TKX-2;TKX;TKX;2;;;;;;;;;;;;;;;;;;;
-jp_tkx_prot_0;Tank Experimental 2-0005 prototype №3, 2010F;TKX;TKX;41;;;;;;;;;;;;;;;;;;;
+jp_tkx_prot_0;TanK eXperimental 2-0005 prototype №3, 2010F;TKX;TKX;41;;;;;;;;;;;;;;;;;;;
 jp_tkx_prot_1;TKX-2;TKX;TKX;2;;;;;;;;;;;;;;;;;;;
 jp_tkx_prot_2;TKX;MBT;主​战​坦​克;0;;;;;;;;;;;;;;;;;;;
 jp_type_10_shop;Type 10;Type 10;10 式​战​车;same;;;;;;;;;;;;;;;;;;;
@@ -9478,11 +9478,11 @@ it_otobreda_sidam_25_0;M113A1/Sistema Italiano Difesa Aerea Mobile, 25 mm,
 it_otobreda_sidam_25_1;SIDAM 25;SIDAM 25;SIDAM 25;same;;;;;;;;;;;;;;;;;;;
 it_otobreda_sidam_25_2;SIDAM;SPAA;自​行​防​空​炮;1;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_leoncello_shop;"105/25 M43 ""Leoncello""";"M43 ""G.C.Leoncello""";M43 (“幼​狮”​装​甲​大​队);3;;;;;;;;;;;;;;;;;;;
-it_semovente_m43_105_leoncello_0;"105/25 M43 ""Bassotto"" (Gruppo Corazzato ""Leoncello""), 1944";"Semovente 105/25 M43 G.C.""Leoncello""";M43 车​体 105 毫​米​/25 火​炮​运​载​车 (“幼​狮”​装​甲​大​队);22;;;;;;;;;;;;;;;;;;;
+it_semovente_m43_105_leoncello_0;"105/25 M43 ""Bassotto"" (Gruppo Corazzato ""Leoncello""), 1944";"Semovente 105/25 M43 G.C.""Leoncello""";M43 车​体 105 毫​米​/25 火​炮​运​载​车 (“幼​狮”​装​甲​大​队);22;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_leoncello_1;"105/25 M43 ""Leoncello""";"M43 ""G.C.Leoncello""";M43 (“幼​狮”​装​甲​大​队);3;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_leoncello_2;105/25 M43;SPG;自​行​火​炮;7;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_shop;105/25 M43;105/25 M43;105/25 M43;same;;;;;;;;;;;;;;;;;;;
-it_semovente_m43_105_0;"Semovente M43 da 105/25 ""Bassotto"", 1944";Semovente 105/25 M43;M43 车​体 105 毫​米​/25 火​炮​运​载​车;20;;;;;;;;;;;;;;;;;;;
+it_semovente_m43_105_0;"Semovente M43 da 105/25 ""Bassotto"", 1944";Semovente 105/25 M43;M43 车​体 105 毫​米​/25 火​炮​运​载​车;20;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_1;105/25 M43;105/25 M43;105/25 M43;same;;;;;;;;;;;;;;;;;;;
 it_semovente_m43_105_2;105/25 M43;SPG;自​行​火​炮;7;;;;;;;;;;;;;;;;;;;
 it_semovente_m41m_90_shop;90/53 M41M;90/53 M41M;90/53 M41M;same;;;;;;;;;;;;;;;;;;;
