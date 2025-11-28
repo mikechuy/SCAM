@@ -2191,20 +2191,20 @@ Press {shortcut} to switch to the sight";same;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_msg;"The more ammo in the vehicle's ammunition stowages, the higher the chance that they will be damaged when someone hits the vehicle, leading to a fire or explosion
 Press {shortcut} to continue";"The more ammo in the vehicle's ammunition stowages, the higher the chance that they will be damaged when someone hits the vehicle, leading to a fire or explosion
 Press {shortcut} to continue";same;;;;;;;;;;;;;;;;;;;
-hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has ammo loaded, stored in the front part of the hull
+hints/tank_low_ammo_survivability_tft/info_target_msg_01;"The first tank has ammo loaded, stored in the front part of the hull and turret
 Press {shortcut} to switch to sniper mode";"The first tank has an ammo load. The ammunition is stored in the turret and in the front part of the hull
 Press {shortcut} to switch to sniper mode";nice;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_target_msg_01_extra;"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells
 It is more reliable to shoot at the lower frontal plate, behind which the ammunition rack is located on the enemy tank in this mission
-Aim at the highlighted part and press {shortcut} to fire";"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells
+Aim at the lower frontal plate and press {shortcut} to fire";"The turret and upper frontal plate of the hull are generally quite strong and cannot be penetrated by most shells
 It is more reliable to shoot at the lower frontal plate, behind which the ammunition rack is located on the enemy tank in this mission
-Aim at the lower frontal plate and press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
+Aim at the lower frontal plate and press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_target_msg_02;"The second tank is loaded with only half of the maximum ammo capacity. In this case, this tank has ammunition only in the well-protected turret
 Press {shortcut} to switch to sniper mode";"The second tank is loaded with only half of the maximum ammo capacity. In this case, this tank has ammunition only in the well-protected turret
 Press {shortcut} to switch to sniper mode";same;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/info_target_msg_02_extra;"Thus, there is no ammo behind the lower frontal plate of the hull, which means the tank is less vulnerable
-Aim at the highlighted part and press {shortcut} to fire";"Thus, there is no ammo behind the lower frontal plate of the hull, which means the tank is less vulnerable
-Aim at the lower frontal plate and press {shortcut} to fire";nice;;;;;;;;;;;;;;;;;;;
+Aim at the lower frontal plate and press {shortcut} to fire";"Thus, there is no ammo behind the lower frontal plate of the hull, which means the tank is less vulnerable
+Aim at the lower frontal plate and press {shortcut} to fire";same;;;;;;;;;;;;;;;;;;;
 hints/tank_low_ammo_survivability_tft/change_target;"As you can see, the target is easily destroyed by hitting the vulnerable area with the ammunition stowage
 Press {shortcut} to exit sniper mode";"As you can see, the target is easily destroyed by hitting the vulnerable area with the ammunition stowage
 Press {shortcut} to exit sniper mode";same;;;;;;;;;;;;;;;;;;;
