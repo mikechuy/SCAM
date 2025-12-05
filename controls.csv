@@ -2043,4 +2043,3 @@ guiHints/not_available_in_current_mode;;Not available in this mode;nice;;;;;;;;;
 hotkeys/ID_SHIP_DAMAGE_CONTROL_PRESET_1;Select Damage Control mode 1;Select Damage Control mode 1;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SHIP_DAMAGE_CONTROL_PRESET_2;Select Damage Control mode 2;Select Damage Control mode 2;same;;;;;;;;;;;;;;;;;;;;
 hotkeys/ID_SHIP_DAMAGE_CONTROL_PRESET_3;Select Damage Control mode 3;Select Damage Control mode 3;same;;;;;;;;;;;;;;;;;;;;
-CONTROLS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;;;;;;;;;;;;;;;;;;
