@@ -54,7 +54,7 @@ weapons/gunBrowning50_M2_underwing;12.7 mm AN-M2 machine gun (┖);12.7 mm M2 Br
 weapons/gunBrowning50;12.7 mm AN-M2 machine gun;12.7 mm M2 Browning machine gun;nice;;;;;;;;;;;;;;;;;;;;
 weapons/gunBrowning50_raf;12.7 mm M2 Browning machine gun;12.7 mm M2 Browning machine gun;same;;;;;;;;;;;;;;;;;;;;
 weapons/gunBrowning50_raf_tutorial;12.7 mm M2 Browning machine gun;12.7 mm M2 Browning machine gun;same;;;;;;;;;;;;;;;;;;;;
-weapons/gunBrowning50_raf_tutorial/short;M2 Browning;M2 Browning;same;;;;;;;;;;;;;;;;;;;;
+weapons/gunBrowning50_raf_tutorial/short;M2 BMG;M2 Browning;nice;;;;;;;;;;;;;;;;;;;;
 weapons/gunBrowning50_raf_turret;12.7 mm M2 Browning machine gun;12.7 mm M2 Browning machine gun;same;;;;;;;;;;;;;;;;;;;;
 weapons/gunBrowning50_usaaf;12.7 mm AN-M2 machine gun;12.7 mm M2 Browning machine gun;nice;;;;;;;;;;;;;;;;;;;;
 weapons/gunBrowning50_turret;12.7 mm AN-M2 machine gun;12.7 mm M2 Browning machine gun;nice;;;;;;;;;;;;;;;;;;;;
