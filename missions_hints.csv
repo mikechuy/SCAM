@@ -151,267 +151,400 @@ hints/disconnect;You've spent too much time on the airfield. If you don't take o
 hints/instructor;This action was canceled by your instructor since it could lead to the loss of the airplane. If you feel confident enough in the air, you can turn off the instructor in the controls options.;This action was canceled by your instructor since it could lead to the loss of the airplane. If you feel confident enough in the air, you can turn off the instructor in the controls options.;same;;;;;;;;;;;;;;;;;;;
 hints/auto_rearm;You are out of ammunition. Ammo resupply will occur automatically after some time has passed.;You are out of ammunition. Ammo resupply will occur automatically after some time has passed.;same;;;;;;;;;;;;;;;;;;;
 hints/loose_lookup;The enemy has destroyed your spotter. Now it's harder for your team to locate hostile troops.;The enemy has destroyed your spotter. Now it's harder for your team to locate hostile troops.;same;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_continue;;Press any button to continue;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_retry;;Please try the maneuver again;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_immobile;;"To destroy an immobile target, you need to aim at it and shoot
-Press the ""shoot"" button to destroy the balloon";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_mobile;;"Now you need to destroy a mobile target
-Select it";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_forestall;;"Now you need to destroy a moving target
+hints/tutorialB_continue;Press any button to continue;Press any button to continue;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_retry;Please try the maneuver again;Please try the maneuver again;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_immobile;"To destroy an immobile target, you need to aim at it and shoot
+Press the ""shoot"" button to destroy the balloon";"To destroy an immobile target, you need to aim at it and shoot
+Press the ""shoot"" button to destroy the balloon";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_mobile;"Now you need to destroy a mobile target
+Select it";"Now you need to destroy a mobile target
+Select it";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_forestall;"Now you need to destroy a moving target
 See that small object in front of the enemy aircraft?
-That's the lead angle indicator";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_forestall_continue;;"Now you need to destroy a moving target
+That's the lead angle indicator";"Now you need to destroy a moving target
+See that small object in front of the enemy aircraft?
+That's the lead angle indicator";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_forestall_continue;"Now you need to destroy a moving target
 See that small object in front of the enemy aircraft?
 That's the lead angle indicator
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_forestallNotMA;;"See that small object in front of the enemy aircraft?
-That's the lead angle indicator";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_forestallNotMA_continue;;"See that small object in front of the enemy aircraft?
+Press {{ID_CONTINUE}} to continue";"Now you need to destroy a moving target
+See that small object in front of the enemy aircraft?
 That's the lead angle indicator
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_cursorNotMA;;"You need to fire right at it to hit the target
-Open the fire on the enemy aircraft";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_cursor;;"You need to fire right at it to hit the target
-Aim and keep the mouse aim cursor at the lead angle indicator";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_shooting_initial_cursor;;"Now you need to destroy a moving target
-Aim and keep the mouse aim cursor at the lead angle indicator";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_keep_aiming;;"Now your aircraft will start to turn towards the target
-You need to aim the crosshair at the lead angle indicator";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_keep_aiming_continue;;"Now your aircraft will start to turn towards the target
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_forestallNotMA;"See that small object in front of the enemy aircraft?
+That's the lead angle indicator";"See that small object in front of the enemy aircraft?
+That's the lead angle indicator";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_forestallNotMA_continue;"See that small object in front of the enemy aircraft?
+That's the lead angle indicator
+
+Press {{ID_CONTINUE}} to continue";"See that small object in front of the enemy aircraft?
+That's the lead angle indicator
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_cursorNotMA;"You need to fire right at it to hit the target
+Open the fire on the enemy aircraft";"You need to fire right at it to hit the target
+Open the fire on the enemy aircraft";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_cursor;"You need to fire right at it to hit the target
+Aim and keep the mouse aim cursor at the lead angle indicator";"You need to fire right at it to hit the target
+Aim and keep the mouse aim cursor at the lead angle indicator";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_shooting_initial_cursor;"Now you need to destroy a moving target
+Aim and keep the mouse aim cursor at the lead angle indicator";"Now you need to destroy a moving target
+Aim and keep the mouse aim cursor at the lead angle indicator";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_keep_aiming;"Now your aircraft will start to turn towards the target
+You need to aim the crosshair at the lead angle indicator";"Now your aircraft will start to turn towards the target
+You need to aim the crosshair at the lead angle indicator";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_keep_aiming_continue;"Now your aircraft will start to turn towards the target
 You need to aim the crosshair at the lead angle indicator
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_keep_aiming_realtime;;"Now your aircraft has started to turn towards the target
-Try to hold your cursor on the lead angle indicator";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_time_to_fire;;"Your sight and the lead angle indicator have converged
-It's time to fire";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_assault;;"Machine guns and cannons are perfect for shooting at light ground vehicles
-Use them to destroy the truck";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_targets_indicator;;"The ground vehicle counter will often appear during missions
-It shows the number of enemy vehicles you need to destroy to win";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_targets_indicator_continue;;"The ground vehicle counter will often appear during missions
+Press {{ID_CONTINUE}} to continue";"Now your aircraft will start to turn towards the target
+You need to aim the crosshair at the lead angle indicator
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_keep_aiming_realtime;"Now your aircraft has started to turn towards the target
+Try to hold your cursor on the lead angle indicator";"Now your aircraft has started to turn towards the target
+Try to hold your cursor on the lead angle indicator";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_time_to_fire;"Your sight and the lead angle indicator have converged
+It's time to fire";"Your sight and the lead angle indicator have converged
+It's time to fire";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_fighter_assault;"Machine guns and cannons are perfect for shooting at light ground vehicles
+Use them to destroy the truck";"Machine guns and cannons are perfect for shooting at light ground vehicles
+Use them to destroy the truck";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_targets_indicator;"The ground vehicle counter will often appear during missions
+It shows the number of enemy vehicles you need to destroy to win";"The ground vehicle counter will often appear during missions
+It shows the number of enemy vehicles you need to destroy to win";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_targets_indicator_continue;"The ground vehicle counter will often appear during missions
 It shows the number of enemy vehicles you need to destroy to win
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_change_direction_MA;;"Now you need to steer away from the ground
-To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen and hold it there until the aircraft completes the turning maneuver";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_change_direction;;"Now you need to steer away from the ground
-To quickly change the direction your aircraft is heading, pull the control yoke all the way back";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_practice;;Good work! Destroy the second plane;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_target_camera;;"Press the ""target camera"" button to look straight at your target";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_main;;"The aircraft's speed depends on its engine power
-Decrease the power if you want to fly slower; increase it if you need to fly faster";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_main_continue;;"The aircraft's speed depends on its engine power
+Press {{ID_CONTINUE}} to continue";"The ground vehicle counter will often appear during missions
+It shows the number of enemy vehicles you need to destroy to win
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_change_direction_MA;"Now you need to steer away from the ground
+To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen and hold it there until the aircraft completes the turning maneuver";"Now you need to steer away from the ground
+To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen and hold it there until the aircraft completes the turning maneuver";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_change_direction;"Now you need to steer away from the ground
+To quickly change the direction your aircraft is heading, pull the control yoke all the way back";"Now you need to steer away from the ground
+To quickly change the direction your aircraft is heading, pull the control yoke all the way back";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_practice;Good work! Destroy the second plane;Good work! Destroy the second plane;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_target_camera;"Press the ""target camera"" button to look straight at your target";"Press the ""target camera"" button to look straight at your target";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_main;"The aircraft's speed depends on its engine power
+Decrease the power if you want to fly slower; increase it if you need to fly faster";"The aircraft's speed depends on its engine power
+Decrease the power if you want to fly slower; increase it if you need to fly faster";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_main_continue;"The aircraft's speed depends on its engine power
 Decrease the power if you want to fly slower; increase it if you need to fly faster
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_speed_hint;;You can see the aircraft's current speed in the upper left corner of the screen;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_speed_hint_continue;;"You can see the aircraft's current speed in the upper left corner of the screen
+Press {{ID_CONTINUE}} to continue";"The aircraft's speed depends on its engine power
+Decrease the power if you want to fly slower; increase it if you need to fly faster
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_counter_hint;;The current engine power percentage is shown above it;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_counter_hint_continue;;"The current engine power percentage is shown above it
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_speed_hint;You can see the aircraft's current speed in the upper left corner of the screen;You can see the aircraft's current speed in the upper left corner of the screen;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_speed_hint_continue;"You can see the aircraft's current speed in the upper left corner of the screen
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_decrease;;Decrease the throttle to 30%;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_increase_throttle;;Use to increase engine power and fly faster;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_decrease_throttle;;Use to decrease engine power and fly slower;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_increase;;Increase the throttle to 100%;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_wep;;Increase the throttle until WEP has been enabled;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_throttle_wep_hold;;"Hold to continue flying with your afterburner
-The afterburner lets you fly at maximum speed";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_ground;;Fighters and attackers can carry bombs to drop while diving at ground targets;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_ground_continue;;"Fighters and attackers can carry bombs to drop while diving at ground targets
+Press {{ID_CONTINUE}} to continue";"You can see the aircraft's current speed in the upper left corner of the screen
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_where_bombs_fall;;Your bomb sight shows where bombs will strike the ground;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_where_bombs_fall_continue;;"Your bomb sight shows where bombs will strike the ground
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_counter_hint;The current engine power percentage is shown above it;The current engine power percentage is shown above it;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_counter_hint_continue;"The current engine power percentage is shown above it
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_aim;;To hit a target, you need to place it right in the center of your sight;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_aim_continue;;"To hit a target, you need to place it right in the center of your sight
+Press {{ID_CONTINUE}} to continue";"The current engine power percentage is shown above it
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_red_sight;;"The sight turns red when it is looking directly at the target
-Drop the bombs";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_climb;;"Now you need to steer away from the ground
-To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_rockets;;"Notice that your plane carries unguided rockets
-Press the ""launch rocket"" button to fire them
-As they have low accuracy, it's better to fire several rockets at one stroke";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_kill_all;;Destroy the vehicles with machine guns, bombs or rockets;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_bombers;;"Right now you're controlling a bomber
-Bombers can carry heavy bombs designed to deal large amounts of damage over a wide area";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_bombers_continue;;"Right now you're controlling a bomber
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_decrease;Decrease the throttle to 30%;Decrease the throttle to 30%;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_increase_throttle;Use to increase engine power and fly faster;Use to increase engine power and fly faster;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_decrease_throttle;Use to decrease engine power and fly slower;Use to decrease engine power and fly slower;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_increase;Increase the throttle to 100%;Increase the throttle to 100%;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_wep;Increase the throttle until WEP has been enabled;Increase the throttle until WEP has been enabled;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_throttle_wep_hold;"Hold to continue flying with your afterburner
+The afterburner lets you fly at maximum speed";"Hold to continue flying with your afterburner
+The afterburner lets you fly at maximum speed";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_ground;Fighters and attackers can carry bombs to drop while diving at ground targets;Fighters and attackers can carry bombs to drop while diving at ground targets;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_ground_continue;"Fighters and attackers can carry bombs to drop while diving at ground targets
+
+Press {{ID_CONTINUE}} to continue";"Fighters and attackers can carry bombs to drop while diving at ground targets
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_where_bombs_fall;Your bomb sight shows where bombs will strike the ground;Your bomb sight shows where bombs will strike the ground;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_where_bombs_fall_continue;"Your bomb sight shows where bombs will strike the ground
+
+Press {{ID_CONTINUE}} to continue";"Your bomb sight shows where bombs will strike the ground
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_aim;To hit a target, you need to place it right in the center of your sight;To hit a target, you need to place it right in the center of your sight;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_aim_continue;"To hit a target, you need to place it right in the center of your sight
+
+Press {{ID_CONTINUE}} to continue";"To hit a target, you need to place it right in the center of your sight
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_red_sight;"The sight turns red when it is looking directly at the target
+Drop the bombs";"The sight turns red when it is looking directly at the target
+Drop the bombs";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_climb;"Now you need to steer away from the ground
+To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen";"Now you need to steer away from the ground
+To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_rockets;"Notice that your plane carries unguided rockets
+Press the {shortcut} button to fire them
+As they have low accuracy, it's better to fire several rockets at one stroke";"Notice that your plane carries unguided rockets
+Press the {shortcut} button to fire them
+As they have low accuracy, it's better to fire several rockets at one stroke";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_selector;Press {shortcut} to select rockets using the selector;Press {shortcut} to select rockets using the selector;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_kill_all;Destroy the vehicles with machine guns, bombs or rockets;Destroy the vehicles with machine guns, bombs or rockets;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_bombers;"Right now you're controlling a bomber
+Bombers can carry heavy bombs designed to deal large amounts of damage over a wide area";"Right now you're controlling a bomber
+Bombers can carry heavy bombs designed to deal large amounts of damage over a wide area";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_bombers_continue;"Right now you're controlling a bomber
 Bombers can carry heavy bombs designed to deal large amounts of damage over a wide area
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_safety;;To keep themselves safe from AA fire and hostile fighters, bombers fly at high altitudes;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_safety_continue;;"To keep themselves safe from AA fire and hostile fighters, bombers fly at high altitudes
+Press {{ID_CONTINUE}} to continue";"Right now you're controlling a bomber
+Bombers can carry heavy bombs designed to deal large amounts of damage over a wide area
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_sight;;It's much simpler to hit a target using a bomb sight;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_sight_continue;;"It's much simpler to hit a target using a bomb sight
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_safety;To keep themselves safe from AA fire and hostile fighters, bombers fly at high altitudes;To keep themselves safe from AA fire and hostile fighters, bombers fly at high altitudes;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_safety_continue;"To keep themselves safe from AA fire and hostile fighters, bombers fly at high altitudes
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_change_view;;"You can toggle between different sights with the ""toggle view"" button
-Press the ""toggle view"" button twice to switch to the bomb sight";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_bomb_sight;;"You can also switch to bomb sight view directly
-Press the ""bomb sight view"" button to switch to the bomb sight";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_return_third_person_view;;Press to return to third-person view;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_bombs_counter;;Amount of remaining bombs is displayed in the upper left corner;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_bombs_counter_continue;;"Amount of remaining bombs is displayed in the upper left corner
+Press {{ID_CONTINUE}} to continue";"To keep themselves safe from AA fire and hostile fighters, bombers fly at high altitudes
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_drop_bomb;;Drop bombs on the enemy's airfield;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_drop_all_bombs;;Drop the rest of your bombs;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_track_bomb;;"Press and hold the ""drop bomb"" button to track the bomb";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_bombing_done;;Great hit!;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_gunner_view;;"Often bombers are a target for enemy fighters. Turrets located on the plane can help you to protect yourself
-Press the ""change view"" button to switch to gunner view";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_gunner_fire;;"Use the ""fire"" button to shoot at hostile aircraft; use the displayed lead angle to aim";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_enemy_retreat;;"Your enemy is retreating!
-Your task has been completed!";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_fly;;You can control your plane's direction with the elevator, ailerons, and rudder;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_fly_continue;;"You can control your plane's direction with the elevator, ailerons, and rudder
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_sight;It's much simpler to hit a target using a bomb sight;It's much simpler to hit a target using a bomb sight;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_sight_continue;"It's much simpler to hit a target using a bomb sight
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_elevator;;The elevator lets you push your plane's nose down or up;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_elevator_continue;;"The elevator lets you push your plane's nose down or up
+Press {{ID_CONTINUE}} to continue";"It's much simpler to hit a target using a bomb sight
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_ailerons;;Ailerons allow you to roll your plane;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_ailerons_continue;;"Ailerons allow you to roll your plane
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_change_view;"You can toggle between different sights with the ""toggle view"" button
+Press the ""toggle view"" button twice to switch to the bomb sight";"You can toggle between different sights with the ""toggle view"" button
+Press the ""toggle view"" button twice to switch to the bomb sight";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_bomb_sight;"You can also switch to bomb sight view directly
+Press the ""bomb sight view"" button to switch to the bomb sight";"You can also switch to bomb sight view directly
+Press the ""bomb sight view"" button to switch to the bomb sight";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_return_third_person_view;Press to return to third-person view;Press to return to third-person view;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_bombs_counter;Amount of remaining bombs is displayed in the upper left corner;Amount of remaining bombs is displayed in the upper left corner;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_bombs_counter_continue;"Amount of remaining bombs is displayed in the upper left corner
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_rudder;;The rudder allows to correct your plane's course;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_rudder_continue;;"The rudder allows to correct your plane's course
+Press {{ID_CONTINUE}} to continue";"Amount of remaining bombs is displayed in the upper left corner
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_MA;;In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_MA_continue;;"In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_drop_bomb;Drop bombs on the enemy's airfield;Drop bombs on the enemy's airfield;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_drop_all_bombs;Drop the rest of your bombs;Drop the rest of your bombs;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_track_bomb;"Press and hold the ""drop bomb"" button to track the bomb";"Press and hold the ""drop bomb"" button to track the bomb";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_bombing_done;Great hit!;Great hit!;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_gunner_view;"Often bombers are a target for enemy fighters. Turrets located on the plane can help you to protect yourself
+Press the ""change view"" button to switch to gunner view";"Often bombers are a target for enemy fighters. Turrets located on the plane can help you to protect yourself
+Press the ""change view"" button to switch to gunner view";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_gunner_fire;"Use the ""fire"" button to shoot at hostile aircraft; use the displayed lead angle to aim";"Use the ""fire"" button to shoot at hostile aircraft; use the displayed lead angle to aim";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_enemy_retreat;"Your enemy is retreating!
+Your task has been completed!";"Your enemy is retreating!
+Your task has been completed!";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_fly;You can control your plane's direction with the elevator, ailerons, and rudder;You can control your plane's direction with the elevator, ailerons, and rudder;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_fly_continue;"You can control your plane's direction with the elevator, ailerons, and rudder
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_MA_move_cursor;;Move the cursor to the waypoint;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_waypoint;;Proceed to the waypoint;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_waypoint_continue;;"Proceed to the waypoint
+Press {{ID_CONTINUE}} to continue";"You can control your plane's direction with the elevator, ailerons, and rudder
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_waypoint_notime;;Proceed to the waypoint;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_assault;;"Right now you're controlling an attack aircraft.
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_elevator;The elevator lets you push your plane's nose down or up;The elevator lets you push your plane's nose down or up;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_elevator_continue;"The elevator lets you push your plane's nose down or up
+
+Press {{ID_CONTINUE}} to continue";"The elevator lets you push your plane's nose down or up
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_ailerons;Ailerons allow you to roll your plane;Ailerons allow you to roll your plane;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_ailerons_continue;"Ailerons allow you to roll your plane
+
+Press {{ID_CONTINUE}} to continue";"Ailerons allow you to roll your plane
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_rudder;The rudder allows to correct your plane's course;The rudder allows to correct your plane's course;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_rudder_continue;"The rudder allows to correct your plane's course
+
+Press {{ID_CONTINUE}} to continue";"The rudder allows to correct your plane's course
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_MA;In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_MA_continue;"In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
+
+Press {{ID_CONTINUE}} to continue";"In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_MA_move_cursor;Move the cursor to the waypoint;Move the cursor to the waypoint;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_waypoint;Proceed to the waypoint;Proceed to the waypoint;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_waypoint_continue;"Proceed to the waypoint
+
+Press {{ID_CONTINUE}} to continue";"Proceed to the waypoint
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_waypoint_notime;Proceed to the waypoint;Proceed to the waypoint;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_assault;"Right now you're controlling an attack aircraft.
 Attack aircraft, or attackers, are designed to assist ground troops.
-Often they are armed with light bombs, unguided rockets and cannons, for destroying surface targets";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_assault_continue;;"Right now you're controlling an attack aircraft.
+Often they are armed with light bombs, unguided rockets and cannons, for destroying surface targets";"Right now you're controlling an attack aircraft.
+Attack aircraft, or attackers, are designed to assist ground troops.
+Often they are armed with light bombs, unguided rockets and cannons, for destroying surface targets";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_assault_continue;"Right now you're controlling an attack aircraft.
 Attack aircraft, or attackers, are designed to assist ground troops.
 Often they are armed with light bombs, unguided rockets and cannons, for destroying surface targets
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_objectives;;"Each mission has its own goals and objectives which must be completed in order to win
-Press and hold the ""Tactical Map"" button to see list of completed, failed, and current objectives";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_target;;"Targets that must be eliminated are often located outside your field of view. You can find them on Tactical map
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_find_target;;"Press and hold the ""Tactical Map"" button to find the truck on the ground
-Mission target is marked with red and blinks with yellow on map";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_mission_ends;;"The last enemy unit has been destroyed
-You've won!";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_mission_ends_continue;;"The last enemy unit has been destroyed
+Press {{ID_CONTINUE}} to continue";"Right now you're controlling an attack aircraft.
+Attack aircraft, or attackers, are designed to assist ground troops.
+Often they are armed with light bombs, unguided rockets and cannons, for destroying surface targets
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_objectives;"Each mission has its own goals and objectives which must be completed in order to win
+Press and hold the ""Tactical Map"" button to see list of completed, failed, and current objectives";"Each mission has its own goals and objectives which must be completed in order to win
+Press and hold the ""Tactical Map"" button to see list of completed, failed, and current objectives";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_target;"Targets that must be eliminated are often located outside your field of view. You can find them on Tactical map
+Press {{ID_CONTINUE}} to continue";"Targets that must be eliminated are often located outside your field of view. You can find them on Tactical map
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_find_target;"Press and hold the ""Tactical Map"" button to find the truck on the ground
+Mission target is marked with red and blinks with yellow on map";"Press and hold the ""Tactical Map"" button to find the truck on the ground
+Mission target is marked with red and blinks with yellow on map";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_mission_ends;"The last enemy unit has been destroyed
+You've won!";"The last enemy unit has been destroyed
+You've won!";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_mission_ends_continue;"The last enemy unit has been destroyed
 You've won!
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_mission_won;;"The last enemy unit has been destroyed, you've won!
+Press {{ID_CONTINUE}} to continue";"The last enemy unit has been destroyed
+You've won!
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_mission_won;"The last enemy unit has been destroyed, you've won!
 Your tutorial is finished
 
-Now you're ready to go ""To Battle!""";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_mission_won_continue;;"Your tutorial is finished
+Now you're ready to go ""To Battle!""";"The last enemy unit has been destroyed, you've won!
+Your tutorial is finished
+
+Now you're ready to go ""To Battle!""";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_mission_won_continue;"Your tutorial is finished
 Now you're ready to go ""To Battle!""
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_zoom_in;;Zoom in to see your target better;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_zoom_out;;Return to the original view;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_takeoff;;In order to take off, your aircraft must reach a high enough speed;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_takeoff_continue;;"In order to take off, your aircraft must reach a high enough speed
+Press {{ID_CONTINUE}} to continue";"Your tutorial is finished
+Now you're ready to go ""To Battle!""
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_engine_start;;"In Simulator Battles, the aircraft has its engine off at first
-Start the engine";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_deploy_flaps;;Extend the flaps;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_takeoff_increase_throttle;;Push your throttle to 100% to start your takeoff run;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_takeoff_start;;"The plane has started accelerating
-Watch your speed";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_takeoff_rudder;;"As you are accelerating along the runway, your plane will yaw sideways
-Use the rudder to keep the aircraft in the center of the runway";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_takeoff_rudder_continue;;"As you are accelerating along the runway, your plane will yaw sideways
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_zoom_in;Zoom in to see your target better;Zoom in to see your target better;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_zoom_out;Return to the original view;Return to the original view;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_takeoff;In order to take off, your aircraft must reach a high enough speed;In order to take off, your aircraft must reach a high enough speed;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_takeoff_continue;"In order to take off, your aircraft must reach a high enough speed
+
+Press {{ID_CONTINUE}} to continue";"In order to take off, your aircraft must reach a high enough speed
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_engine_start;"In Simulator Battles, the aircraft has its engine off at first
+Start the engine";"In Simulator Battles, the aircraft has its engine off at first
+Start the engine";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_deploy_flaps;Extend the flaps;Extend the flaps;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_takeoff_increase_throttle;Push your throttle to 100% to start your takeoff run;Push your throttle to 100% to start your takeoff run;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_takeoff_start;"The plane has started accelerating
+Watch your speed";"The plane has started accelerating
+Watch your speed";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_takeoff_rudder;"As you are accelerating along the runway, your plane will yaw sideways
+Use the rudder to keep the aircraft in the center of the runway";"As you are accelerating along the runway, your plane will yaw sideways
+Use the rudder to keep the aircraft in the center of the runway";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_takeoff_rudder_continue;"As you are accelerating along the runway, your plane will yaw sideways
 Use the rudder to keep the aircraft in the center of the runway
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_enough_speed;;"The plane has reached a high enough speed
-Time to get off the runway!";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_enough_speed_continue;;"The plane has reached a high enough speed
+Press {{ID_CONTINUE}} to continue";"As you are accelerating along the runway, your plane will yaw sideways
+Use the rudder to keep the aircraft in the center of the runway
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_enough_speed;"The plane has reached a high enough speed
+Time to get off the runway!";"The plane has reached a high enough speed
+Time to get off the runway!";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_enough_speed_continue;"The plane has reached a high enough speed
 Time to get off the runway!
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_nosing;;"The plane has started to stall
-Use the elevator to keep from crashing";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_takeoff_elevator_up;;Use the elevator to make the aircraft get off the ground faster;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_takeoff_elevator_up_waypoint;;"Use the elevator to make the aircraft get off the ground faster
+Press {{ID_CONTINUE}} to continue";"The plane has reached a high enough speed
+Time to get off the runway!
 
-Proceed to the waypoint";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_retract_gear;;"The plane has gotten off the ground
-You may now retract the landing gear";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_retract_gear_thrustmaster;;"The plane has gotten off the ground
-You may now retract the landing gear (R3 + O)";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_retract_flaps;;Retract the flaps;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_land;;In order to land your aircraft successfully, you need to reduce its speed significantly;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_howTo_land_continue;;"In order to land your aircraft successfully, you need to reduce its speed significantly
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_nosing;"The plane has started to stall
+Use the elevator to keep from crashing";"The plane has started to stall
+Use the elevator to keep from crashing";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_takeoff_elevator_up;Use the elevator to make the aircraft get off the ground faster;Use the elevator to make the aircraft get off the ground faster;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_takeoff_elevator_up_waypoint;"Use the elevator to make the aircraft get off the ground faster
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_land_decrease_throttle;;Decrease the throttle to 30%;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_land_decrease_throttle_waypoint;;"Decrease the throttle to 30%
+Proceed to the waypoint";"Use the elevator to make the aircraft get off the ground faster
 
-Proceed to the waypoint";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_land_gears;;Deploy the landing gear;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_land_gears_thrustmaster;;(R3 + O) Deploy the landing gear;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_land_flaps;;Extend the flaps;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_pre_landing;;Direct the plane to the runway, descending gradually;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_pre_landing_MA;;Direct the plane right to the center of the waypoint;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_start;;"The plane has reduced its speed and descended low enough
-Use the elevator to pitch the aircraft's nose up and continue your descent";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_throttle_zero;;Decrease the throttle to 0%;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_breaks;;Hold to stop the plane;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_breaks_fullreal;;"Hold to stop the plane
-Continue to keep the elevator up, to prevent the plane from turning over";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_completed;;"The plane has stopped
-A successful landing!";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_completed_continue;;"The plane has stopped
+Proceed to the waypoint";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_retract_gear;"The plane has gotten off the ground
+You may now retract the landing gear";"The plane has gotten off the ground
+You may now retract the landing gear";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_retract_gear_thrustmaster;"The plane has gotten off the ground
+You may now retract the landing gear (R3 + O)";"The plane has gotten off the ground
+You may now retract the landing gear (R3 + O)";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_retract_flaps;Retract the flaps;Retract the flaps;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_land;In order to land your aircraft successfully, you need to reduce its speed significantly;In order to land your aircraft successfully, you need to reduce its speed significantly;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_howTo_land_continue;"In order to land your aircraft successfully, you need to reduce its speed significantly
+
+Press {{ID_CONTINUE}} to continue";"In order to land your aircraft successfully, you need to reduce its speed significantly
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_land_decrease_throttle;Decrease the throttle to 30%;Decrease the throttle to 30%;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_land_decrease_throttle_waypoint;"Decrease the throttle to 30%
+
+Proceed to the waypoint";"Decrease the throttle to 30%
+
+Proceed to the waypoint";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_land_gears;Deploy the landing gear;Deploy the landing gear;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_land_gears_thrustmaster;(R3 + O) Deploy the landing gear;(R3 + O) Deploy the landing gear;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_land_flaps;Extend the flaps;Extend the flaps;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_pre_landing;Direct the plane to the runway, descending gradually;Direct the plane to the runway, descending gradually;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_pre_landing_MA;Direct the plane right to the center of the waypoint;Direct the plane right to the center of the waypoint;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_start;"The plane has reduced its speed and descended low enough
+Use the elevator to pitch the aircraft's nose up and continue your descent";"The plane has reduced its speed and descended low enough
+Use the elevator to pitch the aircraft's nose up and continue your descent";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_throttle_zero;Decrease the throttle to 0%;Decrease the throttle to 0%;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_breaks;Hold to stop the plane;Hold to stop the plane;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_breaks_fullreal;"Hold to stop the plane
+Continue to keep the elevator up, to prevent the plane from turning over";"Hold to stop the plane
+Continue to keep the elevator up, to prevent the plane from turning over";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_completed;"The plane has stopped
+A successful landing!";"The plane has stopped
+A successful landing!";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_completed_continue;"The plane has stopped
 A successful landing!
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_airfields;;Landing on an airfield during missions enables you to capture the area or repair the aircraft;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_about_airfields_continue;;"Landing on an airfield during missions enables you to capture the area or repair the aircraft
+Press {{ID_CONTINUE}} to continue";"The plane has stopped
+A successful landing!
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_release_breaks;;"As the plane's speed is dropping, intense braking can flip it over
-Release the brake to avoid crashing";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_release_breaks_continue;;"As the plane's speed is dropping, intense braking can flip it over
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_airfields;Landing on an airfield during missions enables you to capture the area or repair the aircraft;Landing on an airfield during missions enables you to capture the area or repair the aircraft;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_about_airfields_continue;"Landing on an airfield during missions enables you to capture the area or repair the aircraft
+
+Press {{ID_CONTINUE}} to continue";"Landing on an airfield during missions enables you to capture the area or repair the aircraft
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_release_breaks;"As the plane's speed is dropping, intense braking can flip it over
+Release the brake to avoid crashing";"As the plane's speed is dropping, intense braking can flip it over
+Release the brake to avoid crashing";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_release_breaks_continue;"As the plane's speed is dropping, intense braking can flip it over
 Release the brake to avoid crashing
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_thats_right;;That's right!;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_landing_release_breaks_fullreal;;"Release the brake, or your plane might crash
-Use the elevator to stabilize the plane";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_ma_to_mj_hint;;In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_ma_to_mj_hint_continue;;"In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled
+Press {{ID_CONTINUE}} to continue";"As the plane's speed is dropping, intense braking can flip it over
+Release the brake to avoid crashing
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_intro;;"Welcome to part one of the basic tutorial!
-Here you will learn the basics of aerial combat.";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorialB_fighter_intro_continue;;"Welcome to part one of the basic tutorial!
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_thats_right;That's right!;That's right!;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_landing_release_breaks_fullreal;"Release the brake, or your plane might crash
+Use the elevator to stabilize the plane";"Release the brake, or your plane might crash
+Use the elevator to stabilize the plane";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_ma_to_mj_hint;In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled;In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled;same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_ma_to_mj_hint_continue;"In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled
+
+Press {{ID_CONTINUE}} to continue";"In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_fighter_intro;"Welcome to part one of the basic tutorial!
+Here you will learn the basics of aerial combat.";"Welcome to part one of the basic tutorial!
+Here you will learn the basics of aerial combat.";same;;;;;;;;;;;;;;;;;;;
+hints/tutorialB_fighter_intro_continue;"Welcome to part one of the basic tutorial!
 Here you will learn the basics of aerial combat.
 
-Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_landingDropBomb;;Drop all bombs before landing;nice;;;;;;;;;;;;;;;;;;;
+Press {{ID_CONTINUE}} to continue";"Welcome to part one of the basic tutorial!
+Here you will learn the basics of aerial combat.
+
+Press {{ID_CONTINUE}} to continue";same;;;;;;;;;;;;;;;;;;;
+hints/tutorial_landingDropBomb;Drop all bombs before landing;Drop all bombs before landing;same;;;;;;;;;;;;;;;;;;;
 hints/duel_begin;"The first who wins in two rounds will win a duel! 
 
 WEAPONS WILL BE ENABLED UPON REACHING THE ACTIVATION ZONE";"The first who wins in two rounds will win a duel! 
