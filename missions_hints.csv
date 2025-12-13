@@ -560,7 +560,7 @@ hints/tutorial_tank_wait_for_turret_continue;;"Wait until the tank turret finish
 
 Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_switch_to_sniper_sight;;Switch to gunner view;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_zoom_in;;You can use zoom to get a better view of the target;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_tank_zoom_in;;You can use zoom to get a better view of the target {shortcut};nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_crosshair;;The aim assist indicator in the centre of the screen shows where the shell will strike when you fire a shot;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_about_crosshair_continue;;"The aim assist indicator in the centre of the screen shows where the shell will strike when you fire a shot
 
@@ -600,12 +600,12 @@ hints/tutorial_tank_find_weak_point_and_shoot_the_tank;;"This tank has its front
 Find a weak point in the tank's armor and destroy it";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_aim_at_the_green_cross;;"Some weak points in the frontal armor are the viewing slots of the tank commander and the driver
 
-The aim assist indicator will change to green or yellow at weak points";nice;;;;;;;;;;;;;;;;;;;
+The aim assist indicator will change to green or yellow at weak points {shortcut}";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_keep_shooting_at_weak_point;;Keep firing at the tank's weak spots to destroy internal modules;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_aim_at_angled_tank;;Awesome! Now move the reticule on to the other nearby tank;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_shoot_at_angled_tank;;"That enemy tank has very strong armor which your current shells can’t penetrate. The fact that the aim assist indicator turns red when hovering over any position on the tank shows this
  
-Fire a few shots at the tank";nice;;;;;;;;;;;;;;;;;;;
+Fire a few shots at the tank {shortcut}";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_load_ap_shells;;"As we can see, the target is well-protected. Composite shells usually help to deal with well-armored vehicles
 
 Switch to them";nice;;;;;;;;;;;;;;;;;;;
@@ -635,7 +635,7 @@ hints/tutorial_tank_look_at_2nd_type_of_shells_continue;;"Now, look at the armor
 Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_shells_conclusion;;"Even though the first type of shell causes more damage, it would not be effective in this situation, so shells with better armor penetration should be used
 
-Use the second type of shell";nice;;;;;;;;;;;;;;;;;;;
+Use the second type of shell {shortcut}";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_01_notMA;;You can see several markers on your screen: the targeting crosshair that shows the direction that the main armament of the plane is aimed and the lead angle indicator showing the flight path of the enemy plane that indicates where you need to shoot to hit your opponent.;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorialB_fighter_video_01_notMA_continue;;"You can see several markers on your screen: the targeting crosshair that shows the direction that the main armament of the plane is aimed and the lead angle indicator showing the flight path of the enemy plane that indicates where you need to shoot to hit your opponent.
 
@@ -672,17 +672,17 @@ hints/tutorial_tank_long_range_video_03;;To hit the opponent no matter how far a
 hints/tutorial_tank_long_range_video_03_continue;;"To hit the opponent no matter how far away they are, move the white crosshair onto them and fire.
 
 Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_fire_off_previous_shells;;Fire off your current shell to load the new type of shell that you've switched to;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_tank_fire_off_previous_shells;;Fire off your current shell to load the new type of shell that you've switched to {shortcut};nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_kill_the_angled_tank;;"You have switched to composite shells. These shells successfully pierce almost any armor, but they cause lower damage
 
-Destroy the target tank";nice;;;;;;;;;;;;;;;;;;;
+Destroy the target tank {shortcut}";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_ammo_summary;;Now, you can see that even though composite shells make it possible to destroy a well armored target, it takes quite a long time because of their low damage;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_ammo_summary_continue;;"Now, you can see that even though composite shells make it possible to destroy a well armored target, it takes quite a long time because of their low damage
 
 Press {{ID_CONTINUE}} to continue";nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_observe_long_range_target;;Move the cursor on to one of the marked targets;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_long_range_target_found;;For a better view of your target, switch to gunner mode;nice;;;;;;;;;;;;;;;;;;;
-hints/tutorial_tank_long_range_destroy_targets;;Destroy the enemy vehicles;nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_tank_long_range_target_found;;For a better view of your target, switch to gunner mode {shortcut};nice;;;;;;;;;;;;;;;;;;;
+hints/tutorial_tank_long_range_destroy_targets;;Destroy the enemy vehicles {shortcut};nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_explanation_start;;Press {{ID_CONTINUE}} to learn more about firing at long range;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_explanation01;;The fired shell flies along a ballistic trajectory, while the reticule shows where the cannon is aiming. If you shoot at a distant object using the reticule, the shell will drop before it reaches its target;nice;;;;;;;;;;;;;;;;;;;
 hints/tutorial_tank_long_range_explanation02;;This means that when you fire at a distant target, you need to aim the cannon a little higher;nice;;;;;;;;;;;;;;;;;;;
