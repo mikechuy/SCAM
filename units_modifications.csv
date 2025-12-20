@@ -1381,7 +1381,7 @@ modification/jaguar_ebrc_improvement/desc;Mounts additional side and frontal arm
 modification/m1128_protection_improvement;Slat armor kit;Slat armour;trim;;;;;;;;;;;;;;;;;;;
 modification/m1128_protection_improvement/desc;Mounts additional side and frontal armor.;Slat armour kit;trim;;;;;;;;;;;;;;;;;;;
 modification/btr_82a_improvement;Spaced armor kit;Additional Ballistic Protection Package;nice;;;;;;;;;;;;;;;;;;;
-modification/btr_82a_improvement/desc;Upgrading BTR-82AT by enhancing its side and frontal armor and slat armour kit.;Upgrading BTR-82AT by enhancing its side and frontal armor and slat armour kit.;same;;;;;;;;;;;;;;;;;;;
+modification/btr_82a_improvement/desc;Mounts additional side and frontal armor and slat armour kit.;Upgrading BTR-82AT by enhancing its side and frontal armor and slat armour kit.;nice;;;;;;;;;;;;;;;;;;;
 modification/xm_8_protection_improvement;Level 3;Level 3;same;;;;;;;;;;;;;;;;;;;
 modification/xm_8_protection_improvement/desc;Level 3 armor kit;Level 3 armor kit;same;;;;;;;;;;;;;;;;;;;
 modification/challenger_2_protection_improvement;Dorchester 2E;Dorchester 2E;same;;;;;;;;;;;;;;;;;;;
