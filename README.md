@@ -44,7 +44,7 @@ This is partially serious, partially joking, completely offensive custom languag
 		- hides "no fuel tanks" or some other equipment if not mounted
   	11. inf
 		- neutralize > kill or Cargo 200; longer gun names
-6. Relaunch Warthunder to make sure changes have been applied.
+5. Relaunch Warthunder to make sure changes have been applied.
 
 ### Instructions to install units names mod:
 
