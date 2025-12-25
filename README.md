@@ -42,7 +42,9 @@ This is partially serious, partially joking, completely offensive custom languag
 		- homogenize weapon names, distinguishes bombs/rockets, round types, bombs in kg
 	10. controls
 		- hides "no fuel tanks" or some other equipment if not mounted
-5. Relaunch Warthunder to make sure changes have been applied.
+  	11. inf
+		- neutralize > kill or Cargo 200; longer gun names
+6. Relaunch Warthunder to make sure changes have been applied.
 
 ### Instructions to install units names mod:
 
