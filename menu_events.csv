@@ -85,7 +85,7 @@ events/chapter/tank_tournaments;Ground Tournaments;Ground Tournaments;same;;;
 events/chapter/clan_tournaments;Squadron Tournaments;Squadron Tournaments;same;;;
 events/chapter/race;Race;Race;same;;;
 events/chapter/mad_thunder;Mad Thunder;Mad Thunder;same;;;
-events/chapter/infantry_CBT;#N/A;Infantry CBT;#N/A;;;
+events/chapter/infantry_CBT;Infantry CBT;Infantry CBT;same;;;
 events/future_events;Future Events;Future Events;same;;;
 events/players_count;Players;Players;same;;;
 events/clans_count;Squadrons;Squadrons;same;;;

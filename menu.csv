@@ -5592,7 +5592,7 @@ hud/radarButtons/exitGamepadNav;Exit control mode;Exit control mode;same;;;
 mainmenu/probability_info;Probability information;Probability information;same;;;
 mainmenu/apply_to_all;Apply to all;Apply to all;same;;;
 mainmenu/resetToAllCountries;Reset for all countries;Reset for all countries;same;;;
-mainmenu/resetToAllCountries/tooltip;All changes made to the appearance of research countries will be reset.;All changes made to the appearance of research countries will be reset;trim;;;
+mainmenu/resetToAllCountries/tooltip;All changes made to the appearance of research countries will be reset;All changes made to the appearance of research countries will be reset;same;;;
 mainmenu/resetToAllCountries/msg;Do you wish to reset all changes made to the appearance of research countries?;Do you wish to reset all changes made to the appearance of research countries?;same;;;
 info/on; on ; on ;same;;;
 info/max_speed;Max speed;Max speed;same;;;
@@ -5622,7 +5622,7 @@ info/material/hasSteelArmor/tooltip;Armor protection is made using steel armor p
 info/material/hasNoArmor;Without armor;Without armor;same;;;
 info/material/hasNoArmor/tooltip;There is no armor protection, the vehicle is made of non-armored materials and is not designed to be under enemy fire.;There is no armor protection, the vehicle is made of non-armored materials and is not designed to be under enemy fire.;same;;;
 info/material/bullet_proof_lite;Bullet proof;Bullet proof;same;;;
-info/material/bullet_proof_lite/tooltip;Bullet proof armor is designed to protect a combat vehicle from small arms fire and shell fragments.;Bulletproof armor is designed to protect a combat vehicle from small arms fire and shell fragments.;trim;;;
+info/material/bullet_proof_lite/tooltip;Bulletproof armor is designed to protect a combat vehicle from small arms fire and shell fragments.;Bulletproof armor is designed to protect a combat vehicle from small arms fire and shell fragments.;same;;;
 info/material/projectile_proof_medium;Projectile proof;Projectile proof;same;;;
 info/material/projectile_proof_medium/tooltip;Projectile-proof armor is designed to protect a combat vehicle from tank and anti-tank gunfire. For medium and main battle tanks, this typically means providing projectile-proof protection from the front, while the sides and rear are often significantly less protected.;Projectile-proof armor is designed to protect a combat vehicle from tank and anti-tank gunfire. For medium and main battle tanks, this typically means providing projectile-proof protection from the front, while the sides and rear are often significantly less protected.;same;;;
 info/material/projectile_proof_heavy;Projectile proof;Projectile proof;same;;;
