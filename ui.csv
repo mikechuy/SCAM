@@ -371,7 +371,7 @@ hints/request_extinguish_help_cancel;Press to cancel request help with firefight
 hints/request_extinguish_help_cancel_no_key;;press to cancel the firefighting help request (key not assigned);nice;;;
 hints/need_stop_for_fire;Stop vehicle to fire;Stop the ground vehicle to fire;nice;;;
 hints/need_stop_for_hull_aiming;Stop vehicle to hull aim;Stop the ground vehicle for hull aiming;nice;;;
-hints/need_stop_for_radar;Stop the ground vehicle to unfold radar;Stop the ground vehicle to unfold radar;same;;;
+hints/need_stop_for_radar;Stop vehicle to unfold radar;Stop the ground vehicle to unfold radar;nice;;;
 hints/stop_terraform_for_hull_aiming;Stop entrenching to hull aim;Disable entrenching for hull aiming;nice;;;
 hints/move_suspension_blocked;Stop entrenching to adjust suspension;Disable entrenching to move suspension;nice;;;
 hints/need_stop_for_terraform;Stop vehicle to entrench;Stop the ground vehicle for entrenching;nice;;;
