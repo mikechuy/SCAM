@@ -2176,8 +2176,8 @@ Are you sure you want to close the window?";"If you close the research window, {
 Are you sure you want to close the window?";same;;;
 mainmenu/nextResearch/noModifications;No modifications available for research.;No modifications available for research.;same;;;
 mainmenu/nextResearch/noUnits;No vehicles available for research.;No vehicles available for research.;same;;;
-mainmenu/nextResearch/canChangeLater/modification;You can change your decision later in weaponry window.;You can change your decision later in weapory window.;trim;;;
-mainmenu/nextResearch/changeChoosedModificationLater;You can change your decision later in weaponry window.;You can change your decision later in weapory window.;trim;;;
+mainmenu/nextResearch/canChangeLater/modification;You can change your choice later in weaponry window.;You can change your decision later in weapory window.;nice;;;
+mainmenu/nextResearch/changeChoosedModificationLater;You can change your choice later in weaponry window.;You can change your decision later in weapory window.;nice;;;
 mainmenu/nextResearch/canChangeLater/unit;You can change your decision later in research window.;You can change your decision later in research window.;same;;;
 mainmenu/nextResearch/changeChoosedUnitLater;You can change your decision later in research window.;You can change your decision later in research window.;same;;;
 mainmenu/nextResearch/eliteUnit;Everything that is available for this vehicle model has been researched.;Everything that is available for this vehicle model has been researched.;same;;;
@@ -2428,7 +2428,7 @@ armor_class/RHA_tank_modern;Modern Rolled HA (1.01);Rolled homogeneous armor;nic
 armor_class/RHA_tiger_II;Kruppstahl RHA (0.95);Rolled homogeneous armor;nice;;;
 armor_class/RHA_is_3;Vodka Infused RHA (1.0);Rolled homogeneous armor;nice;;;
 armor_class/RHAHH_tank;High-Hardness RHA (1.25);High hardness rolled armor;nice;;;
-armor_class/composite_uhh_tank;Modern High-Hardness RHA/composite core;High hardness composite armor;trim;;;
+armor_class/composite_uhh_tank;Modern High-Hardness RHA/composite;High hardness composite armor;trim;;;
 armor_class/fireproof_composite;Fireproof container;Fireproof container;same;;;
 armor_class/aluminum_armor_AMS_4050A;Alum alloy AMS 4050A (0.5);Aluminium alloy AMS 4050A;trim;;;
 armor_class/aluminum_armor_7039;Alum alloy 7039 (0.5);Aluminium alloy 7039;trim;;;
