@@ -1635,7 +1635,7 @@ hud_tutorial_boat_auto_gunners_modes;Your gunners’ current target-selection mo
 hud_tutorial_boat_auto_gunners_mode_off;Manual control;Manual control;same;;;
 hud_tutorial_boat_auto_gunners_mode_air;Fire at will – airborne targets;Fire at will – airborne targets;same;;;
 hud_tutorial_boat_auto_gunners_mode_water;Fire at will – surface targets;Fire at will – surface targets;same;;;
-hud_tutorial_boat_auto_gunners_mode_all;Fire at will – all targets;Fire at will – any enemy targets;nice;;;
+hud_tutorial_boat_auto_gunners_mode_all;Fire at will – any enemy targets;Fire at will – any enemy targets;same;;;
 hints/tutorialBoat_switch_gunners_mode;"Switch your gunners’ target-selection mode to ""surface"" or ""any"" and wait for your crew to destroy the target on their own.";"Switch your gunners’ target-selection mode to ""surface"" or ""any"" and wait for your crew to destroy the target on their own.";same;;;
 hints/tutorialBoat_gunners_killed_the_target;"Splendid! Your next objective is to capture a strategic point.
 
@@ -1879,22 +1879,22 @@ missions/tutorial_ship_action/full_back;Full astern;Full astern;same;;;
 missions/tutorial_ship_action/stop;Stop;Stop;same;;;
 missions/tutorial_ship_action/steering;Steering;Steering;same;;;
 missions/tutorial_ship_action/turn;Guide weapons;Guide weapons;same;;;
-missions/tutorial_ship_action/camera_turn;Free camera;Free camera look;nice;;;
+missions/tutorial_ship_action/camera_turn;Free camera look;Free camera look;same;;;
 missions/tutorial_ship_action/objective;"Head to one of the points
 ╸ ╹ ╺";"Head to one of the points
 ╸ ╹ ╺";same;;;
 missions/tutorial_ship_action/binocular;Binoculars;Binoculars;same;;;
 missions/tutorial_ship_action/binocular_zoom;Zoom in;Zoom in;same;;;
-missions/tutorial_ship_action/aim_target;Lock on target;Lock the target;nice;;;
+missions/tutorial_ship_action/aim_target;Lock the target;Lock the target;same;;;
 missions/tutorial_ship_action/aim;Take aim;Take aim;same;;;
 missions/tutorial_ship_action/fire;Fire;Fire;same;;;
-missions/tutorial_ship_action/weak_point;Aim for weak points;Aim for the weak points;nice;;;
+missions/tutorial_ship_action/weak_point;Aim for the weak points;Aim for the weak points;same;;;
 missions/tutorial_ship_action/defence;Defend yourself!;Defend yourself!;same;;;
 missions/tutorial_ship_action/defence_move;Angle the hull;Angle the hull;same;;;
 missions/tutorial_ship_action/maneuver;Make a maneuvers;Make a maneuvers;same;;;
-missions/tutorial_ship_action/repair;Repair modules faster;Repair damaged modules faster;nice;;;
+missions/tutorial_ship_action/repair;Repair damaged modules faster;Repair damaged modules faster;same;;;
 missions/tutorial_ship_action/extinguish;Extinguish fire faster;Extinguish fire faster;same;;;
-missions/tutorial_ship_action/hole;Repair hull and pump out water faster;Repair a breach and pump out water faster;nice;;;
+missions/tutorial_ship_action/hole;Repair a breach and pump out water faster;Repair a breach and pump out water faster;same;;;
 missions/tutorial_ship_action/smoke;Deploy a smoke screen;Deploy a smoke screen;same;;;
 missions/tutorial_ship_action/torpedo_sight;Torpedo sight;Torpedo sight;same;;;
 missions/tutorial_ship_action/torpedo_fire;Align and fire;Align and fire;same;;;

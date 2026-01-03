@@ -2013,7 +2013,7 @@ hotkeys/helicopter_sensor_cue_z_rangeMin;Minimum Radar/IRST tilt axis;Minimum Ra
 hotkeys/helicopter_sensor_cue_z_rangeSet;Reset Radar/IRST tilt axis;Reset Radar/IRST tilt axis;same;;;
 hotkeys/helicopter_sensor_cue_z;Enable Radar/IRST tilt axis;Enable Radar/IRST tilt axis;same;;;
 hotkeys/ID_COLLAPSE_ACTION_BAR;Collapse/expand action bar in battle;Collapse/expand action bar in battle;same;;;
-TXT_MACH_NUMBER_BLOCKS_FLAPS;Bitching flaps better open at speed, Gaijoob hates consistency;Flaps blocked at high speed;trim;;;
+TXT_MACH_NUMBER_BLOCKS_FLAPS;Fucking flaps better open at speed, Gaijoob hates consistency;Flaps blocked at high speed;trim;;;
 TXT_MACH_NUMBER_BLOCKS_GEAR;Gear blocked at high speed;Gear blocked at high speed;same;;;
 TXT_MACH_NUMBER_BLOCKS_CHUTE;Chute blocked at high speed;Chute blocked at high speed;same;;;
 HUD/TXT_MACH_NUMBER_BLOCKS_VTOL;Thrust vector blocked at high speed;Thrust vector blocked at high speed;same;;;
