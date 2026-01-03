@@ -1018,7 +1018,7 @@ weapons/gr_2250l_tornado_f3_2;Drop tank (495 gal.);Drop tank (495 gal.);same;;;
 weapons/gr_2250l_tornado_f3_2/short;Drop tank 2250;Drop tank 2250;same;;;
 weapons/fr_1300l_rp522_mirage_2000d_r1;RP522⛽ (1300 ℓ);Drop tank (1300 liters.);nice;;;
 weapons/fr_1300l_rp522_mirage_2000d_r1/short;RP522⛽;Drop tank;nice;;;
-weapons/fr_2500l_m4000_drop_tank_1;M4000 (2500 ℓ);Drop tank (2500 liters.);nice;;;
+weapons/fr_2500l_m4000_drop_tank_1;Drop tank (2500 ℓ);Drop tank (2500 liters.);nice;;;
 weapons/fr_2500l_m4000_drop_tank_1/short;Drop tank;Drop tank;same;;;
 weapons/fr_2500l_m4000_drop_tank_2;Drop tank (2500 ℓ);Drop tank (2500 liters.);nice;;;
 weapons/fr_2500l_m4000_drop_tank_2/short;Drop tank;Drop tank;same;;;
