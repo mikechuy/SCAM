@@ -1126,30 +1126,30 @@ crew/qualifyIncrease1;Upgrade qualification to Ace;Upgrade qualification to Ace;
 crew/qualifyIncrease/tooltip;Upgrade qualification to the next level;Upgrade qualification to the next level;same;;;
 crew/qualification/buy;Upgrade Qualification {qualify} on {unitName} for {cost}.;Upgrade Qualification {qualify} on {unitName} for {cost}.;same;;;
 crew/qualifyRequirement;Crew level required: {reqLevel};Crew level required: {reqLevel};same;;;
-crew/qualifyRequirement/full;To qualify for {wantedQualify} on {unitName}, you need {reqLevel} crew level.;To qualify for {wantedQualify} on {unitName}, you need {reqLevel} crew level.;same;;;
-crew/qualifyRequirement/need_level;Increase the crew level up to {reqLevel} ({currentLevelText}) to be able to take a refresher course up to {wantedQualify} level ({trainCost}).;Increase the crew level up to {reqLevel} ({currentLevelText}) to be able to take a refresher course up to {wantedQualify} level ({trainCost}).;same;;;
+crew/qualifyRequirement/full;To qualify for {wantedQualify} on {unitName}, you need {reqLevel} crew level.;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;nice;;;
+crew/qualifyRequirement/need_level;Increase the crew level up to {reqLevel} ({currentLevelText}) to be able to take a refresher course up to {wantedQualify} level ({trainCost}).;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;nice;;;
 crew/currentLevel;current: {level};current: {level};same;;;
 crew/msg/qualifyRequirement;"To qualify for {wantedQualify} on {unitName},
-you need {reqLevel} crew level.";"To qualify for {wantedQualify} on {unitName},
-you need {reqLevel} crew level.";same;;;
+you need {reqLevel} crew level.";"To obtain the {wantedQualify} qualification for {unitName},
+you need crew level {reqLevel}.";nice;;;
 shop/needMoneyQuestion_increaseQualify;"Are you sure you want to upgrade the crew's qualifications for the {unitName}
-for {cost}?";"Are you sure you want to upgrade the crew's qualifications for the {unitName}
-for {cost}?";same;;;
+for {cost}?";"Are you sure you want to upgrade the crew's qualification for the {unitName}
+for {cost}?";trim;;;
 shop/ask/increaseLowerQualify;"To qualify for {wantedQualify} on {unitName},
 you need {reqLevel} crew level.
 But you can upgrade the crew's qualifications up to {targetQualify}.
 
-Would you like to upgrade the crew's qualifications up to {targetQualify} for {cost}?";"To qualify for {wantedQualify} on {unitName},
-you need {reqLevel} crew level.
-But you can upgrade the crew's qualifications up to {targetQualify}.
+Would you like to upgrade the crew's qualifications up to {targetQualify} for {cost}?";"To obtain the {wantedQualify} qualification for {unitName},
+you need crew level {reqLevel}.
+But you can upgrade the crew's qualification up to {targetQualify}.
 
-Would you like to upgrade the crew's qualifications up to {targetQualify} for {cost}?";same;;;
+Would you like to upgrade the crew's qualification up to {targetQualify} for {cost}?";nice;;;
 shop/crewQualifyBonuses;"{qualification} qualification bonuses:
 {bonuses}";"{qualification} qualification bonuses:
 {bonuses}";same;;;
-crew/qualifyBonuses/total;Qualification {wantedQualify} gives bonus {bonusValue} to all crew skills for this vehicle.;Qualification {wantedQualify} gives bonus {bonusValue} to all crew skills for this vehicle.;same;;;
-crew/qualifyRequirement/tooltip;Requirement to upgrade qualification.;Requirement to upgrade qualification.;same;;;
-crew/qualifyOnlyForSameType;Qualification is valid only for skills of the same type of vehicle.;Qualification is valid only for skills of the same type of vehicle.;same;;;
+crew/qualifyBonuses/total;Qualification {wantedQualify} gives bonus {bonusValue} to all crew skills for this vehicle.;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;nice;;;
+crew/qualifyRequirement/tooltip;Requirement to upgrade qualification.;Required for qualification upgrade.;trim;;;
+crew/qualifyOnlyForSameType;Qualification is valid only for skills of the same type of vehicle.;The qualification is valid only for skills of this type of vehicle.;nice;;;
 crew/skillsWorkWithUnitsSameType;These skills do not work with the selected type of vehicle.;These skills do not work with the selected type of vehicle.;same;;;
 crew/qualification/-1;Not trained;Not trained;same;;;
 crew/qualification/0;Basic;Basic;same;;;
@@ -3689,12 +3689,12 @@ respawn/leftRespawns;Respawns: {num};Respawns: {num};same;;;
 respawn/costRespawn;Respawn: {cost} SP;Respawn: {cost} SP;same;;;
 respawn/leftTeamUnit;Vehicles: {num};Vehicles: {num};same;;;
 respawn/noUnitLeft;You ran out of {unitName}.;You ran out of {unitName}.;same;;;
-respawn/randomUnitsGroup/description;Random vehicle: {groupName};Random vehicle: {groupName};same;;;
-respawn/randomUnitsGroup/name;Random vehicle;Random vehicle;same;;;
-respawn/randomUnitsGroup/content;Contains one vehicle from the list:;Contains one vehicle from the list:;same;;;
+respawn/randomUnitsGroup/description;Random shit: {groupName};Random vehicle: {groupName};nice;;;
+respawn/randomUnitsGroup/name;Random shit;Random vehicle;nice;;;
+respawn/randomUnitsGroup/content;Contains a stock cunt from the list:;Contains one vehicle from the list:;trim;;;
 respawn/randomUnitWarning;This vehicle is given to you for the current mission and you can use it equally with your own.;This vehicle is given to you for the current mission and you can use it equally with your own.;same;;;
-respawn/randomUnitHint;– random vehicle issued for the current mission.;– random vehicle issued for the current mission.;same;;;
-respawn/randomUnitsList;Selected randomly from the list:;Selected randomly from the list:;same;;;
+respawn/randomUnitHint;– random rubbish for the current mission.;– a random vehicle given for the current mission.;nice;;;
+respawn/randomUnitsList;Selected with bias from the list:;Selected randomly from the list:;trim;;;
 inBattle/timeToKick;;"WARNING!
 If you remain inactive,
 you will be returned to the main menu in {timeToKick}";nice;;;
@@ -4038,8 +4038,8 @@ crew/qualification/expUpgradeFullUpgrade;{romanNumeral} ({expAmount}) – Gettin
 crew/qualification/nextSpec;Next qualification;Next qualification;same;;;
 crew/qualification/specDescriptionMain;The {specName} qualification can be purchased for {trainCost}{descPart};The {specName} qualification can be purchased for {trainCost}{descPart};same;;;
 crew/qualification/specDescriptionPart; or obtained for free when the crew gets {expAmount} with the current vehicle.; or obtained for free when the crew gets {expAmount} with the current vehicle.;same;;;
-crew/qualification/specAvailableToPurchase;Upgrade to {specName} ({trainCost}).;Upgrade to {specName} ({trainCost}).;same;;;
-crew/qualification/earnResearchPoints;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of qualification {specName}:;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of qualification {specName}:;same;;;
+crew/qualification/specAvailableToPurchase;Upgrade to {specName} ({trainCost}).;Complete the qualification upgrade course to level {specName} ({trainCost}).;nice;;;
+crew/qualification/earnResearchPoints;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of qualification {specName}:;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of {specName} qualification:;nice;;;
 crewSkillParameter/tankDriverMaxForwardSpeed;Maximum speed;Maximum speed;same;;;
 crewSkillParameter/tankDriverMaxBackSpeed;Maximum back run speed.;Maximum back run speed.;same;;;
 urlMissions/header;Missions by URL;Missions by URL;same;;;
@@ -5368,14 +5368,14 @@ wtassistant_deeplink/title;WT Assistant;WT Assistant;same;;;
 wtassistant_deeplink/descr;"Install WT Assistant:
 Scan the QR code with your phone's camera and download the app right now!
 
-WT Assistant is your mobile companion for your favorite game!
-Always be at the epicenter of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
+WT Assistant is your mobile companion for your favourite game!
+Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
 Stay one step ahead with WT Assistant!";"Install WT Assistant:
 Scan the QR code with your phone's camera and download the app right now!
 
 WT Assistant is your mobile companion for your favourite game!
 Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
-Stay one step ahead with WT Assistant!";nice;;;
+Stay one step ahead with WT Assistant!";same;;;
 slotbar/swapCrewButton;Change order;Change order;same;;;
 slotbar/dragCrewHint;This action can be done by drag-n-drop – just drag the crew block;This action can be done by drag-n-drop – just drag the crew block;same;;;
 slotbar/dragUnitHint;This action can be done by drag-n-drop – just drag the vehicle slot;This action can be done by drag-n-drop – just drag the vehicle slot;same;;;
@@ -5409,7 +5409,7 @@ logs/mission_points;{num} {num=mission point/mission points};{num} {num=mission 
 logs/ammunition;Ammunition;Ammunition;same;;;
 logs/damage;damage;damage;same;;;
 logs/crew_percent;{val}% of crew;{val}% of crew;same;;;
-shop/show_nation_bonus_in_tab;Show remaining bonus in headers;Show the remaining bonus in headers;nice;;;
+shop/show_nation_bonus_in_tab;Show the remaining bonus in headers;Show the remaining bonus in headers;same;;;
 shop/moreVehicles;+ {num} more {num=vehicle/vehicles};+ {num} more {num=vehicle/vehicles};same;;;
 shop/tasksExpired;<color=@redMenuButtonColor>task completed</color>;<color=@redMenuButtonColor>task completed</color>;same;;;
 mainmenu/seasonExpiredSoon;Season ends in {time};Season ends in {time};same;;;
@@ -5657,21 +5657,21 @@ info/wingLoading/tooltip;The wing loading determines the takeoff and landing spe
 info/apsName;"APS ""{name}""";"APS ""{name}""";same;;;
 info/att;Auto tracker;Auto tracker;same;;;
 info/att/tooltip;Automatic target tracking is a system that automatically tracks the movement of a target after it has been detected and captured, calculating its current coordinates and movement parameters;Automatic target tracking is a system that automatically tracks the movement of a target after it has been detected and captured, calculating its current coordinates and movement parameters;same;;;
-msgbox/notAvailbleMod;You need to buy this item in modification menu first.;You need to buy this item in modification menu first.;same;;;
-msgbox/graphic_aa_settings_was_modified;"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but but with some decline in performance. You can always change the anti-aliasing method by going to the graphic settings.";"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but but with some decline in performance. You can always change the anti-aliasing method by going to the graphic settings.";same;;;
+msgbox/notAvailbleMod;You need to purchase this item in the modification menu first.;You need to purchase this item in the modification menu first.;same;;;
+msgbox/graphic_aa_settings_was_modified;"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphic settings.";"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphic settings.";same;;;
 mainmenu/compareBullets;Compare shells;Compare shells;same;;;
 mainmenu/bulletsParameters;Shell parameters;Shell parameters;same;;;
 mainmenu/ballistics;Ballistics;Ballistics;same;;;
 mainmenu/shotSettings;Shot settings;Shot settings;same;;;
 mainmenu/angle;Angle;Angle;same;;;
 mainmenu/addBulletForCompare;Add shell for comparison;Add shell for comparison;same;;;
-mainmenu/needAddBulletForCompare;Need add shell for comparison;Need add shell for comparison;same;;;
+mainmenu/needAddBulletForCompare;Need to add a shell for comparison;Need to add a shell for comparison;same;;;
 mainmenu/showWeaponsInHangar;Show/hide weapons;Show/hide weapons;same;;;
-msg/bulletForCompare/needSelectBullet;Need select shell;Need select shell;same;;;
+msg/bulletForCompare/needSelectBullet;Need to select a shell;Need to select a shell;same;;;
 msg/bulletForCompare/alreadyAddedForComparison;The selected shell has already been added for comparison. Select another shell.;The selected shell has already been added for comparison. Select another shell.;same;;;
 msg/bulletForCompare/maximumBulletsCountReached;The maximum number of shells for comparison has been reached. To add a new shell, you must remove one from the list.;The maximum number of shells for comparison has been reached. To add a new shell, you must remove one from the list.;same;;;
 msg/bulletForCompare/bulletsCannotBeComparedByUnitTypes;Ship shells cannot be compared to tank or aircraft shells. To add a shell, you must remove all shells from the comparison list.;Ship shells cannot be compared to tank or aircraft shells. To add a shell, you must remove all shells from the comparison list.;same;;;
 info/num_engines;Number of engines: {num};Number of engines: {num};same;;;
 info/num_transmissions;Number of transmissions: {num};Number of transmissions: {num};same;;;
-info/num_boilers;Number of boiler houses: {num};Number of boiler houses: {num};same;;;
-info/num_engine_rooms;Number of engine rooms: {num};Number of engine rooms: {num};same;;;
+info/num_boilers;Number of boiler rooms: {num};Number of boiler rooms: {num};same;;;
+info/num_engine_rooms;Number of engine compartments: {num};Number of engine compartments: {num};same;;;

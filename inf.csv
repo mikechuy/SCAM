@@ -143,9 +143,9 @@ crew/weapon_handling/weaponSwayForceMult/tooltip;;;same;;;
 crew/groundService/squadAdditionalSoldierCount/tooltip;;;same;;;
 multiplayer/human_kills;Cargo 200;Infantry Neutralized;nice;;;
 expEventScore/killHuman;Mobnik Eliminated;Neutralization of infantry;nice;;;
-msgbox/applyToAllInfantrySkins;"Are you sure you want to apply camouflage
+msgbox/applyToAllInfantrySkins;"Are you sure you want to apply the camouflage
  {skin} for BR({br}) {location}, {team}
- to all firearms?";"Are you sure you want to apply camouflage
+ to all firearms?";"Are you sure you want to apply the camouflage
  {skin} for BR({br}) {location}, {team}
  to all firearms?";same;;;
 mainmenu/changeFirearm;Change firearm;Change firearm;same;;;

@@ -5950,7 +5950,7 @@ jh_7a_prototype_0;"JH-7A prototype №1 ""Fēi Bào"", 2013F";JH-7A (Proto
 jh_7a_prototype_1;JH-7A;JH-7A;歼​轰​-7A 原​型​机;same;;
 jh_7a_prototype_2;JH-7A;JH-7;歼​轰​-7A;1;;
 jf_17_shop;JF-17;JF-17;JF-17;same;;
-jf_17_0;"JF-17 ""Thunder"", 2015F";JF-17 Thunder;JF-17 雷​电;9;;
+jf_17_0;"JF-17 Block 1 ""Thunder"", 2015F";JF-17 Thunder;JF-17 雷​电;17;;
 jf_17_1;JF-17;JF-17;JF-17;same;;
 jf_17_2;JF-17;JF-17;JF-17;same;;
 shop/group/j_11_group;J-11;J-11;歼​-11;same;;
@@ -9666,7 +9666,7 @@ it_breda_52_autocannone_0;Autocannone da 90/53 su Breda 52, 1942;Autocanno
 it_breda_52_autocannone_1;⛨Technical/90;Breda 90/53;布​雷​达 90/53;2;;
 it_breda_52_autocannone_2;⛨⋢ 90;SPG;自​行​火​炮;2;;
 it_semovente_breda_501_shop;Breda 501;Breda 501;布​雷​达 501;same;;
-it_semovente_breda_501_0;Semovente ruotato da 90/53 Breda 501, 1943;Semovente Ruotato da 90/52 Breda 501;90 毫​米​/52 自​行​旋​转​火​炮​布​雷​达 501;6;;
+it_semovente_breda_501_0;Semovente ruotato da 90/53 Breda 501, 1943;Semovente Ruotato da 90/53 Breda 501;90 毫​米​/52 自​行​旋​转​火​炮​布​雷​达 501;6;;
 it_semovente_breda_501_1;Breda 501;Breda 501;布​雷​达 501;same;;
 it_semovente_breda_501_2;Breda 501;SPG;自​行​火​炮;6;;
 it_l3_cc_shop;L3/33 cc;L3/33 CC;L3/33 CC;0;;
@@ -14965,7 +14965,7 @@ us_battleship_south_dakota_0;South Dakota-class, USS South Dakota (BB-57),�
 us_battleship_south_dakota_1;USS South Dakota;USS South Dakota;南​达​科​他;same;;
 us_battleship_south_dakota_2;South Dakota;Battleship;战​列​舰;2;;
 fr_frigate_corse_class_corse_shop;Le Corse;Le Corse;科​西​嘉;same;;
-fr_frigate_corse_class_corse_0;Type E50 Le Corse-classe, Le Corse (F761);Corse-class, Le Corse (F761);E-50 型 (科​西​嘉​级) 快​速​护​航​舰​“科​西​嘉”​号 (F761);13;;
+fr_frigate_corse_class_corse_0;Type E50 Le Corse-classe, Le Corse (F761);Le Corse-class, Le Corse (F761);E-50 型 (科​西​嘉​级) 快​速​护​航​舰​“科​西​嘉”​号 (F761);10;;
 fr_frigate_corse_class_corse_1;Le Corse;Le Corse;科​西​嘉;same;;
 fr_frigate_corse_class_corse_2;Le Corse;Frigate;护​卫​舰;1;;
 fr_cruiser_suffren_class_suffren_shop;Suffren;Suffren;絮​弗​伦;same;;
