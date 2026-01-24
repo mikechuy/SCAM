@@ -2717,9 +2717,9 @@ The ship can carry several rangefinders. All of them are included in the fire co
 When all rangefinders (and fire directors, if they are set) are destroyed, the ship loses the ability to calculate the lead point until these parts are repaired.
 
 If the fire control room (or the battle bridge) is destroyed, the ship also loses the ability to calculate the lead point, even if all the directors are intact.";same;;;
-xray_ext_hint/catapult;"Allows launching of the ship's hydroplane scout.
-The ship loses this ability if the catapult is destroyed.";"Allows launching of the ship's hydroplane scout.
-The ship loses this abilty if the catapult is destroyed.";trim;;;
+xray_ext_hint/catapult;"Allows launching the ship's hydroplane scout.
+Won't work if the catapult is destroyed.";"Allows launching of the ship's hydroplane scout.
+The ship loses this abilty if the catapult is destroyed.";nice;;;
 xray_ext_hint/turret;"A destroyed turret cannot be directed and cannot fire.
 
 There is a chance of fire when a turret is destroyed.
@@ -4039,7 +4039,7 @@ crew/qualification/nextSpec;Next qualification;Next qualification;same;;;
 crew/qualification/specDescriptionMain;The {specName} qualification can be purchased for {trainCost}{descPart};The {specName} qualification can be purchased for {trainCost}{descPart};same;;;
 crew/qualification/specDescriptionPart; or obtained for free when the crew gets {expAmount} with the current vehicle.; or obtained for free when the crew gets {expAmount} with the current vehicle.;same;;;
 crew/qualification/specAvailableToPurchase;Upgrade to {specName} ({trainCost}).;Complete the qualification upgrade course to level {specName} ({trainCost}).;nice;;;
-crew/qualification/earnResearchPoints;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of qualification {specName}:;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of {specName} qualification:;nice;;;
+crew/qualification/earnResearchPoints;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of {specName} qualification:;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of {specName} qualification:;same;;;
 crewSkillParameter/tankDriverMaxForwardSpeed;Maximum speed;Maximum speed;same;;;
 crewSkillParameter/tankDriverMaxBackSpeed;Maximum back run speed.;Maximum back run speed.;same;;;
 urlMissions/header;Missions by URL;Missions by URL;same;;;
@@ -4446,7 +4446,7 @@ mainmenu/needJoinSquadronForResearch/continue;To continue researching this vehic
 mainmenu/needJoinSquadronForResearchOrBuy;This vehicle can be purchased for {price} or researched by joining a regiment and playing random battles.;This vehicle can be purchased for {price} or researched by joining a regiment and playing random battles.;same;;;
 mainmenu/needJoinSquadronForResearchOrBuy/continue;This vehicle can be purchased for {price}, or you can continue your research by joining a regiment and playing random battles.;This vehicle can be purchased for {price}, or you can continue your research by joining a regiment and playing random battles.;same;;;
 mainmenu/researchOrBuy;This vehicle can be purchased for {price} or selected for research based on regiment activity.;This vehicle can be purchased for {price} or selected for research based on regiment activity.;same;;;
-mainmenu/buyOrContinueResearch;This vehicle can be purchased for {price} or continue research based on regiment activity;This vehicle can be purchased for {price}, or you can continue your research based on regiment activity.;nice;;;
+mainmenu/buyOrContinueResearch;This vehicle can be purchased for {price}, or you can continue your research based on regiment activity.;This vehicle can be purchased for {price}, or you can continue your research based on regiment activity.;same;;;
 mainmenu/leaveSquadronNotClearProgress;Research progress is not lost when leaving squadron.;Research progress is not lost when leaving squadron.;same;;;
 mainmenu/leaveSquadronNotLockedVehicle;Vehicle will be available when leaving squadron.;Vehicle will be available when leaving squadron.;same;;;
 workshop/itemMarkingPresets/brokenItem;▕ defective;▕ defective;same;;;
