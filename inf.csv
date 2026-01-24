@@ -79,7 +79,7 @@ Bottom: type of explosive.
 You can give an order to use them.";same;;;
 controls/help/changeHumanPose;Change pose or posture;Changes the soldier's turn;nice;;;
 controls/help/humanChangeInfo;Switch to soldier (1 ... 5) in the squad.;Switch to soldier (1 ... 5) in the squad.;same;;;
-controls/help/humanHoldPosition;A soldier holding a position may cover the specified direction.;A soldier holding a position effectively controls the specified direction.;nice;;;
+controls/help/humanHoldPosition;A soldier holding position may cover a specified direction.;A soldier holding a position effectively controls the specified direction.;nice;;;
 controls/human_mouse_aim_x;Infantryman aiming (X-axis);Infantryman aiming (X-axis);same;;;
 controls/human_mouse_aim_y;Infantryman aiming (Y-axis);Infantryman aiming (Y-axis);same;;;
 controls/ID_HUMAN_UAV;Drone Control;Drone Control;same;;;

@@ -1126,12 +1126,12 @@ crew/qualifyIncrease1;Upgrade qualification to Ace;Upgrade qualification to Ace;
 crew/qualifyIncrease/tooltip;Upgrade qualification to the next level;Upgrade qualification to the next level;same;;;
 crew/qualification/buy;Upgrade Qualification {qualify} on {unitName} for {cost}.;Upgrade Qualification {qualify} on {unitName} for {cost}.;same;;;
 crew/qualifyRequirement;Crew level required: {reqLevel};Crew level required: {reqLevel};same;;;
-crew/qualifyRequirement/full;To qualify for {wantedQualify} on {unitName}, you need {reqLevel} crew level.;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;nice;;;
-crew/qualifyRequirement/need_level;Increase the crew level up to {reqLevel} ({currentLevelText}) to be able to take a refresher course up to {wantedQualify} level ({trainCost}).;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;nice;;;
+crew/qualifyRequirement/full;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;same;;;
+crew/qualifyRequirement/need_level;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;same;;;
 crew/currentLevel;current: {level};current: {level};same;;;
-crew/msg/qualifyRequirement;"To qualify for {wantedQualify} on {unitName},
-you need {reqLevel} crew level.";"To obtain the {wantedQualify} qualification for {unitName},
-you need crew level {reqLevel}.";nice;;;
+crew/msg/qualifyRequirement;"To obtain the {wantedQualify} qualification for {unitName},
+you need crew level {reqLevel}.";"To obtain the {wantedQualify} qualification for {unitName},
+you need crew level {reqLevel}.";same;;;
 shop/needMoneyQuestion_increaseQualify;"Are you sure you want to upgrade the crew's qualifications for the {unitName}
 for {cost}?";"Are you sure you want to upgrade the crew's qualification for the {unitName}
 for {cost}?";trim;;;
@@ -1147,8 +1147,8 @@ Would you like to upgrade the crew's qualification up to {targetQualify} for {co
 shop/crewQualifyBonuses;"{qualification} qualification bonuses:
 {bonuses}";"{qualification} qualification bonuses:
 {bonuses}";same;;;
-crew/qualifyBonuses/total;Qualification {wantedQualify} gives bonus {bonusValue} to all crew skills for this vehicle.;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;nice;;;
-crew/qualifyRequirement/tooltip;Requirement to upgrade qualification.;Required for qualification upgrade.;trim;;;
+crew/qualifyBonuses/total;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;same;;;
+crew/qualifyRequirement/tooltip;Required for qualification upgrade.;Required for qualification upgrade.;same;;;
 crew/qualifyOnlyForSameType;Qualification is valid only for skills of the same type of vehicle.;The qualification is valid only for skills of this type of vehicle.;nice;;;
 crew/skillsWorkWithUnitsSameType;These skills do not work with the selected type of vehicle.;These skills do not work with the selected type of vehicle.;same;;;
 crew/qualification/-1;Not trained;Not trained;same;;;
@@ -5375,7 +5375,7 @@ Scan the QR code with your phone's camera and download the app right now!
 
 WT Assistant is your mobile companion for your favourite game!
 Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
-Stay one step ahead with WT Assistant!";same;;;
+Stay one step ahead with WT Assistant!";nice;;;
 slotbar/swapCrewButton;Change order;Change order;same;;;
 slotbar/dragCrewHint;This action can be done by drag-n-drop – just drag the crew block;This action can be done by drag-n-drop – just drag the crew block;same;;;
 slotbar/dragUnitHint;This action can be done by drag-n-drop – just drag the vehicle slot;This action can be done by drag-n-drop – just drag the vehicle slot;same;;;
@@ -5525,6 +5525,7 @@ frame_halloween_witch/name;Witch Hunt;Witch Hunt;same;;;
 frame_pancakes/name;Pancakes;Pancakes;same;;;
 frame_thunder_ammo_box/name;Thunder Ammo Box;Thunder Ammo Box;same;;;
 frame_ny_2026/name;Spruce garland;Spruce garland;same;;;
+frame_gold_vintage/name;Royal Gold;Royal Gold;same;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;
