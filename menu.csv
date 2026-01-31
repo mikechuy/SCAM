@@ -852,8 +852,8 @@ Purchase more vehicles.";same;;;
 shop/pilot/coupon/info;This profile icon can be obtained from a coupon by purchasing it on the Marketplace;This profile icon can be obtained from a coupon by purchasing it on the Marketplace;same;;;
 shop/reserve;Reserve;Reserve;same;;;
 shop/reserve/short;—;—;same;;;
-shop/spawnScore;{cost} SP;{cost} SP;nice;;;
-shop/rageTokens;{cost} RT;{cost} RT;nice;;;
+shop/spawnScore;{cost} SP;{cost} SP;same;;;
+shop/rageTokens;{cost} RT;{cost} RT;same;;;
 shop/reserve/info;A reserve vehicle, available to everyone. This vehicle is repaired immediately after each battle.;A reserve vehicle, available to everyone. This vehicle is repaired immediately after each battle.;same;;;
 shop/unit_bought;Purchased;Purchased;same;;;
 shop/object/can_be_purchased;Can be purchased;Can be purchased;same;;;
@@ -1996,6 +1996,27 @@ Each player who registers using your link and turns on two-factor authentication
 
 ""<color=@userlogColoredText>{link}</color>""
 (link copied to clipboard)";nice;;;
+msgbox/linkCopied/disabledSecondAndThirdStageForVessels;"Invite your friends to join War Thunder!
+Share the link below with your friends on social media and get:
+
+{firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
+{secondAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {secondAwardRank} in the aviation/army tree</color>
+{thirdAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {thirdAwardRank} in the aviation/army tree</color>
+
+Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.
+
+""<color=@userlogColoredText>{link}</color>""
+(link copied to clipboard)";"Invite your friends to join War Thunder!
+Share the link below with your friends on social media and get:
+
+{firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
+{secondAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {secondAwardRank} in the aviation/army tree</color>
+{thirdAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {thirdAwardRank} in the aviation/army tree</color>
+
+Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.
+
+""<color=@userlogColoredText>{link}</color>""
+(link copied to clipboard)";same;;;
 mainmenu/btnGetLink;;Invite Friend;nice;;;
 mainmenu/getLinkDesc;;"Invite your friends and get a reward!
 
@@ -3178,7 +3199,7 @@ content/tag/semihistorical/disclaimer;Semi-historical – based on a real camouf
 content/tag/fictional/disclaimer;Fictional – a product of the author's imagination and may not have a real-world prototype. Camouflages of this type may be hidden from view by other players in the game settings.;Fictional – a product of the author's imagination and may not have a real-world prototype. Camouflages of this type may be hidden from view by other players in the game settings.;same;;;
 content/tag/except_fictional;Except fictional;Except fictional;same;;;
 content/tag/any;Any;Any;same;;;
-content/tag/thunderleague;Thunder League;Thunder League;nice;;;
+content/tag/thunderleague;Thunder League;Thunder League;same;;;
 content/tag/usergenerated;User-generated;User-generated;same;;;
 camouflage/for_environment_conditions;For conditions;For conditions;same;;;
 camoType/forest;Forest;Forest;same;;;

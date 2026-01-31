@@ -1355,7 +1355,7 @@ modification/bmd_4m_improvement/desc;Mounts additional side and frontal armor.;U
 modification/camouflage_net_certezza;War kit;War kit;same;;;
 modification/camouflage_net_certezza/desc;Installs steel plates to turret face.;War kit additional armor pack;trim;;;
 modification/certezza_protection_improvement;Net+War kit;Net+War kit;same;;;
-modification/certezza_protection_improvement/desc;Camouflage net and War fat armor pack.;Camouflage net and War kit additional armor pack;nice;;;
+modification/certezza_protection_improvement/desc;Camouflage net and installs steel plates to turret face.;Camouflage net and War kit additional armor pack;trim;;;
 modification/abrams_protection_improvement;Tank Urban Survival Kit;TUSK;trim;;;
 modification/abrams_protection_improvement/desc;Installs side ERA, coax M2HB, and gun shields.;TUSK upgrade kit;trim;;;
 modification/c1_protection_improvement;War kit;War kit;same;;;
