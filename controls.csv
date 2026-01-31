@@ -1951,7 +1951,7 @@ controls/sweepAuto;AUTO wing sweep control mode;AUTO wing sweep control mode;sam
 controls/groundBlocksSweep;Wing sweep control blocked on the ground;Wing sweep control is blocked on the ground;nice;;;
 controls/mechBlocksSweep;Wing sweep control blocked by Gaijoob;Wing sweep control is blocked by another mechanization;nice;;;
 controls/payloadBlocksSweep;Payload blocks wing sweep control;Payload blocks wing sweep control;same;;;
-hotkeys/ID_TOGGLE_STEALTH;Camouflage system;Сamouflage system;nice;;;
+hotkeys/ID_TOGGLE_STEALTH;Camouflage system;Camouflage system;same;;;
 hotkeys/ID_TOGGLE_AUTOTURRET_TARGETS;Toggle autoturret targets;Toggle autoturret targets;same;;;
 hotkeys/ID_SELECT_AUTOTURRET_TARGET;Manual targeting to the autoturret;Manual targeting to the autoturret;same;;;
 hotkeys/ID_CAMERA_COMMANDER;Commander sight;Commander sight;same;;;
