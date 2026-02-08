@@ -59,6 +59,7 @@ events/allowed_only/Helicopter;Only helicopters are allowed;Only helicopters are
 events/selected_craft_is_not_allowed;Selected vehicle is not allowed;Selected vehicle is not allowed;same;;;
 events/minSquadSize;Squad size is smaller than {minSize};Squad size is smaller than {minSize};same;;;
 events/maxSquadSize;Squad size is bigger than {maxSize};Squad size is bigger than {maxSize};same;;;
+events/minCraftsToPlay;You need at least {count} {count=vehicle/vehicles} in crew slots.;You need at least {count} {count=vehicle/vehicles} in crew slots.;same;;;
 events/chapter/basic_events;Events;Events;same;;;
 events/chapter/basic_events/ended;Ended Events;Ended Events;same;;;
 events/chapter/clan_events;Squadron Events;Squadron Events;same;;;

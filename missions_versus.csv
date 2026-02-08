@@ -1549,5 +1549,5 @@ Mission objective:
 - Cause as much damage to it as possible";same;;;
 events/bullet_hell;Bullet Hell;Bullet Hell;same;;;
 missions/_bullet_hell;[Bullet Hell];[Bullet Hell];same;;;
-missions/_bullet_hell/desc;Bullet Hell is a team deathmatch style mode that pits two aircraft teams against each other using guns only. No missiles allowed! You can rearm and refuel in a special zone marked on the mini-map. The first team to reach the required score will emerge victorious!;Bullet Hell is a team deathmatch style mode that pits two aircraft teams against each other using guns only. No missiles allowed! You can rearm and refuel in a special zone marked on the mini-map. The first team to reach the required score will emerge victorious!;same;;;
+missions/_bullet_hell/desc;Bullet Hell is a team deathmatch style mode that pits two aircraft teams against each other using guns only. No missiles allowed! You can rearm and refuel in a special zone marked on the mini-map. The first team to reach the required score will emerge victorious!;Bullet Hell is a team deathmatch style mode that pits two aircraft teams against each other using guns only. No missiles allowed! The first team to reach the required score will emerge victorious!;trim;;;
 MISSION_VERSUS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;
