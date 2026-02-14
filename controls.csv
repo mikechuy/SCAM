@@ -1513,7 +1513,7 @@ controls/help/ship/torpedo/projection;The projection of the sight, showing how m
 controls/help/ship/manual_shooting;You can take manual control of weapons, grouped by caliber:;You can take manual control of weapons, grouped by calibre:;nice;;;
 controls/help/ship/manual_targeting;You can also give instructions to weapons of a particular caliber to attack a selected target. The target is marked with an icon over the selected enemy vehicle.;You can also give instructions to weapons of a particular calibre to attack a selected target. The target is marked with an icon over the selected enemy vehicle.;nice;;;
 controls/help/ship/automatic_shooting;You can also give the gunners of auxiliary and anti-aircraft calibers the order to choose their targets automatically.;You can also give the gunners of auxiliary and anti-aircraft calibres the order to choose their targets automatically.;nice;;;
-controls/help/ship_torpedo_control;Torpedo launch;Тorpedo launch;nice;;;
+controls/help/ship_torpedo_control;Torpedo launch;Torpedo launch;same;;;
 controls/help/ship_torpedo_trajectory;Released torpedoes go straight;Released torpedoes go straight;same;;;
 controls/help/ship_torpedo_hint;To hit a moving target, fire torpedoes ahead of the target;To hit a moving target, fire torpedoes ahead of the target;same;;;
 controls/help/ship_rocket_control;Missile launch;Missile launch;same;;;

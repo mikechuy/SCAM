@@ -285,9 +285,9 @@ To quickly change the direction your aircraft is heading, move the cursor to the
 To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen";same;;;
 hints/tutorialB_rockets;"Notice that your plane carries unguided rockets
 Press the {shortcut} button to fire them
-As they have low accuracy, it's better to fire several rockets at one stroke";"Notice that your plane carries unguided rockets
-Press the {shortcut} button to fire them
-As they have low accuracy, it's better to fire several rockets at one stroke";same;;;
+As they have low accuracy, it's better to fire several rockets at one stroke";"Note that your aircraft also carries several unguided rockets
+As they have low accuracy, it's better to fire several rockets at once
+Press the {shortcut} button to fire them";nice;;;
 hints/tutorialB_selector;Press {shortcut} to select rockets using the selector;Press {shortcut} to select rockets using the selector;same;;;
 hints/tutorialB_kill_all;Destroy the vehicles with machine guns, bombs or rockets;Destroy the vehicles with machine guns, bombs or rockets;same;;;
 hints/tutorialB_about_bombers;"Right now you're controlling a bomber
@@ -2204,12 +2204,12 @@ Press {shortcut} to activate the aiming point";same;;;
 hints/aircraft_modifications/spi_menu1;"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
 Press {shortcut} to open the multi-function menu";"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
 Press {shortcut} to open the multi-function menu";same;;;
-hints/aircraft_modifications/menu_choose_cockpit;Choose 'Cockpit';Сhoose 'Cockpit';nice;;;
-hints/aircraft_modifications/menu_choose_spi;Choose 'Activate target point';Сhoose 'Activate target point';nice;;;
-hints/aircraft_modifications/menu_choose_mfd;Choose 'MFD / NVD';Сhoose 'MFD / NVD';nice;;;
-hints/aircraft_modifications/menu_choose_ndv;Choose 'Switch NVD mode';Сhoose 'Switch NVD mode';nice;;;
-hints/aircraft_modifications/menu_choose_radar;Choose 'Radar / IRST';Сhoose 'Radar / IRST';nice;;;
-hints/aircraft_modifications/menu_choose_radar_switch;Choose 'Change Radar/IRST mode';Сhoose 'Change Radar/IRST mode';nice;;;
+hints/aircraft_modifications/menu_choose_cockpit;Choose 'Cockpit';Choose 'Cockpit';same;;;
+hints/aircraft_modifications/menu_choose_spi;Choose 'Activate target point';Choose 'Activate target point';same;;;
+hints/aircraft_modifications/menu_choose_mfd;Choose 'MFD / NVD';Choose 'MFD / NVD';same;;;
+hints/aircraft_modifications/menu_choose_ndv;Choose 'Switch NVD mode';Choose 'Switch NVD mode';same;;;
+hints/aircraft_modifications/menu_choose_radar;Choose 'Radar / IRST';Choose 'Radar / IRST';same;;;
+hints/aircraft_modifications/menu_choose_radar_switch;Choose 'Change Radar/IRST mode';Choose 'Change Radar/IRST mode';same;;;
 hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the desired point and activate the aiming point
 Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point
 Press {shortcut} to activate it";same;;;

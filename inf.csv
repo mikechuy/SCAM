@@ -31,8 +31,8 @@ hotkeys/ID_SHIPS_TOGGLE_HYDROPHONE_MODE;Hydrophone mode on/off;Hydrophone mode o
 hotkeys/ID_ENABLE_TARGET_TRACKING_TANK;Enable ATT;Enable ATT;same;;;
 hotkeys/ID_HUMAN_ORDERS_MENU;Squad orders menu;Squad orders menu;same;;;
 hotkeys/ID_HUMAN_WEAPON_MENU;Weapon control menu: switching fire modes, using modules (underbarrel weapon, laser sight, flashlight);Weapon control menu: switching fire modes, using modules (underbarrel weapon, laser sight, flashlight);same;;;
-hotkeys/ID_HUMAN_MAIN_WEAPON;Switching between main weapon and module;Switching between main weapon and module;same;;;
-hotkeys/ID_HUMAN_SELECT_PREV_SOLDIER;Select previos soldier;Select previos soldier;same;;;
+hotkeys/ID_HUMAN_MAIN_WEAPON;Switching between main weapon and module;Switching between the main weapon and a module;nice;;;
+hotkeys/ID_HUMAN_SELECT_PREV_SOLDIER;Select previos soldier;Select previous soldier;nice;;;
 hotkeys/ID_HUMAN_SELECT_NEXT_SOLDIER;Select next soldier;Select next soldier;same;;;
 hotkeys/ID_HUMAN_CONTEXT_COMMAND_NEXT_SOLDIER;Select next soldier;Select next soldier;same;;;
 hotkeys/ID_HUMAN_CONTEXT_COMMAND_NEXT_POSE;Change selected soldier pose;Change selected soldier pose;same;;;
@@ -59,7 +59,7 @@ hotkeys/ID_LOCK_TARGETING_AT_POINT_HUMAN_UAV;Sight stabilization;Sight stabiliza
 hotkeys/ID_UNLOCK_TARGETING_AT_POINT_HUMAN_UAV;Disable sight stabilization;Disable sight stabilization;same;;;
 hotkeys/ID_HUMAN_UAV;UAV;UAV;same;;;
 hotkeys/ID_TOGGLE_VIEW_HUMAN_UAV;Toggle View;Toggle View;same;;;
-hotkeys/ID_HUMAN_NEXT_AFTER_DEATH;Switch to next;Switch to next;same;;;
+hotkeys/ID_HUMAN_NEXT_AFTER_DEATH;Switch to next;Switch to the next;nice;;;
 hotkeys/ID_REPAIR_HUMAN;Repair;Repair;same;;;
 hotkeys/ID_HUMAN_SHOOT_MELEE;Melee attack;Melee strike;nice;;;
 hotkeys/ID_HUMAN_USE_MEDKIT;Use medkit;Use medkit;same;;;

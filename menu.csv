@@ -1071,7 +1071,7 @@ Reduces repair time by up to 3 times when fully researched.";same;;;
 crew/repairRank;Repair Rank;Repair Rank;same;;;
 crew/groundService/repairRank/tooltip;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;same;;;
 crew/notEnoughRepairRank;"Current vehicle rank is too high ({rank}) to be affected by repair speed.
-Upgrade Repair Rank to {level} to activate repair speed.";"Сurrent vehicle rank is too high ({rank}) to be affected by repair speed.
+Upgrade Repair Rank to {level} to activate repair speed.";"Current vehicle rank is too high ({rank}) to be affected by repair speed.
 Upgrade Repair Rank to {level} to activate repair speed.";nice;;;
 crew/airReloadSkill;Reload Speed;Reload Speed;same;;;
 crew/groundService/airReloadSkill/tooltip;"The armorer's skill. Increases the rate at which the weapons are reloaded in the air and at the field.
@@ -2508,7 +2508,7 @@ armor_class/ships_oil_fuel_tank;Oil/fuel tank;Structural steel;nice;;;
 armor_class/ships_coal_bunker;Coal bunker;Coal bunker;same;;;
 armor_class/steel/short;Steel;Steel;same;;;
 armor_class/steel_tankman;Crew member;Crew member;same;;;
-armor_class/tank_traks;Track (0.75);Traсks;trim;;;
+armor_class/tank_traks;Track (0.75);Tracks;trim;;;
 armor_class/optics_tank;Optic (0.4);Optics;trim;;;
 armor_class/car_wheels;Wheel (0.3);Chassis;trim;;;
 armor_class/tank_barrel;Gun steel (1.1);Gun steel;trim;;;
@@ -3111,7 +3111,7 @@ items/craft_process/countdown/disassemble;Disassembly will be finished in {timel
 items/craft_process/finished;Finished;Finished;same;;;
 items/craft_process/finish;Finish;Finish;same;;;
 items/craft_process/using;Items used in the assembly:;Items used in the assembly:;same;;;
-item/craft_process/cancel;Cancel;Сancel;nice;;;
+item/craft_process/cancel;Cancel;Cancel;same;;;
 item/rarity1;Common;Common;same;;;
 item/rarity2;Uncommon;Uncommon;same;;;
 item/rarity3;Rare;Rare;same;;;
@@ -3898,7 +3898,7 @@ actionBarItem/mortar;Mortar;Mortar;same;;;
 actionBarItem/rocket;Rockets;Rockets;same;;;
 actionBarItem/torpedo;Torpedoes;Torpedoes;same;;;
 actionBarItem/smoke_screen;Smoke screen;Smoke screen;same;;;
-actionBarItem/acoustic_countermeasure;Acoustic countermeasures;Acoustic сountermeasures;nice;;;
+actionBarItem/acoustic_countermeasure;Acoustic countermeasures;Acoustic countermeasures;same;;;
 actionBarItem/scout_active;Active scouting;Active scouting;same;;;
 actionBarItem/sonar_active;Active sonar;Active sonar;same;;;
 actionBarItem/torpedo_sensor;Torpedo active sonar;Torpedo active sonar;same;;;
@@ -3919,7 +3919,7 @@ guidance_method/auto;Auto;Auto;same;;;
 guidance_method/ir;IR;IR;same;;;
 guidance_method/tv;CCTV;CCD;trim;;;
 actionBarItem/ai_gunners;Toggle gunner targets;Toggle gunner targets;same;;;
-actionBarItem/stealth_activate;Camouflage system;Сamouflage system;nice;;;
+actionBarItem/stealth_activate;Camouflage system;Camouflage system;same;;;
 actionBarItem/support_plane;UAV Launch;UAV Launch;same;;;
 actionBarItem/support_plane_ship;Surveillance aircraft: catapult / launch;Surveillance aircraft: catapult activation / launch;nice;;;
 actionBarItem/switch_to_ship;Switch to ship;Switch to ship;same;;;
@@ -4083,7 +4083,7 @@ popup/keyboard_or_mouse_connected;Keyboard and/or mouse connected;Keyboard and/o
 popup/keyboard_or_mouse_connected/message;Change controls preset?;Change controls preset?;same;;;
 mainmenu/skirmish/noProgress;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of achievements.;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of achievements.;same;;;
 browser_bug_disclaimer;;"ATTENTION NEW PLAYERS
-To create an account for playing War Thunder, сlick the Sign Up link. It should open your browser, and if it does not, please get back to the game and click Sign Up once again.";nice;;;
+To create an account for playing War Thunder, click the Sign Up link. It should open your browser, and if it does not, please get back to the game and click Sign Up once again.";nice;;;
 msgbox/controller_hotas4_found;Thrustmaster® T.Flight Hotas 4 device found. Use controls preset?;Thrustmaster® T.Flight Hotas 4 device found. Use controls preset?;same;;;
 msgbox/controller_hotas_one_found;Thrustmaster® T.Flight Hotas One device found. Use controls preset?;Thrustmaster® T.Flight Hotas One device found. Use controls preset?;same;;;
 tutorials/hotas_restriction;;You can play in all FLYING missions with T-Flight Hotas 4. Only this tutorial must be played with DUALSHOCK®4. Tutorial for Flying missions playable with T-Flight Hotas 4 coming in next update.;nice;;;
@@ -4279,7 +4279,7 @@ armor_class/leopard_2a5_hull_composite_armour;Composite hull armor;Composite hul
 armor_class/leopard_2a5_turret_composite_armour;Composite turret armor;Composite turret armor;same;;;
 armor_class/t_62m_composite_armor;BDD Cast-poly (0.07 KE|0.55 CE);Metal-polymer block;trim;;;
 armor_class/leopard_2a5_side_skirts_composite_armour;Composite armor;Composite armor;same;;;
-armor_class/leopard_2a5_turret_nera;Composite + NERA (0.5 KE|3.0 CE);External сomposite armor with NERA elements;nice;;;
+armor_class/leopard_2a5_turret_nera;Composite + NERA (0.5 KE|3.0 CE);External composite armor with NERA elements;nice;;;
 armor_class/hull_side_special_armor;Composite panel (0.1 KE|1.5 CE);Composite screen;trim;;;
 armor_class/t_90_rubber_fabric_screens;Rubber-fabric panel (0.2);Rubber-fabric screens;trim;;;
 armor_class/rubber_metal_screens;Rubber-metal panel;Rubber-metal screens;nice;;;
@@ -5432,7 +5432,7 @@ shop/unit_nation_bonus_tooltip/update_time;The number of bonus battles will be u
 logs/mission_points;{num} {num=mission point/mission points};{num} {num=mission point/mission points};same;;;
 logs/ammunition;Ammunition;Ammunition;same;;;
 logs/damage;damage;damage;same;;;
-logs/crew_percent;{val}% of crew;{val}% of crew;same;;;
+logs/crew_percent;{val}% of crew;{val}% of the crew;nice;;;
 shop/show_nation_bonus_in_tab;Show the remaining bonus in headers;Show the remaining bonus in headers;same;;;
 shop/moreVehicles;+ {num} more {num=vehicle/vehicles};+ {num} more {num=vehicle/vehicles};same;;;
 shop/tasksExpired;<color=@redMenuButtonColor>task completed</color>;<color=@redMenuButtonColor>task completed</color>;same;;;
