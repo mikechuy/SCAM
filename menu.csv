@@ -202,6 +202,7 @@ msgbox/btn_bind;Bind;Bind;same;;;
 msgbox/presetActions;Preset actions;Preset actions;same;;;
 msgbox/emptyPresetAlreadyExist;An empty weapon preset already exists. To create another empty weapon preset, you need to make changes to the existing one.;An empty weapon preset already exists. To create another empty weapon preset, you need to make changes to the existing one.;same;;;
 msgbox/showcase_unavailable;Showcase is unavailable. Requirements to unlock:;Showcase is unavailable. Requirements to unlock:;same;;;
+msgbox/exit_eula_warning;If you close this license agreement window, the game will be closed. Are you sure you want to close the game?;If you close this license agreement window, the game will be closed. Are you sure you want to close the game?;same;;;
 options/creatingSession;Creating session...;Creating session...;same;;;
 options/joinSession;Joining session...;Joining session...;same;;;
 options/searchingSession;Searching session...;Searching session...;same;;;
@@ -438,24 +439,24 @@ shop/estimated_damage_to_base_title;Estimated damage to bases;Estimated damage t
 shop/estimated_damage_to_base;Estimated damage;Estimated damage;same;;;
 shop/reward_multiplier_for_base;Reward multiplier for bases;Reward multiplier for bases;same;;;
 shop/max_altitude/tooltip;The vehicle's maximum altitude.;The vehicle's maximum altitude.;same;;;
-shop/turn_time;Turn Time:;Turn Time:;same;;;
-shop/turn_time/tooltip;The minimum time it takes the airplane to complete a full horizontal circle.;The minimum time it takes the airplane to complete a full horizontal circle.;same;;;
+shop/turn_time;Sustained turn time:;Sustained turn time:;same;;;
+shop/turn_time/tooltip;Sustained turn time - the minimum time for full 360° turn with constant speed and altitude level. Given for an altitude level of 1000 m.;Sustained turn time - the minimum time for full 360° turn with constant speed and altitude level. Given for an altitude level of 1000 m.;same;;;
 shop/max_climbSpeed;Rate of Climb:;Rate of Climb:;same;;;
-shop/max_climbSpeed/tooltip;The airplane's climbing speed.;The airplane's climbing speed.;same;;;
+shop/max_climbSpeed/tooltip;Maximum rate of climb with a steady-state speed or a speed determined by a climb chart. Given for the aircraft's clean configuration with full internal fuel tanks and at sea level.;Maximum rate of climb with a steady-state speed or a speed determined by a climb chart. Given for the aircraft's clean configuration with full internal fuel tanks and at sea level.;same;;;
 shop/climb_time;Time to Climb:;Time to Climb:;same;;;
-shop/climb_time/tooltip;The airplane's climbing speed.;The airplane's climbing speed.;same;;;
-shop/climb_alt;at height:;at height:;same;;;
-shop/climb_alt/tooltip;The airplane's climbing speed.;The airplane's climbing speed.;same;;;
+shop/climb_time/tooltip;The aircraft's climbing time;The aircraft's climbing time;same;;;
+shop/climb_alt;at the altitude of:;at the altitude of:;same;;;
+shop/climb_alt/tooltip;up to the flight altitude.;up to the flight altitude.;same;;;
 shop/range;Range:;Range:;same;;;
-shop/range/tooltip;The maximum distance the airplane can travel without refueling.;The maximum distance the airplane can travel without refueling.;same;;;
+shop/range/tooltip;The maximum distance the aircraft can travel without refuelling.;The maximum distance the aircraft can travel without refuelling.;same;;;
 shop/airfieldLen;Takeoff Run:;Takeoff Run:;same;;;
-shop/airfieldLen/tooltip;The average take off distance a bad pilot needs .;Minimum takeoff distance to take off from the runway.;nice;;;
+shop/airfieldLen/tooltip;The minimum takeoff distance to take off from the runway.;The minimum takeoff distance to take off from the runway.;same;;;
 shop/wing_loading;Wing Loading:;Wing Loading:;same;;;
-shop/wing_loading/tooltip;Weight of the airplane divided by the area of the wing.;Weight of the airplane divided by the area of the wing.;same;;;
+shop/wing_loading/tooltip;The ratio of aircraft weight to the wing area.;The ratio of aircraft weight to the wing area.;same;;;
 shop/power_to_weight_ratio;Power-to-Weight ratio:;Power-to-Weight ratio:;same;;;
-shop/power_to_weight_ratio/tooltip;The ratio of engine power to the weight of the airplane.;The ratio of engine power to the weight of the airplane.;same;;;
+shop/power_to_weight_ratio/tooltip;The ratio of engine power to the weight of the aircraft.;The ratio of engine power to the weight of the aircraft.;same;;;
 shop/thrust_to_weight_ratio;Thrust-to-Weight ratio:;Thrust-to-Weight ratio:;same;;;
-shop/thrust_to_weight_ratio/tooltip;The ratio of engine thrust to the weight of the airplane.;The ratio of engine thrust to the weight of the airplane.;same;;;
+shop/thrust_to_weight_ratio/tooltip;The ratio of engine thrust to the weight of the aircraft.;The ratio of engine thrust to the weight of the aircraft.;same;;;
 shop/weaponPresets;Armament Presets:;Armament Presets:;same;;;
 shop/weaponPresets/tooltip;Armament presets available for the current vehicle.;Armament presets available for the current vehicle.;same;;;
 shop/tooltip_weaponmod;Secondary weapon modifier. Doesn't count after suspended ammunition is depleted (except for secondary gunpods).;Secondary weapon modifier. Doesn't count after suspended ammunition is depleted (except for secondary cannons and machine guns).;nice;;;
@@ -994,10 +995,9 @@ crew/groundService;Logistical services;Logistical services;same;;;
 crew/trained;Qualification;Qualification;same;;;
 crew/trained_current;Current qualification;Current qualification;same;;;
 crew/eyesight;Keen Vision;Keen Vision;same;;;
-crew/eyesight/tank/tooltip;"This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.
-* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly
-** - regardless of the crew's skill, there is also a radius of absolute detection of vehicles, which is {distance} m";"This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.
-* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly
+crew/eyesight/tank/tooltip;This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.;This skill affects the crew's visual range in the hull direction and the direction they are looking, as well as the range of detecting air targets. Average skill value of the crew counts.;same;;;
+crew/eyesight/tank/tooltip/descNotes;"* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly
+** - regardless of the crew's skill, there is also a radius of absolute detection of vehicles, which is {distance} m";"* - when using a sight device or binocular glasses, the range increases by {targetingMul} and {binocularMul} times accordingly
 ** - regardless of the crew's skill, there is also a radius of absolute detection of vehicles, which is {distance} m";same;;;
 crew/pilot/eyesight/tooltip;"This skill affects the pilot's visual range in the direction he is looking; i.e. the maximum distance at which he can detect the enemy in front of himself.
 
@@ -1127,7 +1127,7 @@ crew/qualifyIncrease/tooltip;Upgrade qualification to the next level;Upgrade qua
 crew/qualification/buy;Upgrade Qualification {qualify} on {unitName} for {cost}.;Upgrade Qualification {qualify} on {unitName} for {cost}.;same;;;
 crew/qualifyRequirement;Crew level required: {reqLevel};Crew level required: {reqLevel};same;;;
 crew/qualifyRequirement/full;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;same;;;
-crew/qualifyRequirement/need_level;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;same;;;
+crew/qualifyRequirement/need_level;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;Reach crew level {reqLevel} ({currentLevelText}) to gain access to the {wantedQualify} qualification.;trim;;;
 crew/currentLevel;current: {level};current: {level};same;;;
 crew/msg/qualifyRequirement;"To obtain the {wantedQualify} qualification for {unitName},
 you need crew level {reqLevel}.";"To obtain the {wantedQualify} qualification for {unitName},
@@ -1147,7 +1147,7 @@ Would you like to upgrade the crew's qualification up to {targetQualify} for {co
 shop/crewQualifyBonuses;"{qualification} qualification bonuses:
 {bonuses}";"{qualification} qualification bonuses:
 {bonuses}";same;;;
-crew/qualifyBonuses/total;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;same;;;
+crew/qualifyBonuses/total;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;Next qualification: {wantedQualify} increases all crew skills of this vehicle by {bonusValue}.;trim;;;
 crew/qualifyRequirement/tooltip;Required for qualification upgrade.;Required for qualification upgrade.;same;;;
 crew/qualifyOnlyForSameType;Qualification is valid only for skills of the same type of vehicle.;The qualification is valid only for skills of this type of vehicle.;nice;;;
 crew/skillsWorkWithUnitsSameType;These skills do not work with the selected type of vehicle.;These skills do not work with the selected type of vehicle.;same;;;
@@ -2489,6 +2489,7 @@ armor_class/aps_sensor;Active protection system;Active protection system;same;;;
 armor_class/aps_launcher;Active protection system;Active protection system;same;;;
 armor_class/ex_aps_launcher;Active protection system;Active protection system;same;;;
 armor_class/fire_control_room;Fire control room;Fire control room;same;;;
+armor_class/at_bulge;Anti-torpedo bulge;Anti-torpedo bulge;same;;;
 armor_class/rangefinder;Rangefinder;Rangefinder;same;;;
 armor_class/fire_director;Fire director;Fire director;same;;;
 armor_class/fire_director_mount;Fire director mount;Fire director;trim;;;
@@ -2807,6 +2808,7 @@ mainmenu/postponePurchase;Postpone the purchase;Postpone the purchase;same;;;
 spectator/waiting_for_target_spawn;Waiting for the target to spawn...;Waiting for the target to spawn...;same;;;
 spectator/player_connecting;Connecting;Connecting;same;;;
 spectator/player_vehicle_lost;Vehicle lost;Vehicle lost;same;;;
+spectator/player_control_lost;Control lost;Control lost;same;;;
 spectator/player_quit;Left the mission;Left the mission;same;;;
 msg/not_enought_warpoints_for_respawn;Not enough <color=@currencyWpColor>€</color> for respawn.;Not enough <color=@currencyWpColor>€</color> for respawn.;same;;;
 msgBox/repair_and_mods_purchase;"Your vehicle is broken. You cannot purchase modifications for broken vehicle.
@@ -3716,6 +3718,7 @@ respawn/randomUnitsGroup/content;Contains a stock cunt from the list:;Contains o
 respawn/randomUnitWarning;This vehicle is given to you for the current mission and you can use it equally with your own.;This vehicle is given to you for the current mission and you can use it equally with your own.;same;;;
 respawn/randomUnitHint;– random rubbish for the current mission.;– a random vehicle given for the current mission.;nice;;;
 respawn/randomUnitsList;Selected with bias from the list:;Selected randomly from the list:;trim;;;
+respawn/squadSpawnBlocked;Squadmate in a firefight;Squadmate in a firefight;same;;;
 inBattle/timeToKick;;"WARNING!
 If you remain inactive,
 you will be returned to the main menu in {timeToKick}";nice;;;
@@ -3924,6 +3927,7 @@ actionBarItem/support_plane;UAV Launch;UAV Launch;same;;;
 actionBarItem/support_plane_ship;Surveillance aircraft: catapult / launch;Surveillance aircraft: catapult activation / launch;nice;;;
 actionBarItem/switch_to_ship;Switch to ship;Switch to ship;same;;;
 actionBarItem/switch_to_tank;Switch to tank;Switch to tank;same;;;
+actionBarItem/switch_to_human;Switch to human;Switch to human;same;;;
 actionBarItem/auto_turret;Toggle autoturret targets;Toggle autoturret targets;same;;;
 actionBarItem/guidance_mode;Guidance mode: {mode};Guidance mode: {mode};same;;;
 actionBarItem/weapon_lock;Target lock;Target lock;same;;;
@@ -4059,7 +4063,6 @@ crew/qualification/expUpgradeFullUpgrade;{romanNumeral} ({expAmount}) – Gettin
 crew/qualification/nextSpec;Next qualification;Next qualification;same;;;
 crew/qualification/specDescriptionMain;The {specName} qualification can be purchased for {trainCost}{descPart};The {specName} qualification can be purchased for {trainCost}{descPart};same;;;
 crew/qualification/specDescriptionPart; or obtained for free when the crew gets {expAmount} with the current vehicle.; or obtained for free when the crew gets {expAmount} with the current vehicle.;same;;;
-crew/qualification/specAvailableToPurchase;Upgrade to {specName} ({trainCost}).;Complete the qualification upgrade course to level {specName} ({trainCost}).;nice;;;
 crew/qualification/earnResearchPoints;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of {specName} qualification:;Earn research points {rpIcon} on this vehicle with this crew to lower the cost of {specName} qualification:;same;;;
 crewSkillParameter/tankDriverMaxForwardSpeed;Maximum speed;Maximum speed;same;;;
 crewSkillParameter/tankDriverMaxBackSpeed;Maximum back run speed.;Maximum back run speed.;same;;;
@@ -4323,37 +4326,42 @@ loadDlDataStat/inFlight;Loading: files left {filesInFlight} ({filesInFlightSizeK
 loadDlDataStat/failed;failed {filesFailed} ({filesFailedSizeKB}K);failed {filesFailed} ({filesFailedSizeKB}K);same;;;
 loadDlDataStat/delayed;postponed {filesDelayed};postponed {filesDelayed};same;;;
 workshop/1Animcraft_main_header;Flying Serpent, Crouching Tiger!;Flying Serpent, Crouching Tiger!;same;;;
-workshop/1Animcraft_preview_tank_1;;Craft your own ␠Tiger with animal camouflage!;nice;;;
-workshop/1Animcraft_preview_tank_2;;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;nice;;;
-workshop/1Animcraft_preview_tank_3;;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;
-workshop/1Animcraft_preview_tank_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";nice;;;
-workshop/1Animcraft_preview_air_1;;Craft your own ␠Kingcobra aircraft with animal camouflage!;nice;;;
-workshop/1Animcraft_preview_air_2;;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;nice;;;
-workshop/1Animcraft_preview_air_3;;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;nice;;;
-workshop/1Animcraft_preview_air_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for PS4 player or player who previously received DMM items)";nice;;;
-workshop/t34_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;
-workshop/t34_summer_2018_preview_1;;Craft your own Т-34E!;nice;;;
-workshop/t34_summer_2018_preview_2;; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.;nice;;;
-workshop/t34_summer_2018_preview_3;;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;nice;;;
-workshop/t34_summer_2018_preview_4;;In addition to T-34E get access to a second part of the event - IS-7 assemble!;nice;;;
-workshop/t34_summer_2018_preview_5;;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;nice;;;
-workshop/t34_summer_2018_preview_6;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";nice;;;
-workshop/is7_summer_2018_main_header;Operation S.U.F.F.E.R.;Operation S.U.M.M.E.R.;nice;;;
-workshop/is7_summer_2018_preview_1;;Craft your own IS-7!;nice;;;
-workshop/is7_summer_2018_preview_2;; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;nice;;;
-workshop/is7_summer_2018_preview_3;;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;nice;;;
-workshop/is7_summer_2018_preview_4;;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";nice;;;
+workshop/1Animcraft_preview_tank_1;Craft your own ␠Tiger with animal camouflage!;Craft your own ␠Tiger with animal camouflage!;same;;;
+workshop/1Animcraft_preview_tank_2;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;Participate in the ground battles with a high level of activity in vehicles of rank III or higher.;same;;;
+workshop/1Animcraft_preview_tank_3;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;same;;;
+workshop/1Animcraft_preview_tank_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";same;;;
+workshop/1Animcraft_preview_air_1;Craft your own ␠Kingcobra aircraft with animal camouflage!;Craft your own ␠Kingcobra aircraft with animal camouflage!;same;;;
+workshop/1Animcraft_preview_air_2;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;Participate in the air battles with a high level of activity in vehicles of rank III or higher.;same;;;
+workshop/1Animcraft_preview_air_3;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;Combine identical parts to get new ones. Once you’ve collected all the parts you need, use them to create a vehicle.;same;;;
+workshop/1Animcraft_preview_air_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for PS4 player or player who previously received DMM items)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for PS4 player or player who previously received DMM items)";same;;;
+workshop/t34_summer_2018_main_header;Operation S.U.M.M.E.R.;Operation S.U.M.M.E.R.;same;;;
+workshop/t34_summer_2018_preview_1;Craft your own Т-34E!;Craft your own Т-34E!;same;;;
+workshop/t34_summer_2018_preview_2; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks II-III.;same;;;
+workshop/t34_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a T-34E.;same;;;
+workshop/t34_summer_2018_preview_4;In addition to T-34E get access to a second part of the event - IS-7 assemble!;In addition to T-34E get access to a second part of the event - IS-7 assemble!;same;;;
+workshop/t34_summer_2018_preview_5;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;An optional exchange of created T-34E for Sd.Kfz.234/4, M8 or AEC Mk.II will be available.;same;;;
+workshop/t34_summer_2018_preview_6;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";same;;;
+workshop/is7_summer_2018_main_header;Operation S.U.M.M.E.R.;Operation S.U.M.M.E.R.;same;;;
+workshop/is7_summer_2018_preview_1;Craft your own IS-7!;Craft your own IS-7!;same;;;
+workshop/is7_summer_2018_preview_2; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.; Collect craft materials by participating in the ground battles with a high level of activity in vehicles of ranks IV-VI.;same;;;
+workshop/is7_summer_2018_preview_3;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;Find out which craft recipes is correct and create tank parts. Once you’ve collected all the parts you need, use them to create a ИС-7.;same;;;
+workshop/is7_summer_2018_preview_4;"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";"Sell extra or unwanted parts or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";same;;;
 workshop/craft_event_2019_spring_header;Battlefield Engineer;Battlefield Engineer;same;;;
-workshop/craft_event_2019_spring_preview_1;;Repair your own I-180S!;nice;;;
-workshop/craft_event_2019_spring_preview_2;;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;nice;;;
-workshop/craft_event_2019_spring_preview_3;;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;nice;;;
-workshop/craft_event_2019_spring_preview_4;;"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";nice;;;
-workshop/craft_event_2019_spring_preview_5;;"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
-(Not available for some game accounts)";nice;;;
+workshop/craft_event_2019_spring_preview_1;Repair your own I-180S!;Repair your own I-180S!;same;;;
+workshop/craft_event_2019_spring_preview_2;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;I. Collect Aircraft Maintenance Technician Toolkits and New components by participating in random battles with a high level of activity in vehicles of ranks II+.;same;;;
+workshop/craft_event_2019_spring_preview_3;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;II. Determine the status of each unexamined (⌡) part and components on your aircraft. Find the defective component (⋟) in each broken part and replace it with a new one (⋥). Once you’ve collected all the parts you require, use them to create an I-180S fighter.;same;;;
+workshop/craft_event_2019_spring_preview_4;"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";"III. An optional exchange of created I-180S for Tank Destroyer ""VFW"" and Sub-chaser ""MPK Pr.122bis"" will be available. ""Vehicle Vouchers"" obtained after the second repaired I-180S can be exchanged for rare vehicles — MBT ""Merkava Mk.I"", Light Cruiser ""HMS Tiger"" and Twin-engine Fighter ""Ju 388 J"".";same;;;
+workshop/craft_event_2019_spring_preview_5;"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";"Sell extra Aircraft Maintenance Technician Toolkits and New components or buy the ones you need from other players in the Market for ⋬ GaijinCoins
+(Not available for some game accounts)";same;;;
 workshop/camo_trophy_exchange;Camo Trophy (trade items);Camo Trophy (trade items);same;;;
 workshop/advancing_storm;Advancing Storm;Advancing Storm;same;;;
 workshop/project_x;Project X I;Project X I;same;;;
@@ -4387,6 +4395,7 @@ workshop/tusk_force;Tusk Force;Tusk Force;same;;;
 workshop/wtcs_trophy_3;WTCS Esports Trophy III;WTCS Esports Trophy III;same;;;
 workshop/spearhead;Spearhead;Spearhead;same;;;
 workshop/line_of_contact;Line of Contact;Line of Contact;same;;;
+workshop/wtcs_trophy_4;WTCS Esports Trophy IV;WTCS Esports Trophy IV;same;;;
 workshop/dance_of_dragons;Dance of Dragons;Dance of Dragons;same;;;
 workshop/firebirds;Firebirds;Firebirds;same;;;
 workshop/storm_warning;Storm Warning;Storm Warning;same;;;
@@ -4799,7 +4808,7 @@ mainmenu/vehicleAvailableByEvent;"This vehicle can be obtained in the ""{eventNa
 mainmenu/newObjectiveAvailable;New objective available;New objective available;same;;;
 mainmenu/acceptObjective;Accept Objective;Accept Objective;same;;;
 mainmenu/regionalUnlockActivationError;Failed to accept objective. Please try again later.;Failed to accept objective. Please try again later.;same;;;
-mainmenu/promoteUnit;Available vehicle for purchase for a limited time;Available vehicle for purchase for a limited time;same;;;
+mainmenu/promoteUnit;Available vehicle for purchase for a limited time;The vehicle is available for purchase for a limited time;nice;;;
 mainmenu/eventUnit;A vehicle receiving event is available;A vehicle receiving event is available;same;;;
 loading_bg;Loading screen;Loading screen;same;;;
 loading_bg/login_layer;"P-47 Thunderbolt ""Ardennes""";"P-47 Thunderbolt ""Ardennes""";same;;;
@@ -5042,6 +5051,9 @@ loading_bg/login_layer_bmpt_72;BMPT-72;BMPT-72;same;;;
 loading_bg/login_layer_ny_marathon_25;Winter Concert;Winter Concert;same;;;
 loading_bg/login_layer_amx_elc_901;ELC 901;ELC 901;same;;;
 loading_bg/login_layer_amx_elc_901/desc;"Reward for level 100 in the ""The Elusive Musketeer"" Battle Pass Season";"Reward for level 100 in the ""The Elusive Musketeer"" Battle Pass Season";same;;;
+loading_bg/login_layer_aircraft_marathon_workhorse;F-16A Block 5;F-16A Block 5;same;;;
+loading_bg/login_layer_football_event_2026;"Match start: Team ""Dragons""";"Match start: Team ""Dragons""";same;;;
+loading_bg/login_layer_ship_marathon_oklakhoma;USS Oklahoma;USS Oklakhoma;nice;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
@@ -5214,6 +5226,7 @@ armor_class/air_tank;Pressurized air tanks;Pressurised air tanks;nice;;;
 armor_class/ballast_tank;Ballast tank;Ballast tank;same;;;
 armor_class/battery;Battery;Battery;same;;;
 armor_class/periscope;Periscope;Periscope;same;;;
+armor_class/ship_hydroplane_gear;hydroplane;hydroplane;same;;;
 ON_GAME_ENTER_YOU_APPLY_EULA;By accessing the game, you accept the Privacy Policy and Terms of Use. Press {sendShortcuts} to view;By accessing the game, you accept the Privacy Policy and Terms of Use. Press {sendShortcuts} to view;same;;;
 eula/eulaTitle;End-user license agreement;End-user license agreement;same;;;
 eula/eulaUpdateTitle;End-user license agreement (updated);End-user license agreement (updated);same;;;
@@ -5446,6 +5459,7 @@ hitsAnalisys/enemyHits;Enemy hits;Enemy hits;same;;;
 hitsAnalisys/noHitsInReplay;There is no information about hits in the replay;There is no information about hits in the replay;same;;;
 hitsAnalisys/saveToBlk;Save to blk;Save to blk;same;;;
 shipHitHint/simpleHit;Hit;Hit;same;;;
+shipHitHint/crewKilled;Crew losses;Crew losses;same;;;
 shipHitHint/effectiveHit;Effective hit;Effective hit;same;;;
 shipHitHint/ineffectiveHit;No penetration;No penetration;same;;;
 shipHitHint/pierceThroughHit;Pierced through with no damage;Pierced through with no damage;same;;;
@@ -5551,6 +5565,7 @@ frame_pancakes/name;Pancakes;Pancakes;same;;;
 frame_thunder_ammo_box/name;Thunder Ammo Box;Thunder Ammo Box;same;;;
 frame_ny_2026/name;Spruce garland;Spruce garland;same;;;
 frame_gold_vintage/name;Royal Gold;Royal Gold;same;;;
+frame_tank_football_2026/name;Tank Football — Champion 2026;Tank Football — Champion 2026;same;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;
@@ -5657,34 +5672,34 @@ info/material/projectile_proof_sau;Projectile proof;Projectile proof;same;;;
 info/material/projectile_proof_sau/tooltip;Projectile-proof armor is designed to protect a combat vehicle from tank and anti-tank gunfire.;Projectile-proof armor is designed to protect a combat vehicle from tank and anti-tank gunfire.;same;;;
 info/material/splinter_proof_rocket;Fragment proof;Fragment proof;same;;;
 info/material/splinter_proof_rocket/tooltip;Spall armor is designed to protect a combat vehicle from shell and rocket fragments in the event of an indirect hit.;Spall armor is designed to protect a combat vehicle from shell and rocket fragments in the event of an indirect hit.;same;;;
-info/material/hasArtilleryProtection;hasArtilleryProtection;hasArtilleryProtection;same;;;
-info/material/hasArtilleryProtection/tooltip;hasArtilleryProtection;hasArtilleryProtection;same;;;
-info/material/hasCitadel;hasCitadel;hasCitadel;same;;;
-info/material/hasCitadel/tooltip;hasCitadel;hasCitadel;same;;;
-info/material/hasAntiTorpedoProtection;hasAntiTorpedoProtection;hasAntiTorpedoProtection;same;;;
-info/material/hasAntiTorpedoProtection/tooltip;hasAntiTorpedoProtection;hasAntiTorpedoProtection;same;;;
-info/material/hasLocalSideProtection;hasLocalSideProtection;hasLocalSideProtection;same;;;
-info/material/hasLocalSideProtection/tooltip;hasLocalSideProtection;hasLocalSideProtection;same;;;
-info/material/hasFullSideProtection;hasFullSideProtection;hasFullSideProtection;same;;;
-info/material/hasFullSideProtection/tooltip;hasFullSideProtection;hasFullSideProtection;same;;;
-info/material/hasLocalHullProtection;hasLocalHullProtection;hasLocalHullProtection;same;;;
-info/material/hasLocalHullProtection/tooltip;hasLocalHullProtectiontooltip;hasLocalHullProtectiontooltip;same;;;
-info/material/hasReinforcedHullProtection;hasReinforcedHullProtection;hasReinforcedHullProtection;same;;;
-info/material/hasReinforcedHullProtection/tooltip;hasReinforcedHullProtection;hasReinforcedHullProtection;same;;;
-info/material/hasReinforcedInternalProtection;hasReinforcedInternalProtection;hasReinforcedInternalProtection;same;;;
-info/material/hasReinforcedInternalProtection/tooltip;hasReinforcedInternalProtection;hasReinforcedInternalProtection;same;;;
-info/material/hasLocalInternalProtection;hasLocalInternalProtection;hasLocalInternalProtection;same;;;
-info/material/hasLocalInternalProtection/tooltip;hasLocalInternalProtection;hasLocalInternalProtection;same;;;
-info/turnTime/tooltip;Turn time is how quickly your plane will make a 360° turn under ideal conditions, which you won't encounter in a real game;Turn time is how quickly your plane will make a 360° turn under ideal conditions, which you won't encounter in a real game;same;;;
-info/climbSpeed/tooltip;"Rate of climb is a performance characteristic of an aircraft that determines its maneuverability in the vertical plane; it is expressed in the speed capabilities of the aircraft as it gains altitude in flight and is measured in meters per second";"Rate of climb is a performance characteristic of an aircraft that determines its maneuverability in the vertical plane; it is expressed in the speed capabilities of the aircraft as it gains altitude in flight and is measured in meters per second";same;;;
-info/maxAltitude/tooltip;Maximum altitude is the highest altitude at which steady level flight at a constant speed is possible with maximum thrust or engine power;Maximum altitude is the highest altitude at which steady level flight at a constant speed is possible with maximum thrust or engine power;same;;;
-info/maxSpeed/tooltip;Maximum speed is the maximum speed an aircraft can reach;Maximum speed is the maximum speed an aircraft can reach;same;;;
+info/material/hasArtilleryProtection;Artillery protection;Artillery protection;same;;;
+info/material/hasArtilleryProtection/tooltip;"Partial or full armor protection of gun mounts. Machine guns and autocannons may have fragmentation-resistant shields. Main and secondary calibre artillery may have open-type or enclosed-type turrets. Open armor implies protection from several sides; as a rule, from the front and the sides. Enclosed-type turrets are fully protected with armor steel.";"Partial or full armor protection of gun mounts. Machine guns and autocannons may have fragmentation-resistant shields. Main and secondary calibre artillery may have open-type or enclosed-type turrets. Open armor implies protection from several sides; as a rule, from the front and the sides. Enclosed-type turrets are fully protected with armor steel.";same;;;
+info/material/hasCitadel;Citadel;Citadel;same;;;
+info/material/hasCitadel/tooltip;A conventional designation for a ship’s armor protection scheme in which the thickest armor forms an enclosed volume that includes the most important compartments and machinery over a large part of the hull. All engine and boiler rooms, ammunition magazines, and command spaces are located within a single armored box formed by the belt armor and longitudinal bulkheads on the sides, the armored traverses (vertical transverse bulkheads protecting against shells and fragments travelling along the ship) at the bow and stern, and the armored deck above. The citadel is characteristic of battleships and battlecruisers;A conventional designation for a ship’s armor protection scheme in which the thickest armor forms an enclosed volume that includes the most important compartments and machinery over a large part of the hull. All engine and boiler rooms, ammunition magazines, and command spaces are located within a single armored box formed by the belt armor and longitudinal bulkheads on the sides, the armored traverses (vertical transverse bulkheads protecting against shells and fragments travelling along the ship) at the bow and stern, and the armored deck above. The citadel is characteristic of battleships and battlecruisers;same;;;
+info/material/hasAntiTorpedoProtection;Anti-torpedo protection;Anti-torpedo protection;same;;;
+info/material/hasAntiTorpedoProtection/tooltip;Presence of an anti-torpedo bulge — an external hull structure in the underwater portion, representing an additional cavity covering the midsection of the ship. The purpose of anti-torpedo bulges is to ensure that a torpedo detonates as far from the main hull as possible, while the force of the explosion and the hydrodynamic shock is dispersed to the greatest extent within the volume of the bulge itself, causing minimal damage to the ship’s hull, compartments, and machinery inside it. Bulges may have different internal designs and may be filled with water, fuel, or left empty. Their effectiveness against explosions of varying power depends on this internal structure — the more advanced a ship’s anti-torpedo protection is, the higher the explosive power the hull can withstand without sustaining critical damage;Presence of an anti-torpedo bulge — an external hull structure in the underwater portion, representing an additional cavity covering the midsection of the ship. The purpose of anti-torpedo bulges is to ensure that a torpedo detonates as far from the main hull as possible, while the force of the explosion and the hydrodynamic shock is dispersed to the greatest extent within the volume of the bulge itself, causing minimal damage to the ship’s hull, compartments, and machinery inside it. Bulges may have different internal designs and may be filled with water, fuel, or left empty. Their effectiveness against explosions of varying power depends on this internal structure — the more advanced a ship’s anti-torpedo protection is, the higher the explosive power the hull can withstand without sustaining critical damage;same;;;
+info/material/hasLocalSideProtection;Local side protection;Local side protection;same;;;
+info/material/hasLocalSideProtection/tooltip;Armor protection of the ship’s side in the most important areas. Armor plates, as a rule, cover the machinery and boiler rooms in the central part of the hull. However, they may also be applied in other sections, protecting ammunition hoists, magazines, and various other compartments;Armor protection of the ship’s side in the most important areas. Armor plates, as a rule, cover the machinery and boiler rooms in the central part of the hull. However, they may also be applied in other sections, protecting ammunition hoists, magazines, and various other compartments;same;;;
+info/material/hasFullSideProtection;Full side protection;Full side protection;same;;;
+info/material/hasFullSideProtection/tooltip;Armor protection of the ship’s side along its entire length. Armor plates cover the hull side from bow to stern and may vary in thickness and height. As a rule, the thickest armor covers the central part of the ship in the area of the boiler and machinery rooms;Armor protection of the ship’s side along its entire length. Armor plates cover the hull side from bow to stern and may vary in thickness and height. As a rule, the thickest armor covers the central part of the ship in the area of the boiler and machinery rooms;same;;;
+info/material/hasLocalHullProtection;Local hull protection;Local hull protection;same;;;
+info/material/hasLocalHullProtection/tooltip;Local use of armor plates to cover certain sections of the boat’s hull and superstructure: the engines, the wheelhouse, the bulwarks, or the shields;Local use of armor plates to cover certain sections of the boat’s hull and superstructure: the engines, the wheelhouse, the bulwarks, or the shields;same;;;
+info/material/hasReinforcedHullProtection;Advanced hull protection;Advanced hull protection;same;;;
+info/material/hasReinforcedHullProtection/tooltip;The use of armor plates to protect entire volumes of the hull or individual compartments. It may form an enclosed armored volume composed of the belt armor, the armored deck, and the traverses;The use of armor plates to protect entire volumes of the hull or individual compartments. It may form an enclosed armored volume composed of the belt armor, the armored deck, and the traverses;same;;;
+info/material/hasReinforcedInternalProtection;Advanced internal protection;Advanced internal protection;same;;;
+info/material/hasReinforcedInternalProtection/tooltip;"Protection with armor steel not only of individual sections or compartments of the ship, but also of entire parts: anti-torpedo longitudinal bulkheads along the central part of the ship; armored decks covering ammunition magazines, machinery, and boiler rooms, or entire sections of the bow, midship, or stern. Alternatively, the deck may be armored from bow to stern in its entirety; vertical armored bulkheads protecting various compartments from fragments";"Protection with armor steel not only of individual sections or compartments of the ship, but also of entire parts: anti-torpedo longitudinal bulkheads along the central part of the ship; armored decks covering ammunition magazines, machinery, and boiler rooms, or entire sections of the bow, midship, or stern. Alternatively, the deck may be armored from bow to stern in its entirety; vertical armored bulkheads protecting various compartments from fragments";same;;;
+info/material/hasLocalInternalProtection;Local internal protection;Local internal protection;same;;;
+info/material/hasLocalInternalProtection/tooltip;Protection with armor steel of individual sections or compartments of the ship of increased importance: ammunition magazines, machinery and boiler rooms, steering engines, command and rangefinder posts, wheelhouses, combat and radio rooms, central artillery stations. It may be implemented as vertical bulkheads, horizontal plates, or entire armored decks. Additionally, groups of anti-aircraft guns or gun groups (clusters of guns of the same calibre located in one compartment) may be protected with splinter shields or bulwarks;Protection with armor steel of individual sections or compartments of the ship of increased importance: ammunition magazines, machinery and boiler rooms, steering engines, command and rangefinder posts, wheelhouses, combat and radio rooms, central artillery stations. It may be implemented as vertical bulkheads, horizontal plates, or entire armored decks. Additionally, groups of anti-aircraft guns or gun groups (clusters of guns of the same calibre located in one compartment) may be protected with splinter shields or bulwarks;same;;;
+info/turnTime/tooltip;Sustained turn time is the minimum time for a full 360° turn with constant speed and altitude. Given for an altitude of 1000 m.;Sustained turn time is the minimum time for a full 360° turn with constant speed and altitude. Given for an altitude of 1000 m.;same;;;
+info/climbSpeed/tooltip;The maximum rate of climb with a steady-state speed or a speed determined by a climb chart. Given for the aircraft's clean configuration with full internal fuel tanks and at sea level.;The maximum rate of climb with a steady-state speed or a speed determined by a climb chart. Given for the aircraft's clean configuration with full internal fuel tanks and at sea level.;same;;;
+info/maxAltitude/tooltip;Maximum altitude is the highest altitude at which steady level flight at a constant speed is possible with the maximum thrust or engine power;Maximum altitude is the highest altitude at which steady level flight at a constant speed is possible with the maximum thrust or engine power;same;;;
+info/maxSpeed/tooltip;Maximum speed is the maximum speed an aircraft can reach in level flight;Maximum speed is the maximum speed an aircraft can reach in level flight;same;;;
 info/wingLoading/tooltip;The wing loading determines the takeoff and landing speed of an aircraft, its maneuverability, maximum flight distance and other characteristics;The wing loading determines the takeoff and landing speed of an aircraft, its maneuverability, maximum flight distance and other characteristics;same;;;
 info/apsName;"APS ""{name}""";"APS ""{name}""";same;;;
 info/att;Auto tracker;Auto tracker;same;;;
 info/att/tooltip;Automatic target tracking is a system that automatically tracks the movement of a target after it has been detected and captured, calculating its current coordinates and movement parameters;Automatic target tracking is a system that automatically tracks the movement of a target after it has been detected and captured, calculating its current coordinates and movement parameters;same;;;
 msgbox/notAvailbleMod;You need to purchase this item in the modification menu first.;You need to purchase this item in the modification menu first.;same;;;
-msgbox/graphic_aa_settings_was_modified;"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphic settings.";"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphic settings.";same;;;
+msgbox/graphic_aa_settings_was_modified;"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphic settings.";"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphics settings.";nice;;;
 mainmenu/compareBullets;Compare shells;Compare shells;same;;;
 mainmenu/bulletsParameters;Shell parameters;Shell parameters;same;;;
 mainmenu/ballistics;Ballistics;Ballistics;same;;;
@@ -5701,3 +5716,40 @@ info/num_engines;Number of engines: {num};Number of engines: {num};same;;;
 info/num_transmissions;Number of transmissions: {num};Number of transmissions: {num};same;;;
 info/num_boilers;Number of boiler rooms: {num};Number of boiler rooms: {num};same;;;
 info/num_engine_rooms;Number of engine compartments: {num};Number of engine compartments: {num};same;;;
+flightDistance;Flight distance;Flight distance;same;;;
+flightTime;Flight time;Flight time;same;;;
+role/human_assault;Assault;Assault;same;;;
+role/human_support;Support;Support;same;;;
+role/human_sniper;Sniper;Sniper;same;;;
+role/human_anti_vehicle;Anti-vehicle;Anti-vehicle;same;;;
+role/human_spec_forces;Special forces;Specisl forces;nice;;;
+role/human_gunner;Gunner;Gunner;same;;;
+options/headphonesSnapshotWide;Headphones;Headphones;same;;;
+guiHints/headphonesSnapshotWide;"This mode is strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone x, and any virtual 5.1/7.1 systems, must be disabled.
+
+In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.
+
+Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it";"This mode is strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone x, and any virtual 5.1/7.1 systems, must be disabled.
+
+In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.
+
+Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it";same;;;
+options/headphones_1;Panorama expand 1;Panorama expand 1;same;;;
+options/headphones_2;Panorama expand 2;Panorama expand 2;same;;;
+options/headphones_3;Panorama expand 3;Panorama expand 3;same;;;
+options/headphones_4;Panorama expand 4;Panorama expand 4;same;;;
+options/headphones_5;Panorama expand 5;Panorama expand 5;same;;;
+options/headphones_6;Panorama expand 6;Panorama expand 6;same;;;
+options/playTestHeadphones;Play test sound;Play test sound;same;;;
+options/stopTestHeadphones;Stop test sound;Stop test sound;same;;;
+guiHints/playTestHeadphones;"Play a test sound signal to configure the extended stereo panorama mode. The signal contains three tones of different pitches. Try to select the preset in which all three tones sound as close to the center of the stereo panorama as possible.
+
+The extended stereo panorama mode is very sensitive to the type of headphones and audio card drivers, so some modes may sound biased toward the right or left channel";"Play a test sound signal to configure the extended stereo panorama mode. The signal contains three tones of different pitches. Try to select the preset in which all three tones sound as close to the center of the stereo panorama as possible.
+
+The extended stereo panorama mode is very sensitive to the type of headphones and audio card drivers, so some modes may sound biased toward the right or left channel";same;;;
+options/currently;currently;currently;same;;;
+infantry/speed/very_fast;Very fast;Very fast;same;;;
+infantry/speed/fast;Fast;Fast;same;;;
+infantry/speed/normal;Normal;Normal;same;;;
+infantry/speed/slow;Slow;Slow;same;;;
+infantry/speed/very_slow;Very slow;Very slow;same;;;

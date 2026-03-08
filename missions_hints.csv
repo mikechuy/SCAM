@@ -283,9 +283,9 @@ Drop the bombs";same;;;
 hints/tutorialB_climb;"Now you need to steer away from the ground
 To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen";"Now you need to steer away from the ground
 To quickly change the direction your aircraft is heading, move the cursor to the edge of the screen";same;;;
-hints/tutorialB_rockets;"Notice that your plane carries unguided rockets
-Press the {shortcut} button to fire them
-As they have low accuracy, it's better to fire several rockets at one stroke";"Note that your aircraft also carries several unguided rockets
+hints/tutorialB_rockets;"Note that your aircraft carries several unguided rockets
+As they have low accuracy, it's better to fire several rockets at once
+Press the {shortcut} button to fire them";"Note that your aircraft also carries several unguided rockets
 As they have low accuracy, it's better to fire several rockets at once
 Press the {shortcut} button to fire them";nice;;;
 hints/tutorialB_selector;Press {shortcut} to select rockets using the selector;Press {shortcut} to select rockets using the selector;same;;;
