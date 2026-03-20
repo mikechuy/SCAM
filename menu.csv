@@ -1127,7 +1127,7 @@ crew/qualifyIncrease/tooltip;Upgrade qualification to the next level;Upgrade qua
 crew/qualification/buy;Upgrade Qualification {qualify} on {unitName} for {cost}.;Upgrade Qualification {qualify} on {unitName} for {cost}.;same;;;
 crew/qualifyRequirement;Crew level required: {reqLevel};Crew level required: {reqLevel};same;;;
 crew/qualifyRequirement/full;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;same;;;
-crew/qualifyRequirement/need_level;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;Reach crew level {reqLevel} ({currentLevelText}) to gain access to the {wantedQualify} qualification.;trim;;;
+crew/qualifyRequirement/need_level;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;Reach crew level {reqLevel} ({currentLevelText}) to gain access to the {wantedQualify} ({trainCost}) qualification.;trim;;;
 crew/currentLevel;current: {level};current: {level};same;;;
 crew/msg/qualifyRequirement;"To obtain the {wantedQualify} qualification for {unitName},
 you need crew level {reqLevel}.";"To obtain the {wantedQualify} qualification for {unitName},
@@ -1148,6 +1148,7 @@ shop/crewQualifyBonuses;"{qualification} qualification bonuses:
 {bonuses}";"{qualification} qualification bonuses:
 {bonuses}";same;;;
 crew/qualifyBonuses/total;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;Next qualification: {wantedQualify} increases all crew skills of this vehicle by {bonusValue}.;trim;;;
+crew/qualifyBonuses/qualifyDesc;The {wantedQualify} qualification gives a bonus of {bonusValue} to all crew skills{asterisk} for this vehicle.;The {wantedQualify} qualification gives a bonus of {bonusValue} to all crew skills{asterisk} for this vehicle.;same;;;
 crew/qualifyRequirement/tooltip;Required for qualification upgrade.;Required for qualification upgrade.;same;;;
 crew/qualifyOnlyForSameType;Qualification is valid only for skills of the same type of vehicle.;The qualification is valid only for skills of this type of vehicle.;nice;;;
 crew/skillsWorkWithUnitsSameType;These skills do not work with the selected type of vehicle.;These skills do not work with the selected type of vehicle.;same;;;
@@ -4042,6 +4043,8 @@ crewSkillParameter/commanderLeadershipArtilleryRateOfFire;Artillery Strike Calli
 crewSkillParameter/commanderLeadershipRadioDistance;Radio Communication;Radio Communication;same;;;
 crewSkillParameter/commanderLeadershipFieldRepair;Field Repair;Field Repair;same;;;
 crewSkillParameter/commanderLeadershipAgility;Agility;Agility;same;;;
+crewSkillParameter/allCrewSkills;Crew skills;Crew skills;same;;;
+crewSkillParameter/except;Except;Except;same;;;
 mainmenu/unitRentTimeleft;Unit test drive expires in;Unit test drive expires in;same;;;
 mainmenu/selectCrew/haveMoreQualified;You have more qualified crew for this vehicle.;You have more qualified crew for this vehicle.;same;;;
 mainmenu/selectCrew/haveMoreQualified/tooltip;You have more qualified crew for this vehicle.;You have more qualified crew for this vehicle.;same;;;
@@ -5054,6 +5057,9 @@ loading_bg/login_layer_amx_elc_901/desc;"Reward for level 100 in the ""The Elusi
 loading_bg/login_layer_aircraft_marathon_workhorse;F-16A Block 5;F-16A Block 5;same;;;
 loading_bg/login_layer_football_event_2026;"Match start: Team ""Dragons""";"Match start: Team ""Dragons""";same;;;
 loading_bg/login_layer_ship_marathon_oklakhoma;USS Oklahoma;USS Oklakhoma;nice;;;
+loading_bg/login_layer_j_15t;J-15T;J-15T;same;;;
+loading_bg/login_layer_hungarian_aircrafts;Royal Hungarian Air Force;Royal Hungarian Air Force;same;;;
+loading_bg/login_layer_armoured_fighting_vehicles;Armoured fighting vehicles;Armoured fighting vehicles;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
