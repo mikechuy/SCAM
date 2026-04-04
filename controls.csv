@@ -698,6 +698,7 @@ hotkeys/cam_roll_rangeMax;Free cam (roll) — minimum value;Free cam (roll) — 
 hotkeys/cam_roll_rangeDec;Free cam (roll) — decrease value;Free cam (roll) — decrease value;same;;;
 hotkeys/cam_roll_rangeInc;Free cam (roll) — increase value;Free cam (roll) — increase value;same;;;
 hotkeys/cam_roll_rangeSet;Free cam (roll) - reset value;Free cam (roll) - reset value;same;;;
+controls/camera_shake_human;Toggle camera wiggle;Toggle camera wiggle;same;;;
 controls/brake_left;Left brake;Left brake;same;;;
 hotkeys/brake_left;Left brake;Left brake;same;;;
 hotkeys/brake_left_rangeMin;Release left brake;Release left brake;same;;;
@@ -1538,6 +1539,9 @@ Rocket count
 Missile count
 Rate of fire";same;;;
 controls/help/helicopter/fire_controls;Fire from guns and cannons (small-caliber guns, large-caliber guns, additional guns);Fire from guns and cannons (small-caliber guns, large-caliber guns, additional guns);same;;;
+controls/help/helicopter_rotor_rpm;Main rotor RPM;Main rotor RPM;same;;;
+controls/help/helicopter_rotor_pitch;Main rotor collective pitch;Main rotor collective pitch;same;;;
+controls/help/helicopter_speed;Helicopter speed;Helicopter speed;same;;;
 controls/help/attitude_indicator;Attitude Indicator;Attitude Indicator;same;;;
 controls/help/altimeter;Altimeter;Altimeter;same;;;
 controls/help/vertical_speed;Vertical Speed;Vertical Speed;same;;;
@@ -1646,6 +1650,12 @@ controls/help/arachis/missiles;Self-guided missiles are effective against any ta
 controls/help/arachis/target_search;Target search;Target search;same;;;
 controls/help/arachis/hotkey/missile;Launch missile at the locked target;Launch missile at the locked target;same;;;
 controls/help/arachis/helicopter_gear;Landing gear can be useful for landing on a point, for its capture.;Landing gear can be useful for landing on a point, for its capture.;same;;;
+controls/help/arm/target_indicator_label;Target indication;Target indication;same;;;
+controls/help/arm/rwr_indicator_label;The RWR screen can serve as a guide to the direction and status of active radars detected by the aircraft’s RWR system.;The RWR screen can serve as a guide to the direction and status of active radars detected by the aircraft’s RWR system.;same;;;
+controls/help/arm/arm_controls_header_label;Basic control of ARM;Basic control of ARM;same;;;
+controls/help/arm/radio_recon_indicator_label;Indication of electronic radio reconnaissance search mode;Indication of electronic radio reconnaissance search mode;same;;;
+controls/help/arm/target_follow_indicator_label;Indication target follow;Indication target follow;same;;;
+controls/help/arm/indicators_description_label;An anti-radar missile is a weapon designed to detect and destroy sources of radiation. The principle of radar missile guidance is based on the use of a self-guided passive radar head, which searches and captures a target in the direction of its primary radiation relative to the rocket carrier. After the launch of the rocket, it independently tracks the source of the radio radiation and points to it, allowing the aircraft carrier to perform further tasks.;An anti-radar missile is a weapon designed to detect and destroy sources of radiation. The principle of radar missile guidance is based on the use of a self-guided passive radar head, which searches and captures a target in the direction of its primary radiation relative to the rocket carrier. After the launch of the rocket, it independently tracks the source of the radio radiation and points to it, allowing the aircraft carrier to perform further tasks.;same;;;
 hotkeys/ID_SHIP_WEAPON_PRIMARY;Select primary weapon;Select primary weapon;same;;;
 hotkeys/ID_SHIP_WEAPON_MACHINEGUN;Select anti-aircraft weapons;Select anti-aircraft weapons;same;;;
 hotkeys/ID_SHIP_WEAPON_SECONDARY;Select secondary weapon;Select secondary weapon;same;;;

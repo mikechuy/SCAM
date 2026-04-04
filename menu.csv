@@ -1072,7 +1072,7 @@ crew/repairRank;Repair Rank;Repair Rank;same;;;
 crew/groundService/repairRank/tooltip;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;The mechanic's skill. The maximum rank of vehicle that the mechanic can repair.;same;;;
 crew/notEnoughRepairRank;"Current vehicle rank is too high ({rank}) to be affected by repair speed.
 Upgrade Repair Rank to {level} to activate repair speed.";"Current vehicle rank is too high ({rank}) to be affected by repair speed.
-Upgrade Repair Rank to {level} to activate repair speed.";nice;;;
+Upgrade Repair Rank to {level} to activate repair speed.";same;;;
 crew/airReloadSkill;Reload Speed;Reload Speed;same;;;
 crew/groundService/airReloadSkill/tooltip;"The armorer's skill. Increases the rate at which the weapons are reloaded in the air and at the field.
 
@@ -1127,7 +1127,7 @@ crew/qualifyIncrease/tooltip;Upgrade qualification to the next level;Upgrade qua
 crew/qualification/buy;Upgrade Qualification {qualify} on {unitName} for {cost}.;Upgrade Qualification {qualify} on {unitName} for {cost}.;same;;;
 crew/qualifyRequirement;Crew level required: {reqLevel};Crew level required: {reqLevel};same;;;
 crew/qualifyRequirement/full;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;To obtain the {wantedQualify} qualification for {unitName}, you need crew level {reqLevel}.;same;;;
-crew/qualifyRequirement/need_level;Increase the crew level to {reqLevel} ({currentLevelText}) in order to be able to complete the qualification upgrade course to level {wantedQualify} ({trainCost}).;Reach crew level {reqLevel} ({currentLevelText}) to gain access to the {wantedQualify} ({trainCost}) qualification.;trim;;;
+crew/qualifyRequirement/need_level;Reach crew level {reqLevel} ({currentLevelText}) to gain access to the {wantedQualify} ({trainCost}) qualification.;Reach crew level {reqLevel} ({currentLevelText}) to gain access to the {wantedQualify} ({trainCost}) qualification.;same;;;
 crew/currentLevel;current: {level};current: {level};same;;;
 crew/msg/qualifyRequirement;"To obtain the {wantedQualify} qualification for {unitName},
 you need crew level {reqLevel}.";"To obtain the {wantedQualify} qualification for {unitName},
@@ -1135,19 +1135,19 @@ you need crew level {reqLevel}.";same;;;
 shop/needMoneyQuestion_increaseQualify;"Are you sure you want to upgrade the crew's qualification for the {unitName}
 for {cost}?";"Are you sure you want to upgrade the crew's qualification for the {unitName}
 for {cost}?";same;;;
-shop/ask/increaseLowerQualify;"To qualify for {wantedQualify} on {unitName},
-you need {reqLevel} crew level.
-But you can upgrade the crew's qualifications up to {targetQualify}.
-
-Would you like to upgrade the crew's qualifications up to {targetQualify} for {cost}?";"To obtain the {wantedQualify} qualification for {unitName},
+shop/ask/increaseLowerQualify;"To obtain the {wantedQualify} qualification for {unitName},
 you need crew level {reqLevel}.
 But you can upgrade the crew's qualification up to {targetQualify}.
 
-Would you like to upgrade the crew's qualification up to {targetQualify} for {cost}?";nice;;;
+Would you like to upgrade the crew's qualification up to {targetQualify} for {cost}?";"To obtain the {wantedQualify} qualification for {unitName},
+you need crew level {reqLevel}.
+But you can upgrade the crew's qualification up to {targetQualify}.
+
+Would you like to upgrade the crew's qualification up to {targetQualify} for {cost}?";same;;;
 shop/crewQualifyBonuses;"{qualification} qualification bonuses:
 {bonuses}";"{qualification} qualification bonuses:
 {bonuses}";same;;;
-crew/qualifyBonuses/total;The {wantedQualify} qualification gives the bonus of {bonusValue} to all crew skills for this vehicle.;Next qualification: {wantedQualify} increases all crew skills of this vehicle by {bonusValue}.;trim;;;
+crew/qualifyBonuses/total;Next qualification: {wantedQualify} increases all crew skills of this vehicle by {bonusValue}.;Next qualification: {wantedQualify} increases all crew skills of this vehicle by {bonusValue}.;same;;;
 crew/qualifyBonuses/qualifyDesc;The {wantedQualify} qualification gives a bonus of {bonusValue} to all crew skills{asterisk} for this vehicle.;The {wantedQualify} qualification gives a bonus of {bonusValue} to all crew skills{asterisk} for this vehicle.;same;;;
 crew/qualifyRequirement/tooltip;Required for qualification upgrade.;Required for qualification upgrade.;same;;;
 crew/qualifyOnlyForSameType;Qualification is valid only for skills of the same type of vehicle.;The qualification is valid only for skills of this type of vehicle.;nice;;;
@@ -1514,6 +1514,10 @@ reqEnabledModification;Modification required for this weapon not installed;Modif
 mainmenu/aviation;Aviation;Aviation;same;;;
 mainmenu/army;Army;Army;same;;;
 mainmenu/fleet;Fleet;Fleet;same;;;
+mainmenu/armored_vehicles;Armored Vehicles;Armored Vehicles;same;;;
+mainmenu/air_defense;Air Defense;Air Defense;same;;;
+mainmenu/ground_facilities;Ground Facilities;Ground Facilities;same;;;
+mainmenu/supply;Supply;Supply;same;;;
 mainmenu/helicopters;Helicopters;Helicopters;same;;;
 mainmenu/boats;Coastal fleet;Coastal fleet;same;;;
 mainmenu/ships;Bluewater fleet;Bluewater fleet;same;;;
@@ -1932,6 +1936,8 @@ cluster/CIS;Mobnik;CIS;trim;;;
 cluster/CIS/full;Confederacy of Independent Systems;Commonwealth of Independent States;nice;;;
 cluster/NA;Obe-city;NA;trim;;;
 cluster/NA/full;Supersize Me;North America;nice;;;
+cluster/infantry_cbt_private;EU;EU;same;;;
+cluster/infantry_cbt_private/full;European Union;European Union;same;;;
 userlog/gotNewRank;Rank <color=@userlogColoredText>%d</color>;Rank <color=@userlogColoredText>%d</color>;same;;;
 mainmenu/btnEmptySlot;No Decal;No Decal;same;;;
 mainmenu/decalNoAchievement;Not available without an achievement.;Not available without an achievement.;same;;;
@@ -3352,7 +3358,7 @@ With a bound e-mail you will receive:
 * the possibility of authentication in the forum, live and wiki.
 Once bound, the account will no longer be a guest account. A login and password will be required for authentication.";same;;;
 mainmenu/binding;Email bind;Email bind;same;;;
-mainmenu/alreadyBinded;E-mail already bound;E-mail aready bound;trim;;;
+mainmenu/alreadyBinded;Email already bound;E-mail aready bound;nice;;;
 mainmenu/login/steamRelogin;"Your account has already been registered at Gaijin.net.
 If you want to continue playing on it,
 the client will be restarted outside Steam upon pressing the <color=@warningTextColor>ОК</color> button.";"Your account has already been registered at Gaijin.net.
@@ -3719,7 +3725,7 @@ respawn/randomUnitsGroup/content;Contains a stock cunt from the list:;Contains o
 respawn/randomUnitWarning;This vehicle is given to you for the current mission and you can use it equally with your own.;This vehicle is given to you for the current mission and you can use it equally with your own.;same;;;
 respawn/randomUnitHint;– random rubbish for the current mission.;– a random vehicle given for the current mission.;nice;;;
 respawn/randomUnitsList;Selected with bias from the list:;Selected randomly from the list:;trim;;;
-respawn/squadSpawnBlocked;Squadmate in a firefight;Squadmate in a firefight;same;;;
+respawn/squadSpawnBlocked;Squadmate in a firefight;Squadmate is unavailable;nice;;;
 inBattle/timeToKick;;"WARNING!
 If you remain inactive,
 you will be returned to the main menu in {timeToKick}";nice;;;
@@ -3775,6 +3781,7 @@ armor_class/glass90;Glass (0.4 KE|0.22 CE) 90 mm;Bulletproof glass 90 mm;trim;;;
 armor_class/glass105;Glass (0.4 KE|0.22 CE) 105 mm;Bulletproof glass 105 mm;trim;;;
 armor_class/glass106;Glass (0.4 KE|0.22 CE) 106 mm;Bulletproof glass 106 mm;trim;;;
 armor_class/glass102;Glass (0.4 KE|0.22 CE) 102 mm;Bulletproof glass 102 mm;trim;;;
+armor_class/glass135;Bulletproof glass 155 mm;Bulletproof glass 155 mm;same;;;
 armor_class/glass155;Glass (0.4 KE|0.22 CE) 155 mm;Bulletproof glass 155 mm;trim;;;
 armor_class/new_armor_glass22;New glass 22 mm;Bulletproof glass 22 mm;nice;;;
 armor_class/new_armor_glass42;New glass 42 mm;Bulletproof glass 42 mm;nice;;;
@@ -4399,6 +4406,7 @@ workshop/wtcs_trophy_3;WTCS Esports Trophy III;WTCS Esports Trophy III;same;;;
 workshop/spearhead;Spearhead;Spearhead;same;;;
 workshop/line_of_contact;Line of Contact;Line of Contact;same;;;
 workshop/wtcs_trophy_4;WTCS Esports Trophy IV;WTCS Esports Trophy IV;same;;;
+workshop/ninth_wave;Ninth Wave;Ninth Wave;same;;;
 workshop/dance_of_dragons;Dance of Dragons;Dance of Dragons;same;;;
 workshop/firebirds;Firebirds;Firebirds;same;;;
 workshop/storm_warning;Storm Warning;Storm Warning;same;;;
@@ -4608,6 +4616,25 @@ squadMember/eac_not_inited;Anti-cheat is not initialized. The selected game mode
 sound_mod_not_allowed_restart;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;same;;;
 sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;same;;;
 sound_mods_url;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;same;;;
+sound_mods_force_disabled;"Temporary Disabling Sound Modifications
+
+We continue to actively develop the game’s audio, adding new features and improving sound quality. Due to these changes, some sound modifications have become incompatible with the current client version, leading to an increase in errors and crashes. To ensure a predictable and stable experience for all players, we’ve temporarily disabled support for sound modifications in War Thunder.
+
+We value the community and mod authors and intend to maintain the ability to create and use sound modifications as an important part of the game. We have a publicly available official sound project for modding, and we are already working on:
+
+ - A mechanism for evaluating the compatibility and functionality of sound modifications
+ - A separate guide for creating sound modifications for the current version and structure of the FMOD audio project: bank sets, routing, parameters/events, etc. This guide will help you improve the compatibility of your modifications with the game, making them more stable and less likely to impact game performance.
+
+As soon as these tools are ready, support for sound modifications will be re-enabled. Thank you for your understanding and support";"Temporary Disabling Sound Modifications
+
+We continue to actively develop the game’s audio, adding new features and improving sound quality. Due to these changes, some sound modifications have become incompatible with the current client version, leading to an increase in errors and crashes. To ensure a predictable and stable experience for all players, we’ve temporarily disabled support for sound modifications in War Thunder.
+
+We value the community and mod authors and intend to maintain the ability to create and use sound modifications as an important part of the game. We have a publicly available official sound project for modding, and we are already working on:
+
+ - A mechanism for evaluating the compatibility and functionality of sound modifications
+ - A separate guide for creating sound modifications for the current version and structure of the FMOD audio project: bank sets, routing, parameters/events, etc. This guide will help you improve the compatibility of your modifications with the game, making them more stable and less likely to impact game performance.
+
+As soon as these tools are ready, support for sound modifications will be re-enabled. Thank you for your understanding and support";same;;;
 promo/XBOXAccount_linked;Binding an e-mail to your account;Binding an e-mail to your account;same;;;
 promo/XBOXAccount_linked/desc;"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
 This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
@@ -5060,6 +5087,7 @@ loading_bg/login_layer_ship_marathon_oklakhoma;USS Oklahoma;USS Oklakhoma;nice;;
 loading_bg/login_layer_j_15t;J-15T;J-15T;same;;;
 loading_bg/login_layer_hungarian_aircrafts;Royal Hungarian Air Force;Royal Hungarian Air Force;same;;;
 loading_bg/login_layer_armoured_fighting_vehicles;Armoured fighting vehicles;Armoured fighting vehicles;same;;;
+loading_bg/login_layer_nuclear_thunder_tu_95m;Tu-95M;Tu-95M;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
@@ -5508,6 +5536,10 @@ profile_header_xf5u/name;XF5U;XF5U;same;;;
 profile_header_cas/name;Close Air Support;Close Air Support;same;;;
 profile_header_moon_santa/name;Christmas night;Christmas night;same;;;
 profile_header_iwo_jima_landing/name;Landing Zone: Iwo Jima;Landing Zone: Iwo Jima;same;;;
+profile_header_operation_vulcan/name;Operation Vulcan;Operation Vulcan;same;;;
+profile_header_tu_95m/name;Tu-95M;Tu-95M;same;;;
+profile_header_veteran/name;Battle Veteran;Battle Veteran;same;;;
+profile_header_winterwarrior/name;Winter Warrior;Winter Warrior;same;;;
 frame_simple_solid_grey/name;Simple solid, grey;Simple solid, grey;same;;;
 frame_simple_solid_orange/name;Simple solid, orange;Simple solid, orange;same;;;
 frame_simple_solid_red/name;Simple solid, red;Simple solid, red;same;;;
@@ -5572,6 +5604,8 @@ frame_thunder_ammo_box/name;Thunder Ammo Box;Thunder Ammo Box;same;;;
 frame_ny_2026/name;Spruce garland;Spruce garland;same;;;
 frame_gold_vintage/name;Royal Gold;Royal Gold;same;;;
 frame_tank_football_2026/name;Tank Football — Champion 2026;Tank Football — Champion 2026;same;;;
+frame_veteran/name;Battle Veteran;Battle Veteran;same;;;
+frame_winterwarrior/name;Winter Warrior;Winter Warrior;same;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;
@@ -5725,7 +5759,7 @@ info/num_engine_rooms;Number of engine compartments: {num};Number of engine comp
 flightDistance;Flight distance;Flight distance;same;;;
 flightTime;Flight time;Flight time;same;;;
 role/human_assault;Assault;Assault;same;;;
-role/human_support;Support;Support;same;;;
+role/human_support;Support;Specialist;nice;;;
 role/human_sniper;Sniper;Sniper;same;;;
 role/human_anti_vehicle;Anti-vehicle;Anti-vehicle;same;;;
 role/human_spec_forces;Special forces;Specisl forces;nice;;;
@@ -5759,3 +5793,5 @@ infantry/speed/fast;Fast;Fast;same;;;
 infantry/speed/normal;Normal;Normal;same;;;
 infantry/speed/slow;Slow;Slow;same;;;
 infantry/speed/very_slow;Very slow;Very slow;same;;;
+bombProperties/destroyOutherRadius;Maximum damage radius;Maximum damage radius;same;;;
+bombProperties/totalDestructionRadius;Total destruction radius;Total destruction radius;same;;;
