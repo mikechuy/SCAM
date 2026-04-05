@@ -3781,7 +3781,7 @@ armor_class/glass90;Glass (0.4 KE|0.22 CE) 90 mm;Bulletproof glass 90 mm;trim;;;
 armor_class/glass105;Glass (0.4 KE|0.22 CE) 105 mm;Bulletproof glass 105 mm;trim;;;
 armor_class/glass106;Glass (0.4 KE|0.22 CE) 106 mm;Bulletproof glass 106 mm;trim;;;
 armor_class/glass102;Glass (0.4 KE|0.22 CE) 102 mm;Bulletproof glass 102 mm;trim;;;
-armor_class/glass135;Bulletproof glass 155 mm;Bulletproof glass 155 mm;same;;;
+armor_class/glass135;Glass (0.4 KE|0.22 CE) 135 mm;Bulletproof glass 155 mm;trim;;;
 armor_class/glass155;Glass (0.4 KE|0.22 CE) 155 mm;Bulletproof glass 155 mm;trim;;;
 armor_class/new_armor_glass22;New glass 22 mm;Bulletproof glass 22 mm;nice;;;
 armor_class/new_armor_glass42;New glass 42 mm;Bulletproof glass 42 mm;nice;;;
@@ -5759,7 +5759,7 @@ info/num_engine_rooms;Number of engine compartments: {num};Number of engine comp
 flightDistance;Flight distance;Flight distance;same;;;
 flightTime;Flight time;Flight time;same;;;
 role/human_assault;Assault;Assault;same;;;
-role/human_support;Support;Specialist;nice;;;
+role/human_support;Specialist;Specialist;same;;;
 role/human_sniper;Sniper;Sniper;same;;;
 role/human_anti_vehicle;Anti-vehicle;Anti-vehicle;same;;;
 role/human_spec_forces;Special forces;Specisl forces;nice;;;

@@ -359,7 +359,7 @@ modification/shotgun_ks_p;KS-P 18.5;KS-P 18.5;same;;;
 modification/shotgun_ks_p/desc;Allows you to additionally arm one of the soldiers in your squad with a shotgun.;Allows you to additionally arm one of the soldiers in your squad with a shotgun.;same;;;
 modification/machinegun_m240;M240B;M240B;same;;;
 modification/machinegun_m240/desc;Allows you to additionally arm one of the soldiers in your squad with a general purpose machine gun.;Allows you to additionally arm one of the soldiers in your squad with a general purpose machine gun.;same;;;
-modification/machinegun_reapr;REAPR;M240B;nice;;;
+modification/machinegun_reapr;M240B;M240B;same;;;
 modification/machinegun_reapr/desc;Allows you to additionally arm one of the soldiers in your squad with a general purpose machine gun.;Allows you to additionally arm one of the soldiers in your squad with a general purpose machine gun.;same;;;
 modification/machinegun_pkp_pecheneg;PKP;PKP Pecheneg;nice;;;
 modification/machinegun_pkp_pecheneg/desc;Allows you to additionally arm one of the soldiers in your squad with a general purpose machine gun.;Allows you to additionally arm one of the soldiers in your squad with a general purpose machine gun.;same;;;
@@ -636,7 +636,7 @@ weapons/ammo_box/desc;Allows all allies to refill ammo. Refills are limited.;All
 weapons/explosives_box_item;Explosives box;Explosives box;same;;;
 explosives_box_item;Explosives box;Explosives box;same;;;
 weapons/explosives_box_item/desc;Allows all allies to refill explosives. Refills are limited.;Allows all allies to refill explosives in battle. Refills are limited.;nice;;;
-weapons/frag_grenade;Frag grenade;Frag grenade x4;nice;;;
+weapons/frag_grenade;Frag grenade x4;Frag grenade x4;same;;;
 weapons/frag_grenade_medium;Frag grenade x2;Frag grenade x2;same;;;
 weapons/frag_grenade_light;Frag grenade x1;Frag grenade x1;same;;;
 frag_grenade;Frag grenade;Frag grenade;same;;;
