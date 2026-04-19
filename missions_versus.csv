@@ -1565,8 +1565,12 @@ Mission objectives:
 - Break through defenses and strike key targets
 - Suppress enemy air defenses and secure air superiority
 - Use nuclear weapons to deliver decisive strikes";same;;;
-missions/almassa_infdom;Al Massa - [Domination];Al Massa - [Domination];same;;;
-missions/almassa_palace_infdom;Al Massa. Palace [Conquest];Al Massa. Palace [Conquest];same;;;
-missions/almassa_bazar_infdom;Al Massa. Bazar [Conquest];Al Massa. Bazar [Conquest];same;;;
-missions/almassa_tvtower_infdom;Al Massa. TV Tower [Conquest];Al Massa. TV Tower [Conquest];same;;;
+missions/almassa_infdom;[Domination] Al Massa;[Domination] Al Massa;same;;;
+missions/almassa_palace_infdom;[Conquest] Al Massa. Palace;[Conquest] Al Massa. Palace;same;;;
+missions/almassa_bazar_infdom;[Conquest] Al Massa. Bazar;[Conquest] Al Massa. Bazar;same;;;
+missions/almassa_tvtower_infdom;[Conquest] Al Massa. TV Tower;[Conquest] Al Massa. TV Tower;same;;;
+missions/granitograd_infdom;[Domination] Granitograd;[Domination] Granitograd;same;;;
+missions/granitograd_police_infdom;[Conquest] Granitograd. Police;[Conquest] Granitograd. Police;same;;;
+missions/granitograd_shop_infdom;[Conquest] Granitograd. Shop;[Conquest] Granitograd. Shop;same;;;
+missions/granitograd_workshop_infdom;[Conquest] Granitograd. Workshop;[Conquest] Granitograd. Workshop;same;;;
 MISSION_VERSUS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;

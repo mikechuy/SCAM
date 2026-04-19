@@ -1970,88 +1970,16 @@ mainmenu/firstUnit/hint;Other vehicles also will be available;Other vehicles als
 mainmenu/firstChoiseBonusNotice;Based on chosen country and vehicles you will get bonuses during the game process;Based on chosen country and vehicles you will get bonuses during the game process;same;;;
 mainmenu/countryUnlockNotice;Other vehicles and countries will be unlocked as the game progresses;Other vehicles and countries will be unlocked as the game progresses;same;;;
 mainmenu/lockedCountryDescription;Country will be unlocked in battles against other players;Country will be unlocked in battles against other players;same;;;
-msgbox/linkCopied;;"Invite your friends to join War Thunder!
-Share the link below with your friends on social media and get:
-
-{firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank}</color>
-{secondAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {secondAwardRank}</color>
-{thirdAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {thirdAwardRank}</color>
-
-Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.
-
-""<color=@userlogColoredText>{link}</color>""
+msgbox/linkCopied/header;;Invite your friends to join War Thunder!;nice;;;
+msgbox/linkCopied/listTitle;;Share the link below with your friends on social media and get:;nice;;;
+msgbox/linkCopied/without2faAnyVehicleType;;{awardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {awardRank}</color>;nice;;;
+msgbox/linkCopied/with2faAviationArmy;;{awardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {awardRank} in the aviation/army tree</color>;nice;;;
+msgbox/linkCopied/with2faAnyVehicleType;;{awardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {awardRank}</color>;nice;;;
+msgbox/linkCopied/limit;;Each reward can be received no more than {awardCount} {awardCount=time/times}.;nice;;;
+msgbox/linkCopied/inviteeReward;;Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.;nice;;;
+msgbox/linkCopied/link;;"""<color=@userlogColoredText>{link}</color>""
 (link copied to clipboard)";nice;;;
-msgbox/linkCopied/separatedVessels;;"Invite your friends to join War Thunder!
-Share the link below with your friends on social media and get:
-
-{firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
-{secondAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {secondAwardRank} in the aviation/army tree or rank {secondAwardVesselsRank} in the fleet trees</color>
-{thirdAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {thirdAwardRank} in the aviation/army tree or rank {thirdAwardVesselsRank} in the fleet trees</color>
-
-Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.
-
-""<color=@userlogColoredText>{link}</color>""
-(link copied to clipboard)";nice;;;
-msgbox/linkCopied/disabledThirdStageForVessels;;"Invite your friends to join War Thunder!
-Share the link below with your friends on social media and get:
-
-{firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
-{secondAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {secondAwardRank} in the aviation/army tree or rank {secondAwardVesselsRank} in the fleet trees</color>
-{thirdAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {thirdAwardRank} in the aviation/army tree</color>
-
-Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.
-
-""<color=@userlogColoredText>{link}</color>""
-(link copied to clipboard)";nice;;;
-msgbox/linkCopied/disabledSecondAndThirdStageForVessels;"Invite your friends to join War Thunder!
-Share the link below with your friends on social media and get:
-
-{firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
-{secondAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {secondAwardRank} in the aviation/army tree</color>
-{thirdAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {thirdAwardRank} in the aviation/army tree</color>
-
-Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.
-
-""<color=@userlogColoredText>{link}</color>""
-(link copied to clipboard)";"Invite your friends to join War Thunder!
-Share the link below with your friends on social media and get:
-
-{firstAwardPrize} for each friend who purchases a vehicle of <color=@activeTextColor>rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees</color>
-{secondAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {secondAwardRank} in the aviation/army tree</color>
-{thirdAwardPrize} for each friend with two-factor authentication enabled who purchases a vehicle of <color=@activeTextColor>rank {thirdAwardRank} in the aviation/army tree</color>
-
-Each player who registers using your link and turns on two-factor authentication will receive {gift} as a gift.
-
-""<color=@userlogColoredText>{link}</color>""
-(link copied to clipboard)";same;;;
 mainmenu/btnGetLink;;Invite Friend;nice;;;
-mainmenu/getLinkDesc;;"Invite your friends and get a reward!
-
-The invited player will receive {gift} when he logs in for the first time after enabling two-factor authentication.
-
-For each invited player you'll gain:
-{firstAwardPrize} as soon as your friend purchases a vehicle of rank {firstAwardRank} in any country
-{secondAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {secondAwardRank} in any country
-{thirdAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {thirdAwardRank} in any country
-When 10 of your friends reach rank III, you'll receive a unique additional crew slot for each country.";nice;;;
-mainmenu/getLinkDesc/separatedVessels;;"Invite your friends and get a reward!
-
-The invited player will receive {gift} when he logs in for the first time after enabling two-factor authentication.
-
-For each invited player you'll gain:
-{firstAwardPrize} as soon as your friend purchases a vehicle of rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees
-{secondAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {secondAwardRank} in the aviation/army tree or rank {secondAwardVesselsRank} in the fleet trees
-{thirdAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {thirdAwardRank} in the aviation/army tree or rank {thirdAwardVesselsRank} in the fleet trees
-When 10 of your friends reach rank III, you'll receive a unique additional crew slot for each country.";nice;;;
-mainmenu/getLinkDesc/disabledThirdStageForVessels;;"Invite your friends and get a reward!
-
-The invited player will receive {gift} when he logs in for the first time after enabling two-factor authentication.
-
-For each invited player you'll gain:
-{firstAwardPrize} as soon as your friend purchases a vehicle of rank {firstAwardRank} in the aviation/army tree or rank {firstAwardVesselsRank} in the fleet trees
-{secondAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {secondAwardRank} in the aviation/army tree or rank {secondAwardVesselsRank} in the fleet trees
-{thirdAwardPrize} as soon as your friend with two-factor authentication enabled purchases a vehicle of rank {thirdAwardRank} in the aviation/army tree
-When 10 of your friends reach rank III, you'll receive a unique additional crew slot for each country.";nice;;;
 mainmenu/getLink;;Invitation ;nice;;;
 mainmenu/getLinkTitle;;Invitation;nice;;;
 mainmenu/invitationHead;%s has sent you an invitation to War Thunder;%s has sent you an invitation to War Thunder;same;;;
@@ -5088,6 +5016,7 @@ loading_bg/login_layer_j_15t;J-15T;J-15T;same;;;
 loading_bg/login_layer_hungarian_aircrafts;Royal Hungarian Air Force;Royal Hungarian Air Force;same;;;
 loading_bg/login_layer_armoured_fighting_vehicles;Armoured fighting vehicles;Armoured fighting vehicles;same;;;
 loading_bg/login_layer_nuclear_thunder_tu_95m;Tu-95M;Tu-95M;same;;;
+loading_bg/login_layer_aircraft_marathon_sky_farmer;F-6C;F-6C;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;

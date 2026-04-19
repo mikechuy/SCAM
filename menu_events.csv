@@ -413,4 +413,6 @@ event/cbt_human_event_squad_ab/desc;Join the testing of a new game mode that fea
 event/cbt_human_event_squad_rb/name;Infantry Battles (Fireteam, RB);Infantry Battles (Fireteam, RB);same;;;
 event/cbt_human_event_squad_rb/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;same;;;
 event/cbt_human_event_conquest_rb/name;Infantry Battles (Solo, RB);Infantry Battles (Solo, RB);same;;;
-event/cbt_human_event_conquest_rb/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;same;;;
+event/cbt_human_event_conquest_rb/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;same;;;
+event/cbt_human_event_conquest_ab/name;Infantry Battles (Solo, AB);Infantry Battles (Solo, AB);same;;;
+event/cbt_human_event_conquest_ab/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;same;;;
