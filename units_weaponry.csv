@@ -3974,6 +3974,8 @@ weapons/su_9M120M_laser_guided_default;9M120-1 Ataka missile;9M120-1 Ataka missi
 weapons/su_9M120M_laser_guided_default/short;9M120-1;9M120-1;same;;;
 weapons/us_AGM_22;AGM-22 missile;AGM-22 missiles;nice;;;
 weapons/us_AGM_22/short;AGM-22;AGM-22;same;;;
+weapons/us_AGM_22_default;AGM-22 missile;AGM-22 missiles;nice;;;
+weapons/us_AGM_22_default/short;AGM-22;AGM-22;same;;;
 130mm_of_482m;OF-482M;OF-482M;same;;;
 130mm_br_482b;BR-482B;BR-482B;same;;;
 130mm_djb_1;DJB1-130;DJB2/PL59A-130;nice;;;

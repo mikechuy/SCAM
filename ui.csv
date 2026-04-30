@@ -1632,8 +1632,9 @@ hints/manual_change_crew_available_driver;;"This vehicle has only one crew membe
 hints/manual_change_crew_necessary_gunner;;"Hold the ""Forward"" button so that the Gunner can take the Driver's place and start to move the vehicle";nice;;;
 hints/manual_change_crew_necessary_driver;;"Hold the ""Fire"" button so that the Driver can take the Gunner's place and man the cannon";nice;;;
 hint/holdBtn/short;Hold;Hold;same;;;
-hint/holdBtn/postfix;to close all windows;to close all windows;same;;;
+hint/closeByGamepad;to close the window (hold to close all windows);to close the window (hold to close all windows);same;;;
 hint/pressBtn/short;Press;Press;same;;;
+hint/mouseClick;The information window can be closed with a mouse click.;The information window can be closed with a mouse click.;same;;;
 HUD/TXT_MACH_SHORT;MACH;MACH;same;;;
 msg/textToShowInCockpit;Snail did not pay for cock (pit);Cockpit placeholder;trim;;;
 HUD/BAY_DOOR_IS_OPEN;BAY OPEN;BAY OPEN;same;;;

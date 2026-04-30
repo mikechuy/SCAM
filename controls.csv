@@ -71,7 +71,6 @@ composite/pov0;POV 1;POV 1;same;;;
 composite/pov1;POV 2;POV 2;same;;;
 composite/pov2;POV 3;POV 3;same;;;
 composite/pov3;POV 4;POV 4;same;;;
-composite/device_is_offline;Device is disconnected/switched off;Device is disconnected/switched off;same;;;
 composite/device_is_offline_short;Off;Off;same;;;
 xinp/D.Up;D-pad Up;D-pad Up;same;;;
 xinp/D.Down;D-pad Down;D-pad Down;same;;;
