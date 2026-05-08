@@ -54,7 +54,7 @@ modification/Bf-109F-4_4xSC50/desc;Allows installing 4 x 50 kg bombs.;Allows the
 modification/Bf-109F-4_SC250;SC 250;SC 250;same;;;
 modification/Bf-109F-4_SC250/desc;Allows installing a 250 kg bomb.;Allows the installation of 1 x 250 kg bomb.;nice;;;
 modification/Bf-109F-4_SC500;SC 500;SC 500;same;n;;
-modification/Bf-109F-4_SC500/desc;Allows installing 1 x 500 kg bomb.;Allows the installation of 1 x 500 kg bomb.;nice;n;;
+modification/Bf-109F-4_SC500/desc;Allows the installation of 1 x 500 kg bomb.;Allows the installation of 1 x 500 kg bomb.;same;n;;
 modification/Bf-109F-4_R1;R1 modification;R1 modification;same;;;
 modification/Bf-109F-4_R1/desc;Allows installing 2 x 15 mm MG151/15 cannons under the wings.;Allows the installation of 2 x 15 mm MG151/15 cannons under the wings.;nice;;;
 modification/Bf-109G-10_R5;R5 modification;R5 modification;same;;;
@@ -3375,8 +3375,8 @@ modification/us_1000_lb_mk_79_mod_0/desc;Allows installing Mk79 fire bombs.;Allo
 modification/us_1000_lb_mk_79_mod_0;Mk79;Mk79;same;;;
 modification/il_m380l_mk2/desc;Allows installing 380 liter Mk2 fire bombs.;Allows the installation of 380 liter Mk2 fire bombs.;nice;;;
 modification/il_m380l_mk2;Mk2;Mk2;same;;;
-modification/fr_460l_secan_63/desc;Allows installing 460 liter Mk2 fire bombs.;Allows the installation of 460 liter SECAN 63 fire bombs.;nice;;;
-modification/fr_460l_secan_63;Mk2;SECAN 63;nice;;;
+modification/fr_460l_secan_63/desc;Allows installing 460 liter SECAN 63 fire bombs.;Allows the installation of 460 liter SECAN 63 fire bombs.;nice;;;
+modification/fr_460l_secan_63;SECAN 63;SECAN 63;same;;;
 modification/ah_1_AGM_114_8/desc;Allows installing AGM-114 Hellfire missiles.;Allows the installation of AGM-114 Hellfire missiles.;nice;;;
 modification/ah_1_AGM_114_8;AGM-114;AGM-114;same;;;
 modification/ah_1_AGM_114_16/desc;Allows installing additional AGM-114 Hellfire missiles.;Allows the installation of additional AGM-114 Hellfire missiles.;nice;;;

@@ -2298,6 +2298,11 @@ protection_analysis/btn_allow_damage;Simulate damage;Simulate damage;same;;;
 protection_analysis/btn_allow_cutting;Allow cutting;Allow cutting;same;;;
 armor_class/hydraulic_pump;Hydraulic pump;Hydraulic pump;same;;;
 armor_class/power_electronics;Power electronics;Power electronics;same;;;
+armor_class/napalm_tanks_pressure_system;Incendiary pump system;Flamethrower feed system;nice;;;
+armor_class/napalm_tank;Incendiary mixture tank;Fire mixture tank;trim;;;
+armor_class/desc/napalm_tanks_pressure_system;"Fills the flamethrower cylinder with incendiary mixture using compressed air pressure.
+If it fails, the next shot cannot be prepared until field repairs are performed.";"Fills the flamethrower cylinder with incendiary mixture using compressed air pressure.
+If it fails, the next shot cannot be prepared until field repairs are performed.";same;;;
 armor_class/no_armoring/common;There is no armor protection on this vehicle.;There is no armor protection on this vehicle.;same;;;
 armor_class/thickness;Thickness;Thickness;same;;;
 armor_class/effective_thickness;Effective thickness;Effective thickness;same;;;
