@@ -2026,7 +2026,7 @@ TXT_MACH_NUMBER_BLOCKS_FLAPS;Fucking flaps better open at speed, Gaijoob hates c
 TXT_MACH_NUMBER_BLOCKS_GEAR;Gear blocked at high speed;Gear blocked at high speed;same;;;
 TXT_MACH_NUMBER_BLOCKS_CHUTE;Chute blocked at high speed;Chute blocked at high speed;same;;;
 HUD/TXT_MACH_NUMBER_BLOCKS_VTOL;Thrust vector blocked at high speed;Thrust vector blocked at high speed;same;;;
-controls/machNumberBlocksAirbrake;What kind of idiot has airbrakes that are blocked at high speed;Airbrake blocked at high speed;trim;;;
+controls/machNumberBlocksAirbrake;What kind of idiot blocks airbrakes at high speed;Airbrake blocked at high speed;trim;;;
 controls/mach_number_blocks_bay_door;Bay door blocked at high speed;Bay door blocked at high speed;same;;;
 controls/machNumberBlocksSweep;Gaijoob can't model wing sweep hit boxes, Esports Ready;Wing sweep control is blocked at high speed;trim;;;
 controls/help/aircraft/aam/base_info;Basic flight information and the status of the selected weapon;Basic flight information and the status of the selected weapon;same;;;

@@ -1965,8 +1965,14 @@ mainmenu/failedInstallAttachableAngle;You cannot set up this item at slope angle
 discount/notification;Discounts available;Discounts available;same;;;
 mainmenu/firstCountry;Choose Country for the first battle;Choose Country for the first battle;same;;;
 mainmenu/firstCountry/hint;Other countries also will be available;Other countries also will be available;same;;;
-mainmenu/firstUnit;Choose Unit Type for the first battle;Choose Unit Type for the first battle;same;;;
-mainmenu/firstUnit/hint;Other vehicles also will be available;Other vehicles also will be available;same;;;
+mainmenu/firstUnit;Choose Unit Type for the first battle;Choose starting Unit Type;trim;;;
+mainmenu/firstUnitChoiceBonusNotice;"This choice will determine vehicle type you will receive as a reward after your first battle and also tutorial mission.
+Vehicle type can be freely changed after the first battle";"This choice will determine vehicle type you will receive as a reward after your first battle and also tutorial mission.
+Vehicle type can be freely changed after the first battle";same;;;
+mainmenu/firstUnitChoiceTooltip/aviation;Pilot fighters, bombers, and attack aircraft from biplanes to modern jets. Dominate aerial battles in high-speed dogfights and devastating ground strikes.;Pilot fighters, bombers, and attack aircraft from biplanes to modern jets. Dominate aerial battles in high-speed dogfights and devastating ground strikes.;same;;;
+mainmenu/firstUnitChoiceTooltip/army;Command tanks, armored cars, and SPGs. From WWII legends to modern tanks - control the battlefield through tactical positioning and devastating firepower.;Command tanks, armored cars, and SPGs. From WWII legends to modern tanks - control the battlefield through tactical positioning and devastating firepower.;same;;;
+mainmenu/firstUnitChoiceTooltip/ships;Captain destroyers, cruisers, and battleships. Bring heavy guns and thick armor to slow, massive ocean battles where every salvo hits with devastating force.;Captain destroyers, cruisers, and battleships. Bring heavy guns and thick armor to slow, massive ocean battles where every salvo hits with devastating force.;same;;;
+mainmenu/firstUnitChoiceTooltip/boats;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast and agile warfare.;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast and agile warfare.;same;;;
 mainmenu/firstChoiseBonusNotice;Based on chosen country and vehicles you will get bonuses during the game process;Based on chosen country and vehicles you will get bonuses during the game process;same;;;
 mainmenu/countryUnlockNotice;Other vehicles and countries will be unlocked as the game progresses;Other vehicles and countries will be unlocked as the game progresses;same;;;
 mainmenu/lockedCountryDescription;Country will be unlocked in battles against other players;Country will be unlocked in battles against other players;same;;;
@@ -4340,6 +4346,7 @@ workshop/spearhead;Spearhead;Spearhead;same;;;
 workshop/line_of_contact;Line of Contact;Line of Contact;same;;;
 workshop/wtcs_trophy_4;WTCS Esports Trophy IV;WTCS Esports Trophy IV;same;;;
 workshop/ninth_wave;Ninth Wave;Ninth Wave;same;;;
+workshop/wtcs_trophy_5;WTCS Esports Trophy V;WTCS Esports Trophy V;same;;;
 workshop/dance_of_dragons;Dance of Dragons;Dance of Dragons;same;;;
 workshop/firebirds;Firebirds;Firebirds;same;;;
 workshop/storm_warning;Storm Warning;Storm Warning;same;;;
@@ -4547,7 +4554,14 @@ eac/eac_not_inited_restart;Anti-cheat is not initialized. The selected game mode
 eac/eac_for_linux;For the game use the Linux version. Turn off Proton Compatibility Mode in Steam game settings;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;nice;;;
 squadMember/eac_not_inited;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;same;;;
 sound_mod_not_allowed_restart;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;same;;;
-sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;same;;;
+sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;"The current sound mod is causing game instability. Possible causes:
+
+ - The sound mod is outdated. Contact the mod's author.
+ - The sound mod consists of several separate mods that conflict with each other.
+
+
+ Continued use of the current sound mod may result in stutters, client crashes, and partial or complete loss of game sound.
+ Please note: Use this sound mod at your own risk. Reports of game issues will not be considered.";nice;;;
 sound_mods_url;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;same;;;
 sound_mods_force_disabled;"Temporary Disabling Sound Modifications
 
@@ -4568,6 +4582,7 @@ We value the community and mod authors and intend to maintain the ability to cre
  - A separate guide for creating sound modifications for the current version and structure of the FMOD audio project: bank sets, routing, parameters/events, etc. This guide will help you improve the compatibility of your modifications with the game, making them more stable and less likely to impact game performance.
 
 As soon as these tools are ready, support for sound modifications will be re-enabled. Thank you for your understanding and support";same;;;
+sound_mods_banks_check_failed;Sound mod failed verification, some of its files are missing or corrupted, standard banks are used;Sound mod failed verification, some of its files are missing or corrupted, standard banks are used;same;;;
 promo/XBOXAccount_linked;Binding an e-mail to your account;Binding an e-mail to your account;same;;;
 promo/XBOXAccount_linked/desc;"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
 This will allow you to play from your PC, log in on the official Gaijin website, forum, and LIVE services, contact support and purchase Golden Eagles in the official Gaijin webstore.";"Great news for Xbox players! Upgrade your account by binding your War Thunder account to your e-mail.
@@ -5479,6 +5494,7 @@ profile_header_operation_vulcan/name;Operation Vulcan;Operation Vulcan;same;;;
 profile_header_tu_95m/name;Tu-95M;Tu-95M;same;;;
 profile_header_veteran/name;Battle Veteran;Battle Veteran;same;;;
 profile_header_winterwarrior/name;Winter Warrior;Winter Warrior;same;;;
+profile_header_d_day/name;Landing Zone: Normandy;Landing Zone: Normandy;same;;;
 frame_simple_solid_grey/name;Simple solid, grey;Simple solid, grey;same;;;
 frame_simple_solid_orange/name;Simple solid, orange;Simple solid, orange;same;;;
 frame_simple_solid_red/name;Simple solid, red;Simple solid, red;same;;;
@@ -5745,6 +5761,104 @@ triggerType/targetingPod;Targeting pods;Targeting pods;same;;;
 triggerType/additional_guns;Guns;Cannons & Machine guns;nice;;;
 mainmenu/purchased_vehicle;Purchased vehicle;Purchased vehicle;same;;;
 mainmenu/researched_vehicle;Researched vehicle;Researched vehicle;same;;;
+mainmenu/not_researched_vehicle;Not researched vehicle;Not researched vehicle;same;;;
 bombProperties/destroyOutherRadius;Maximum damage radius;Maximum damage radius;same;;;
 bombProperties/totalDestructionRadius;Total destruction radius;Total destruction radius;same;;;
 msgbox/btn_disable;Disable;Disable;same;;;
+mainmenu/firstCountryChoiceNoticePremium;You will get premium vehicle for this country after the first battle;You will get premium vehicle for this country after the first battle;same;;;
+mainmenu/firstCountryChoiceNoticeCountries;More countries will be unlocked after playing: {countries};More countries will be unlocked after playing: {countries};same;;;
+mainmenu/recommended;Recommended;Recommended;same;;;
+mainmenu/choose_country;Choose a country to learn more about it;Choose a country to learn more about it;same;;;
+firstChoiceCountry/late_unlock;Late game unlock:;Late game unlock:;same;;;
+firstChoiceCountry/select_country;Select country;Select country;same;;;
+firstChoiceCountry/starting_aviation;{num=Starting aircraft:/Starting aircrafts:};{num=Starting aircraft:/Starting aircrafts:};same;;;
+firstChoiceCountry/starting_army;{num=Starting tank:/Starting tanks:};{num=Starting tank:/Starting tanks:};same;;;
+firstChoiceCountry/starting_ships;{num=Starting ship:/Starting ships:};{num=Starting ship:/Starting ships:};same;;;
+firstChoiceCountry/starting_boats;{num=Starting boat:/Starting boats:};{num=Starting boat:/Starting boats:};same;;;
+firstChoiceCountry/description_title;{country} {unitType};{country} {unitType};same;;;
+firstChoiceCountry/country_usa;USA;USA;same;;;
+firstChoiceCountry/country_germany;Germany;Germany;same;;;
+firstChoiceCountry/country_ussr;USSR;USSR;same;;;
+firstChoiceCountry/country_britain;Britain;Britain;same;;;
+firstChoiceCountry/country_japan;Japan;Japan;same;;;
+firstChoiceCountry/country_china;China;China;same;;;
+firstChoiceCountry/country_italy;Italy;Italy;same;;;
+firstChoiceCountry/country_france;France;France;same;;;
+firstChoiceCountry/country_sweden;Sweden;Sweden;same;;;
+firstChoiceCountry/aviation;Aircrafts;Aircrafts;same;;;
+firstChoiceCountry/army;Tanks;Tanks;same;;;
+firstChoiceCountry/ships;Ships;Ships;same;;;
+firstChoiceCountry/boats;Boats;Boats;same;;;
+firstChoiceCountry/country_ussr_aviation_description;"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. With combination of effectiveness at low altitudes and powerful armament, they will make you a formidable opponent in close combat.
+Advancing through the research tree, you can obtain, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world - Il-2, the formidable MiG-15 jet, and even the most modern aircraft - Su-34 and Su-30SM2.";"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. With combination of effectiveness at low altitudes and powerful armament, they will make you a formidable opponent in close combat.
+Advancing through the research tree, you can obtain, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world - Il-2, the formidable MiG-15 jet, and even the most modern aircraft - Su-34 and Su-30SM2.";same;;;
+firstChoiceCountry/country_ussr_army_description;"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way - forward, use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
+Advancing through the research tree, you can obtain, among other things, legendary T-34 and IS-2, and more modern T-72, T-80, and T-90.";"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way - forward, use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
+Advancing through the research tree, you can obtain, among other things, legendary T-34 and IS-2, and more modern T-72, T-80, and T-90.";same;;;
+firstChoiceCountry/country_ussr_ships_description;"The Soviet Navy boasts a powerful line of destroyers and light cruisers, as well as ambitious battlecruisers and battleships, including the mighty Sovetsky Soyuz-class battleship.
+Take control over the battlefield with exceptional long-range artillery that fire extremely fast projectiles capable of penetrating armor at any range.";"The Soviet Navy boasts a powerful line of destroyers and light cruisers, as well as ambitious battlecruisers and battleships, including the mighty Sovetsky Soyuz-class battleship.
+Take control over the battlefield with exceptional long-range artillery that fire extremely fast projectiles capable of penetrating armor at any range.";same;;;
+firstChoiceCountry/country_ussr_boats_description;"Soviet coastal craft are the tanks of the sea — armored river boats carrying actual tank turrets.
+Take hits other small boats can't survive and answer with heavy explosive shells.";"Soviet coastal craft are the tanks of the sea — armored river boats carrying actual tank turrets.
+Take hits other small boats can't survive and answer with heavy explosive shells.";same;;;
+firstChoiceCountry/country_usa_aviation_description;"The US Air Force represents a unique combination of powerful land and naval aviation. Perform high-speed, high-altitude attacks with aircraft boasting impressive ammunition and a wide selection of suspended weapons.
+Advancing through the research tree, you can obtain, among other things, the legendary P-51 Mustang and carrier-based F4U, the iconic F-86 Sabre jet, and the modern F-14 Tomcat, F-15 Eagle, F-16 Fighting Falcon, and F/A-18 Hornet.";"The US Air Force represents a unique combination of powerful land and naval aviation. Perform high-speed, high-altitude attacks with aircraft boasting impressive ammunition and a wide selection of suspended weapons.
+Advancing through the research tree, you can obtain, among other things, the legendary P-51 Mustang and carrier-based F4U, the iconic F-86 Sabre jet, and the modern F-14 Tomcat, F-15 Eagle, F-16 Fighting Falcon, and F/A-18 Hornet.";same;;;
+firstChoiceCountry/country_usa_army_description;"American tanks were shaped by a philosophy of balance and innovation, combining solid firepower, respectable armor, and good mobility into versatile machines. Use advanced optics, stabilizers, and comfortable layouts to outfight the enemy in any situation.
+Advancing through the research tree, you can obtain, among other things, reliable Sherman, the lightning-fast M18 Hellcat, and ultimately the highly advanced M1 Abrams, showcasing decades of technological leadership.";"American tanks were shaped by a philosophy of balance and innovation, combining solid firepower, respectable armor, and good mobility into versatile machines. Use advanced optics, stabilizers, and comfortable layouts to outfight the enemy in any situation.
+Advancing through the research tree, you can obtain, among other things, reliable Sherman, the lightning-fast M18 Hellcat, and ultimately the highly advanced M1 Abrams, showcasing decades of technological leadership.";same;;;
+firstChoiceCountry/country_usa_ships_description;"The U.S. Navy is the most well-rounded fleet on the water, with deep ranks of destroyers, cruisers, and alot of famous names like the USS Iowa.
+Dominate over your enemies with accurate main caliber guns, unmatched anti-aircraft firepower, and ability to shrug off bombing runs that would sink anyone else.";"The U.S. Navy is the most well-rounded fleet on the water, with deep ranks of destroyers, cruisers, and alot of famous names like the USS Iowa.
+Dominate over your enemies with accurate main caliber guns, unmatched anti-aircraft firepower, and ability to shrug off bombing runs that would sink anyone else.";same;;;
+firstChoiceCountry/country_usa_boats_description;"American PT boats are wood-hulled speedsters bristling with alot rapid-fire turrets, ideal for run-and-gun tactics.
+Race in, unleash overwhelming firepower, and roar back into the dark.";"American PT boats are wood-hulled speedsters bristling with alot rapid-fire turrets, ideal for run-and-gun tactics.
+Race in, unleash overwhelming firepower, and roar back into the dark.";same;;;
+firstChoiceCountry/country_germany_aviation_description;"An embodiment of the German engineering approach: a superb balance of performance characteristics and formidable armament. Use an excellent rate of climb and heavy armament to strike from above with all its might.
+Advancing through the research tree, you can obtain, among other things, legendary Bf 109 and Fw-190, the world's first mass-produced jet fighter - Me 262, and the modern multirole EF-2000.";"An embodiment of the German engineering approach: a superb balance of performance characteristics and formidable armament. Use an excellent rate of climb and heavy armament to strike from above with all its might.
+Advancing through the research tree, you can obtain, among other things, legendary Bf 109 and Fw-190, the world's first mass-produced jet fighter - Me 262, and the modern multirole EF-2000.";same;;;
+firstChoiceCountry/country_germany_army_description;"German armor evolved from light, mobile early-world war II designs into heavily armored behemoths built for dominance. You will be relying on superior guns and high-velocity shells to destroy opponents before they can respond.
+Advancing through the research tree, you can obtain, among other things, nimble Pz III and IV, fearsome Panter, Tiger and Jagdtiger, and also post-war designs like the Leopard series, culminating in the Leopard 2, a refined blend of protection, firepower and mobility.";"German armor evolved from light, mobile early-world war II designs into heavily armored behemoths built for dominance. You will be relying on superior guns and high-velocity shells to destroy opponents before they can respond.
+Advancing through the research tree, you can obtain, among other things, nimble Pz III and IV, fearsome Panter, Tiger and Jagdtiger, and also post-war designs like the Leopard series, culminating in the Leopard 2, a refined blend of protection, firepower and mobility.";same;;;
+firstChoiceCountry/country_germany_ships_description;"The German Kriegsmarine is a small, elite force built around legendary raiders — the Graf Spee, Scharnhorst, and Bismarck.
+Take control over the Cruisers and Battleships with sloped spaced armor layouts high firerate of main caliber guns that let them out-fight ships larger than themselves.";"The German Kriegsmarine is a small, elite force built around legendary raiders — the Graf Spee, Scharnhorst, and Bismarck.
+Take control over the Cruisers and Battleships with sloped spaced armor layouts high firerate of main caliber guns that let them out-fight ships larger than themselves.";same;;;
+firstChoiceCountry/country_germany_boats_description;"The famous S-boats are the most balanced fast-attack craft in the game — quick, well-armed, and powered by safer diesel engines.
+Shred your enemies high-rank rapid-fire 40mm guns on boats with good enough speed and protection.";"The famous S-boats are the most balanced fast-attack craft in the game — quick, well-armed, and powered by safer diesel engines.
+Shred your enemies high-rank rapid-fire 40mm guns on boats with good enough speed and protection.";same;;;
+firstChoiceCountry/country_britain_aviation_description;"British aviation is well known for it refined design, maneuverability, and a unique approach to combat aircraft creation. With the use of harmonious combination of excellent maneuverability and high technical characteristics, you can become a truly versatile fighter, equally dangerous in close maneuvers and high-speed attacks.
+Advancing through the research tree, you can obtain, among other things, the legendary Spitfire and the unique Mosquito, the Meteor jet, the renowned Harrier vertical takeoff and landing aircraft, and the modern EF Typhoon.";"British aviation is well known for it refined design, maneuverability, and a unique approach to combat aircraft creation. With the use of harmonious combination of excellent maneuverability and high technical characteristics, you can become a truly versatile fighter, equally dangerous in close maneuvers and high-speed attacks.
+Advancing through the research tree, you can obtain, among other things, the legendary Spitfire and the unique Mosquito, the Meteor jet, the renowned Harrier vertical takeoff and landing aircraft, and the modern EF Typhoon.";same;;;
+firstChoiceCountry/country_britain_army_description;"British tanks followed a methodical approach, favoring protection and consistent firepower over speed. Bring strong armor and accurate guns into the battle to outlast the enemy in drawn-out engagements.
+Advancing through the research tree, you can obtain, among other things, globally renowned Centurion, leading into modern Challengers, which emphasize armor and precision despite their limitations in flexibility and ammunition variety.";"British tanks followed a methodical approach, favoring protection and consistent firepower over speed. Bring strong armor and accurate guns into the battle to outlast the enemy in drawn-out engagements.
+Advancing through the research tree, you can obtain, among other things, globally renowned Centurion, leading into modern Challengers, which emphasize armor and precision despite their limitations in flexibility and ammunition variety.";same;;;
+firstChoiceCountry/country_britain_ships_description;"The Royal Navy is the deepest fleet in the game, taking you from the original HMS Dreadnought all the way to the mighty HMS Hood.
+Make a good use of sheer variety of ships with big guns and thick armor.";"The Royal Navy is the deepest fleet in the game, taking you from the original HMS Dreadnought all the way to the mighty HMS Hood.
+Make a good use of sheer variety of ships with big guns and thick armor.";same;;;
+firstChoiceCountry/country_britain_boats_description;"The Royal Navy's coastal arm is the most varied of all, climbing from small torpedo boats up to ocean-going frigates.
+From speedboats to true warships use this unmatched variety with powerful automatic cannons to devastate any small target.";"The Royal Navy's coastal arm is the most varied of all, climbing from small torpedo boats up to ocean-going frigates.
+From speedboats to true warships use this unmatched variety with powerful automatic cannons to devastate any small target.";same;;;
+firstChoiceCountry/country_japan_aviation_description;"Japanese aviation have a truly imperial approach to combat aircraft design, where maneuverability is the key to success. Dominate close-range maneuverable combat.
+Advancing through the research tree, you can obtain, among other things, unmistakable carrier-based fighter A6M Zero, the ocean-going B6N torpedo bomber, the pioneering jet Kikka, as well as the modern F-2A and Su-30MKM of the Royal Thai Air Force.";"Japanese aviation have a truly imperial approach to combat aircraft design, where maneuverability is the key to success. Dominate close-range maneuverable combat.
+Advancing through the research tree, you can obtain, among other things, unmistakable carrier-based fighter A6M Zero, the ocean-going B6N torpedo bomber, the pioneering jet Kikka, as well as the modern F-2A and Su-30MKM of the Royal Thai Air Force.";same;;;
+firstChoiceCountry/country_japan_ships_description;"The Imperial Japanese Navy was built around fast cruisers and powerful battleships, including the legendary 'Yamato'—the largest battleship ever built.
+Japanese destroyers and cruisers use the powerful Type 93 oxygen torpedoes, known as the Long Lance, which outrange, outpace, and outpower torpedoes from other fleets.";"The Imperial Japanese Navy was built around fast cruisers and powerful battleships, including the legendary 'Yamato'—the largest battleship ever built.
+Japanese destroyers and cruisers use the powerful Type 93 oxygen torpedoes, known as the Long Lance, which outrange, outpace, and outpower torpedoes from other fleets.";same;;;
+firstChoiceCountry/country_china_army_description;"The Chinese tree is a tour through tank history, blending early American Shermans, mid-tier Soviet-pattern designs, and modern domestic machines. Combine ideas from multiple doctrines into a very flexible and varied arsenal.
+Advancing through the research tree, you can obtain, among other things, ZTZ-59, ZTZ-96, ZTZ-99 and VT-4.";"The Chinese tree is a tour through tank history, blending early American Shermans, mid-tier Soviet-pattern designs, and modern domestic machines. Combine ideas from multiple doctrines into a very flexible and varied arsenal.
+Advancing through the research tree, you can obtain, among other things, ZTZ-59, ZTZ-96, ZTZ-99 and VT-4.";same;;;
+firstChoiceCountry/country_italy_aviation_description;"Italian aviation offers a masterful balance of speed and armament, as well as one of the most diverse aircraft fleets in terms of performance. Quickly adapt to any playstyle with a variety of fast aircraft.
+Advancing through the research tree, you can obtain, among other things, elegant C.205 and Re.2000, multiple unique early Hungarian aircraft, the jet-powered G.91, and the modern F-2000A.";"Italian aviation offers a masterful balance of speed and armament, as well as one of the most diverse aircraft fleets in terms of performance. Quickly adapt to any playstyle with a variety of fast aircraft.
+Advancing through the research tree, you can obtain, among other things, elegant C.205 and Re.2000, multiple unique early Hungarian aircraft, the jet-powered G.91, and the modern F-2000A.";same;;;
+firstChoiceCountry/country_italy_ships_description;"Italian Marine Militare is the fastest on the water, with sleek cruisers and the modern Littorio-class battleships.
+Choose the distance of every fight with speed and destroy your enemies with high performing armor penetrating shells.";"Italian Marine Militare is the fastest on the water, with sleek cruisers and the modern Littorio-class battleships.
+Choose the distance of every fight with speed and destroy your enemies with high performing armor penetrating shells.";same;;;
+firstChoiceCountry/country_italy_boats_description;"The Italian small fleet was born to launch torpedoes.
+Slip in close, fire, and vanish into open water before the enemy can react using tiny and extremely fast MAS and MS boats.";"The Italian small fleet was born to launch torpedoes.
+Slip in close, fire, and vanish into open water before the enemy can react using tiny and extremely fast MAS and MS boats.";same;;;
+firstChoiceCountry/country_france_boats_description;"The French coastal tree fast jumps straight from experimental torpedo boats to frigates with their unique subclass - aviso.
+Use their bigger ships with larger caliber guns and high survivability to your advantage.";"The French coastal tree fast jumps straight from experimental torpedo boats to frigates with their unique subclass - aviso.
+Use their bigger ships with larger caliber guns and high survivability to your advantage.";same;;;
+firstChoiceCountry/country_sweden_army_description;"A neutral nation that built its own way, Sweden combines unique domestic designs with the best foreign hardware. Leverage unique designs and terrain advantage to ambush and dismantle opponents.
+Advancing through the research tree, you can obtain, among other things, fast-firing tank destroyers and the turret-less S-tank, and one of the best Leopards - Strv 122.";"A neutral nation that built its own way, Sweden combines unique domestic designs with the best foreign hardware. Leverage unique designs and terrain advantage to ambush and dismantle opponents.
+Advancing through the research tree, you can obtain, among other things, fast-firing tank destroyers and the turret-less S-tank, and one of the best Leopards - Strv 122.";same;;;
+gpuBenchmark/progresshint;The test to get recommended graphics settings;The test to get recommended graphics settings;same;;;

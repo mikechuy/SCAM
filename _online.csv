@@ -189,8 +189,8 @@ url/ps4_bind_redirect;https://login.gaijin.net/psn/psnCallback;https://login.gai
 url/steam_bind_url;https://login.gaijin.net/steam?token={token}&lang={langAbbreviation};https://login.gaijin.net/steam?token={token}&lang={langAbbreviation};same;;;
 url/pc_bind_url;https://login.gaijin.net/{language}/guest?stoken={stoken};https://login.gaijin.net/{language}/guest?stoken={stoken};same;;;
 url/webpoll_url;{base_url}/survey/{survey_id}/?lang=en&disposable_token={disposable_token};{base_url}/survey/{survey_id}/?lang=en&disposable_token={disposable_token};same;;;
-url/support/easyanticheat;https://support.gaijin.net/hc/en-us/articles/360000024738;https://support.gaijin.net/hc/en-us/articles/360000024738;same;;;
-url/support/easyanticheat/kick_reasons;https://support.gaijin.net/hc/en-us/articles/360000024738#h_9022c48a-94a4-48d6-bdb4-c4c4197c4217;https://support.gaijin.net/hc/en-us/articles/360000024738#h_9022c48a-94a4-48d6-bdb4-c4c4197c4217;same;;;
+url/support/easyanticheat;https://support.gaijin.net/hc/en-us/articles/360000024738;https://support.gaijin.net/hc/en-us/articles/21638218281362;nice;;;
+url/support/easyanticheat/kick_reasons;https://support.gaijin.net/hc/en-us/articles/360000024738#h_9022c48a-94a4-48d6-bdb4-c4c4197c4217;https://support.gaijin.net/hc/en-us/articles/21638218281362;trim;;;
 nda_filename;%lang/nda.txt;%lang/nda.txt;same;;;
 nda_version;-1;-1;same;;;
 nda_version_tanks;-1;-1;same;;;
