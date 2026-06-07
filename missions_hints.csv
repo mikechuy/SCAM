@@ -545,6 +545,55 @@ Here you will learn the basics of aerial combat.
 
 Press {{ID_CONTINUE}} to continue";same;;;
 hints/tutorial_landingDropBomb;Drop all bombs before landing;Drop all bombs before landing;same;;;
+hints/tutorial_helicopter_flight/start01;"Welcome to the pilot training program!
+Press {shortcut} to continue";"Welcome to the pilot training program!
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/start02;"Here you will practice takeoff, flight, and landing in a helicopter
+Press {shortcut} to continue";"Here you will practice takeoff, flight, and landing in a helicopter
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/takeoff;"To take off, you need to increase engine power
+Press {shortcut} to do so";"To take off, you need to increase engine power
+Press {shortcut} to do so";same;;;
+hints/tutorial_helicopter_flight/takeoff_showUI;"Engine power level can be monitored on the left panel
+Press {shortcut} to continue";"Engine power level can be monitored on the left panel
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/takeoff_altimeter;"The altimeter shows the current altitude of the helicopter
+Press {shortcut} to continue";"The altimeter shows the current altitude of the helicopter
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/takeoff_height;Climb to an altitude of 20 meters;Climb to an altitude of 20 meters;same;;;
+hints/tutorial_helicopter_flight/takeoff_vertical_speed;"Vertical speed indicates how quickly the helicopter's altitude is changing
+Press {shortcut} to continue";"Vertical speed indicates how quickly the helicopter's altitude is changing
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/fly_forward;Tilt {shortcut} to adjust the helicopter's pitch and fly forward;Tilt {shortcut} to adjust the helicopter's pitch and fly forward;same;;;
+hints/tutorial_helicopter_flight/fly_velocity_vector_pitch;"The length of the velocity vector reflects the helicopter's speed relative to the ground
+Press {shortcut} to continue";"The length of the velocity vector reflects the helicopter's speed relative to the ground
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/fly_ailerons;Deflect {shortcut} to turn the helicopter;Deflect {shortcut} to turn the helicopter;same;;;
+hints/tutorial_helicopter_flight/velocity_vector_yaw;"The direction of the velocity vector shows where the helicopter is moving relative to the ground
+Press {shortcut} to continue";"The direction of the velocity vector shows where the helicopter is moving relative to the ground
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/fly_roll_info;"The helicopter cannot instantly change its direction of movement relative to the ground.
+The higher the horizontal speed, the more time it will take to change direction
+Press {shortcut} to continue";"The helicopter cannot instantly change its direction of movement relative to the ground.
+The higher the horizontal speed, the more time it will take to change direction
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/fly_roll;Press {shortcut} to bank the helicopter and turn faster;Press {shortcut} to bank the helicopter and turn faster;same;;;
+hints/tutorial_helicopter_flight/fly_velocity_vector_roll;"The attitude indicator shows the helicopter's bank angle relative to the ground
+Press {shortcut} to continue";"The attitude indicator shows the helicopter's bank angle relative to the ground
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/increase height;Press {shortcut} to adjust the helicopter's pitch and gain altitude;Press {shortcut} to adjust the helicopter's pitch and gain altitude;same;;;
+hints/tutorial_helicopter_flight/fly_to_waypoint;Proceed to the waypoint;Proceed to the waypoint;same;;;
+hints/tutorial_helicopter_flight/land_info;"Now, land the helicopter at the airfield
+Press {shortcut} to continue";"Now, land the helicopter at the airfield
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/land_reduce_speed;"To reduce speed, point the helicopter against the direction of the velocity vector
+Press {shortcut} to continue";"To reduce speed, point the helicopter against the direction of the velocity vector
+Press {shortcut} to continue";same;;;
+hints/tutorial_helicopter_flight/land_reduce_power;"Reduce engine power with {shortcut} and begin your descent
+Keep horizontal speed within +/- 5 m/s";"Reduce engine power with {shortcut} and begin your descent
+Keep horizontal speed within +/- 5 m/s";same;;;
+hints/tutorial_helicopter_flight/land_roll;Use {shortcut} to pitch the helicopter's nose up and rapidly shed horizontal speed;Use {shortcut} to pitch the helicopter's nose up and rapidly shed horizontal speed;same;;;
+hints/tutorial_helicopter_flight/land_end;Land the helicopter;Land the helicopter;same;;;
 hints/duel_begin;"The first who wins in two rounds will win a duel! 
 
 WEAPONS WILL BE ENABLED UPON REACHING THE ACTIVATION ZONE";"The first who wins in two rounds will win a duel! 
@@ -709,7 +758,7 @@ Press {{ID_CONTINUE}} to continue";nice;;;
 hints/tutorial_tank_aim_at_crew;;"One of the best ways to destroy a tank is to put its crew out of action
 
 Move the reticule over the central area of the tank";nice;;;
-hints/tutorial_tank_shoot_at_crew;;Fire at the fighting compartment of the tank;nice;;;
+hints/tutorial_tank_shoot_at_crew;;Fire at the fighting compartment of the tank {shortcut};nice;;;
 hints/tutorial_tank_enemy_commander_hit;;You have fired into the Commander's area!;nice;;;
 hints/tutorial_tank_enemy_loader_hit;;The plate usually protecting the Loader has been pierced!;nice;;;
 hints/tutorial_tank_enemy_driver_hit;;Driver's position has been damaged!;nice;;;
@@ -724,7 +773,7 @@ Move the reticule on to the indicated tank";nice;;;
 hints/tutorial_tank_aim_at_engine;;"Most armored vehicles have their engines at the rear
 
 Continue by moving the reticule on to the rear of the indicated tank";nice;;;
-hints/tutorial_tank_shoot_at_engine;;Now, switch to gunner view and fire at the tank engine;nice;;;
+hints/tutorial_tank_shoot_at_engine;;Now, switch to gunner view and fire at the tank engine {{ID_FIRE_GM}};nice;;;
 hints/tutorial_tank_move_to_new_position;;Good job! Move to another caponier;nice;;;
 hints/tutorial_tank_aim_at_front_plate;;"The tank in front of you has exactly this kind of armor
 Aim your crosshair at it";nice;;;
@@ -1741,7 +1790,7 @@ hud_tutorial_fighter_initial_controls_throttle_min;;Use {{throttle=min}} to decr
 hud_tutorial_fighter_initial_controls_fire;;Use {{ID_FIRE_MGUNS}} to fire at the enemy aircraft.;nice;;;
 hints/naval_biathlon_targets;Destroy designated targets to gain the ability to boost your speed by pressing {{ID_EVENT_ACTION}};Destroy designated targets to gain the ability to boost your speed by pressing {{ID_EVENT_ACTION}};same;;;
 hints/tank_biathlon_pillars;Try to avoid colliding with pillars: the impact will slow down your vehicle.;Try to avoid colliding with pillars: the impact will slow down your vehicle.;same;;;
-hints/tutorialDestr_welcome;Welcome to the quick guide to battleship controls.;Welcome to the quick guide to battleship controls.;same;;;
+hints/tutorialDestr_welcome;Welcome to the quick guide to battleship controls.;Welcome to the quick guide to warship controls.;trim;;;
 hints/tutorialDestr_welcome_continue;"Welcome to the quick guide to battleship controls.
 
 Press {{ID_CONTINUE}} to continue";"Welcome to the quick guide to battleship controls.
@@ -1917,6 +1966,12 @@ hints/ki_148_missile/destroy_target;Destroy the target with a missile;Destroy th
 hints/ki_148_missile/try_again;"The target hasn’t been destroyed. If you haven’t managed to confirm the operability of the missile or discover the broken part, you can repeat the test
 Press {{ID_CONTINUE}} to start the test again ({var})";"The target hasn’t been destroyed. If you haven’t managed to confirm the operability of the missile or discover the broken part, you can repeat the test
 Press {{ID_CONTINUE}} to start the test again ({var})";same;;;
+missions/demo_aircraft_move;Use {shortcut} to control aircraft;Use {shortcut} to control aircraft;same;;;
+missions/demo_aircraft_fire;Press {shortcut} to fire;Press {shortcut} to fire;same;;;
+missions/demo_aircraft_task;Kill enemy bombers;Kill enemy bombers;same;;;
+missions/demo_tank_turret;Use {shortcut} to aim the turret;Use {shortcut} to aim the turret;same;;;
+missions/demo_tank_aim;Align the crosshair with the enemy;Align the crosshair with the enemy;same;;;
+missions/demo_tank_task;Kill enemy tanks;Kill enemy tanks;same;;;
 hints/aircraft_atgm_mclos/start;"The use of air-to-surface guided missiles with manual aiming
 Press {shortcut} to continue";"The use of air-to-surface guided missiles with manual aiming
 Press {shortcut} to continue";same;;;
@@ -2168,7 +2223,7 @@ Keep the attacking missile’s tag on the RWR at 3 or 9 o’clock
 The missile’s miss will be visible on the RWR indicator — the missile symbol will move from the perpendicular sector into the rear sector and then disappear";same;;;
 hints/aircraft_modifications/rocket_start;Press {shortcut} to launch missile;Press {shortcut} to launch the missile;nice;;;
 hints/aircraft_modifications/laser_activate;Press {shortcut} to activate laser;Press {shortcut} to activate the laser;nice;;;
-hints/aircraft_modifications/view_target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;same;;;
+hints/aircraft_modifications/view_target;In the targeting camera, the center of the crosshair indicates the aiming point. Aim at the target;In the targeting camera, the center of the crosshair indicates the point of interest. Aim at the target;nice;;;
 hints/aircraft_modifications/view_target_after;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;The set point is saved and displayed in 3rd person view. Align the aircraft to avoid colliding with the target;same;;;
 hints/aircraft_modifications/change_view_homing;To switch to the seeker camera mode, use the view change {shortcut};To switch to the seeker camera mode, use the view change {shortcut};same;;;
 hints/aircraft_modifications/change_view_laser;To switch to the pod camera mode, use the view change {shortcut};To switch to the pod camera mode, use the view change {shortcut};same;;;
@@ -2199,20 +2254,20 @@ hints/aircraft_modifications/need_to_bound_fire_agm;To test air-to-surface missi
 hints/aircraft_modifications/need_to_bound_fire_aam;To test air-to-air missiles in this mission, you need to assign a button {shortcut};To test air-to-air missiles in this mission, you need to assign a button {shortcut};same;;;
 hints/aircraft_modifications/need_to_bound_fire_bomb;To test guided bombs in this mission, you need to assign the key {shortcut};To test guided bombs in this mission, you need to assign the key {shortcut};same;;;
 hints/aircraft_modifications/spi1;"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
-Press {shortcut} to activate the aiming point";"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
-Press {shortcut} to activate the aiming point";same;;;
+Press {shortcut} to activate the aiming point";"For quick targeting optics alignment, set the 'point of interest' to the area of the presumed target location
+Press {shortcut} to activate the point of interest";nice;;;
 hints/aircraft_modifications/spi_menu1;"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
-Press {shortcut} to open the multi-function menu";"For quick targeting optics alignment, set the 'aiming point' to the area of the presumed target location
-Press {shortcut} to open the multi-function menu";same;;;
+Press {shortcut} to open the multi-function menu";"For quick targeting optics alignment, set the 'point of interest' to the area of the presumed target location
+Press {shortcut} to open the multi-function menu";nice;;;
 hints/aircraft_modifications/menu_choose_cockpit;Choose 'Cockpit';Choose 'Cockpit';same;;;
-hints/aircraft_modifications/menu_choose_spi;Choose 'Activate target point';Choose 'Activate target point';same;;;
+hints/aircraft_modifications/menu_choose_spi;Choose 'Activate target point';Choose 'Activate Point of Interest';nice;;;
 hints/aircraft_modifications/menu_choose_mfd;Choose 'MFD / NVD';Choose 'MFD / NVD';same;;;
 hints/aircraft_modifications/menu_choose_ndv;Choose 'Switch NVD mode';Choose 'Switch NVD mode';same;;;
 hints/aircraft_modifications/menu_choose_radar;Choose 'Radar / IRST';Choose 'Radar / IRST';same;;;
 hints/aircraft_modifications/menu_choose_radar_switch;Choose 'Change Radar/IRST mode';Choose 'Change Radar/IRST mode';same;;;
 hints/aircraft_modifications/spi2;"To do this, place the crosshair marker on the desired point and activate the aiming point
-Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the aiming point
-Press {shortcut} to activate it";same;;;
+Press {shortcut} to activate it";"To do this, place the crosshair marker on the desired point and activate the point of interest
+Press {shortcut} to activate it";nice;;;
 hints/aircraft_modifications/find_target;Align the aircraft's course to the target;Align the aircraft's course to the target;same;;;
 hints/aircraft_modifications/sim_down;Align the aircraft's course to the ground to find a target;Align the aircraft's course to the ground to find a target;same;;;
 hints/aircraft_modifications/sim_up;Align the aircraft's course to the sky to avoid colliding with the ground;Align the aircraft's course to the sky to avoid colliding with the ground;same;;;

@@ -109,6 +109,9 @@ mainmenu/btnMoveToNavPanel;To navigation bar;To navigation bar;same;;;
 mainmenu/protection_improvement;Protection improvement;Protection improvement;same;;;
 mainmenu/protectionMap;Protection map;Protection map;same;;;
 mainmenu/considerCameraVerticalAngle;Consider camera vertical angle;Consider camera vertical angle;same;;;
+mainmenu/license;Other Licenses;Other Licenses;same;;;
+mainmenu/licenseGdk;Other Licenses (GDK);Other Licenses (GDK);same;;;
+mainmenu/licenseCefprocess;Cefprocess Licenses;Cefprocess Licenses;same;;;
 flightmenu;Battle menu;Battle menu;same;;;
 flightmenu/title;Pause;Pause;same;;;
 flightmenu/btnResume;Resume;Resume;same;;;
@@ -165,6 +168,8 @@ mission_hint/spare;the number of backups on this vehicle. The backup allows you 
 mission_hint/spare/universal_spawn;there is a universal backup for this vehicle. You can use this vehicle for a second time by spending one universal backup.;there is a universal backup for this vehicle. You can use this vehicle for a second time by spending one universal backup.;same;;;
 mission_hint/spare/spawn;the number of backups on this vehicle. You can use this vehicle for a second time by spending one backup.;the number of backups on this vehicle. You can use this vehicle for a second time by spending one backup.;same;;;
 mission_hint/spawns_per_unit;available and maximum number of respawns on this type of vehicle ({army}).;available and maximum number of respawns on this type of vehicle ({army}).;same;;;
+mission_hint/spawn_delay;the vehicle is temporarily locked and can be used after the specified time.;the vehicle is temporarily locked and can be used after the specified time.;same;;;
+mission_hint/spawn_delay_alternative_base;You can select another spawn base.;You can select another spawn base.;same;;;
 msgbox/btn_yes;Yes;Yes;same;;;
 msgbox/btn_no;No;No;same;;;
 msgbox/btn_ok;Ok;OK;nice;;;
@@ -673,6 +678,7 @@ mainmenu/showModesInfo/tooltip;Here you can choose the game mode for which the B
 mainmenu/showModesInfo/advice;"Recommended: ""{automatic}"" (the mode in which you are playing).";"Recommended: ""{automatic}"" (the mode in which you are playing).";same;;;
 mainmenu/showModesInfo/warning;"Caution: This mode may be different from the one in which you are playing. Don't forget to return the switch to ""{automatic}"".";"Caution: This mode may be different from the one in which you are playing. Don't forget to return the switch to ""{automatic}"".";same;;;
 exp_reasons/kill;Back to the hangar;Aircraft destroyed;nice;;;
+exp_reasons/kill_ucav;UCAV destroyed;UCAV destroyed;same;;;
 exp_reasons/killUfo;ᚢᚣᚥᚨᚲ destroyed;ᚢᚣᚥᚨᚲ destroyed;same;;;
 exp_reasons/kill_by_team;Raspberry consumed;Aircraft destroyed by our team;nice;;;
 exp_reasons/kill_by_teamUfo;ᚢᚣᚥᚨᚲ destroyed by our team;ᚢᚣᚥᚨᚲ destroyed by our team;same;;;
@@ -698,6 +704,9 @@ exp_reasons/scout_kill;I spotted that (smart);Scouted target destroyed (by intel
 exp_reasons/scout_kill_unknown;Someone got it;Scouted target destroyed;nice;;;
 exp_reasons/timed_award;Useful actions;Useful actions;same;;;
 exp_reasons/severe_damage;Severe brain damage;Severe damage;trim;;;
+exp_reasons/kill_by_crash;Aircraft crashed;Aircraft crashed;same;;;
+exp_reasons/kill_helicopter_by_crash;Helicopter crashed;Helicopter crashed;same;;;
+exp_reasons/kill_ucav_by_crash;UCAV crashed;UCAV crashed;same;;;
 exp_reasons/kill_finishing_other;Aircraft finished off;Aircraft finished off;same;;;
 exp_reasons/kill_from_severe_damage;Severely damaged aircraft kill counted;Severely damaged aircraft kill counted;same;;;
 exp_reasons/kill_helicopter_finishing_other;Helicopter finished off;Helicopter finished off;same;;;
@@ -724,6 +733,16 @@ mainmenu/timeForBuyVehicle;The vehicle will be available for purchase for {time}
 mainmenu/timeForBuyTrophy;This trophy will be available for purchase for {time};This trophy will be available for purchase for {time};same;;;
 mainmenu/dataRemaningTimeShort;until {time};until {time};same;;;
 mainmenu/timeForBuyVehicleShort;{time} left;{time} left;same;;;
+mainmenu/dataFinishedTimeShort;Finished: {time};Finished: {time};same;;;
+mainmenu/taskOverdueTime;Task is overdue: <color=@redMenuButtonColor>{time}</color>;Task is overdue: <color=@redMenuButtonColor>{time}</color>;same;;;
+mainmenu/taskRemaningTime;Task is available until: <color=@hoverMenuButtonColor>{time}</color>;Task is available until: <color=@hoverMenuButtonColor>{time}</color>;same;;;
+mainmenu/tasksCompleted;Tasks completed:;Tasks completed:;same;;;
+mainmenu/taskStartTime;Task starts: {time};Task starts: {time};same;;;
+mainmenu/taskCompleted;Task task is completed;Task task is completed;same;;;
+mainmenu/taskMarksReceived;Marks of distinction received: <color=@unlockHeaderColor>{completed}</color><color=@activeTextColor>/{total}</color>;Marks of distinction received: <color=@unlockHeaderColor>{completed}</color><color=@activeTextColor>/{total}</color>;same;;;
+mainmenu/awardTrophy;Award trophy;Award trophy;same;;;
+mainmenu/dataStartTimeShort;Start: {time};Start: {time};same;;;
+mainmenu/dataPeriodTimeShort;{startTime} - {endTime};{startTime} - {endTime};same;;;
 mainmenu/vehicleResearchTillDate;After {time}, the vehicle will be hidden in the research tree and will no longer be available to start researching.;After {time}, the vehicle will be hidden in the research tree and will no longer be available to start researching.;same;;;
 mainmenu/vehicleExpireTimeForResearch;The vehicle will be available for research and purchase for {time}.;The vehicle will be available for research and purchase for {time}.;same;;;
 mainmenu/vehicleInGroupAvailableLimitedTimeTooltip;In the group below, there is a vehicle available to start research for a limited time.;In the group below, there is a vehicle available to start research for a limited time.;same;;;
@@ -873,6 +892,7 @@ msgbox/broken_unit;"This vehicle is in need of repair.
 Current Repair Cost: %s";"This vehicle is in need of repair.
 Current Repair Cost: %s";same;;;
 msgbox/notAvailbleYet;This feature is not available yet.;This feature is not available yet.;same;;;
+msgbox/notAvailbleShortToken;Failed to get authorization token. Check your network connection and try again.;Failed to get authorization token. Check your network connection and try again.;same;;;
 msgbox/notAvailbleCountry;This country is temporarily unavailable.;This country is temporarily unavailable.;same;;;
 notAvailbleCountry/choose;"The selected country is temporarily unavailable.
 Please select another one.";"The selected country is temporarily unavailable.
@@ -1208,7 +1228,7 @@ crew/ship_commander/interchangeability/tooltip;Allows you to carry a heavier los
 crew/ship_commander/leadership/tooltip;Improves other skills of the crew.;Improves other skills of the crew.;same;;;
 crew/ship_commander/radio_distance/tooltip;Radio range. Target vision in meters;Radio range. Target vision in meters;same;;;
 crew/ship_look_out_station/air_spotting/tooltip;Air targets detection skill affects distance of air object markers drawing;Air targets detection skill affects distance of air object markers drawing;same;;;
-crew/ship_look_out_station/ground_spotting/tooltip;Ground targets detection skill affects distance of naval and ground objects markers drawing;Ground targets detection skill affects distance of naval and ground objects markers drawing;same;;;
+crew/ship_look_out_station/ground_spotting/tooltip;Ground targets detection skill affects distance of naval and ground objects markers drawing;Surface comparable size targets detection skill affects distance of naval and ground objects markers drawing;nice;;;
 crew/ship_look_out_station/torpedo_spotting/tooltip;Skill affects enemy torpedo markers drawing distance;Skill affects enemy torpedo markers drawing distance;same;;;
 crew/ship_engine_room/operation_time_mult/tooltip;Ship control skill affects telegraph switch time and rudder reaction speed;Ship control skill affects telegraph switch time and rudder reaction speed;same;;;
 crew/ship_engine_room/antifire_skill_mult/tooltip;Fire preparation of boiler and engine room. Reducing the chances of a fire in the engine room on engines, in the engine compartment and in the transmission;Fire preparation of boiler and engine room. Reducing the chances of a fire in the engine room on engines, in the engine compartment and in the transmission;same;;;
@@ -2062,6 +2082,8 @@ weaponry/unlockModsReq;Not all required modifications have been purchased;Not al
 mainmenu/pastBattleAchieve;This reward was won in a previous battle;This reward was won in a previous battle;same;;;
 weaponry/unlockTier/reqPrevTiers;To gain access to this tier you need to unlock all previous ones.;To gain access to this tier you need to unlock all previous ones.;same;;;
 mainmenu/webui_map;Open map in browser;Open map in browser;same;;;
+mainmenu/webui_map_qr;Show QR for Assistant;Show QR for Assistant;same;;;
+assistant_map_qr/descr;Scan the QR with your phone camera or in the WT Assistant mobile app (Tactical Map section);Scan the QR with your phone camera or in the WT Assistant mobile app (Tactical Map section);same;;;
 mainmenu/update_avail_popup_title;New client update available;New client update available;same;;;
 mainmenu/update_avail_popup_text;To install this update you need to restart the game client.;To install this update you need to restart the game client.;same;;;
 weaponry/enoughAmount;You have already purchased the maximum amount;You have already purchased the maximum amount;same;;;
@@ -2721,6 +2743,8 @@ armor_class/desc/optic_block;If it fails, these fail too:;If it fails, these sys
 armor_class/ircm;IRCM;IRCM block;nice;;;
 armor_class/desc/ircm;If it fails, these fail too:;If it fails, these systems cannot be used:;nice;;;
 armor_class/apu;Auxiliary power unit;Auxiliary power unit;same;;;
+armor_class/sweep_wing;Sweep wing control system;Sweep wing control system;same;;;
+armor_class/desc/sweep_wing;If it fails, these systems cannot be used:;If it fails, these systems cannot be used:;same;;;
 xray/indicators;MFD/HUD;MFD/HUD;same;;;
 xray/weaponControls;Weapon control;Weapon control;same;;;
 xray/optics;Targeting optic;Targeting optics;nice;;;
@@ -2733,7 +2757,7 @@ xray/nightVision;NVD;NVD;same;;;
 xray/controls;Flight control;Flight control;same;;;
 xray/targetingPod;Targeting pod;Targeting pod;same;;;
 xray/laserDesignator;Laser designator;Laser designator;same;;;
-xray/wing_control;Wing control;Targeting pod;nice;;;
+xray/wing_control;Wing control;Sweep wing control system;nice;;;
 optic/zoom;Zoom;Zoom;same;;;
 optic/fov;Sight FOV;Sight FOV;same;;;
 msg/secondaryWeaponrequired;To use this gun, you need to select it as a secondary weapon;To use this gun, you need to select it as a secondary weapon;same;;;
@@ -2843,6 +2867,12 @@ hints/tutorial_newbie/naval/neutral_zone;Neutral zone;Neutral zone;same;;;
 hints/tutorial_newbie/naval/zone_mark;Capture zone marking;Capture zone marking;same;;;
 hints/tutorial_newbie/naval/enter_inside_buoed_area;To capture a strategic point, enter a buoyed area and wait for a successful capture message;To capture a strategic point, enter a buoyed area and wait for a successful capture message;same;;;
 hints/tutorial_newbie/naval/zone_marks_by_buoys;Capture zone border is marked with buoys;Capture zone border is marked with buoys;same;;;
+hints/tutorial/selectCrew/choose;"This is your crew slots, only vehicles that are currently in slots will be available in battle.
+
+Select a slot for your new {unitName} and press Choose a Crew button.";"This is your crew slots, only vehicles that are currently in slots will be available in battle.
+
+Select a slot for your new {unitName} and press Choose a Crew button.";same;;;
+hints/tutorial/selectCrew/confirm;You have to pay silver lions (currency that you earn in battle) every time you train your crew to operate new vehicle.;You have to pay silver lions (currency that you earn in battle) every time you train your crew to operate new vehicle.;same;;;
 items/shop;Item Shop;Item Shop;same;;;
 items/inventory;Inventory;Inventory;same;;;
 items/workshop;Workshop;Workshop;same;;;
@@ -2923,12 +2953,12 @@ help/OBJ_CLICK/gamepad_specific;;Press A to continue.;nice;;;
 help/newModification;;"Choose your new modification for research now.
 <color=@userlogColoredText>{modName}</color> for example.
 You could change choice after tutorial is finished.";nice;;;
-help/FreeExp;If you have any remaining research points, they will be automatically transferred to the selected new research.;If you have any remaining research points, they will be automatically transferred to the selected new research.;same;;;
 text/new_amount;(New {amount});(New {amount});same;;;
 text/new;(New);(New);same;;;
 items/expired;Expired;Expired;same;;;
 items/getReward;Get Reward;Get Reward;same;;;
 items/getRewardShort;Get Reward;Get Reward;same;;;
+items/getRewardVeryShort;Get;Get;same;;;
 items/ifYouHaveAllItemsAbove;If you have all of the above items on your account:;If you have all of the above items on your account:;same;;;
 EveryDayLoginAward/name;Daily Reward;Daily Reward;same;;;
 EveryDayLoginAward/progressBar/tooltip;Passed weeks in a row: {weeks}.;Passed weeks in a row: {weeks}.;same;;;
@@ -3665,6 +3695,7 @@ respawn/randomUnitWarning;This vehicle is given to you for the current mission a
 respawn/randomUnitHint;– random rubbish for the current mission.;– a random vehicle given for the current mission.;nice;;;
 respawn/randomUnitsList;Selected with bias from the list:;Selected randomly from the list:;trim;;;
 respawn/squadSpawnBlocked;Squadmate in a firefight;Squadmate is unavailable;nice;;;
+respawn/zoneRespawnBlocked;Zone is unavailable;Zone is unavailable;same;;;
 inBattle/timeToKick;;"WARNING!
 If you remain inactive,
 you will be returned to the main menu in {timeToKick}";nice;;;
@@ -4790,6 +4821,10 @@ mainmenu/acceptObjective;Accept Objective;Accept Objective;same;;;
 mainmenu/regionalUnlockActivationError;Failed to accept objective. Please try again later.;Failed to accept objective. Please try again later.;same;;;
 mainmenu/promoteUnit;Available vehicle for purchase for a limited time;The vehicle is available for purchase for a limited time;nice;;;
 mainmenu/eventUnit;A vehicle receiving event is available;A vehicle receiving event is available;same;;;
+mainmenu/promoteUnit/title;Limited-time sale vehicles;Limited-time sale vehicles;same;;;
+mainmenu/promoteUnit/empty;There are currently no equipment items on temporary sale.;There are currently no equipment items on temporary sale.;same;;;
+mainmenu/discount/title;Vehicles at a discount;Vehicles at a discount;same;;;
+mainmenu/discount/empty;There are currently no discounted items.;There are currently no discounted items.;same;;;
 loading_bg;Loading screen;Loading screen;same;;;
 loading_bg/login_layer;"P-47 Thunderbolt ""Ardennes""";"P-47 Thunderbolt ""Ardennes""";same;;;
 loading_bg/login_layer_a1;Spitfire Mk IX;Spitfire Mk IX;same;;;
@@ -5323,6 +5358,8 @@ crew/qualifyIncrease;Upgrade qualification;Upgrade qualification;same;;;
 customization/skin/exclude_from_autoselect;Exclude from automatic selection;Exclude from automatic selection;same;;;
 customization/skin/return_to_autoselect;Return to automatic selection;Return to automatic selection;same;;;
 customization/skin/excluded_from_autoselect;The camouflage is excluded from automatic selection in battle for specified terrain conditions;The camouflage is excluded from automatic selection in battle for specified terrain conditions;same;;;
+customization/skin/use_as_default;Use as Default;Use as Default;same;;;
+customization/skin/dont_use_as_default;Do not use as Default;Do not use as Default;same;;;
 userlog/finishing_type;Finishing off;Finishing off;same;;;
 sensorsFilters/allWeapons;Other weapons;Other weapons;same;;;
 sensorsFilters/playerWeapons;Player weapons;Player weapons;same;;;
@@ -5344,6 +5381,7 @@ sensorsFilters/dead;Destroyed vehicles;Destroyed vehicles;same;;;
 sensorsFilters/rangeDist;Range;Range;same;;;
 sensorsFilters/track_sensor;Tracking radars;Tracking radars;same;;;
 sensorsFilters/sensor_interest;Detected target markers;Detected target markers;same;;;
+mapMarkerFilters/rocketAndMissileSystems;Rocket & Missile Systems;Rocket & Missile Systems;same;;;
 userlog/finishing_type/none;— (full reward);— (full reward);same;;;
 userlog/finishing_type/own;Own target (the rest of the reward);Own target (the rest of the reward);same;;;
 userlog/finishing_type/other;Ally's target (the rest of the reward);Ally's target (the rest of the reward);same;;;
@@ -5352,6 +5390,8 @@ userlog/finishing_type/mission_end;Mission end (no reward);Mission end (no rewar
 userlog/vehicle_condition;Condition;Condition;same;;;
 userlog/scouted_with_uav;UAV in the air;UAV in the air;same;;;
 userlog/scouted_without_uav;without UAV;without UAV;same;;;
+userlog/crash_kill_without_offender;— (crashed without damage);— (crashed without damage);same;;;
+userlog/leave_kill_without_offender;— (left the vehicle);— (left the vehicle);same;;;
 MENU_LANG_USERLOG_CUTTING_START;;;same;;;
 wishlist/filter/researchableVehicle;Researchable;Researchable;same;;;
 wishlist/filter/premiumVehicle;Premium;Premium;same;;;
@@ -5707,6 +5747,11 @@ msg/bulletForCompare/needSelectBullet;Need to select a shell;Need to select a sh
 msg/bulletForCompare/alreadyAddedForComparison;The selected shell has already been added for comparison. Select another shell.;The selected shell has already been added for comparison. Select another shell.;same;;;
 msg/bulletForCompare/maximumBulletsCountReached;The maximum number of shells for comparison has been reached. To add a new shell, you must remove one from the list.;The maximum number of shells for comparison has been reached. To add a new shell, you must remove one from the list.;same;;;
 msg/bulletForCompare/bulletsCannotBeComparedByUnitTypes;Ship shells cannot be compared to tank or aircraft shells. To add a shell, you must remove all shells from the comparison list.;Ship shells cannot be compared to tank or aircraft shells. To add a shell, you must remove all shells from the comparison list.;same;;;
+mainmenu/missileTrajectory;Flightpath;Flightpath;same;;;
+mainmenu/missileTelemetry;Telemetry;Telemetry;same;;;
+mainmenu/targetParameters;Target parameters;Target parameters;same;;;
+mainmenu/carrierParameters;Carrier parameters;Carrier parameters;same;;;
+mainmenu/distanceFromTargetToCarrier;Distance from target to carrier;Distance from target to carrier;same;;;
 info/num_engines;Number of engines: {num};Number of engines: {num};same;;;
 info/num_transmissions;Number of transmissions: {num};Number of transmissions: {num};same;;;
 info/num_boilers;Number of boiler rooms: {num};Number of boiler rooms: {num};same;;;
@@ -5724,17 +5769,16 @@ guiHints/headphonesSnapshotWide;"This mode is strictly for listening to the game
 
 In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.
 
-Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it";"This mode is strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone x, and any virtual 5.1/7.1 systems, must be disabled.
+Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it";"This mode is intended strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone:X, and any virtual 5.1/7.1 systems must be disabled.
 
-In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.
-
-Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it";same;;;
-options/headphones_1;Panorama expand 1;Panorama expand 1;same;;;
-options/headphones_2;Panorama expand 2;Panorama expand 2;same;;;
-options/headphones_3;Panorama expand 3;Panorama expand 3;same;;;
-options/headphones_4;Panorama expand 4;Panorama expand 4;same;;;
-options/headphones_5;Panorama expand 5;Panorama expand 5;same;;;
-options/headphones_6;Panorama expand 6;Panorama expand 6;same;;;
+In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.";trim;;;
+guiHints/headphonesSnapshotWideSoundModsWarning;Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it;Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it;same;;;
+options/headphones_1;Panorama expand 1;Panorama expansion 1;nice;;;
+options/headphones_2;Panorama expand 2;Panorama expansion 2;nice;;;
+options/headphones_3;Panorama expand 3;Panorama expansion 3;nice;;;
+options/headphones_4;Panorama expand 4;Panorama expansion 4;nice;;;
+options/headphones_5;Panorama expand 5;Panorama expansion 5;nice;;;
+options/headphones_6;Panorama expand 6;Panorama expansion 6;nice;;;
 options/playTestHeadphones;Play test sound;Play test sound;same;;;
 options/stopTestHeadphones;Stop test sound;Stop test sound;same;;;
 guiHints/playTestHeadphones;"Play a test sound signal to configure the extended stereo panorama mode. The signal contains three tones of different pitches. Try to select the preset in which all three tones sound as close to the center of the stereo panorama as possible.
@@ -5742,12 +5786,12 @@ guiHints/playTestHeadphones;"Play a test sound signal to configure the extended 
 The extended stereo panorama mode is very sensitive to the type of headphones and audio card drivers, so some modes may sound biased toward the right or left channel";"Play a test sound signal to configure the extended stereo panorama mode. The signal contains three tones of different pitches. Try to select the preset in which all three tones sound as close to the center of the stereo panorama as possible.
 
 The extended stereo panorama mode is very sensitive to the type of headphones and audio card drivers, so some modes may sound biased toward the right or left channel";same;;;
-options/currently;currently;currently;same;;;
+options/currently;currently;current;trim;;;
 infantry/speed/very_fast;Very fast;Very fast;same;;;
 infantry/speed/fast;Fast;Fast;same;;;
-infantry/speed/normal;Normal;Normal;same;;;
-infantry/speed/slow;Slow;Slow;same;;;
-infantry/speed/very_slow;Very slow;Very slow;same;;;
+infantry/speed/normal;Normal;Normally;nice;;;
+infantry/speed/slow;Slow;Slowly;nice;;;
+infantry/speed/very_slow;Very slow;Very slowly;nice;;;
 triggerType/rockets;Rockets;Rockets;same;;;
 triggerType/bombs;Bombs;Bombs;same;;;
 triggerType/guided_bombs;Guided Bombs;Guided Bombs;same;;;
@@ -5755,10 +5799,10 @@ triggerType/atgm;Air to Ground Missiles;Air to Ground Missiles;same;;;
 triggerType/aam;Air to Air Missiles;Air to Air Missiles;same;;;
 triggerType/torpedoes;Torpedoes;Torpedoes;same;;;
 triggerType/mines;Mines;Mines;same;;;
-triggerType/fuel_tanks;Fuel tanks;Fuel tanks;same;;;
+triggerType/fuel_tanks;Fuel tanks;Fuel Tanks;nice;;;
 triggerType/countermeasures;Countermeasures;Countermeasures;same;;;
-triggerType/targetingPod;Targeting pods;Targeting pods;same;;;
-triggerType/additional_guns;Guns;Cannons & Machine guns;nice;;;
+triggerType/targetingPod;Targeting pods;Targeting Pods;nice;;;
+triggerType/additional_guns;Guns;Cannons & Machine Guns;nice;;;
 mainmenu/purchased_vehicle;Purchased vehicle;Purchased vehicle;same;;;
 mainmenu/researched_vehicle;Researched vehicle;Researched vehicle;same;;;
 mainmenu/not_researched_vehicle;Not researched vehicle;Not researched vehicle;same;;;
@@ -5861,4 +5905,11 @@ Use their bigger ships with larger caliber guns and high survivability to your a
 firstChoiceCountry/country_sweden_army_description;"A neutral nation that built its own way, Sweden combines unique domestic designs with the best foreign hardware. Leverage unique designs and terrain advantage to ambush and dismantle opponents.
 Advancing through the research tree, you can obtain, among other things, fast-firing tank destroyers and the turret-less S-tank, and one of the best Leopards - Strv 122.";"A neutral nation that built its own way, Sweden combines unique domestic designs with the best foreign hardware. Leverage unique designs and terrain advantage to ambush and dismantle opponents.
 Advancing through the research tree, you can obtain, among other things, fast-firing tank destroyers and the turret-less S-tank, and one of the best Leopards - Strv 122.";same;;;
-gpuBenchmark/progresshint;The test to get recommended graphics settings;The test to get recommended graphics settings;same;;;
+mainmenu/openLimitBuyWndHint;Click this shortcut to go to all vehicles;Click this shortcut to go to all vehicles;same;;;
+mainmenu/openLimitBuyWndHintConsolePrefix;Click;Click;same;;;
+mainmenu/openLimitBuyWndHintConsolePostfix;to go to all vehicles;to go to all vehicles;same;;;
+gpuBenchmark/progresshint;The test to get recommended graphics settings;Test for determining recommended graphics settings;nice;;;
+mainmenu/limitBuyWnd/unitBuyError;The {unitName} is no longer available for purchase at {cost};The {unitName} is no longer available for purchase at {cost};same;;;
+mainmenu/existingAccount;Existing Account;Existing Account;same;;;
+battlelog/asInBattle;As in battle;As in battle;same;;;
+actionBarItem/fpv_shell_activate;Bomb/Missile Camera View;Bomb/Missile Camera View;same;;;

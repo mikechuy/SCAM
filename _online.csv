@@ -182,15 +182,15 @@ url/serv_pick_tss;auto_login https://tss.warthunder.com/ban.php?refresh_token=1&
 url/tss_all_tournaments;;auto_login http://tss.warthunder.com/index.php?action=current_tournaments;nice;;;
 url/serv_replay;auto_local auto_login sso_service=any https://warthunder.com/en/tournament/replay/{roomId};auto_local auto_login sso_service=any http://warthunder.com/en/tournament/replay/{roomId};trim;;;
 url/server_wt_game_replay;https://wt-game-replays.warthunder.com/{sessionId}/0000.wrpl;http://wt-game-replays.warthunder.com/{sessionId}/0000.wrpl;trim;;;
-url/live/user_missions;;auto_login http://live.warthunder.com/feed/missions/;nice;;;
+url/live/user_missions;auto_login https://live.warthunder.com/feed/missions/;auto_login http://live.warthunder.com/feed/missions/;trim;;;
 url/ps4_reg_cb;;auto_login http://warthunder.com/landing/success;nice;;;
 url/ps4_bind_url;https://login.gaijin.net/psn/index;https://login.gaijin.net/psn/index;same;;;
 url/ps4_bind_redirect;https://login.gaijin.net/psn/psnCallback;https://login.gaijin.net/psn/psnCallback;same;;;
 url/steam_bind_url;https://login.gaijin.net/steam?token={token}&lang={langAbbreviation};https://login.gaijin.net/steam?token={token}&lang={langAbbreviation};same;;;
 url/pc_bind_url;https://login.gaijin.net/{language}/guest?stoken={stoken};https://login.gaijin.net/{language}/guest?stoken={stoken};same;;;
 url/webpoll_url;{base_url}/survey/{survey_id}/?lang=en&disposable_token={disposable_token};{base_url}/survey/{survey_id}/?lang=en&disposable_token={disposable_token};same;;;
-url/support/easyanticheat;https://support.gaijin.net/hc/en-us/articles/360000024738;https://support.gaijin.net/hc/en-us/articles/21638218281362;nice;;;
-url/support/easyanticheat/kick_reasons;https://support.gaijin.net/hc/en-us/articles/360000024738#h_9022c48a-94a4-48d6-bdb4-c4c4197c4217;https://support.gaijin.net/hc/en-us/articles/21638218281362;trim;;;
+url/support/easyanticheat;https://support.gaijin.net/hc/en-us/articles/21638218281362;https://support.gaijin.net/hc/en-us/articles/21638218281362;same;;;
+url/support/easyanticheat/kick_reasons;https://support.gaijin.net/hc/en-us/articles/21638218281362;https://support.gaijin.net/hc/en-us/articles/21638218281362;same;;;
 nda_filename;%lang/nda.txt;%lang/nda.txt;same;;;
 nda_version;-1;-1;same;;;
 nda_version_tanks;-1;-1;same;;;

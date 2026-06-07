@@ -223,6 +223,7 @@ hotkeys/ID_SENSORS_TANK_HEADER;Radar/IRST tank control;Radar/IRST control;trim;;
 hotkeys/ID_SENSORS_SHIP_HEADER;Radar/IRST ship control;Radar/IRST control;trim;;;
 hotkeys/ID_SENSOR_TYPE_SWITCH;Switch between Radar and IRST;Switch between Radar and IRST;same;;;
 hotkeys/ID_SENSOR_MODE_SWITCH;Change Radar/IRST mode;Change Radar/IRST mode;same;;;
+hotkeys/ID_SENSOR_MODES_SWITCH;Switch set of Radar/IRST;Switch set of Radar/IRST;same;;;
 hotkeys/ID_SENSOR_SWITCH;Switch Radar/IRST search on/off;Switch Radar/IRST search on/off;same;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH;Change Radar/IRST search mode;Change Radar/IRST search mode;same;;;
 hotkeys/ID_SENSOR_STABILIZATION_SWITCH;Switch Radar/IRST elevation stabilization on/off;Switch Radar/IRST elevation stabilization on/off;same;;;
@@ -236,6 +237,7 @@ controls/sensor_cue_y;Vertical Radar/IRST target cue control axis;Vertical Radar
 controls/sensor_cue_z;Radar/IRST tilt control axis;Radar/IRST tilt control axis;same;;;
 hotkeys/ID_SENSOR_TYPE_SWITCH_HELICOPTER;Switch between Radar and IRST;Switch between Radar and IRST;same;;;
 hotkeys/ID_SENSOR_MODE_SWITCH_HELICOPTER;Change radar mode;Change radar mode;same;;;
+hotkeys/ID_SENSOR_MODES_SWITCH_HELICOPTER;Switch set of Radar/IRST;Switch set of Radar/IRST;same;;;
 hotkeys/ID_SENSOR_SWITCH_HELICOPTER;Switch radar search on/off;Switch radar search on/off;same;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH_HELICOPTER;Change radar search mode;Change radar search mode;same;;;
 hotkeys/ID_SENSOR_RANGE_SWITCH_HELICOPTER;Change radar scope scale;Change radar scope scale;same;;;
@@ -249,6 +251,7 @@ controls/helicopter_sensor_cue_y;Vertical Radar/IRST target cue control axis;Ver
 controls/helicopter_sensor_cue_z;Radar/IRST tilt control axis;Radar/IRST tilt control axis;same;;;
 hotkeys/ID_SENSOR_TYPE_SWITCH_TANK;Switch between Radar and IRST;Switch between Radar and IRST;same;;;
 hotkeys/ID_SENSOR_MODE_SWITCH_TANK;Change Radar/IRST mode;Change Radar/IRST mode;same;;;
+hotkeys/ID_SENSOR_MODES_SWITCH_TANK;Switch set of Radar/IRST;Switch set of Radar/IRST;same;;;
 hotkeys/ID_SENSOR_SWITCH_TANK;Switch Radar/IRST search on/off;Switch Radar/IRST search on/off;same;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH_TANK;Change Radar/IRST search mode;Change Radar/IRST search mode;same;;;
 hotkeys/ID_SENSOR_RANGE_SWITCH_TANK;Change Radar/IRST scope scale;Change Radar/IRST scope scale;same;;;
@@ -261,6 +264,7 @@ controls/gm_sensor_cue_y;Vertical Radar/IRST target cue control axis;Vertical Ra
 controls/gm_sensor_cue_z;Radar/IRST tilt control axis;Radar/IRST tilt control axis;same;;;
 hotkeys/ID_WEAPON_LEAD_SHIP;Switch guidance method;Switch guidance method;same;;;
 hotkeys/ID_SENSOR_MODE_SWITCH_SHIP;Change radar mode;Change radar mode;same;;;
+hotkeys/ID_SENSOR_MODES_SWITCH_SHIP;Switch set of Radar/IRST;Switch set of Radar/IRST;same;;;
 hotkeys/ID_SENSOR_SWITCH_SHIP;Toggle radar search on/off;Toggle radar search on/off;same;;;
 hotkeys/ID_SENSOR_SCAN_PATTERN_SWITCH_SHIP;Change radar search mode;Change radar search mode;same;;;
 hotkeys/ID_SENSOR_RANGE_SWITCH_SHIP;Change radar scope scale;Change radar scope scale;same;;;
@@ -366,6 +370,7 @@ hotkeys/ID_DEC_HMD_BRIGHTNESS_HELI;Decrease HMD brightness;Decrease HMD brightne
 hotkeys/ID_TOGGLE_COLLIMATOR;Toggle Cockpit Sight;Toggle Cockpit Sight;same;;;
 hotkeys/ID_TOGGLE_COLLIMATOR_HELICOPTER;Toggle Cockpit Sight;Toggle Cockpit Sight;same;;;
 hotkeys/ID_TOGGLE_LASER_DESIGNATOR_HELICOPTER;Toggle Laser Designator;Toggle Laser Designator;same;;;
+hotkeys/ID_TOGGLE_LASER_DESIGNATOR_TANK;Toggle Laser Designator;Toggle Laser Designator;same;;;
 hotkeys/ID_TOGGLE_LASER_DESIGNATOR;Toggle Laser Designator;Toggle Laser Designator;same;;;
 controls/helicopter_target_camera;Tracking/aiming axis;Tracking/aiming axis;same;;;
 hotkeys/helicopter_target_camera;Enable tracking/aiming axis;Enable tracking/aiming axis;same;;;
@@ -1157,6 +1162,8 @@ hotkeys/ID_TOGGLE_3_ENGINE_CONTROL;Third engine controls;Third engine controls;s
 hotkeys/ID_TOGGLE_4_ENGINE_CONTROL;Fourth engine controls;Fourth engine controls;same;;;
 hotkeys/ID_TOGGLE_5_ENGINE_CONTROL;Fifth engine controls;Fifth engine controls;same;;;
 hotkeys/ID_TOGGLE_6_ENGINE_CONTROL;Sixth engine controls;Sixth engine controls;same;;;
+hotkeys/ID_TOGGLE_7_ENGINE_CONTROL;Seventh engine controls;Seventh engine controls;same;;;
+hotkeys/ID_TOGGLE_8_ENGINE_CONTROL;Eighth engine controls;Eighth engine controls;same;;;
 hotkeys/ID_ENABLE_ALL_ENGINE_CONTROL;Controls for all engines;Controls for all engines;same;;;
 controls/help/throttle_hud;"Throttle
 Aircraft Speed
@@ -1653,8 +1660,8 @@ controls/help/arm/target_indicator_label;Target indication;Target indication;sam
 controls/help/arm/rwr_indicator_label;The RWR screen can serve as a guide to the direction and status of active radars detected by the aircraft’s RWR system.;The RWR screen can serve as a guide to the direction and status of active radars detected by the aircraft’s RWR system.;same;;;
 controls/help/arm/arm_controls_header_label;Basic control of ARM;Basic control of ARM;same;;;
 controls/help/arm/radio_recon_indicator_label;Indication of electronic radio reconnaissance search mode;Indication of electronic radio reconnaissance search mode;same;;;
-controls/help/arm/target_follow_indicator_label;Indication target follow;Indication target follow;same;;;
-controls/help/arm/indicators_description_label;An anti-radar missile is a weapon designed to detect and destroy sources of radiation. The principle of radar missile guidance is based on the use of a self-guided passive radar head, which searches and captures a target in the direction of its primary radiation relative to the rocket carrier. After the launch of the rocket, it independently tracks the source of the radio radiation and points to it, allowing the aircraft carrier to perform further tasks.;An anti-radar missile is a weapon designed to detect and destroy sources of radiation. The principle of radar missile guidance is based on the use of a self-guided passive radar head, which searches and captures a target in the direction of its primary radiation relative to the rocket carrier. After the launch of the rocket, it independently tracks the source of the radio radiation and points to it, allowing the aircraft carrier to perform further tasks.;same;;;
+controls/help/arm/target_follow_indicator_label;Target tracking indication;Target tracking indication;same;;;
+controls/help/arm/indicators_description_label;An anti-radar missile is a weapon designed to detect and destroy sources of radiation. The principle of radar missile guidance is based on the use of a self-guided passive radar head, which searches and captures a target in the direction of its primary radiation relative to the rocket carrier. After the launch of the rocket, it independently tracks the source of the radio radiation and points to it, allowing the aircraft carrier to perform further tasks.;An anti-radiation missile is a weapon designed to detect and destroy sources of radio emissions. The guidance principle of an anti-radiation missile is based on the use of a passive radar seeker, which searches for and locks onto a target by tracking the direction of its primary emissions relative to the missile-carrying aircraft. After launch, the missile independently tracks the source of radio emissions and homes in on it, allowing the carrier aircraft to continue performing further tasks.;nice;;;
 hotkeys/ID_SHIP_WEAPON_PRIMARY;Select primary weapon;Select primary weapon;same;;;
 hotkeys/ID_SHIP_WEAPON_MACHINEGUN;Select anti-aircraft weapons;Select anti-aircraft weapons;same;;;
 hotkeys/ID_SHIP_WEAPON_SECONDARY;Select secondary weapon;Select secondary weapon;same;;;
@@ -1899,10 +1906,18 @@ controls/hud_rockets_constantly_computing_sight;Rocket ballistic computer;Rocket
 hotkeys/ID_GAMEPAD_RESET_GYRO_TILT;Reset motion sensor orientation;Reset motion sensor orientation;same;;;
 controls/hud_switch_registered_bombing_target;Switch mission bombing target;Switch mission bombing target;same;;;
 hotkeys/ID_SWITCH_REGISTERED_BOMB_TARGETING_POINT;Switch mission bombing target;Switch mission bombing target;same;;;
-hotkeys/ID_LOCK_TARGETING_AT_POINT;Activate target point;Activate target point;same;;;
-hotkeys/ID_UNLOCK_TARGETING_AT_POINT;Deactivate target point;Deactivate target point;same;;;
+hotkeys/ID_LOCK_TARGETING_AT_POINT;Activate target point;Activate Point of Interest;nice;;;
+hotkeys/ID_UNLOCK_TARGETING_AT_POINT;Deactivate target point;Deactivate Point of Interest;nice;;;
 hotkeys/ID_LOCK_TARGETING;Sight stabilization;Sight stabilization;same;;;
 hotkeys/ID_UNLOCK_TARGETING;Disable sight stabilization;Disable sight stabilization;same;;;
+hotkeys/ID_AIM_MEM_POINT_SEL_NEXT;Select Next Aiming Point;Select Next Aiming Point;same;;;
+hotkeys/ID_AIM_MEM_POINT_SEL_PREV;Select Previous Aiming Point;Select Previous Aiming Point;same;;;
+hotkeys/ID_AIM_MEM_POINT_ADD;Add Aiming Point;Add Aiming Point;same;;;
+hotkeys/ID_AIM_MEM_POINT_DEL;Delete Aiming Point;Delete Aiming Point;same;;;
+hotkeys/ID_AIM_MEM_POINT_LINK_WEAPON;Link Weapon to Aiming Point;Link Weapon to Aiming Point;same;;;
+hotkeys/ID_AIM_MEM_POINT_UNLINK_WEAPON;Unlink Weapon from Aiming Point;Unlink Weapon from Aiming Point;same;;;
+hotkeys/ID_AIM_MEM_POINT_EDIT_SEL_TOGGLE;Link Point of Interest to Aiming Point;Link Point of Interest to Aiming Point;same;;;
+hotkeys/ID_AIM_MEM_POINT_SALVO_FIRE;Salvo Launch to Aiming Points;Salvo Launch to Aiming Points;same;;;
 hotkeys/ID_REQUEST_DETECT_ALLY_HELI;Request location of allies;Request location of allies;same;;;
 hotkeys/ID_SQUAD_TARGET_DESIGNATION;Set target for squad;Set target for squad;same;;;
 controls/wheelmenu_x;Radial menu navigation (X-axis);Radial menu navigation (X-axis);same;;;
@@ -2066,3 +2081,9 @@ hotkeys/ID_TOGGLE_AIR_RADAR_NCTR_NAVIGATION;Next target type filter;Next target 
 hotkeys/ID_TOGGLE_AIR_RADAR_NCTR_NAVIGATION_HELICOPTER;Next target type filter;Next target type filter;same;;;
 hotkeys/ID_TOGGLE_AIR_RADAR_NCTR_APPLY;Enable/Disable target type filter;Enable/Disable target type filter;same;;;
 hotkeys/ID_TOGGLE_AIR_RADAR_NCTR_APPLY_HELICOPTER;Enable/Disable target type filter;Enable/Disable target type filter;same;;;
+guiHints/mapZoomInOut;Adjust zoom;Adjust zoom;same;;;
+controls/activationType/name;Action;Action;same;;;
+controls/activationType/onPressed;After short press;After short press;same;;;
+controls/activationType/onLongPress;After long press;After long press;same;;;
+controls/activationType/onDoubleTap;After double tap;After double tap;same;;;
+hotkeys/ID_CAMERA_SHELL_FPV;Bomb/Missile Camera View;Bomb/Missile Camera View;same;;;
