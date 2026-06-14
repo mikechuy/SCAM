@@ -1661,7 +1661,7 @@ controls/help/arm/rwr_indicator_label;The RWR screen can serve as a guide to the
 controls/help/arm/arm_controls_header_label;Basic control of ARM;Basic control of ARM;same;;;
 controls/help/arm/radio_recon_indicator_label;Indication of electronic radio reconnaissance search mode;Indication of electronic radio reconnaissance search mode;same;;;
 controls/help/arm/target_follow_indicator_label;Target tracking indication;Target tracking indication;same;;;
-controls/help/arm/indicators_description_label;An anti-radar missile is a weapon designed to detect and destroy sources of radiation. The principle of radar missile guidance is based on the use of a self-guided passive radar head, which searches and captures a target in the direction of its primary radiation relative to the rocket carrier. After the launch of the rocket, it independently tracks the source of the radio radiation and points to it, allowing the aircraft carrier to perform further tasks.;An anti-radiation missile is a weapon designed to detect and destroy sources of radio emissions. The guidance principle of an anti-radiation missile is based on the use of a passive radar seeker, which searches for and locks onto a target by tracking the direction of its primary emissions relative to the missile-carrying aircraft. After launch, the missile independently tracks the source of radio emissions and homes in on it, allowing the carrier aircraft to continue performing further tasks.;nice;;;
+controls/help/arm/indicators_description_label;An anti-radiation missile is a weapon designed to detect and destroy sources of radio emissions. The guidance principle of an anti-radiation missile is based on the use of a passive radar seeker, which searches for and locks onto a target by tracking the direction of its primary emissions relative to the missile-carrying aircraft. After launch, the missile independently tracks the source of radio emissions and homes in on it, allowing the carrier aircraft to continue performing further tasks.;An anti-radiation missile is a weapon designed to detect and destroy sources of radio emissions. The guidance principle of an anti-radiation missile is based on the use of a passive radar seeker, which searches for and locks onto a target by tracking the direction of its primary emissions relative to the missile-carrying aircraft. After launch, the missile independently tracks the source of radio emissions and homes in on it, allowing the carrier aircraft to continue performing further tasks.;same;;;
 hotkeys/ID_SHIP_WEAPON_PRIMARY;Select primary weapon;Select primary weapon;same;;;
 hotkeys/ID_SHIP_WEAPON_MACHINEGUN;Select anti-aircraft weapons;Select anti-aircraft weapons;same;;;
 hotkeys/ID_SHIP_WEAPON_SECONDARY;Select secondary weapon;Select secondary weapon;same;;;
@@ -1906,8 +1906,8 @@ controls/hud_rockets_constantly_computing_sight;Rocket ballistic computer;Rocket
 hotkeys/ID_GAMEPAD_RESET_GYRO_TILT;Reset motion sensor orientation;Reset motion sensor orientation;same;;;
 controls/hud_switch_registered_bombing_target;Switch mission bombing target;Switch mission bombing target;same;;;
 hotkeys/ID_SWITCH_REGISTERED_BOMB_TARGETING_POINT;Switch mission bombing target;Switch mission bombing target;same;;;
-hotkeys/ID_LOCK_TARGETING_AT_POINT;Activate target point;Activate Point of Interest;nice;;;
-hotkeys/ID_UNLOCK_TARGETING_AT_POINT;Deactivate target point;Deactivate Point of Interest;nice;;;
+hotkeys/ID_LOCK_TARGETING_AT_POINT;Activate Point of Interest;Activate Point of Interest;same;;;
+hotkeys/ID_UNLOCK_TARGETING_AT_POINT;Deactivate Point of Interest;Deactivate Point of Interest;same;;;
 hotkeys/ID_LOCK_TARGETING;Sight stabilization;Sight stabilization;same;;;
 hotkeys/ID_UNLOCK_TARGETING;Disable sight stabilization;Disable sight stabilization;same;;;
 hotkeys/ID_AIM_MEM_POINT_SEL_NEXT;Select Next Aiming Point;Select Next Aiming Point;same;;;
@@ -2087,3 +2087,4 @@ controls/activationType/onPressed;After short press;After short press;same;;;
 controls/activationType/onLongPress;After long press;After long press;same;;;
 controls/activationType/onDoubleTap;After double tap;After double tap;same;;;
 hotkeys/ID_CAMERA_SHELL_FPV;Bomb/Missile Camera View;Bomb/Missile Camera View;same;;;
+hotkeys/ID_CAMERA_SHELL_FPV_HELICOPTER;Bomb/Missile Camera View;Bomb/Missile Camera View;same;;;

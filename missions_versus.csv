@@ -1552,16 +1552,16 @@ events/bullet_hell;Bullet Hell;Bullet Hell;same;;;
 missions/_bullet_hell;[Bullet Hell];[Bullet Hell];same;;;
 missions/_bullet_hell/desc;Bullet Hell is a team deathmatch style mode that pits two aircraft teams against each other using guns only. No missiles allowed! The first team to reach the required score will emerge victorious!;Bullet Hell is a team deathmatch style mode that pits two aircraft teams against each other using guns only. No missiles allowed! The first team to reach the required score will emerge victorious!;same;;;
 missions/_nuclear_escalation;[Nuclear Escalation];[Nuclear Escalation];same;;;
-missions/_nuclear_escalation/desc;"The conflict is rapidly spiraling out of control. As losses mount and teams gain points, both sides escalate to increasingly destructive means of warfare: from tactical to strategic nuclear weapons.
+missions/_nuclear_escalation/desc;"The conflict is rapidly spiraling out of control. As losses mount and teams gain points, both sides escalate to increasingly destructive means of warfare: nuclear strikes become inevitable, and ever more devastating.
 
 Mission objectives:
-- Destroy enemy ground units and aircraft to increase the escalation level
+- Destroy enemy vehicles to increase the escalation level
 - Break through defenses and strike key targets
 - Suppress enemy air defenses and secure air superiority
-- Use nuclear weapons to deliver decisive strikes";"The conflict is rapidly spiraling out of control. As losses mount and teams gain points, both sides escalate to increasingly destructive means of warfare: from tactical to strategic nuclear weapons.
+- Use nuclear weapons to deliver decisive strikes";"The conflict is rapidly spiraling out of control. As losses mount and teams gain points, both sides escalate to increasingly destructive means of warfare: nuclear strikes become inevitable, and ever more devastating.
 
 Mission objectives:
-- Destroy enemy ground units and aircraft to increase the escalation level
+- Destroy enemy vehicles to increase the escalation level
 - Break through defenses and strike key targets
 - Suppress enemy air defenses and secure air superiority
 - Use nuclear weapons to deliver decisive strikes";same;;;

@@ -1228,7 +1228,7 @@ crew/ship_commander/interchangeability/tooltip;Allows you to carry a heavier los
 crew/ship_commander/leadership/tooltip;Improves other skills of the crew.;Improves other skills of the crew.;same;;;
 crew/ship_commander/radio_distance/tooltip;Radio range. Target vision in meters;Radio range. Target vision in meters;same;;;
 crew/ship_look_out_station/air_spotting/tooltip;Air targets detection skill affects distance of air object markers drawing;Air targets detection skill affects distance of air object markers drawing;same;;;
-crew/ship_look_out_station/ground_spotting/tooltip;Ground targets detection skill affects distance of naval and ground objects markers drawing;Surface comparable size targets detection skill affects distance of naval and ground objects markers drawing;nice;;;
+crew/ship_look_out_station/ground_spotting/tooltip;Surface comparable size targets detection skill affects distance of naval and ground objects markers drawing;Surface comparable size targets detection skill affects distance of naval and ground objects markers drawing;same;;;
 crew/ship_look_out_station/torpedo_spotting/tooltip;Skill affects enemy torpedo markers drawing distance;Skill affects enemy torpedo markers drawing distance;same;;;
 crew/ship_engine_room/operation_time_mult/tooltip;Ship control skill affects telegraph switch time and rudder reaction speed;Ship control skill affects telegraph switch time and rudder reaction speed;same;;;
 crew/ship_engine_room/antifire_skill_mult/tooltip;Fire preparation of boiler and engine room. Reducing the chances of a fire in the engine room on engines, in the engine compartment and in the transmission;Fire preparation of boiler and engine room. Reducing the chances of a fire in the engine room on engines, in the engine compartment and in the transmission;same;;;
@@ -2568,13 +2568,15 @@ xray_ext_hint/aircraft;Can be launched during the battle to attack the enemy wit
 xray_ext_hint/aircraft/shortcut;You can switch between controlling a ship and the launched hydroplane by pressing {{ID_START_SUPPORT_PLANE_SHIP}};You can switch between controlling a ship and the launched hydroplane by pressing {{ID_START_SUPPORT_PLANE_SHIP}};same;;;
 xray_ext_hint/engine_room;"Provides ship's ability to move.
 Damaging or destroying several boiler rooms (engines) causes reduce of ship's maximum speed.
-
 Destroying all boiler rooms (engines) makes the ship unable to move. And can cause fire.
+
+A destroyed steam boiler, which is in operation, may explode. Disable the throttle if you notice a steam leak after the boiler is destroyed to prevent an explosion.
 
 You can control engine status with this icon:";"Provides ship's ability to move.
 Damaging or destroying several boiler rooms (engines) causes reduce of ship's maximum speed.
-
 Destroying all boiler rooms (engines) makes the ship unable to move. And can cause fire.
+
+A destroyed steam boiler, which is in operation, may explode. Disable the throttle if you notice a steam leak after the boiler is destroyed to prevent an explosion.
 
 You can control engine status with this icon:";same;;;
 xray_ext_hint/transmission;"Provides the ship the ability to move.
@@ -2707,9 +2709,9 @@ The ship can carry several rangefinders. All of them are included in the fire co
 When all rangefinders (and fire directors, if they are set) are destroyed, the ship loses the ability to calculate the lead point until these parts are repaired.
 
 If the fire control room (or the battle bridge) is destroyed, the ship also loses the ability to calculate the lead point, even if all the directors are intact.";same;;;
-xray_ext_hint/catapult;"Allows launching the ship's hydroplane scout.
-Won't work if the catapult is destroyed.";"Allows launching of the ship's hydroplane scout.
-The ship loses this abilty if the catapult is destroyed.";nice;;;
+xray_ext_hint/catapult;"Allows launching of the ship's hydroplane scout.
+The ship loses this abilty if the catapult is destroyed.";"Allows launching of the ship's hydroplane scout.
+The ship loses this abilty if the catapult is destroyed.";same;;;
 xray_ext_hint/turret;"A destroyed turret cannot be directed and cannot fire.
 
 There is a chance of fire when a turret is destroyed.
@@ -4585,14 +4587,21 @@ eac/eac_not_inited_restart;Anti-cheat is not initialized. The selected game mode
 eac/eac_for_linux;For the game use the Linux version. Turn off Proton Compatibility Mode in Steam game settings;For the game use the linux version. Turn off Proton Compatibility Mode in Steam game settings;nice;;;
 squadMember/eac_not_inited;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;Anti-cheat is not initialized. The selected game mode requires anti-cheat enabled.;same;;;
 sound_mod_not_allowed_restart;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;Sound mods are not allowed for selected game mode. Need to restart game to turn sound mods off. Restart game?;same;;;
-sound_mods_disabled;Warning! The previous game session ended abnormally, most likely due to the installed sound modification. The sound modification was disabled. Please contact the author of the modification for an updated version, or, if you are the author, make changes to the modification based on the current sound project located at <url={link}>GitHub</url>;"The current sound mod is causing game instability. Possible causes:
+sound_mods_disabled;"The current sound mod is causing game instability. Possible causes:
 
  - The sound mod is outdated. Contact the mod's author.
  - The sound mod consists of several separate mods that conflict with each other.
 
 
  Continued use of the current sound mod may result in stutters, client crashes, and partial or complete loss of game sound.
- Please note: Use this sound mod at your own risk. Reports of game issues will not be considered.";nice;;;
+ Please note: Use this sound mod at your own risk. Reports of game issues will not be considered.";"The current sound mod is causing game instability. Possible causes:
+
+ - The sound mod is outdated. Contact the mod's author.
+ - The sound mod consists of several separate mods that conflict with each other.
+
+
+ Continued use of the current sound mod may result in stutters, client crashes, and partial or complete loss of game sound.
+ Please note: Use this sound mod at your own risk. Reports of game issues will not be considered.";same;;;
 sound_mods_url;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders;same;;;
 sound_mods_force_disabled;"Temporary Disabling Sound Modifications
 
@@ -5076,6 +5085,10 @@ loading_bg/login_layer_nuclear_thunder_tu_95m;Tu-95M;Tu-95M;same;;;
 loading_bg/login_layer_aircraft_marathon_sky_farmer;F-6C;F-6C;same;;;
 loading_bg/login_layer_spitfire_mk9c_greece;Spitfire LF Mk.IXc (CW);Spitfire LF Mk.IXc (CW);same;;;
 loading_bg/login_layer_spitfire_mk9c_greece/desc;"Reward for level 100 in the ""Apollo’s Chariot"" Battle Ass Season";"Reward for level 100 in the ""Apollo’s Chariot"" Battle Pass Season";nice;;;
+loading_bg/login_layer_m1a2_sep_v2_trophy;M1A2 (Trophy-HV);M1A2 (Trophy-HV);same;;;
+loading_bg/login_layer_pucara;IA.58A Pucara;IA.58A Pucara;same;;;
+loading_bg/login_layer_hummel;Hummel;Hummel;same;;;
+loading_bg/login_layer_yak130_m346;Yak-130 and M-346FA;Yak-130 and M-346FA;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
@@ -5756,8 +5769,10 @@ info/num_engines;Number of engines: {num};Number of engines: {num};same;;;
 info/num_transmissions;Number of transmissions: {num};Number of transmissions: {num};same;;;
 info/num_boilers;Number of boiler rooms: {num};Number of boiler rooms: {num};same;;;
 info/num_engine_rooms;Number of engine compartments: {num};Number of engine compartments: {num};same;;;
-flightDistance;Flight distance;Flight distance;same;;;
+flightDistance;Flightpath length;Flightpath length;same;;;
 flightTime;Flight time;Flight time;same;;;
+horizontalDistance;Horizontal distance;Horizontal distance;same;;;
+graph/missleTooltip/position;Position;Position;same;;;
 role/human_assault;Assault;Assault;same;;;
 role/human_support;Specialist;Specialist;same;;;
 role/human_sniper;Sniper;Sniper;same;;;
@@ -5765,20 +5780,18 @@ role/human_anti_vehicle;Anti-vehicle;Anti-vehicle;same;;;
 role/human_spec_forces;Special forces;Specisl forces;nice;;;
 role/human_gunner;Gunner;Gunner;same;;;
 options/headphonesSnapshotWide;Headphones;Headphones;same;;;
-guiHints/headphonesSnapshotWide;"This mode is strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone x, and any virtual 5.1/7.1 systems, must be disabled.
+guiHints/headphonesSnapshotWide;"This mode is intended strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone:X, and any virtual 5.1/7.1 systems must be disabled.
 
-In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.
+In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.";"This mode is intended strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone:X, and any virtual 5.1/7.1 systems must be disabled.
 
-Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it";"This mode is intended strictly for listening to the game with stereo headphones. Important sounds receive more precise horizontal and vertical positioning. These are sounds from ground vehicle engines, aircraft, all weapons, and some explosions. Please note that all third-party game audio enhancement drivers, such as Windows Sonic, Dolby Atmos, DTS Headphone:X, and any virtual 5.1/7.1 systems must be disabled.
-
-In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.";trim;;;
+In addition to toggling this mode on and off, you can also apply stereo widening to the game audio, while enhanced positioning remains enabled. Stereo widening can provide a more natural and detailed experience from game audio. Choose the preset that best suits your headphones and audio drivers.";same;;;
 guiHints/headphonesSnapshotWideSoundModsWarning;Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it;Please note, this mode is not compatible with sound mods. Enabling a sound mod will disable it;same;;;
-options/headphones_1;Panorama expand 1;Panorama expansion 1;nice;;;
-options/headphones_2;Panorama expand 2;Panorama expansion 2;nice;;;
-options/headphones_3;Panorama expand 3;Panorama expansion 3;nice;;;
-options/headphones_4;Panorama expand 4;Panorama expansion 4;nice;;;
-options/headphones_5;Panorama expand 5;Panorama expansion 5;nice;;;
-options/headphones_6;Panorama expand 6;Panorama expansion 6;nice;;;
+options/headphones_1;Panorama expansion 1;Panorama expansion 1;same;;;
+options/headphones_2;Panorama expansion 2;Panorama expansion 2;same;;;
+options/headphones_3;Panorama expansion 3;Panorama expansion 3;same;;;
+options/headphones_4;Panorama expansion 4;Panorama expansion 4;same;;;
+options/headphones_5;Panorama expansion 5;Panorama expansion 5;same;;;
+options/headphones_6;Panorama expansion 6;Panorama expansion 6;same;;;
 options/playTestHeadphones;Play test sound;Play test sound;same;;;
 options/stopTestHeadphones;Stop test sound;Stop test sound;same;;;
 guiHints/playTestHeadphones;"Play a test sound signal to configure the extended stereo panorama mode. The signal contains three tones of different pitches. Try to select the preset in which all three tones sound as close to the center of the stereo panorama as possible.
@@ -5786,12 +5799,12 @@ guiHints/playTestHeadphones;"Play a test sound signal to configure the extended 
 The extended stereo panorama mode is very sensitive to the type of headphones and audio card drivers, so some modes may sound biased toward the right or left channel";"Play a test sound signal to configure the extended stereo panorama mode. The signal contains three tones of different pitches. Try to select the preset in which all three tones sound as close to the center of the stereo panorama as possible.
 
 The extended stereo panorama mode is very sensitive to the type of headphones and audio card drivers, so some modes may sound biased toward the right or left channel";same;;;
-options/currently;currently;current;trim;;;
+options/currently;current;current;same;;;
 infantry/speed/very_fast;Very fast;Very fast;same;;;
 infantry/speed/fast;Fast;Fast;same;;;
-infantry/speed/normal;Normal;Normally;nice;;;
-infantry/speed/slow;Slow;Slowly;nice;;;
-infantry/speed/very_slow;Very slow;Very slowly;nice;;;
+infantry/speed/normal;Normally;Normally;same;;;
+infantry/speed/slow;Slowly;Slowly;same;;;
+infantry/speed/very_slow;Very slowly;Very slowly;same;;;
 triggerType/rockets;Rockets;Rockets;same;;;
 triggerType/bombs;Bombs;Bombs;same;;;
 triggerType/guided_bombs;Guided Bombs;Guided Bombs;same;;;
@@ -5908,7 +5921,7 @@ Advancing through the research tree, you can obtain, among other things, fast-fi
 mainmenu/openLimitBuyWndHint;Click this shortcut to go to all vehicles;Click this shortcut to go to all vehicles;same;;;
 mainmenu/openLimitBuyWndHintConsolePrefix;Click;Click;same;;;
 mainmenu/openLimitBuyWndHintConsolePostfix;to go to all vehicles;to go to all vehicles;same;;;
-gpuBenchmark/progresshint;The test to get recommended graphics settings;Test for determining recommended graphics settings;nice;;;
+gpuBenchmark/progresshint;Test for determining recommended graphics settings;Test for determining recommended graphics settings;same;;;
 mainmenu/limitBuyWnd/unitBuyError;The {unitName} is no longer available for purchase at {cost};The {unitName} is no longer available for purchase at {cost};same;;;
 mainmenu/existingAccount;Existing Account;Existing Account;same;;;
 battlelog/asInBattle;As in battle;As in battle;same;;;
