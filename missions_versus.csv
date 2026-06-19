@@ -77,6 +77,8 @@ missions/middle_airfield_spawn1;Airfield 1;Airfield 1;same;;;
 missions/middle_airfield_spawn2;Airfield 2;Airfield 2;same;;;
 missions/near_airfield_spawn;Front-line airfield;Front-line airfield;same;;;
 missions/main_base;Main base;Main base;same;;;
+missions/aircraft_carrier1;Aircraft Carrier 1;Aircraft Carrier 1;same;;;
+missions/aircraft_carrier2;Aircraft Carrier 2;Aircraft Carrier 2;same;;;
 missions/gladiators_air_1x1;[Tournament] Gladiators 1x1 -;[Tournament] Gladiators 1x1 -;same;;;
 missions/gladiators_air_2x2;[Tournament] Gladiators 2x2 -;[Tournament] Gladiators 2x2 -;same;;;
 missions/gladiators_air_2x2_jet;[Tournament] Gladiators 2x2 Jets -;[Tournament] Gladiators 2x2 Jets -;same;;;
