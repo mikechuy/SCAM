@@ -1775,7 +1775,7 @@ hud/rwr_threat_aaa_ai/desc;Anti-Aircraft Artillery or Air Intercept radar;Anti-A
 hud/rwr_threat_aaa;AAA;AAA;same;;;
 hud/rwr_threat_aaa/desc;Anti-Aircraft Artillery;Anti-Aircraft Artillery;same;;;
 hud/rwr_threat_sam;SAM;SAM;same;;;
-hud/rwr_threat_sam/desc;Surface-to-Air Missile System;Surface-to-Air Missile;trim;;;
+hud/rwr_threat_sam/desc;Surface-to-Air Missile;Surface-to-Air Missile;same;;;
 hud/rwr_threat_naval;NVL;NVL;same;;;
 hud/rwr_threat_naval/desc;Surface ship;Surface ship;same;;;
 hud/rwr_threat_air_defence;A/D;A/D;same;;;
@@ -3199,7 +3199,7 @@ mfd/f_18_wpn/us_agm_65g;MAVG;MAVG;same;;;
 mfd/f_18_wpn/us_agm_84h_slam_er;SLAMER;SLAMER;same;;;
 mfd/f_18_wpn/us_agm_88a;HARM;HARM;same;;;
 mfd/f_18_wpn/us_agm_88c;HARM;HARM;same;;;
-mfd/f_18_wpn/us_agm_84d;HARPOON;HARP;trim;;;
+mfd/f_18_wpn/us_agm_84d;HARP;HARP;same;;;
 mfd/f_18_wpn/us_aim_120a;AA;AA;same;;;
 mfd/f_18_wpn/us_aim_120b;AB;AB;same;;;
 mfd/f_18_wpn/us_aim_120b_default;AB;AB;same;;;
