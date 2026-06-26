@@ -757,7 +757,7 @@ hints/tutorial_tank_crosshair_colors_explanation_continue;;"It turns red if the 
 Press {{ID_CONTINUE}} to continue";nice;;;
 hints/tutorial_tank_aim_at_crew;;"One of the best ways to destroy a tank is to put its crew out of action
 
-Move the reticule over the central area of the tank";nice;;;
+Move the cursor over the central area of the tank";nice;;;
 hints/tutorial_tank_shoot_at_crew;;Fire at the fighting compartment of the tank {shortcut};nice;;;
 hints/tutorial_tank_enemy_commander_hit;;You have fired into the Commander's area!;nice;;;
 hints/tutorial_tank_enemy_loader_hit;;The plate usually protecting the Loader has been pierced!;nice;;;
@@ -769,11 +769,12 @@ Now, switch to third-person view {shortcut}";nice;;;
 hints/tutorial_tank_about_engine;;Another effective way of destroying or at least immobilizing a vehicle is to damage or destroy its engine;nice;;;
 hints/tutorial_tank_about_engine_continue;;"Another effective way of destroying or at least immobilizing a vehicle is to damage or destroy its engine
 
-Move the reticule on to the indicated tank";nice;;;
+Move the cursor on to the indicated tank";nice;;;
 hints/tutorial_tank_aim_at_engine;;"Most armored vehicles have their engines at the rear
 
-Continue by moving the reticule on to the rear of the indicated tank";nice;;;
+Continue by moving the cursor on to the rear of the indicated tank";nice;;;
 hints/tutorial_tank_shoot_at_engine;;Now, switch to gunner view and fire at the tank engine {{ID_FIRE_GM}};nice;;;
+hints/tutorial_tank_shoot_at_engine_v2;Now, fire at the tank engine {shortcut};Now, fire at the tank engine {shortcut};same;;;
 hints/tutorial_tank_move_to_new_position;;Good job! Move to another caponier;nice;;;
 hints/tutorial_tank_aim_at_front_plate;;"The tank in front of you has exactly this kind of armor
 Aim your crosshair at it";nice;;;
@@ -1790,7 +1791,7 @@ hud_tutorial_fighter_initial_controls_throttle_min;;Use {{throttle=min}} to decr
 hud_tutorial_fighter_initial_controls_fire;;Use {{ID_FIRE_MGUNS}} to fire at the enemy aircraft.;nice;;;
 hints/naval_biathlon_targets;Destroy designated targets to gain the ability to boost your speed by pressing {{ID_EVENT_ACTION}};Destroy designated targets to gain the ability to boost your speed by pressing {{ID_EVENT_ACTION}};same;;;
 hints/tank_biathlon_pillars;Try to avoid colliding with pillars: the impact will slow down your vehicle.;Try to avoid colliding with pillars: the impact will slow down your vehicle.;same;;;
-hints/tutorialDestr_welcome;Welcome to the quick guide to battleship controls.;Welcome to the quick guide to warship controls.;trim;;;
+hints/tutorialDestr_welcome;Welcome to the quick guide to warship controls.;Welcome to the quick guide to warship controls.;same;;;
 hints/tutorialDestr_welcome_continue;"Welcome to the quick guide to battleship controls.
 
 Press {{ID_CONTINUE}} to continue";"Welcome to the quick guide to battleship controls.

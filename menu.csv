@@ -791,7 +791,7 @@ options/remember_cur_device;Remember computer;Remember computer;same;;;
 options/remote_device;OPSEC?;Not my computer;nice;;;
 mainmenu/saveLogin;I'm lazy;Save login;nice;;;
 mainmenu/savePassword;Very lazy;Save password;nice;;;
-mainmenu/savePassword/unsecure;(leak sekret dokument!);(not secure!);trim;;;
+mainmenu/savePassword/unsecure;(leak dokuments!);(not secure!);trim;;;
 mainmenu/signUp;VPN;Sign Up;nice;;;
 mainmenu/faq;FAQ;FAQ;same;;;
 mainmenu/forum;Forum;Forum;same;;;
@@ -1985,7 +1985,7 @@ mainmenu/failedInstallAttachableAngle;You cannot set up this item at slope angle
 discount/notification;Discounts available;Discounts available;same;;;
 mainmenu/firstCountry;Choose Country for the first battle;Choose Country for the first battle;same;;;
 mainmenu/firstCountry/hint;Other countries also will be available;Other countries also will be available;same;;;
-mainmenu/firstUnit;Choose Unit Type for the first battle;Choose starting Unit Type;trim;;;
+mainmenu/firstUnit;Choose starting Unit Type;Choose starting Unit Type;same;;;
 mainmenu/firstUnitChoiceBonusNotice;"This choice will determine vehicle type you will receive as a reward after your first battle and also tutorial mission.
 Vehicle type can be freely changed after the first battle";"This choice will determine vehicle type you will receive as a reward after your first battle and also tutorial mission.
 Vehicle type can be freely changed after the first battle";same;;;
@@ -2298,6 +2298,7 @@ mainmenu/btn_dm_viewer_xray;"Show ""X-Ray""";"Show ""X-Ray""";same;;;
 mainmenu/listbox_dm_viewer_none;Off;Off;same;;;
 mainmenu/listbox_dm_viewer_armor;Armor;Armor;same;;;
 mainmenu/listbox_dm_viewer_xray;X-Ray;X-Ray;same;;;
+mainmenu/missiles_trajectory;FM performance;FM performance;same;;;
 dm_viewer/tutor/armor;"Click on the ""Armor"" tab to view the ship's defenses.";"Click on the ""Armor"" tab to view the ship's defenses.";same;;;
 dm_viewer/tutor/xray;"Click on the ""X-Ray"" tab to view the ship's structure and vulnerabilities.";"Click on the ""X-Ray"" tab to view the ship's structure and vulnerabilities.";same;;;
 tutor/weapons/step1;Select ammunition and secondary weapons.;Select ammunition and secondary weapons.;same;;;
@@ -2493,6 +2494,7 @@ armor_class/cn_era_type_59d_turret;FY-1 ERA (0.1 KE);ERA;trim;;;
 armor_class/cn_era_type_59d_hull;FY-2 ERA (0.5 KE);ERA;trim;;;
 armor_class/composite_armor_hull;Composite hull armor;Composite armor;trim;;;
 armor_class/composite_armor_turret;Composite turret armor;Composite armor;trim;;;
+armor_class/ex_skirt_composite_armor;Composite skirt;Composite armor;nice;;;
 armor_class/spaced_armor;Spaced armor;Spaced armor;same;;;
 armor_class/stillbrew;Stillbrew add-on armor;Stillbrew additional armor;nice;;;
 armor_class/stillbrew_turret_front;Stillbrew add-on + turret armor;Stillbrew additional armor + turret's front armor;nice;;;
@@ -5927,3 +5929,9 @@ mainmenu/limitBuyWnd/toManyVehicles;Too many vehicles to display. Use the filter
 mainmenu/existingAccount;Existing Account;Existing Account;same;;;
 battlelog/asInBattle;As in battle;As in battle;same;;;
 actionBarItem/fpv_shell_activate;Bomb/Missile Camera View;Bomb/Missile Camera View;same;;;
+radarBand/targetsVehicles;Targets vehicles;Targets vehicles;same;;;
+radarBand/targetType/ship;Ship;Ship;same;;;
+radarBand/targetType/himad;HIMAD;HIMAD;same;;;
+radarBand/targetType/shorad;SHORAD;SHORAD;same;;;
+radarType/location;Location;Location;same;;;
+radarType/tagging;Tagging;Tagging;same;;;

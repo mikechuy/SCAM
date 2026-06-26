@@ -544,7 +544,7 @@ kord_6p68_2;6P68;Assault rifle;nice;;;
 m110a1_sdmr_shop;M110A1;M110 SDMR;nice;;;
 m110a1_sdmr_0;Rifle, 7.62MM: SDMR M110A1;M110 SDMR;trim;;;
 m110a1_sdmr_1;M110A1;M110;trim;;;
-m110a1_sdmr_2;M110A1;DMR;trim;;;
+m110a1_sdmr_2;M110;DMR;trim;;;
 m16a1_shop;M16A1;M16A1;same;;;
 m16a1_0;Rifle, 5.56MM: M16A1;M16A1;trim;;;
 m16a1_1;M16A1;M16;trim;;;
