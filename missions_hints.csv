@@ -1532,7 +1532,7 @@ hints/football_enemy_leads_by_2_goals;The opponent has a two-goal lead – the n
 hints/football_ally_leads_by_2_goals;Our team has a two-goal lead – the next goal will be victorious!;Our team has a two-goal lead – the next goal will be victorious!;same;;;
 hints/request_repair_help;You cannot move during the repair help request;You cannot move during the repair help request;same;;;
 hints/no_potential_assistant;There is no ally nearby who can help you repair the vehicle;There is no ally nearby who can help you repair the vehicle;same;;;
-hints/no_potential_fire_assistant;There is no ally nearby to help put out the fire;There is no ally nearby who can help you firefighting;nice;;;
+hints/no_potential_fire_assistant;No ally nearby to help put out the fire;There is no ally nearby who can help you firefighting;nice;;;
 hints/have_potential_assistee;There is an ally nearby you can help repair his vehicle;There is an ally nearby you can help repair his vehicle;same;;;
 hints/plane_have_potential_assistee;There is an ally nearby you can help repair his vehicle;There is an ally nearby you can help repair his vehicle;same;;;
 hints/plane_can_repair_assist;You can help allied ground vehicles with field repairs by approaching a vehicle under repair closer than 50 m;You can help allied ground vehicles with field repairs by approaching a vehicle under repair closer than 50 m;same;;;

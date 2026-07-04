@@ -420,3 +420,9 @@ event/cbt_human_event_conquest_rb/name;Infantry Battles (Solo, RB);Infantry Batt
 event/cbt_human_event_conquest_rb/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;same;;;
 event/cbt_human_event_conquest_ab/name;Infantry Battles (Solo, AB);Infantry Battles (Solo, AB);same;;;
 event/cbt_human_event_conquest_ab/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;same;;;
+league/groupStage;Group stage;Group stage;same;;;
+league/roundOf32;Round of 32;Round of 32;same;;;
+league/roundOf16;Round of 16;Round of 16;same;;;
+league/quarterfinal;Quarterfinal;Quarterfinal;same;;;
+league/semifinal;Semifinal;Semifinal;same;;;
+league/final;Final;Final;same;;;
