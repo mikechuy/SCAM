@@ -64,6 +64,8 @@ mainmenu/titleProfile;Profile;Profile;same;;;
 mainmenu/titleEventDescription;Event Info;Event Info;same;;;
 mainmenu/openGameModeLink;Open;Open;same;;;
 mainmenu/no_leaderboards;There are not enough sessions for displaying the Leaderboards;There are not enough sessions for displaying the Leaderboards;same;;;
+noLeaderboard/earnPoints;Earn points to get on the leaderboard.;Earn points to get on the leaderboard.;same;;;
+noLeaderboard/didNotParticipate;You did not participate in the event during this period.;You did not participate in the event during this period.;same;;;
 mainmenu/customMatch;Find Session;Find Session;same;;;
 mainmenu/selectCreateMode;Game Mode;Game Mode;same;;;
 mainmenu/btnBack;Back;Back;same;;;
