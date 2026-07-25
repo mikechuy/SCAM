@@ -19,12 +19,15 @@ This is partially serious, partially joking, completely offensive custom languag
 	1. _online
 		- console -> handicap; add colors to icons in kill feed
 
-  	![handicane](https://github.com/mikechuy/SCAM/assets/72666168/68269ce0-5d48-47ff-8e6c-04b1ae06fe60)
+	![handicane](https://github.com/mikechuy/SCAM/assets/72666168/68269ce0-5d48-47ff-8e6c-04b1ae06fe60)
    	
    	2. menu
 		- bail out -> j out; 'merican English, server rename; armor multiplier
 	3. menu_events
 		- assault -> ass salt
+
+	<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/d48c1cbc-372d-482a-86ee-99ada4c7c575" />
+	
 	4. missions_hints
 		- hides "Press F1 for help with the controls", etc
 	5. missions_versus
@@ -38,6 +41,9 @@ This is partially serious, partially joking, completely offensive custom languag
 	
  	8. units_modifications
 		- homogenize engine and modification names
+
+	<img width="650" height="490" alt="image" src="https://github.com/user-attachments/assets/3cd45fce-ce5d-4b61-ab18-44e990c331b4" />
+	
 	9. units_weaponry
 		- homogenize weapon names, distinguishes bombs/rockets, round types, bombs in kg
 	10. controls
@@ -51,7 +57,7 @@ This is partially serious, partially joking, completely offensive custom languag
 1. Enable custom localization in game options.
 	 - If this option does not exist, add "testLocalization:b=yes" to the debug section of config.blk
 
- 	![image](https://github.com/user-attachments/assets/ba8495f3-1801-4b15-ae27-17b65630dda6)
+	![image](https://github.com/user-attachments/assets/ba8495f3-1801-4b15-ae27-17b65630dda6)
 
 2. Relaunch warthunder (aces.exe) to download Gaijin's latest csv files.
 3. Download newest release/pre-release.
