@@ -424,30 +424,20 @@ event/cbt_human_domination_big_rb/name;Infantry Battles (Domination Large, RB);I
 event/cbt_human_domination_big_rb/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;same;;;
 event/cbt_human_domination_big_ab/name;Infantry Battles (Domination Large, AB);Infantry Battles (Domination Large, AB);same;;;
 event/cbt_human_domination_big_ab/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;same;;;
-event/cbt_human_combined_rb/name;Infantry Battles (Realistic Battles) — Europe;Infantry Battles (Realistic Battles) — Europe;same;;;
+event/cbt_human_combined_rb/name;Infantry Battles (Realistic Battles) — Europe;Infantry Battles (Realistic Battles);trim;;;
 event/cbt_human_combined_rb/desc;"Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!
 
 Battles will be available in Arcade and Realistic modes on a rotating basis in the Events & Tournaments tab, according to the following schedule:
 10:00 GMT 14.07 — 10:00 GMT 15.07: only the new Kivu map in RB.
 10:00 GMT 15.07 — 10:00 GMT 16.07: all 3 locations in AB.
-10:00 GMT 16.07 — 10:00 GMT 17.07: all 3 locations in RB.";"Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!
-
-Battles will be available in Arcade and Realistic modes on a rotating basis in the Events & Tournaments tab, according to the following schedule:
-10:00 GMT 14.07 — 10:00 GMT 15.07: only the new Kivu map in RB.
-10:00 GMT 15.07 — 10:00 GMT 16.07: all 3 locations in AB.
-10:00 GMT 16.07 — 10:00 GMT 17.07: all 3 locations in RB.";same;;;
-event/cbt_human_combined_ab/name;Infantry Battles (Arcade Battles) — Europe;Infantry Battles (Arcade Battles) — Europe;same;;;
+10:00 GMT 16.07 — 10:00 GMT 17.07: all 3 locations in RB.";Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;trim;;;
+event/cbt_human_combined_ab/name;Infantry Battles (Arcade Battles) — Europe;Infantry Battles (Arcade Battles);trim;;;
 event/cbt_human_combined_ab/desc;"Join the testing of a new game mode that features infantry, ground vehicles and aircraft!
 
 Battles will be available in Arcade and Realistic modes on a rotating basis in the Events & Tournaments tab, according to the following schedule:
 10:00 GMT 14.07 — 10:00 GMT 15.07: only the new Kivu map in RB.
 10:00 GMT 15.07 — 10:00 GMT 16.07: all 3 locations in AB.
-10:00 GMT 16.07 — 10:00 GMT 17.07: all 3 locations in RB.";"Join the testing of a new game mode that features infantry, ground vehicles and aircraft!
-
-Battles will be available in Arcade and Realistic modes on a rotating basis in the Events & Tournaments tab, according to the following schedule:
-10:00 GMT 14.07 — 10:00 GMT 15.07: only the new Kivu map in RB.
-10:00 GMT 15.07 — 10:00 GMT 16.07: all 3 locations in AB.
-10:00 GMT 16.07 — 10:00 GMT 17.07: all 3 locations in RB.";same;;;
+10:00 GMT 16.07 — 10:00 GMT 17.07: all 3 locations in RB.";Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;trim;;;
 event/cbt_human_combined_rb_americas/name;Infantry Battles (Realistic Battles) — Americas;Infantry Battles (Realistic Battles) — Americas;same;;;
 event/cbt_human_combined_ab_americas/name;Infantry Battles (Arcade Battles) — Americas;Infantry Battles (Arcade Battles) — Americas;same;;;
 league/groupStage;Group stage;Group stage;same;;;
