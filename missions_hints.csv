@@ -686,8 +686,8 @@ hints/track_repair;You cannot move during vehicle repair.;You cannot move during
 hints/gun_jammed;Gun jammed;Gun jammed;same;;;
 hints/fps_to_virtual_fps;Cockpit view is unavailable;Cockpit view is unavailable;same;;;
 hints/autothrottle;Your flying speed is too low. Increase throttle to avoid a crash.;Your flying speed is too low. Increase throttle to avoid a crash.;same;;;
-hints/our_base_destroyed;Our base has been destroyed! We have lost some victory points.;Our base has been destroyed. We have lost some victory points!;nice;;;
-hints/enemy_base_destroyed;An enemy base has been destroyed! The opposite team has lost some victory points.;An enemy base has been destroyed. The opposite team has lost some victory points!;nice;;;
+hints/our_base_destroyed;Our base has been destroyed. We have lost some victory points!;Our base has been destroyed. We have lost some victory points!;same;;;
+hints/enemy_base_destroyed;An enemy base has been destroyed. The opposite team has lost some victory points!;An enemy base has been destroyed. The opposite team has lost some victory points!;same;;;
 hints/50meter_hint;Don't climb over 50 meters, beware detection.;Don't climb over 50 meters, beware detection.;same;;;
 hints/50meter_reached_hint;You have been detected, the interception wing is approaching you.;You have been detected, the interception wing is approaching you.;same;;;
 hints/dive_riverbed;Dive into the riverbed, follow the waypoints.;Dive into the riverbed, follow the waypoints.;same;;;

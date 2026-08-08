@@ -426,8 +426,8 @@ event/cbt_human_domination_big_ab/name;Infantry Battles (Domination Large, AB);I
 event/cbt_human_domination_big_ab/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;same;;;
 event/cbt_human_combined_rb/name;Infantry Battles (Realistic Battles);Infantry Battles (Realistic Battles);same;;;
 event/cbt_human_combined_rb/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft, with no markers on the enemies!;same;;;
-event/cbt_human_combined_ab/name;Infantry Battles (Arcade Battles);Infantry Battles (Arcade Battles);same;;;
-event/cbt_human_combined_ab/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;Join the testing of a new game mode that features infantry, ground vehicles and aircraft!;same;;;
+event/cbt_human_combined_ab/name;Infantry Battles (Arcade Battles) — Europe;Infantry Battles (Arcade Battles) — Europe;same;;;
+event/cbt_human_combined_ab/desc;Join the testing of a new game mode that features infantry, ground vehicles and aircraft! And earn rewards.;Join the testing of a new game mode that features infantry, ground vehicles and aircraft! And earn rewards.;same;;;
 event/cbt_human_combined_rb_americas/name;Infantry Battles (Realistic Battles) — Americas;Infantry Battles (Realistic Battles) — Americas;same;;;
 event/cbt_human_combined_ab_americas/name;Infantry Battles (Arcade Battles) — Americas;Infantry Battles (Arcade Battles) — Americas;same;;;
 league/groupStage;Group stage;Group stage;same;;;
