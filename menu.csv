@@ -3410,7 +3410,7 @@ items/wager/maxFails;Battles in which a new stage was not achieved: <color=@unlo
 items/wager/stake;Stake: <color=@unlockActiveColor>{stakeText}</color>;Stake: <color=@unlockActiveColor>{stakeText}</color>;same;;;
 items/wager/table/winCount;Stage;Stage;same;;;
 items/wager/table/atMaxStake;At max stake;At max. stake;nice;;;
-items/wager/table/atMinStake;At min. stake;At min. stake;same;;;
+items/wager/table/atMinStake;At min stake;At min. stake;nice;;;
 items/wager/table/reward;Reward;Reward;same;;;
 items/wager/numFails;Battles in which a new stage was not achieved: <color=@unlockActiveColor>{numFails}/{maxFails}</color>;Battles in which a new stage was not achieved: <color=@unlockActiveColor>{numFails}/{maxFails}</color>;same;;;
 items/wager/numWins;Current stage: <color=@unlockActiveColor>{numWins}/{maxWins}</color>;Current stage: <color=@unlockActiveColor>{numWins}/{maxWins}</color>;same;;;
