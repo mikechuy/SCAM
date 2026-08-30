@@ -2121,7 +2121,7 @@ weapons/90mm_T15E1_user_cannon;90 mm T15E1 cannon;90 mm T15E1 cannon;same;;;
 weapons/90mm_M3_user_cannon;90 mm M3 cannon;90 mm M3 cannon;same;;;
 weapons/90mm_T7_user_cannon;90 mm T7 cannon;90 mm T7 cannon;same;;;
 weapons/90mm_M3_open_turret_user_cannon;90 mm M3 cannon (open);90 mm M3 cannon;trim;;;
-weapons/90mm_M3_M36B2_user_cannon;90 mm M3 cannon (1948);90 mm M3 cannon;trim;;;
+weapons/90mm_M3_M36B2_user_cannon;90 mm M3 cannon (1952);90 mm M3 cannon;trim;;;
 weapons/90mm_M3_without_MB_user_cannon;90 mm M3 cannon (1944);90 mm M3 cannon;trim;;;
 weapons/90mm_M3_open_turret_without_MB_user_cannon;90 mm M3 cannon (1944, open);90 mm M3 cannon;trim;;;
 weapons/90mm_M3A1_user_cannon;90 mm M3A1 cannon;90 mm M3A1 cannon;same;;;
