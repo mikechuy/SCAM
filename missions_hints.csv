@@ -1780,7 +1780,7 @@ hints/tutorial_karantan_critical_damage;;Critical damage has been received, the 
 hints/tutorial_karantan_find_cover;;Find cover from enemy fire and repair damaged modules.;nice;;;
 hints/tutorial_karantan_weak_spots;;When shooting at well-armored enemies, try to aim at weakly protected places. The ballistic marker will show the probability of penetration at the point of impact of your projectile in the corresponding color: Red – low penetration probability. Green – high.;nice;;;
 hints/tutorial_karantan_cover;;First you need to get out of the shelling by hiding behind cover.;nice;;;
-hints/tank_football_how_to_play;Use {{ID_FIRE_GM}} to hit the ball and {{ID_FIRE_GM_MACHINE_GUN}} to jump up to catch a flying ball;Use {{ID_FIRE_GM}} to hit the ball and {{ID_FIRE_GM_MACHINE_GUN}} to jump up to catch a flying ball;same;;;
+hints/tank_football_how_to_play;Use {{ID_TANK_FOOTBALL_SHOOT}} to hit the ball and {{ID_TANK_FOOTBALL_JUMP}} to jump up to catch a flying ball;Use {{ID_TANK_FOOTBALL_SHOOT}} to hit the ball and {{ID_TANK_FOOTBALL_JUMP}} to jump up to catch a flying ball;same;;;
 hud_tutorial_fighter_initial_controls_elevator_max;;Use {{elevator=max}} to ascend.;nice;;;
 hud_tutorial_fighter_initial_controls_elevator_min;;Use {{elevator=min}} to descend.;nice;;;
 hud_tutorial_fighter_initial_controls_ailerons_min;;Use {{ailerons=min}} to lurch your aircraft to the left.;nice;;;
@@ -1971,7 +1971,8 @@ missions/demo_aircraft_move;Use {shortcut} to control aircraft;Use {shortcut} to
 missions/demo_aircraft_fire;Press {shortcut} to fire;Press {shortcut} to fire;same;;;
 missions/demo_aircraft_task;Kill enemy bombers;Kill enemy bombers;same;;;
 missions/demo_tank_turret;Use {shortcut} to aim the turret;Use {shortcut} to aim the turret;same;;;
-missions/demo_tank_aim;Align the crosshair with the enemy;Align the crosshair with the enemy;same;;;
+missions/demo_tank_nvd;Press {shortcut} to use the thermal vision;Press {shortcut} to use the thermal vision;same;;;
+missions/demo_tank_aim;Align the crosshair with the enemy;To use automatic lead prediction, aim the sight at the target and press the rangefinder button {shortcut};nice;;;
 missions/demo_tank_task;Kill enemy tanks;Kill enemy tanks;same;;;
 hints/aircraft_atgm_mclos/start;"The use of air-to-surface guided missiles with manual aiming
 Press {shortcut} to continue";"The use of air-to-surface guided missiles with manual aiming

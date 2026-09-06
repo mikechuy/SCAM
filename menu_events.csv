@@ -173,14 +173,19 @@ events/clan_event_realistic;Squadron Realistic Events;Squadron Realistic Events;
 mainmenu/maxBR;max BR {br};max BR {br};same;;;
 missions/tank_event;Ground Battles;Ground Battles;same;;;
 missions/tank_event/desc;;;same;;;
+missions/tank_event/abbr;GAB;GAB;same;;;
 missions/air_event;Air Battles;Air Battles;same;;;
 missions/air_event/desc;;;same;;;
+missions/air_event/abbr;AAB;AAB;same;;;
 missions/ship_event;Naval Battles;Naval Battles;same;;;
 missions/ship_event/desc;;;same;;;
+missions/ship_event/abbr;NAB;NAB;same;;;
 missions/helicopter_event;Helicopter Battles;Helicopter Battles;same;;;
 missions/helicopter_event/desc;;;same;;;
+missions/helicopter_event/abbr;HAB;HAB;same;;;
 missions/human_event;Infantry Battles;Infantry Battles;same;;;
 missions/human_event/desc;;;same;;;
+missions/human_event/abbr;IAB;IAB;same;;;
 missions/tank_event_arcade;Ground Arcade Battles;Ground Arcade Battles;same;;;
 missions/tank_event_arcade/desc;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;Tank Arcade Battles is a mode that includes ground vehicles and the possible use of aviation through a system of game events. Markers are used in this mode above both allies and enemies. Vehicle mobility characteristics are better than in Realistic mode. Vehicles of any nation may be present in a team. The maximum number of respawns in a battle is 3.;same;;;
 missions/tank_event_in_random_battles_arcade;Ground Arcade Battles;Ground Arcade Battles;same;;;
@@ -401,8 +406,8 @@ events/playersRooms/tooltip;Search for available sessions also among the rooms c
 events/noCompatibilityMode/msg;This mode is not available when the 'Old videocards support' option is enabled.;This mode is not available when the 'Old videocards support' option is enabled.;same;;;
 events/noCompatibilityMode;Switch off the 'Old videocards support' option to play this event.;This event is not available when the 'Old videocards support' option is enabled.;nice;;;
 events/noVrMode/msg;"This event is not available when the 'VR mode' option is enabled.
-Would you like to disable VR mode option?";"This event is not available when the 'VR mode' option is enabled.
-Would you like to disable VR mode option?";same;;;
+Would you like to disable the 'VR mode' option?";"This event is not available when the 'VR mode' option is enabled.
+Would you like to disable the 'VR mode' option?";same;;;
 events/noVrMode;This event is not available when the 'VR mode' option is enabled.;This event is not available when the 'VR mode' option is enabled.;same;;;
 events/notEnoughMoney;Not enough money for a contribution;Not enough money for a contribution;same;;;
 events/notAvailableNewbiesMode/msg;This mode is not available for noobs. Fuck you, cunt.;This mode is not available to you. Select another suitable mode in the mode selection window.;nice;;;
@@ -436,3 +441,13 @@ league/roundOf16;Round of 16;Round of 16;same;;;
 league/quarterfinal;Quarterfinal;Quarterfinal;same;;;
 league/semifinal;Semifinal;Semifinal;same;;;
 league/final;Final;Final;same;;;
+slotbarPresetsAbreviaton/air_arcade;AAB;AAB;same;;;
+slotbarPresetsAbreviaton/tank_event_in_random_battles_arcade;GAB;GAB;same;;;
+slotbarPresetsAbreviaton/ship_event_in_random_battles_arcade;NAB;NAB;same;;;
+slotbarPresetsAbreviaton/air_realistic;ARB;ARB;same;;;
+slotbarPresetsAbreviaton/tank_event_in_random_battles_historical;GRB;GRB;same;;;
+slotbarPresetsAbreviaton/ship_event_in_random_battles_realistic;NRB;NRB;same;;;
+slotbarPresetsAbreviaton/custom_mode_fullreal;SB;SB;same;;;
+slotbarPresetsAbreviaton/pve_main_air_arcade;AAA;AAA;same;;;
+slotbarPresetsAbreviaton/pve_main_tank_arcade;AGA;AGA;same;;;
+slotbarPresetsAbreviaton/clan_battles_2_e;SRE;SRE;same;;;

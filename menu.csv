@@ -537,7 +537,8 @@ bullet_properties/armorPiercing_short;Penetration;Penetration;same;;;
 bullet_properties/armorPiercing/cumulative;cumulative jet;Cumulative jet;nice;;;
 bullet_properties/armorPiercing/affected_armor;Thickness of the affected obstacle;Thickness of the affected obstacle;same;;;
 bullet_properties/armorPiercing/kinetic;kinetic;Kinetic;nice;;;
-bullet_properties/armorPiercing/explosive;High-explosive fragmentation;High-explosive fragmentation;same;;;
+bullet_properties/armorPiercing/explosive;High-explosive fragmentation;High-explosive;trim;;;
+bullet_properties/armorPiercing/fragmentation;Fragmentation;Fragmentation;same;;;
 bullet_properties/cooldown;Reload Time;Reload Time;same;;;
 bullet_properties/fuseDelayDist;Fuze Delay;Fuze Delay;same;;;
 bullet_properties/explodeTreshold;Fuze Sensitivity;Fuze Sensitivity;same;;;
@@ -740,7 +741,7 @@ mainmenu/taskOverdueTime;Task is overdue: <color=@redMenuButtonColor>{time}</col
 mainmenu/taskRemaningTime;Task is available until: <color=@hoverMenuButtonColor>{time}</color>;Task is available until: <color=@hoverMenuButtonColor>{time}</color>;same;;;
 mainmenu/tasksCompleted;Tasks completed:;Tasks completed:;same;;;
 mainmenu/taskStartTime;Task starts: {time};Task starts: {time};same;;;
-mainmenu/taskCompleted;Task task is completed;Task task is completed;same;;;
+mainmenu/taskCompleted;Task task is completed;Task is completed;trim;;;
 mainmenu/taskMarksReceived;Marks of distinction received: <color=@unlockHeaderColor>{completed}</color><color=@activeTextColor>/{total}</color>;Marks of distinction received: <color=@unlockHeaderColor>{completed}</color><color=@activeTextColor>/{total}</color>;same;;;
 mainmenu/awardTrophy;Award trophy;Award trophy;same;;;
 mainmenu/dataStartTimeShort;Start: {time};Start: {time};same;;;
@@ -1995,12 +1996,12 @@ mainmenu/firstCountry;Choose Country for the first battle;Choose Country for the
 mainmenu/firstCountry/hint;Other countries also will be available;Other countries also will be available;same;;;
 mainmenu/firstUnit;Choose starting Unit Type;Choose starting Unit Type;same;;;
 mainmenu/firstUnitChoiceBonusNotice;"This choice will determine vehicle type you will receive as a reward after your first battle and also tutorial mission.
-Vehicle type can be freely changed after the first battle";"This choice will determine vehicle type you will receive as a reward after your first battle and also tutorial mission.
-Vehicle type can be freely changed after the first battle";same;;;
+Vehicle type can be freely changed after the first battle";"This choice will determine which type of vehicle you will receive as a reward after your first battle and the tutorial mission.
+Vehicle type can be freely changed after the first battle";nice;;;
 mainmenu/firstUnitChoiceTooltip/aviation;Pilot fighters, bombers, and attack aircraft from biplanes to modern jets. Dominate aerial battles in high-speed dogfights and devastating ground strikes.;Pilot fighters, bombers, and attack aircraft from biplanes to modern jets. Dominate aerial battles in high-speed dogfights and devastating ground strikes.;same;;;
 mainmenu/firstUnitChoiceTooltip/army;Command tanks, armored cars, and SPGs. From WWII legends to modern tanks - control the battlefield through tactical positioning and devastating firepower.;Command tanks, armored cars, and SPGs. From WWII legends to modern tanks - control the battlefield through tactical positioning and devastating firepower.;same;;;
 mainmenu/firstUnitChoiceTooltip/ships;Captain destroyers, cruisers, and battleships. Bring heavy guns and thick armor to slow, massive ocean battles where every salvo hits with devastating force.;Captain destroyers, cruisers, and battleships. Bring heavy guns and thick armor to slow, massive ocean battles where every salvo hits with devastating force.;same;;;
-mainmenu/firstUnitChoiceTooltip/boats;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast and agile warfare.;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast and agile warfare.;same;;;
+mainmenu/firstUnitChoiceTooltip/boats;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast and agile warfare.;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast-paced and agile warfare.;nice;;;
 mainmenu/firstChoiseBonusNotice;Based on chosen country and vehicles you will get bonuses during the game process;Based on chosen country and vehicles you will get bonuses during the game process;same;;;
 mainmenu/countryUnlockNotice;Other vehicles and countries will be unlocked as the game progresses;Other vehicles and countries will be unlocked as the game progresses;same;;;
 mainmenu/lockedCountryDescription;Country will be unlocked in battles against other players;Country will be unlocked in battles against other players;same;;;
@@ -2418,7 +2419,7 @@ armor_class/wood;Wood (0.08);Wood;trim;;;
 armor_class/spaced_armor_air;Air (0.05 KE|0.3 CE);Air;trim;;;
 armor_class/grille_air;Slat (0.05 KE|0.1 CE);Slat armor;trim;;;
 armor_class/spall_liner;Spall liner;Spall liner;same;;;
-armor_class/nbc_liner;Anti-radiation liner;Anti-radiation liner;same;;;
+armor_class/nbc_liner;Anti-radiation liner;NBC Liner;trim;;;
 armor_class/CHA_tank;Cast HA (0.94);Cast homogeneous armor;nice;;;
 armor_class/RHA_tank;Rolled HA (1.0);Rolled homogeneous armor;nice;;;
 armor_class/CHA_tank_modern;Modern Cast HA (0.98);Cast homogeneous armor;nice;;;
@@ -2509,7 +2510,7 @@ armor_class/stillbrew_turret_front;Stillbrew add-on + turret armor;Stillbrew add
 armor_class/tank_textolite;Textolite (0.16 KE|0.5 CE);Textolite;trim;;;
 armor_class/tank_ultra_porcelain;Corundum Ceramic (0.5 KE|0.55 CE);Ultra porcelain;trim;;;
 armor_class/rubber_tank;Rubber (0.05);Rubber;trim;;;
-armor_class/nbc_liner_tank;NBC liner (0.05);Armor radiation material;nice;;;
+armor_class/nbc_liner_tank;NBC liner (0.05);NBC Liner;trim;;;
 armor_class/ex_era_hull;ERA - Hull;Explosive reactive armor;nice;;;
 armor_class/ex_era_turret;ERA - Turret;Explosive reactive armor;nice;;;
 armor_class/shaft;Propeller shaft;Propeller shaft;same;;;
@@ -2517,12 +2518,18 @@ xray/armor_composition;Composition;Composition;same;;;
 armor_class/t64a_hull_frontal_armor_array;100 mm steel — 106 mm textolite — 20 mm steel;100 mm steel — 106 mm textolite — 20 mm steel;same;;;
 armor_class/t64a_turret_frontal_armor_array;steel — high hardness steel — steel;steel — high hardness steel — steel;same;;;
 xray/ammo/first_stage;Ready rack;First-stage ammo stowage;nice;;;
+xray/ammo/first_stage/replenish_delay;Ready rack replenishment delay;Ready rack replenishment delay;same;;;
+xray/ammo/first_stage/replenish_time;Ready rack replenishment time;Ready rack replenishment time;same;;;
+xray/ammo/first_stage/reload_time_when_empty;Reload time without ready rack;Reload time without ready rack;same;;;
 xray/ammo/first_stage_ship;Ready-use ammo;Ready-use ammo;same;;;
 xray/ammo/auto_load;Automatic loading;Automatic loading;same;;;
 xray/ammo/mechanized_ammo_rack;Mechanized Ammo Rack;Mechanized Ammo Rack;same;;;
 xray/transmission/maxSpeed/forward;Max speed, forward;Max speed, forward;same;;;
 xray/transmission/maxSpeed/backward;Max speed, backward;Max speed, backward;same;;;
 xray/transmission/gears;Gears;Gears;same;;;
+xray/transmission/forwardGears;Forward gears:;Forward gears:;same;;;
+xray/transmission/backwardGears;Backward gears:;Backward gears:;same;;;
+xray/transmission/gearRatio;Gear ratio;Gear ratio;same;;;
 xray/fire_control/weapons;Gives fire solution for:;Gives fire solution for:;same;;;
 xray/fire_control/accuracy;Measure accuracy:;Measure accuracy:;same;;;
 xray/fire_control/lock_time;Fire solution calculation time:;Fire solution calculation time:;same;;;
@@ -2667,12 +2674,16 @@ When all of these antennas are destroyed, the ship loses this ability until they
 xray_ext_hint/ammunition_storage;"The most important module in the ship’s damage model.
 Each ammo storage feeds a specific gun or several guns.
 
+An empty storage can be refilled from another one containing the same type of ammunition.
+
 A direct hit to the storage can cause an instant detonation which can destroy the entire ship or at least seriously damage it.
 
 Fire poses a great danger for the ammo storage. For example, fire can spread from the turret downwards via the ammo elevator shaft into the storage.
 
 Lower the fire risk by researching the ""Ammo wetting"" modification if it’s available.";"The most important module in the ship’s damage model.
 Each ammo storage feeds a specific gun or several guns.
+
+An empty storage can be refilled from another one containing the same type of ammunition.
 
 A direct hit to the storage can cause an instant detonation which can destroy the entire ship or at least seriously damage it.
 
@@ -3335,9 +3346,11 @@ With a bound e-mail you will receive:
 * the possibility of authentication in the forum, live and wiki.
 Once bound, the account will no longer be a guest account. A login and password will be required for authentication.";"<color=@activeTextColor>Would you like to bind an e-mail to your account?</color>
 With a bound e-mail you will receive:
-<color=@userlogColoredText>* the possibility to purchase Golden Eagles</color>
-* the possibility of authentication in the forum, live and wiki.
-Once bound, the account will no longer be a guest account. A login and password will be required for authentication.";same;;;
+* the safety for you ingame progress and ability to play on multiple devices. Without e-mail binding progress can be lost if you lose your local data
+* the access to the forum, live and wiki
+* the possibility to purchase Golden Eagles
+* the ability to sell and buy items on Marketplace
+Once bound, the account will no longer be a guest account. A login and password will be required for authentication.";nice;;;
 mainmenu/binding;Email bind;Email bind;same;;;
 mainmenu/alreadyBinded;Email already bound;E-mail aready bound;nice;;;
 mainmenu/login/steamRelogin;"Your account has already been registered at Gaijin.net.
@@ -3455,7 +3468,11 @@ mainmenu/itemReceived;Received;Received;same;;;
 mainmenu/itemCanBeReceived;Can be received;Can be received;same;;;
 mainmenu/receiveOnlyOnce;This kind of item cannot be received twice.;This kind of item cannot be received twice.;same;;;
 mainmenu/activateOnlyOnce;This kind of item cannot be activated twice.;This kind of item cannot be activated twice.;same;;;
-mainmenu/required;Required;Required;same;;;
+mainmenu/requiredBR;Requires BR {br} or higher;Requires BR {br} or higher;same;;;
+mainmenu/requiredAircraftCountWithBR;Requires {count}+ {count=aircraft/aircraft} with BR {br} or higher;Requires {count}+ {count=aircraft/aircraft} with BR {br} or higher;same;;;
+mainmenu/requiredShipWithBR;Requires a ship with BR {br} or higher;Requires a ship with BR {br} or higher;same;;;
+mainmenu/oneMainModeRequired;At least one main mode must be enabled;At least one main mode must be enabled;same;;;
+mainmenu/forEachSquadMember;(of each squad member);(of each squad member);same;;;
 items/shop/emptyTab/default;You have no such items at the moment.;You have no such items at the moment.;same;;;
 items/shop/emptyTab/trophy;"Trophy allows you to receive a random award from the described list.
 You have no such items at the moment.";"Trophy allows you to receive a random award from the described list.
@@ -3518,9 +3535,10 @@ trophy/moreRewards;+ {num} more items;+ {num} more items;same;;;
 mainmenu/onlyArmyAvailableForCountry;;Available as the first choice for this country: {army};nice;;;
 msg/countryNotAvailableForUnitType;Country not available for the chosen vehicle type.;Country not available for the chosen vehicle type.;same;;;
 slotbarPresetsTutorial/selectPreset;;Select preset which has {unitType}.;nice;;;
+slotbarPresetsTutorial/autoChangePreset;"This will automatically change your vehicles to the selected preset.
+You can always restore your current vehicles in this menu.";"This will automatically change your vehicles to the selected preset.
+You can always restore your current vehicles in this menu.";same;;;
 slotbarPresetsTutorial/openWindow;;Open the vehicle preset list in order to choose a proper one.;nice;;;
-slotbarPresetsTutorial/pressApplyButton;;"Press ""Apply"" to change your vehicles to the selected preset.
-You can always restore your current vehicles in this menu.";nice;;;
 slotbarPresetsTutorial/selectUnit;;Select unit allowed for this game mode.;nice;;;
 slotbarPresetsTutorial/pressToBattleButton;;"Congratulations! You have successfully changed your vehicle preset
 and are ready to join the ""{gameModeName}"".";nice;;;
@@ -4021,6 +4039,8 @@ crewSkillParameter/turnTurretSpeedPitch;Elevation Traverse Speed;Vertical Guidan
 crewSkillParameter/turnTurretSpeed/title;Guidance Speed:;Guidance Speed:;same;;;
 crewSkillParameter/turnTurretSpeedPitch/short;Vert.: ;Vert.: ;same;;;
 crewSkillParameter/turnTurretSpeed/short;Hor.: ;Hor.: ;same;;;
+xray/turnTurretSpeed/lowBattery/yaw;Horizontal guidance speed on low battery;Horizontal guidance speed on low battery;same;;;
+xray/turnTurretSpeed/lowBattery/pitch;Vertical guidance speed on low battery;Vertical guidance speed on low battery;same;;;
 crewSkillParameter/crewMemberChangeTime;Crew Member Replacement Time;Crew Member Replacement Time;same;;;
 crewSkillParameter/fieldRepairSpeedMultiplier;Field Repair Speed;Field Repair Speed;same;;;
 crewSkillParameter/commanderLeadershipDriving;Tank Driving;Tank Driving;same;;;
@@ -4183,9 +4203,6 @@ info/ship/part/superstructure;Superstructure;Superstructure;same;;;
 info/material_and_thickness-tooltip;Material and thickness.;Material and thickness.;same;;;
 info/armor_dimensions-tooltip;Armor thickness: forehead / side / rear;Armor thickness: forehead / side / rear;same;;;
 info/ship/citadelArmorDimensions-tooltip;Armor thickness: traverse / side / deck;Armor thickness: traverse / side / deck;same;;;
-shop/slotbarPresetsReserve;"To obtain additional presets, you can purchase the following types of vehicles of rank <color=@userlogColoredText>{tier}</color>:
-{unitTypes}";"To obtain additional presets, you can purchase the following types of vehicles of rank <color=@userlogColoredText>{tier}</color>:
-{unitTypes}";same;;;
 shop/slotbarPresetsMax;You have reached the maximum amount of presets.;You have reached the maximum amount of presets.;same;;;
 profile/only_for_bought;Only for the purchased ones;Only for the purchased ones;same;;;
 profile/only_for_bought/hint;Show only those that are suitable for the purchased vehicles;Show only those that are suitable for the purchased vehicles;same;;;
@@ -4391,6 +4408,7 @@ workshop/wtcs_trophy_4;WTCS Esports Trophy IV;WTCS Esports Trophy IV;same;;;
 workshop/ninth_wave;Ninth Wave;Ninth Wave;same;;;
 workshop/wtcs_trophy_5;WTCS Esports Trophy V;WTCS Esports Trophy V;same;;;
 workshop/heavy_cavalry;Heavy Cavalry;Heavy Cavalry;same;;;
+workshop/wtcs_trophy_6;WTCS Esports Trophy VI;WTCS Esports Trophy VI;same;;;
 workshop/dance_of_dragons;Dance of Dragons;Dance of Dragons;same;;;
 workshop/firebirds;Firebirds;Firebirds;same;;;
 workshop/storm_warning;Storm Warning;Storm Warning;same;;;
@@ -5104,6 +5122,7 @@ loading_bg/login_layer_yak130_m346;Yak-130 and M-346FA;Yak-130 and M-346FA;same;
 loading_bg/login_layer_it_fiat_6616_ub;FIAT 6616UB;FIAT 6616UB;same;;;
 loading_bg/login_layer_it_fiat_6616_ub/desc;"Reward for level 100 in the ""Do It Yourself"" Battle Pass Season";"Reward for level 100 in the ""Do It Yourself"" Battle Pass Season";same;;;
 loading_bg/login_layer_ship_marathon_guardian_of_the_baltic_sea;Oktyabrskaya Revolutsiya;Oktyabrskaya Revolutsiya;same;;;
+loading_bg/login_layer_space_program;F-16XL;F-16XL;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
@@ -5135,7 +5154,8 @@ armor_class/catapult_mount;Catapult mount;Catapult mount;same;;;
 gpuBenchmark/progress;Results will be ready in {timeLeft};Results will be ready in {timeLeft};same;;;
 gpuBenchmark/resultsTitle;Select your desired graphics preset from the following options or choose «Cancel» without making any changes;Select your desired graphics preset from the following options or choose «Cancel» without making any changes;same;;;
 gpuBenchmark/btnStart;Start the test;Start the test;same;;;
-gpuBenchmark/title;GPU Benchmark;GPU Benchmark;same;;;
+gpuBenchmark/title;"GPU Benchmark of ""{modeText}"" mode";"GPU Benchmark of ""{modeText}"" mode";same;;;
+gpuBenchmark/btnApply;"Apply for ""{modeText}"" mode";"Apply for ""{modeText}"" mode";same;;;
 gpuBenchmark/presetMaxQuality;Maximum quality;Maximum quality;same;;;
 gpuBenchmark/presetMaxFPS;Maximum FPS;Maximum FPS;same;;;
 gpuBenchmark/preset60Fps;60 FPS;60 FPS;same;;;
@@ -5143,6 +5163,8 @@ gpuBenchmark/resultsEffect;Preset applying effect:;Preset applying effect:;same;
 gpuBenchmark/resultsPresetName;Suggested presets:;Suggested presets:;same;;;
 gpuBenchmark/desc;Run the test to get recommended graphics settings;Run the test to get recommended graphics settings;same;;;
 edit/secondary_weapons;Editing Secondary Weapons;Editing Secondary Weapons;same;;;
+edit/secondary_weapons/old_preset_invalid_title;Change in custom weapon preset;Change in custom weapon preset;same;;;
+edit/secondary_weapons/old_preset_invalid_desc;Due to weapon stat updates, some items are no longer available and have been automatically removed from this preset. You can modify or update it right now.;Due to weapon stat updates, some items are no longer available and have been automatically removed from this preset. You can modify or update it right now.;same;;;
 customSecondaryWeapons/available;Custom secondary weapons are available;Custom secondary weapons are available;same;;;
 customSecondaryWeapons/disabled;Creating custom secondary weapons is not available due to the absence of required modifications;Creating custom secondary weapons is not available due to the absence of required modifications;same;;;
 editWeaponsSlot/requiredForDependedWeapon;The selected slot has {currentWeapon}, which is required for {dependWeapons}.;The selected slot has {currentWeapon}, which is required for {dependWeapons}.;same;;;
@@ -5306,20 +5328,6 @@ debrifieng/SkillBonusHintKills;destroying {req} vehicles controlled by players b
 debrifieng/SkillBonusHintDamage;causing {req} damage to naval targets brings an additional {val}%;causing {req} damage to naval targets brings an additional {val}%;same;;;
 debrifieng/SkillBonusHintEnding;The bonus amount is calculated from the base Research Points earnings.;The bonus amount is calculated from the base Research Points earnings.;same;;;
 night_battles;Night battles;Night battles;same;;;
-night_battles/desc;"When the ""{optionName}"" option is enabled, you have a small chance of getting into a night battle instead of a regular daytime battle. This may only occur if there are enough players in the queue who also have the night battle option enabled. Enabling night battles does not replace daytime battles, it simply allows the possibility of getting into night matches.
-
-Participation in night battles is only possible if there is a vehicle with a Battle Rating of {minMRankForNightBattles} or higher in your crew slots. If no vehicles of that rating are in your crew slots, you'll not be put into the queue to participate in night battles, even if you have them enabled.
-
-When participating in night battles, you can earn the following unique night themed rewards:";"When the ""{optionName}"" option is enabled, you have a small chance of getting into a night battle instead of a regular daytime battle. This may only occur if there are enough players in the queue who also have the night battle option enabled. Enabling night battles does not replace daytime battles, it simply allows the possibility of getting into night matches.
-
-Participation in night battles is only possible if there is a vehicle with a Battle Rating of {minMRankForNightBattles} or higher in your crew slots. If no vehicles of that rating are in your crew slots, you'll not be put into the queue to participate in night battles, even if you have them enabled.
-
-When participating in night battles, you can earn the following unique night themed rewards:";same;;;
-small_teams/desc;"When the ""{optionName}"" option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of a regular battle (min - max: {usualTeamsCount}). This may only occur if there are enough players in the queue who also have the option enabled. Enabling the option does not replace the basic battles, but allows to get into battles with smaller team sizes.
-
-Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";"When the ""{optionName}"" option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of a regular battle (min - max: {usualTeamsCount}). This may only occur if there are enough players in the queue who also have the option enabled. Enabling the option does not replace the basic battles, but allows to get into battles with smaller team sizes.
-
-Participation in such battles is only possible when using a vehicle with a Battle Rating of {minMRankForSmallTeamsBattles} or higher. When using vehicles with a lower Battle Rating, you'll not get into battles with smaller team sizes, even if you have the option enabled.";same;;;
 help/crewSelectVenicle;Selecting the type of vehicle for training this crew. The same crew is used and can be trained for all types of vehicle.;Selecting the type of vehicle for training this crew. The same crew is used and can be trained for all types of vehicle.;same;;;
 help/crewBtnApply;Do not forget to apply your changes.;Do not forget to apply your changes.;same;;;
 help/crewBtnBuy;"To upgrade your crew skills faster, you can use the ""Accelerated Training"" menu, in which you can purchase additional skill points for Golden Eagles.";"To upgrade your crew skills faster, you can use the ""Accelerated Training"" menu, in which you can purchase additional skill points for Golden Eagles.";same;;;
@@ -5409,6 +5417,7 @@ sensorsFilters/dead;Destroyed vehicles;Destroyed vehicles;same;;;
 sensorsFilters/rangeDist;Range;Range;same;;;
 sensorsFilters/track_sensor;Tracking radars;Tracking radars;same;;;
 sensorsFilters/sensor_interest;Detected target markers;Detected target markers;same;;;
+sensorsFilters/onlySelected;Only selected object markers;Only selected object markers;same;;;
 mapMarkerFilters/rocketAndMissileSystems;Rocket & Missile Systems;Rocket & Missile Systems;same;;;
 userlog/finishing_type/none;— (full reward);— (full reward);same;;;
 userlog/finishing_type/own;Own target (the rest of the reward);Own target (the rest of the reward);same;;;
@@ -5420,6 +5429,7 @@ userlog/scouted_with_uav;UAV in the air;UAV in the air;same;;;
 userlog/scouted_without_uav;without UAV;without UAV;same;;;
 userlog/crash_kill_without_offender;— (crashed without damage);— (crashed without damage);same;;;
 userlog/leave_kill_without_offender;— (left the vehicle);— (left the vehicle);same;;;
+userlog/drown_kill_without_offender;— (drowned without damage);— (drowned without damage);same;;;
 MENU_LANG_USERLOG_CUTTING_START;;;same;;;
 wishlist/filter/researchableVehicle;Researchable;Researchable;same;;;
 wishlist/filter/premiumVehicle;Premium;Premium;same;;;
@@ -5717,7 +5727,7 @@ info/material/none;No armor;No armor;same;;;
 info/material/none/tooltip;Without armor and without high hardness and strength;Without armor and without high hardness and strength;same;;;
 info/material/hasSpallLiner;Spall liner;Spall liner;same;;;
 info/material/hasSpallLiner/tooltip;Aramid fabric or laminated polyethylene panels installed in the crew compartments of armored vehicles reduce the angle and velocity of fragments, significantly improving crew and equipment protection from small fragments generated during armor penetration.;Aramid fabric or ultra-high-molecular-weight polyethylene panels installed in the crew compartments of armored vehicles reduce the angle and velocity of fragments, significantly improving crew and equipment protection from small fragments generated during armor penetration.;nice;;;
-info/material/hasNBCLiner;Anti-radiation liner;Anti-radiation liner;same;;;
+info/material/hasNBCLiner;NBC liner;NBC Liner;nice;;;
 info/material/hasNBCLiner/tooltip;Panels made of polyethylene and polyisobutylene are installed inside and outside the tank. Their primary purpose is to reduce the impact on the crew during a nuclear explosion, but in some cases they can also protect the crew and equipment from small fragments generated during armor penetration by reducing their velocity and angle of flight, although this is less effective than a specialized spall liner.;Panels made of polyethylene and polyisobutylene are installed inside and outside the tank. Their primary purpose is to reduce the impact on the crew during a nuclear explosion, but in some cases they can also protect the crew and equipment from small fragments generated during armor penetration by reducing their velocity and angle of flight, although this is less effective than a specialized spall liner.;same;;;
 info/material/hasCompositeArmor;Composite armor;Composite armor;same;;;
 info/material/hasCompositeArmor/tooltip;Armor protection is made using composite armor, which can consist of multiple layers of dissimilar materials, such as textolite, ceramic elements, NERA layers, and other armor materials. This approach provides a lighter weight than standard steel armor while maintaining the same resistance. For main battle tanks, composite armor is typically used in the most heavily protected frontal areas of the hull and turret.;Armor protection is made using composite armor, which can consist of multiple layers of dissimilar materials, such as textolite, ceramic elements, NERA layers, and other armor materials. This approach provides a lighter weight than standard steel armor while maintaining the same resistance. For main battle tanks, composite armor is typically used in the most heavily protected frontal areas of the hull and turret.;same;;;
@@ -5767,6 +5777,7 @@ msgbox/notAvailbleMod;You need to purchase this item in the modification menu fi
 msgbox/graphic_aa_settings_was_modified;"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphics settings.";"For ""High"" graphics quality settings, the anti-aliasing method has been changed to ""TSR"", which gives a significant increase in image quality but with some decline in performance. You can always change the anti-aliasing method by going to the graphics settings.";same;;;
 mainmenu/compareBullets;Compare shells;Compare shells;same;;;
 mainmenu/bulletsParameters;Shell parameters;Shell parameters;same;;;
+mainmenu/shellPenetration;Shell armor penetration;Shell armor penetration;same;;;
 mainmenu/ballistics;Ballistics;Ballistics;same;;;
 mainmenu/shotSettings;Shot settings;Shot settings;same;;;
 mainmenu/angle;Angle;Angle;same;;;
@@ -5777,6 +5788,7 @@ msg/bulletForCompare/needSelectBullet;Need to select a shell;Need to select a sh
 msg/bulletForCompare/alreadyAddedForComparison;The selected shell has already been added for comparison. Select another shell.;The selected shell has already been added for comparison. Select another shell.;same;;;
 msg/bulletForCompare/maximumBulletsCountReached;The maximum number of shells for comparison has been reached. To add a new shell, you must remove one from the list.;The maximum number of shells for comparison has been reached. To add a new shell, you must remove one from the list.;same;;;
 msg/bulletForCompare/bulletsCannotBeComparedByUnitTypes;Ship shells cannot be compared to tank or aircraft shells. To add a shell, you must remove all shells from the comparison list.;Ship shells cannot be compared to tank or aircraft shells. To add a shell, you must remove all shells from the comparison list.;same;;;
+msg/bulletForCompare/noShellsAvailable;No shells available for comparison;No shells available for comparison;same;;;
 mainmenu/missileTrajectory;Flightpath;Flightpath;same;;;
 mainmenu/missileTelemetry;Telemetry;Telemetry;same;;;
 mainmenu/targetParameters;Target parameters;Target parameters;same;;;
@@ -5944,10 +5956,60 @@ mainmenu/limitBuyWnd/toManyVehicles;Too many vehicles to display. Use the filter
 mainmenu/existingAccount;Existing Account;Existing Account;same;;;
 battlelog/asInBattle;As in battle;As in battle;same;;;
 actionBarItem/fpv_shell_activate;Bomb/Missile Camera View;Bomb/Missile Camera View;same;;;
+tank_footballer/name;Tank Footballer;Tank Footballer;same;;;
+modifications/generation;Generation;Generation;same;;;
 radarBand/targetsVehicles;Targets vehicles;Targets vehicles;same;;;
 radarBand/targetType/ship;Ship;Ship;same;;;
 radarBand/targetType/himad;HIMAD;HIMAD;same;;;
 radarBand/targetType/shorad;SHORAD;SHORAD;same;;;
 radarType/location;Location;Location;same;;;
 radarType/tagging;Tagging;Tagging;same;;;
-tank_footballer/name;Tank Footballer;Tank Footballer;same;;;
+presets/filter/title;Display filter;Display filter;same;;;
+presets/filter/enable_auto_abbreviation;Enable auto-abbreviation;Enable auto-abbreviation;same;;;
+presets/filter/modes_abbreviation;Game Mode abbreviation;Game Mode abbreviation;same;;;
+presets/filter/show_modes;Show Game Modes;Show Game Modes;same;;;
+presets/filter/show_ratings;Show Battle Ratings;Show Battle Ratings;same;;;
+presets/filter/show_titles;Show custom names;Show custom names;same;;;
+presets/filter/enable_auto_abbreviation/tooltip;Automatically shortens labels of all presets except the selected one as space runs out. Overrides the manual display settings for game modes, battle ratings and custom names.;Automatically shortens labels of all presets except the selected one as space runs out. Overrides the manual display settings for game modes, battle ratings and custom names.;same;;;
+presets/edit/add;Add new preset;Add new preset;same;;;
+presets/edit/remove;Remove?;Remove?;same;;;
+mode/small_teams;Smaller team sizes;Smaller team sizes;same;;;
+mode/classic;Classic mode;Classic mode;same;;;
+mode/nuclear_escalation;Nuclear Escalation;Nuclear Escalation;same;;;
+mode/night_battles/desc;"When this option is enabled, you have a chance of getting into a night battle instead of the main mode, if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+
+Participation requires a vehicle with a Battle Rating of {requiredBR} or higher.
+
+When participating in night battles, you can earn unique night themed rewards.";"When this option is enabled, you have a chance of getting into a night battle instead of the main mode, if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+
+Participation requires a vehicle with a Battle Rating of {requiredBR} or higher.
+
+When participating in night battles, you can earn unique night themed rewards.";same;;;
+mode/small_teams/desc;"When this option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the main mode (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+
+Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";"When this option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the main mode (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+
+Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";same;;;
+mode/bullet_hell/desc;"When this option is enabled, you have a chance of getting into a Bullet Hell mission instead of the main mode, if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+
+Bullet Hell is a team air battle using only guns and cannons. All suitable aircraft from your crew slots can be used in the mission.
+
+Participation requires {requiredCount}+ {requiredCount=aircraft/aircraft} with a Battle Rating of {requiredBR} or higher.";"When this option is enabled, you have a chance of getting into a Bullet Hell mission instead of the main mode, if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+
+Bullet Hell is a team air battle using only guns and cannons. All suitable aircraft from your crew slots can be used in the mission.
+
+Participation requires {requiredCount}+ {requiredCount=aircraft/aircraft} with a Battle Rating of {requiredBR} or higher.";same;;;
+mode/naval_ec/desc;"A long naval battle: capture ports, destroy enemy convoys, ships and aircraft.
+
+Participation requires a ship with a Battle Rating of {requiredBR} or higher.";"A long naval battle: capture ports, destroy enemy convoys, ships and aircraft.
+
+Participation requires a ship with a Battle Rating of {requiredBR} or higher.";same;;;
+mode/nuclear_escalation/desc;"A long air battle: destroy enemy vehicles to increase the escalation level. Break through defenses, strike key targets, suppress enemy air defenses and secure air superiority. Use nuclear weapons to deliver decisive strikes.
+
+Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";"A long air battle: destroy enemy vehicles to increase the escalation level. Break through defenses, strike key targets, suppress enemy air defenses and secure air superiority. Use nuclear weapons to deliver decisive strikes.
+
+Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";same;;;
+login/seems_registered_help;It seems you recently bound you Guest account. Please use you email and password to login;It seems you recently bound you Guest account. Please use you email and password to login;same;;;
+login/signin_help;Please Sign In when you ready;Please Sign In when you ready;same;;;
+gameMode/unique_themed_rewards;Unique themed rewards;Unique themed rewards;same;;;
+mainmenu/btnSpecEvents;Event Hub;Event Hub;same;;;
