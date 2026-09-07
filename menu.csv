@@ -2689,7 +2689,7 @@ A direct hit to the storage can cause an instant detonation which can destroy th
 
 Fire poses a great danger for the ammo storage. For example, fire can spread from the turret downwards via the ammo elevator shaft into the storage.
 
-Lower the fire risk by researching the ""Ammo wetting"" modification if it’s available.";same;;;
+Lower the fire risk by researching the ""Ammo wetting"" modification if it’s available.";nice;;;
 xray_ext_hint/antenna_target_tagging;"Tracking radar antenna.
 Allows the capture and tracking of an aerial target that was located by the surveillance radar.
 Calculates the lead point for captured targets.
@@ -5511,7 +5511,7 @@ shop/unit_nation_bonus_tooltip/update_time;The number of bonus battles will be u
 logs/mission_points;{num} {num=mission point/mission points};{num} {num=mission point/mission points};same;;;
 logs/ammunition;Ammunition;Ammunition;same;;;
 logs/damage;damage;damage;same;;;
-logs/crew_percent;{val}% of crew;{val}% of the crew;nice;;;
+logs/crew_percent;{val}% of the crew;{val}% of the crew;same;;;
 shop/show_nation_bonus_in_tab;Show the remaining bonus in headers;Show the remaining bonus in headers;same;;;
 shop/moreVehicles;+ {num} more {num=vehicle/vehicles};+ {num} more {num=vehicle/vehicles};same;;;
 shop/tasksExpired;<color=@redMenuButtonColor>task completed</color>;<color=@redMenuButtonColor>task completed</color>;same;;;
@@ -5684,8 +5684,8 @@ profile/decals/filterStrong;No decals that match the selected filters;No decals 
 profile/collections/filterStrong;No collections that match the selected filters;No collections that match the selected filters;same;;;
 profile/achievements/filterStrong;No achievements that match the selected filters;No achievements that match the selected filters;same;;;
 tooltip/weaponSelector;Weapon Selector;Weapon Selector;same;;;
-tooltip/flaresChaffsRatioReq;Required modification to select the Flares/Chaff ratio:;Modification required for selecting the Flares/Chaff ratio:;nice;;;
-tooltip/bulletTapesReq;Required modification to select belt:;Modification required for selecting belts:;nice;;;
+tooltip/flaresChaffsRatioReq;Modification required for selecting the Flares/Chaff ratio:;Modification required for selecting the Flares/Chaff ratio:;same;;;
+tooltip/bulletTapesReq;Modification required for selecting belts:;Modification required for selecting belts:;same;;;
 tooltip/needBuyMasterUnit;Auxiliary vehicle will be available after purchasing the main vehicle:;The auxiliary vehicle will be available after purchasing the main vehicle:;nice;;;
 tooltip/pinWeaponSelector;Pin selector;Pin selector;same;;;
 tooltip/unpinWeaponSelector;Unpin selector;Unpin selector;same;;;
@@ -5851,13 +5851,13 @@ mainmenu/not_researched_vehicle;Not researched vehicle;Not researched vehicle;sa
 bombProperties/destroyOutherRadius;Max damage radius;Maximum damage radius;nice;;;
 bombProperties/totalDestructionRadius;Total destruction radius;Total destruction radius;same;;;
 msgbox/btn_disable;Disable;Disable;same;;;
-mainmenu/firstCountryChoiceNoticePremium;You will get premium vehicle for this country after the first battle;You will get premium vehicle for this country after the first battle;same;;;
+mainmenu/firstCountryChoiceNoticePremium;You will get a premium vehicle for this country after the first battle;You will get a premium vehicle for this country after the first battle;same;;;
 mainmenu/firstCountryChoiceNoticeCountries;More countries will be unlocked after playing: {countries};More countries will be unlocked after playing: {countries};same;;;
 mainmenu/recommended;Recommended;Recommended;same;;;
 mainmenu/choose_country;Choose a country to learn more about it;Choose a country to learn more about it;same;;;
 firstChoiceCountry/late_unlock;Late game unlock:;Late game unlock:;same;;;
 firstChoiceCountry/select_country;Select country;Select country;same;;;
-firstChoiceCountry/starting_aviation;{num=Starting aircraft:/Starting aircrafts:};{num=Starting aircraft:/Starting aircrafts:};same;;;
+firstChoiceCountry/starting_aviation;{num=Starting aircraft:/Starting aircraft:};{num=Starting aircraft:/Starting aircraft:};same;;;
 firstChoiceCountry/starting_army;{num=Starting tank:/Starting tanks:};{num=Starting tank:/Starting tanks:};same;;;
 firstChoiceCountry/starting_ships;{num=Starting ship:/Starting ships:};{num=Starting ship:/Starting ships:};same;;;
 firstChoiceCountry/starting_boats;{num=Starting boat:/Starting boats:};{num=Starting boat:/Starting boats:};same;;;
@@ -5871,13 +5871,13 @@ firstChoiceCountry/country_china;China;China;same;;;
 firstChoiceCountry/country_italy;Italy;Italy;same;;;
 firstChoiceCountry/country_france;France;France;same;;;
 firstChoiceCountry/country_sweden;Sweden;Sweden;same;;;
-firstChoiceCountry/aviation;Aircrafts;Aircrafts;same;;;
+firstChoiceCountry/aviation;Aircraft;Aircraft;same;;;
 firstChoiceCountry/army;Tanks;Tanks;same;;;
 firstChoiceCountry/ships;Ships;Ships;same;;;
 firstChoiceCountry/boats;Boats;Boats;same;;;
-firstChoiceCountry/country_ussr_aviation_description;"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. With combination of effectiveness at low altitudes and powerful armament, they will make you a formidable opponent in close combat.
-Advancing through the research tree, you can obtain, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world - Il-2, the formidable MiG-15 jet, and even the most modern aircraft - Su-34 and Su-30SM2.";"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. With combination of effectiveness at low altitudes and powerful armament, they will make you a formidable opponent in close combat.
-Advancing through the research tree, you can obtain, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world - Il-2, the formidable MiG-15 jet, and even the most modern aircraft - Su-34 and Su-30SM2.";same;;;
+firstChoiceCountry/country_ussr_aviation_description;"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. Combining effectiveness at low altitudes with powerful armament, they will make you a formidable opponent in close combat.
+Advancing through the research tree, you can unlock, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world – Il-2, the formidable MiG-15 jet, and even the most modern aircraft – Su-34 and Su-30SM2.";"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. Combining effectiveness at low altitudes with powerful armament, they will make you a formidable opponent in close combat.
+Advancing through the research tree, you can unlock, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world – Il-2, the formidable MiG-15 jet, and even the most modern aircraft – Su-34 and Su-30SM2.";same;;;
 firstChoiceCountry/country_ussr_army_description;"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way - forward, use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
 Advancing through the research tree, you can obtain, among other things, legendary T-34 and IS-2, and more modern T-72, T-80, and T-90.";"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way - forward, use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
 Advancing through the research tree, you can obtain, among other things, legendary T-34 and IS-2, and more modern T-72, T-80, and T-90.";same;;;

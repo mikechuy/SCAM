@@ -1972,7 +1972,7 @@ missions/demo_aircraft_fire;Press {shortcut} to fire;Press {shortcut} to fire;sa
 missions/demo_aircraft_task;Kill enemy bombers;Kill enemy bombers;same;;;
 missions/demo_tank_turret;Use {shortcut} to aim the turret;Use {shortcut} to aim the turret;same;;;
 missions/demo_tank_nvd;Press {shortcut} to use the thermal vision;Press {shortcut} to use the thermal vision;same;;;
-missions/demo_tank_aim;Align the crosshair with the enemy;To use automatic lead prediction, aim the sight at the target and press the rangefinder button {shortcut};nice;;;
+missions/demo_tank_aim;To use automatic lead prediction, aim the sight at the target and press the rangefinder button {shortcut};To use automatic lead prediction, aim the sight at the target and press the rangefinder button {shortcut};same;;;
 missions/demo_tank_task;Kill enemy tanks;Kill enemy tanks;same;;;
 hints/aircraft_atgm_mclos/start;"The use of air-to-surface guided missiles with manual aiming
 Press {shortcut} to continue";"The use of air-to-surface guided missiles with manual aiming
