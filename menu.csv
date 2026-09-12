@@ -303,7 +303,7 @@ local_coop_no_device;Please select controller for gunner;Please select controlle
 options/mislist;Change mission;Change mission;same;;;
 unlocks/decal;New decal;New decal;same;;;
 unlocks/skin;New camouflage;New camouflage;same;;;
-unlocks/attachable;New decorator;New decorator;same;;;
+unlocks/attachable;New decorator;New decoration;nice;;;
 mission_status;Mission Status;Mission Status;same;;;
 mission_status_0;Accomplished on Arcade difficulty;Accomplished on Arcade difficulty;same;;;
 mission_status_1;Accomplished on Realistic difficulty;Accomplished on Realistic difficulty;same;;;
@@ -1982,13 +1982,13 @@ mainmenu/btnUnits;Vehicles;Vehicles;same;;;
 mainmenu/hangar;Hangar;Hangar;same;;;
 mainmenu/showroom;Customization;Customization;same;;;
 mainmenu/decalFreeSlot;Choose Decal;Choose Decal;same;;;
-mainmenu/attachableFreeSlot;Choose Decorator;Choose Decorator;same;;;
+mainmenu/attachableFreeSlot;Choose Decorator;Choose Decoration;nice;;;
 mainmenu/decalUnitLocked;Vehicle is not purchased;Vehicle is not purchased;same;;;
 mainmenu/decalSkinLocked;Camouflage is not purchased;Camouflage is not purchased;same;;;
-mainmenu/decoratorNotPurchased;"Decorator ""<color=@activeTextColor>{name}</color>"" is not purchased";"Decorator ""<color=@activeTextColor>{name}</color>"" is not purchased";same;;;
+mainmenu/decoratorNotPurchased;"Decorator ""<color=@activeTextColor>{name}</color>"" is not purchased";"Decoration ""<color=@activeTextColor>{name}</color>"" is not purchased";nice;;;
 mainmenu/onlyWithPremium;Available only with a Premium Account;Available only with a Premium Account;same;;;
-mainmenu/requestDeleteDecal;Are you sure you want to delete decal <color=@userlogColoredText>{name}</color>?;Are you sure you want to delete decal <color=@userlogColoredText>{name}</color>?;same;;;
-mainmenu/requestDeleteDecorator;Are you sure you want to delete decorator <color=@userlogColoredText>{name}</color>?;Are you sure you want to delete decorator <color=@userlogColoredText>{name}</color>?;same;;;
+mainmenu/requestDeleteDecal;Are you sure you want to delete decal <color=@userlogColoredText>{name}</color>?;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decal?;nice;;;
+mainmenu/requestDeleteDecorator;Are you sure you want to delete decorator <color=@userlogColoredText>{name}</color>?;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decoration?;nice;;;
 mainmenu/failedInstallAttachable;You cannot set up this item in the indicated place.;You cannot set up this item in the indicated place.;same;;;
 mainmenu/failedInstallAttachableAngle;You cannot set up this item at slope angle {angle}°, maximum allowed angle is {allowedAngle}°;You cannot set up this item at slope angle {angle}°, maximum allowed angle is {allowedAngle}°;same;;;
 discount/notification;Discounts available;Discounts available;same;;;
@@ -2042,6 +2042,8 @@ contacts/s;Steam friends;Steam friends;same;;;
 contacts/f;Facebook friends;Facebook friends;same;;;
 contacts/clan;Squadron;Squadron;same;;;
 weaponry/presetCompositionHint;Weapon preset for quick switching in battle;Weapon preset for quick switching in battle;same;;;
+weaponry/gameModeRestrictions/header;Availability in game modes;Availability in game modes;same;;;
+weaponry/gameModeRestrictions/br;at BR {br} and higher;at BR {br} and higher;same;;;
 weaponry/research;Research;Research;same;;;
 shop/multiplePurchaseHeader;Multiple purchase;Multiple purchase;same;;;
 weaponry/descreaseValue;Decrease value;Decrease value;same;;;
@@ -2689,7 +2691,7 @@ A direct hit to the storage can cause an instant detonation which can destroy th
 
 Fire poses a great danger for the ammo storage. For example, fire can spread from the turret downwards via the ammo elevator shaft into the storage.
 
-Lower the fire risk by researching the ""Ammo wetting"" modification if it’s available.";nice;;;
+Lower the fire risk by researching the ""Ammo wetting"" modification if it’s available.";same;;;
 xray_ext_hint/antenna_target_tagging;"Tracking radar antenna.
 Allows the capture and tracking of an aerial target that was located by the surveillance radar.
 Calculates the lead point for captured targets.
@@ -2967,7 +2969,7 @@ coupon/for;Exchange coupon for:;Exchange coupon for:;same;;;
 coupon/for/vehicle;Exchange coupon for a vehicle:;Exchange coupon for a vehicle:;same;;;
 coupon/for/skin;Exchange coupon for a camouflage:;Exchange coupon for a camouflage:;same;;;
 coupon/for/decal;Exchange coupon for a decal:;Exchange coupon for a decal:;same;;;
-coupon/for/attachable;Exchange coupon for a decorator:;Exchange coupon for a decorator:;same;;;
+coupon/for/attachable;Exchange coupon for a decorator:;Exchange coupon for a decoration:;nice;;;
 msgbox/find_on_marketplace;"Find ""{itemName}"" on Marketplace?";"Find ""{itemName}"" on Marketplace?";same;;;
 help/finishedModification;;"Congratulations! You have researched the modification <color=@userlogColoredText>{modName}</color>.
 Now you can purchase it.";nice;;;
@@ -3792,7 +3794,14 @@ armor_class/dural5;Dural 5 mm;Dural 5 mm;same;;;
 armor_class/dural6_35;Dural 6.35 mm;Dural 6.35 mm;same;;;
 armor_class/dural9_5;Dural 9.5 mm;Dural 9.5 mm;same;;;
 armor_class/dural15_8;Dural 15.8 mm;Dural 15.8 mm;same;;;
-armor_class/armor_fireplate;Firewall;Firewall;same;;;
+armor_class/dural_nikel0_4_tail;Kol'chug dural corrugated 0.4 mm;Kol'chugaluminium corrugated skin 0.4 mm;nice;;;
+armor_class/dural_nikel0_4_fuse;Kol'chug dural corrugated 0.4 mm;Kol'chugaluminium corrugated skin 0.4 mm;nice;;;
+armor_class/dural_nikel0_4_wing;Kol'chug dural corrugated 0.4 mm;Kol'chugaluminium corrugated skin 0.4 mm;nice;;;
+armor_class/dural_nikel0_4_elevator;Kol'chug dural corrugated 0.2 mm;Kol'chugaluminium corrugated skin 0.2 mm;nice;;;
+armor_class/dural_nikel0_4_fin;Kol'chug dural corrugated 0.4 mm;Kol'chugaluminium corrugated skin 0.4 mm;nice;;;
+armor_class/dural_nikel1;Kol'chug dural 1 mm;Kol'chugaluminium 1 mm;nice;;;
+armor_class/dural_nikel3;Kol'chug dural 3 mm;Kol'chugaluminium 3 mm;nice;;;
+armor_class/armor_fireplate;Firewall 20 mm;Firewall;trim;;;
 armor_class/steel;Steel 1 mm;Steel 1 mm;same;;;
 armor_class/armor2;Steel 2 mm;Steel 2 mm;same;;;
 armor_class/armor2_54;Steel 2.54 mm;Steel 2.54 mm;same;;;
@@ -4140,7 +4149,7 @@ These are used in the Warbond shop. At the WB shop, the following items can be p
 <color=#01579b> • </color>Boosters
 <color=#01579b> • </color>Battle trophies
 <color=#01579b> • </color>Decals
-<color=#01579b> • </color>Decorators
+<color=#01579b> • </color>Decorations
 <color=#01579b> • </color>Premium vehicles
 <color=#01579b> • </color>Universal backups
 <color=#01579b> • </color>Special tasks";nice;;;
@@ -4435,9 +4444,9 @@ mainmenu/itemPreviewForbidden;Items preview at this time is not possible.;Items 
 decoratorPreview/autoselectedUnit;{previewUnit} is selected for preview, because {hangarUnit} located in hangar is not suitable for this.;{previewUnit} is selected for preview, because {hangarUnit} located in hangar is not suitable for this.;same;;;
 decoratorPreview/autoselectedUnit/desc;"If you want to choose another vehicle for this, then pre-load it into the hangar. For example, you can open the desired vehicle in ""{preview}"" or ""{customization}"".";"If you want to choose another vehicle for this, then pre-load it into the hangar. For example, you can open the desired vehicle in ""{preview}"" or ""{customization}"".";same;;;
 decoratorPreview/applyManually/decal;Apply the decal on the vehicle;Apply the decal on the vehicle;same;;;
-decoratorPreview/applyManually/attachable;Apply the decorator on the vehicle;Apply the decorator on the vehicle;same;;;
+decoratorPreview/applyManually/attachable;Apply the decorator on the vehicle;Apply the decoration on the vehicle;nice;;;
 decorator/use/decal;Use Decal;Use Decal;same;;;
-decorator/use/attachable;Use Decorator;Use Decorator;same;;;
+decorator/use/attachable;Use Decorator;Use Decoration;nice;;;
 decorator/use/skin;Use Camouflage;Use Camouflage;same;;;
 items/msg/waitPreviousGoldTransaction;The previous purchase for eagles was not completed.;The previous purchase for eagles was not completed.;same;;;
 items/waitItemsInTransaction;Items pending: {amount};Items pending: {amount};same;;;
@@ -4451,8 +4460,8 @@ exp_reasons/kill_helicopter;Helicopter shot down;Helicopter shot down;same;;;
 confirmationMsg/rareCraftPart;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;same;;;
 msg/squad/noPlayersForDiffConsoles;You can't crossplay in the same squad LUL.;You can't have players from different consoles in the same squad;nice;;;
 customization/decorLayout/title;Link camouflage decor layout;Link camouflage decor layout;same;;;
-customization/decorLayout/desc1;Link this camouflage decor layout (decals and attachables):;Link this camouflage decor layout (decals and attachables):;same;;;
-customization/decorLayout/desc2;to camouflages marked below. All linked camouflages will have the same decals and attachables layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;to camouflages marked below. All linked camouflages will have the same decals and attachables layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;same;;;
+customization/decorLayout/desc1;Link this camouflage decor layout (decals and attachables):;Link this camouflage decor layout (decals and decorations):;nice;;;
+customization/decorLayout/desc2;to camouflages marked below. All linked camouflages will have the same decals and attachables layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;to camouflages marked below. All linked camouflages will have the same decals and decorations layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;nice;;;
 customization/decorLayout/linkedSkins;Linked Camouflages;Linked Camouflages;same;;;
 customization/decorLayout/layoutName;Layout Name;Layout Name;same;;;
 customization/decorLayout/defaultName;Layout #{number};Layout #{number};same;;;
@@ -4722,11 +4731,11 @@ collection/only_uncompleted/hint;Show only those that are not completed;Show onl
 collection/all_collections_completed;"All collections are completed
 To see the completed collections, deselect ""Only not completed ones""";"All collections are completed
 To see the completed collections, deselect ""Only not completed ones""";same;;;
-collection/machineguns;"""Machineguns"" decorations";"""Machineguns"" decorations";same;;;
+collection/machineguns;"""Machineguns"" decorations";"""Machine Guns"" decorations";nice;;;
 collection/mythical_creatures;"""Mythical Creatures"" decals";"""Mythical Creatures"" decals";same;;;
 collection/rifles;"""Rifles"" decorations";"""Rifles"" decorations";same;;;
 collection/helmets;"""Helmets"" decorations";"""Helmets"" decorations";same;;;
-collection/assault_rifle;"""Assault rifles"" decorations";"""Assault rifles"" decorations";same;;;
+collection/assault_rifle;"""Assault rifles"" decorations";"""Assault Rifles"" decorations";nice;;;
 collection/hats;"""Hats"" decorations";"""Hats"" decorations";same;;;
 collection/fire_decal;"""Fire"" decals";"""Fire"" decals";same;;;
 collection/fifa2018_group_a_b;"""Spot the Ball"" decals (groups A, B)";"""Spot the Ball"" decals (groups A, B)";same;;;
@@ -4744,8 +4753,8 @@ collection/camo_trophy_2024;"""Game updates (2023-2024)"" decals";"""Game update
 collection/camo_trophy_2025;"""Game updates (2024-2025)"" decals";"""Game updates (2024-2025)"" decals";same;;;
 collection/ammunition;"""Ammunition"" decorations";"""Ammunition"" decorations";same;;;
 collection/winter_fun;"""Winter fun"" decorations";"""Winter fun"" decorations";same;;;
-collection/assault_rifle_ag;"""Assault rifles with grenade launcher"" decorations";"""Assault rifles with grenade launcher"" decorations";same;;;
-collection/submachine_gun;"""Submachine gun"" decorations";"""Submachine gun"" decorations";same;;;
+collection/assault_rifle_ag;"""Assault rifles with grenade launcher"" decorations";"""Assault rifles with grenade launchers"" decorations";nice;;;
+collection/submachine_gun;"""Submachine gun"" decorations";"""Submachine guns"" decorations";nice;;;
 collection/winter_2021_pinup;"""Operation W.I.N.T.E.R. 2020-21"" Pinups";"""Operation W.I.N.T.E.R. 2020-21"" Pinups";same;;;
 collection/winter_2020_pinup;"""Operation W.I.N.T.E.R. 2019-20"" Pinups";"""Operation W.I.N.T.E.R. 2019-20"" Pinups";same;;;
 collection/winter_2019;"""Operation W.I.N.T.E.R. 2018-19"" decals";"""Operation W.I.N.T.E.R. 2018-19"" decals";same;;;
@@ -5123,6 +5132,7 @@ loading_bg/login_layer_it_fiat_6616_ub;FIAT 6616UB;FIAT 6616UB;same;;;
 loading_bg/login_layer_it_fiat_6616_ub/desc;"Reward for level 100 in the ""Do It Yourself"" Battle Pass Season";"Reward for level 100 in the ""Do It Yourself"" Battle Pass Season";same;;;
 loading_bg/login_layer_ship_marathon_guardian_of_the_baltic_sea;Oktyabrskaya Revolutsiya;Oktyabrskaya Revolutsiya;same;;;
 loading_bg/login_layer_space_program;F-16XL;F-16XL;same;;;
+loading_bg/login_layer_sky_odyssey;Hellenic Air Force;Hellenic Air Force;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;

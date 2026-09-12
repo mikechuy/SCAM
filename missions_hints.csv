@@ -2448,3 +2448,6 @@ hints/return_spawn_score_full_exit_zone;In this case, the spawn points will be f
 hints/bullet_hell/guns_only;Guns only! No secondary weapons allowed in this mode;Guns only! No secondary weapons allowed in this mode;same;;;
 MISSION_HINTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;
 hints/drone_orbit_mode_controls;Use {pitch} to change altitude and {roll} to change direction and orbit radius;Use {pitch} to change altitude and {roll} to change direction and orbit radius;same;;;
+hud_tutorial_ship_damage_1;The number of effective hits — the shell penetrated the armor and caused damage to the crew;The number of effective hits — the shell penetrated the armor and caused damage to the crew;same;;;
+hud_tutorial_ship_damage_2;Enemy crew losses during the shelling;Enemy crew losses during the shelling;same;;;
+hud_tutorial_ship_damage_3;The number of ineffective hits — the projectile passed through without causing damage or failed to penetrate the armor;The number of ineffective hits — the projectile passed through without causing damage or failed to penetrate the armor;same;;;
