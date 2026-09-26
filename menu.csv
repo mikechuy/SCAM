@@ -303,7 +303,7 @@ local_coop_no_device;Please select controller for gunner;Please select controlle
 options/mislist;Change mission;Change mission;same;;;
 unlocks/decal;New decal;New decal;same;;;
 unlocks/skin;New camouflage;New camouflage;same;;;
-unlocks/attachable;New decorator;New decoration;nice;;;
+unlocks/attachable;New decoration;New decoration;same;;;
 mission_status;Mission Status;Mission Status;same;;;
 mission_status_0;Accomplished on Arcade difficulty;Accomplished on Arcade difficulty;same;;;
 mission_status_1;Accomplished on Realistic difficulty;Accomplished on Realistic difficulty;same;;;
@@ -1982,26 +1982,26 @@ mainmenu/btnUnits;Vehicles;Vehicles;same;;;
 mainmenu/hangar;Hangar;Hangar;same;;;
 mainmenu/showroom;Customization;Customization;same;;;
 mainmenu/decalFreeSlot;Choose Decal;Choose Decal;same;;;
-mainmenu/attachableFreeSlot;Choose Decorator;Choose Decoration;nice;;;
+mainmenu/attachableFreeSlot;Choose Decoration;Choose Decoration;same;;;
 mainmenu/decalUnitLocked;Vehicle is not purchased;Vehicle is not purchased;same;;;
 mainmenu/decalSkinLocked;Camouflage is not purchased;Camouflage is not purchased;same;;;
-mainmenu/decoratorNotPurchased;"Decorator ""<color=@activeTextColor>{name}</color>"" is not purchased";"Decoration ""<color=@activeTextColor>{name}</color>"" is not purchased";nice;;;
+mainmenu/decoratorNotPurchased;"Decoration ""<color=@activeTextColor>{name}</color>"" is not purchased";"Decoration ""<color=@activeTextColor>{name}</color>"" is not purchased";same;;;
 mainmenu/onlyWithPremium;Available only with a Premium Account;Available only with a Premium Account;same;;;
-mainmenu/requestDeleteDecal;Are you sure you want to delete decal <color=@userlogColoredText>{name}</color>?;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decal?;nice;;;
-mainmenu/requestDeleteDecorator;Are you sure you want to delete decorator <color=@userlogColoredText>{name}</color>?;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decoration?;nice;;;
+mainmenu/requestDeleteDecal;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decal?;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decal?;same;;;
+mainmenu/requestDeleteDecorator;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decoration?;Are you sure you want to delete the <color=@userlogColoredText>{name}</color> decoration?;same;;;
 mainmenu/failedInstallAttachable;You cannot set up this item in the indicated place.;You cannot set up this item in the indicated place.;same;;;
 mainmenu/failedInstallAttachableAngle;You cannot set up this item at slope angle {angle}°, maximum allowed angle is {allowedAngle}°;You cannot set up this item at slope angle {angle}°, maximum allowed angle is {allowedAngle}°;same;;;
 discount/notification;Discounts available;Discounts available;same;;;
 mainmenu/firstCountry;Choose Country for the first battle;Choose Country for the first battle;same;;;
 mainmenu/firstCountry/hint;Other countries also will be available;Other countries also will be available;same;;;
 mainmenu/firstUnit;Choose starting Unit Type;Choose starting Unit Type;same;;;
-mainmenu/firstUnitChoiceBonusNotice;"This choice will determine vehicle type you will receive as a reward after your first battle and also tutorial mission.
+mainmenu/firstUnitChoiceBonusNotice;"This choice will determine which type of vehicle you will receive as a reward after your first battle and the tutorial mission.
 Vehicle type can be freely changed after the first battle";"This choice will determine which type of vehicle you will receive as a reward after your first battle and the tutorial mission.
-Vehicle type can be freely changed after the first battle";nice;;;
+Vehicle type can be freely changed after the first battle";same;;;
 mainmenu/firstUnitChoiceTooltip/aviation;Pilot fighters, bombers, and attack aircraft from biplanes to modern jets. Dominate aerial battles in high-speed dogfights and devastating ground strikes.;Pilot fighters, bombers, and attack aircraft from biplanes to modern jets. Dominate aerial battles in high-speed dogfights and devastating ground strikes.;same;;;
 mainmenu/firstUnitChoiceTooltip/army;Command tanks, armored cars, and SPGs. From WWII legends to modern tanks - control the battlefield through tactical positioning and devastating firepower.;Command tanks, armored cars, and SPGs. From WWII legends to modern tanks - control the battlefield through tactical positioning and devastating firepower.;same;;;
 mainmenu/firstUnitChoiceTooltip/ships;Captain destroyers, cruisers, and battleships. Bring heavy guns and thick armor to slow, massive ocean battles where every salvo hits with devastating force.;Captain destroyers, cruisers, and battleships. Bring heavy guns and thick armor to slow, massive ocean battles where every salvo hits with devastating force.;same;;;
-mainmenu/firstUnitChoiceTooltip/boats;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast and agile warfare.;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast-paced and agile warfare.;nice;;;
+mainmenu/firstUnitChoiceTooltip/boats;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast-paced and agile warfare.;Helm torpedo boats, gunboats, and sub-chasers. Fight for control of the shoreline in fast-paced and agile warfare.;same;;;
 mainmenu/firstChoiseBonusNotice;Based on chosen country and vehicles you will get bonuses during the game process;Based on chosen country and vehicles you will get bonuses during the game process;same;;;
 mainmenu/countryUnlockNotice;Other vehicles and countries will be unlocked as the game progresses;Other vehicles and countries will be unlocked as the game progresses;same;;;
 mainmenu/lockedCountryDescription;Country will be unlocked in battles against other players;Country will be unlocked in battles against other players;same;;;
@@ -2969,7 +2969,7 @@ coupon/for;Exchange coupon for:;Exchange coupon for:;same;;;
 coupon/for/vehicle;Exchange coupon for a vehicle:;Exchange coupon for a vehicle:;same;;;
 coupon/for/skin;Exchange coupon for a camouflage:;Exchange coupon for a camouflage:;same;;;
 coupon/for/decal;Exchange coupon for a decal:;Exchange coupon for a decal:;same;;;
-coupon/for/attachable;Exchange coupon for a decorator:;Exchange coupon for a decoration:;nice;;;
+coupon/for/attachable;Exchange coupon for a decoration:;Exchange coupon for a decoration:;same;;;
 msgbox/find_on_marketplace;"Find ""{itemName}"" on Marketplace?";"Find ""{itemName}"" on Marketplace?";same;;;
 help/finishedModification;;"Congratulations! You have researched the modification <color=@userlogColoredText>{modName}</color>.
 Now you can purchase it.";nice;;;
@@ -4134,13 +4134,13 @@ as you have already purchased all the available amount.";"You cannot purchase mo
 as you have already purchased all the available amount.";same;;;
 warbond/msg/awardMayBeLost;Maximum possible war bond balance is: {maxWarbonds}. If you take your reward now, you will lose {lostWarbonds}. Are you sure you want to take the reward?;Maximum possible war bond balance is: {maxWarbonds}. If you take your reward now, you will lose {lostWarbonds}. Are you sure you want to take the reward?;same;;;
 warbond/availableForPurchase;Available for purchase;Available for purchase;same;;;
-warbond/desc;"<color=#88bc56>£</color>Warbonds (WB) are a special in-game currency earned by reaching specific Battle Ass levels.
+warbond/desc;"<color=#88bc56>£</color>Warbonds (WB) are a special in-game currency earned by reaching specific Battle Pass levels.
 
 These are used in the Warbond shop. At the WB shop, the following items can be purchased:
 <color=#01579b> • </color>Boosters
 <color=#01579b> • </color>Battle trophies
 <color=#01579b> • </color>Decals
-<color=#01579b> • </color>Decorators
+<color=#01579b> • </color>Decorations
 <color=#01579b> • </color>Premium vehicles
 <color=#01579b> • </color>Universal backups
 <color=#01579b> • </color>Special tasks";"<color=#88bc56>£</color>Warbonds (WB) are a special in-game currency earned by reaching specific Battle Pass levels.
@@ -4152,7 +4152,7 @@ These are used in the Warbond shop. At the WB shop, the following items can be p
 <color=#01579b> • </color>Decorations
 <color=#01579b> • </color>Premium vehicles
 <color=#01579b> • </color>Universal backups
-<color=#01579b> • </color>Special tasks";nice;;;
+<color=#01579b> • </color>Special tasks";same;;;
 mainmenu/btnWarbondsShop;Warbond Shop;Warbond Shop;same;;;
 mainmenu/warbondsShop/notAvailable;Warbond Shop is not available;Warbond Shop is not available;same;;;
 warbonds/recalculating;Updating...;Updating...;same;;;
@@ -4418,6 +4418,7 @@ workshop/ninth_wave;Ninth Wave;Ninth Wave;same;;;
 workshop/wtcs_trophy_5;WTCS Esports Trophy V;WTCS Esports Trophy V;same;;;
 workshop/heavy_cavalry;Heavy Cavalry;Heavy Cavalry;same;;;
 workshop/wtcs_trophy_6;WTCS Esports Trophy VI;WTCS Esports Trophy VI;same;;;
+workshop/sky_odyssey;Sky Odyssey;Sky Odyssey;same;;;
 workshop/dance_of_dragons;Dance of Dragons;Dance of Dragons;same;;;
 workshop/firebirds;Firebirds;Firebirds;same;;;
 workshop/storm_warning;Storm Warning;Storm Warning;same;;;
@@ -4444,9 +4445,9 @@ mainmenu/itemPreviewForbidden;Items preview at this time is not possible.;Items 
 decoratorPreview/autoselectedUnit;{previewUnit} is selected for preview, because {hangarUnit} located in hangar is not suitable for this.;{previewUnit} is selected for preview, because {hangarUnit} located in hangar is not suitable for this.;same;;;
 decoratorPreview/autoselectedUnit/desc;"If you want to choose another vehicle for this, then pre-load it into the hangar. For example, you can open the desired vehicle in ""{preview}"" or ""{customization}"".";"If you want to choose another vehicle for this, then pre-load it into the hangar. For example, you can open the desired vehicle in ""{preview}"" or ""{customization}"".";same;;;
 decoratorPreview/applyManually/decal;Apply the decal on the vehicle;Apply the decal on the vehicle;same;;;
-decoratorPreview/applyManually/attachable;Apply the decorator on the vehicle;Apply the decoration on the vehicle;nice;;;
+decoratorPreview/applyManually/attachable;Apply the decoration on the vehicle;Apply the decoration on the vehicle;same;;;
 decorator/use/decal;Use Decal;Use Decal;same;;;
-decorator/use/attachable;Use Decorator;Use Decoration;nice;;;
+decorator/use/attachable;Use Decoration;Use Decoration;same;;;
 decorator/use/skin;Use Camouflage;Use Camouflage;same;;;
 items/msg/waitPreviousGoldTransaction;The previous purchase for eagles was not completed.;The previous purchase for eagles was not completed.;same;;;
 items/waitItemsInTransaction;Items pending: {amount};Items pending: {amount};same;;;
@@ -4460,8 +4461,8 @@ exp_reasons/kill_helicopter;Helicopter shot down;Helicopter shot down;same;;;
 confirmationMsg/rareCraftPart;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;same;;;
 msg/squad/noPlayersForDiffConsoles;You can't crossplay in the same squad LUL.;You can't have players from different consoles in the same squad;nice;;;
 customization/decorLayout/title;Link camouflage decor layout;Link camouflage decor layout;same;;;
-customization/decorLayout/desc1;Link this camouflage decor layout (decals and attachables):;Link this camouflage decor layout (decals and decorations):;nice;;;
-customization/decorLayout/desc2;to camouflages marked below. All linked camouflages will have the same decals and attachables layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;to camouflages marked below. All linked camouflages will have the same decals and decorations layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;nice;;;
+customization/decorLayout/desc1;Link this camouflage decor layout (decals and decorations):;Link this camouflage decor layout (decals and decorations):;same;;;
+customization/decorLayout/desc2;to camouflages marked below. All linked camouflages will have the same decals and decorations layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;to camouflages marked below. All linked camouflages will have the same decals and decorations layout. Any edits on any of those camouflages will be applied to all linked camouflages at once:;same;;;
 customization/decorLayout/linkedSkins;Linked Camouflages;Linked Camouflages;same;;;
 customization/decorLayout/layoutName;Layout Name;Layout Name;same;;;
 customization/decorLayout/defaultName;Layout #{number};Layout #{number};same;;;
@@ -4731,11 +4732,11 @@ collection/only_uncompleted/hint;Show only those that are not completed;Show onl
 collection/all_collections_completed;"All collections are completed
 To see the completed collections, deselect ""Only not completed ones""";"All collections are completed
 To see the completed collections, deselect ""Only not completed ones""";same;;;
-collection/machineguns;"""Machineguns"" decorations";"""Machine Guns"" decorations";nice;;;
+collection/machineguns;"""Machine Guns"" decorations";"""Machine Guns"" decorations";same;;;
 collection/mythical_creatures;"""Mythical Creatures"" decals";"""Mythical Creatures"" decals";same;;;
 collection/rifles;"""Rifles"" decorations";"""Rifles"" decorations";same;;;
 collection/helmets;"""Helmets"" decorations";"""Helmets"" decorations";same;;;
-collection/assault_rifle;"""Assault rifles"" decorations";"""Assault Rifles"" decorations";nice;;;
+collection/assault_rifle;"""Assault Rifles"" decorations";"""Assault Rifles"" decorations";same;;;
 collection/hats;"""Hats"" decorations";"""Hats"" decorations";same;;;
 collection/fire_decal;"""Fire"" decals";"""Fire"" decals";same;;;
 collection/fifa2018_group_a_b;"""Spot the Ball"" decals (groups A, B)";"""Spot the Ball"" decals (groups A, B)";same;;;
@@ -4753,8 +4754,8 @@ collection/camo_trophy_2024;"""Game updates (2023-2024)"" decals";"""Game update
 collection/camo_trophy_2025;"""Game updates (2024-2025)"" decals";"""Game updates (2024-2025)"" decals";same;;;
 collection/ammunition;"""Ammunition"" decorations";"""Ammunition"" decorations";same;;;
 collection/winter_fun;"""Winter fun"" decorations";"""Winter fun"" decorations";same;;;
-collection/assault_rifle_ag;"""Assault rifles with grenade launcher"" decorations";"""Assault rifles with grenade launchers"" decorations";nice;;;
-collection/submachine_gun;"""Submachine gun"" decorations";"""Submachine guns"" decorations";nice;;;
+collection/assault_rifle_ag;"""Assault rifles with grenade launchers"" decorations";"""Assault rifles with grenade launchers"" decorations";same;;;
+collection/submachine_gun;"""Submachine guns"" decorations";"""Submachine guns"" decorations";same;;;
 collection/winter_2021_pinup;"""Operation W.I.N.T.E.R. 2020-21"" Pinups";"""Operation W.I.N.T.E.R. 2020-21"" Pinups";same;;;
 collection/winter_2020_pinup;"""Operation W.I.N.T.E.R. 2019-20"" Pinups";"""Operation W.I.N.T.E.R. 2019-20"" Pinups";same;;;
 collection/winter_2019;"""Operation W.I.N.T.E.R. 2018-19"" decals";"""Operation W.I.N.T.E.R. 2018-19"" decals";same;;;
@@ -4830,7 +4831,7 @@ battlePass/btn_buy;"""Battle Ass"" shop";"""Battle Pass"" shop";nice;;;
 battlpass_progress;"""Battle Ass"" level";"""Battle Pass"" level";nice;;;
 progress/amount;+ {amount} progress pts.;+ {amount} progress pts.;same;;;
 progress/amount/forValues;+ {amount} progress {amount=point/points} for;+ {amount} progress {amount=point/points} for;same;;;
-updStats/battlepass_exp;"+ {amount} ""Battle Ass"" progress {amount=point/points}";"+{amount} ""Battle Pass"" progress {amount=point/points}";nice;;;
+updStats/battlepass_exp;"+{amount} ""Battle Ass"" progress {amount=point/points}";"+{amount} ""Battle Pass"" progress {amount=point/points}";nice;;;
 battlePass/seasonLoginStreak;The Season's logins: {amount};The Season's logins: {amount};same;;;
 battlePass/info/total_progress_exp;Total progress points earned: {expNum};Total progress points earned: {expNum};same;;;
 battlePass/info/require_exp_for_level;Remaining to new level: {expNum};Remaining to new level: {expNum};same;;;
@@ -4870,9 +4871,9 @@ mainmenu/regionalUnlockActivationError;Failed to accept objective. Please try ag
 mainmenu/promoteUnit;Available vehicle for purchase for a limited time;The vehicle is available for purchase for a limited time;nice;;;
 mainmenu/eventUnit;A vehicle receiving event is available;A vehicle receiving event is available;same;;;
 mainmenu/promoteUnit/title;Limited-time sale vehicles;Limited-time sale vehicles;same;;;
-mainmenu/promoteUnit/empty;There are currently no equipment items on temporary sale.;There are currently no equipment items on temporary sale.;same;;;
+mainmenu/promoteUnit/empty;There are currently no equipment items on temporary sale.;There are no vehicles on temporary sale at the moment.;trim;;;
 mainmenu/discount/title;Vehicles at a discount;Vehicles at a discount;same;;;
-mainmenu/discount/empty;There are currently no discounted items.;There are currently no discounted items.;same;;;
+mainmenu/discount/empty;There are currently no discounted items.;There are no discounted vehicles at the moment.;nice;;;
 loading_bg;Loading screen;Loading screen;same;;;
 loading_bg/login_layer;"P-47 Thunderbolt ""Ardennes""";"P-47 Thunderbolt ""Ardennes""";same;;;
 loading_bg/login_layer_a1;Spitfire Mk IX;Spitfire Mk IX;same;;;
@@ -5133,6 +5134,9 @@ loading_bg/login_layer_it_fiat_6616_ub/desc;"Reward for level 100 in the ""Do It
 loading_bg/login_layer_ship_marathon_guardian_of_the_baltic_sea;Oktyabrskaya Revolutsiya;Oktyabrskaya Revolutsiya;same;;;
 loading_bg/login_layer_space_program;F-16XL;F-16XL;same;;;
 loading_bg/login_layer_sky_odyssey;Hellenic Air Force;Hellenic Air Force;same;;;
+loading_bg/login_layer_arjun_mk1;Arjun Mk 1;Arjun Mk 1;same;;;
+loading_bg/login_layer_j16;J-16;J-16;same;;;
+loading_bg/login_layer_aw_159;AW159 HMA.2;AW159 HMA.2;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
@@ -5857,7 +5861,7 @@ triggerType/targetingPod;Targeting Pods;Targeting Pods;same;;;
 triggerType/additional_guns;Guns;Cannons & Machine Guns;nice;;;
 mainmenu/purchased_vehicle;Purchased vehicle;Purchased vehicle;same;;;
 mainmenu/researched_vehicle;Researched vehicle;Researched vehicle;same;;;
-mainmenu/not_researched_vehicle;Not researched vehicle;Not researched vehicle;same;;;
+mainmenu/not_researched_vehicle;Unresearched vehicle;Unresearched vehicle;same;;;
 bombProperties/destroyOutherRadius;Max damage radius;Maximum damage radius;nice;;;
 bombProperties/totalDestructionRadius;Total destruction radius;Total destruction radius;same;;;
 msgbox/btn_disable;Disable;Disable;same;;;
@@ -5983,7 +5987,7 @@ presets/filter/show_titles;Show custom names;Show custom names;same;;;
 presets/filter/enable_auto_abbreviation/tooltip;Automatically shortens labels of all presets except the selected one as space runs out. Overrides the manual display settings for game modes, battle ratings and custom names.;Automatically shortens labels of all presets except the selected one as space runs out. Overrides the manual display settings for game modes, battle ratings and custom names.;same;;;
 presets/edit/add;Add new preset;Add new preset;same;;;
 presets/edit/remove;Remove?;Remove?;same;;;
-mode/small_teams;Smaller team sizes;Smaller team sizes;same;;;
+mode/small_teams;Tactical Skies;Tactical Skies;same;;;
 mode/classic;Classic mode;Classic mode;same;;;
 mode/nuclear_escalation;Nuclear Escalation;Nuclear Escalation;same;;;
 mode/night_battles/desc;"When this option is enabled, you have a chance of getting into a night battle instead of the main mode, if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
@@ -5995,11 +5999,11 @@ When participating in night battles, you can earn unique night themed rewards.";
 Participation requires a vehicle with a Battle Rating of {requiredBR} or higher.
 
 When participating in night battles, you can earn unique night themed rewards.";same;;;
-mode/small_teams/desc;"When this option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the main mode (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+mode/small_teams/desc;"When this option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the usual team sizes (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
 
-Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";"When this option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the main mode (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";"When this option is enabled, you have a chance of getting into a Classic mode mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the usual team sizes (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
 
-Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";same;;;
+Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";nice;;;
 mode/bullet_hell/desc;"When this option is enabled, you have a chance of getting into a Bullet Hell mission instead of the main mode, if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
 
 Bullet Hell is a team air battle using only guns and cannons. All suitable aircraft from your crew slots can be used in the mission.
