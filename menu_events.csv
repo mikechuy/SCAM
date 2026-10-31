@@ -56,6 +56,9 @@ events/allowed_only/Aircraft;Only aircraft are allowed;Only aircraft are allowed
 events/allowed_only/Tank;Only ground vehicles are allowed;Only ground vehicles are allowed;same;;;
 events/allowed_only/Ship;Only naval vessels are allowed;Only naval vessels are allowed;same;;;
 events/allowed_only/Helicopter;Only helicopters are allowed;Only helicopters are allowed;same;;;
+events/allowed_units/Human;infantry;infantry;same;;;
+events/allowed_only/Human;Only infantry is allowed;Only infantry is allowed;same;;;
+MENU_EVENTS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;
 events/selected_craft_is_not_allowed;Selected vehicle is not allowed;Selected vehicle is not allowed;same;;;
 events/minSquadSize;Squad size is smaller than {minSize};Squad size is smaller than {minSize};same;;;
 events/maxSquadSize;Squad size is bigger than {maxSize};Squad size is bigger than {maxSize};same;;;
@@ -370,14 +373,18 @@ cause the grind fucking sucks:
 2.7 - 3.7
 4.0 - 5.0
 5.3 - 6.3
-6.7 - 12.7
+6.7 - 8.0
+8.3 - 9.7
+10.0 - 12.7
 Go fuck youself!";"Cooperative PvE game mode in which players defend an allied base from several waves of enemies. Every day, the first battle in ""Assault"" mode brings players a special reward.
-This game mode has 5 levels depending on the maximum battle rating of your vehicle setup:
+This game mode has 7 levels depending on the maximum battle rating of your vehicle setup:
 1.0 - 2.3
 2.7 - 3.7
 4.0 - 5.0
 5.3 - 6.3
-6.7 - 12.7
+6.7 - 8.0
+8.3 - 9.7
+10.0 - 12.7
 Plan your vehicle setup accordingly.";nice;;;
 event/pve_main_tank_arcade;Tank Ass salt;Assault. Ground Arcade;nice;;;
 event/pve_main_tank_arcade/desc;"Play this tank arcade PvE mode

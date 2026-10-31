@@ -188,10 +188,10 @@ Open the fire on the enemy aircraft";"You need to fire right at it to hit the ta
 Open the fire on the enemy aircraft";same;;;
 hints/tutorialB_cursor;"You need to fire right at it to hit the target
 Aim and keep the mouse aim cursor at the lead angle indicator";"You need to fire right at it to hit the target
-Aim and keep the mouse aim cursor at the lead angle indicator";same;;;
+Aim and keep the cursor at the lead angle indicator";trim;;;
 hints/tutorialB_shooting_initial_cursor;"Now you need to destroy a moving target
 Aim and keep the mouse aim cursor at the lead angle indicator";"Now you need to destroy a moving target
-Aim and keep the mouse aim cursor at the lead angle indicator";same;;;
+Aim and keep the cursor at the lead angle indicator";trim;;;
 hints/tutorialB_keep_aiming;"Now your aircraft will start to turn towards the target
 You need to aim the crosshair at the lead angle indicator";"Now your aircraft will start to turn towards the target
 You need to aim the crosshair at the lead angle indicator";same;;;
@@ -360,12 +360,12 @@ hints/tutorialB_about_rudder_continue;"The rudder allows to correct your plane's
 Press {{ID_CONTINUE}} to continue";"The rudder allows to correct your plane's course
 
 Press {{ID_CONTINUE}} to continue";same;;;
-hints/tutorialB_howTo_MA;In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;same;;;
+hints/tutorialB_howTo_MA;In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;In Cursor aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;nice;;;
 hints/tutorialB_howTo_MA_continue;"In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
 
-Press {{ID_CONTINUE}} to continue";"In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
+Press {{ID_CONTINUE}} to continue";"In Cursor aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
 
-Press {{ID_CONTINUE}} to continue";same;;;
+Press {{ID_CONTINUE}} to continue";nice;;;
 hints/tutorialB_MA_move_cursor;Move the cursor to the waypoint;Move the cursor to the waypoint;same;;;
 hints/tutorialB_waypoint;Proceed to the waypoint;Proceed to the waypoint;same;;;
 hints/tutorialB_waypoint_continue;"Proceed to the waypoint
@@ -528,12 +528,12 @@ hints/tutorialB_thats_right;That's right!;That's right!;same;;;
 hints/tutorialB_landing_release_breaks_fullreal;"Release the brake, or your plane might crash
 Use the elevator to stabilize the plane";"Release the brake, or your plane might crash
 Use the elevator to stabilize the plane";same;;;
-hints/tutorialB_ma_to_mj_hint;In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled;In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled;same;;;
+hints/tutorialB_ma_to_mj_hint;In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled;In Simulator Battles, controls which are slightly different from Cursor aim are automatically enabled;nice;;;
 hints/tutorialB_ma_to_mj_hint_continue;"In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled
 
-Press {{ID_CONTINUE}} to continue";"In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled
+Press {{ID_CONTINUE}} to continue";"In Simulator Battles, controls which are slightly different from Cursor aim are automatically enabled
 
-Press {{ID_CONTINUE}} to continue";same;;;
+Press {{ID_CONTINUE}} to continue";nice;;;
 hints/tutorialB_fighter_intro;"Welcome to part one of the basic tutorial!
 Here you will learn the basics of aerial combat.";"Welcome to part one of the basic tutorial!
 Here you will learn the basics of aerial combat.";same;;;
@@ -827,12 +827,12 @@ hints/tutorialB_fighter_video_02_notMA;;You will be unable to hit a moving targe
 hints/tutorialB_fighter_video_02_notMA_continue;;"You will be unable to hit a moving target if you put the crosshair directly onto it, as the target will move and make the burst miss while the rounds travel directly towards it.
 
 Press {{ID_CONTINUE}} to continue";nice;;;
-hints/tutorialB_fighter_video_01;;You can see several markers on the screen: the mouse targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.;nice;;;
-hints/tutorialB_fighter_video_01_continue;;"You can see several markers on the screen: the mouse targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.
+hints/tutorialB_fighter_video_01;;You can see several markers on the screen: the targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.;nice;;;
+hints/tutorialB_fighter_video_01_continue;;"You can see several markers on the screen: the targeting cursor that your plane follows, the targeting crosshair that shows where the main armament of the plane is aimed and the lead angle indicator, which is the most important as it shows where you need to shoot to hit the opponent.
 
 Press {{ID_CONTINUE}} to continue";nice;;;
-hints/tutorialB_fighter_video_02;;You will be unable to hit your opponent if you move the targeting cursor onto them with your mouse – the rounds will fly in the direction that the crosshair is aimed.;nice;;;
-hints/tutorialB_fighter_video_02_continue;;"You will be unable to hit your opponent if you move the targeting cursor onto them with your mouse – the rounds will fly in the direction that the crosshair is aimed.
+hints/tutorialB_fighter_video_02;;You will be unable to hit your opponent if you move the targeting cursor onto them – the rounds will fly in the direction that the crosshair is aimed.;nice;;;
+hints/tutorialB_fighter_video_02_continue;;"You will be unable to hit your opponent if you move the targeting cursor onto them – the rounds will fly in the direction that the crosshair is aimed.
 
 Press {{ID_CONTINUE}} to continue";nice;;;
 hints/tutorialB_fighter_video_03;;You will also be unable to hit a moving target if you move the targeting crosshair directly onto it, as the target will move while the rounds fly forward and the burst will miss.;nice;;;
@@ -974,8 +974,8 @@ hints/tutorial_tank_video_about_hud_markers;;You can see several markers on the 
 hints/tutorial_tank_video_about_hud_markers_continue;;"You can see several markers on the screen – the cursor, which the turret of your tank follows, the marker indicating the direction of the tank cannon and the cross that shows where the tank shell will hit.
 
 Press {{ID_CONTINUE}} to continue";nice;;;
-hints/tutorial_tank_video_dont_shoot_at_cursor;;Take into consideration that the mouse aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.;nice;;;
-hints/tutorial_tank_video_dont_shoot_at_cursor_continue;;"Take into consideration that the mouse aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.
+hints/tutorial_tank_video_dont_shoot_at_cursor;;Take into consideration that the aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.;nice;;;
+hints/tutorial_tank_video_dont_shoot_at_cursor_continue;;"Take into consideration that the aiming cursor is not a gun sight and only serves to help you turn the tank turret in the right direction. You should not shoot without waiting for the tank turret to align itself with the opponent.
 
 Press {{ID_CONTINUE}} to continue";nice;;;
 hints/tutorial_tank_video_shoot_at_cross;;If you want to hit the enemy tank wait for the turret to turn towards the opponent, align the crosshair with the target (it will change color when it is over the opponent) and fire.;nice;;;
@@ -1834,6 +1834,25 @@ Switch the automatic gunners mode to ""aerial targets"" with {{ID_SHIP_TOGGLE_GU
 
 Switch the automatic gunners mode to ""aerial targets"" with {{ID_SHIP_TOGGLE_GUNNERS}}.";same;;;
 hints/tutorialDestr_fourth_target_down;The aircraft's destroyed!;The aircraft's destroyed!;same;;;
+hints/tutorialDestr_damage_hud_aim_target_lock;"Your next target is a destroyer, pretty much like your own
+
+Lock on this target using {{ID_LOCK_TARGET}}.";"Your next target is a destroyer, pretty much like your own
+
+Lock on this target using {{ID_LOCK_TARGET}}.";same;;;
+hints/tutorialDestr_damage_hud_aim_info01;"The status of the enemy ship's modules, the extent of its flooding, and the number of combat-ready crew can be monitored in the Hit Camera
+Press {shortcut} to continue";"The status of the enemy ship's modules, the extent of its flooding, and the number of combat-ready crew can be monitored in the Hit Camera
+Press {shortcut} to continue";same;;;
+hints/tutorialDestr_damage_hud_aim_info02;"Pay special attention to the enemy crew. They are distributed throughout the ship and are the most important factor in the enemy's survivability.
+Press {shortcut} to continue";"Pay special attention to the enemy crew. They are distributed throughout the ship and are the most important factor in the enemy's survivability.
+Press {shortcut} to continue";same;;;
+missions/tutorialDestr_damage_hud_aim_xray_info01;The greatest crew losses can be inflicted by firing at 'the most populated' compartments;The greatest crew losses can be inflicted by firing at 'the most populated' compartments;same;;;
+missions/tutorialDestr_damage_hud_aim_xray_info02;"... or into their ammunition magazines
+Try it! {shortcut}";"... or into their ammunition magazines
+Try it! {shortcut}";same;;;
+missions/tutorialDestr_torpedo_info;"However, at such close range, torpedoes are much more effective!
+Press {shortcut} to continue";"However, at such close range, torpedoes are much more effective!
+Press {shortcut} to continue";same;;;
+hints/tutorialDestr_torpedo_binocular_off;Switch to third-person view {{ID_TOGGLE_VIEW_SHIP}};Switch to third-person view {{ID_TOGGLE_VIEW_SHIP}};same;;;
 hints/tutorialDestr_fifth_target_lock;"Your next target is a destroyer, pretty much like your own. It's better to use torpedoes against that kind of vessel.
 
 Lock on this target using {{ID_LOCK_TARGET}}.";"Your next target is a destroyer, pretty much like your own. It's better to use torpedoes against that kind of vessel.

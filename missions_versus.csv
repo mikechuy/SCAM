@@ -1573,10 +1573,23 @@ Mission objectives:
 - Break through defenses and strike key targets
 - Suppress enemy air defenses and secure air superiority
 - Use nuclear weapons to deliver decisive strikes";same;;;
+missions/air_southeastern_city_Tdm;[Event] Wings Over the Fleet;[Event] Wings Over the Fleet;same;;;
+missions/air_southeastern_city_Tdm/desc;"Mission objectives:
+- Destroy the enemy airfield and aircraft carriers
+- Defend the allied airfield and aircraft carriers";"Mission objectives:
+- Destroy the enemy airfield and aircraft carriers
+- Defend the allied airfield and aircraft carriers";same;;;
 missions/almassa_infdom;[Domination] Al-Massa;[Domination] Al-Massa;same;;;
 missions/granitograd_infdom;[Domination] Granitograd;[Domination] Granitograd;same;;;
 missions/kivu_infdom;Kivu;Kivu;same;;;
 missions/trampline_carriers_spawn;STOBAR;STOBAR;same;;;
 missions/catapult_carriers_spawn;CATOBAR;CATOBAR;same;;;
 missions/totalDomination;Total Domination;Total Domination;same;;;
+missions/spawn_submarine_01;Submarines #1;Submarines #1;same;;;
+missions/spawn_submarine_02;Submarines #2;Submarines #2;same;;;
+missions/spawn_submarine_03;Submarines #3;Submarines #3;same;;;
+missions/spawn_submarine_04;Submarines #4;Submarines #4;same;;;
+missions/spawn_submarine_05;Submarines #5;Submarines #5;same;;;
+missions/spawn_submarine_06;Submarines #6;Submarines #6;same;;;
+missions/spawn_submarine_random;Random point;Random point;same;;;
 MISSION_VERSUS_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;

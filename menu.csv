@@ -4,6 +4,7 @@ demo;Demo version;Demo version;same;;;
 mainmenu/btnExit;Exit;Exit;same;;;
 mainmenu/btnOptions;Options;Options;same;;;
 mainmenu/btnCredits;Credits;Credits;same;;;
+credits/updateGame;The credits are missing from this copy of the game. Update the game to see them.;The credits are missing from this copy of the game. Update the game to see them.;same;;;
 multiplayer/creditsMode;Credits;Credits;same;;;
 mainmenu/btnDemoCampaign;Historical Campaign (TGS);Historical Campaign (TGS);same;;;
 mainmenu/btnMissions;Missions;Missions;same;;;
@@ -44,10 +45,11 @@ mainmenu/btnPsnProfile;Profile;Profile;same;;;
 mainmenu/btnComplain;Complain;Complain;same;;;
 mainmenu/btnSend;Send;Send;same;;;
 mainmenu/btnUserCard;Player Card;Player Card;same;;;
+xbox/mainmenu/btnUserCard;Player's personal file;Player's personal file;same;;;
 mainmenu/btnProfile;Player Profile;Player Profile;same;;;
+xbox/mainmenu/btnProfile;Player's personal file;Player's personal file;same;;;
 mainmenu/btnMain;Main;Main;same;;;
 mainmenu/btnSteamFriendsAdd;Add Steam Friends;Add Steam Friends;same;;;
-mainmenu/btnFacebookFriendsAdd;;Add Facebook Friends;nice;;;
 mainmenu/btnSteamFriendsAddShort;Add Friends from;Add Friends from;same;;;
 mainmenu/btnFacebookFriendsAddShort;;Add Friends from;nice;;;
 mainmenu/btnInviteFriend;;+ Invite Friend;nice;;;
@@ -93,7 +95,7 @@ mainmenu/btnReferee;Referee;Referee;same;;;
 tooltip/referee_mode;Entering the game in Referee mode, you will not participate in battle, but you can watch the action on behalf of both teams.;Entering the game in Referee mode, you will not participate in battle, but you can watch the action on behalf of both teams.;same;;;
 mainmenu/btnTeam;Change Team;Change Team;same;;;
 mainmenu/btnCountry;Change Country;Change Country;same;;;
-mainmenu/btnInvite;Invite Friends;Invite Friends;same;;;
+mainmenu/btnInvite;Invite Friends;Invite;trim;;;
 mainmenu/btnReady;Ready;Ready;same;;;
 mainmenu/btnApply;Apply;Apply;same;;;
 mainmenu/btnOk;Ok;Ok;same;;;
@@ -207,6 +209,7 @@ msgbox/btn_open_settings;Go to settings;Go to settings;same;;;
 msgbox/btn_relogin;Relogin;Relogin;same;;;
 msgbox/btn_bind;Bind;Bind;same;;;
 msgbox/presetActions;Preset actions;Preset actions;same;;;
+weaponry/customPresetsLimit;Custom weapon presets limit reached: {num};Custom weapon presets limit reached: {num};same;;;
 msgbox/emptyPresetAlreadyExist;An empty weapon preset already exists. To create another empty weapon preset, you need to make changes to the existing one.;An empty weapon preset already exists. To create another empty weapon preset, you need to make changes to the existing one.;same;;;
 msgbox/showcase_unavailable;Showcase is unavailable. Requirements to unlock:;Showcase is unavailable. Requirements to unlock:;same;;;
 msgbox/exit_eula_warning;If you close this license agreement window, the game will be closed. Are you sure you want to close the game?;If you close this license agreement window, the game will be closed. Are you sure you want to close the game?;same;;;
@@ -239,6 +242,7 @@ unlocks/mission;New mission unlocked;New mission unlocked;same;;;
 unlocks/medal;Medal earned;Medal earned;same;;;
 unlocks/challenge;Challenge;Challenge;same;;;
 unlocks/achievement;New achievement;New achievement;same;;;
+xbox/unlocks/achievement;New challenge;New challenge;same;;;
 unlocks/title;New title;New title;same;;;
 unlocks/loading_bg;New loading screen;New loading screen;same;;;
 unlocks/next;Next;Next;same;;;
@@ -325,12 +329,18 @@ msgbox/not_in_leaderboard;You haven't been listed in the Leaderboard yet.;You ha
 profile/difficulty;Difficulty Settings;Difficulty Settings;same;;;
 customdiff/value;Evaluated Difficulty: ;Evaluated Difficulty: ;same;;;
 mainmenu/btnUnlockAchievement;Achievements;Achievements;same;;;
+xbox/mainmenu/btnUnlockAchievement;Challenges;Challenges;same;;;
 mainmenu/btnFavoritesUnlockAchievement;Favorite Achievements;Favourite Achievements;nice;;;
+xbox/mainmenu/btnFavoritesUnlockAchievement;Favourite Challenges;Favourite Challenges;same;;;
 mainmenu/btnUnlockAchievementsAll;All Achievements;All Achievements;same;;;
+xbox/mainmenu/btnUnlockAchievementsAll;All Challenges;All Challenges;same;;;
 mainmenu/UnlockAchievementsToFavorite;To Favorites;To Favourites;nice;;;
 mainmenu/UnlockAchievementsToFavorite/hint;Add the achievement to Favorites;Add the achievement to Favourites;nice;;;
+xbox/mainmenu/UnlockAchievementsToFavorite/hint;Add the challenge to Favourites;Add the challenge to Favourites;same;;;
 mainmenu/UnlockAchievementsRemoveFromFavorite/hint;Remove the achievement from Favorites;Remove the achievement from Favourites;nice;;;
+xbox/mainmenu/UnlockAchievementsRemoveFromFavorite/hint;Remove the challenge from Favourites;Remove the challenge from Favourites;same;;;
 mainmenu/noFavoriteAchievements;You have no favorite achievements. You can add achievements to Favorites on the Achievements page.;You have no favourite achievements. You can add achievements to Favourites on the Achievements page.;nice;;;
+xbox/mainmenu/noFavoriteAchievements;You have no favourite challenges. You can add challenges to Favourites on the Challenges page.;You have no favourite challenges. You can add challenges to Favourites on the Challenges page.;same;;;
 mainmenu/btnUnlock;Unlocks;Unlocks;same;;;
 mainmenu/btnUnlockDecal;Decals;Decals;same;;;
 mainmenu/btnUnlockSkin;Skins;Camouflages;nice;;;
@@ -407,6 +417,7 @@ shop/premiumVehicle/short;Premium;Premium;same;;;
 shop/age;Rank;Rank;same;;;
 shop/age/num;Rank {num};Rank {num};same;;;
 shop/age/tooltip;Vehicle Rank;Vehicle Rank;same;;;
+shop/expandRankVehicles;Expand Rank {rank} vehicles;Expand Rank {rank} vehicles;same;;;
 shop/battle_rating;Battle rating;Battle rating;same;;;
 shop/battle_rating/tooltip;Relative vehicle battle rating;Relative vehicle battle rating;same;;;
 shop/unitCountry/operator;Operator;Operator;same;;;
@@ -534,9 +545,9 @@ bullet_properties/cumulativeDmg;Cumulative damage;Cumulative damage;same;;;
 bullet_properties/speed;Muzzle Velocity;Muzzle Velocity;same;;;
 bullet_properties/armorPiercing;Armor penetration;Armor penetration;same;;;
 bullet_properties/armorPiercing_short;Penetration;Penetration;same;;;
-bullet_properties/armorPiercing/cumulative;cumulative jet;Cumulative jet;nice;;;
+bullet_properties/armorPiercing/cumulative;Cumulative jet;Cumulative jet;same;;;
 bullet_properties/armorPiercing/affected_armor;Thickness of the affected obstacle;Thickness of the affected obstacle;same;;;
-bullet_properties/armorPiercing/kinetic;kinetic;Kinetic;nice;;;
+bullet_properties/armorPiercing/kinetic;Kinetic;Kinetic;same;;;
 bullet_properties/armorPiercing/explosive;High-explosive fragmentation;High-explosive;trim;;;
 bullet_properties/armorPiercing/fragmentation;Fragmentation;Fragmentation;same;;;
 bullet_properties/cooldown;Reload Time;Reload Time;same;;;
@@ -759,9 +770,11 @@ mainmenu/btnShowroom;Customization;Customization;same;;;
 mainmenu/btnShowroomDesc;You can change your vehicle's appearance in the hangar to become sexy or stealthy on the battlefield.;You can change your vehicle's appearance in the hangar to become more or less noticable on the battlefield.;nice;;;
 mainmenu/btnOnlineShop;Shop;Shop;same;;;
 msgbox/btn_onlineShop;Online Store;Online Store;same;;;
+xbox/msgbox/btn_onlineShop;Microsoft Store;Microsoft Store;same;;;
 msgbox/btn_onlineShop_unlockEvent;Online Store;Online Store;same;;;
+xbox/msgbox/btn_onlineShop_unlockEvent;Microsoft Store;Microsoft Store;same;;;
 controlType/mouse;Mouse + Keyboard;Mouse + Keyboard;same;;;
-controlType/xinput;Gamepad;Gamepad;same;;;
+controlType/xinput;Controller;Controller;same;;;
 controlType/own;Set up controls;Set up controls;same;;;
 mainmenu/new_controls_version_msg_box;"New version of your controls preset available. Full list of changes:
 {patchnote}
@@ -1034,18 +1047,18 @@ The skill allows to increase the range of detection up to two times.";"This skil
 
 The skill allows to increase the range of detection up to two times.";same;;;
 crew/gForceTolerance;G-Tolerance;G-Tolerance;same;;;
-crew/pilot/gForceTolerance/tooltip;"Tolerance of positive and negative g-forces. In the ""Mouse Aim"" mode this skill affects control accuracy of the aircraft.";"Tolerance of positive and negative g-forces. In the ""Mouse Aim"" mode this skill affects control accuracy of the aircraft.";same;;;
-crew/gunner/gForceTolerance/tooltip;"Tolerance of positive and negative g-forces. In the ""Mouse Aim"" mode this skill affects control accuracy of the aircraft.";"Tolerance of positive and negative g-forces. In the ""Mouse Aim"" mode this skill affects control accuracy of the aircraft.";same;;;
+crew/pilot/gForceTolerance/tooltip;"Tolerance of positive and negative g-forces. In the ""Cursor aim"" mode this skill affects control accuracy of the aircraft.";"Tolerance of positive and negative g-forces. In the ""Cursor aim"" mode this skill affects control accuracy of the aircraft.";same;;;
+crew/gunner/gForceTolerance/tooltip;"Tolerance of positive and negative g-forces. In the ""Cursor aim"" mode this skill affects control accuracy of the aircraft.";"Tolerance of positive and negative g-forces. In the ""Cursor aim"" mode this skill affects control accuracy of the aircraft.";same;;;
 crew/endurance;Stamina;Stamina;same;;;
 crew/pilot/endurance/tooltip;"This skill allows the crew to resist fatigue for a longer period of time.
 
 Accuracy and g-tolerance gradually decrease, depending on the time spent in the session and the number of g-forces sustained.
 
-In addition, the skill has an effect on aiming accuracy in mouse aiming mode.";"This skill allows the crew to resist fatigue for a longer period of time.
+In addition, the skill has an effect on aiming accuracy in cursor aim mode.";"This skill allows the crew to resist fatigue for a longer period of time.
 
 Accuracy and g-tolerance gradually decrease, depending on the time spent in the session and the number of g-forces sustained.
 
-In addition, the skill has an effect on aiming accuracy in mouse aiming mode.";same;;;
+In addition, the skill has an effect on aiming accuracy in cursor aim mode.";same;;;
 crew/gunner/endurance/tooltip;"This skill allows the crew to resist fatigue for a longer period of time; their accuracy and g-tolerance gradually decrease, depending on the time spent in the session and the number of g-forces sustained.";"This skill allows the crew to resist fatigue for a longer period of time; their accuracy and g-tolerance gradually decrease, depending on the time spent in the session and the number of g-forces sustained.";same;;;
 crew/vitality;Vitality;Vitality;same;;;
 crew/pilot/vitality/tooltip;"Health of the crew members, as well as speed of their recovery if they are wounded.
@@ -1353,6 +1366,7 @@ userlog/page/all;All;All;same;;;
 userlog/page/battle;Battles;Battles;same;;;
 userlog/page/economic;Economics;Economics;same;;;
 userlog/page/achivements;Achievements;Achievements;same;;;
+xbox/userlog/page/achivements;Challenges;Challenges;same;;;
 userlog/page/crew;Crews;Crews;same;;;
 userlog/page/onlineShop;Store;Store;same;;;
 userlog/page/items;Items;Items;same;;;
@@ -1388,6 +1402,7 @@ userlog/buy_spare/multiple;You have purchased {numSparesColored} {numSpares=back
 userlog/buy_unlock/decal;You have purchased a(n) <color=@userlogColoredText>%s</color> decal.;You have purchased a(n) <color=@userlogColoredText>%s</color> decal.;same;;;
 userlog/buy_unlock/skin;You have purchased a(n) <color=@userlogColoredText>%s</color> camouflage.;You have purchased a(n) <color=@userlogColoredText>%s</color> camouflage.;same;;;
 userlog/buy_unlock/achievement;You have purchased a(n) <color=@userlogColoredText>%s</color> achievement.;You have purchased a(n) <color=@userlogColoredText>%s</color> achievement.;same;;;
+xbox/userlog/buy_unlock/achievement;You have purchased <color=@userlogColoredText>%s</color> challenge.;You have purchased <color=@userlogColoredText>%s</color> challenge.;same;;;
 userlog/buy_unlock/smoke;You have purchased a(n) <color=@userlogColoredText>%s</color> aerobatic smoke.;You have purchased a(n) <color=@userlogColoredText>%s</color> aerobatic smoke.;same;;;
 userlog/buy_unlock/trophy;You have purchased a(n) <color=@userlogColoredText>%s</color> trophy.;You have purchased a(n) <color=@userlogColoredText>%s</color> trophy.;same;;;
 userlog/buy_unlock/pilot;You have purchased a(n) <color=@userlogColoredText>%s</color> profile icon.;You have purchased a(n) <color=@userlogColoredText>%s</color> profile icon.;same;;;
@@ -1567,7 +1582,9 @@ contacts/accept_invitation;Accept Invite;Accept Invite;same;;;
 contacts/decline_invitation;Decline Invite;Decline Invite;same;;;
 contacts/cancel_invitation;Cancel Invite;Cancel Invite;same;;;
 contacts/friends_online;Friends online: %d;Friends online: %d;same;;;
+sony/contacts/friends_online;Contacts online: %d;Contacts online: %d;same;;;
 contacts/friend;Friends;Friends;same;;;
+sony/contacts/friend;Contacts;Contacts;same;;;
 contacts/totalCount;Total contacts in group: {contactsCount};Total contacts in group: {contactsCount};same;;;
 contacts/ps4_friends;Friends;Friends;same;;;
 contacts/recent;Fought Together;Fought Together;same;;;
@@ -1579,7 +1596,9 @@ contacts/choosePlayer;Choose a Player;Choose a Player;same;;;
 contacts/search_advice;Press ENTER to perform global search;Press ENTER to perform global search;same;;;
 contacts/searchNotFound;No Search Results;No Search Results;same;;;
 contacts/friendlist/add;Add Friend;Add Friend;same;;;
+sony/contacts/friendlist/add;Add Contact;Add Contact;same;;;
 contacts/friendlist/remove;Remove Friend;Remove Friend;same;;;
+sony/contacts/friendlist/remove;Remove Contact;Remove Contact;same;;;
 contacts/facebooklist/remove;;Remove from Facebook Friend list;nice;;;
 contacts/steamlist/remove;Remove from Steam Friend list;Remove from Steam Friend list;same;;;
 contacts/search_placeholder;⌡ Search...;⌡ Search...;same;;;
@@ -1587,16 +1606,16 @@ contacts/popup_friend_invitation_received;Player {userName} added you to their f
 contacts/friend_invitation_received/no_nick;added you to their friend list;added you to their friend list;same;;;
 contacts/popup_has_friend_invitations;You have {count} friend {count=invitation/invitations}.;You have {count} friend {count=invitation/invitations}.;same;;;
 msg/added_to_friend;You have added <color=@userlogColoredText>%s</color> to your friends list;You have added <color=@userlogColoredText>%s</color> to your friends list;same;;;
+sony/msg/added_to_friend;You have added <color=@userlogColoredText>%s</color> to your contact list;You have added <color=@userlogColoredText>%s</color> to your contact list;same;;;
 msg/added_to_ps4_friends;You have added <color=@userlogColoredText>%s</color> to your friends list;You have added <color=@userlogColoredText>%s</color> to your friends list;same;;;
 msg/ask_remove_from_friend;Remove <color=@userlogColoredText>%s</color> from your friends list?;Remove <color=@userlogColoredText>%s</color> from your friends list?;same;;;
+sony/msg/ask_remove_from_friend;Remove <color=@userlogColoredText>%s</color> from your contact list?;Remove <color=@userlogColoredText>%s</color> from your contact list?;same;;;
 msg/ask_remove_from_ps4_friends;Remove <color=@userlogColoredText>%s</color> from your friends list?;Remove <color=@userlogColoredText>%s</color> from your friends list?;same;;;
 msg/ask_remove_from_f;;Remove <color=@userlogColoredText>%s</color> from your Facebook friends list?;nice;;;
 msg/ask_remove_from_s;Remove <color=@userlogColoredText>%s</color> from your Steam friends list?;Remove <color=@userlogColoredText>%s</color> from your Steam friends list?;same;;;
 msg/cant_add/too_many_contacts;You cannot add more than %d contacts.;You cannot add more than %d contacts.;same;;;
 msgbox/add_steam_friends;Would you like to add your Steam friends to your friends list?;Would you like to add your Steam friends to your friends list?;same;;;
 msgbox/no_friends_added;No one to add;No one to add;same;;;
-msgbox/added_friends_number;%d friends added;%d friends added;same;;;
-msgbox/added_friends_one;Your friend has been added;Your friend has been added;same;;;
 contacts/blacklist/add;Add to blacklist;Add to blacklist;same;;;
 contacts/blacklist/remove;Remove from blacklist;Remove from blacklist;same;;;
 contacts/copyNickToEditbox;Copy name to editbox;Copy name to editbox;same;;;
@@ -1606,7 +1625,7 @@ contacts/moderator_copyname;* Copy name to clipboard;* Copy name to clipboard;sa
 contacts/moderator_ban;* Ban;* Ban;same;;;
 contacts/moderator_ban/title;Penalty;Penalty;same;;;
 contacts/message;Send Message;Send Message;same;;;
-contacts/join_team;Join the team;Join the team;same;;;
+contacts/join_team;Join the battle;Join the battle;same;;;
 contacts/invite;Invite to Squad;Invite to Squad;same;;;
 contacts/play_with_friends;Play with Friends;Play with Friends;same;;;
 CONTACT_REQUESTS_ARE_FORBIDDEN;The player has forbidden adding themselves to friend lists;The player has forbidden adding themselves to friend lists;same;;;
@@ -1815,6 +1834,15 @@ mainmenu/type_md_interceptor;Interceptor;Interceptor;same;;;
 mainmenu/type_md_loot_carrier;Loot Carrier;Loot Carrier;same;;;
 mainmenu/type_md_combat_loot_carrier;Combat Loot Carrier;Combat Loot Carrier;same;;;
 armor_class/tank_snowball_steel;Rolled homogeneous ice;Rolled homogeneous armor;nice;;;
+mainmenu/freezingCounter;{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} in {days} {days=day/days} of entry: {count}/{days};{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} in {days} {days=day/days} of entry: {count}/{days};same;;;
+mainmenu/freezingAvailable;Available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};Available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
+mainmenu/freezingAdded;Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, now available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, now available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
+mainmenu/freezingUsed;{used=Used/Used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};{used=Used/Used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
+mainmenu/freezingReceivedUsed;Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, {used=used/used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, {used=used/used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
+mainmenu/freezingReceived;You have received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for {days} days of logging in!;You have received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for {days} days of logging in!;same;;;
+mainmenu/freezingTooltip0;"""Freeze"" preserves your daily login streak even if you can't enter the game.";"""Freeze"" preserves your daily login streak even if you can't enter the game.";same;;;
+mainmenu/freezingTooltip1;{useCount}{{img=#ui/gameuiskin#icon_freezing.avif}} is automatically spent for each missed day.;{useCount}{{img=#ui/gameuiskin#icon_freezing.avif}} is automatically spent for each missed day.;same;;;
+mainmenu/freezingTooltip2;Earn {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for every {days} days of logging in. Maximum: {total}.;Earn {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for every {days} days of logging in. Maximum: {total}.;same;;;
 MENU_TYPES_LANG_KEEP_IT_ALWAYS_FIRST;;;same;;;
 mainmenu/type_cv_ship;Aircraft Carrier;Aircraft Carrier;same;;;
 mainmenu/type_ship_and_boat;Vessel;Vessel;same;;;
@@ -1848,12 +1876,6 @@ shop/giftAir/global_beta;Gift;Gift;same;;;
 shop/giftAir/global_beta/info;This aircraft can't be purchased. It was received as a gift for participating in closed beta test.%s;This aircraft can't be purchased. It was received as a gift for participating in closed beta test.%s;same;;;
 msg/player_not_played_our_game;This user has not played War Thunder yet.;This user has not played War Thunder yet.;same;;;
 mainmenu/playWithFriends;Play with a friend;Play with a friend;same;;;
-mainmenu/playWithFriends/tooltip;"To play on a team with a friend, both players must be in each other's friends list and both must get in the queue.
-If none of the friends has joined the queue, the game won't start.
-Maximum number of friends in a group is 2.";"To play on a team with a friend, both players must be in each other's friends list and both must get in the queue.
-If none of the friends has joined the queue, the game won't start.
-Maximum number of friends in a group is 2.";same;;;
-mainmenu/noFriendsToPlay;You don't have any friends to play with.;You don't have any friends to play with.;same;;;
 mainmenu/enterName;Enter Profile Name;Enter Profile Name;same;;;
 mainmenu/btnProfileCreate;Create Profile;Create Profile;same;;;
 mainmenu/btnProfileChange;Change Profile;Change Profile;same;;;
@@ -1924,18 +1946,18 @@ sm_thursday;Thursday;Thursday;same;;;
 sm_friday;Friday;Friday;same;;;
 sm_saturday;Saturday;Saturday;same;;;
 sm_sunday;Sunday;Sunday;same;;;
-sm_jan;Jan;January;nice;;;
-sm_feb;Feb;February;nice;;;
-sm_mar;Mar;March;nice;;;
-sm_apr;Apr;April;nice;;;
+sm_jan;January;January;same;;;
+sm_feb;February;February;same;;;
+sm_mar;March;March;same;;;
+sm_apr;April;April;same;;;
 sm_may;May;May;same;;;
-sm_jun;Jun;June;nice;;;
-sm_jul;Jul;July;nice;;;
-sm_aug;Aug;August;nice;;;
-sm_sep;Sept;September;nice;;;
-sm_oct;Oct;October;nice;;;
-sm_nov;Nov;November;nice;;;
-sm_dec;Dec;December;nice;;;
+sm_jun;June;June;same;;;
+sm_jul;July;July;same;;;
+sm_aug;August;August;same;;;
+sm_sep;September;September;same;;;
+sm_oct;October;October;same;;;
+sm_nov;November;November;same;;;
+sm_dec;December;December;same;;;
 sm_month_1;January;January;same;;;
 sm_month_2;February;February;same;;;
 sm_month_3;March;March;same;;;
@@ -1970,6 +1992,7 @@ cluster/infantry_cbt_private_na/full;Supersize Me;North America;nice;;;
 userlog/gotNewRank;Rank <color=@userlogColoredText>%d</color>;Rank <color=@userlogColoredText>%d</color>;same;;;
 mainmenu/btnEmptySlot;No Decal;No Decal;same;;;
 mainmenu/decalNoAchievement;Not available without an achievement.;Not available without an achievement.;same;;;
+xbox/mainmenu/decalNoAchievement;Not available until challenge.;Not available until challenge.;same;;;
 mainmenu/decalNotAvailable;Not available for the current country.;Not available for the current country.;same;;;
 mainmenu/decoratorAvaiblableOnlyForUnit;{decoratorName} is available only for {unitsList};{decoratorName} is available only for {unitsList};same;;;
 mainmenu/decoratorAvaiblableOnlyForUnitTypes;{decoratorName} is available only for {unitTypesList};{decoratorName} is available only for {unitTypesList};same;;;
@@ -2034,14 +2057,12 @@ mainmenu/btnUploadFacebookScreenshot;;Share Results;nice;;;
 mainmenu/btnClanCard;Gamer Squadron;Gamer Squadron;same;;;
 mainmenu/facebookShareLimit;;You can upload no more than %d screenshots per day;nice;;;
 msgbox/req_tutorial_for_hist;"""Realistic Battles"" is a mode for experienced players. There are no respawns in this mode, and vehicle controls are more like real-world controls.";"""Realistic Battles"" is a mode for experienced players. There are no respawns in this mode, and vehicle controls are more like real-world controls.";same;;;
-msgbox/req_tutorial_for_real;"""Simulator Battles"" is a mode for veterans and grind bots. Mouse aim is disabled: the mouse joystick is used by default. Third-person view is disabled, physics are more realistic, and planes start on the airfield engines off. Joystick recommended.";"""Simulator Battles"" is a mode for veteran players. There are no Mouse Aim controls here: from the very start, the ""mouse joystick"" control type is used. Third-person view is unavailable, flight physics when flying aircraft are more realistic, and all players' planes start on an airfield with their engines switched off. We highly recommend using a joystick for this mode.";nice;;;
+msgbox/req_tutorial_for_real;"""Simulator Battles"" is a mode for veterans and grind bots. Joystick recommended.";"""Simulator Battles"" is a mode for veteran players. There are no Cursor aim controls here: from the very start, the ""screen joystick"" control type is used. Third-person view is unavailable, flight physics when flying aircraft are more realistic, and all players' planes start on an airfield with their engines switched off. We highly recommend using a joystick for this mode.";nice;;;
 msgbox/tutorial_controls_type_locked;"You cannot change your control type during the tutorial mission.
 If you want to play the tutorial mission with another control type, please return to the hangar, change the control type in the Options menu, and start the mission again.";"You cannot change your control type during the tutorial mission.
 If you want to play the tutorial mission with another control type, please return to the hangar, change the control type in the Options menu, and start the mission again.";same;;;
 contacts/s;Steam friends;Steam friends;same;;;
-contacts/f;Facebook friends;Facebook friends;same;;;
 contacts/clan;Squadron;Squadron;same;;;
-weaponry/presetCompositionHint;Weapon preset for quick switching in battle;Weapon preset for quick switching in battle;same;;;
 weaponry/gameModeRestrictions/header;Availability in game modes;Availability in game modes;same;;;
 weaponry/gameModeRestrictions/br;at BR {br} and higher;at BR {br} and higher;same;;;
 weaponry/research;Research;Research;same;;;
@@ -2224,6 +2245,7 @@ cbt_tanks/temporary_restriction;This is a temporary restriction due to the Groun
 cbt_tanks/temporary_restriction_release;This is a temporary restriction due to the Ground Forces development.;This is a temporary restriction due to the Ground Forces development.;same;;;
 low_quality_model_in_hangar;Model with reduced textures.;Model with reduced textures.;same;;;
 btn/load_high_quality_models;Load Full Client;Load Full Client;same;;;
+btn/check_download_status;Check download status;Check download status;same;;;
 cbt_tanks/suggest_download_tanks_package;Restart the game to download full client.;Restart the game to download full client.;same;;;
 advert_addition/tanksNerf;Nerfs;;trim;;;
 msgbox/tanksRestrictFromSpendGold;Operations involving Golden Eagles are unavailable for tanks at the moment.;Operations involving Golden Eagles are unavailable for tanks at the moment.;same;;;
@@ -2320,6 +2342,13 @@ mainmenu/btnShowDamaged;Show damaged model;Show damaged model;same;;;
 mainmenu/btnProtectionAnalysis;Protection Analysis;Protection Analysis;same;;;
 mainmenu/btnShowExternalDmParts;Show external armor;Show external armor;same;;;
 mainmenu/btnShowExtendedHints;Extended module description;Extended module description;same;;;
+mainmenu/btnShowLoadedAmmo;Ammo by current loadout;Ammo by current loadout;same;;;
+mainmenu/btnShowLoadedAmmo/tooltip;Show only the shells that will be in the tank: as many as set on the test drive and respawn screens.;Show only the shells that will be in the tank: as many as set on the test drive and respawn screens.;same;;;
+mainmenu/btnShowLoadedAmmo/tooltip_gun;Now: {rack} in the ammo racks and {loaded} in the gun.;Now: {rack} in the ammo racks and {loaded} in the gun.;same;;;
+mainmenu/btnAmmoLoad;Ammo loadout;Ammo loadout;same;;;
+mainmenu/btnAmmoLoad/tooltip;Shell count of each type, as on the test drive screen. With Ammo by current loadout on, the x-ray shows the chosen loadout.;Shell count of each type, as on the test drive screen. With Ammo by current loadout on, the x-ray shows the chosen loadout.;same;;;
+xray/ammo/loaded_in_gun;Shell loaded;Shell loaded;same;;;
+xray/ammo/loaded_in_gun/desc;Sits in the gun breech: loaded from the ammo rack when you spawn.;Sits in the gun breech: loaded from the ammo rack when you spawn.;same;;;
 mainmenu/threat;Threat;Threat;same;;;
 mainmenu/shell;Shell;Shell;same;;;
 protection_analysis/shell;Shell;Shell;same;;;
@@ -2453,7 +2482,7 @@ armor_class/armor_engine;Engine;Engine;same;;;
 armor_class/gun_barrel;Weapon gun barrel;Primary or secondary weapon;nice;;;
 armor_class/gun_trunnion;Trunnions;Trunnions;same;;;
 armor_class/auxiliary_power_unit;Auxiliary power unit;Auxiliary power unit;same;;;
-armor_class/desc/auxiliary_power_unit;Auxiliary power unit. Supplies power to the vehicle when the main engine is off;Auxiliary power unit. Supplies power to the vehicle when the main engine is shut down;nice;;;
+armor_class/desc/auxiliary_power_unit;Supplies power to the vehicle when the main engine is shut down;Supplies power to the vehicle when the main engine is shut down;same;;;
 armor_class/slip_ring;Slip ring;APU;trim;;;
 armor_class/desc/slip_ring;Slip ring. Transfers power from hull to turret;Slip ring. Transfers power from the hull to the turret;nice;;;
 armor_class/desc/gun_trunnion;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;same;;;
@@ -2523,6 +2552,12 @@ xray/ammo/first_stage;Ready rack;First-stage ammo stowage;nice;;;
 xray/ammo/first_stage/replenish_delay;Ready rack replenishment delay;Ready rack replenishment delay;same;;;
 xray/ammo/first_stage/replenish_time;Ready rack replenishment time;Ready rack replenishment time;same;;;
 xray/ammo/first_stage/reload_time_when_empty;Reload time without ready rack;Reload time without ready rack;same;;;
+xray/ammo/stowage_order_2;Second-stage ammo stowage;Second-stage ammo stowage;same;;;
+xray/ammo/stowage_order_3;Third-stage ammo stowage;Third-stage ammo stowage;same;;;
+xray/ammo/stowage_order_4;Fourth-stage ammo stowage;Fourth-stage ammo stowage;same;;;
+xray/ammo/reload_time_stowage_2;Second-stage shell reload time;Second-stage shell reload time;same;;;
+xray/ammo/reload_time_stowage_3;Third-stage shell reload time;Third-stage shell reload time;same;;;
+xray/ammo/reload_time_stowage_4;Fourth-stage shell reload time;Fourth-stage shell reload time;same;;;
 xray/ammo/first_stage_ship;Ready-use ammo;Ready-use ammo;same;;;
 xray/ammo/auto_load;Automatic loading;Automatic loading;same;;;
 xray/ammo/mechanized_ammo_rack;Mechanized Ammo Rack;Mechanized Ammo Rack;same;;;
@@ -2770,6 +2805,7 @@ armor_class/desc/ircm;If it fails, these fail too:;If it fails, these systems ca
 armor_class/apu;Auxiliary power unit;Auxiliary power unit;same;;;
 armor_class/sweep_wing;Sweep wing control system;Sweep wing control system;same;;;
 armor_class/desc/sweep_wing;If it fails, these systems cannot be used:;If it fails, these systems cannot be used:;same;;;
+armor_class/charge;Warhead;Warhead;same;;;
 xray/indicators;MFD/HUD;MFD/HUD;same;;;
 xray/weaponControls;Weapon control;Weapon control;same;;;
 xray/optics;Targeting optic;Targeting optics;nice;;;
@@ -2823,6 +2859,7 @@ help/profile;Personal statistics and awards.;Personal statistics and awards.;sam
 help/currencies;The balance of the main (Silver Lions) and premium (Golden Eagles) game currencies. Here you can top it up.;The balance of the main (Silver Lions) and premium (Golden Eagles) game currencies. Here you can top it up.;same;;;
 help/social;The friend list and invites, the game chat, information notifications.;The friend list and invites, the game chat, information notifications.;same;;;
 help/unitInfo;Info about the selected vehicle, its crew or favorite achievements.;Info about the selected vehicle, its crew or favorite achievements.;same;;;
+xbox/help/unitInfo;Here you can see the information about the selected vehicle, the selected crew or favorite challenges.;Here you can see the information about the selected vehicle, the selected crew or favorite challenges.;same;;;
 airInfo/unitInfo;Information about the current vehicle.;Information about the current vehicle.;same;;;
 help/dm_viewer;"Enable armor viewing mode or ""X-ray"" viewing mode.";"Enable armor viewing mode or ""X-ray"" viewing mode.";same;;;
 help/battle_button;To go into battle with other players.;To go into battle with other players.;same;;;
@@ -2851,7 +2888,6 @@ artillery_strike/not_ready;Artillery is reloading.;Artillery is reloading.;same;
 artillery_strike/crew_lost;Artillery crew was destroyed by the enemy.;Artillery crew was destroyed by the enemy.;same;;;
 artillery_strike/called_by_player;{player} called an artillery strike.;{player} called an artillery strike.;same;;;
 help/NEXT_ACTION;Press Left Mouse Button to continue.;Press Left Mouse Button to continue.;same;;;
-help/NEXT_ACTION/gamepad_specific;;Press A to continue.;nice;;;
 mainmenu/newPresetName;New preset name;New preset name;same;;;
 hints/tutorial_newbie/aircraft_aiming/leading;;Lead angle indicator;nice;;;
 hints/tutorial_newbie/aircraft_aiming/step1;;To destroy a selected opponent, shoot for prediction.;nice;;;
@@ -2974,7 +3010,6 @@ msgbox/find_on_marketplace;"Find ""{itemName}"" on Marketplace?";"Find ""{itemNa
 help/finishedModification;;"Congratulations! You have researched the modification <color=@userlogColoredText>{modName}</color>.
 Now you can purchase it.";nice;;;
 help/OBJ_CLICK;Press Left Mouse Button on it.;Press Left Mouse Button on it.;same;;;
-help/OBJ_CLICK/gamepad_specific;;Press A to continue.;nice;;;
 help/newModification;;"Choose your new modification for research now.
 <color=@userlogColoredText>{modName}</color> for example.
 You could change choice after tutorial is finished.";nice;;;
@@ -3439,6 +3474,7 @@ trophy/unlockables_names/weapon;Weapon;Weapon;same;;;
 trophy/unlockables_names/skin;Camouflage;Camouflage;same;;;
 trophy/unlockables_names/mission;Mission;Mission;same;;;
 trophy/unlockables_names/achievement;Achievement;Achievement;same;;;
+xbox/trophy/unlockables_names/achievement;Challenge;Challenge;same;;;
 trophy/unlockables_names/year;Year;Year;same;;;
 trophy/unlockables_names/gamerpic;Profile icon;Profile icon;same;;;
 trophy/unlockables_names/video;Video;Video;same;;;
@@ -3493,11 +3529,20 @@ You have no such items at the moment.";same;;;
 items/shop/emptyTab/vehicles;"Coupons for Vehicles can be exchanged for a Vehicle or sold on Marketplace.
 You have no such items at the moment.";"Coupons for Vehicles can be exchanged for a Vehicle or sold on Marketplace.
 You have no such items at the moment.";same;;;
+sony/items/shop/emptyTab/vehicles;"Coupons for Vehicles can be exchanged for a Vehicle.
+You have no such items at the moment.";"Coupons for Vehicles can be exchanged for a Vehicle.
+You have no such items at the moment.";same;;;
 items/shop/emptyTab/skins;"Coupons for Camouflages can be exchanged for a Camouflage or sold on Marketplace.
 You have no such items at the moment.";"Coupons for Camouflages can be exchanged for a Camouflage or sold on Marketplace.
 You have no such items at the moment.";same;;;
+sony/items/shop/emptyTab/skins;"Coupons for Camouflages can be exchanged for a Camouflage.
+You have no such items at the moment.";"Coupons for Camouflages can be exchanged for a Camouflage.
+You have no such items at the moment.";same;;;
 items/shop/emptyTab/decals;"Coupons for Decals can be exchanged for a Decal or sold on Marketplace.
 You have no such items at the moment.";"Coupons for Decals can be exchanged for a Decal or sold on Marketplace.
+You have no such items at the moment.";same;;;
+sony/items/shop/emptyTab/decals;"Coupons for Decals can be exchanged for a Decal.
+You have no such items at the moment.";"Coupons for Decals can be exchanged for a Decal.
 You have no such items at the moment.";same;;;
 items/shop/emptyTab/keys;"Keys are required to open some types of Chests.
 You have no such items at the moment.";"Keys are required to open some types of Chests.
@@ -3802,6 +3847,7 @@ armor_class/dural_nikel0_4_fin;Kol'chug dural corrugated 0.4 mm;Kol'chugaluminiu
 armor_class/dural_nikel1;Kol'chug dural 1 mm;Kol'chugaluminium 1 mm;nice;;;
 armor_class/dural_nikel3;Kol'chug dural 3 mm;Kol'chugaluminium 3 mm;nice;;;
 armor_class/armor_fireplate;Firewall 20 mm;Firewall;trim;;;
+armor_class/copper_liner5;Copper liner;Copper liner;same;;;
 armor_class/steel;Steel 1 mm;Steel 1 mm;same;;;
 armor_class/armor2;Steel 2 mm;Steel 2 mm;same;;;
 armor_class/armor2_54;Steel 2.54 mm;Steel 2.54 mm;same;;;
@@ -3958,6 +4004,9 @@ actionBarItem/mine_detonation;Mine detonation;Mine detonation;same;;;
 actionBarItem/unlimited_control;Switch control to other vehicle;Switch control to other vehicle;same;;;
 actionBarItem/building;Build objects;Building of objects;nice;;;
 actionBarItem/multi_functional_menu;Multi-function Menu;Multi-function Menu;same;;;
+actionBarItem/supply_transport_cargo;Supply cargo;Supply cargo;same;;;
+actionBarItem/supply_load;Load supplies;Load supplies;same;;;
+actionBarItem/supply_unload;Unload supplies;Unload supplies;same;;;
 hitcamera/result/ricochet;Ricochet;Ricochet;same;;;
 hitcamera/result/bounce;Non-penetration;Non-penetration;same;;;
 hitcamera/result/hit;Hit;Hit;same;;;
@@ -4106,12 +4155,15 @@ popup/newcontroller/message;Change controls preset?;Change controls preset?;same
 popup/keyboard_or_mouse_connected;Keyboard and/or mouse connected;Keyboard and/or mouse connected;same;;;
 popup/keyboard_or_mouse_connected/message;Change controls preset?;Change controls preset?;same;;;
 mainmenu/skirmish/noProgress;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of achievements.;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of achievements.;same;;;
+sony/mainmenu/skirmish/noProgress;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of Trophies.;Attention! In this mode, there are no <color=@currencyRpColor>▉</color> and <color=@currencyWpColor>€</color> rewards, and your actions do not count towards the progress of Trophies.;same;;;
 browser_bug_disclaimer;;"ATTENTION NEW PLAYERS
 To create an account for playing War Thunder, click the Sign Up link. It should open your browser, and if it does not, please get back to the game and click Sign Up once again.";nice;;;
 msgbox/controller_hotas4_found;Thrustmaster® T.Flight Hotas 4 device found. Use controls preset?;Thrustmaster® T.Flight Hotas 4 device found. Use controls preset?;same;;;
 msgbox/controller_hotas_one_found;Thrustmaster® T.Flight Hotas One device found. Use controls preset?;Thrustmaster® T.Flight Hotas One device found. Use controls preset?;same;;;
-tutorials/hotas_restriction;;You can play in all FLYING missions with T-Flight Hotas 4. Only this tutorial must be played with DUALSHOCK®4. Tutorial for Flying missions playable with T-Flight Hotas 4 coming in next update.;nice;;;
-tutorials/hotas_restriction/tank;;Thrustmaster® T.Flight Hotas 4 cannot be used for tank control. This tutorial can be played with DUALSHOCK®4;nice;;;
+tutorials/hotas_restriction_xinput;You can play in all FLYING missions with T-Flight Hotas One. Only this tutorial must be played with Xbox One Wireless Controller. Tutorial for Flying missions playable with T-Flight Hotas One coming in next update.;You can play in all FLYING missions with T-Flight Hotas One. Only this tutorial must be played with Xbox One Wireless Controller. Tutorial for Flying missions playable with T-Flight Hotas One coming in next update.;same;;;
+tutorials/hotas_restriction_sony;You can play in all FLYING missions with T-Flight Hotas 4. Only this tutorial must be played with DUALSHOCK®4. Tutorial for Flying missions playable with T-Flight Hotas 4 coming in next update.;You can play in all FLYING missions with T-Flight Hotas 4. Only this tutorial must be played with DUALSHOCK®4. Tutorial for Flying missions playable with T-Flight Hotas 4 coming in next update.;same;;;
+tutorials/hotas_restriction/tank_xinput;Thrustmaster® T.Flight Hotas One cannot be used for tank control. This tutorial can be played with Xbox One Wireless Controller;Thrustmaster® T.Flight Hotas One cannot be used for tank control. This tutorial can be played with Xbox One Wireless Controller;same;;;
+tutorials/hotas_restriction/tank_sony;Thrustmaster® T.Flight Hotas 4 cannot be used for tank control. This tutorial can be played with DUALSHOCK®4;Thrustmaster® T.Flight Hotas 4 cannot be used for tank control. This tutorial can be played with DUALSHOCK®4;same;;;
 tutorials/upg_crew/skill_points_info;;For participating in battles the crew receives skill points, which can be spent on improving vehicle control skills.;nice;;;
 tutorials/upg_crew/press_to_crew;;Choose the crew in order to learn more about crew skills.;nice;;;
 tutorials/upg_crew/select_crew;;"Select ""Crew Training"" in the context menu.";nice;;;
@@ -4316,8 +4368,11 @@ xbox/reqInstantConnection;;This game requires constant Internet connection.;nice
 xbox/noInternetConnection;;You cannot play War Thunder due to the lack of Internet connection.;nice;;;
 xbox/noMultiplayer;;Multiplayer is not available;nice;;;
 xbox/crossPlayRequired;;⋭ - Enabled Cross-Network Play required.;nice;;;
+sony/xbox/crossPlayRequired;"Enabled ""Cross-platform gameplay"" required.";"Enabled ""Cross-platform gameplay"" required.";same;;;
 xbox/crossPlayEnabled;;Cross-Network Play is enabled. You will meet players from other platforms in battle.;nice;;;
+sony/xbox/crossPlayEnabled;"""Cross-platform gameplay"" is enabled. You will meet players from other platforms in battle.";"""Cross-platform gameplay"" is enabled. You will meet players from other platforms in battle.";same;;;
 queue/crossPlay;;Enabled Cross-Network Play allows you to join the battles quicker.;nice;;;
+sony/queue/crossPlay;"Enabled ""Cross-platform gameplay"" allows you to join the battles quicker.";"Enabled ""Cross-platform gameplay"" allows you to join the battles quicker.";same;;;
 mainmenu/showVehicles;Show vehicles;Show vehicles;same;;;
 mainmenu/showVehiclesTitle;Vehicles for the task: {taskName};Vehicles for the task: {taskName};same;;;
 mainmenu/showMore;Show more;Show more;same;;;
@@ -4328,16 +4383,19 @@ in Xbox Live account privacy settings:
 <color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";"Limited by option ""<color=@warningTextColor>Others can communicate with voice, text, or invites</color>""
 in Xbox Live account privacy settings:
 <color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";same;;;
+sony/xbox/actionNotAvailableLiveCommunications;"Limited by option ""<color=@warningTextColor>Cross-platform communication</color>"" in chat options.";"Limited by option ""<color=@warningTextColor>Cross-platform communication</color>"" in chat options.";same;;;
 xbox/actionNotAvailableCrossNetworkCommunications;"Limited by option ""<color=@warningTextColor>You can communicate outside of Xbox Live with voice & text</color>""
 in Xbox Live account privacy settings:
 <color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";"Limited by option ""<color=@warningTextColor>You can communicate outside of Xbox Live with voice & text</color>""
 in Xbox Live account privacy settings:
 <color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";same;;;
+sony/xbox/actionNotAvailableCrossNetworkCommunications;"Limited by option ""<color=@warningTextColor>Cross-platform communication</color>"" in chat settings.";"Limited by option ""<color=@warningTextColor>Cross-platform communication</color>"" in chat settings.";same;;;
 xbox/actionNotAvailableCrossNetworkPlay;"Limited by option ""<color=@warningTextColor>You can play with people outside of Xbox Live</color>""
 in Xbox Live account privacy settings:
 <color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";"Limited by option ""<color=@warningTextColor>You can play with people outside of Xbox Live</color>""
 in Xbox Live account privacy settings:
 <color=@activeTextColor>System -> Settings -> Account -> Privacy & online safety -> Xbox Live privacy -> View details & customize -> Communication & multiplayer</color>";same;;;
+sony/xbox/actionNotAvailableCrossNetworkPlay;"Limited by option ""<color=@warningTextColor>Cross-platform gameplay</color>"" in main options.";"Limited by option ""<color=@warningTextColor>Cross-platform gameplay</color>"" in main options.";same;;;
 battleTasks/daily/name;Daily Task;Daily Task;same;;;
 battleTasks/specialTasks/name;Special task;Special task;same;;;
 loadDlDataStat/inFlight;Loading: files left {filesInFlight} ({filesInFlightSizeKB}K);Loading: files left {filesInFlight} ({filesInFlightSizeKB}K);same;;;
@@ -4455,7 +4513,6 @@ mainmenu/btnDmgSkinPreview;Damaged model preview;Damaged model preview;same;;;
 mainmenu/hintDmgSkinPreview;Mouse pointer:;Mouse pointer:;same;;;
 mainmenu/btnDmgSkinDamaged;Repairs damage;Repairs damage;same;;;
 mainmenu/btnDmgSkinUndamaged;Applies damage;Applies damage;same;;;
-mainmenu/btnPostPs4ActivityFeed;Share;Share;same;;;
 mainmenu/unlockDiscount;{romanNumeral} ({discountProgress} / {maxProgress}) – Price drops to {cost}.;{romanNumeral} ({discountProgress} / {maxProgress}) – Price drops to {cost}.;same;;;
 exp_reasons/kill_helicopter;Helicopter shot down;Helicopter shot down;same;;;
 confirmationMsg/rareCraftPart;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;Rare parts are not easy to find in battles and you should disassemble it only if you have already used this kind of part in your assembly.;same;;;
@@ -4678,6 +4735,7 @@ msgbox/groupAlreadyInOtherSlot/inEmptySlot;If you add {unitName} in selected slo
 msgbox/groupAlreadyInOtherSlot/slotWithUnit;If you add {unitName} in selected slot, then {curGroupUnitName} vehicle in slot #{slotIdx} will be replaced by {curUnitName}.;If you add {unitName} in selected slot, then {curGroupUnitName} vehicle in slot #{slotIdx} will be replaced by {curUnitName}.;same;;;
 unitsGroup/groupContains;Vehicles group {name} includes followed units;Vehicles group {name} includes followed units;same;;;
 mainmenu/unlockAchievements/limitReached;You have more than {num} achievements in list. New favorite unlocks won't be saved;You have more than {num} achievements in list. New favorite unlocks won't be saved;same;;;
+xbox/mainmenu/unlockAchievements/limitReached;You have more than {num} challenges in list. New favorite challenges won't be saved;You have more than {num} challenges in list. New favorite challenges won't be saved;same;;;
 items/shop/emptyTab/default/loading;Items are updating;Items are updating;same;;;
 mainmenu/unitRoleInArmy;Role in army:;Role in army:;same;;;
 mainmenu/changeUnitsGroup;Change group;Change group;same;;;
@@ -4824,6 +4882,7 @@ battlePass/seasonName/21;"""Brave Archer""";"""Brave Archer""";same;;;
 battlePass/seasonName/22;"""The Elusive Musketeer""";"""The Elusive Musketeer""";same;;;
 battlePass/seasonName/23;"""Apollo’s Chariot""";"""Apollo’s Chariot""";same;;;
 battlePass/seasonName/24;"""Do It Yourself""";"""Do It Yourself""";same;;;
+battlePass/seasonName/25;"""Steel Fury""";"""Steel Fury""";same;;;
 season/information;Full information about the Season;Full information about the Season;same;;;
 battlePass/rewardsTitle;Congratulations! You have earned Battle Ass prize!;Congratulations! You have earned Battle Pass prize!;nice;;;
 battlePass/buy/desc;"The purchase of the ""Battle Ass"" allows to collect rewards from all opened levels of the Season. ""Battle Ass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";"The purchase of the ""Battle Pass"" allows to collect rewards from all opened levels of the Season. ""Battle Pass"" levels contain regular or unique prizes, including premium vehicles, camouflages, decorations, decals and profile icons. You can earn prizes by playing random battles and completing Battle Tasks and Season's Challenges.";nice;;;
@@ -4963,9 +5022,9 @@ loading_bg/login_layer_harrier_gr1;Harrier GR.1;Harrier GR.1;same;;;
 loading_bg/login_layer_battlecruiser_von_der_tann;SMS Von der Tann;SMS Von der Tann;same;;;
 loading_bg/login_layer_helicopters_it;Italian Helicopters;Italian Helicopters;same;;;
 loading_bg/login_layer_atomic_tank;The Atomic Tank;The Atomic Tank;same;;;
-loading_bg/login_layer_atomic_tank/desc;"Reward for level 100 of the ""Steel Centurion"" Battle Ass Season";"Reward for 100th level of the ""Steel Centurion"" Battle Pass Season";nice;;;
+loading_bg/login_layer_atomic_tank/desc;"Reward for 100th level of the ""Steel Centurion"" Battle Pass Season";"Reward for 100th level of the ""Steel Centurion"" Battle Pass Season";same;;;
 loading_bg/login_layer_m6a2e1;M6A2E1;M6A2E1;same;;;
-loading_bg/login_layer_m6a2e1/desc;"Reward for level 100 of the ""Strength Athletics"" Battle Ass Season";"Reward for 100th level of the ""Strength Athletics"" Battle Pass Season";nice;;;
+loading_bg/login_layer_m6a2e1/desc;"Reward for 100th level of the ""Strength Athletics"" Battle Pass Season";"Reward for 100th level of the ""Strength Athletics"" Battle Pass Season";same;;;
 loading_bg/login_layer_f_5a_rocaf;F-5A Freedom Fighter;F-5A Freedom Fighter;same;;;
 loading_bg/login_layer_su_17;Su-17;Su-17;same;;;
 loading_bg/login_layer_rsa_ground;South African Ground Forces;South African Ground Forces;same;;;
@@ -4976,12 +5035,12 @@ loading_bg/login_layer_cn_spaag;Chinese SPAAGs;Chinese SPAAGs;same;;;
 loading_bg/login_layer_t_80bvm;T-80BVM;T-80BVM;same;;;
 loading_bg/login_layer_mig23_m;MiG-23M;MiG-23M;same;;;
 loading_bg/login_layer_panhard_ebr_1963;Panhard E.B.R. (1963);Panhard E.B.R. (1963);same;;;
-loading_bg/login_layer_panhard_ebr_1963/desc;"Reward for level 100 of the ""Fearless Voltigeur"" Battle Ass Season";"Reward for 100th level of the ""Fearless Voltigeur"" Battle Pass Season";nice;;;
+loading_bg/login_layer_panhard_ebr_1963/desc;"Reward for 100th level of the ""Fearless Voltigeur"" Battle Pass Season";"Reward for 100th level of the ""Fearless Voltigeur"" Battle Pass Season";same;;;
 loading_bg/login_layer_mig_27;MiG-27M;MiG-27M;same;;;
 loading_bg/login_layer_saab_ja37;JA37C;JA37C;same;;;
 loading_bg/login_layer_m1a1_hc;M1A1 HC;M1A1 HC;same;;;
 loading_bg/login_layer_pt_76_57;PT-76-57;PT-76-57;same;;;
-loading_bg/login_layer_pt_76_57/desc;"Reward for level 100 of the ""River Hunter"" Battle Ass Season";"Reward for 100th level of the ""River Hunter"" Battle Pass Season";nice;;;
+loading_bg/login_layer_pt_76_57/desc;"Reward for 100th level of the ""River Hunter"" Battle Pass Season";"Reward for 100th level of the ""River Hunter"" Battle Pass Season";same;;;
 loading_bg/login_layer_wiesels;Wiesels;Wiesels;same;;;
 loading_bg/login_layer_jaguar_a;Jaguar A;Jaguar A;same;;;
 loading_bg/login_layer_avre;Centurion AVRE;Centurion AVRE;same;;;
@@ -4991,25 +5050,25 @@ loading_bg/login_layer_type10;Type 10;Type 10;same;;;
 loading_bg/login_layer_kfir_c7;Kfir C7;Kfir C7;same;;;
 loading_bg/login_layer_israel_aircraft;IAF;IAF;same;;;
 loading_bg/login_layer_su_8;Su-8;Su-8;same;;;
-loading_bg/login_layer_su_8/desc;"Reward for level 100 of the ""Firepower"" Battle Ass Season";"Reward for 100th level of the ""Firepower"" Battle Pass Season";nice;;;
+loading_bg/login_layer_su_8/desc;"Reward for 100th level of the ""Firepower"" Battle Pass Season";"Reward for 100th level of the ""Firepower"" Battle Pass Season";same;;;
 loading_bg/login_layer_a_10a;A-10A;A-10A;same;;;
 loading_bg/login_layer_arizona_1931;USS Arizona;USS Arizona;same;;;
 loading_bg/login_layer_black_night;Black Night;Black Night;same;;;
 loading_bg/login_layer_desert_2022;Father of the Desert — 2022;April's Fool Event — 2022;trim;;;
 loading_bg/login_layer_elefant;Elefant;Elefant;same;;;
-loading_bg/login_layer_elefant/desc;"Reward for level 100 of the ""Armored Elephant"" Battle Ass Season";"Reward for 100th level of the ""Armored Elephant"" Battle Pass Season";nice;;;
+loading_bg/login_layer_elefant/desc;"Reward for 100th level of the ""Armored Elephant"" Battle Pass Season";"Reward for 100th level of the ""Armored Elephant"" Battle Pass Season";same;;;
 loading_bg/login_layer_battlecruiser_hood;HMS Hood;HMS Hood;same;;;
 loading_bg/login_layer_g6_rhino;G6 Rhino;G6 Rhino;same;;;
 loading_bg/login_layer_f_14a;F-14A;F-14A;same;;;
 loading_bg/login_layer_object_248;Object 248;Object 248;same;;;
-loading_bg/login_layer_object_248/desc;"Reward for level 100 of the ""Field Testing"" Battle Ass Season";"Reward for 100th level of the ""Field Testing"" Battle Pass Season";nice;;;
+loading_bg/login_layer_object_248/desc;"Reward for 100th level of the ""Field Testing"" Battle Pass Season";"Reward for 100th level of the ""Field Testing"" Battle Pass Season";same;;;
 loading_bg/login_layer_leopard_2a6;Leopard 2A6;Leopard 2A6;same;;;
 loading_bg/login_layer_changhe_z10;Z-10;Z-10;same;;;
 loading_bg/login_layer_battlecruiser_alaska;USS Alaska;USS Alaska;same;;;
 loading_bg/login_layer_m1a2_abrams;M1A2 Abrams;M1A2 Abrams;same;;;
 loading_bg/login_layer_su_25;Su-25;Su-25;same;;;
 loading_bg/login_layer_douglas_a_1h;A-1H;A-1H;same;;;
-loading_bg/login_layer_douglas_a_1h/desc;"Reward for level 100 of the ""Smell of Victory"" Battle Ass Season";"Reward for level 100 of the ""Smell of Victory"" Battle Pass Season";nice;;;
+loading_bg/login_layer_douglas_a_1h/desc;"Reward for level 100 of the ""Smell of Victory"" Battle Pass Season";"Reward for level 100 of the ""Smell of Victory"" Battle Pass Season";same;;;
 loading_bg/login_layer_churchill_crocodile;Churchill Crocodile;Churchill Crocodile;same;;;
 loading_bg/login_layer_air_finland;Finnish Air Forces;Finnish Air Forces;same;;;
 loading_bg/login_layer_finnish_ground_forces;Finnish Ground Forces;Finnish Ground Forces;same;;;
@@ -5019,7 +5078,7 @@ loading_bg/login_layer_wolfpack;M1128 Wolfpack;M1128 Wolfpack;same;;;
 loading_bg/login_layer_cruiser_garibaldi_class_abruzzi;RN Duca degli Abruzzi;RN Duca degli Abruzzi;same;;;
 loading_bg/login_layer_apex_predators;Apex Predators;Apex Predators;same;;;
 loading_bg/login_layer_amx_50_1950;AMX-50 (TO90/930);AMX-50 (TO90/930);same;;;
-loading_bg/login_layer_amx_50_1950/desc;"Reward for level 100 of the ""Royal Guard"" Battle Ass Season";"Reward for level 100 of the ""Royal Guard"" Battle Pass Season";nice;;;
+loading_bg/login_layer_amx_50_1950/desc;"Reward for level 100 of the ""Royal Guard"" Battle Pass Season";"Reward for level 100 of the ""Royal Guard"" Battle Pass Season";same;;;
 loading_bg/login_layer_ah_6m;AH-6M;AH-6M;same;;;
 loading_bg/login_layer_desmonies_nevada;USS Des Moines and USS Nevada;USS Des Moines and USS Nevada;same;;;
 loading_bg/login_layer_char_2c;Char 2C;Char 2C;same;;;
@@ -5035,14 +5094,14 @@ loading_bg/login_layer_hungary_ground_vehicles;Hungarian Ground Forces;Hungarian
 loading_bg/login_layer_football;Tank Football — Inspiration;Tank Football — Inspiration;same;;;
 loading_bg/login_layer_mobile_infantry;Mobile Infantry;Mobile Infantry;same;;;
 loading_bg/login_layer_centurion_mk2;Centurion Mk.2;Centurion Mk.2;same;;;
-loading_bg/login_layer_centurion_mk2/desc;"Reward for level 100 of the ""Her Majesty's Hussar"" Battle Ass Season";"Reward for level 100 of the ""Her Majesty's Hussar"" Battle Pass Season";nice;;;
+loading_bg/login_layer_centurion_mk2/desc;"Reward for level 100 of the ""Her Majesty's Hussar"" Battle Pass Season";"Reward for level 100 of the ""Her Majesty's Hussar"" Battle Pass Season";same;;;
 loading_bg/login_layer_atomic_thunder;Atomic Thunder — Hedgie;Atomic Thunder — Hedgie;same;;;
 loading_bg/login_layer_atomic_thunder_twins_01;Atomic Thunder — MiG-15;Atomic Thunder — MiG-15;same;;;
 loading_bg/login_layer_atomic_thunder_twins_02;Atomic Thunder — War Machines;Atomic Thunder — War Machines;same;;;
 loading_bg/login_layer_spz_12_3;SPz 12-3 LGS;SPz 12-3 LGS;same;;;
-loading_bg/login_layer_spz_12_3/desc;"Reward for level 100 of the ""Armour Breaking Ambusher"" Battle Ass Season";"Reward for level 100 of the ""Armour Breaking Ambusher"" Battle Pass Season";nice;;;
+loading_bg/login_layer_spz_12_3/desc;"Reward for level 100 of the ""Armour Breaking Ambusher"" Battle Pass Season";"Reward for level 100 of the ""Armour Breaking Ambusher"" Battle Pass Season";same;;;
 loading_bg/login_layer_strikemaster;Strikemaster Mk.88;Strikemaster Mk.88;same;;;
-loading_bg/login_layer_strikemaster/desc;"Reward for level 100 of the ""Tropical Storm"" Battle Ass Season";"Reward for level 100 of the ""Tropical Storm"" Battle Pass Season";nice;;;
+loading_bg/login_layer_strikemaster/desc;"Reward for level 100 of the ""Tropical Storm"" Battle Pass Season";"Reward for level 100 of the ""Tropical Storm"" Battle Pass Season";same;;;
 loading_bg/login_layer_night_battles;Night Battle;Night Battle;same;;;
 loading_bg/login_layer_submarine_convoy_hunting;Battle of the Atlantic;Battle of the Atlantic;same;;;
 loading_bg/login_layer_wt_11_years_fire;11th Anniversary of War Thunder;11th Anniversary of War Thunder;same;;;
@@ -5053,25 +5112,25 @@ loading_bg/login_layer_vt_4b;VT-4;VT-4;same;;;
 loading_bg/login_layer_air_superiority;Air Superiority;Air Superiority;same;;;
 loading_bg/login_layer_winter_marathon_2024;Winter Extreme 2023-24;Winter Extreme 2023-24;same;;;
 loading_bg/login_layer_m551_76;M551(76);M551(76);same;;;
-loading_bg/login_layer_m551_76/desc;"Reward for level 100 in the ""Airborne General"" Battle Ass Season";"Reward for level 100 in the ""Airborne General"" Battle Pass Season";nice;;;
+loading_bg/login_layer_m551_76/desc;"Reward for level 100 in the ""Airborne General"" Battle Pass Season";"Reward for level 100 in the ""Airborne General"" Battle Pass Season";same;;;
 loading_bg/login_layer_call_of_the_dragon;Call of the Dragon;Call of the Dragon;same;;;
 loading_bg/login_layer_zbd_04a;ZBD04A;ZBD04A;same;;;
 loading_bg/login_layer_f20;F-20A Tigershark;F-20A Tigershark;same;;;
 loading_bg/login_layer_hungary_aircrafts;Hungarian Air Force;Hungarian Air Force;same;;;
 loading_bg/login_layer_mad_thunder;Mad Thunder;Mad Thunder;same;;;
 loading_bg/login_layer_kungstiger;Kungstiger;Kungstiger;same;;;
-loading_bg/login_layer_kungstiger/desc;"Reward for level 100 in the ""Northern King"" Battle Ass Season";"Reward for level 100 in the ""Northern King"" Battle Pass Season";nice;;;
+loading_bg/login_layer_kungstiger/desc;"Reward for level 100 in the ""Northern King"" Battle Pass Season";"Reward for level 100 in the ""Northern King"" Battle Pass Season";same;;;
 loading_bg/login_layer_f_4f_lws_lv;F-4F KWS LV;F-4F KWS LV;same;;;
 loading_bg/login_layer_desert_warrior;Desert Warrior;Desert Warrior;same;;;
 loading_bg/login_layer_fokker_g1a;Fokker G.IA;Fokker G.IA;same;;;
 loading_bg/login_layer_seek_and_destroy;Seek and Destroy;Seek and Destroy;same;;;
 loading_bg/login_layer_sholef;Sholef V.1;Sholef V.1;same;;;
-loading_bg/login_layer_sholef/desc;"Reward for level 100 in the ""Skilled Marksman"" Battle Ass Season";"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";nice;;;
+loading_bg/login_layer_sholef/desc;"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";"Reward for level 100 in the ""Skilled Marksman"" Battle Pass Season";same;;;
 loading_bg/login_layer_battlecruiser_izmail;Izmail;Izmail;same;;;
 loading_bg/login_layer_tactical_wheeled_vehicle;CTWV RCV;CTWV RCV;same;;;
 loading_bg/login_layer_dance_of_dragons;Dance of Dragons;Dance of Dragons;same;;;
 loading_bg/login_layer_he_177a_3;He 177 A-3/R3 Greif;He 177 A-3/R3 Greif;same;;;
-loading_bg/login_layer_he_177a_3/desc;"Reward for level 100 in the ""Guided Fury"" Battle Ass Season";"Reward for level 100 in the ""Guided Fury"" Battle Pass Season";nice;;;
+loading_bg/login_layer_he_177a_3/desc;"Reward for level 100 in the ""Guided Fury"" Battle Pass Season";"Reward for level 100 in the ""Guided Fury"" Battle Pass Season";same;;;
 loading_bg/login_layer_mi_24_super_hind;Superhind MK IV;Superhind MK IV;same;;;
 loading_bg/login_layer_f_117;F-117;F-117;same;;;
 loading_bg/login_layer_su_34;Su-34;Su-34;same;;;
@@ -5124,7 +5183,7 @@ loading_bg/login_layer_armoured_fighting_vehicles;Armoured fighting vehicles;Arm
 loading_bg/login_layer_nuclear_thunder_tu_95m;Tu-95M;Tu-95M;same;;;
 loading_bg/login_layer_aircraft_marathon_sky_farmer;F-6C;F-6C;same;;;
 loading_bg/login_layer_spitfire_mk9c_greece;Spitfire LF Mk.IXc (CW);Spitfire LF Mk.IXc (CW);same;;;
-loading_bg/login_layer_spitfire_mk9c_greece/desc;"Reward for level 100 in the ""Apollo’s Chariot"" Battle Ass Season";"Reward for level 100 in the ""Apollo’s Chariot"" Battle Pass Season";nice;;;
+loading_bg/login_layer_spitfire_mk9c_greece/desc;"Reward for level 100 in the ""Apollo’s Chariot"" Battle Pass Season";"Reward for level 100 in the ""Apollo’s Chariot"" Battle Pass Season";same;;;
 loading_bg/login_layer_m1a2_sep_v2_trophy;M1A2 (Trophy-HV);M1A2 (Trophy-HV);same;;;
 loading_bg/login_layer_pucara;IA.58A Pucara;IA.58A Pucara;same;;;
 loading_bg/login_layer_hummel;Hummel;Hummel;same;;;
@@ -5138,6 +5197,9 @@ loading_bg/login_layer_arjun_mk1;Arjun Mk 1;Arjun Mk 1;same;;;
 loading_bg/login_layer_j16;J-16;J-16;same;;;
 loading_bg/login_layer_aw_159;AW159 HMA.2;AW159 HMA.2;same;;;
 loading_bg/login_layer_patria_bmp_3;AMV (BMP-3);AMV (BMP-3);same;;;
+loading_bg/login_layer_germ_panzerjager_panther_g2;Jagdpanther G2;Jagdpanther G2;same;;;
+loading_bg/login_layer_germ_panzerjager_panther_g2/desc;Reward for level 100 in the Battle Pass Season;Reward for level 100 in the Battle Pass Season;same;;;
+loading_bg/login_layer_wt_14_years;14th Anniversary of War Thunder;14th Anniversary of War Thunder;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
@@ -5312,11 +5374,14 @@ actionBarItem/periscope;Up/down periscope;Up/down periscope;same;;;
 actionBarItem/emergency_surfacing;Emergency ascension;Emergency ascention;nice;;;
 armor_class/air_tank;Pressurized air tanks;Pressurised air tanks;nice;;;
 armor_class/ballast_tank;Ballast tank;Ballast tank;same;;;
+armor_class/electric_engine;Electric motor;Electric motor;same;;;
 armor_class/battery;Battery;Battery;same;;;
 armor_class/periscope;Periscope;Periscope;same;;;
 armor_class/ship_hydroplane_gear;hydroplane;hydroplane;same;;;
+armor_class/hydroplane_gear;Hydroplane;Hydroplane;same;;;
 ON_GAME_ENTER_YOU_APPLY_EULA;By accessing the game, you accept the Privacy Policy and Terms of Use. Press {sendShortcuts} to view;By accessing the game, you accept the Privacy Policy and Terms of Use. Press {sendShortcuts} to view;same;;;
 eula/eulaTitle;End-user license agreement;End-user license agreement;same;;;
+eula/textMissing;The license agreement text is missing from this copy of the game. Update the game to read it here.;The license agreement text is missing from this copy of the game. Update the game to read it here.;same;;;
 eula/eulaUpdateTitle;End-user license agreement (updated);End-user license agreement (updated);same;;;
 msgbox/steam/rate_review_after_improve;Thanks to your feedback, we’ve made several improvements to the game recently. Where possible, we’d like you to evaluate these changes and let us know how we did, so that we can further improve the game in the future. Thank you!;Thanks to your feedback, we’ve made several improvements to the game recently. Where possible, we’d like you to evaluate these changes and let us know how we did, so that we can further improve the game in the future. Thank you!;same;;;
 msgbox/steam/rate_review_more_improvement;Thanks to your feedback, we’ve made several improvements to the game recently. Where possible, we’d like you to evaluate these changes and let us know how we did, so that we can further improve the game in the future. Thank you!;Thanks to your feedback, we’ve made several improvements to the game recently. Where possible, we’d like you to evaluate these changes and let us know how we did, so that we can further improve the game in the future. Thank you!;same;;;
@@ -5590,6 +5655,7 @@ profile_header_winterwarrior/name;Winter Warrior;Winter Warrior;same;;;
 profile_header_d_day/name;Landing Zone: Normandy;Landing Zone: Normandy;same;;;
 profile_header_stadium/name;Football Stadium;Football Stadium;same;;;
 profile_header_it_fiat_6616_ub/name;FIAT 6616UB;FIAT 6616UB;same;;;
+profile_header_panzerjager_panther_g2/name;Jagdpanther G2;Jagdpanther G2;same;;;
 frame_simple_solid_grey/name;Simple solid, grey;Simple solid, grey;same;;;
 frame_simple_solid_orange/name;Simple solid, orange;Simple solid, orange;same;;;
 frame_simple_solid_red/name;Simple solid, red;Simple solid, red;same;;;
@@ -5656,6 +5722,8 @@ frame_gold_vintage/name;Royal Gold;Royal Gold;same;;;
 frame_tank_football_2026/name;Tank Football — Champion 2026;Tank Football — Champion 2026;same;;;
 frame_veteran/name;Battle Veteran;Battle Veteran;same;;;
 frame_winterwarrior/name;Winter Warrior;Winter Warrior;same;;;
+frame_mistel/name;Mistletoe;Mistletoe;same;;;
+frame_ghosts/name;Haunted lands;Haunted lands;same;;;
 showcase/choose_header_screen;Choose profile background;Choose profile background;same;;;
 stats/average_active_kills_by_deaths;Targets Destroyed / Deaths Ratio (players);Targets Destroyed / Deaths Ratio (players);same;;;
 stats/average_script_kills_by_deaths;Targets Destroyed / Deaths Ratio (AI);Targets Destroyed / Deaths Ratio (AI);same;;;
@@ -5893,75 +5961,75 @@ firstChoiceCountry/boats;Boats;Boats;same;;;
 firstChoiceCountry/country_ussr_aviation_description;"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. Combining effectiveness at low altitudes with powerful armament, they will make you a formidable opponent in close combat.
 Advancing through the research tree, you can unlock, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world – Il-2, the formidable MiG-15 jet, and even the most modern aircraft – Su-34 and Su-30SM2.";"USSR aviation spans a vast historical range, from the biplanes of the late 1930s to modern multirole fighters. Combining effectiveness at low altitudes with powerful armament, they will make you a formidable opponent in close combat.
 Advancing through the research tree, you can unlock, among other things, the legendary La-5 and Yak-3, the most widely produced combat aircraft in the world – Il-2, the formidable MiG-15 jet, and even the most modern aircraft – Su-34 and Su-30SM2.";same;;;
-firstChoiceCountry/country_ussr_army_description;"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way - forward, use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
-Advancing through the research tree, you can obtain, among other things, legendary T-34 and IS-2, and more modern T-72, T-80, and T-90.";"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way - forward, use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
-Advancing through the research tree, you can obtain, among other things, legendary T-34 and IS-2, and more modern T-72, T-80, and T-90.";same;;;
-firstChoiceCountry/country_ussr_ships_description;"The Soviet Navy boasts a powerful line of destroyers and light cruisers, as well as ambitious battlecruisers and battleships, including the mighty Sovetsky Soyuz-class battleship.
-Take control over the battlefield with exceptional long-range artillery that fire extremely fast projectiles capable of penetrating armor at any range.";"The Soviet Navy boasts a powerful line of destroyers and light cruisers, as well as ambitious battlecruisers and battleships, including the mighty Sovetsky Soyuz-class battleship.
-Take control over the battlefield with exceptional long-range artillery that fire extremely fast projectiles capable of penetrating armor at any range.";same;;;
+firstChoiceCountry/country_ussr_army_description;"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way — forward. Use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
+Advancing through the research tree, you can unlock, among other things, legendary T-34 and IS-2, as well as more modern T-72, T-80, and T-90.";"USSR tanks were forged in the battles of the Eastern Front and developed through the Cold War. The only way — forward. Use well-sloped armor and hard-hitting guns in direct and decisive attacks to overwhelm the enemy.
+Advancing through the research tree, you can unlock, among other things, legendary T-34 and IS-2, as well as more modern T-72, T-80, and T-90.";same;;;
+firstChoiceCountry/country_ussr_ships_description;"The Soviet Navy boasts a powerful line of destroyers and light cruisers, as well as ambitious battlecruisers and battleships, including the mighty Sovetsky Soyuz-class battleships and Stalingrad-class cruisers.
+Take control over the battlefield using exceptional long-range artillery, whose ballistics ensure the penetration of enemy armor at any distance.";"The Soviet Navy boasts a powerful line of destroyers and light cruisers, as well as ambitious battlecruisers and battleships, including the mighty Sovetsky Soyuz-class battleships and Stalingrad-class cruisers.
+Take control over the battlefield using exceptional long-range artillery, whose ballistics ensure the penetration of enemy armor at any distance.";same;;;
 firstChoiceCountry/country_ussr_boats_description;"Soviet coastal craft are the tanks of the sea — armored river boats carrying actual tank turrets.
 Take hits other small boats can't survive and answer with heavy explosive shells.";"Soviet coastal craft are the tanks of the sea — armored river boats carrying actual tank turrets.
 Take hits other small boats can't survive and answer with heavy explosive shells.";same;;;
-firstChoiceCountry/country_usa_aviation_description;"The US Air Force represents a unique combination of powerful land and naval aviation. Perform high-speed, high-altitude attacks with aircraft boasting impressive ammunition and a wide selection of suspended weapons.
-Advancing through the research tree, you can obtain, among other things, the legendary P-51 Mustang and carrier-based F4U, the iconic F-86 Sabre jet, and the modern F-14 Tomcat, F-15 Eagle, F-16 Fighting Falcon, and F/A-18 Hornet.";"The US Air Force represents a unique combination of powerful land and naval aviation. Perform high-speed, high-altitude attacks with aircraft boasting impressive ammunition and a wide selection of suspended weapons.
-Advancing through the research tree, you can obtain, among other things, the legendary P-51 Mustang and carrier-based F4U, the iconic F-86 Sabre jet, and the modern F-14 Tomcat, F-15 Eagle, F-16 Fighting Falcon, and F/A-18 Hornet.";same;;;
+firstChoiceCountry/country_usa_aviation_description;"The US Air Force represents a unique combination of powerful land and naval aviation. Perform high-speed, high-altitude attacks with aircraft boasting impressive ammunition and a wide selection of secondary weapons.
+Advancing through the research tree, you can unlock, among other things, the legendary P-51 Mustang and carrier-based F4U, the iconic F-86 Sabre jet, and the modern F-14 Tomcat, F-15 Eagle, F-16 Fighting Falcon, and F/A-18 Hornet.";"The US Air Force represents a unique combination of powerful land and naval aviation. Perform high-speed, high-altitude attacks with aircraft boasting impressive ammunition and a wide selection of secondary weapons.
+Advancing through the research tree, you can unlock, among other things, the legendary P-51 Mustang and carrier-based F4U, the iconic F-86 Sabre jet, and the modern F-14 Tomcat, F-15 Eagle, F-16 Fighting Falcon, and F/A-18 Hornet.";same;;;
 firstChoiceCountry/country_usa_army_description;"American tanks were shaped by a philosophy of balance and innovation, combining solid firepower, respectable armor, and good mobility into versatile machines. Use advanced optics, stabilizers, and comfortable layouts to outfight the enemy in any situation.
-Advancing through the research tree, you can obtain, among other things, reliable Sherman, the lightning-fast M18 Hellcat, and ultimately the highly advanced M1 Abrams, showcasing decades of technological leadership.";"American tanks were shaped by a philosophy of balance and innovation, combining solid firepower, respectable armor, and good mobility into versatile machines. Use advanced optics, stabilizers, and comfortable layouts to outfight the enemy in any situation.
-Advancing through the research tree, you can obtain, among other things, reliable Sherman, the lightning-fast M18 Hellcat, and ultimately the highly advanced M1 Abrams, showcasing decades of technological leadership.";same;;;
-firstChoiceCountry/country_usa_ships_description;"The U.S. Navy is the most well-rounded fleet on the water, with deep ranks of destroyers, cruisers, and alot of famous names like the USS Iowa.
-Dominate over your enemies with accurate main caliber guns, unmatched anti-aircraft firepower, and ability to shrug off bombing runs that would sink anyone else.";"The U.S. Navy is the most well-rounded fleet on the water, with deep ranks of destroyers, cruisers, and alot of famous names like the USS Iowa.
+Advancing through the research tree, you can unlock, among other things, the reliable Sherman, the lightning-fast M18 Hellcat, and ultimately the highly advanced M1 Abrams, showcasing decades of technological leadership.";"American tanks were shaped by a philosophy of balance and innovation, combining solid firepower, respectable armor, and good mobility into versatile machines. Use advanced optics, stabilizers, and comfortable layouts to outfight the enemy in any situation.
+Advancing through the research tree, you can unlock, among other things, the reliable Sherman, the lightning-fast M18 Hellcat, and ultimately the highly advanced M1 Abrams, showcasing decades of technological leadership.";same;;;
+firstChoiceCountry/country_usa_ships_description;"The US Navy is the most well-rounded fleet on the water, with deep ranks of destroyers, cruisers, and battleships, including such famous ships like the USS Iowa.
+Dominate over your enemies with accurate main caliber guns, unmatched anti-aircraft firepower, and ability to shrug off bombing runs that would sink anyone else.";"The US Navy is the most well-rounded fleet on the water, with deep ranks of destroyers, cruisers, and battleships, including such famous ships like the USS Iowa.
 Dominate over your enemies with accurate main caliber guns, unmatched anti-aircraft firepower, and ability to shrug off bombing runs that would sink anyone else.";same;;;
-firstChoiceCountry/country_usa_boats_description;"American PT boats are wood-hulled speedsters bristling with alot rapid-fire turrets, ideal for run-and-gun tactics.
-Race in, unleash overwhelming firepower, and roar back into the dark.";"American PT boats are wood-hulled speedsters bristling with alot rapid-fire turrets, ideal for run-and-gun tactics.
-Race in, unleash overwhelming firepower, and roar back into the dark.";same;;;
-firstChoiceCountry/country_germany_aviation_description;"An embodiment of the German engineering approach: a superb balance of performance characteristics and formidable armament. Use an excellent rate of climb and heavy armament to strike from above with all its might.
-Advancing through the research tree, you can obtain, among other things, legendary Bf 109 and Fw-190, the world's first mass-produced jet fighter - Me 262, and the modern multirole EF-2000.";"An embodiment of the German engineering approach: a superb balance of performance characteristics and formidable armament. Use an excellent rate of climb and heavy armament to strike from above with all its might.
-Advancing through the research tree, you can obtain, among other things, legendary Bf 109 and Fw-190, the world's first mass-produced jet fighter - Me 262, and the modern multirole EF-2000.";same;;;
-firstChoiceCountry/country_germany_army_description;"German armor evolved from light, mobile early-world war II designs into heavily armored behemoths built for dominance. You will be relying on superior guns and high-velocity shells to destroy opponents before they can respond.
-Advancing through the research tree, you can obtain, among other things, nimble Pz III and IV, fearsome Panter, Tiger and Jagdtiger, and also post-war designs like the Leopard series, culminating in the Leopard 2, a refined blend of protection, firepower and mobility.";"German armor evolved from light, mobile early-world war II designs into heavily armored behemoths built for dominance. You will be relying on superior guns and high-velocity shells to destroy opponents before they can respond.
-Advancing through the research tree, you can obtain, among other things, nimble Pz III and IV, fearsome Panter, Tiger and Jagdtiger, and also post-war designs like the Leopard series, culminating in the Leopard 2, a refined blend of protection, firepower and mobility.";same;;;
+firstChoiceCountry/country_usa_boats_description;"American PT boats are wooden-hulled speedsters bristling with rapid-fire turrets, ideal for run-and-gun tactics.
+Race in, unleash overwhelming firepower, and roar back into the darkness.";"American PT boats are wooden-hulled speedsters bristling with rapid-fire turrets, ideal for run-and-gun tactics.
+Race in, unleash overwhelming firepower, and roar back into the darkness.";same;;;
+firstChoiceCountry/country_germany_aviation_description;"An embodiment of the German approach to engineering, offering an excellent balance of performance and formidable armament. Use an excellent rate of climb and heavy armament to strike from above with devastating force.
+Advancing through the research tree, you can unlock, among other things, legendary Bf 109 and Fw 190, the world's first mass-produced jet fighter - Me 262, and the modern multirole EF-2000.";"An embodiment of the German approach to engineering, offering an excellent balance of performance and formidable armament. Use an excellent rate of climb and heavy armament to strike from above with devastating force.
+Advancing through the research tree, you can unlock, among other things, legendary Bf 109 and Fw 190, the world's first mass-produced jet fighter - Me 262, and the modern multirole EF-2000.";same;;;
+firstChoiceCountry/country_germany_army_description;"German armor evolved from light, mobile designs of the early stages of WWII into heavily armored behemoths built for dominance. You will rely on superior guns and high-velocity shells to destroy opponents before they can respond.
+Advancing through the research tree, you can unlock, among other things, nimble Pz.III and Pz.IV, fearsome Panther, Tiger and Jagdtiger, as well as post-war designs like the Leopard series, culminating in the Leopard 2, a refined blend of protection, firepower and mobility.";"German armor evolved from light, mobile designs of the early stages of WWII into heavily armored behemoths built for dominance. You will rely on superior guns and high-velocity shells to destroy opponents before they can respond.
+Advancing through the research tree, you can unlock, among other things, nimble Pz.III and Pz.IV, fearsome Panther, Tiger and Jagdtiger, as well as post-war designs like the Leopard series, culminating in the Leopard 2, a refined blend of protection, firepower and mobility.";same;;;
 firstChoiceCountry/country_germany_ships_description;"The German Kriegsmarine is a small, elite force built around legendary raiders — the Graf Spee, Scharnhorst, and Bismarck.
-Take control over the Cruisers and Battleships with sloped spaced armor layouts high firerate of main caliber guns that let them out-fight ships larger than themselves.";"The German Kriegsmarine is a small, elite force built around legendary raiders — the Graf Spee, Scharnhorst, and Bismarck.
-Take control over the Cruisers and Battleships with sloped spaced armor layouts high firerate of main caliber guns that let them out-fight ships larger than themselves.";same;;;
+Take command of cruisers and battleships equipped with sloped, spaced armor and high rates of fire from their main-caliber guns, allowing them to outfight larger opponents.";"The German Kriegsmarine is a small, elite force built around legendary raiders — the Graf Spee, Scharnhorst, and Bismarck.
+Take command of cruisers and battleships equipped with sloped, spaced armor and high rates of fire from their main-caliber guns, allowing them to outfight larger opponents.";same;;;
 firstChoiceCountry/country_germany_boats_description;"The famous S-boats are the most balanced fast-attack craft in the game — quick, well-armed, and powered by safer diesel engines.
-Shred your enemies high-rank rapid-fire 40mm guns on boats with good enough speed and protection.";"The famous S-boats are the most balanced fast-attack craft in the game — quick, well-armed, and powered by safer diesel engines.
-Shred your enemies high-rank rapid-fire 40mm guns on boats with good enough speed and protection.";same;;;
-firstChoiceCountry/country_britain_aviation_description;"British aviation is well known for it refined design, maneuverability, and a unique approach to combat aircraft creation. With the use of harmonious combination of excellent maneuverability and high technical characteristics, you can become a truly versatile fighter, equally dangerous in close maneuvers and high-speed attacks.
-Advancing through the research tree, you can obtain, among other things, the legendary Spitfire and the unique Mosquito, the Meteor jet, the renowned Harrier vertical takeoff and landing aircraft, and the modern EF Typhoon.";"British aviation is well known for it refined design, maneuverability, and a unique approach to combat aircraft creation. With the use of harmonious combination of excellent maneuverability and high technical characteristics, you can become a truly versatile fighter, equally dangerous in close maneuvers and high-speed attacks.
-Advancing through the research tree, you can obtain, among other things, the legendary Spitfire and the unique Mosquito, the Meteor jet, the renowned Harrier vertical takeoff and landing aircraft, and the modern EF Typhoon.";same;;;
+Shred your enemies with high-rank rapid-firing 40 mm guns while taking advantage of good speed and protection.";"The famous S-boats are the most balanced fast-attack craft in the game — quick, well-armed, and powered by safer diesel engines.
+Shred your enemies with high-rank rapid-firing 40 mm guns while taking advantage of good speed and protection.";same;;;
+firstChoiceCountry/country_britain_aviation_description;"British aviation is well known for it refined design, maneuverability, and a unique approach to combat aircraft creation. With the use of a harmonious combination of excellent maneuverability and high technical characteristics, you can become a truly versatile fighter, equally dangerous in close maneuvers and high-speed attacks.
+Advancing through the research tree, you can unlock, among other things, the legendary Spitfire and the unique Mosquito, the Meteor jet, the renowned Harrier vertical takeoff and landing aircraft, and the modern EF Typhoon.";"British aviation is well known for it refined design, maneuverability, and a unique approach to combat aircraft creation. With the use of a harmonious combination of excellent maneuverability and high technical characteristics, you can become a truly versatile fighter, equally dangerous in close maneuvers and high-speed attacks.
+Advancing through the research tree, you can unlock, among other things, the legendary Spitfire and the unique Mosquito, the Meteor jet, the renowned Harrier vertical takeoff and landing aircraft, and the modern EF Typhoon.";same;;;
 firstChoiceCountry/country_britain_army_description;"British tanks followed a methodical approach, favoring protection and consistent firepower over speed. Bring strong armor and accurate guns into the battle to outlast the enemy in drawn-out engagements.
-Advancing through the research tree, you can obtain, among other things, globally renowned Centurion, leading into modern Challengers, which emphasize armor and precision despite their limitations in flexibility and ammunition variety.";"British tanks followed a methodical approach, favoring protection and consistent firepower over speed. Bring strong armor and accurate guns into the battle to outlast the enemy in drawn-out engagements.
-Advancing through the research tree, you can obtain, among other things, globally renowned Centurion, leading into modern Challengers, which emphasize armor and precision despite their limitations in flexibility and ammunition variety.";same;;;
+Advancing through the research tree, you can unlock, among other things, globally renowned Centurion, leading up to modern Challenger tanks, which emphasize armor and precision despite their limitations in flexibility and ammunition variety.";"British tanks followed a methodical approach, favoring protection and consistent firepower over speed. Bring strong armor and accurate guns into the battle to outlast the enemy in drawn-out engagements.
+Advancing through the research tree, you can unlock, among other things, globally renowned Centurion, leading up to modern Challenger tanks, which emphasize armor and precision despite their limitations in flexibility and ammunition variety.";same;;;
 firstChoiceCountry/country_britain_ships_description;"The Royal Navy is the deepest fleet in the game, taking you from the original HMS Dreadnought all the way to the mighty HMS Hood.
 Make a good use of sheer variety of ships with big guns and thick armor.";"The Royal Navy is the deepest fleet in the game, taking you from the original HMS Dreadnought all the way to the mighty HMS Hood.
 Make a good use of sheer variety of ships with big guns and thick armor.";same;;;
 firstChoiceCountry/country_britain_boats_description;"The Royal Navy's coastal arm is the most varied of all, climbing from small torpedo boats up to ocean-going frigates.
-From speedboats to true warships use this unmatched variety with powerful automatic cannons to devastate any small target.";"The Royal Navy's coastal arm is the most varied of all, climbing from small torpedo boats up to ocean-going frigates.
-From speedboats to true warships use this unmatched variety with powerful automatic cannons to devastate any small target.";same;;;
-firstChoiceCountry/country_japan_aviation_description;"Japanese aviation have a truly imperial approach to combat aircraft design, where maneuverability is the key to success. Dominate close-range maneuverable combat.
-Advancing through the research tree, you can obtain, among other things, unmistakable carrier-based fighter A6M Zero, the ocean-going B6N torpedo bomber, the pioneering jet Kikka, as well as the modern F-2A and Su-30MKM of the Royal Thai Air Force.";"Japanese aviation have a truly imperial approach to combat aircraft design, where maneuverability is the key to success. Dominate close-range maneuverable combat.
-Advancing through the research tree, you can obtain, among other things, unmistakable carrier-based fighter A6M Zero, the ocean-going B6N torpedo bomber, the pioneering jet Kikka, as well as the modern F-2A and Su-30MKM of the Royal Thai Air Force.";same;;;
+From speedboats to true warships, make use of this unmatched variety and its powerful automatic cannons to devastate any small target.";"The Royal Navy's coastal arm is the most varied of all, climbing from small torpedo boats up to ocean-going frigates.
+From speedboats to true warships, make use of this unmatched variety and its powerful automatic cannons to devastate any small target.";same;;;
+firstChoiceCountry/country_japan_aviation_description;"Japanese aviation has a truly imperial approach to combat aircraft design, where maneuverability is the key to success. Dominate close-range maneuverable combat.
+Advancing through the research tree, you can unlock, among other things, the iconic carrier-based fighter A6M Zero, the ocean-going B6N torpedo bomber, the pioneering Kikka jet, as well as the modern F-2A, and Su-30MKM of the Royal Malaysian Air Force.";"Japanese aviation has a truly imperial approach to combat aircraft design, where maneuverability is the key to success. Dominate close-range maneuverable combat.
+Advancing through the research tree, you can unlock, among other things, the iconic carrier-based fighter A6M Zero, the ocean-going B6N torpedo bomber, the pioneering Kikka jet, as well as the modern F-2A, and Su-30MKM of the Royal Malaysian Air Force.";same;;;
 firstChoiceCountry/country_japan_ships_description;"The Imperial Japanese Navy was built around fast cruisers and powerful battleships, including the legendary 'Yamato'—the largest battleship ever built.
 Japanese destroyers and cruisers use the powerful Type 93 oxygen torpedoes, known as the Long Lance, which outrange, outpace, and outpower torpedoes from other fleets.";"The Imperial Japanese Navy was built around fast cruisers and powerful battleships, including the legendary 'Yamato'—the largest battleship ever built.
 Japanese destroyers and cruisers use the powerful Type 93 oxygen torpedoes, known as the Long Lance, which outrange, outpace, and outpower torpedoes from other fleets.";same;;;
 firstChoiceCountry/country_china_army_description;"The Chinese tree is a tour through tank history, blending early American Shermans, mid-tier Soviet-pattern designs, and modern domestic machines. Combine ideas from multiple doctrines into a very flexible and varied arsenal.
-Advancing through the research tree, you can obtain, among other things, ZTZ-59, ZTZ-96, ZTZ-99 and VT-4.";"The Chinese tree is a tour through tank history, blending early American Shermans, mid-tier Soviet-pattern designs, and modern domestic machines. Combine ideas from multiple doctrines into a very flexible and varied arsenal.
-Advancing through the research tree, you can obtain, among other things, ZTZ-59, ZTZ-96, ZTZ-99 and VT-4.";same;;;
+Advancing through the research tree, you can unlock, among other things, the ZTZ59, ZTZ96, ZTZ99 and VT4.";"The Chinese tree is a tour through tank history, blending early American Shermans, mid-tier Soviet-pattern designs, and modern domestic machines. Combine ideas from multiple doctrines into a very flexible and varied arsenal.
+Advancing through the research tree, you can unlock, among other things, the ZTZ59, ZTZ96, ZTZ99 and VT4.";same;;;
 firstChoiceCountry/country_italy_aviation_description;"Italian aviation offers a masterful balance of speed and armament, as well as one of the most diverse aircraft fleets in terms of performance. Quickly adapt to any playstyle with a variety of fast aircraft.
-Advancing through the research tree, you can obtain, among other things, elegant C.205 and Re.2000, multiple unique early Hungarian aircraft, the jet-powered G.91, and the modern F-2000A.";"Italian aviation offers a masterful balance of speed and armament, as well as one of the most diverse aircraft fleets in terms of performance. Quickly adapt to any playstyle with a variety of fast aircraft.
-Advancing through the research tree, you can obtain, among other things, elegant C.205 and Re.2000, multiple unique early Hungarian aircraft, the jet-powered G.91, and the modern F-2000A.";same;;;
-firstChoiceCountry/country_italy_ships_description;"Italian Marine Militare is the fastest on the water, with sleek cruisers and the modern Littorio-class battleships.
-Choose the distance of every fight with speed and destroy your enemies with high performing armor penetrating shells.";"Italian Marine Militare is the fastest on the water, with sleek cruisers and the modern Littorio-class battleships.
-Choose the distance of every fight with speed and destroy your enemies with high performing armor penetrating shells.";same;;;
-firstChoiceCountry/country_italy_boats_description;"The Italian small fleet was born to launch torpedoes.
-Slip in close, fire, and vanish into open water before the enemy can react using tiny and extremely fast MAS and MS boats.";"The Italian small fleet was born to launch torpedoes.
+Advancing through the research tree, you can unlock, among other things, the elegant C. 205 and Re.2000, a range of unique early Hungarian aircraft, the jet-powered G.91, and the modern F-2000A.";"Italian aviation offers a masterful balance of speed and armament, as well as one of the most diverse aircraft fleets in terms of performance. Quickly adapt to any playstyle with a variety of fast aircraft.
+Advancing through the research tree, you can unlock, among other things, the elegant C. 205 and Re.2000, a range of unique early Hungarian aircraft, the jet-powered G.91, and the modern F-2000A.";same;;;
+firstChoiceCountry/country_italy_ships_description;"The Italian Marina Militare is the fastest on the water, with sleek cruisers and modern Littorio-class battleships.
+Choose the range of every engagement with your speed and destroy your enemies with high-performance armor-piercing shells.";"The Italian Marina Militare is the fastest on the water, with sleek cruisers and modern Littorio-class battleships.
+Choose the range of every engagement with your speed and destroy your enemies with high-performance armor-piercing shells.";same;;;
+firstChoiceCountry/country_italy_boats_description;"The Italian coastal fleet was built to launch torpedoes.
+Slip in close, fire, and vanish into open water before the enemy can react using tiny and extremely fast MAS and MS boats.";"The Italian coastal fleet was built to launch torpedoes.
 Slip in close, fire, and vanish into open water before the enemy can react using tiny and extremely fast MAS and MS boats.";same;;;
-firstChoiceCountry/country_france_boats_description;"The French coastal tree fast jumps straight from experimental torpedo boats to frigates with their unique subclass - aviso.
-Use their bigger ships with larger caliber guns and high survivability to your advantage.";"The French coastal tree fast jumps straight from experimental torpedo boats to frigates with their unique subclass - aviso.
-Use their bigger ships with larger caliber guns and high survivability to your advantage.";same;;;
+firstChoiceCountry/country_france_boats_description;"The French coastal research tree makes a rapid leap from experimental torpedo boats to frigates with their unique subclass - aviso.
+Use their larger ships, with their larger caliber guns and high survivability, to your advantage.";"The French coastal research tree makes a rapid leap from experimental torpedo boats to frigates with their unique subclass - aviso.
+Use their larger ships, with their larger caliber guns and high survivability, to your advantage.";same;;;
 firstChoiceCountry/country_sweden_army_description;"A neutral nation that built its own way, Sweden combines unique domestic designs with the best foreign hardware. Leverage unique designs and terrain advantage to ambush and dismantle opponents.
-Advancing through the research tree, you can obtain, among other things, fast-firing tank destroyers and the turret-less S-tank, and one of the best Leopards - Strv 122.";"A neutral nation that built its own way, Sweden combines unique domestic designs with the best foreign hardware. Leverage unique designs and terrain advantage to ambush and dismantle opponents.
-Advancing through the research tree, you can obtain, among other things, fast-firing tank destroyers and the turret-less S-tank, and one of the best Leopards - Strv 122.";same;;;
+Advancing through the research tree, you can unlock, among other things, fast-firing tank destroyers and the turretless S-tank, and one of the finest Leopard variants – the Strv 122.";"A neutral nation that built its own way, Sweden combines unique domestic designs with the best foreign hardware. Leverage unique designs and terrain advantage to ambush and dismantle opponents.
+Advancing through the research tree, you can unlock, among other things, fast-firing tank destroyers and the turretless S-tank, and one of the finest Leopard variants – the Strv 122.";same;;;
 mainmenu/openLimitBuyWndHint;Click this shortcut to go to all vehicles;Click this shortcut to go to all vehicles;same;;;
 mainmenu/openLimitBuyWndHintConsolePrefix;Click;Click;same;;;
 mainmenu/openLimitBuyWndHintConsolePostfix;to go to all vehicles;to go to all vehicles;same;;;
@@ -6000,11 +6068,11 @@ When participating in night battles, you can earn unique night themed rewards.";
 Participation requires a vehicle with a Battle Rating of {requiredBR} or higher.
 
 When participating in night battles, you can earn unique night themed rewards.";same;;;
-mode/small_teams/desc;"When this option is enabled, you have a chance of getting into a mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the usual team sizes (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
+mode/small_teams/desc;"When this option is enabled, you have a chance of getting into a Classic mode mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the usual team sizes (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
 
 Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";"When this option is enabled, you have a chance of getting into a Classic mode mission with smaller team sizes (min - max: {smallTeamsCount}) instead of the usual team sizes (min - max: {usualTeamsCount}), if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
 
-Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";nice;;;
+Participation requires an aircraft with a Battle Rating of {requiredBR} or higher.";same;;;
 mode/bullet_hell/desc;"When this option is enabled, you have a chance of getting into a Bullet Hell mission instead of the main mode, if there are enough players in the queue with the option enabled. Enabling the option does not replace the main mode, but allows to get into such battles.
 
 Bullet Hell is a team air battle using only guns and cannons. All suitable aircraft from your crew slots can be used in the mission.
