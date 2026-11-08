@@ -187,11 +187,11 @@ hints/tutorialB_cursorNotMA;"You need to fire right at it to hit the target
 Open the fire on the enemy aircraft";"You need to fire right at it to hit the target
 Open the fire on the enemy aircraft";same;;;
 hints/tutorialB_cursor;"You need to fire right at it to hit the target
-Aim and keep the mouse aim cursor at the lead angle indicator";"You need to fire right at it to hit the target
-Aim and keep the cursor at the lead angle indicator";trim;;;
+Aim and keep the cursor at the lead angle indicator";"You need to fire right at it to hit the target
+Aim and keep the cursor at the lead angle indicator";same;;;
 hints/tutorialB_shooting_initial_cursor;"Now you need to destroy a moving target
-Aim and keep the mouse aim cursor at the lead angle indicator";"Now you need to destroy a moving target
-Aim and keep the cursor at the lead angle indicator";trim;;;
+Aim and keep the cursor at the lead angle indicator";"Now you need to destroy a moving target
+Aim and keep the cursor at the lead angle indicator";same;;;
 hints/tutorialB_keep_aiming;"Now your aircraft will start to turn towards the target
 You need to aim the crosshair at the lead angle indicator";"Now your aircraft will start to turn towards the target
 You need to aim the crosshair at the lead angle indicator";same;;;
@@ -360,12 +360,12 @@ hints/tutorialB_about_rudder_continue;"The rudder allows to correct your plane's
 Press {{ID_CONTINUE}} to continue";"The rudder allows to correct your plane's course
 
 Press {{ID_CONTINUE}} to continue";same;;;
-hints/tutorialB_howTo_MA;In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;In Cursor aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;nice;;;
-hints/tutorialB_howTo_MA_continue;"In Mouse Aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
+hints/tutorialB_howTo_MA;In Cursor aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;In Cursor aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to;same;;;
+hints/tutorialB_howTo_MA_continue;"In Cursor aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
 
 Press {{ID_CONTINUE}} to continue";"In Cursor aim mode, you can control your plane simply by pointing the cursor at the place where you want to fly to
 
-Press {{ID_CONTINUE}} to continue";nice;;;
+Press {{ID_CONTINUE}} to continue";same;;;
 hints/tutorialB_MA_move_cursor;Move the cursor to the waypoint;Move the cursor to the waypoint;same;;;
 hints/tutorialB_waypoint;Proceed to the waypoint;Proceed to the waypoint;same;;;
 hints/tutorialB_waypoint_continue;"Proceed to the waypoint
@@ -528,12 +528,12 @@ hints/tutorialB_thats_right;That's right!;That's right!;same;;;
 hints/tutorialB_landing_release_breaks_fullreal;"Release the brake, or your plane might crash
 Use the elevator to stabilize the plane";"Release the brake, or your plane might crash
 Use the elevator to stabilize the plane";same;;;
-hints/tutorialB_ma_to_mj_hint;In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled;In Simulator Battles, controls which are slightly different from Cursor aim are automatically enabled;nice;;;
-hints/tutorialB_ma_to_mj_hint_continue;"In Simulator Battles, controls which are slightly different from Mouse Aim are automatically enabled
+hints/tutorialB_ma_to_mj_hint;In Simulator Battles, controls which are slightly different from Cursor aim are automatically enabled;In Simulator Battles, controls which are slightly different from Cursor aim are automatically enabled;same;;;
+hints/tutorialB_ma_to_mj_hint_continue;"In Simulator Battles, controls which are slightly different from Cursor aim are automatically enabled
 
 Press {{ID_CONTINUE}} to continue";"In Simulator Battles, controls which are slightly different from Cursor aim are automatically enabled
 
-Press {{ID_CONTINUE}} to continue";nice;;;
+Press {{ID_CONTINUE}} to continue";same;;;
 hints/tutorialB_fighter_intro;"Welcome to part one of the basic tutorial!
 Here you will learn the basics of aerial combat.";"Welcome to part one of the basic tutorial!
 Here you will learn the basics of aerial combat.";same;;;

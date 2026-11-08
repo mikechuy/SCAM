@@ -1926,7 +1926,7 @@ hotkeys/ID_WALKER_ACTION_BAR_ITEM_8;Air battles: aircraft #2;Air battles: aircra
 hotkeys/ID_WALKER_ACTION_BAR_ITEM_9;Air battles: aircraft #3;Air battles: aircraft #3;same;;;
 hotkeys/ID_WALKER_ACTION_BAR_ITEM_12;Crew Replenishment;Crew Replenishment;same;;;
 hotkeys/ID_WALKER_KILLSTREAK_WHEEL_MENU;Event selection menu;Event selection menu;same;;;
-controls/aim_time_nonlinearity_walker;Gamepad aim acceleration;Controller aim acceleration;nice;;;
+controls/aim_time_nonlinearity_walker;Controller aim acceleration;Controller aim acceleration;same;;;
 controls/aim_acceleration_delay_walker;Aim acceleration delay;Aim acceleration delay;same;;;
 controls/walker_camx;View in battle - Walker (X-axis);View in battle - Walker (X-axis);same;;;
 hotkeys/walker_camx;View in battle - Walker (horizontal);View in battle - Walker (horizontal);same;;;

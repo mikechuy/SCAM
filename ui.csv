@@ -1436,7 +1436,7 @@ measureUnits/hp_per_kg_power_to_weight_ratio;hp/kg;hp/kg;same;;;
 measureUnits/hp_per_lb_power_to_weight_ratio;hp/lb;hp/lb;same;;;
 HUD_INSTRUCTOR;INSTRUCTOR;INSTRUCTOR;same;;;
 HUD_INSTRUCTOR_FORCED;INSTRUCTOR forced;INSTRUCTOR forced;same;;;
-helpersMode/mouseAim;Control type: mouse aim;Control type: cursor aim;nice;;;
+helpersMode/mouseAim;Control type: cursor aim;Control type: cursor aim;same;;;
 helpersMode/instructor;Control type: simplified;Control type: simplified;same;;;
 helpersMode/realistic;Control type: realistic;Control type: realistic;same;;;
 helpersMode/full_real;Control type: full;Control type: full;same;;;
