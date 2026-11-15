@@ -1845,7 +1845,7 @@ mainmenu/type_md_interceptor;Interceptor;Interceptor;same;;;
 mainmenu/type_md_loot_carrier;Loot Carrier;Loot Carrier;same;;;
 mainmenu/type_md_combat_loot_carrier;Combat Loot Carrier;Combat Loot Carrier;same;;;
 armor_class/tank_snowball_steel;Rolled homogeneous ice;Rolled homogeneous armor;nice;;;
-mainmenu/freezingCounter;{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} in {days} {days=day/days} of entry: {count}/{days};{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for {days} {days=day/days} of logins: {count}/{days};nice;;;
+mainmenu/freezingCounter;{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for {days} {days=day/days} of logins: {count}/{days};{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for {days} {days=day/days} of logins: {count}/{days};same;;;
 mainmenu/freezingAvailable;Available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};Available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
 mainmenu/freezingAdded;Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, now available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, now available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
 mainmenu/freezingUsed;{used=Used/Used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};{used=Used/Used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
