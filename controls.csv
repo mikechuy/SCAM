@@ -863,6 +863,7 @@ hotkeys/ID_CAMERA_VIEW_DOWN;Look down;Look down;same;;;
 hotkeys/ID_CAMERA_VIEW_BACK;Look back;Look back;same;;;
 hotkeys/ID_SCREENSHOT;Screenshot;Screenshot;same;;;
 hotkeys/ID_SCREENSHOT_WO_HUD;Screenshot without interface;Screenshot without interface;same;;;
+hotkeys/ID_TOGGLE_NEURAL_RENDERING;Neural Rendering ON/OFF;Neural Rendering ON/OFF;same;;;
 hotkeys/ID_TOGGLE_CHAT;General chat;General chat;same;;;
 hotkeys/ID_TOGGLE_CHAT_TEAM;Chat;Chat;same;;;
 hotkeys/ID_TOGGLE_CHAT_PARTY;Team chat;Team chat;same;;;

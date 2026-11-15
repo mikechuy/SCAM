@@ -580,6 +580,17 @@ rocketProperties/machLimit;Max allowed rocket release speed;Maximum allowed rock
 bombProperties/maxArmorPenetration;Max armor penetration high-explosive action;Max armor penetration high-explosive action;same;;;
 bombProperties/destroyRadiusArmored;The radius of destruction of armored vehicles;The radius of destruction of armored vehicles;same;;;
 bombProperties/destroyRadiusNotArmored;The radius of fragment dispersion;The radius of fragment dispersion;same;;;
+bombProperties/submunitionCount;Number of submunitions;Number of submunitions;same;;;
+bombProperties/submunitionType;Submunition type;Submunition type;same;;;
+bombProperties/submunitionType/heat_frag;HEAT-FRAG;HEAT-FRAG;same;;;
+bombProperties/submunitionType/heat;HEAT;HEAT;same;;;
+bombProperties/submunitionType/frag;Fragmentation;Fragmentation;same;;;
+bombProperties/submunitionArmorPenetration;Submunition armor penetration;Submunition armor penetration;same;;;
+bombProperties/submunitionExplosiveMass;Submunition explosive mass;Submunition explosive mass;same;;;
+bombProperties/submunitionExplosiveMassInTNTEquivalent;Submunition TNT equivalent;Submunition TNT equivalent;same;;;
+bombProperties/releaseHeight;Opening altitude;Opening altitude;same;;;
+bombProperties/coverageWidth;Coverage area width;Coverage area width;same;;;
+bombProperties/coverageLength;Coverage area length;Coverage area length;same;;;
 weapons/restock_advice;It is recommended to restock;It is recommended to restock;same;;;
 shop/can_buy_more_aircrafts;You can purchase more vehicles in the Research menu: %d;You can purchase more vehicles in the Research menu: %d;same;;;
 shop/auto_repair;Automatic repair of all vehicles after battle.;Automatic repair of all vehicles after battle.;same;;;
@@ -1834,7 +1845,7 @@ mainmenu/type_md_interceptor;Interceptor;Interceptor;same;;;
 mainmenu/type_md_loot_carrier;Loot Carrier;Loot Carrier;same;;;
 mainmenu/type_md_combat_loot_carrier;Combat Loot Carrier;Combat Loot Carrier;same;;;
 armor_class/tank_snowball_steel;Rolled homogeneous ice;Rolled homogeneous armor;nice;;;
-mainmenu/freezingCounter;{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} in {days} {days=day/days} of entry: {count}/{days};{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} in {days} {days=day/days} of entry: {count}/{days};same;;;
+mainmenu/freezingCounter;{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} in {days} {days=day/days} of entry: {count}/{days};{addCount}{{img=#ui/gameuiskin#icon_freezing.avif}} for {days} {days=day/days} of logins: {count}/{days};nice;;;
 mainmenu/freezingAvailable;Available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};Available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
 mainmenu/freezingAdded;Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, now available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};Received {addCount}{{img=#ui/gameuiskin#icon_freezing.avif}}, now available: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
 mainmenu/freezingUsed;{used=Used/Used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};{used=Used/Used} {used}{{img=#ui/gameuiskin#icon_freezing.avif}}, remaining: {count}/{total}{{img=#ui/gameuiskin#icon_freezing.avif}};same;;;
@@ -2480,12 +2491,16 @@ armor_class/titanium_alloy_tank;Titanium Alloy;Titanium Alloy;same;;;
 armor_class/armor_tank_engine;Engine/transmission (0.15);Engine or transmission;trim;;;
 armor_class/armor_engine;Engine;Engine;same;;;
 armor_class/gun_barrel;Weapon gun barrel;Primary or secondary weapon;nice;;;
-armor_class/gun_trunnion;Trunnions;Trunnions;same;;;
+armor_class/gun_trunnion;Trunnions;Cradle;trim;;;
 armor_class/auxiliary_power_unit;Auxiliary power unit;Auxiliary power unit;same;;;
 armor_class/desc/auxiliary_power_unit;Supplies power to the vehicle when the main engine is shut down;Supplies power to the vehicle when the main engine is shut down;same;;;
+armor_class/desc/auxiliary_power_unit_always_on;APU operation supplies power to the vehicle's energy-intensive systems;APU operation supplies power to the vehicle's energy-intensive systems;same;;;
+armor_class/desc/auxiliary_power_unit_damaged;"If it fails, systems powered by the APU cannot be used:
+{partsList}";"If it fails, systems powered by the APU cannot be used:
+{partsList}";same;;;
 armor_class/slip_ring;Slip ring;APU;trim;;;
 armor_class/desc/slip_ring;Slip ring. Transfers power from hull to turret;Slip ring. Transfers power from the hull to the turret;nice;;;
-armor_class/desc/gun_trunnion;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;same;;;
+armor_class/desc/gun_trunnion;Gun trunnions. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;Gun Cradle. In case of failure, they block the possibility to aim the gun in the vertical plane until field repair.;trim;;;
 armor_class/turret_hydraulics;Hydraulic pump;Hydraulic pump;same;;;
 armor_class/desc/turret_hydraulics;"Hydraulic pumps and power electronics. In case of failure, they block the possibility of gun aiming until field repair.
 {partsList}";"Hydraulic pumps and power electronics. In case of failure, they block the possibility of gun aiming until field repair.
@@ -2500,6 +2515,7 @@ armor_class/ex_aps_launcher;Active protection system;Active protection system;sa
 armor_class/fire_control_room;Fire control room;Fire control room;same;;;
 armor_class/at_bulge;Anti-torpedo bulge;Anti-torpedo bulge;same;;;
 armor_class/rangefinder;Rangefinder;Rangefinder;same;;;
+armor_class/laser_rangefinder;LR;LR;same;;;
 armor_class/fire_director;Fire director;Fire director;same;;;
 armor_class/fire_director_mount;Fire director mount;Fire director;trim;;;
 armor_class/weapon/primary;Primary weapon;Primary weapon;same;;;
@@ -2560,6 +2576,7 @@ xray/ammo/reload_time_stowage_3;Third-stage shell reload time;Third-stage shell 
 xray/ammo/reload_time_stowage_4;Fourth-stage shell reload time;Fourth-stage shell reload time;same;;;
 xray/ammo/first_stage_ship;Ready-use ammo;Ready-use ammo;same;;;
 xray/ammo/auto_load;Automatic loading;Automatic loading;same;;;
+xray/ammo/auto_load_with_manual;Automatic loading, with manual backup loading;Automatic loading, with manual backup loading;same;;;
 xray/ammo/mechanized_ammo_rack;Mechanized Ammo Rack;Mechanized Ammo Rack;same;;;
 xray/transmission/maxSpeed/forward;Max speed, forward;Max speed, forward;same;;;
 xray/transmission/maxSpeed/backward;Max speed, backward;Max speed, backward;same;;;
@@ -2567,6 +2584,7 @@ xray/transmission/gears;Gears;Gears;same;;;
 xray/transmission/forwardGears;Forward gears:;Forward gears:;same;;;
 xray/transmission/backwardGears;Backward gears:;Backward gears:;same;;;
 xray/transmission/gearRatio;Gear ratio;Gear ratio;same;;;
+xray/transmission/steerType;Transmission type;Transmission type;same;;;
 xray/fire_control/weapons;Gives fire solution for:;Gives fire solution for:;same;;;
 xray/fire_control/accuracy;Measure accuracy:;Measure accuracy:;same;;;
 xray/fire_control/lock_time;Fire solution calculation time:;Fire solution calculation time:;same;;;
@@ -3773,6 +3791,8 @@ respawn/randomUnitHint;– random rubbish for the current mission.;– a random 
 respawn/randomUnitsList;Selected with bias from list:;Selected randomly from the list:;nice;;;
 respawn/squadSpawnBlocked;Squadmate in a firefight;Squadmate is unavailable;nice;;;
 respawn/zoneRespawnBlocked;Zone is unavailable;Zone is unavailable;same;;;
+respawn/notEnoughSupplies;Not enough supplies;Not enough supplies;same;;;
+respawn/strongpointsNotHeld;Strongpoints are not held;Strongpoints are not held;same;;;
 inBattle/timeToKick;;"WARNING!
 If you remain inactive,
 you will be returned to the main menu in {timeToKick}";nice;;;
@@ -4477,6 +4497,7 @@ workshop/wtcs_trophy_5;WTCS Esports Trophy V;WTCS Esports Trophy V;same;;;
 workshop/heavy_cavalry;Heavy Cavalry;Heavy Cavalry;same;;;
 workshop/wtcs_trophy_6;WTCS Esports Trophy VI;WTCS Esports Trophy VI;same;;;
 workshop/sky_odyssey;Sky Odyssey;Sky Odyssey;same;;;
+workshop/eagles_shadow;Eagle’s Shadow;Eagle’s Shadow;same;;;
 workshop/dance_of_dragons;Dance of Dragons;Dance of Dragons;same;;;
 workshop/firebirds;Firebirds;Firebirds;same;;;
 workshop/storm_warning;Storm Warning;Storm Warning;same;;;
@@ -5200,6 +5221,10 @@ loading_bg/login_layer_patria_bmp_3;AMV (BMP-3);AMV (BMP-3);same;;;
 loading_bg/login_layer_germ_panzerjager_panther_g2;Jagdpanther G2;Jagdpanther G2;same;;;
 loading_bg/login_layer_germ_panzerjager_panther_g2/desc;Reward for level 100 in the Battle Pass Season;Reward for level 100 in the Battle Pass Season;same;;;
 loading_bg/login_layer_wt_14_years;14th Anniversary of War Thunder;14th Anniversary of War Thunder;same;;;
+loading_bg/login_layer_germ_leopard_2a8;Leopard 2A8;Leopard 2A8;same;;;
+loading_bg/login_layer_f_15ex;F-15EX;F-15EX;same;;;
+loading_bg/login_layer_aw_249_pre_serie;AW249 Fenice;AW249 Fenice;same;;;
+loading_bg/login_layer_btr_90_2004;BTR-90;BTR-90;same;;;
 event/chronicles;Chronicles of World War II;Chronicles of World War II;same;;;
 event/winter_holidays;Winter Holidays;Winter Holidays;same;;;
 event/good_old_summer;Good Old S.U.F.F.E.R.;Good Old S.U.M.M.E.R.;nice;;;
@@ -5548,12 +5573,7 @@ slotbar/noRemoveVehicle;You cannot remove the last vehicle from the preset;You c
 slotbar/swapCrew;Swap with the crew:;Swap with the crew:;same;;;
 topmenu/wtAssistantDeeplink;WT Assistant;WT Assistant;same;;;
 wtassistant_deeplink/title;WT Assistant;WT Assistant;same;;;
-wtassistant_deeplink/descr;"Install WT Assistant:
-Scan the QR code with your phone's camera and download the app right now!
-
-WT Assistant is your mobile companion for your favourite game!
-Always be at the epicentre of game events: track your profile progress, research and compare vehicles, manage your squadron and make purchases in the Store.
-Stay one step ahead with WT Assistant!";"Install WT Assistant:
+wtassistant_deeplink/descr;;"Install WT Assistant:
 Scan the QR code with your phone's camera and download the app right now!
 
 WT Assistant is your mobile companion for your favourite game!
@@ -5705,6 +5725,8 @@ frame_neon_double_blue/name;Neon double, blue;Neon double, blue;same;;;
 frame_neon_double_green/name;Neon double, green;Neon double, green;same;;;
 frame_neon_double_red/name;Neon double, red;Neon double, red;same;;;
 frame_neon_double_bluered/name;Neon double, blue-red;Neon double, blue-red;same;;;
+anim_frame_neon_purple/name;Neon animated, purple;Neon animated, purple;same;;;
+anim_frame_lightning_blue/name;Animated with lightning, blue;Animated with lightning, blue;same;;;
 frame_event_xmas_2024/name;Christmas (2024);Christmas (2024);same;;;
 frame_lunar_ny_dragons/name;Spring Festival;Spring Festival;same;;;
 frame_thunder_cup_2025/name;Thunder Cup 2025;Thunder Cup 2025;same;;;
@@ -5755,7 +5777,7 @@ mainmenu/btnShowShipHitIcons;Show hit icons;Show hit icons;same;;;
 profile/unlockConditions/allowActionText;You can instantly complete a task without having to satisfy its conditions.;You can instantly complete a task without having to satisfy its conditions.;same;;;
 profile/unlockConditions/goToTheTask;Click to go to the task.;Click to go to the task.;same;;;
 profile/achievements/totalReceived;Achievements and challenges completed: {count};Achievements and challenges completed: {count};same;;;
-profile/medals/totalReceived;Medals received: {count};Medals unlocked: {count};nice;;;
+profile/medals/totalReceived;Medals unlocked: {count};Medals unlocked: {count};same;;;
 profile/skins/totalReceived;Camouflages unlocked: {count};Camouflages unlocked: {count};same;;;
 profile/decals/totalReceived;Decals unlocked: {count};Decals unlocked: {count};same;;;
 profile/collections/totalReceived;Collections completed: {count};Collections completed: {count};same;;;
@@ -5810,7 +5832,7 @@ info/material/none;No armor;No armor;same;;;
 info/material/none/tooltip;Without armor and without high hardness and strength;Without armor and without high hardness and strength;same;;;
 info/material/hasSpallLiner;Spall liner;Spall liner;same;;;
 info/material/hasSpallLiner/tooltip;Aramid fabric or laminated polyethylene panels installed in the crew compartments of armored vehicles reduce the angle and velocity of fragments, significantly improving crew and equipment protection from small fragments generated during armor penetration.;Aramid fabric or ultra-high-molecular-weight polyethylene panels installed in the crew compartments of armored vehicles reduce the angle and velocity of fragments, significantly improving crew and equipment protection from small fragments generated during armor penetration.;nice;;;
-info/material/hasNBCLiner;NBC liner;NBC Liner;nice;;;
+info/material/hasNBCLiner;NBC Liner;NBC Liner;same;;;
 info/material/hasNBCLiner/tooltip;Panels made of polyethylene and polyisobutylene are installed inside and outside the tank. Their primary purpose is to reduce the impact on the crew during a nuclear explosion, but in some cases they can also protect the crew and equipment from small fragments generated during armor penetration by reducing their velocity and angle of flight, although this is less effective than a specialized spall liner.;Panels made of polyethylene and polyisobutylene are installed inside and outside the tank. Their primary purpose is to reduce the impact on the crew during a nuclear explosion, but in some cases they can also protect the crew and equipment from small fragments generated during armor penetration by reducing their velocity and angle of flight, although this is less effective than a specialized spall liner.;same;;;
 info/material/hasCompositeArmor;Composite armor;Composite armor;same;;;
 info/material/hasCompositeArmor/tooltip;Armor protection is made using composite armor, which can consist of multiple layers of dissimilar materials, such as textolite, ceramic elements, NERA layers, and other armor materials. This approach provides a lighter weight than standard steel armor while maintaining the same resistance. For main battle tanks, composite armor is typically used in the most heavily protected frontal areas of the hull and turret.;Armor protection is made using composite armor, which can consist of multiple layers of dissimilar materials, such as textolite, ceramic elements, NERA layers, and other armor materials. This approach provides a lighter weight than standard steel armor while maintaining the same resistance. For main battle tanks, composite armor is typically used in the most heavily protected frontal areas of the hull and turret.;same;;;
